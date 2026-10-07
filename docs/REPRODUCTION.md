@@ -1,19 +1,21 @@
 # How to audit and reproduce this work
 
-The repository preserves evidence, reports, as-executed scripts and provenance. It is **not a tested one-command pipeline**. Historical scripts contain absolute paths, directory dependencies, local environments and assumptions about prepared references. Do not run them unchanged expecting a portable workflow.
+The repository preserves evidence, reports, as-executed scripts and provenance. The complete original inputs are publicly linked in [DATA_ACCESS.md](DATA_ACCESS.md). Historical “independent” checks were separate implementations within the same AI-assisted workflow, not external peer review. It is **not a tested one-command pipeline**. Historical scripts contain absolute paths, directory dependencies, local environments and assumptions about prepared references. Do not run them unchanged expecting a portable workflow.
 
 ## 1. Verify the copy you received
 
-Clone the private repository, record its commit ID, then run these standard-library Python checks from the repository root:
+Clone the public repository, record its commit ID, then run these Python 3.9+ standard-library checks from the repository root:
 
 ```sh
+python3 -m unittest discover -s tests -v
+python3 scripts/check_release.py
 python3 scripts/verify_bundle.py
 python3 scripts/verify_inputs.py --data-dir data/small-inputs --small-only
 # Once all nine original inputs have been downloaded:
 python3 scripts/verify_inputs.py --data-dir /absolute/path/to/the/nine/Caris/files
 ```
 
-The first checks packaged repository files against [the repository manifest](../manifests/repository-files.sha256.json). The input checks compare the bundled small files or the downloaded full set against [raw-inputs.json](../manifests/raw-inputs.json). These checks establish byte identity to the recorded versions, not biological correctness. Full-input hashing reads approximately 34 GB and can take time. Obtain the six large inputs separately as described in [DATA_ACCESS.md](DATA_ACCESS.md); the three small originals are also in [data/small-inputs](../data/small-inputs/).
+The 19 synthetic/negative tests exercise arithmetic, navigation and parser behavior. The release check compares 11 aggregate metrics in the review summary and checks local Markdown destinations; it does not validate external web links. The bundle verifier checks [the repository manifest](../manifests/repository-files.sha256.json), rejecting missing, mismatched and unlisted files. The input checks compare the bundled small files or the downloaded full set against [raw-inputs.json](../manifests/raw-inputs.json). File hashing establishes byte identity to the recorded versions. None of these checks is a genomic pipeline rerun or biological validation. Full-input hashing reads approximately 34 GB and can take time. Obtain the six large inputs separately as described in [DATA_ACCESS.md](DATA_ACCESS.md); the three small originals are also in [data/small-inputs](../data/small-inputs/).
 
 ## 2. Audit the results without reprocessing every read
 
@@ -21,11 +23,11 @@ Begin with [FINDINGS.md](FINDINGS.md). The three evidence directories preserve t
 
 | Directory | What to inspect first | Questions the package can answer |
 |---|---|---|
-| [computational-followups-v2](../evidence/computational-followups-v2/) | Topic findings, exact sequence/variant tables, scripts, independent audit receipts and model controls | Are the reported counts, translated windows, local phase and candidate-selection decisions supported by the captured evidence? |
+| [computational-followups-v2](../evidence/computational-followups-v2/) | Topic findings, exact sequence/variant tables, scripts, internal cross-check receipts and model controls | Are the reported counts, translated windows, local phase and candidate-selection decisions supported by the captured evidence? |
 | [population-panel](../evidence/population-panel/) | `design-frozen.json`, `all-public-loci-counts.tsv`, `primary-summary.json`, `joint-callable.tsv`, `coverage-attrition.tsv`, exception and audit directories | Are site selection, denominator, read filters, overlap handling and discrepancies reproduced? |
 | [alignment-comparison](../evidence/alignment-comparison/) | `design-frozen.json`, `baseline-fixed-4015.tsv`, `comparison/fixed4015-comparison.tsv`, `comparison/summary.json`, `independent-comparison/` | What changes when the same reads are aligned by the other recorded pipeline, retaining the original cohort and coverage losses? |
 
-Use numerical tables and audit receipts before relying on PDF prose. Original reports may contain local absolute links or operational notes from the original work session; those links are historical provenance, not portable download instructions. Current repository paths and the raw-input manifest are the navigation/access layer.
+Use numerical tables and audit receipts before relying on PDF prose. Original reports may contain local absolute links, earlier access rules, unfinished-status labels or operational notes from the original work session. Those are historical provenance, not current download instructions; consult [CURRENT_STATUS_AND_ERRATA.md](CURRENT_STATUS_AND_ERRATA.md). Current repository paths and the raw-input manifest are the navigation/access layer.
 
 ## 3. Re-run a bounded analysis from original inputs
 
@@ -52,4 +54,4 @@ A prepared full-reference dense D1 cloud pipeline was not executed and is not pr
 
 Include the repository commit, input/reference hashes, software/environment record, code or patch, exact commands, controls and a compact expected-versus-observed table. State whether your result is an exact replication, a parameter sensitivity test, an alternative interpretation or new independent biological evidence. For new findings, preserve supporting and contradicting reads and explain why an ordinary-reference/repeat/WT explanation is insufficient.
 
-See [LIMITATIONS.md](LIMITATIONS.md) for inference boundaries and [DATA_ACCESS.md](DATA_ACCESS.md) before transferring patient-derived content to another service.
+See [LIMITATIONS.md](LIMITATIONS.md) for inference boundaries and [DATA_ACCESS.md](DATA_ACCESS.md) for original downloads, verification scope and reuse context.

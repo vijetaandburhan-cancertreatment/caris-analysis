@@ -13,4 +13,10 @@ This is a research evidence repository, not a clinical assay, clinical decision 
 - **Research scope is finite.** Twenty-one selected protein-altering export calls were checked, and the fusion review covered all 28 accepted plus 26 selected discarded hypotheses. The repository is not a validated exhaustive re-call of every possible DNA/RNA alteration.
 - **No clinical context analysis here.** Findings do not select a diagnosis, estimate prognosis, predict an individual response or establish a drug/trial/vaccine indication. Such claims require evidence outside this raw-data repository and appropriate clinical review.
 
-Independent numerical audits, synthetic controls and repeated counts establish the particular computational checks described in their receipts. They are not independent laboratory replication. An earlier dated result can be superseded by a later audit without making the underlying historical output disappear; consult [FINDINGS.md](FINDINGS.md) for the current interpretation.
+Separate-implementation numerical checks, synthetic controls and repeated counts establish only the particular computational agreements described in their receipts. They are internal checks, not outside peer review or independent laboratory replication. An earlier dated result can be superseded by a later audit without making the underlying historical output disappear; consult [FINDINGS.md](FINDINGS.md) for the current interpretation.
+
+## AI assistance and review status
+
+This is an AI-assisted, family-led analysis. AI agents helped write and execute code, interpret outputs and prepare reports. Historical terms such as “independent audit,” “independent review” and “final content approval” denote checks performed within that workflow, sometimes using separate implementations. They do not denote an outside specialist's approval, peer review or a clinical laboratory result. No such external validation is established by this repository.
+
+Publishing inputs, code and controls supports scrutiny; it does not guarantee that all code or scientific interpretation is correct. The documented numerical checks are narrower than complete pipeline replication, and neither is biological validation. A clean-machine end-to-end run has not been demonstrated. Corrections and superseded claims are tracked in [CURRENT_STATUS_AND_ERRATA.md](CURRENT_STATUS_AND_ERRATA.md).

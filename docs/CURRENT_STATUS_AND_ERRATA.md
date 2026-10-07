@@ -1,0 +1,35 @@
+# Current status and corrections
+
+Current interpretation: **6 October 2026**. Dated reports, original scripts and evidence receipts are preserved unchanged so their execution history can be inspected. This page clarifies earlier wording and shows which later checks completed or superseded an earlier stage. “Complete” means the stated computational work was executed; it does not mean the biological claim was validated.
+
+## Review terminology
+
+This is an AI-assisted, family-led analysis. Historical “independent audit/review” labels denote separate implementations or review passes within that AI-assisted workflow. They are internal computational cross-checks, not external peer review, another biological sample or laboratory confirmation. Likewise, `final-content-approval.json` records internal numerical/editorial checks, not approval by Caris, a treating clinician or a research institution. External expert validation remains to be established.
+
+## Current workstream status
+
+| Earlier record | Later evidence / current status |
+|---|---|
+| [Population primary summary](../evidence/population-panel/primary-summary.json) retains `PRIMARY_COUNTS_COMPLETE_PENDING_INDEPENDENT_AUDIT`. | The [later audit manifest](../evidence/population-panel/independent-count-audit/independent-audit-manifest.json) records exact count/summary checks, followed by [analysis completion](../evidence/population-panel/analysis-completion.json). Counts are complete for the defined 4,015-site original cohort. Local discrepancies and identity/contamination limits remain unresolved. |
+| [Alignment primary summary](../evidence/alignment-comparison/comparison/summary.json) retains `PRIMARY_COMPARISON_COMPLETE_PENDING_INDEPENDENT_AUDIT`. | The [later count/transition audit](../evidence/alignment-comparison/independent-comparison/primary-and-transition-audit.json) records 4,015 loci, 49,911 integer comparisons and 989 name transitions with no material count differences. [Final content receipt](../evidence/alignment-comparison/delivery/final-content-approval.json) records internal editorial/format checks. The fixed denominator includes 59 sites losing depth qualification. |
+| [Population addendum](../reports/Caris-DNA-RNA-population-panel-addendum-2026-10-05.txt) says the retained four-gene BAM could not evaluate the broad panel. | Correct for that limited capture: there were no jointly callable panel loci. A **later, separate full-library pass** enabled the [fixed-cohort alignment comparison](../reports/Caris-final-alignment-comparison-2026-10-05.txt). Do not count the earlier non-evaluable check as a successful replication. |
+| [Historical handoff](../reports/historical-pre-followup/Caris-DNA-RNA-research-handoff-TN26-279853.txt) says class-II scoring was not completed because public numerical controls failed. | That describes the earlier DeepSeqPanII attempt, which produced no patient scores. Later CapHLA v1/v2 controls and exploratory patient scoring completed; see [method-validation.json](../evidence/computational-followups-v2/hla-II/method-validation.json). The failed earlier model check was not repaired or retroactively passed. |
+| Prepared dense D1 cloud patient workflow | **Not executed.** The actual full-patient run used D8/SA12. Compact D1/D8 public technical comparisons did run, but do not substitute for a dense full-patient rerun. See [actual run](../evidence/full-caller-outputs/run.json). |
+
+## Wording and scientific clarifications
+
+**RASA1 class-II candidate.** The predicted C-terminal mutant window GDYYIGGRRFSSLQT and WT GDYYIGGRRFSSLSD have CapHLA v2 EL scores 0.926/0.777 under provisional DPA1*01:03/DPB1*02:01. Both score highly; their normalized BA scores are 0.453/0.400. **Neither v1 nor v2 passes both exploratory EL/BA >0.5 cutpoints.** Five of seven possible 9mer cores are unchanged WT. Agreement between versions of the same model family is not independent validation. The term “natural-terminal” in the one-page/detailed historical prose means a sequence reaching the predicted truncation terminus, not a naturally observed peptide. No protein production, presentation or selective recognition was measured. Exact values and threshold flags: [candidate table](../evidence/computational-followups-v2/hla-II/RASA1-CD4-research-lead.csv).
+
+**Fusion benchmark.** The [consolidated morning summary](../reports/Caris-consolidated-morning-summary-2026-10-05.txt) says “45-case public fusion benchmark.” The correct term is **45-run technical benchmark**, including 20 matched compact D1/D8 conditions representing 19 unique paired-input sets. These were not 45 patients or independent tumors. Small correlated inputs, known-fusion priors and limited background prevent a clinical sensitivity/detection-limit claim. The [detailed v2 report](../reports/Caris-followup-findings-2026-10-05-v2.txt) and [benchmark evidence](../evidence/computational-followups-v2/fusion-robustness/) provide the qualified interpretation.
+
+**MHCflurry version.** “MHCflurry 2.3.0” in the historical handoff refers to the **model release**. Recorded software was **MHCflurry 2.3.9**, with model release **2.3.0**. See [model provenance](../evidence/computational-followups-v2/validation-package/peptide-model-provenance.json). Binding estimates remain predictions, not measured affinities or demonstrated antigens.
+
+**Different BAP1 read counts are different assays.** The 691 DNA / 241 RNA and 693 / 245 values concern exact nucleotide windows corresponding to two overlapping predicted peptides. The separate strict 10-bp-flank deletion assay reports 246 mutant RNA names. Window and filtering differences explain why these are not identical. They are query-name counts, not peptide measurements or UMI-confirmed independent molecules; the two peptide candidates derive from the same underlying mutation.
+
+**DNA/RNA retention denominator.** The later alignment retains both depth ≥20 and the specified allele at ≥90% at **2,805/2,873** original DNA-dominant sites. The fraction-only count of 2,860 includes shallow sites and must not replace 2,805. Counts reflect the same reads under another alignment pipeline, not disease change or a new sample. PABPC1 remains unresolved; APOD is alignment-dependent, and the new placement is not automatically a correction.
+
+**Access and historical links.** Earlier private-access instructions, local absolute paths and session operational notes in original files are historical. This release publishes the genomic inputs and HLA/genotype results; use [DATA_ACCESS.md](DATA_ACCESS.md) and current manifests for download and verification. Raw-file checksum checks do not validate biological interpretation.
+
+## Reading order
+
+Use [FINDINGS.md](FINDINGS.md) for the current claim/evidence/limitation table, then [METHODS_AND_VERSIONS.md](METHODS_AND_VERSIONS.md) and [REPRODUCTION.md](REPRODUCTION.md). Dated summaries are useful snapshots, but this page is the current clarification layer. No fresh biological assay or complete pipeline rerun was performed merely to prepare these corrections.

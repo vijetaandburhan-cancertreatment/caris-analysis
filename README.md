@@ -1,55 +1,53 @@
 # Caris DNA/RNA research — TN26-279853
 
-Private evidence and reproducibility repository for independent review of nine supplied Caris bulk tumor DNA/RNA files. Analysis snapshot: **5 October 2026**; repository assembled **6 October 2026**.
+Public research methods, findings and genomic data from nine supplied Caris bulk tumor DNA/RNA files. Analysis snapshot: **5 October 2026**; repository assembled and annotated **6 October 2026**. The work is shared to enable scrutiny, replication and new analyses. It does not establish a diagnosis, prescribe treatment or predict clinical benefit.
 
-**Start here:** [one-page findings (PDF)](reports/Caris-DNA-RNA-research-handoff-TN26-279853-2026-10-05-v2.pdf) · [plain text](reports/Caris-DNA-RNA-research-handoff-TN26-279853-2026-10-05-v2.txt) · [findings with evidence links](docs/FINDINGS.md)
+**Start with [current findings and evidence](docs/FINDINGS.md).** For a brief overview, see the [one-page handoff](reports/Caris-DNA-RNA-research-handoff-TN26-279853-2026-10-05-v2.pdf) alongside the [current corrections and status map](docs/CURRENT_STATUS_AND_ERRATA.md). [Terms and measures](docs/GLOSSARY.md) explains the main terminology.
 
-The main starting points are MTAP/CDKN2A/CDKN2B copy-number interpretation; expressed BAP1/RASA1 coding events and provisional antigen hypotheses; additional LATS observations; RNA fusion/splice review; and DNA/RNA allele consistency under independent alignment. Observed read support, computational predictions and biological validation are explicitly distinguished. These analyses do not establish a diagnosis, prescribe treatment or predict clinical benefit.
+## What the work found
 
-## What is included
+The main starting points are the vendor MTAP/CDKN2A/CDKN2B deletion calls and their unresolved copy-number interpretation; expressed BAP1/RASA1 coding events and provisional antigen hypotheses; additional unconfirmed LATS observations; RNA fusion/splice review; and DNA/RNA allele consistency under a second alignment pipeline. Observed reads, model predictions and biological validation are different evidence levels. The [findings table](docs/FINDINGS.md) states the limitations beside each result.
+
+## How the work was produced
+
+This is an **AI-assisted, family-led research analysis**. AI agents helped write and execute code, interpret outputs and prepare the reports. Checks described in historical files as “independent” used separate implementations within the same AI-assisted workflow. They are internal computational cross-checks, not external peer review, independent biological samples or laboratory validation. External expert review is invited and has not been established by this repository. See the [disclosure and interpretation limits](docs/LIMITATIONS.md).
+
+## Review the evidence
 
 | Location | Contents |
 |---|---|
-| [`reports/`](reports/) | Latest five research summaries, plus clearly separated historical reports. |
-| [`evidence/computational-followups-v2/`](evidence/computational-followups-v2/) | Exact allele/peptide packages, copy-number/phase work, HLA RNA and HLA-II investigations, fusion/splicing checks, controls and independent audits. |
-| [`evidence/population-panel/`](evidence/population-panel/) | Frozen population-SNP panel, per-locus counts, annotations and original DNA/RNA comparison. |
-| [`evidence/alignment-comparison/`](evidence/alignment-comparison/) | Fixed-cohort comparison with independently realigned RNA, retained read evidence and audits. |
-| [`methods/`](methods/) | Additional methods and as-executed scripts, including recovered standalone discovery methods; more scripts are preserved inside evidence packages. |
-| [`data/small-inputs/`](data/small-inputs/) | Original Caris VCF, gene-TPM CSV and analytical workbook, unchanged. |
-| [`manifests/raw-inputs.json`](manifests/raw-inputs.json) | All nine original filenames, sizes, SHA-256 checksums and controlled-access Drive links. |
-| [`docs/`](docs/) | Reproduction guidance, methods/versions, evidence limits and data-access instructions. |
+| [reports/](reports/) | Five current dated summaries and a separate historical handoff; read the current errata alongside them. |
+| [evidence/computational-followups-v2/](evidence/computational-followups-v2/) | Allele/peptide packages, copy-number/phase work, HLA RNA and HLA-II work, fusion/splicing checks and controls. |
+| [evidence/population-panel/](evidence/population-panel/) | Frozen public-SNP panel, per-locus patient counts, annotations and original DNA/RNA comparison. |
+| [evidence/alignment-comparison/](evidence/alignment-comparison/) | Fixed-cohort comparison using the same RNA reads under another alignment pipeline, with retained records and internal audits. |
+| [evidence/full-caller-outputs/](evidence/full-caller-outputs/) | Actual STAR/Arriba run record, caller/junction outputs and selected BAM records. |
+| [methods/](methods/) | As-executed scripts and provenance; further scripts are inside the evidence packages. |
+| [data/small-inputs/](data/small-inputs/) | Unchanged original Caris VCF, gene-TPM CSV and analytical workbook. |
+| [manifests/raw-inputs.json](manifests/raw-inputs.json) | All nine original filenames, sizes, SHA256 values and download links. |
 
-## Large raw inputs
+## Get the full raw data
 
-The nine originals total **33,619,145,590 bytes (33.62 GB)**. The six BAM/FASTQ files remain in the [private raw-data Drive folder](https://drive.google.com/drive/folders/1qQ_CQtDxoMX8TKYfPYFg0NSaKI2l900r); the three small originals are also included here. Local originals remain preserved separately.
+All nine original files total **33,619,145,590 bytes (33.62 GB)**. The complete set is linked from the [public raw-data Drive folder](https://drive.google.com/drive/folders/1qQ_CQtDxoMX8TKYfPYFg0NSaKI2l900r). Three small originals are also in this repository; six large BAM/FASTQ files remain outside Git because of file-size limits. Local originals remain preserved separately. This release includes patient-derived reads, genotypes and HLA-related results; it is not anonymized by the use of an accession identifier.
 
-This is a two-part research package: the versioned repository plus the exact raw inputs identified by its manifest. GitHub access does **not** automatically grant access to Drive. Reviewers need permission from the maintainers for both. No patient-derived files should be made public by changing repository or Drive visibility.
-
-Each downloaded file should be verified against the manifest before analysis. All nine local originals were fully hashed and matched the source CRC on 1 October; all nine local SHA-256 checks passed again on 6 October. All nine Drive sizes were verified on 1 October. Only the three small Drive files received an independent full-download SHA-256 check; the large remote files were not independently rehashed.
-
-## Quick verification
-
-Python 3's standard library is sufficient for these integrity checks:
+Download files using the [manifest](manifests/raw-inputs.json), retain their names and verify their bytes before analysis. [Data access and verification](docs/DATA_ACCESS.md) explains which checks were performed. Public accessibility, correct remote size and a range/header check do not establish the SHA256 of an entire large remote file.
 
 ```sh
+python3 -m unittest discover -s tests -v
+python3 scripts/check_release.py
 python3 scripts/verify_bundle.py
 python3 scripts/verify_inputs.py --data-dir data/small-inputs --small-only
-# After downloading the nine originals to a separate directory:
+# After downloading the nine originals:
 python3 scripts/verify_inputs.py --data-dir /path/to/raw-inputs
 ```
 
-The first command verifies manifest-listed repository file bytes against recorded checksums. It does not check unlisted extra files, prove provenance or validate scientific claims. Do not edit historical evidence files when reproducing work; save new outputs separately and state the repository commit being reviewed.
+These checks use the Python 3.9+ standard library. The 19 synthetic/negative tests check arithmetic, navigation and parser behavior; the release check compares 11 aggregate metrics and local Markdown link destinations. The bundle verifier rejects unlisted files as well as missing or mismatched manifest-listed files. The raw-input verifier checks the selected original files, without assessing unrelated directory contents. These checks do not rerun the genomic pipeline, establish scientific correctness or replace biological validation.
 
-## Reproducing and extending the work
+## Reproduce or extend the analysis
 
-Read [reproduction instructions](docs/REPRODUCTION.md) and [methods and versions](docs/METHODS_AND_VERSIONS.md). This is a collection of executed research workflows and their evidence, **not a tested portable one-command pipeline**. Original scripts preserve absolute paths and run assumptions. Configure paths and dependencies deliberately before rerunning.
+Read [reproduction instructions](docs/REPRODUCTION.md) and [recorded methods and versions](docs/METHODS_AND_VERSIONS.md). This is a collection of executed workflows and their evidence, **not a tested portable one-command pipeline**. Original scripts retain absolute paths and run assumptions. A clean-machine end-to-end rerun has not been demonstrated by publishing this repository.
 
-The completed full-library genome-aware RNA run used STAR/Arriba with a sparse D8/SA12 index and the GENCODE v37 GRCh38 primary reference. It processed all 23,209,264 RNA pairs. A complete newly aligned patient BAM was not retained; selected read records, caller/junction outputs and audits were. The separate prepared D1 cloud workflow was not executed and is not represented as completed work.
+The full-library RNA run processed all **23,209,264 RNA pairs** using STAR/Arriba, a sparse D8/SA12 index and the GENCODE v37 GRCh38 primary reference. A complete newly aligned patient BAM was not retained; selected records and caller/junction outputs were. The prepared D1 cloud workflow was not executed. Numerical cross-checks do not remove these limits.
 
-Reports and evidence are versioned historical artifacts. Some include absolute local links or execution notes; the repository's relative links and manifests are the navigation layer. Earlier findings can be superseded by the 5 October v2 reports and later fixed-cohort alignment comparison. See [limitations](docs/LIMITATIONS.md) before interpreting a negative result or prioritizing a biological hypothesis.
+Dated reports and evidence remain unchanged historical records; some contain local links, earlier statuses or terminology clarified by the [current status and errata](docs/CURRENT_STATUS_AND_ERRATA.md). The [method recovery record](manifests/method-recovery.json) identifies additional recovered source and intentional exclusions. The current repository manifest describes the assembled files.
 
-The [method recovery record](manifests/method-recovery.json) supplements the earlier assembly record: it distinguishes methods already represented in the evidence packages, additional recovered scripts and intentional exclusions. The current repository file manifest covers the final combined package.
-
-For an independent review, report the exact inputs, reference versions, commands, controls and differences from the current findings. Useful unresolved questions are listed at the end of [FINDINGS.md](docs/FINDINGS.md). Computational replication and biological or clinical validation are different outcomes.
-
-See [data access](docs/DATA_ACCESS.md) and [reuse notice](NOTICE.md).
+For a review, report the repository commit, input/reference hashes, commands, controls, numerical differences and unresolved interpretations. See [useful next validation work](docs/FINDINGS.md#useful-next-work-for-an-external-validator) and the [reuse notice](NOTICE.md).

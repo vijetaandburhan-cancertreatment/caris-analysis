@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-06",
+  "scope": "Primary-source package/release metadata comparison; not model-performance validation.",
+  "mhcflurry_software": {
+    "url": "https://pypi.org/pypi/mhcflurry/2.3.9/json",
+    "version": "2.3.9",
+    "release_files": [
+      {
+        "filename": "mhcflurry-2.3.9-py3-none-any.whl",
+        "sha256": "8413b2d90fe7aea84d968a98d1bea93ea5f550c96171e1974b40c7563b674733",
+        "upload_time": "2026-09-30T19:20:45.355761Z"
+      },
+      {
+        "filename": "mhcflurry-2.3.9.tar.gz",
+        "sha256": "987f368cb40b41d4a37684f54901bd48f3190c8e376fb3a2b8023740c4501269",
+        "upload_time": "2026-09-30T19:20:47.212414Z"
+      }
+    ]
+  },
+  "torch_software": {
+    "url": "https://pypi.org/pypi/torch/2.14.1/json",
+    "version": "2.14.1"
+  },
+  "mhcflurry_release_notes_url": "https://raw.githubusercontent.com/openvax/mhcflurry/2.3.0/RELEASE_NOTES_2.3.0.md",
+  "mhcflurry_model_asset": {
+    "name": "models_class1_presentation.20260928.tar.bz2",
+    "size": 160356140,
+    "digest": "sha256:768e360832b3d45dfe9d5e8cde4ffcb90abdb87773ca65f3a86ba7cc20f614db",
+    "browser_download_url": "https://github.com/openvax/mhcflurry/releases/download/2.3.0/models_class1_presentation.20260928.tar.bz2"
+  }
+}

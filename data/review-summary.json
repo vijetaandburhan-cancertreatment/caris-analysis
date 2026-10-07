@@ -1,0 +1,28 @@
+{
+  "population_panel": {
+    "selected_sites": 165782,
+    "original_joint_callable": 4015,
+    "original_dna_dominant": 2873,
+    "original_same90": 2860,
+    "original_same98": 2760,
+    "new_dominant_callable": 2814,
+    "new_same90_fixed": 2805,
+    "new_same98_fixed": 2721,
+    "new_depth_lost": 59,
+    "new_callable_below90": 9,
+    "transitions": {
+      "retain90__retain90": 2800,
+      "retain90__below20": 59,
+      "below90__below90": 8,
+      "below90__retain90": 5,
+      "retain90__below90": 1
+    },
+    "strong_discrepancies_before": 6,
+    "strong_discrepancies_after": 5
+  },
+  "scope": "Selected reported aggregate counts for arithmetic checks; no new patient-read analysis. Source integer counts were cross-checked within the AI-assisted workflow; this is not external peer review.",
+  "source_records": [
+    "evidence/population-panel/primary-summary.json",
+    "evidence/alignment-comparison/comparison/summary.json"
+  ]
+}

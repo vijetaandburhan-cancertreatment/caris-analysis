@@ -1,6 +1,6 @@
 # Recorded methods, versions and references
 
-These are versions recorded in the completed analyses, not a new unified environment specification. Exact commands and file hashes in the linked JSON records are authoritative for the corresponding run. No new computational re-analysis is implied by packaging them here.
+These are versions recorded in the completed analyses, not a new unified environment specification. Exact commands and file hashes in the linked JSON records are authoritative for the corresponding run. A separate [upstream version check](../manifests/upstream-version-check.json) records official package/release sources and the model-asset hash check; this verifies version provenance, not biological accuracy. No new computational re-analysis or clean-machine end-to-end rerun is implied by packaging them here. Historical “independent” labels refer to internal cross-checks; see [disclosure and errata](CURRENT_STATUS_AND_ERRATA.md).
 
 ## Whole-reference RNA alignment and fusion review
 
@@ -34,7 +34,7 @@ The public SNP panel uses **1000 Genomes 2019 GRCh38**, biallelic PASS variants 
 
 The population analysis records **samtools 1.24 / pysam 0.24.1**. Main filters: MAPQ ≥30, BQ ≥25, proper pairs, exclude flags `0xF0C`, BAQ disabled, samtools mate-overlap adjustment disabled, and explicit `-d 0` depth setting (qualified as effectively unlimited in the installed version). Qualifying A/C/G/T observations collapse by exact query name; conflicting mate bases are discarded. Reference skips/deletions are not A/C/G/T coverage. A clean-read sensitivity adds no soft clipping and five-base aligned-end margins; MAPQ60-only checks remain separate.
 
-Installed depth behavior was checked with 9,001 synthetic paired names / 18,002 records and finite-cap contrasts. Independent CIGAR counting reproduced the 4,015 shared positions. The later alignment comparison used matched counting criteria with a fixed original cohort and retained coverage failures. See [population controls and counts](../evidence/population-panel/) and [comparison controls and audits](../evidence/alignment-comparison/).
+Installed depth behavior was checked with 9,001 synthetic paired names / 18,002 records and finite-cap contrasts. A separate internal CIGAR-counting implementation reproduced the 4,015 shared positions. The later alignment comparison used matched counting criteria with a fixed original cohort and retained coverage failures. See [population controls and counts](../evidence/population-panel/) and [comparison controls and audits](../evidence/alignment-comparison/).
 
 ## Peptide and HLA model work
 
@@ -50,3 +50,7 @@ CapHLA v1's supplied allele table lacked pseudosequences expected by its code. T
 An earlier DeepSeqPanII regression did **not** meet its checks; no patient scores were produced with it. The failed check is part of method-selection history, not validated antigen evidence. The replacement was selected because public regression passed, not because of a favorable patient result.
 
 Third-party model weights, full reference databases, tool environments and prebuilt indexes are not generally vendored here. Their provenance allows a reviewer to obtain the specified versions. Historical methods and supplemental source are under [methods](../methods/); check each workstream's manifest rather than assuming all scripts ran in one environment.
+
+## Technical benchmark scope
+
+The public BCR::ABL1 experiment comprised **45 technical runs**, including 20 matched compact D1/D8 conditions representing 19 unique paired-input sets. It was not a 45-patient benchmark. The small correlated mixtures, known-fusion priors and limited background cannot estimate clinical sensitivity or a detection limit. See the [benchmark evidence](../evidence/computational-followups-v2/fusion-robustness/) and [current errata](CURRENT_STATUS_AND_ERRATA.md).

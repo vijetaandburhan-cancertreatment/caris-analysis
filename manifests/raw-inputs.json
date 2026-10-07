@@ -5,7 +5,7 @@
   "total_files": 9,
   "total_bytes": 33619145590,
   "data_folder_url": "https://drive.google.com/drive/folders/1qQ_CQtDxoMX8TKYfPYFg0NSaKI2l900r",
-  "verification_scope": "All nine local resident inputs were fully hashed and matched source CRC64NVME; Drive exact sizes were verified for all nine. Only three small Drive inputs were independently downloaded and SHA256 verified; the six large remote inputs were not independently rehashed. Verify downloaded bytes before analysis.",
+  "verification_scope": "All nine local resident inputs were fully hashed and matched source CRC64NVME; all nine local SHA-256 values were reverified on 2026-10-06. Public downloads checked on 2026-10-06 America/New_York (2026-10-07 UTC): three small files fully downloaded and SHA-256 verified; six large files checked by exact total size and first/last 64 KiB matching local bytes. The six large remote inputs were not independently rehashed in full. Verify complete downloaded files before analysis.",
   "files": [
     {
       "name": "DNA_TN26-279853.vcf",
@@ -111,5 +111,7 @@
     }
   ],
   "local_sha256_reverified": "2026-10-06",
-  "local_sha256_reverified_count": 9
+  "local_sha256_reverified_count": 9,
+  "access": "Public downloads; no reviewer approval or sign-in required",
+  "public_access_verification": "manifests/public-raw-access.json"
 }

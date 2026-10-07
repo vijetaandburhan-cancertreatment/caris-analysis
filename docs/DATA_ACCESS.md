@@ -1,25 +1,38 @@
-# Data access and privacy
+# Raw data, access and verification
 
-This private repository contains patient-derived genomic information. Variant tables, read names, peptide sequences and selected BAMs are sensitive even without a name or a clinical report. Repository access is intended for authorized review of this case; it is not permission to publish, redistribute or upload the data to another analysis service.
+This is a full public genomic research release. It includes patient-derived variants, HLA-related results, read evidence and the original DNA/RNA inputs. These materials remain potentially identifying; removing names would not anonymize the genetic data.
 
-## Original inputs
+## Download the nine original files
 
-Nine Caris files total **33,619,145,590 bytes**. The three small originals are included in [data/small-inputs](../data/small-inputs/). Six large BAM/FASTQ files remain outside Git history, alongside the full set in the [controlled-access Drive folder](https://drive.google.com/drive/folders/1qQ_CQtDxoMX8TKYfPYFg0NSaKI2l900r). Individual file URLs, exact names, sizes and SHA256 values are in [raw-inputs.json](../manifests/raw-inputs.json) and [raw-inputs.tsv](../manifests/raw-inputs.tsv).
+The originals total **33,619,145,590 bytes**. All nine are linked from the [public raw-data Drive folder](https://drive.google.com/drive/folders/1qQ_CQtDxoMX8TKYfPYFg0NSaKI2l900r). The three small originals are also included in [data/small-inputs](../data/small-inputs/). Six large BAM/FASTQ files remain outside Git history. Individual links, filenames, byte sizes and SHA256 values are in [raw-inputs.json](../manifests/raw-inputs.json) and [raw-inputs.tsv](../manifests/raw-inputs.tsv).
 
-GitHub membership does not automatically grant Drive access. Request access from the repository owner if a linked input cannot be opened. Keep the original filenames and verify every downloaded file with `scripts/verify_inputs.py` before analysis. Do not replace an original with a newly processed file using the same name.
+Google may display a warning that a large file cannot be virus-scanned; use its **Download anyway** action to retrieve the original file. This expected size-related warning is separate from the checksum verification below.
 
-The repository is the analysis and provenance layer; controlled file storage is the large-data layer. Files beyond GitHub's size limits do not need to be split, truncated or recompressed merely to fit Git. The manifest connects both layers by byte-level checksums.
+Keep the original filenames. Check downloaded files from the repository root:
 
-## What has actually been verified
+```sh
+python3 scripts/verify_inputs.py --data-dir /absolute/path/to/raw-inputs
+```
 
-- All nine resident original files were fully read and checked against their recorded SHA256 and source CRC values on 1 October 2026. All nine local SHA256 values were checked again successfully on 6 October 2026.
-- All nine Drive copies had exact byte sizes checked.
-- Only the three small Drive files received full download-and-SHA256 round-trip checks. The six large Drive copies were **not independently rehashed after upload** in that verification record.
+A full verification reads approximately 34 GB. A browser success page, matching file size or successful range download does not replace this checksum check. If access fails or a checksum differs, report the affected filename and result to the maintainers; do not silently use the file as verified input.
 
-This distinction matters: matching remote size alone is weaker evidence than a full checksum. A reviewer who downloads the large files can close that remaining transfer-verification gap by comparing their hashes with the manifest. Repository bundle checksums separately verify the packaged research files; they do not extend the scope of the historical Drive check.
+The repository provides versioned methods/results; Drive holds large data that exceeds GitHub's file limits. The checksum manifest connects those two parts. No file needs to be truncated or split to preserve the original data.
 
-## Sharing a review
+## Verification scope
 
-Keep the GitHub repository and raw-data folder private unless the owner explicitly authorizes a different arrangement. Do not paste patient reads or derived results into public GitHub issues, public notebooks, public model endpoints or third-party web tools. Review findings can be returned in the private repository with the relevant commit, methods and evidence paths.
+| Check | What the record establishes |
+|---|---|
+| Original local verification, 1 October 2026 | All nine resident originals were fully read, SHA256 checked and matched against recorded source CRC64NVME values. |
+| Local recheck, 6 October 2026 | All nine original SHA256 values matched again. |
+| Drive upload verification, 1 October 2026 | Exact byte sizes matched for all nine. The three small files received complete download-and-SHA256 round-trip checks. |
+| Public-access check, 6 October New York / 7 October UTC | All nine files were accessible without authentication. The three small files passed complete anonymous-download SHA256 checks. For the six large files, HTTP 206 ranges reported the expected total sizes and the first/last 65,536 bytes matched local originals. See [public-raw-access.json](../manifests/public-raw-access.json). These range checks do not verify every byte of a large file. |
+| Six large remote files | A complete remote re-download-and-SHA256 verification was not established by the earlier upload/access checks. Each reviewer should verify their downloaded copies against the manifest. |
+| Repository bundle checks | `scripts/verify_bundle.py` checks the inventory and bytes against the manifest, rejecting missing, mismatched and unlisted files. It does not prove scientific correctness. |
 
-This repository contains no blanket grant to redistribute third-party software, references or model weights. Obtain those from the upstream sources and comply with their licenses. Historical records may retain local paths or accessions for provenance; removing a patient name alone would not anonymize the genomic data.
+The newly aligned **full RNA BAM was never retained**. Selected alignment BAMs and the original vendor BAMs are provided; they must not be mistaken for a complete local realignment. Public references, model weights and tool environments are not all vendored. Their recorded versions and upstream sources are in [METHODS_AND_VERSIONS.md](METHODS_AND_VERSIONS.md).
+
+## Submit a useful review
+
+Include the repository commit, exact input hashes, software/reference versions, commands, controls and expected-versus-observed results. A code replication, parameter sensitivity test and independent biological validation are different contributions. Unresolved read origins and failed controls should remain visible.
+
+See [NOTICE.md](../NOTICE.md) for reuse and AI-assistance disclosure. Public release does not create a blanket license for third-party software, references or model weights. Historical files may retain original paths/accessions and earlier access instructions; use this page and the current manifests for the present release.

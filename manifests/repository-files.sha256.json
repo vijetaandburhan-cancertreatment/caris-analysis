@@ -3,8 +3,11 @@
   "algorithm": "SHA-256",
   "excludes": [
     ".git/",
+    "__pycache__/",
+    ".pytest_cache/",
     "manifests/repository-files.sha256.json"
   ],
+  "scope": "Public release inventory; excludes the manifest itself. Raw large files are covered separately by raw-inputs.json.",
   "files": [
     {
       "path": ".gitattributes",
@@ -18,13 +21,18 @@
     },
     {
       "path": "NOTICE.md",
-      "size_bytes": 856,
-      "sha256": "69f13648d34a40c14b61d7e619fd6f1d6e9f104095ed46e11e63055b3c82386d"
+      "size_bytes": 1451,
+      "sha256": "96de589ffc00797b457222e6f0221655169ce75b4731e31822af12fb60b6688e"
     },
     {
       "path": "README.md",
-      "size_bytes": 5840,
-      "sha256": "0de68e1532c00a534a90cbff6f882185675337dbd0b103cf621992fa4135b927"
+      "size_bytes": 6262,
+      "sha256": "26c29ef1ca1946ed58351c38cd6611fb78a144dda17deff5431cbd6b485e4f81"
+    },
+    {
+      "path": "data/review-summary.json",
+      "size_bytes": 950,
+      "sha256": "616a01931ff7bfa8254454070a2cc2fb48651040fea3a0d7b78f76752bb4176b"
     },
     {
       "path": "data/small-inputs/DNA_TN26-279853.vcf",
@@ -42,29 +50,39 @@
       "sha256": "cf0a8426d5f122ec7b0e354f5bc5bd57ca51f397163361cdc775edfe90c962e0"
     },
     {
+      "path": "docs/CURRENT_STATUS_AND_ERRATA.md",
+      "size_bytes": 7076,
+      "sha256": "98d5d59430d18b0e4a8a14f69476c36b42ac443c09f9b9619409b252acdd06cc"
+    },
+    {
       "path": "docs/DATA_ACCESS.md",
-      "size_bytes": 3060,
-      "sha256": "57e7076028c35d93e66c29739e841ca297e3d021157ae455f7c2b66e44c8cd19"
+      "size_bytes": 4130,
+      "sha256": "35ba5f957c751e16c482381556ab5fa7855a729547fdd01a53f2a8a4bd280410"
     },
     {
       "path": "docs/FINDINGS.md",
-      "size_bytes": 8328,
-      "sha256": "ae6f30ab58cbc1a18267263addc93ece0241c48f316b77d471257ffd7fbadb03"
+      "size_bytes": 9033,
+      "sha256": "32c51e2f6a2053ffc6140b5e61bd096f5784e98521e0198b53d6bb81db37692f"
+    },
+    {
+      "path": "docs/GLOSSARY.md",
+      "size_bytes": 3471,
+      "sha256": "e6d51df7ab3dc39466e6b4b38be172af8b5d5e5e60ed42e7111daffc87ba3525"
     },
     {
       "path": "docs/LIMITATIONS.md",
-      "size_bytes": 3284,
-      "sha256": "ac98e584e0d066bb9e585c156deac87a92b5a0a6bca04f106a23a367db028362"
+      "size_bytes": 4286,
+      "sha256": "f5eccfad08b4b02496815dceb283f88efafd9dd46b9365f66f73399b9ddb6d96"
     },
     {
       "path": "docs/METHODS_AND_VERSIONS.md",
-      "size_bytes": 7572,
-      "sha256": "558e8cab2f7d74e37fd9d737fc6c82f74a2a48915579beb010db3fefc37e3a61"
+      "size_bytes": 8458,
+      "sha256": "bc31edd42bc68084211dd32069cd25312689ed362d95e85fda3d0d37ad0a5cc0"
     },
     {
       "path": "docs/REPRODUCTION.md",
-      "size_bytes": 6910,
-      "sha256": "2c1876ae45bec0e86abf096af5a1bbf878b1c2fbb2c01d03fbc5c7881bbfdd13"
+      "size_bytes": 7627,
+      "sha256": "a983e1725191eeee31dc9d0499751b741b5adb49576a4cf7c2909d35e0cebb9a"
     },
     {
       "path": "evidence/alignment-comparison/baseline-fixed-4015.tsv",
@@ -6432,14 +6450,24 @@
       "sha256": "0a793ddaa308a132b1d9d553b1fad46cd784b0e943da6878f7b2fd5cbedcbd1b"
     },
     {
+      "path": "manifests/public-raw-access.json",
+      "size_bytes": 6456,
+      "sha256": "db20666a491d7ba20d20b6d973e3a4d017b85ec7612c4e3147f433aca392205b"
+    },
+    {
       "path": "manifests/raw-inputs.json",
-      "size_bytes": 5184,
-      "sha256": "80ea71cdcb58bb09430c72df377cece309c170c639ba4feb5914775f97d7997d"
+      "size_bytes": 5496,
+      "sha256": "d587bf90fed3f290c2e9cdfff4e263a4169aaa5c6e3f08f0184a5c12e0c4a159"
     },
     {
       "path": "manifests/raw-inputs.tsv",
       "size_bytes": 2202,
       "sha256": "a69f56f7d7d416b14ef3719d8304c25e419e9f78617d7b2a20ca4620ad87188c"
+    },
+    {
+      "path": "manifests/upstream-version-check.json",
+      "size_bytes": 1249,
+      "sha256": "162ae2b14e83c1625e4480a1a29bf63c83630ad4502de11f787180d19fee3d6d"
     },
     {
       "path": "methods/genome-fusion/STAR-release.json",
@@ -7312,14 +7340,29 @@
       "sha256": "74f16975d0dd1de9487d898d986a2dd0fc07774b99bdd531d4b192cacb94791d"
     },
     {
+      "path": "scripts/check_release.py",
+      "size_bytes": 5695,
+      "sha256": "df5a504b706812b28eb17f0a719e2dc45e477fb1c29037d705d7233d34259700"
+    },
+    {
+      "path": "scripts/synthetic_counting.py",
+      "size_bytes": 2665,
+      "sha256": "b9df83630375a08a2a536e1a84f0a028681412473923fbae4f032682ed84ae30"
+    },
+    {
       "path": "scripts/verify_bundle.py",
-      "size_bytes": 1637,
-      "sha256": "a487891f0f69ba6fa91bed7e3b9ca3df93cb43daf1b6592741587115482c9a5c"
+      "size_bytes": 4543,
+      "sha256": "36248f874249ce0c77dec9d6cc33edd1960ff3a170aa207ba9eaee5a41971e0c"
     },
     {
       "path": "scripts/verify_inputs.py",
-      "size_bytes": 1667,
-      "sha256": "358f83ff5dd91b1fc94b7662ff6656ab9d584cef058e95eec7298a43da9508c0"
+      "size_bytes": 3984,
+      "sha256": "5f36ee08ebeb7ab0afeff270351232f31d21d28f54f00bd9b2453389692c3374"
+    },
+    {
+      "path": "tests/test_public_checks.py",
+      "size_bytes": 9019,
+      "sha256": "e9e1d15759c9b95a0dded720c8a35744775a7133f9ba4b77549b1e4ff0f97513"
     }
   ]
 }
