@@ -1,0 +1,19 @@
+{
+  "credible_DNA_RNA_sequence_event_mechanism_unresolved": 1,
+  "credible_DNA_RNA_repeat_insertion_somatic_status_unknown": 1,
+  "artifact_compatible_repeat_nonunique_marker": 1,
+  "repeat_or_paralog_confounded": 10,
+  "RNA_supported_nonproductive_self_event_unresolved": 1,
+  "low_support_nonproductive_self_event_unresolved": 1,
+  "RNA_supported_nonproductive_orientation_unresolved": 2,
+  "low_support_RNA_junction_unresolved": 2,
+  "single_pair_RNA_junction_unresolved": 2,
+  "repeat_rich_RNA_junction_protein_effect_unresolved": 1,
+  "paralog_or_overlapping_annotation_confounded": 2,
+  "artifact_compatible_normal_reference_marker": 3,
+  "unresolved_ambiguous_repeat_consensus": 1,
+  "discarded_partner_hypothesis_unresolved": 7,
+  "discarded_self_backsplice_hypothesis_unresolved": 9,
+  "discarded_BAP1_partner_not_second_hit": 4,
+  "discarded_inverted_self_or_hairpin_hypothesis": 6
+}

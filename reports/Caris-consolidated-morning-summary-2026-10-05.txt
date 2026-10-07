@@ -1,0 +1,89 @@
+Caris research morning handoff — 5 October 2026
+Accession TN26-279853 | Existing-data research handoff
+
+What the completed work tells us
+
+The strongest research priorities remain MTAP-loss confirmation and the BAP1 antigen experiment, with a more conditional RASA1 CD4 experiment. The completed analyses add sequence, RNA, HLA and quality-control evidence; they do not establish a new treatment target, change the diagnosis, predict survival or prove vaccine benefit. The underlying biological handoff remains at its stated research-validation level.
+
+All four v2 workstreams are complete: denser copy-number/allele analysis, HLA class-II screening, the sequence-and-control handoff, and full-reference RNA/fusion review. The population-selected DNA/RNA check and the subsequent full-library alignment-method comparison are also complete, with independent numerical and read-level audits.
+
+The findings that matter
+
+Copy number and BAP1 phase: the Caris analytical export labels MTAP, CDKN2A and CDKN2B Deleted, but the supplied data do not calibrate absolute tumor copies or homogeneous homozygous MTAP loss. BAP1 is linked locally to the overrepresented C SNP allele: 21 C+deletion, 7 C+reference, 9 G+reference and 0 G+deletion paired-name observations. This does not establish loss of the other allele, somatic status or a second hit. Broader regional allele imbalance strengthens the observation without resolving those alternatives.
+
+BAP1 antigen evidence: the mutation-bearing RNA and flanking annotated splicing survive the completed re-alignment. Conditional HLA-B*50:01-compatible RNA is detectable in bulk reads (2,132 paired names), but shared HLA markers and mixed-cell RNA prevent independent clinical typing, tumor-retention or surface-presentation claims. IEERKGLYL/EERKGLYL remain candidates for laboratory testing, with matched reference and nearby human-sequence controls. Binding predictions are not evidence that tumor cells naturally display the peptides.
+
+RASA1 and sequence controls: the provisional class-II testing pair is mutant GDYYIGGRRFSSLQT versus reference GDYYIGGRRFSSLSD under provisional DPA1*01:03/DPB1*02:01. Both score highly in the controlled model; five of seven possible binding cores are unchanged reference sequence, so mutant specificity must be tested. No robust mutation-selective BAP1 class-II lead emerged. The sequence package also preserves unvalidated LATS1/LATS2 observations; LATS1 predicts an immediate stop with no novel tail, and LATS2 Gly960Arg has no established functional effect.
+
+Full-reference RNA/fusions: all 23,209,264 original RNA pairs were analyzed. Review of 28 accepted and 26 selected discarded fusion hypotheses established no validated activating or treatment-selecting fusion. CEACAM3 noncoding and KRTAP9-1 repeat-associated signals have DNA support but no demonstrated driver interpretation. CCND1::HEG1 has low-count joined RNA evidence and two imperfect DNA hints; it is not a confirmed genomic fusion or drug target. The bounded MET exon-14 check detected normal junctions and positive controls but no canonical skipped junction; it does not clinically exclude all MET alterations.
+
+Method limits stayed visible: the 45-case public fusion benchmark showed some support-count differences between sparse and dense compact indexes. It cannot estimate clinical sensitivity or a detection limit. The surviving trimmed pairs merge into longer junction-spanning sequences, so the experiment does not validate an effective 12-base anchor. Caller filters, repeats, overlapping mates and sparse indexing still qualify negative fusion conclusions.
+
+New population-selected DNA/RNA quality check
+
+This addresses a selection limitation in the earlier DNA-high-ALT comparison. The new frozen panel contains 165,782 public SNP positions on six chromosomes, selected without Papa's DNA allele calls. Of 4,015 positions with at least 20 qualifying A/C/G/T query-name units in both assays, 2,873 are dominated by one DNA allele. RNA retains that allele at at least 90% at 2,860 sites (99.55%), and at at least 98% at 2,760 sites (96.07%). None of those baseline DNA-dominant sites becomes at least 98% the opposite REF/ALT allele in RNA. In a coordinate-first subset spaced at least 50 kb apart, all 120 callable DNA-dominant sites retain the same RNA allele at at least 90%.
+
+The original panel check provides broad consistency observations; by itself it is not a clinical identity test, contamination estimate or independent re-alignment validation. The final comparison below separately examines alignment-method sensitivity. Thirteen baseline dominant-DNA sites fall below 90% same-allele RNA retention; six meet the stronger discrepancy screen, and seven have lower RNA depth. Read-end and local alignment alternatives qualify several exceptions, while the two closely spaced PABPC1 sites remain unresolved and share read support. Three additional MAPQ 60-only flags are retained separately. No exception was converted into a new tumor mutation or target.
+
+Independent CIGAR counting reproduced all 4,015 positions in both assays, and the fresh effectively uncapped DNA run matched 935,370 previously reported integer values. RNA has 25,707 panel loci with at least one qualifying A/C/G/T unit; the larger 78,071 pileup-row count includes non-base/zero evidence and is not base coverage. An earlier check restricted to retained BAP1/RASA1 alignment intervals had no jointly callable panel SNPs and was explicitly not evaluable; it must not be counted as a successful replication. The full-pass comparison below addresses a broader fixed cohort.
+
+Final alignment-method comparison
+
+The full RNA library was re-aligned with a separate pipeline, preserving the fixed 4,015-site cohort. Of these sites, 3,932 retain depth 20 and 83 fall below it; none has zero qualifying bases. Among the original 2,873 DNA-dominant sites, 2,805 retain both depth 20 and at least 90% of the specified allele; 59 fall below depth 20 and 9 remain callable but below 90%. The depth-qualified 98% count is 2,721/2,873. No callable DNA-dominant site becomes at least 98% the opposite REF/ALT allele.
+
+Five of six stronger baseline discrepancies persist. At APOD, 26 of 27 originally C-labelled names now contribute DNA-expected G; one fails matched filters. The new placement is not thereby proven correct. PABPC1 remains discrepant at 61/470 and 73/430; 61 names carry both bases on the same qualifying records. These shared observations are not independent, and origin remains unresolved. All 13 original exceptions and three MAPQ-sensitive flags remain documented; an additional MLLT3 site falls below 90% at depth 27, below the stronger screen.
+
+Independent review reproduced all 4,015 rows, 49,911 integer comparisons and 989 name transitions. These are the same reads, not a new biological sample. Retention requires depth 20: the fraction-only count 2,860 includes 55 shallow sites and must not replace 2,805. Biological research priorities are unchanged.
+
+Execution and preservation
+
+The nine original Caris files remain resident and unchanged; Drive copies and the vendor bucket were untouched. Five temporary S3 object versions and the verified-empty task bucket were deleted successfully. No EC2 instances or EBS volumes were created. AWS credits displayed $100 at approximately 07:46 UTC; the actual total bill is unknown, and historical S3 charges may exist. The paid-plan upgrade remained deferred. No reset, IAM change or external outreach was used. Details are in the linked cleanup receipt.
+
+Five prioritized specialist questions
+
+1. MTAP calibration — Caris / treating molecular pathologist
+Can you provide calibrated allele-specific copy-number/LOH segments, purity/ploidy and the assay interpretation for MTAP/CDKN2A/B, and state whether MTAP meets your validated definition of homozygous tumor loss?
+What the answer changes: Whether the MTAP biomarker is sufficiently established for a specific trial prescreen, or needs orthogonal confirmation. This does not establish protocol eligibility.
+
+2. BAP1 phase, somatic status and second hit — Molecular pathologist / cancer genetics team
+What existing-tissue and matched-normal test would confirm the BAP1 deletion's somatic status and distinguish a second hit or loss of the WT allele from copy imbalance and mixed-cell explanations? If LATS findings will influence a research plan, can those unreported calls be confirmed at the same stage?
+What the answer changes: Which variants and biallelic-loss claims can be relied upon, and whether hereditary interpretation needs evaluation; local phase alone is insufficient.
+
+3. HLA typing and tumor retention — HLA laboratory / research pathologist
+Can normal-blood high-resolution HLA typing confirm B*50:01 and the relevant class-II alleles, and what orthogonal evidence from available tumor material can establish tumor-cell HLA retention/expression before an allele-specific experiment?
+What the answer changes: Whether the proposed HLA restriction is appropriate and whether the tumor can plausibly display an antigen through it; no new biopsy is presumed.
+
+4. Antigen specificity and endogenous presentation — Michael / Eta / antigen research team
+Can you prioritize BAP1 IEERKGLYL/EERKGLYL with matched reference and nearby human-sequence controls, then test endogenous presentation and mutation-selective T-cell recognition? For RASA1, can GDYYIGGRRFSSLQT be tested against GDYYIGGRRFSSLSD with HLA restriction and binding-register controls?
+What the answer changes: Whether either sequence deserves vaccine/TCR development. Peptide-pulsing alone would not establish natural tumor presentation or clinical benefit.
+
+5. Clinical RNA/fusion interpretation — Caris / specialist molecular tumor board
+Can you review the available clinical RNA fusion/splice calls, assay coverage and QC alongside the research audit, and identify any specific event that merits orthogonal confirmation before clinical use?
+What the answer changes: Whether a focused clinical confirmatory test is warranted. A gene name or research junction alone is not an actionable rearrangement.
+
+Supporting versions and preservation
+The v2 biological one-pager remains the main concise research handoff. The population check and final comparison provide separately documented technical evidence.
+
+[Unchanged v2 one-page research handoff](/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-final-handoff-v2/Caris-DNA-RNA-research-handoff-TN26-279853-2026-10-05-v2.pdf)
+Concise biological research handoff
+
+[Completed v2 detailed findings](/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-final-handoff-v2/Caris-followup-findings-2026-10-05-v2.pdf)
+Four follow-ups and bounded fusion/structural audits
+
+[Population-panel QC addendum](/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/delivery/Caris-DNA-RNA-population-panel-addendum-2026-10-05.pdf)
+Independent count audit, breadth, exceptions and mapping limits
+
+[v2 computational evidence archive](/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-final-handoff-v2/Caris-computational-followups-2026-10-05-v2.zip)
+Scripts, sequence controls, exact evidence and provenance
+
+[Population-panel evidence archive](/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/delivery/Caris-population-panel-evidence-2026-10-05.zip)
+Frozen panel, all-site accounting, count/read-origin audits and hashes
+
+[AWS cleanup receipt](/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-final-alignment-comparison-v1/aws-accounting/cleanup-receipts/deletion-receipt.json)
+Verified deletion and preservation accounting
+
+[Final alignment-method comparison](/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-final-alignment-comparison-v1/delivery/Caris-final-alignment-comparison-2026-10-05.pdf)
+Fixed-cohort comparison and independently checked same-name evidence
+
+[Final alignment-method evidence archive](/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-final-alignment-comparison-v1/delivery/Caris-final-alignment-comparison-evidence-2026-10-05.zip)
+Fixed-cohort counts, complete exception records, scripts and independent audits.

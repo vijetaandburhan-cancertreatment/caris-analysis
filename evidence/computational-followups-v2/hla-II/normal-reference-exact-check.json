@@ -1,0 +1,1356 @@
+{
+  "reference": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/gencode50-sensitivity/gencode.v50.pc_translations.fa.gz",
+  "reference_sha256": "5d6408c3a1c22d864c96a55367cf5b69f1031dea1fe2cd6d03e366ae3fc56a45",
+  "reference_records_scanned": 382428,
+  "long_peptide_count": 117,
+  "core_count": 41,
+  "novel_sequence_core_count": 9,
+  "long_peptide_exact_matches": {},
+  "cores": {
+    "AMCGDYYIG": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 234
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 234
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 234
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 234
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 234
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 234
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 234
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 234
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 234
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 234
+        }
+      ]
+    },
+    "CGDYYIGGR": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 236
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 236
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 236
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 236
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 236
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 236
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 236
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 236
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 236
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 236
+        }
+      ]
+    },
+    "CQGPVYGFI": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 39
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 39
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 39
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 39
+        }
+      ]
+    },
+    "DLQSKCQGP": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 34
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 34
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 34
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 34
+        }
+      ]
+    },
+    "DYYIGGRRF": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 238
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 238
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 238
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 238
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 238
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 238
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 238
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 238
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 238
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 238
+        }
+      ]
+    },
+    "EERKGLYLG": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": true,
+      "shared_WT": false,
+      "reference_occurrences": 0,
+      "reference_records": 0,
+      "example_records": []
+    },
+    "ERKGLYLGG": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": true,
+      "shared_WT": false,
+      "reference_occurrences": 0,
+      "reference_records": 0,
+      "example_records": []
+    },
+    "FIFLFKWIE": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 46
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 46
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 46
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 46
+        }
+      ]
+    },
+    "FKWIEERKG": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": true,
+      "shared_WT": false,
+      "reference_occurrences": 0,
+      "reference_records": 0,
+      "example_records": []
+    },
+    "FLFKWIEER": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 48
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 48
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 48
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 48
+        }
+      ]
+    },
+    "FRIIAMCGD": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 230
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 230
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 230
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 230
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 230
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 230
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 230
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 230
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 230
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 230
+        }
+      ]
+    },
+    "GDYYIGGRR": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 237
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 237
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 237
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 237
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 237
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 237
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 237
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 237
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 237
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 237
+        }
+      ]
+    },
+    "GFIFLFKWI": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 45
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 45
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 45
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 45
+        }
+      ]
+    },
+    "GGRRFSSLQ": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": true,
+      "shared_WT": false,
+      "reference_occurrences": 0,
+      "reference_records": 0,
+      "example_records": []
+    },
+    "GPVYGFIFL": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 41
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 41
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 41
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 41
+        }
+      ]
+    },
+    "GRRFSSLQT": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": true,
+      "shared_WT": false,
+      "reference_occurrences": 0,
+      "reference_records": 0,
+      "example_records": []
+    },
+    "HFRIIAMCG": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 229
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 229
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 229
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 229
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 229
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 229
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 229
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 229
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 229
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 229
+        }
+      ]
+    },
+    "IAMCGDYYI": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 233
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 233
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 233
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 233
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 233
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 233
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 233
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 233
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 233
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 233
+        }
+      ]
+    },
+    "IEERKGLYL": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": true,
+      "shared_WT": false,
+      "reference_occurrences": 0,
+      "reference_records": 0,
+      "example_records": []
+    },
+    "IFLFKWIEE": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 47
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 47
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 47
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 47
+        }
+      ]
+    },
+    "IGGRRFSSL": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 241
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 241
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 241
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 241
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 241
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 241
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 241
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 241
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 241
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 241
+        }
+      ]
+    },
+    "IIAMCGDYY": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 232
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 232
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 232
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 232
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 232
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 232
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 232
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 232
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 232
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 232
+        }
+      ]
+    },
+    "KCQGPVYGF": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 38
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 38
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 38
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 38
+        }
+      ]
+    },
+    "KWIEERKGL": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": true,
+      "shared_WT": false,
+      "reference_occurrences": 0,
+      "reference_records": 0,
+      "example_records": []
+    },
+    "LFKWIEERK": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": true,
+      "shared_WT": false,
+      "reference_occurrences": 0,
+      "reference_records": 0,
+      "example_records": []
+    },
+    "LQSKCQGPV": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 35
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 35
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 35
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 35
+        }
+      ]
+    },
+    "MCGDYYIGG": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 235
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 235
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 235
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 235
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 235
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 235
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 235
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 235
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 235
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 235
+        }
+      ]
+    },
+    "NHFRIIAMC": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 228
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 228
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 228
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 228
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 228
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 228
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 228
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 228
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 228
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 228
+        }
+      ]
+    },
+    "PVYGFIFLF": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 42
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 42
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 42
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 42
+        }
+      ]
+    },
+    "QGPVYGFIF": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 40
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 40
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 40
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 40
+        }
+      ]
+    },
+    "QSKCQGPVY": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 36
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 36
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 36
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 36
+        }
+      ]
+    },
+    "RIIAMCGDY": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 231
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 231
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 231
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 231
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 231
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 231
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 231
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 231
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 231
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 231
+        }
+      ]
+    },
+    "SKCQGPVYG": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 37
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 37
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 37
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 37
+        }
+      ]
+    },
+    "VNHFRIIAM": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 227
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 227
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 227
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 227
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 227
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 227
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 227
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 227
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 227
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 227
+        }
+      ]
+    },
+    "VVNHFRIIA": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 226
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 226
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 226
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 226
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 226
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 226
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 226
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 226
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 226
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 226
+        }
+      ]
+    },
+    "VYGFIFLFK": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 43
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 43
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 43
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 43
+        }
+      ]
+    },
+    "WIEERKGLY": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": true,
+      "shared_WT": false,
+      "reference_occurrences": 0,
+      "reference_records": 0,
+      "example_records": []
+    },
+    "YDLQSKCQG": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 5,
+      "reference_records": 5,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 33
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 33
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 33
+        },
+        {
+          "header": "ENSP00000419709.1|ENST00000490917.1|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350898.2|BAP1-210|BAP1|41",
+          "amino_acid_start1": 33
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 33
+        }
+      ]
+    },
+    "YGFIFLFKW": {
+      "genes": [
+        "BAP1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 4,
+      "reference_records": 4,
+      "example_records": [
+        {
+          "header": "ENSP00000296288.5|ENST00000296288.10|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000351150.1|BAP1-201|BAP1|711",
+          "amino_acid_start1": 44
+        },
+        {
+          "header": "ENSP00000813282.1|ENST00001144370.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-213|BAP1|729",
+          "amino_acid_start1": 44
+        },
+        {
+          "header": "ENSP00000417132.1|ENST00000460680.6|ENSG00000163930.11|OTTHUMG00000158392.5|OTTHUMT00000350895.2|BAP1-202|BAP1|729",
+          "amino_acid_start1": 44
+        },
+        {
+          "header": "ENSP00000799915.1|ENST00001130110.1|ENSG00000163930.11|OTTHUMG00000158392.5|-|BAP1-212|BAP1|172",
+          "amino_acid_start1": 44
+        }
+      ]
+    },
+    "YIGGRRFSS": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 240
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 240
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 240
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 240
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 240
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 240
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 240
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 240
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 240
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 240
+        }
+      ]
+    },
+    "YYIGGRRFS": {
+      "genes": [
+        "RASA1"
+      ],
+      "mutation_containing": false,
+      "shared_WT": true,
+      "reference_occurrences": 19,
+      "reference_records": 19,
+      "example_records": [
+        {
+          "header": "ENSP00000779730.1|ENST00001109925.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-215|RASA1|385",
+          "amino_acid_start1": 239
+        },
+        {
+          "header": "ENSP00000785653.1|ENST00001115848.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-217|RASA1|418",
+          "amino_acid_start1": 239
+        },
+        {
+          "header": "ENSP00000785652.1|ENST00001115847.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-216|RASA1|537",
+          "amino_acid_start1": 239
+        },
+        {
+          "header": "ENSP00000789545.1|ENST00001119740.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-218|RASA1|539",
+          "amino_acid_start1": 239
+        },
+        {
+          "header": "ENSP00000779729.1|ENST00001109924.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-214|RASA1|978",
+          "amino_acid_start1": 239
+        },
+        {
+          "header": "ENSP00000796960.1|ENST00001127155.1|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-219|RASA1|999",
+          "amino_acid_start1": 239
+        },
+        {
+          "header": "ENSP00000558547.1|ENST00000888488.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-207|RASA1|1046",
+          "amino_acid_start1": 239
+        },
+        {
+          "header": "ENSP00000558548.1|ENST00000888489.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-208|RASA1|1018",
+          "amino_acid_start1": 239
+        },
+        {
+          "header": "ENSP00000558549.1|ENST00000888490.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-209|RASA1|1053",
+          "amino_acid_start1": 239
+        },
+        {
+          "header": "ENSP00000632157.1|ENST00000962098.2|ENSG00000145715.17|OTTHUMG00000162605.3|-|RASA1-210|RASA1|860",
+          "amino_acid_start1": 239
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 18.699731826782227,
+  "peak_RSS_bytes": 42680320,
+  "limitations": "Reference translations, not individual germline or expressed normal proteome. Nine-AA windows are possible cores, not inferred binding registers. Exact absence is not proof of tumor specificity, presentation, T-cell recognition or safety."
+}

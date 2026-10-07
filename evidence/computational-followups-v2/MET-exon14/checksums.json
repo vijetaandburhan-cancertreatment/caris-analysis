@@ -1,0 +1,15 @@
+{
+  "annotation.json": "ed6c240a7533f2afb9f824871622068020886abbc2478cc32462e4b6408d95ad",
+  "check_junctions.py": "86d12335032b80fcb879398739b215e60fd5de58252176665f5a7a62f456e4ce",
+  "findings.txt": "a3ffbc279cf784e7ac25a78c5213c8f84972619cac42dd4b065c25f8bc9b9b7f",
+  "independent-audit.txt": "f05aad985196b631952fc6801591e2d0e49370c621174fecfc8993276b82af98",
+  "independent-checksums.json": "5a680912e7fd3c90a2b2000d5ded0adfd440fc4633f568e653bc460f0df4b4ac",
+  "independent-junction-check.json": "425fc10921c89fcb1e0b33710825d2620b928890c014e1f91b380ba8f14fa5a6",
+  "independent_check.py": "9507573ac2d76a1d7107cd443a5c5eb61c476879e037a1f303d84c1970e668b6",
+  "input-provenance.json": "ad927db2b2a6b5427596efa5d774b83f09c106efd66f1b89a0b871abda1b1c14",
+  "junction-check.json": "c63f4aff69d5079fb2c029ec7983206f1851b74a9107a70afa3e9af0397b1019",
+  "provenance.json": "b4d067b0abb0df6cec98bf742df349748aa87816f69b4321878db9616c07b486",
+  "raw-exact-check.json": "d518bf2f0ba8a165478b83534d47e29e1647640caedcc936a43cb96841bdc5ae",
+  "raw_exact_check.executed.py": "8cb43ea73c9dae71959d6e49ace6cf3708aa5a6df678219736d45b9a8771c9b4",
+  "raw_exact_check.py": "11cfdba59062f5bd3a6c8f616d11e48a8e73779c57d9972e480be20fcfaa9b86"
+}

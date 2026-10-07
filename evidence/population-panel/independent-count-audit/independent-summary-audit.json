@@ -1,0 +1,175 @@
+{
+  "status": "PASS",
+  "method": "Reconstruct from frozen public panel and per-assay TSVs; exact integer threshold arithmetic, including ref+alt>=95%, independent of primary merged categorical labels. Compare all merged categories, specified allele-retention flags and preselected spacing.",
+  "panel_loci": 165782,
+  "joint_loci": 4015,
+  "categories": {
+    "ref_dominant": 2283,
+    "alt_dominant": 590,
+    "ref_alt_mixed": 1109,
+    "residual": 33
+  },
+  "category_retention": {
+    "ref_dominant": {
+      "n": 2283,
+      "retain90": 2272,
+      "retain98": 2189,
+      "opposite98": 0
+    },
+    "alt_dominant": {
+      "n": 590,
+      "retain90": 588,
+      "retain98": 571,
+      "opposite98": 0
+    },
+    "ref_alt_mixed": {
+      "n": 1109
+    },
+    "residual": {
+      "n": 33
+    }
+  },
+  "attrition": {
+    "selected": 165782,
+    "DNA_observed": 62358,
+    "DNA_callable": 35885,
+    "RNA_observed": 78071,
+    "RNA_callable": 4072,
+    "joint": 4015
+  },
+  "by_chr_attrition": {
+    "chr2": {
+      "selected": 38913,
+      "DNA_observed": 14343,
+      "DNA_callable": 7902,
+      "RNA_observed": 17642,
+      "RNA_callable": 878,
+      "joint": 862
+    },
+    "chr3": {
+      "selected": 32702,
+      "DNA_observed": 11475,
+      "DNA_callable": 6375,
+      "RNA_observed": 15236,
+      "RNA_callable": 653,
+      "joint": 647
+    },
+    "chr5": {
+      "selected": 28606,
+      "DNA_observed": 9848,
+      "DNA_callable": 5379,
+      "RNA_observed": 12688,
+      "RNA_callable": 735,
+      "joint": 723
+    },
+    "chr8": {
+      "selected": 22440,
+      "DNA_observed": 7497,
+      "DNA_callable": 4155,
+      "RNA_observed": 8969,
+      "RNA_callable": 454,
+      "joint": 450
+    },
+    "chr9": {
+      "selected": 22144,
+      "DNA_observed": 8224,
+      "DNA_callable": 4985,
+      "RNA_observed": 10049,
+      "RNA_callable": 545,
+      "joint": 541
+    },
+    "chr17": {
+      "selected": 20977,
+      "DNA_observed": 10971,
+      "DNA_callable": 7089,
+      "RNA_observed": 13487,
+      "RNA_callable": 807,
+      "joint": 792
+    }
+  },
+  "joint_breadth": {
+    "loci": 4015,
+    "chromosomes": {
+      "chr17": 792,
+      "chr5": 723,
+      "chr8": 450,
+      "chr2": 862,
+      "chr9": 541,
+      "chr3": 647
+    },
+    "unique_genes": 1451,
+    "oneMb_bins": 606,
+    "distance_n": 4009,
+    "distance_min": 1,
+    "distance_median": 16550,
+    "distance_max": 27121579,
+    "distance_under1000": 885
+  },
+  "dominant_breadth": {
+    "loci": 2873,
+    "chromosomes": {
+      "chr17": 553,
+      "chr5": 534,
+      "chr9": 421,
+      "chr2": 618,
+      "chr3": 462,
+      "chr8": 285
+    },
+    "unique_genes": 1194,
+    "oneMb_bins": 554,
+    "distance_n": 2867,
+    "distance_min": 1,
+    "distance_median": 24880,
+    "distance_max": 28374294,
+    "distance_under1000": 549
+  },
+  "spaced_public": 17264,
+  "spaced_joint_breadth": {
+    "loci": 165,
+    "chromosomes": {
+      "chr5": 37,
+      "chr17": 28,
+      "chr3": 25,
+      "chr8": 15,
+      "chr2": 44,
+      "chr9": 16
+    },
+    "unique_genes": 140,
+    "oneMb_bins": 147,
+    "distance_n": 159,
+    "distance_min": 50164,
+    "distance_median": 3333932,
+    "distance_max": 50398906,
+    "distance_under1000": 0
+  },
+  "spaced_retention": {
+    "ref_alt_mixed": {
+      "n": 43
+    },
+    "alt_dominant": {
+      "n": 25,
+      "retain90": 25,
+      "retain98": 24,
+      "opposite98": 0
+    },
+    "ref_dominant": {
+      "n": 95,
+      "retain90": 95,
+      "retain98": 91,
+      "opposite98": 0
+    },
+    "residual": {
+      "n": 2
+    }
+  },
+  "summary_differences": [],
+  "old_DNA_comparison": {
+    "old_loci": 62358,
+    "new_loci": 62358,
+    "new_sites": 0,
+    "old_missing": 0,
+    "integer_fields_per_locus": 15,
+    "differences": []
+  },
+  "created_utc": "2026-10-05T06:47:54.991792+00:00"
+}

@@ -1,0 +1,106 @@
+{
+  "resident_root": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-hla-allele-support",
+  "workspace_handoff_root": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/hla-allele-support",
+  "files": [
+    {
+      "file": "findings.txt",
+      "bytes": 4730,
+      "sha256": "94fc9202f0fc9cfea99c383ef1452e497722c1978fcabc621273d2d113f63ef3"
+    },
+    {
+      "file": "findings.json",
+      "bytes": 6875,
+      "sha256": "b12e81389130883675648109d7d0dd497b2219f6cdd66e9dc84dce2b81809eb0"
+    },
+    {
+      "file": "matched-window-support.tsv",
+      "bytes": 1805,
+      "sha256": "2408bf90d9f4b7c75e5d81d56365e0717d279995b4122dbb789665b0a4f070a1"
+    },
+    {
+      "file": "marker-footprint91.tsv",
+      "bytes": 18961,
+      "sha256": "e4532cd830de00540351d345e0feec58bf3d67ce16a44c0ca57b717fd88393c5"
+    },
+    {
+      "file": "common-haplotype-summary.json",
+      "bytes": 2109,
+      "sha256": "3de8b78770d8c54f60398accd202cb41f930e9b2297e4e998cc29cd2d16d6d77"
+    },
+    {
+      "file": "common-public-controls.json",
+      "bytes": 29121,
+      "sha256": "909684464325433d0a97467ddfebe9053d938ff4b757504885f47efcddd9fe12"
+    },
+    {
+      "file": "representative-coordinate-alignment.json",
+      "bytes": 895,
+      "sha256": "2a7a8cc8fcb37bddd62f98078c35ee9e7e656139be64b0b93b36b301151da3dc"
+    },
+    {
+      "file": "nonB-genomic-mask.json",
+      "bytes": 647,
+      "sha256": "2f0f79467c8fcf1f0b41dc066de9929f75274401de7061434c0fe3eaf5d488a9"
+    },
+    {
+      "file": "independent-recount91.json",
+      "bytes": 281683,
+      "sha256": "f344bace8ca122255f3c35fc980ccac902c1df87453bea80d193d67a0ad635fb"
+    },
+    {
+      "file": "prepare_common_haplotypes.py",
+      "bytes": 3578,
+      "sha256": "56bc5cc1a22cdfcc04a3817760278f8e9159e5c5fe41c40b5138d57bea6c1220"
+    },
+    {
+      "file": "count_common_haplotypes.py",
+      "bytes": 7486,
+      "sha256": "61c2ade43fd762e9815f2fc81765b5f8668e93903e94fdf1bbc17139561851e4"
+    },
+    {
+      "file": "mask_nonB_genomic_hla.py",
+      "bytes": 1888,
+      "sha256": "8c29593e67b9abef07abf53b19b1b0e0b579792f66f4dd8f9b1228896c2aacdd"
+    },
+    {
+      "file": "independent_recount91.py",
+      "bytes": 3433,
+      "sha256": "4b3de75d648c56dab78a614e6d1384f93e706b44f295df36faa69c19f0aaca67"
+    },
+    {
+      "file": "compile_findings.py",
+      "bytes": 9327,
+      "sha256": "78ec0df69a3039f35a07f33548192ddeb95de9754b5297acfa00d466a1c6cafd"
+    },
+    {
+      "file": "patient-scan.log",
+      "bytes": 4768,
+      "sha256": "1021800197bf70e2a5a2dcc37ca51e1f32a490898dd245840bc16f275a796001"
+    },
+    {
+      "file": "common-patient-scan.log",
+      "bytes": 5171,
+      "sha256": "bb2e71aceb12d28d1aeac03e13a70f586c51f772b1ba21b315a2be56083145ef"
+    },
+    {
+      "file": "mask-and-control-summary.json",
+      "bytes": 589,
+      "sha256": "0cef929d23ba5cc58ca02bfb1f297a3a52ad72db432f7162f053d5d4cf6c5d99"
+    },
+    {
+      "file": "intermediate-compression.json",
+      "bytes": 378,
+      "sha256": "36c6a5cd5b657c8df99b5ac7bdd88f4d63e4688e24082dd86d920e751c64b027"
+    }
+  ],
+  "large_evidence_retained_resident": [
+    "common-patient-counts.json",
+    "common-haplotype-markers.json.gz",
+    "common-positive.R1.fastq.gz",
+    "common-positive.R2.fastq.gz",
+    "common-positive-evidence.jsonl.gz",
+    "markers-unmasked.json.gz",
+    "markers.json",
+    "gencode.v37.transcripts.fa.gz"
+  ]
+}

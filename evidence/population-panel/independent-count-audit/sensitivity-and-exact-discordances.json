@@ -1,0 +1,1058 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-05T06:50:11.697847+00:00",
+  "method": "Exact per-base allele screen over all4015 baseline jointly callable sites, including mixed/residual DNA. Both ACGT depths>=50; each unexpected base DNA<=2%, RNA>=10% and>=10QNAME counts. Primary aggregation is not used for exact-base triage. Mode summaries recategorize only loci retaining depth20; fixed-baseline summaries retain original dominant-allele designation.",
+  "mode_summary": {
+    "baseline": {
+      "attrition": {
+        "baseline_joint_loci": 4015,
+        "mode_joint_callable20": 4015
+      },
+      "categories": {
+        "ref_dominant": {
+          "n": 2283,
+          "retain90": 2272,
+          "retain98": 2189
+        },
+        "alt_dominant": {
+          "n": 590,
+          "retain90": 588,
+          "retain98": 571
+        },
+        "ref_alt_mixed": {
+          "n": 1109
+        },
+        "residual": {
+          "n": 33
+        }
+      },
+      "exact_strong_allele_events": 6,
+      "exact_strong_loci": 6
+    },
+    "clean_no_softclip_edge5": {
+      "attrition": {
+        "baseline_joint_loci": 4015,
+        "mode_joint_callable20": 3357
+      },
+      "categories": {
+        "ref_dominant": {
+          "n": 1918,
+          "retain90": 1914,
+          "retain98": 1868
+        },
+        "alt_dominant": {
+          "n": 496,
+          "retain90": 496,
+          "retain98": 491
+        },
+        "ref_alt_mixed": {
+          "n": 922
+        },
+        "residual": {
+          "n": 21
+        }
+      },
+      "exact_strong_allele_events": 2,
+      "exact_strong_loci": 2
+    },
+    "MAPQ60": {
+      "attrition": {
+        "baseline_joint_loci": 4015,
+        "mode_joint_callable20": 4010
+      },
+      "categories": {
+        "ref_dominant": {
+          "n": 2288,
+          "retain90": 2273,
+          "retain98": 2187
+        },
+        "alt_dominant": {
+          "n": 588,
+          "retain90": 586,
+          "retain98": 569
+        },
+        "ref_alt_mixed": {
+          "n": 1100
+        },
+        "residual": {
+          "n": 34
+        }
+      },
+      "exact_strong_allele_events": 9,
+      "exact_strong_loci": 9
+    },
+    "NH_unique_if_tagged": {
+      "attrition": {
+        "baseline_joint_loci": 4015,
+        "mode_joint_callable20": 4015
+      },
+      "categories": {
+        "ref_dominant": {
+          "n": 2283,
+          "retain90": 2272,
+          "retain98": 2189
+        },
+        "alt_dominant": {
+          "n": 590,
+          "retain90": 588,
+          "retain98": 571
+        },
+        "ref_alt_mixed": {
+          "n": 1109
+        },
+        "residual": {
+          "n": 33
+        }
+      },
+      "exact_strong_allele_events": 6,
+      "exact_strong_loci": 6
+    }
+  },
+  "fixed_baseline_dominant_sensitivity": {
+    "baseline": {
+      "baseline_dominant_still_joint20": 2873,
+      "RNA_retains_original_DNA_dominant_at90": 2860,
+      "RNA_retains_original_DNA_dominant_at98": 2760
+    },
+    "clean_no_softclip_edge5": {
+      "baseline_dominant_still_joint20": 2406,
+      "RNA_retains_original_DNA_dominant_at90": 2402,
+      "RNA_retains_original_DNA_dominant_at98": 2352
+    },
+    "MAPQ60": {
+      "baseline_dominant_still_joint20": 2868,
+      "RNA_retains_original_DNA_dominant_at90": 2855,
+      "RNA_retains_original_DNA_dominant_at98": 2755
+    },
+    "NH_unique_if_tagged": {
+      "baseline_dominant_still_joint20": 2873,
+      "RNA_retains_original_DNA_dominant_at90": 2860,
+      "RNA_retains_original_DNA_dominant_at98": 2760
+    }
+  },
+  "exact_events_by_mode": {
+    "baseline": [
+      {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 58,
+          "T": 0
+        },
+        "RNA": {
+          "A": 116,
+          "C": 0,
+          "G": 327,
+          "T": 0
+        },
+        "DNA_depth": 58,
+        "RNA_depth": 443,
+        "RNA_fraction": 0.2618510158013544,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 87,
+          "T": 0
+        },
+        "RNA": {
+          "A": 0,
+          "C": 27,
+          "G": 36,
+          "T": 0
+        },
+        "DNA_depth": 87,
+        "RNA_depth": 63,
+        "RNA_fraction": 0.42857142857142855,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "DNA": {
+          "A": 0,
+          "C": 153,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 22,
+          "C": 74,
+          "G": 1,
+          "T": 0
+        },
+        "DNA_depth": 153,
+        "RNA_depth": 97,
+        "RNA_fraction": 0.2268041237113402,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "DNA": {
+          "A": 0,
+          "C": 912,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 0,
+          "C": 9,
+          "G": 104,
+          "T": 0
+        },
+        "DNA_depth": 912,
+        "RNA_depth": 113,
+        "RNA_fraction": 0.9203539823008849,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "DNA": {
+          "A": 94,
+          "C": 0,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 400,
+          "C": 0,
+          "G": 65,
+          "T": 0
+        },
+        "DNA_depth": 94,
+        "RNA_depth": 465,
+        "RNA_fraction": 0.13978494623655913,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 101,
+          "T": 0
+        },
+        "RNA": {
+          "A": 1,
+          "C": 78,
+          "G": 358,
+          "T": 0
+        },
+        "DNA_depth": 101,
+        "RNA_depth": 437,
+        "RNA_fraction": 0.17848970251716248,
+        "DNA_fraction": 0.0
+      }
+    ],
+    "clean_no_softclip_edge5": [
+      {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "DNA": {
+          "A": 0,
+          "C": 815,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 0,
+          "C": 7,
+          "G": 53,
+          "T": 0
+        },
+        "DNA_depth": 815,
+        "RNA_depth": 60,
+        "RNA_fraction": 0.8833333333333333,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 96,
+          "T": 0
+        },
+        "RNA": {
+          "A": 0,
+          "C": 31,
+          "G": 218,
+          "T": 0
+        },
+        "DNA_depth": 96,
+        "RNA_depth": 249,
+        "RNA_fraction": 0.12449799196787148,
+        "DNA_fraction": 0.0
+      }
+    ],
+    "MAPQ60": [
+      {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 58,
+          "T": 0
+        },
+        "RNA": {
+          "A": 116,
+          "C": 0,
+          "G": 327,
+          "T": 0
+        },
+        "DNA_depth": 58,
+        "RNA_depth": 443,
+        "RNA_fraction": 0.2618510158013544,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "DNA": {
+          "A": 0,
+          "C": 230,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 0,
+          "C": 72,
+          "G": 0,
+          "T": 153
+        },
+        "DNA_depth": 230,
+        "RNA_depth": 225,
+        "RNA_fraction": 0.68,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 87,
+          "T": 0
+        },
+        "RNA": {
+          "A": 0,
+          "C": 27,
+          "G": 36,
+          "T": 0
+        },
+        "DNA_depth": 87,
+        "RNA_depth": 63,
+        "RNA_fraction": 0.42857142857142855,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "DNA": {
+          "A": 118,
+          "C": 0,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 913,
+          "C": 0,
+          "G": 357,
+          "T": 0
+        },
+        "DNA_depth": 118,
+        "RNA_depth": 1270,
+        "RNA_fraction": 0.2811023622047244,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "DNA": {
+          "A": 0,
+          "C": 146,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 22,
+          "C": 74,
+          "G": 1,
+          "T": 0
+        },
+        "DNA_depth": 146,
+        "RNA_depth": 97,
+        "RNA_fraction": 0.2268041237113402,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "DNA": {
+          "A": 0,
+          "C": 912,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 0,
+          "C": 9,
+          "G": 104,
+          "T": 0
+        },
+        "DNA_depth": 912,
+        "RNA_depth": 113,
+        "RNA_fraction": 0.9203539823008849,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "DNA": {
+          "A": 94,
+          "C": 0,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 400,
+          "C": 0,
+          "G": 65,
+          "T": 0
+        },
+        "DNA_depth": 94,
+        "RNA_depth": 465,
+        "RNA_fraction": 0.13978494623655913,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 101,
+          "T": 0
+        },
+        "RNA": {
+          "A": 1,
+          "C": 78,
+          "G": 358,
+          "T": 0
+        },
+        "DNA_depth": 101,
+        "RNA_depth": 437,
+        "RNA_fraction": 0.17848970251716248,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 260,
+          "T": 0
+        },
+        "RNA": {
+          "A": 22,
+          "C": 0,
+          "G": 70,
+          "T": 0
+        },
+        "DNA_depth": 260,
+        "RNA_depth": 92,
+        "RNA_fraction": 0.2391304347826087,
+        "DNA_fraction": 0.0
+      }
+    ],
+    "NH_unique_if_tagged": [
+      {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 58,
+          "T": 0
+        },
+        "RNA": {
+          "A": 116,
+          "C": 0,
+          "G": 327,
+          "T": 0
+        },
+        "DNA_depth": 58,
+        "RNA_depth": 443,
+        "RNA_fraction": 0.2618510158013544,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 87,
+          "T": 0
+        },
+        "RNA": {
+          "A": 0,
+          "C": 27,
+          "G": 36,
+          "T": 0
+        },
+        "DNA_depth": 87,
+        "RNA_depth": 63,
+        "RNA_fraction": 0.42857142857142855,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "DNA": {
+          "A": 0,
+          "C": 153,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 22,
+          "C": 74,
+          "G": 1,
+          "T": 0
+        },
+        "DNA_depth": 153,
+        "RNA_depth": 97,
+        "RNA_fraction": 0.2268041237113402,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "DNA": {
+          "A": 0,
+          "C": 912,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 0,
+          "C": 9,
+          "G": 104,
+          "T": 0
+        },
+        "DNA_depth": 912,
+        "RNA_depth": 113,
+        "RNA_fraction": 0.9203539823008849,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "DNA": {
+          "A": 94,
+          "C": 0,
+          "G": 0,
+          "T": 0
+        },
+        "RNA": {
+          "A": 400,
+          "C": 0,
+          "G": 65,
+          "T": 0
+        },
+        "DNA_depth": 94,
+        "RNA_depth": 465,
+        "RNA_fraction": 0.13978494623655913,
+        "DNA_fraction": 0.0
+      },
+      {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "DNA": {
+          "A": 0,
+          "C": 0,
+          "G": 101,
+          "T": 0
+        },
+        "RNA": {
+          "A": 1,
+          "C": 78,
+          "G": 358,
+          "T": 0
+        },
+        "DNA_depth": 101,
+        "RNA_depth": 437,
+        "RNA_fraction": 0.17848970251716248,
+        "DNA_fraction": 0.0
+      }
+    ]
+  },
+  "baseline_events_all_sensitivities": [
+    {
+      "chrom": "chr2",
+      "pos1": 189043211,
+      "gene_symbols": "COL5A2",
+      "unexpected_base": "A",
+      "DNA": {
+        "A": 0,
+        "C": 0,
+        "G": 58,
+        "T": 0
+      },
+      "RNA": {
+        "A": 116,
+        "C": 0,
+        "G": 327,
+        "T": 0
+      },
+      "DNA_depth": 58,
+      "RNA_depth": 443,
+      "RNA_fraction": 0.2618510158013544,
+      "DNA_fraction": 0.0,
+      "sensitivity_all_counts": {
+        "clean_no_softclip_edge5": {
+          "DNA": {
+            "A": 0,
+            "C": 0,
+            "G": 55,
+            "T": 0
+          },
+          "RNA": {
+            "A": 0,
+            "C": 0,
+            "G": 183,
+            "T": 0
+          }
+        },
+        "MAPQ60": {
+          "DNA": {
+            "A": 0,
+            "C": 0,
+            "G": 58,
+            "T": 0
+          },
+          "RNA": {
+            "A": 116,
+            "C": 0,
+            "G": 327,
+            "T": 0
+          }
+        },
+        "NH_unique_if_tagged": {
+          "DNA": {
+            "A": 0,
+            "C": 0,
+            "G": 58,
+            "T": 0
+          },
+          "RNA": {
+            "A": 116,
+            "C": 0,
+            "G": 327,
+            "T": 0
+          }
+        }
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 195568834,
+      "gene_symbols": "APOD",
+      "unexpected_base": "C",
+      "DNA": {
+        "A": 0,
+        "C": 0,
+        "G": 87,
+        "T": 0
+      },
+      "RNA": {
+        "A": 0,
+        "C": 27,
+        "G": 36,
+        "T": 0
+      },
+      "DNA_depth": 87,
+      "RNA_depth": 63,
+      "RNA_fraction": 0.42857142857142855,
+      "DNA_fraction": 0.0,
+      "sensitivity_all_counts": {
+        "clean_no_softclip_edge5": {
+          "DNA": {
+            "A": 0,
+            "C": 0,
+            "G": 47,
+            "T": 0
+          },
+          "RNA": {
+            "A": 0,
+            "C": 24,
+            "G": 0,
+            "T": 0
+          }
+        },
+        "MAPQ60": {
+          "DNA": {
+            "A": 0,
+            "C": 0,
+            "G": 87,
+            "T": 0
+          },
+          "RNA": {
+            "A": 0,
+            "C": 27,
+            "G": 36,
+            "T": 0
+          }
+        },
+        "NH_unique_if_tagged": {
+          "DNA": {
+            "A": 0,
+            "C": 0,
+            "G": 87,
+            "T": 0
+          },
+          "RNA": {
+            "A": 0,
+            "C": 27,
+            "G": 36,
+            "T": 0
+          }
+        }
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 443259,
+      "gene_symbols": "EXOC3",
+      "unexpected_base": "A",
+      "DNA": {
+        "A": 0,
+        "C": 153,
+        "G": 0,
+        "T": 0
+      },
+      "RNA": {
+        "A": 22,
+        "C": 74,
+        "G": 1,
+        "T": 0
+      },
+      "DNA_depth": 153,
+      "RNA_depth": 97,
+      "RNA_fraction": 0.2268041237113402,
+      "DNA_fraction": 0.0,
+      "sensitivity_all_counts": {
+        "clean_no_softclip_edge5": {
+          "DNA": {
+            "A": 0,
+            "C": 132,
+            "G": 0,
+            "T": 0
+          },
+          "RNA": {
+            "A": 21,
+            "C": 11,
+            "G": 1,
+            "T": 0
+          }
+        },
+        "MAPQ60": {
+          "DNA": {
+            "A": 0,
+            "C": 146,
+            "G": 0,
+            "T": 0
+          },
+          "RNA": {
+            "A": 22,
+            "C": 74,
+            "G": 1,
+            "T": 0
+          }
+        },
+        "NH_unique_if_tagged": {
+          "DNA": {
+            "A": 0,
+            "C": 153,
+            "G": 0,
+            "T": 0
+          },
+          "RNA": {
+            "A": 22,
+            "C": 74,
+            "G": 1,
+            "T": 0
+          }
+        }
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 80654917,
+      "gene_symbols": "MSH3;DHFR",
+      "unexpected_base": "G",
+      "DNA": {
+        "A": 0,
+        "C": 912,
+        "G": 0,
+        "T": 0
+      },
+      "RNA": {
+        "A": 0,
+        "C": 9,
+        "G": 104,
+        "T": 0
+      },
+      "DNA_depth": 912,
+      "RNA_depth": 113,
+      "RNA_fraction": 0.9203539823008849,
+      "DNA_fraction": 0.0,
+      "sensitivity_all_counts": {
+        "clean_no_softclip_edge5": {
+          "DNA": {
+            "A": 0,
+            "C": 815,
+            "G": 0,
+            "T": 0
+          },
+          "RNA": {
+            "A": 0,
+            "C": 7,
+            "G": 53,
+            "T": 0
+          }
+        },
+        "MAPQ60": {
+          "DNA": {
+            "A": 0,
+            "C": 912,
+            "G": 0,
+            "T": 0
+          },
+          "RNA": {
+            "A": 0,
+            "C": 9,
+            "G": 104,
+            "T": 0
+          }
+        },
+        "NH_unique_if_tagged": {
+          "DNA": {
+            "A": 0,
+            "C": 912,
+            "G": 0,
+            "T": 0
+          },
+          "RNA": {
+            "A": 0,
+            "C": 9,
+            "G": 104,
+            "T": 0
+          }
+        }
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 100705591,
+      "gene_symbols": "PABPC1",
+      "unexpected_base": "G",
+      "DNA": {
+        "A": 94,
+        "C": 0,
+        "G": 0,
+        "T": 0
+      },
+      "RNA": {
+        "A": 400,
+        "C": 0,
+        "G": 65,
+        "T": 0
+      },
+      "DNA_depth": 94,
+      "RNA_depth": 465,
+      "RNA_fraction": 0.13978494623655913,
+      "DNA_fraction": 0.0,
+      "sensitivity_all_counts": {
+        "clean_no_softclip_edge5": {
+          "DNA": {
+            "A": 88,
+            "C": 0,
+            "G": 0,
+            "T": 0
+          },
+          "RNA": {
+            "A": 278,
+            "C": 0,
+            "G": 9,
+            "T": 0
+          }
+        },
+        "MAPQ60": {
+          "DNA": {
+            "A": 94,
+            "C": 0,
+            "G": 0,
+            "T": 0
+          },
+          "RNA": {
+            "A": 400,
+            "C": 0,
+            "G": 65,
+            "T": 0
+          }
+        },
+        "NH_unique_if_tagged": {
+          "DNA": {
+            "A": 94,
+            "C": 0,
+            "G": 0,
+            "T": 0
+          },
+          "RNA": {
+            "A": 400,
+            "C": 0,
+            "G": 65,
+            "T": 0
+          }
+        }
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 100705604,
+      "gene_symbols": "PABPC1",
+      "unexpected_base": "C",
+      "DNA": {
+        "A": 0,
+        "C": 0,
+        "G": 101,
+        "T": 0
+      },
+      "RNA": {
+        "A": 1,
+        "C": 78,
+        "G": 358,
+        "T": 0
+      },
+      "DNA_depth": 101,
+      "RNA_depth": 437,
+      "RNA_fraction": 0.17848970251716248,
+      "DNA_fraction": 0.0,
+      "sensitivity_all_counts": {
+        "clean_no_softclip_edge5": {
+          "DNA": {
+            "A": 0,
+            "C": 0,
+            "G": 96,
+            "T": 0
+          },
+          "RNA": {
+            "A": 0,
+            "C": 31,
+            "G": 218,
+            "T": 0
+          }
+        },
+        "MAPQ60": {
+          "DNA": {
+            "A": 0,
+            "C": 0,
+            "G": 101,
+            "T": 0
+          },
+          "RNA": {
+            "A": 1,
+            "C": 78,
+            "G": 358,
+            "T": 0
+          }
+        },
+        "NH_unique_if_tagged": {
+          "DNA": {
+            "A": 0,
+            "C": 0,
+            "G": 101,
+            "T": 0
+          },
+          "RNA": {
+            "A": 1,
+            "C": 78,
+            "G": 358,
+            "T": 0
+          }
+        }
+      }
+    }
+  ],
+  "input_hashes": {
+    "DNA": "15c747896abba361b1bca17b0bc182bed90c80212bc8194ed8e576c07d5843b7",
+    "RNA": "80ef5df04399ccd3384a0738bf5995478a3271c37d811d81eae294226e338ad7"
+  },
+  "limitations": [
+    "Sensitivity filters do not establish gene of origin or explain discrepancies.",
+    "Drop below depth50 is loss of screen assessability, not resolution. For example APOD and EXOC3 remain discordant after clean filters but fail the depth50 screen.",
+    "Separate neighboring PABPC1 SNPs may arise from shared RNA fragments and are not independent evidence.",
+    "MAPQ60 and NH-unique results can remain unchanged for STAR alignments scored255; these tags do not establish unique molecular origin.",
+    "No identity probability, contamination fraction, clinical diagnosis or treatment inference."
+  ]
+}

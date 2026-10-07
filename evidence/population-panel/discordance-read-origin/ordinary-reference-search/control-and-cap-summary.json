@@ -1,0 +1,134 @@
+{
+  "seven_normal_parent_edit_splice_controls": [
+    {
+      "control": "C_HEG1_parent",
+      "true_window_nominated": true,
+      "expected_score": 322,
+      "observed_score": 322.0,
+      "pass": true
+    },
+    {
+      "control": "C_CCND1_parent",
+      "true_window_nominated": true,
+      "expected_score": 322,
+      "observed_score": 322.0,
+      "pass": true
+    },
+    {
+      "control": "C_HEG1_three_substitutions",
+      "true_window_nominated": true,
+      "expected_score": 304,
+      "observed_score": 304.0,
+      "pass": true
+    },
+    {
+      "control": "C_HEG1_one_insertion",
+      "true_window_nominated": true,
+      "expected_score": 316,
+      "observed_score": 316.0,
+      "pass": true
+    },
+    {
+      "control": "C_HEG1_two_deletion",
+      "true_window_nominated": true,
+      "expected_score": 311,
+      "observed_score": 311.0,
+      "pass": true
+    },
+    {
+      "control": "C_MET_canonical_splice",
+      "true_window_nominated": true,
+      "expected_score": 322,
+      "observed_score": 322.0,
+      "pass": true
+    },
+    {
+      "control": "C_annotated_INS_IGF2_transcript",
+      "true_window_nominated": true,
+      "expected_score": 322,
+      "observed_score": 322.0,
+      "pass": true
+    }
+  ],
+  "repeat_control": "Many placements and explicit caps; not treated as unique or as a sensitivity benchmark.",
+  "capped_seed_count": {
+    "genome": 0,
+    "transcript": 5
+  },
+  "oriented_queries_affected_by_seed_caps": {
+    "genome": [],
+    "transcript": [
+      "C_repeat_nonunique+",
+      "C_repeat_nonunique-",
+      "chr5_443259_RNA_A_1-",
+      "chr5_443259_RNA_A_2-",
+      "chr5_443259_RNA_A_3-",
+      "chr5_443259_RNA_A_4-",
+      "chr5_443259_RNA_A_6-",
+      "chr5_443259_RNA_A_7+",
+      "chr5_443259_RNA_A_8+",
+      "chr5_443259_RNA_C_3+",
+      "chr5_443259_RNA_C_3-",
+      "chr5_443259_RNA_C_4+"
+    ]
+  },
+  "window_caps": [
+    {
+      "query": "chr5_443259_RNA_A_7+",
+      "reference": "transcript",
+      "nominated": 522
+    },
+    {
+      "query": "chr5_443259_RNA_A_8+",
+      "reference": "transcript",
+      "nominated": 524
+    },
+    {
+      "query": "chr5_443259_RNA_C_3+",
+      "reference": "genome",
+      "nominated": 867
+    },
+    {
+      "query": "chr5_443259_RNA_C_3+",
+      "reference": "transcript",
+      "nominated": 940
+    },
+    {
+      "query": "chr5_443259_RNA_C_3-",
+      "reference": "genome",
+      "nominated": 743
+    },
+    {
+      "query": "chr5_443259_RNA_C_3-",
+      "reference": "transcript",
+      "nominated": 822
+    },
+    {
+      "query": "chr5_443259_RNA_C_4+",
+      "reference": "transcript",
+      "nominated": 548
+    },
+    {
+      "query": "C_repeat_nonunique+",
+      "reference": "genome",
+      "nominated": 3435
+    },
+    {
+      "query": "C_repeat_nonunique+",
+      "reference": "transcript",
+      "nominated": 4366
+    },
+    {
+      "query": "C_repeat_nonunique-",
+      "reference": "genome",
+      "nominated": 3110
+    },
+    {
+      "query": "C_repeat_nonunique-",
+      "reference": "transcript",
+      "nominated": 3650
+    }
+  ],
+  "patient_windows_scored": 15631,
+  "all_windows_scored_including_controls": 17664
+}

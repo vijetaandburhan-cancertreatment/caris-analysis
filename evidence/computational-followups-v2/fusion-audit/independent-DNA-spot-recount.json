@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "candidate_id": "078bc453229c",
+      "gene": "CEACAM3",
+      "eligible_read_alignments": 4582,
+      "counts": [
+        {
+          "arm": 25,
+          "minimum_base_quality": 20,
+          "separate_recount_fragments": 162,
+          "expected": 162,
+          "match": true
+        },
+        {
+          "arm": 25,
+          "minimum_base_quality": 30,
+          "separate_recount_fragments": 137,
+          "expected": 137,
+          "match": true
+        },
+        {
+          "arm": 50,
+          "minimum_base_quality": 20,
+          "separate_recount_fragments": 100,
+          "expected": 100,
+          "match": true
+        },
+        {
+          "arm": 50,
+          "minimum_base_quality": 30,
+          "separate_recount_fragments": 55,
+          "expected": 55,
+          "match": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "e2a8e3625460",
+      "gene": "KRTAP9-1",
+      "eligible_read_alignments": 8129,
+      "counts": [
+        {
+          "arm": 25,
+          "minimum_base_quality": 20,
+          "separate_recount_fragments": 731,
+          "expected": 731,
+          "match": true
+        },
+        {
+          "arm": 25,
+          "minimum_base_quality": 30,
+          "separate_recount_fragments": 675,
+          "expected": 675,
+          "match": true
+        },
+        {
+          "arm": 50,
+          "minimum_base_quality": 20,
+          "separate_recount_fragments": 329,
+          "expected": 329,
+          "match": true
+        },
+        {
+          "arm": 50,
+          "minimum_base_quality": 30,
+          "separate_recount_fragments": 262,
+          "expected": 262,
+          "match": true
+        }
+      ]
+    }
+  ],
+  "method": "Fresh indexed DNA BAM fetch; explicit MAPQ20 and primary/mapped/nonduplicate/non-QCfail flag conditions; all string occurrences checked, Q20/Q30, query-name+read-group collapse. Same predeclared local intervals as peer; no CIGAR/haplotype or protein inference in this spot test.",
+  "limits": [
+    "Confirms local exact sequence evidence, not somatic status, genomic uniqueness, original molecule count or clinical relevance.",
+    "This is a second implementation over the same BAM and caller-derived marker, not independent tissue or assay validation."
+  ]
+}

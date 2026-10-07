@@ -1,0 +1,55 @@
+{
+  "status": "APPROVED",
+  "created_utc": "2026-10-05T07:38:17.714348+00:00",
+  "design_sha256": "785102bbcd822ed081462995a952c63f8879ea390c852b5128141447521d42f9",
+  "reviewer": "cancer_origin_analysis_design; independent feasibility/capture review",
+  "approval_scope": "This exact frozen local STAR-to-selective-BAM launch under existing authorization and guards. No patient alignment launched by reviewer. No approval for thresholds changed after seeing results.",
+  "source_hashes": {
+    "run_comparison.py": "a1a07e66c1a1a61bcc65760bffdab3e7dbf83630a0d6723511ff242f2ce6d0d4",
+    "select_capture.py": "cddc05f6234de42134f5ad9c94066db31501c28341584a53933f33e026f11817",
+    "qualify_capture.py": "20173536082d00922ccd3149e1d4d987b23239ffc5e9184eb03f680af53372ab",
+    "baseline-fixed-4015.tsv": "25934a24cd3057c0324d116fe5f67ad3584e1d0a131efa8a77481fc8fd0ede8d",
+    "baseline-sites.bed": "03b38f8fdfa38cb5c6d2bd10780501109079593cf957655333e7d9b61cb755c4",
+    "frozen-exception-sites.tsv": "36195e4c545e4d3615c9f0520dee5cb4dcc5711007b7d16753dbbfa911a910cb",
+    "frozen-exception-qnames.txt": "3b246b84e4c4cc058929cb6dea8b08c1317ecaadfd1d04e73425a19fb7f44912"
+  },
+  "checks": {
+    "STAR_parameters_exact_prior_match_except_output_prefix": true,
+    "frozen_sites_unique": 4015,
+    "all16_exception_sites_within_fixed_cohort": true,
+    "frozen_exception_qnames_unique": 3426,
+    "BED_exact_input_coordinate_correspondence": true,
+    "synthetic_capture_and10_CIGAR_boundaries": "PASS; independent-capture-qualification.json",
+    "capture_record_content_and_header_preservation": "PASS",
+    "capture_OR_not_intersection": true,
+    "no_capture_quality_or_flag_filter": true,
+    "new_full_BAM_or_Arriba_output": false,
+    "driver_revalidates_audit_design_and_input_hashes": true,
+    "driver_checks_closed_BAM_quickcheck_and_final_disk_output_bounds": true,
+    "driver_enforces_wall_and_UTC_deadline": true,
+    "producer_consumer_nonzero_exit_stops_pipeline": true,
+    "partial_evidence_preserved_on_failure": true,
+    "current_free_disk_bytes": 5610315776,
+    "no_patient_output_directory_at_review": true
+  },
+  "resource_guards_reviewed": {
+    "preflight_free_bytes_min": 4294967296,
+    "disk_abort_bytes": 3758096384,
+    "absolute_requested_floor_bytes": 3221225472,
+    "combined_RSS_abort_bytes": 12884901888,
+    "capture_abort_bytes": 268435456,
+    "own_run_bytes_abort": 536870912,
+    "poll_seconds": 2,
+    "wall_seconds_abort": 3600,
+    "deadline_utc": "2026-10-05T10:15:00Z"
+  },
+  "interpretation_conditions": [
+    "Capture includes M/=/X base-overlap records, not D/N-only ordinary records; therefore downstream comparisons should use unambiguous A/C/G/T query-name counts, not claim equality of all skip/deletion or nonACGT pileup inventories.",
+    "For frozen exceptional names the QNAME rule retains all records emitted by STAR even outside SNPs, including named D/N-only, secondary/supplementary and unmapped records. Completeness must be checked from actual capture name/mate inventories, not assumed.",
+    "Keep all4015 baseline sites and original DNA categories as the comparison denominator; report new low/zero coverage separately instead of replacing the cohort with surviving sites.",
+    "A new RNA alignment is not an independent specimen. Method differences can arise from versions, references, parameter settings, index sparsity and pair handling; not attributable solely to D8.",
+    "Sparse-index support changes are already documented; no clinical sensitivity, identity probability, contamination fraction or new treatment target follows from this branch.",
+    "External host writes or abrupt swap allocations can outrun polling; hard3GiB floor cannot be guaranteed against unrelated concurrent activity. Current driver aborts with0.5GiB margin and preserves partial evidence."
+  ],
+  "independent_capture_qualification_sha256": "b16be76ff6ad5b3b2d00b289c9bad1b58e052f6c619d230db0d4290744db985d"
+}

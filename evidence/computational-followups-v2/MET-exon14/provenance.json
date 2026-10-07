@@ -1,0 +1,23 @@
+{
+  "finalized_utc": "2026-10-05T04:58:43.715677+00:00",
+  "executed_raw_script": "raw_exact_check.executed.py",
+  "executed_raw_script_sha256": "8cb43ea73c9dae71959d6e49ace6cf3708aa5a6df678219736d45b9a8771c9b4",
+  "cleaned_raw_script": "raw_exact_check.py",
+  "cleaned_raw_script_sha256": "11cfdba59062f5bd3a6c8f616d11e48a8e73779c57d9972e480be20fcfaa9b86",
+  "postexecution_source_edit": "Removed only the always-true assertion and adjacent explanatory comment. No execution or result change.",
+  "AST_equal_after_removing_noop_assertion": true,
+  "result_JSONs_unchanged_sha256": {
+    "annotation.json": "ed6c240a7533f2afb9f824871622068020886abbc2478cc32462e4b6408d95ad",
+    "junction-check.json": "c63f4aff69d5079fb2c029ec7983206f1851b74a9107a70afa3e9af0397b1019",
+    "raw-exact-check.json": "d518bf2f0ba8a165478b83534d47e29e1647640caedcc936a43cb96841bdc5ae",
+    "independent-junction-check.json": "425fc10921c89fcb1e0b33710825d2620b928890c014e1f91b380ba8f14fa5a6"
+  },
+  "raw_scan_completed_utc": "2026-10-05T04:47:52.677463+00:00",
+  "raw_pairs_scanned": 23209264,
+  "independent_CIGAR_controls_passed": 9,
+  "independent_CIGAR_exact_query_name_sets_match": true,
+  "independent_raw_rescan_performed": false,
+  "durable_mirror": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-MET-exon14-audit",
+  "reference_annotation_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/gencode.v37.primary_assembly.annotation.gtf",
+  "scope": "Research-only canonical MET exon14 RNA splice check; no clinical assay validation or treatment inference."
+}

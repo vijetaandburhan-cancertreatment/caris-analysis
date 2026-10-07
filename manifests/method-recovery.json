@@ -1,0 +1,3139 @@
+{
+  "created_utc": "2026-10-07T01:32:13.841616+00:00",
+  "started_utc": "2026-10-07T01:32:06.974748+00:00",
+  "scope": "Authored-method completeness supplement; scripts copied, never executed. Only methods/recovered-standalone and this manifest modified.",
+  "files": [
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/audit-nf1-junction.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/audit-nf1-junction.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/audit-nf1-junction.py",
+      "bytes": 2469,
+      "sha256": "cd0ca28cc156a4b267ef88cbb813cc87dbf3ea743eb21bc6ba21e8c765e9c0b8",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "cd0ca28cc156a4b267ef88cbb813cc87dbf3ea743eb21bc6ba21e8c765e9c0b8",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/audit_candidate_bam.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/audit_candidate_bam.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/audit_candidate_bam.py",
+      "bytes": 4813,
+      "sha256": "a330046c2bbc77dd9242fec5979dfc35290ae9e40acad7504377b4d40c9ec8e1",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "a330046c2bbc77dd9242fec5979dfc35290ae9e40acad7504377b4d40c9ec8e1",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/fragment_distribution.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/fragment_distribution.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/fragment_distribution.py",
+      "bytes": 1152,
+      "sha256": "d0a2829319f6960c67dc5a7820b034d739efe6fdef6e35a6a28205ba98f3a937",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "d0a2829319f6960c67dc5a7820b034d739efe6fdef6e35a6a28205ba98f3a937",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/fragment_family_check.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/fragment_family_check.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/fragment_family_check.py",
+      "bytes": 2518,
+      "sha256": "a6392ff4391f773bf75923450b7c7303e321cfa08967858e8720dcdaa66196df",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "a6392ff4391f773bf75923450b7c7303e321cfa08967858e8720dcdaa66196df",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/independent-audit.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/independent-audit.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/independent-audit.py",
+      "bytes": 7632,
+      "sha256": "c58d20b2d11fc21ea647b20acef5c533e1c467bfaa478ca258e80d8252d30f5c",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "c58d20b2d11fc21ea647b20acef5c533e1c467bfaa478ca258e80d8252d30f5c",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/make_junction_queries.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/make_junction_queries.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/make_junction_queries.py",
+      "bytes": 1075,
+      "sha256": "c4d34d576cf22077f9ca8ccbf640b7d5205b6c267bdc954c7c4ccf80bbb76502",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "c4d34d576cf22077f9ca8ccbf640b7d5205b6c267bdc954c7c4ccf80bbb76502",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/patient_workflow.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/patient_workflow.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/patient_workflow.py",
+      "bytes": 4761,
+      "sha256": "57b041203df1afcbbeedfe255595d0af49b027674b6b8e31e89ad899905f0230",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "57b041203df1afcbbeedfe255595d0af49b027674b6b8e31e89ad899905f0230",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/public_smoke.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/public_smoke.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/public_smoke.py",
+      "bytes": 1669,
+      "sha256": "6c269e5344fb2789a9712d3fc81569e8ea3fba61d438eead4391784aca8808c8",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "6c269e5344fb2789a9712d3fc81569e8ea3fba61d438eead4391784aca8808c8",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/run_guarded.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/run_guarded.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/run_guarded.py",
+      "bytes": 3069,
+      "sha256": "775fa6849b96c88eb707e0288e01646788862f5a01879d97e8aaf7ac7703a33a",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "775fa6849b96c88eb707e0288e01646788862f5a01879d97e8aaf7ac7703a33a",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/setup_public_inputs.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/setup_public_inputs.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/setup_public_inputs.py",
+      "bytes": 3019,
+      "sha256": "e113ac8fc5bf6fcb132ae35df4914a6a1eec264eff58a78594b15239dce2d0dd",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "e113ac8fc5bf6fcb132ae35df4914a6a1eec264eff58a78594b15239dce2d0dd",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/summarize_bam_validation.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/summarize_bam_validation.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/summarize_bam_validation.py",
+      "bytes": 2934,
+      "sha256": "a406a5652f71d210e7f11dbb7765e061348497240b38c6fcf526c734c0808147",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "a406a5652f71d210e7f11dbb7765e061348497240b38c6fcf526c734c0808147",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/summarize_candidates.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/summarize_candidates.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/summarize_candidates.py",
+      "bytes": 4031,
+      "sha256": "be967d1494fcbb404abb60de6a0de4664f0a8f44501f5569e0c7603e834d04a4",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "be967d1494fcbb404abb60de6a0de4664f0a8f44501f5569e0c7603e834d04a4",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/validate_exact_junctions.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/validate_exact_junctions.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/validate_exact_junctions.py",
+      "bytes": 4792,
+      "sha256": "c753c2465bb49832b873d0a2e52ee7de69c4c5ddf698a657b8a359fafb7f88a7",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "c753c2465bb49832b873d0a2e52ee7de69c4c5ddf698a657b8a359fafb7f88a7",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/validate_junction_window.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/validate_junction_window.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/validate_junction_window.py",
+      "bytes": 2199,
+      "sha256": "b438345085f9a58e13b8e62104c249479cf20bcaa4669a4028413b22f0e39ddd",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "b438345085f9a58e13b8e62104c249479cf20bcaa4669a4028413b22f0e39ddd",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/fusion-next-step/write_findings.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct1-fusion-results/write_findings.py",
+      "destination": "methods/recovered-standalone/oct1-deep/fusion-next-step/write_findings.py",
+      "bytes": 7285,
+      "sha256": "d6df9ff3e124bc285239bfb4b6425edb0c65f932cfea9872047da0cb17b3c032",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "d6df9ff3e124bc285239bfb4b6425edb0c65f932cfea9872047da0cb17b3c032",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/independent-QA/audit_sparse_controls.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/independent-QA/audit_sparse_controls.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/independent-QA/audit_sparse_controls.py",
+      "bytes": 1065,
+      "sha256": "18710b90d21bbaa47022aca6449c7ab456b29c9e12f7a2ea70235a90015341cc",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "18710b90d21bbaa47022aca6449c7ab456b29c9e12f7a2ea70235a90015341cc",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/accepted_star_diagnostics.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/accepted_star_diagnostics.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/accepted_star_diagnostics.py",
+      "bytes": 2589,
+      "sha256": "526f917b42c2ca248f6f8d1b244a8319322ee0c8ff758d366f0f46387aafdec6",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "526f917b42c2ca248f6f8d1b244a8319322ee0c8ff758d366f0f46387aafdec6",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/append_warning_addendum.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/append_warning_addendum.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/append_warning_addendum.py",
+      "bytes": 3922,
+      "sha256": "150f1507ebcad754ffd2f52d8b1551ec66ff599079b3cbd68f45ee26e4b40c35",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "150f1507ebcad754ffd2f52d8b1551ec66ff599079b3cbd68f45ee26e4b40c35",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/audit_junction_reads.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/audit_junction_reads.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/audit_junction_reads.py",
+      "bytes": 8339,
+      "sha256": "5a1799c01b0d8d17d2735081fd66a0351396d1be2714523e9e053d7e477946af",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "5a1799c01b0d8d17d2735081fd66a0351396d1be2714523e9e053d7e477946af",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/audit_reference_ambiguity.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/audit_reference_ambiguity.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/audit_reference_ambiguity.py",
+      "bytes": 6189,
+      "sha256": "030799e9735e912713fb213a319375f2972c70e46e8303a74781dd8be077e8ea",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "030799e9735e912713fb213a319375f2972c70e46e8303a74781dd8be077e8ea",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/classify_findings.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/classify_findings.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/classify_findings.py",
+      "bytes": 11388,
+      "sha256": "7aa3298c74f7ae0f1982f18e3ea125f9495d075cabf73d93612c341b5a982ce9",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "7aa3298c74f7ae0f1982f18e3ea125f9495d075cabf73d93612c341b5a982ce9",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/compile_evidence_table.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/compile_evidence_table.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/compile_evidence_table.py",
+      "bytes": 3113,
+      "sha256": "32f7ee3e6ad524c03d49fdbbb8d4c1a011ff78af3b6543c90dade5c4c4101a70",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "32f7ee3e6ad524c03d49fdbbb8d4c1a011ff78af3b6543c90dade5c4c4101a70",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/independent_DNA_spot_recount.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/independent_DNA_spot_recount.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/independent_DNA_spot_recount.py",
+      "bytes": 3017,
+      "sha256": "b549052c7b202d6cc50738e403ebb6706a8ee837009e39c6d9893a091dcae639",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "b549052c7b202d6cc50738e403ebb6706a8ee837009e39c6d9893a091dcae639",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/independent_recount.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/independent_recount.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/independent_recount.py",
+      "bytes": 3079,
+      "sha256": "584f5efce6c4ccc1ad5172e5cb1425af68b7e4451de0ba5337701d39e5ede437",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "584f5efce6c4ccc1ad5172e5cb1425af68b7e4451de0ba5337701d39e5ede437",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/inventory_candidates_missing_coverage.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/inventory_candidates_missing_coverage.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/inventory_candidates_missing_coverage.py",
+      "bytes": 4325,
+      "sha256": "bd63d2e5fde25e22339b907b950af4f5bc6d9cccabc4fba3293790bb8a9007fb",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "bd63d2e5fde25e22339b907b950af4f5bc6d9cccabc4fba3293790bb8a9007fb",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/normal_locus_context.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/normal_locus_context.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/normal_locus_context.py",
+      "bytes": 1754,
+      "sha256": "f6ffbdb940816bde6fb76d1f90efefc7ab21c507fd5865cce0d937b4113417a7",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "f6ffbdb940816bde6fb76d1f90efefc7ab21c507fd5865cce0d937b4113417a7",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/package_evidence.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/package_evidence.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/package_evidence.py",
+      "bytes": 4768,
+      "sha256": "59a7972c43ac401cdc2fcce4151086ca9d4f0333ff89a37dc5c374f94a12fd73",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "59a7972c43ac401cdc2fcce4151086ca9d4f0333ff89a37dc5c374f94a12fd73",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/prepare_supplemental.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/prepare_supplemental.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/prepare_supplemental.py",
+      "bytes": 4536,
+      "sha256": "f11606063e09a92f25e3a4228eeaca3e524cc15bed9ea8e20b1c5d021710dfc8",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "f11606063e09a92f25e3a4228eeaca3e524cc15bed9ea8e20b1c5d021710dfc8",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/genome-fusion/read-level-audit/stream_inventory.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/stream_inventory.py",
+      "destination": "methods/recovered-standalone/oct4-followup/genome-fusion/read-level-audit/stream_inventory.py",
+      "bytes": 2141,
+      "sha256": "c675029051a50a4892cdb10833d661f9ccfee2242cde57173e6a5f87a4c9ef55",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "c675029051a50a4892cdb10833d661f9ccfee2242cde57173e6a5f87a4c9ef55",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/hla-allele-support/compile_findings.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-hla-allele-support/compile_findings.py",
+      "destination": "methods/recovered-standalone/oct4-followup/hla-allele-support/compile_findings.py",
+      "bytes": 9327,
+      "sha256": "78ec0df69a3039f35a07f33548192ddeb95de9754b5297acfa00d466a1c6cafd",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "78ec0df69a3039f35a07f33548192ddeb95de9754b5297acfa00d466a1c6cafd",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/hla-allele-support/count_common_haplotypes.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-hla-allele-support/count_common_haplotypes.py",
+      "destination": "methods/recovered-standalone/oct4-followup/hla-allele-support/count_common_haplotypes.py",
+      "bytes": 7486,
+      "sha256": "61c2ade43fd762e9815f2fc81765b5f8668e93903e94fdf1bbc17139561851e4",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "61c2ade43fd762e9815f2fc81765b5f8668e93903e94fdf1bbc17139561851e4",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/hla-allele-support/independent_recount91.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-hla-allele-support/independent_recount91.py",
+      "destination": "methods/recovered-standalone/oct4-followup/hla-allele-support/independent_recount91.py",
+      "bytes": 3433,
+      "sha256": "4b3de75d648c56dab78a614e6d1384f93e706b44f295df36faa69c19f0aaca67",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "4b3de75d648c56dab78a614e6d1384f93e706b44f295df36faa69c19f0aaca67",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/hla-allele-support/mask_nonB_genomic_hla.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-hla-allele-support/mask_nonB_genomic_hla.py",
+      "destination": "methods/recovered-standalone/oct4-followup/hla-allele-support/mask_nonB_genomic_hla.py",
+      "bytes": 1888,
+      "sha256": "8c29593e67b9abef07abf53b19b1b0e0b579792f66f4dd8f9b1228896c2aacdd",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "8c29593e67b9abef07abf53b19b1b0e0b579792f66f4dd8f9b1228896c2aacdd",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/hla-allele-support/prepare_common_haplotypes.py",
+      "actual_read_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-hla-allele-support/prepare_common_haplotypes.py",
+      "destination": "methods/recovered-standalone/oct4-followup/hla-allele-support/prepare_common_haplotypes.py",
+      "bytes": 3578,
+      "sha256": "56bc5cc1a22cdfcc04a3817760278f8e9159e5c5fe41c40b5138d57bea6c1220",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "resident_mirror",
+      "identity_note": "Resident copy and freshly read original workspace source are byte-identical by SHA256; copy unchanged and verified.",
+      "original_source_fresh_sha256": "56bc5cc1a22cdfcc04a3817760278f8e9159e5c5fe41c40b5138d57bea6c1220",
+      "original_source_sha256_matches_copy": true
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/coding-indels/screen-coding-indels.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/coding-indels/screen-coding-indels.py",
+      "destination": "methods/recovered-standalone/oct1-deep/coding-indels/screen-coding-indels.py",
+      "bytes": 7963,
+      "sha256": "b8ef3a3274b3e5a7fd8ef597fdb0adfc97ee1c46516edae6b77a697bb7002f1b",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/coding-indels/reconstruct-transcript-consequences.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/coding-indels/reconstruct-transcript-consequences.py",
+      "destination": "methods/recovered-standalone/oct1-deep/coding-indels/reconstruct-transcript-consequences.py",
+      "bytes": 5775,
+      "sha256": "d613a2b7997a594e803e76969d7f33940b92115157093937b1167bd0c42b9ff6",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/coding-indels/recount-indels.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/coding-indels/recount-indels.py",
+      "destination": "methods/recovered-standalone/oct1-deep/coding-indels/recount-indels.py",
+      "bytes": 6681,
+      "sha256": "c8aae37f75826a67dafb399466b7899f7496cf366d40eb99d594d140cb5ce3df",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/coding-indels/public-population-context.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/coding-indels/public-population-context.py",
+      "destination": "methods/recovered-standalone/oct1-deep/coding-indels/public-population-context.py",
+      "bytes": 5676,
+      "sha256": "319e5514a62cb7cc68299ca6abd908928cb0e0a34411ae5d9274c21fd2da87c8",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/coding-indels/followup-public-lookups.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/coding-indels/followup-public-lookups.py",
+      "destination": "methods/recovered-standalone/oct1-deep/coding-indels/followup-public-lookups.py",
+      "bytes": 915,
+      "sha256": "546d912b03ebcc10df1e9f846cbcd7dc2073bb6280b70aecf4d0ae5e18809eb7",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/coding-indels/audit-nlrc3-context.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/coding-indels/audit-nlrc3-context.py",
+      "destination": "methods/recovered-standalone/oct1-deep/coding-indels/audit-nlrc3-context.py",
+      "bytes": 2106,
+      "sha256": "b63192cb4ba96d29acf3f4b4a79a04702de7039a0862a5ae00812feece5a8d46",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/coding-indels/independent-audit.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/coding-indels/independent-audit.py",
+      "destination": "methods/recovered-standalone/oct1-deep/coding-indels/independent-audit.py",
+      "bytes": 11938,
+      "sha256": "a2433315f9d2d1c7f87ee904778157261ab1a790eb36a44003670ec81b6dd03f",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/coding-indels/audit-nlrc3-neighbor-consequence.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/coding-indels/audit-nlrc3-neighbor-consequence.py",
+      "destination": "methods/recovered-standalone/oct1-deep/coding-indels/audit-nlrc3-neighbor-consequence.py",
+      "bytes": 2005,
+      "sha256": "372bef2d6ceac2e952562a9c3af7c6427774516cd968c2d9d8bc93447d4a9656",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/coding-indels/write-audit-summary.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/coding-indels/write-audit-summary.py",
+      "destination": "methods/recovered-standalone/oct1-deep/coding-indels/write-audit-summary.py",
+      "bytes": 11540,
+      "sha256": "09c7d905f38af39603a7b21e1ea010b200336cf88c4a59faf642cf8fcb996946",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/extended-panel/NF1_screen.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/extended-panel/NF1_screen.py",
+      "destination": "methods/recovered-standalone/oct1-deep/extended-panel/NF1_screen.py",
+      "bytes": 6734,
+      "sha256": "598fdf48a7636742b03c1862a9d5dcf900d50132f2171df38cfb4372601d6062",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/extended-panel/annotate_clinvar_exact.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/extended-panel/annotate_clinvar_exact.py",
+      "destination": "methods/recovered-standalone/oct1-deep/extended-panel/annotate_clinvar_exact.py",
+      "bytes": 4349,
+      "sha256": "c804793b721bbab17ba55175719dc941f3283bbe6e345f6944dac780a5a63b5e",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/dna-rna-consistency/audit-zrsr2.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/dna-rna-consistency/audit-zrsr2.py",
+      "destination": "methods/recovered-standalone/oct1-deep/dna-rna-consistency/audit-zrsr2.py",
+      "bytes": 5085,
+      "sha256": "c3d507f85b680588a832267ca4296ad7a961772bdbbd3e3476bd16e19ea2b383",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/dna-rna-consistency/independent-audit.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/dna-rna-consistency/independent-audit.py",
+      "destination": "methods/recovered-standalone/oct1-deep/dna-rna-consistency/independent-audit.py",
+      "bytes": 4156,
+      "sha256": "e6a96485998acea8fd084778973598b7393a77eda3aa609f02efa24ba83a9017",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/dna-rna-consistency/check-common-alleles.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/dna-rna-consistency/check-common-alleles.py",
+      "destination": "methods/recovered-standalone/oct1-deep/dna-rna-consistency/check-common-alleles.py",
+      "bytes": 3963,
+      "sha256": "533d78875f917924f814edc54c7d0e4f9aed5062f170ee599049bfc6b2821205",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/extended-panel/NF1_target_coverage.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/extended-panel/NF1_target_coverage.py",
+      "destination": "methods/recovered-standalone/oct1-deep/extended-panel/NF1_target_coverage.py",
+      "bytes": 5841,
+      "sha256": "7e6d6a8a7772a6173194249f1934f3f423a540006810b8045a11b261e3e80c51",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/extended-panel/annotate_public.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/extended-panel/annotate_public.py",
+      "destination": "methods/recovered-standalone/oct1-deep/extended-panel/annotate_public.py",
+      "bytes": 6202,
+      "sha256": "931187dd94f302eae617e5d6e001b4fb5434814e9087765dbfef3f6c4a76cf55",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/extended-panel/compile_findings.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/extended-panel/compile_findings.py",
+      "destination": "methods/recovered-standalone/oct1-deep/extended-panel/compile_findings.py",
+      "bytes": 5433,
+      "sha256": "ad7bd45042e58c6a601a6568a9137e8a6ae9c09a5ac0bb73664ca7c767aac31b",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/extended-panel/flagged_candidate_failure_modes.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/extended-panel/flagged_candidate_failure_modes.py",
+      "destination": "methods/recovered-standalone/oct1-deep/extended-panel/flagged_candidate_failure_modes.py",
+      "bytes": 1735,
+      "sha256": "72f0d3e448d170619af35c040b87f5ec358196462110414742dd6daa201b1117",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/immune-presentation-panel/independent-audit.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/immune-presentation-panel/independent-audit.py",
+      "destination": "methods/recovered-standalone/oct1-deep/immune-presentation-panel/independent-audit.py",
+      "bytes": 6629,
+      "sha256": "a85be5ace6825b00faa4db65dbe76b8a1c7a970e9a41739bd860599c8bcc0f33",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/immune-presentation-panel/annotate_public.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/immune-presentation-panel/annotate_public.py",
+      "destination": "methods/recovered-standalone/oct1-deep/immune-presentation-panel/annotate_public.py",
+      "bytes": 6460,
+      "sha256": "cada40ce06fcdb18999a46f6acc4b0583947eba18963e6b9a787af985e070e2e",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/extended-panel/screen.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/extended-panel/screen.py",
+      "destination": "methods/recovered-standalone/oct1-deep/extended-panel/screen.py",
+      "bytes": 6810,
+      "sha256": "77572d18e6b1dc3d5a1571d30cae204610957520b5f48a8c64e71c60d693e431",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/extended-panel/target_coverage.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/extended-panel/target_coverage.py",
+      "destination": "methods/recovered-standalone/oct1-deep/extended-panel/target_coverage.py",
+      "bytes": 5913,
+      "sha256": "796efb3bf6d0b3272dc2f37067140bca1340e08ee1d0fb8a6e15f1fc7e418b65",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/extended-panel/protein_candidate_haplotype_recount.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/extended-panel/protein_candidate_haplotype_recount.py",
+      "destination": "methods/recovered-standalone/oct1-deep/extended-panel/protein_candidate_haplotype_recount.py",
+      "bytes": 3143,
+      "sha256": "1c3bf69f5819e82f162b2627f721f1deaf106b8098303fb14389acd86309d768",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/immune-presentation-panel/prepare-and-screen.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/immune-presentation-panel/prepare-and-screen.py",
+      "destination": "methods/recovered-standalone/oct1-deep/immune-presentation-panel/prepare-and-screen.py",
+      "bytes": 2018,
+      "sha256": "165761a259f85f12f39c824e0ae20f44c9fbd2791be1b860b8c1b0b900b1bd28",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/immune-presentation-panel/screen.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/immune-presentation-panel/screen.py",
+      "destination": "methods/recovered-standalone/oct1-deep/immune-presentation-panel/screen.py",
+      "bytes": 6937,
+      "sha256": "cd9f9264a5e962ddbf35bd60549c0b1b711f79c176e335ae49c554e072edf8d0",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/neoantigen/hla-feasibility/setup-public.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/hla-feasibility/setup-public.py",
+      "destination": "methods/recovered-standalone/oct1-deep/neoantigen/hla-feasibility/setup-public.py",
+      "bytes": 2606,
+      "sha256": "a7c7b8f8258d0c85fb356a9f0772fe6cfca8912be5e20201af8ee9d8c1386771",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/neoantigen/predict-peptides.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/predict-peptides.py",
+      "destination": "methods/recovered-standalone/oct1-deep/neoantigen/predict-peptides.py",
+      "bytes": 3204,
+      "sha256": "9b32d6e184fb94eae1b76c1b4453e30fa9b3aff13c4c9f01e335ea6dc741c9d8",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/neoantigen/tcr-repertoire/analyze-repertoire.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/tcr-repertoire/analyze-repertoire.py",
+      "destination": "methods/recovered-standalone/oct1-deep/neoantigen/tcr-repertoire/analyze-repertoire.py",
+      "bytes": 12421,
+      "sha256": "b5ad046b0d91e5613772dfa9f98061e0cdf0fefe13d4a8bb77a77a992c843fb2",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/neoantigen/peer-review-bap1-antigen.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/peer-review-bap1-antigen.py",
+      "destination": "methods/recovered-standalone/oct1-deep/neoantigen/peer-review-bap1-antigen.py",
+      "bytes": 7490,
+      "sha256": "7e9685c36a00376ad4bf4d2a696ec6a90a6bff2609e612124dcf8188a251ce55",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/neoantigen/predict-normal-neighbors.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/predict-normal-neighbors.py",
+      "destination": "methods/recovered-standalone/oct1-deep/neoantigen/predict-normal-neighbors.py",
+      "bytes": 2120,
+      "sha256": "9671490f3bbecb4487f564fcc68cf2a075f6399c05aa40378e6ec126f1655969",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/neoantigen/prepare-peptides.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/prepare-peptides.py",
+      "destination": "methods/recovered-standalone/oct1-deep/neoantigen/prepare-peptides.py",
+      "bytes": 7978,
+      "sha256": "fee115b8f229e4d139296c266ef34e853dc3b840b9094612a4844b061f4cb4cc",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/neoantigen/normal-neighbor-screen.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/normal-neighbor-screen.py",
+      "destination": "methods/recovered-standalone/oct1-deep/neoantigen/normal-neighbor-screen.py",
+      "bytes": 2978,
+      "sha256": "4688b99650782d6f594423860ef97e620146fda690b6e35f848a3b8d22009e5f",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/neoantigen/tcr-repertoire/finalize.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/tcr-repertoire/finalize.py",
+      "destination": "methods/recovered-standalone/oct1-deep/neoantigen/tcr-repertoire/finalize.py",
+      "bytes": 5342,
+      "sha256": "074a061d2d2af795c7aa8aee1840eeabd33fd4a42f16526dbf52e283c4131487",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/neoantigen/tcr-repertoire/run-guarded.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/tcr-repertoire/run-guarded.py",
+      "destination": "methods/recovered-standalone/oct1-deep/neoantigen/tcr-repertoire/run-guarded.py",
+      "bytes": 2423,
+      "sha256": "a1198c76985d11f9e6eb261dab5cbd8e3b3d5758dd8db910f7f3d8384925063d",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/splicing/candidate-anchor-audit.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/splicing/candidate-anchor-audit.py",
+      "destination": "methods/recovered-standalone/oct1-deep/splicing/candidate-anchor-audit.py",
+      "bytes": 4689,
+      "sha256": "8cfe809a451ea83e1f2785150198dc1d959de8be4a83a9536ba7c8ab7bd09765",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/neoantigen/tcr-repertoire/setup-trust4.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/tcr-repertoire/setup-trust4.py",
+      "destination": "methods/recovered-standalone/oct1-deep/neoantigen/tcr-repertoire/setup-trust4.py",
+      "bytes": 2369,
+      "sha256": "39a0b1dbaec7df6c1cc3823f078599a673374fa275690161a9b1c32ccc41312e",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/splicing/annotate-motifs.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/splicing/annotate-motifs.py",
+      "destination": "methods/recovered-standalone/oct1-deep/splicing/annotate-motifs.py",
+      "bytes": 4315,
+      "sha256": "81a6e641970d2052f32a83ad203606b9a713ef8c061f883460bf7b302c8f0649",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/splicing/compile-summary.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/splicing/compile-summary.py",
+      "destination": "methods/recovered-standalone/oct1-deep/splicing/compile-summary.py",
+      "bytes": 6068,
+      "sha256": "29ebafe87d1fe52c6a6a29ccea452b23e249150ddec630d2f2692f708202cd4b",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/splicing/junction_inventory.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/splicing/junction_inventory.py",
+      "destination": "methods/recovered-standalone/oct1-deep/splicing/junction_inventory.py",
+      "bytes": 13031,
+      "sha256": "d5af0236864731a2742454dbcfc2050f31d7069530877a1ef262c3e70025803f",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/splicing/frameshift-splice-phasing.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/splicing/frameshift-splice-phasing.py",
+      "destination": "methods/recovered-standalone/oct1-deep/splicing/frameshift-splice-phasing.py",
+      "bytes": 3710,
+      "sha256": "7b1f59883803b768e5415e50f255b5e9e5dc34acbc0038eb3b6e6c9bf8c5c46d",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/splicing/make-junction-figure.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/splicing/make-junction-figure.py",
+      "destination": "methods/recovered-standalone/oct1-deep/splicing/make-junction-figure.py",
+      "bytes": 3295,
+      "sha256": "89f87de35cf55101d3c60c35b8b4055d1e008cad684772e6ea33c9654671ace4",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/splicing/make-candidate-read-figure.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/splicing/make-candidate-read-figure.py",
+      "destination": "methods/recovered-standalone/oct1-deep/splicing/make-candidate-read-figure.py",
+      "bytes": 2724,
+      "sha256": "37b3d9ae1824f31dbca11866911e94dfcbd72e7e38c920da84cf9da7c93107ff",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/splicing/key-event-independent-recount.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/splicing/key-event-independent-recount.py",
+      "destination": "methods/recovered-standalone/oct1-deep/splicing/key-event-independent-recount.py",
+      "bytes": 2158,
+      "sha256": "5d326b3ed6115aac697ef7ded43b05bddbd08789eb91476fec3b4d446f1a3f94",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/splicing/query-gtex-reference.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/splicing/query-gtex-reference.py",
+      "destination": "methods/recovered-standalone/oct1-deep/splicing/query-gtex-reference.py",
+      "bytes": 4938,
+      "sha256": "7246a4414ac946e9ba7a6bf6db02718a51a4bb5223cf407fe6189ac595a28b1e",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/target-gene-panel/finalize-independent-audit.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/target-gene-panel/finalize-independent-audit.py",
+      "destination": "methods/recovered-standalone/oct1-deep/target-gene-panel/finalize-independent-audit.py",
+      "bytes": 7858,
+      "sha256": "df2a9a5f2d51dc8fb186369f4344e42771ed9d0242c4d4dda90e8ab2d8b1868c",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/splicing/rare-junction-DNA-check.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/splicing/rare-junction-DNA-check.py",
+      "destination": "methods/recovered-standalone/oct1-deep/splicing/rare-junction-DNA-check.py",
+      "bytes": 3674,
+      "sha256": "b80e79e1c4cf0bae8675291912e3de8561bbaa9707c83d30c42229025d0855b8",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/target-gene-panel/independent-public-audit.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/target-gene-panel/independent-public-audit.py",
+      "destination": "methods/recovered-standalone/oct1-deep/target-gene-panel/independent-public-audit.py",
+      "bytes": 3618,
+      "sha256": "10345286110648eb4a0be8e1fca49ff078f273920cfd52e30af2728ca2908b9e",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/target-gene-panel/independent-audit.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/target-gene-panel/independent-audit.py",
+      "destination": "methods/recovered-standalone/oct1-deep/target-gene-panel/independent-audit.py",
+      "bytes": 7784,
+      "sha256": "eeb77add69b5278206d87b79f3a3132b1dcd7f663bdf9730940e01d84614baa3",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/target-gene-panel/screen.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/target-gene-panel/screen.py",
+      "destination": "methods/recovered-standalone/oct1-deep/target-gene-panel/screen.py",
+      "bytes": 7149,
+      "sha256": "caa93aa562e71b38411bd63a864eb32ad6881c0f3ee0df14c3b7b59e3ed08bd7",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct1-deep/target-gene-panel/summarize.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/target-gene-panel/summarize.py",
+      "destination": "methods/recovered-standalone/oct1-deep/target-gene-panel/summarize.py",
+      "bytes": 9720,
+      "sha256": "18675f3d468f43b37a36d71f891014968344526d17ce62950ca1d0a0c6b75b6c",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/copy-number/genome_fragment_profile.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/copy-number/genome_fragment_profile.py",
+      "destination": "methods/recovered-standalone/oct4-followup/copy-number/genome_fragment_profile.py",
+      "bytes": 5826,
+      "sha256": "af759b903199fb69115a932c3d08a5679d321c46ec44e1eab2c00c591cc92d0d",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    },
+    {
+      "original_workspace_source": "work/oct4-followup/copy-number/common_snp_baf.py",
+      "actual_read_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/copy-number/common_snp_baf.py",
+      "destination": "methods/recovered-standalone/oct4-followup/copy-number/common_snp_baf.py",
+      "bytes": 10240,
+      "sha256": "a22184bc3b70c9a10ed368963d097e8452486d164c5354c3ee9deac5739fa6cc",
+      "operation": "byte-identical-copy-of-actual-read-source",
+      "recovery_kind": "original_workspace_source",
+      "identity_note": "Successfully read original source bytes directly; copied unchanged and SHA256 checked."
+    }
+  ],
+  "failures": [],
+  "intended_exclusions": [
+    {
+      "source": "work/oct1-analysis/build_report.py",
+      "reason": "intentionally_excluded_nonanalysis_or_unexecuted"
+    },
+    {
+      "source": "work/oct1-deep/fusion-next-step/copy-results-local.py",
+      "reason": "intentionally_excluded_nonanalysis_or_unexecuted"
+    },
+    {
+      "source": "work/oct1-deep/fusion-next-step/sources/pizzly-get-fragment-length.py",
+      "reason": "Downloaded upstream source; preserve source pin and license rather than treat as authored analysis method."
+    },
+    {
+      "source": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__callbacks.py",
+      "reason": "Downloaded upstream source; preserve source pin and license rather than treat as authored analysis method."
+    },
+    {
+      "source": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__data_provider.py",
+      "reason": "Downloaded upstream source; preserve source pin and license rather than treat as authored analysis method."
+    },
+    {
+      "source": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__model_checker.py",
+      "reason": "Downloaded upstream source; preserve source pin and license rather than treat as authored analysis method."
+    },
+    {
+      "source": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__result_collector.py",
+      "reason": "Downloaded upstream source; preserve source pin and license rather than treat as authored analysis method."
+    },
+    {
+      "source": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__run.py",
+      "reason": "Downloaded upstream source; preserve source pin and license rather than treat as authored analysis method."
+    },
+    {
+      "source": "work/oct1-deep/neoantigen/peer-review-origin.py",
+      "reason": "intentionally_excluded_nonanalysis_or_unexecuted"
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/mirror-resident-results.py",
+      "reason": "intentionally_excluded_nonanalysis_or_unexecuted"
+    },
+    {
+      "source": "work/oct4-followup/hla-II/v1-CapHLA.py",
+      "reason": "Downloaded upstream source; preserve source pin and license rather than treat as authored analysis method."
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/stage_immutable_resident.py",
+      "reason": "intentionally_excluded_nonanalysis_or_unexecuted"
+    }
+  ],
+  "already_represented_in_repository": [
+    {
+      "source": "work/oct4-followup/copy-number/audit_bap1_fragment_phase.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/audit_bap1_fragment_phase.py",
+          "bytes": 5717,
+          "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/copy-number/audit_bap1_fragment_phase.py",
+              "bytes": 5717,
+              "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a"
+            },
+            {
+              "path": "evidence/computational-followups-v2/validation-package/methods/audit_bap1_fragment_phase.py",
+              "bytes": 5717,
+              "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a"
+            }
+          ]
+        },
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/validation-package/methods/audit_bap1_fragment_phase.py",
+          "bytes": 5717,
+          "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/copy-number/audit_bap1_fragment_phase.py",
+              "bytes": 5717,
+              "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a"
+            },
+            {
+              "path": "evidence/computational-followups-v2/validation-package/methods/audit_bap1_fragment_phase.py",
+              "bytes": 5717,
+              "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/copy-number/audit_bap1_fragment_phase.py",
+          "bytes": 5717,
+          "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a"
+        },
+        {
+          "path": "evidence/computational-followups-v2/validation-package/methods/audit_bap1_fragment_phase.py",
+          "bytes": 5717,
+          "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a"
+        },
+        {
+          "path": "evidence/computational-followups-v2/copy-number/audit_bap1_fragment_phase.py",
+          "bytes": 5717,
+          "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a"
+        },
+        {
+          "path": "evidence/computational-followups-v2/validation-package/methods/audit_bap1_fragment_phase.py",
+          "bytes": 5717,
+          "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/copy-number/bap1_fragment_phase.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/bap1_fragment_phase.py",
+          "bytes": 4559,
+          "sha256": "df99bf50163456a26bd5b844b72e4aaf028b9e0fb289aaf5e3c29315e01b29a7",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/copy-number/bap1_fragment_phase.py",
+              "bytes": 4559,
+              "sha256": "df99bf50163456a26bd5b844b72e4aaf028b9e0fb289aaf5e3c29315e01b29a7"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "df99bf50163456a26bd5b844b72e4aaf028b9e0fb289aaf5e3c29315e01b29a7",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/copy-number/bap1_fragment_phase.py",
+          "bytes": 4559,
+          "sha256": "df99bf50163456a26bd5b844b72e4aaf028b9e0fb289aaf5e3c29315e01b29a7"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/copy-number/chr9_structural_hints.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/chr9_structural_hints.py",
+          "bytes": 4238,
+          "sha256": "e13297a452ea38d29b18932ca1fe85ecd8744b1d3eaf56e3a4e67e4f1e0b0544",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/copy-number/chr9_structural_hints.py",
+              "bytes": 4238,
+              "sha256": "e13297a452ea38d29b18932ca1fe85ecd8744b1d3eaf56e3a4e67e4f1e0b0544"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "e13297a452ea38d29b18932ca1fe85ecd8744b1d3eaf56e3a4e67e4f1e0b0544",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/copy-number/chr9_structural_hints.py",
+          "bytes": 4238,
+          "sha256": "e13297a452ea38d29b18932ca1fe85ecd8744b1d3eaf56e3a4e67e4f1e0b0544"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/copy-number/coding_depth.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/coding_depth.py",
+          "bytes": 5967,
+          "sha256": "b94285e35690211888e8afaade4eacf189f5eeeac3ac8b116802683c8c2245f9",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/copy-number/coding_depth.py",
+              "bytes": 5967,
+              "sha256": "b94285e35690211888e8afaade4eacf189f5eeeac3ac8b116802683c8c2245f9"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "b94285e35690211888e8afaade4eacf189f5eeeac3ac8b116802683c8c2245f9",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/copy-number/coding_depth.py",
+          "bytes": 5967,
+          "sha256": "b94285e35690211888e8afaade4eacf189f5eeeac3ac8b116802683c8c2245f9"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/copy-number/compile_findings.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/compile_findings.py",
+          "bytes": 17130,
+          "sha256": "189ae3e1f3ad938fadbbe55234e0ed47f2a4ae940ecc44c1ff1f9784e8362b3f",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/copy-number/compile_findings.py",
+              "bytes": 17130,
+              "sha256": "189ae3e1f3ad938fadbbe55234e0ed47f2a4ae940ecc44c1ff1f9784e8362b3f"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "189ae3e1f3ad938fadbbe55234e0ed47f2a4ae940ecc44c1ff1f9784e8362b3f",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/copy-number/compile_findings.py",
+          "bytes": 17130,
+          "sha256": "189ae3e1f3ad938fadbbe55234e0ed47f2a4ae940ecc44c1ff1f9784e8362b3f"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/copy-number/download_public.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/download_public.py",
+          "bytes": 1798,
+          "sha256": "c63fcff7d8213f2c8000adfff2cd478e49dd49b59ef0231e68d1878afd4a439b",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/copy-number/download_public.py",
+              "bytes": 1798,
+              "sha256": "c63fcff7d8213f2c8000adfff2cd478e49dd49b59ef0231e68d1878afd4a439b"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "c63fcff7d8213f2c8000adfff2cd478e49dd49b59ef0231e68d1878afd4a439b",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/copy-number/download_public.py",
+          "bytes": 1798,
+          "sha256": "c63fcff7d8213f2c8000adfff2cd478e49dd49b59ef0231e68d1878afd4a439b"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/copy-number/independent_SNP_recount.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/independent_SNP_recount.py",
+          "bytes": 3394,
+          "sha256": "46796c5d19e7c433b69842c1adcda3c2b9891011da33b11fa4a577d4f2956d10",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/copy-number/independent_SNP_recount.py",
+              "bytes": 3394,
+              "sha256": "46796c5d19e7c433b69842c1adcda3c2b9891011da33b11fa4a577d4f2956d10"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "46796c5d19e7c433b69842c1adcda3c2b9891011da33b11fa4a577d4f2956d10",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/copy-number/independent_SNP_recount.py",
+          "bytes": 3394,
+          "sha256": "46796c5d19e7c433b69842c1adcda3c2b9891011da33b11fa4a577d4f2956d10"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/copy-number/summarize_baf.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/summarize_baf.py",
+          "bytes": 7567,
+          "sha256": "5a8793ebdcd3770641a20091030b2eecb58c4a28691d779fa52dce74650aa703",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/copy-number/summarize_baf.py",
+              "bytes": 7567,
+              "sha256": "5a8793ebdcd3770641a20091030b2eecb58c4a28691d779fa52dce74650aa703"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "5a8793ebdcd3770641a20091030b2eecb58c4a28691d779fa52dce74650aa703",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/copy-number/summarize_baf.py",
+          "bytes": 7567,
+          "sha256": "5a8793ebdcd3770641a20091030b2eecb58c4a28691d779fa52dce74650aa703"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/copy-number/summarize_depth.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/summarize_depth.py",
+          "bytes": 7324,
+          "sha256": "5e7199d9eed9f9f5ecc5ffcd3b9ee0f06cf7b356f3197b4443474d6785eb707e",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/copy-number/summarize_depth.py",
+              "bytes": 7324,
+              "sha256": "5e7199d9eed9f9f5ecc5ffcd3b9ee0f06cf7b356f3197b4443474d6785eb707e"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "5e7199d9eed9f9f5ecc5ffcd3b9ee0f06cf7b356f3197b4443474d6785eb707e",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/copy-number/summarize_depth.py",
+          "bytes": 7324,
+          "sha256": "5e7199d9eed9f9f5ecc5ffcd3b9ee0f06cf7b356f3197b4443474d6785eb707e"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/MET-exon14/check_junctions.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-MET-exon14-audit/check_junctions.py",
+          "bytes": 3117,
+          "sha256": "86d12335032b80fcb879398739b215e60fd5de58252176665f5a7a62f456e4ce",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/MET-exon14/check_junctions.py",
+              "bytes": 3117,
+              "sha256": "86d12335032b80fcb879398739b215e60fd5de58252176665f5a7a62f456e4ce"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "86d12335032b80fcb879398739b215e60fd5de58252176665f5a7a62f456e4ce",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/MET-exon14/check_junctions.py",
+          "bytes": 3117,
+          "sha256": "86d12335032b80fcb879398739b215e60fd5de58252176665f5a7a62f456e4ce"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/MET-exon14/independent_check.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-MET-exon14-audit/independent_check.py",
+          "bytes": 6143,
+          "sha256": "9507573ac2d76a1d7107cd443a5c5eb61c476879e037a1f303d84c1970e668b6",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/MET-exon14/independent_check.py",
+              "bytes": 6143,
+              "sha256": "9507573ac2d76a1d7107cd443a5c5eb61c476879e037a1f303d84c1970e668b6"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "9507573ac2d76a1d7107cd443a5c5eb61c476879e037a1f303d84c1970e668b6",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/MET-exon14/independent_check.py",
+          "bytes": 6143,
+          "sha256": "9507573ac2d76a1d7107cd443a5c5eb61c476879e037a1f303d84c1970e668b6"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/MET-exon14/raw_exact_check.executed.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-MET-exon14-audit/raw_exact_check.executed.py",
+          "bytes": 2784,
+          "sha256": "8cb43ea73c9dae71959d6e49ace6cf3708aa5a6df678219736d45b9a8771c9b4",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/MET-exon14/raw_exact_check.executed.py",
+              "bytes": 2784,
+              "sha256": "8cb43ea73c9dae71959d6e49ace6cf3708aa5a6df678219736d45b9a8771c9b4"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "8cb43ea73c9dae71959d6e49ace6cf3708aa5a6df678219736d45b9a8771c9b4",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/MET-exon14/raw_exact_check.executed.py",
+          "bytes": 2784,
+          "sha256": "8cb43ea73c9dae71959d6e49ace6cf3708aa5a6df678219736d45b9a8771c9b4"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/MET-exon14/raw_exact_check.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-MET-exon14-audit/raw_exact_check.py",
+          "bytes": 2595,
+          "sha256": "11cfdba59062f5bd3a6c8f616d11e48a8e73779c57d9972e480be20fcfaa9b86",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/MET-exon14/raw_exact_check.py",
+              "bytes": 2595,
+              "sha256": "11cfdba59062f5bd3a6c8f616d11e48a8e73779c57d9972e480be20fcfaa9b86"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "11cfdba59062f5bd3a6c8f616d11e48a8e73779c57d9972e480be20fcfaa9b86",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/MET-exon14/raw_exact_check.py",
+          "bytes": 2595,
+          "sha256": "11cfdba59062f5bd3a6c8f616d11e48a8e73779c57d9972e480be20fcfaa9b86"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/diagnostics/read-chimeric-counter.patch",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/diagnostics/read-chimeric-counter.patch",
+          "bytes": 5798,
+          "sha256": "bbe474f16bf8dd0f00ed07cc4edc1679edccd294f14498ed4ec473956c6d234f",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/caller-diagnostics/read-chimeric-counter.patch",
+              "bytes": 5798,
+              "sha256": "bbe474f16bf8dd0f00ed07cc4edc1679edccd294f14498ed4ec473956c6d234f"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "bbe474f16bf8dd0f00ed07cc4edc1679edccd294f14498ed4ec473956c6d234f",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/caller-diagnostics/read-chimeric-counter.patch",
+          "bytes": 5798,
+          "sha256": "bbe474f16bf8dd0f00ed07cc4edc1679edccd294f14498ed4ec473956c6d234f"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/diagnostics/subsampling-counter.patch",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/diagnostics/subsampling-counter.patch",
+          "bytes": 2355,
+          "sha256": "b55182e5690a6150935c5e53e99b2a288dfce85c3f697bc82b0b4087f4a7eb5f",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/caller-diagnostics/subsampling-counter.patch",
+              "bytes": 2355,
+              "sha256": "b55182e5690a6150935c5e53e99b2a288dfce85c3f697bc82b0b4087f4a7eb5f"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "b55182e5690a6150935c5e53e99b2a288dfce85c3f697bc82b0b4087f4a7eb5f",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/caller-diagnostics/subsampling-counter.patch",
+          "bytes": 2355,
+          "sha256": "b55182e5690a6150935c5e53e99b2a288dfce85c3f697bc82b0b4087f4a7eb5f"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/read-level-audit/independent-priority-review/local_dna_details.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/independent-priority-review/local_dna_details.py",
+          "bytes": 5720,
+          "sha256": "665cf31c809f52564b4ce0a0c177aa6076c04744baf002c8357d8351d132b981",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-independent/local_dna_details.py",
+              "bytes": 5720,
+              "sha256": "665cf31c809f52564b4ce0a0c177aa6076c04744baf002c8357d8351d132b981"
+            }
+          ]
+        },
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-priority-review/local_dna_details.py",
+          "bytes": 5720,
+          "sha256": "665cf31c809f52564b4ce0a0c177aa6076c04744baf002c8357d8351d132b981",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-independent/local_dna_details.py",
+              "bytes": 5720,
+              "sha256": "665cf31c809f52564b4ce0a0c177aa6076c04744baf002c8357d8351d132b981"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "665cf31c809f52564b4ce0a0c177aa6076c04744baf002c8357d8351d132b981",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-independent/local_dna_details.py",
+          "bytes": 5720,
+          "sha256": "665cf31c809f52564b4ce0a0c177aa6076c04744baf002c8357d8351d132b981"
+        },
+        {
+          "path": "evidence/computational-followups-v2/fusion-independent/local_dna_details.py",
+          "bytes": 5720,
+          "sha256": "665cf31c809f52564b4ce0a0c177aa6076c04744baf002c8357d8351d132b981"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/read-level-audit/independent-priority-review/priority_review.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/independent-priority-review/priority_review.py",
+          "bytes": 9202,
+          "sha256": "3b1caec6fbe75290866d85e6f4074f9579eb7805d9e3e5a8217cf0a48f750bad",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-independent/priority_review.py",
+              "bytes": 9202,
+              "sha256": "3b1caec6fbe75290866d85e6f4074f9579eb7805d9e3e5a8217cf0a48f750bad"
+            }
+          ]
+        },
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-priority-review/priority_review.py",
+          "bytes": 9202,
+          "sha256": "3b1caec6fbe75290866d85e6f4074f9579eb7805d9e3e5a8217cf0a48f750bad",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-independent/priority_review.py",
+              "bytes": 9202,
+              "sha256": "3b1caec6fbe75290866d85e6f4074f9579eb7805d9e3e5a8217cf0a48f750bad"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "3b1caec6fbe75290866d85e6f4074f9579eb7805d9e3e5a8217cf0a48f750bad",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-independent/priority_review.py",
+          "bytes": 9202,
+          "sha256": "3b1caec6fbe75290866d85e6f4074f9579eb7805d9e3e5a8217cf0a48f750bad"
+        },
+        {
+          "path": "evidence/computational-followups-v2/fusion-independent/priority_review.py",
+          "bytes": 9202,
+          "sha256": "3b1caec6fbe75290866d85e6f4074f9579eb7805d9e3e5a8217cf0a48f750bad"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/read-level-audit/independent_warning_output_audit.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/read-level-audit/independent_warning_output_audit.py",
+          "bytes": 5161,
+          "sha256": "663862424679b1eb34c6c3acb2b3239e89adab461e759c788a4f297ce38a8b31",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-audit/independent_warning_output_audit.py",
+              "bytes": 5161,
+              "sha256": "663862424679b1eb34c6c3acb2b3239e89adab461e759c788a4f297ce38a8b31"
+            }
+          ]
+        },
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/independent_warning_output_audit.py",
+          "bytes": 5161,
+          "sha256": "663862424679b1eb34c6c3acb2b3239e89adab461e759c788a4f297ce38a8b31",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-audit/independent_warning_output_audit.py",
+              "bytes": 5161,
+              "sha256": "663862424679b1eb34c6c3acb2b3239e89adab461e759c788a4f297ce38a8b31"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "663862424679b1eb34c6c3acb2b3239e89adab461e759c788a4f297ce38a8b31",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-audit/independent_warning_output_audit.py",
+          "bytes": 5161,
+          "sha256": "663862424679b1eb34c6c3acb2b3239e89adab461e759c788a4f297ce38a8b31"
+        },
+        {
+          "path": "evidence/computational-followups-v2/fusion-audit/independent_warning_output_audit.py",
+          "bytes": 5161,
+          "sha256": "663862424679b1eb34c6c3acb2b3239e89adab461e759c788a4f297ce38a8b31"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/targeted-splicing/annotate_BAP1_junctions.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-targeted-splicing-audit/annotate_BAP1_junctions.py",
+          "bytes": 2387,
+          "sha256": "e5495889071c253ea160ed576d2f89c6dbc3e7e4ec98cef6fb52d5702fc4c53c",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/targeted-splicing/annotate_BAP1_junctions.py",
+              "bytes": 2387,
+              "sha256": "e5495889071c253ea160ed576d2f89c6dbc3e7e4ec98cef6fb52d5702fc4c53c"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "e5495889071c253ea160ed576d2f89c6dbc3e7e4ec98cef6fb52d5702fc4c53c",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/targeted-splicing/annotate_BAP1_junctions.py",
+          "bytes": 2387,
+          "sha256": "e5495889071c253ea160ed576d2f89c6dbc3e7e4ec98cef6fb52d5702fc4c53c"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/targeted-splicing/audit_bap1_junction_annotations.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-targeted-splicing-audit/audit_bap1_junction_annotations.py",
+          "bytes": 2581,
+          "sha256": "53c5070ea3d54eafb6e5388582b1c13aea9284dc19477c2748b3935eeab5ddb1",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/targeted-splicing/audit_bap1_junction_annotations.py",
+              "bytes": 2581,
+              "sha256": "53c5070ea3d54eafb6e5388582b1c13aea9284dc19477c2748b3935eeab5ddb1"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "53c5070ea3d54eafb6e5388582b1c13aea9284dc19477c2748b3935eeab5ddb1",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/targeted-splicing/audit_bap1_junction_annotations.py",
+          "bytes": 2581,
+          "sha256": "53c5070ea3d54eafb6e5388582b1c13aea9284dc19477c2748b3935eeab5ddb1"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/targeted-splicing/audit_target_splicing.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-targeted-splicing-audit/audit_target_splicing.py",
+          "bytes": 7823,
+          "sha256": "204bf52c87c96e740ad5f4808dde36c801baa1731ee3736d3368c440194a762c",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/targeted-splicing/audit_target_splicing.py",
+              "bytes": 7823,
+              "sha256": "204bf52c87c96e740ad5f4808dde36c801baa1731ee3736d3368c440194a762c"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "204bf52c87c96e740ad5f4808dde36c801baa1731ee3736d3368c440194a762c",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/targeted-splicing/audit_target_splicing.py",
+          "bytes": 7823,
+          "sha256": "204bf52c87c96e740ad5f4808dde36c801baa1731ee3736d3368c440194a762c"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/targeted-splicing/compare_alignments.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-targeted-splicing-audit/compare_alignments.py",
+          "bytes": 3053,
+          "sha256": "0cc445ce3b062af064c30143641765d24e317f0be072a225c56c857a41ba04b4",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/targeted-splicing/compare_alignments.py",
+              "bytes": 3053,
+              "sha256": "0cc445ce3b062af064c30143641765d24e317f0be072a225c56c857a41ba04b4"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "0cc445ce3b062af064c30143641765d24e317f0be072a225c56c857a41ba04b4",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/targeted-splicing/compare_alignments.py",
+          "bytes": 3053,
+          "sha256": "0cc445ce3b062af064c30143641765d24e317f0be072a225c56c857a41ba04b4"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/targeted-splicing/independent_audit.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-targeted-splicing-audit/independent_audit.py",
+          "bytes": 5484,
+          "sha256": "fc87c25e47e82a75a06c546f7eb8bb859c719bf1e4bcf43adf7a1fcb986eda93",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/targeted-splicing/independent_audit.py",
+              "bytes": 5484,
+              "sha256": "fc87c25e47e82a75a06c546f7eb8bb859c719bf1e4bcf43adf7a1fcb986eda93"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "fc87c25e47e82a75a06c546f7eb8bb859c719bf1e4bcf43adf7a1fcb986eda93",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/targeted-splicing/independent_audit.py",
+          "bytes": 5484,
+          "sha256": "fc87c25e47e82a75a06c546f7eb8bb859c719bf1e4bcf43adf7a1fcb986eda93"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/targeted-splicing/independent_new_D8_audit.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-targeted-splicing-audit/independent_new_D8_audit.py",
+          "bytes": 5509,
+          "sha256": "87b43d4ba501de03202bbd9ba51efc6529fcfd33a3b7d50b278987c6102b69b8",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/targeted-splicing/independent_new_D8_audit.py",
+              "bytes": 5509,
+              "sha256": "87b43d4ba501de03202bbd9ba51efc6529fcfd33a3b7d50b278987c6102b69b8"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "87b43d4ba501de03202bbd9ba51efc6529fcfd33a3b7d50b278987c6102b69b8",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/targeted-splicing/independent_new_D8_audit.py",
+          "bytes": 5509,
+          "sha256": "87b43d4ba501de03202bbd9ba51efc6529fcfd33a3b7d50b278987c6102b69b8"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/targeted-splicing/independent_synthetic_controls.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-targeted-splicing-audit/independent_synthetic_controls.py",
+          "bytes": 3767,
+          "sha256": "f9b7fcb195e6cb45311d9be9893766c687249b7ecead93a25c4102d17f77bf17",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/targeted-splicing/independent_synthetic_controls.py",
+              "bytes": 3767,
+              "sha256": "f9b7fcb195e6cb45311d9be9893766c687249b7ecead93a25c4102d17f77bf17"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "f9b7fcb195e6cb45311d9be9893766c687249b7ecead93a25c4102d17f77bf17",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/targeted-splicing/independent_synthetic_controls.py",
+          "bytes": 3767,
+          "sha256": "f9b7fcb195e6cb45311d9be9893766c687249b7ecead93a25c4102d17f77bf17"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/genome-fusion/targeted-splicing/investigate_rasa1_difference.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-targeted-splicing-audit/investigate_rasa1_difference.py",
+          "bytes": 5801,
+          "sha256": "5663b1ada4a594e704323b7d6b32843938e45c79f5769d02ba29dd72dd41c75e",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/targeted-splicing/investigate_rasa1_difference.py",
+              "bytes": 5801,
+              "sha256": "5663b1ada4a594e704323b7d6b32843938e45c79f5769d02ba29dd72dd41c75e"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "5663b1ada4a594e704323b7d6b32843938e45c79f5769d02ba29dd72dd41c75e",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/targeted-splicing/investigate_rasa1_difference.py",
+          "bytes": 5801,
+          "sha256": "5663b1ada4a594e704323b7d6b32843938e45c79f5769d02ba29dd72dd41c75e"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/hla-II/build-findings.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/hla-II/build-findings.py",
+          "bytes": 8714,
+          "sha256": "2856dc449f75ee5ab170349016a072b696608929626e3f99612ba63a6e0c1c0d",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/hla-II/build-findings.py",
+              "bytes": 8714,
+              "sha256": "2856dc449f75ee5ab170349016a072b696608929626e3f99612ba63a6e0c1c0d"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "2856dc449f75ee5ab170349016a072b696608929626e3f99612ba63a6e0c1c0d",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/hla-II/build-findings.py",
+          "bytes": 8714,
+          "sha256": "2856dc449f75ee5ab170349016a072b696608929626e3f99612ba63a6e0c1c0d"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/hla-II/check-reference.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/hla-II/check-reference.py",
+          "bytes": 2628,
+          "sha256": "497fed72a3ff3d135e5feb81e753f87a0808c01a1154fa9587f3f1fe1289afda",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/hla-II/check-reference.py",
+              "bytes": 2628,
+              "sha256": "497fed72a3ff3d135e5feb81e753f87a0808c01a1154fa9587f3f1fe1289afda"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "497fed72a3ff3d135e5feb81e753f87a0808c01a1154fa9587f3f1fe1289afda",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/hla-II/check-reference.py",
+          "bytes": 2628,
+          "sha256": "497fed72a3ff3d135e5feb81e753f87a0808c01a1154fa9587f3f1fe1289afda"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/hla-II/download-models.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/hla-II/download-models.py",
+          "bytes": 737,
+          "sha256": "bd8b81f9919d5196db308c6a569cadfce3de0fb40d8771cb49b7e30db42c6bdb",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/hla-II/download-models.py",
+              "bytes": 737,
+              "sha256": "bd8b81f9919d5196db308c6a569cadfce3de0fb40d8771cb49b7e30db42c6bdb"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "bd8b81f9919d5196db308c6a569cadfce3de0fb40d8771cb49b7e30db42c6bdb",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/hla-II/download-models.py",
+          "bytes": 737,
+          "sha256": "bd8b81f9919d5196db308c6a569cadfce3de0fb40d8771cb49b7e30db42c6bdb"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/hla-II/prepare-length12-sensitivity.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/hla-II/prepare-length12-sensitivity.py",
+          "bytes": 2954,
+          "sha256": "6d36c4f4691763434fe3958dc44e77b4ae9e905a993e4d7df754689d39c4ee9d",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/hla-II/prepare-length12-sensitivity.py",
+              "bytes": 2954,
+              "sha256": "6d36c4f4691763434fe3958dc44e77b4ae9e905a993e4d7df754689d39c4ee9d"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "6d36c4f4691763434fe3958dc44e77b4ae9e905a993e4d7df754689d39c4ee9d",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/hla-II/prepare-length12-sensitivity.py",
+          "bytes": 2954,
+          "sha256": "6d36c4f4691763434fe3958dc44e77b4ae9e905a993e4d7df754689d39c4ee9d"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/hla-II/prepare-patient.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/hla-II/prepare-patient.py",
+          "bytes": 2924,
+          "sha256": "5436128c5e609ae44703a37c4200d4ee8445a8c475b74033f5a0daed5b8daca5",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/hla-II/prepare-patient.py",
+              "bytes": 2924,
+              "sha256": "5436128c5e609ae44703a37c4200d4ee8445a8c475b74033f5a0daed5b8daca5"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "5436128c5e609ae44703a37c4200d4ee8445a8c475b74033f5a0daed5b8daca5",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/hla-II/prepare-patient.py",
+          "bytes": 2924,
+          "sha256": "5436128c5e609ae44703a37c4200d4ee8445a8c475b74033f5a0daed5b8daca5"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/hla-II/run_caphla.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/hla-II/run_caphla.py",
+          "bytes": 3466,
+          "sha256": "ff066456b3edc9af84fa9c7ce47d18d3311577a1ff56e80bea164e5c017e8f52",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/hla-II/run_caphla.py",
+              "bytes": 3466,
+              "sha256": "ff066456b3edc9af84fa9c7ce47d18d3311577a1ff56e80bea164e5c017e8f52"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "ff066456b3edc9af84fa9c7ce47d18d3311577a1ff56e80bea164e5c017e8f52",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/hla-II/run_caphla.py",
+          "bytes": 3466,
+          "sha256": "ff066456b3edc9af84fa9c7ce47d18d3311577a1ff56e80bea164e5c017e8f52"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/hla-II/summarize-length12.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/hla-II/summarize-length12.py",
+          "bytes": 1970,
+          "sha256": "b4e5b5cc7b906372afca0ff3902ea131bad58601352f51f77fe74286cc73f8fc",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/hla-II/summarize-length12.py",
+              "bytes": 1970,
+              "sha256": "b4e5b5cc7b906372afca0ff3902ea131bad58601352f51f77fe74286cc73f8fc"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "b4e5b5cc7b906372afca0ff3902ea131bad58601352f51f77fe74286cc73f8fc",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/hla-II/summarize-length12.py",
+          "bytes": 1970,
+          "sha256": "b4e5b5cc7b906372afca0ff3902ea131bad58601352f51f77fe74286cc73f8fc"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/hla-II/summarize.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/hla-II/summarize.py",
+          "bytes": 4999,
+          "sha256": "54e20b4af4612dcbbd1096ba7eeafa58185960fa40507bad7838c6014243f6bf",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/hla-II/summarize.py",
+              "bytes": 4999,
+              "sha256": "54e20b4af4612dcbbd1096ba7eeafa58185960fa40507bad7838c6014243f6bf"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "54e20b4af4612dcbbd1096ba7eeafa58185960fa40507bad7838c6014243f6bf",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/hla-II/summarize.py",
+          "bytes": 4999,
+          "sha256": "54e20b4af4612dcbbd1096ba7eeafa58185960fa40507bad7838c6014243f6bf"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/validation-package/audit_classII.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/validation-package/methods/audit_classII.py",
+          "bytes": 1727,
+          "sha256": "98daaac6a755fd033abce9fd328b32cf1fb9750bea8bdf23fdbfeeaa787154ec",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/validation-package/methods/audit_classII.py",
+              "bytes": 1727,
+              "sha256": "98daaac6a755fd033abce9fd328b32cf1fb9750bea8bdf23fdbfeeaa787154ec"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "98daaac6a755fd033abce9fd328b32cf1fb9750bea8bdf23fdbfeeaa787154ec",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/validation-package/methods/audit_classII.py",
+          "bytes": 1727,
+          "sha256": "98daaac6a755fd033abce9fd328b32cf1fb9750bea8bdf23fdbfeeaa787154ec"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/validation-package/audit_sequences.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/validation-package/methods/audit_sequences.py",
+          "bytes": 1772,
+          "sha256": "15deb44d50b4a25bee27967e2dffa6a41c6a441fde2e3c85d1cba706f4ca3e9b",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/validation-package/methods/audit_sequences.py",
+              "bytes": 1772,
+              "sha256": "15deb44d50b4a25bee27967e2dffa6a41c6a441fde2e3c85d1cba706f4ca3e9b"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "15deb44d50b4a25bee27967e2dffa6a41c6a441fde2e3c85d1cba706f4ca3e9b",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/validation-package/methods/audit_sequences.py",
+          "bytes": 1772,
+          "sha256": "15deb44d50b4a25bee27967e2dffa6a41c6a441fde2e3c85d1cba706f4ca3e9b"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/validation-package/build_package.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/validation-package/methods/build_package.py",
+          "bytes": 11124,
+          "sha256": "100c8727b24137fd5cd08a0760e53d41e77f1e38c8c97df536be56013d9eb0b7",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/validation-package/methods/build_package.py",
+              "bytes": 11124,
+              "sha256": "100c8727b24137fd5cd08a0760e53d41e77f1e38c8c97df536be56013d9eb0b7"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "100c8727b24137fd5cd08a0760e53d41e77f1e38c8c97df536be56013d9eb0b7",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/validation-package/methods/build_package.py",
+          "bytes": 11124,
+          "sha256": "100c8727b24137fd5cd08a0760e53d41e77f1e38c8c97df536be56013d9eb0b7"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct4-followup/validation-package/render_handoff.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-completed-followups/validation-package/methods/render_handoff.py",
+          "bytes": 2071,
+          "sha256": "aebbd7834218d5d484c73199acab7531c16d5ba14b2f30a6cd8b6ab87a2a3e12",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/validation-package/methods/render_handoff.py",
+              "bytes": 2071,
+              "sha256": "aebbd7834218d5d484c73199acab7531c16d5ba14b2f30a6cd8b6ab87a2a3e12"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "aebbd7834218d5d484c73199acab7531c16d5ba14b2f30a6cd8b6ab87a2a3e12",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/validation-package/methods/render_handoff.py",
+          "bytes": 2071,
+          "sha256": "aebbd7834218d5d484c73199acab7531c16d5ba14b2f30a6cd8b6ab87a2a3e12"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/audit_dna.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/audit_dna.py",
+          "bytes": 12118,
+          "sha256": "506e15732d8f47a5d52871d8656360c2e53396079d832a526324cac5613a85ba",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/audit_dna.py",
+              "bytes": 12118,
+              "sha256": "506e15732d8f47a5d52871d8656360c2e53396079d832a526324cac5613a85ba"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "506e15732d8f47a5d52871d8656360c2e53396079d832a526324cac5613a85ba",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/audit_dna.py",
+          "bytes": 12118,
+          "sha256": "506e15732d8f47a5d52871d8656360c2e53396079d832a526324cac5613a85ba"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/finalize_addendum.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/finalize_addendum.py",
+          "bytes": 4314,
+          "sha256": "90c72eda59cd35adc7df7d93f3b61bc10fd56c9a100c19b300eec1683a2dd6cb",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/finalize_addendum.py",
+              "bytes": 4314,
+              "sha256": "90c72eda59cd35adc7df7d93f3b61bc10fd56c9a100c19b300eec1683a2dd6cb"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "90c72eda59cd35adc7df7d93f3b61bc10fd56c9a100c19b300eec1683a2dd6cb",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/finalize_addendum.py",
+          "bytes": 4314,
+          "sha256": "90c72eda59cd35adc7df7d93f3b61bc10fd56c9a100c19b300eec1683a2dd6cb"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/independent_root_DNA.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/independent_root_DNA.py",
+          "bytes": 4392,
+          "sha256": "c6f6a213fc22bbff92d9d81e2825882a6213f3fb32abb2f12c71754a3f113970",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/independent_root_DNA.py",
+              "bytes": 4392,
+              "sha256": "c6f6a213fc22bbff92d9d81e2825882a6213f3fb32abb2f12c71754a3f113970"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "c6f6a213fc22bbff92d9d81e2825882a6213f3fb32abb2f12c71754a3f113970",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/independent_root_DNA.py",
+          "bytes": 4392,
+          "sha256": "c6f6a213fc22bbff92d9d81e2825882a6213f3fb32abb2f12c71754a3f113970"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/independent_root_linked_scores.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/independent_root_linked_scores.py",
+          "bytes": 1150,
+          "sha256": "5c80b6711d03ef2851feb263861d8240daebaf6ea06c6180a0120f08116b3b16",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/independent_root_linked_scores.py",
+              "bytes": 1150,
+              "sha256": "5c80b6711d03ef2851feb263861d8240daebaf6ea06c6180a0120f08116b3b16"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "5c80b6711d03ef2851feb263861d8240daebaf6ea06c6180a0120f08116b3b16",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/independent_root_linked_scores.py",
+          "bytes": 1150,
+          "sha256": "5c80b6711d03ef2851feb263861d8240daebaf6ea06c6180a0120f08116b3b16"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/inspect_linked_reads.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/inspect_linked_reads.py",
+          "bytes": 4676,
+          "sha256": "d6740178dd97efe4258bf01568fe66ed307cdca70aa5da09457fd7deaad8b842",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/inspect_linked_reads.py",
+              "bytes": 4676,
+              "sha256": "d6740178dd97efe4258bf01568fe66ed307cdca70aa5da09457fd7deaad8b842"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "d6740178dd97efe4258bf01568fe66ed307cdca70aa5da09457fd7deaad8b842",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/inspect_linked_reads.py",
+          "bytes": 4676,
+          "sha256": "d6740178dd97efe4258bf01568fe66ed307cdca70aa5da09457fd7deaad8b842"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/summarize_controls.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/summarize_controls.py",
+          "bytes": 2029,
+          "sha256": "7e53cc25c43182a4fde3aa834044c6a25374b6b5b930d2e31b705df9bc041009",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/summarize_controls.py",
+              "bytes": 2029,
+              "sha256": "7e53cc25c43182a4fde3aa834044c6a25374b6b5b930d2e31b705df9bc041009"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "7e53cc25c43182a4fde3aa834044c6a25374b6b5b930d2e31b705df9bc041009",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/summarize_controls.py",
+          "bytes": 2029,
+          "sha256": "7e53cc25c43182a4fde3aa834044c6a25374b6b5b930d2e31b705df9bc041009"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+              "bytes": 8475,
+              "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+            },
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/nominate.py",
+              "bytes": 8475,
+              "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+            }
+          ]
+        },
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+              "bytes": 8475,
+              "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+            },
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/nominate.py",
+              "bytes": 8475,
+              "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+              "bytes": 7450,
+              "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+            },
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/score.py",
+              "bytes": 7450,
+              "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+            }
+          ]
+        },
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+              "bytes": 7450,
+              "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+            },
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/score.py",
+              "bytes": 7450,
+              "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/geometry.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/geometry.py",
+          "bytes": 5891,
+          "sha256": "9a3fa2a88dbd92e8cc63f0e854a71f229b693bd144de56afa794f07b112fff95",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/geometry.py",
+              "bytes": 5891,
+              "sha256": "9a3fa2a88dbd92e8cc63f0e854a71f229b693bd144de56afa794f07b112fff95"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "9a3fa2a88dbd92e8cc63f0e854a71f229b693bd144de56afa794f07b112fff95",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/geometry.py",
+          "bytes": 5891,
+          "sha256": "9a3fa2a88dbd92e8cc63f0e854a71f229b693bd144de56afa794f07b112fff95"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/independent-root/affine_dp.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/independent-root/affine_dp.py",
+          "bytes": 3100,
+          "sha256": "f791184f7b3fd49ab7b7b3b3d311cc3a055db404dba87a01ae3aaf43bba24b5f",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/affine_dp.py",
+              "bytes": 3100,
+              "sha256": "f791184f7b3fd49ab7b7b3b3d311cc3a055db404dba87a01ae3aaf43bba24b5f"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "f791184f7b3fd49ab7b7b3b3d311cc3a055db404dba87a01ae3aaf43bba24b5f",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/affine_dp.py",
+          "bytes": 3100,
+          "sha256": "f791184f7b3fd49ab7b7b3b3d311cc3a055db404dba87a01ae3aaf43bba24b5f"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/independent-root/affine_terminal_dp.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/independent-root/affine_terminal_dp.py",
+          "bytes": 3431,
+          "sha256": "af9d19b00c479b90ffe85b2cf34f150146e2eebe923aa3135fbb19dd0fd3e90b",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/affine_terminal_dp.py",
+              "bytes": 3431,
+              "sha256": "af9d19b00c479b90ffe85b2cf34f150146e2eebe923aa3135fbb19dd0fd3e90b"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "af9d19b00c479b90ffe85b2cf34f150146e2eebe923aa3135fbb19dd0fd3e90b",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/affine_terminal_dp.py",
+          "bytes": 3431,
+          "sha256": "af9d19b00c479b90ffe85b2cf34f150146e2eebe923aa3135fbb19dd0fd3e90b"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/independent-root/affine_window_dp.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/independent-root/affine_window_dp.py",
+          "bytes": 3262,
+          "sha256": "fa433667dcef7e985532a46e707fcec35b247052b0d325a5fbcc753d6a9c3824",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/affine_window_dp.py",
+              "bytes": 3262,
+              "sha256": "fa433667dcef7e985532a46e707fcec35b247052b0d325a5fbcc753d6a9c3824"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "fa433667dcef7e985532a46e707fcec35b247052b0d325a5fbcc753d6a9c3824",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/affine_window_dp.py",
+          "bytes": 3262,
+          "sha256": "fa433667dcef7e985532a46e707fcec35b247052b0d325a5fbcc753d6a9c3824"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/independent-root/check_dp_library_conventions.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/independent-root/check_dp_library_conventions.py",
+          "bytes": 1155,
+          "sha256": "51ca32276abcd22d3a7f2b0a11e7e9a6f452c4c2477c814e00d01a4854604c88",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/check_dp_library_conventions.py",
+              "bytes": 1155,
+              "sha256": "51ca32276abcd22d3a7f2b0a11e7e9a6f452c4c2477c814e00d01a4854604c88"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "51ca32276abcd22d3a7f2b0a11e7e9a6f452c4c2477c814e00d01a4854604c88",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/check_dp_library_conventions.py",
+          "bytes": 1155,
+          "sha256": "51ca32276abcd22d3a7f2b0a11e7e9a6f452c4c2477c814e00d01a4854604c88"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/independent-root/check_pair_spans.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/independent-root/check_pair_spans.py",
+          "bytes": 1810,
+          "sha256": "3cf4e9f48f42d3ddbb16b90b788e1da288cb33e1c047ec004bb26a5e1c4983e2",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/check_pair_spans.py",
+              "bytes": 1810,
+              "sha256": "3cf4e9f48f42d3ddbb16b90b788e1da288cb33e1c047ec004bb26a5e1c4983e2"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "3cf4e9f48f42d3ddbb16b90b788e1da288cb33e1c047ec004bb26a5e1c4983e2",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/check_pair_spans.py",
+          "bytes": 1810,
+          "sha256": "3cf4e9f48f42d3ddbb16b90b788e1da288cb33e1c047ec004bb26a5e1c4983e2"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/independent-root/check_sequence_geometry.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/independent-root/check_sequence_geometry.py",
+          "bytes": 2670,
+          "sha256": "29f869253e0c163f2e287512df8bbf55c1614e1571649e56915b0e5496b24080",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/check_sequence_geometry.py",
+              "bytes": 2670,
+              "sha256": "29f869253e0c163f2e287512df8bbf55c1614e1571649e56915b0e5496b24080"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "29f869253e0c163f2e287512df8bbf55c1614e1571649e56915b0e5496b24080",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/check_sequence_geometry.py",
+          "bytes": 2670,
+          "sha256": "29f869253e0c163f2e287512df8bbf55c1614e1571649e56915b0e5496b24080"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/independent-root/rescore_cases.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/independent-root/rescore_cases.py",
+          "bytes": 1943,
+          "sha256": "4a8bfac957cda6cb7bf6e34622ec0076365236b0fca29d83d455349fb38f8234",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/rescore_cases.py",
+              "bytes": 1943,
+              "sha256": "4a8bfac957cda6cb7bf6e34622ec0076365236b0fca29d83d455349fb38f8234"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "4a8bfac957cda6cb7bf6e34622ec0076365236b0fca29d83d455349fb38f8234",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/independent-root/rescore_cases.py",
+          "bytes": 1943,
+          "sha256": "4a8bfac957cda6cb7bf6e34622ec0076365236b0fca29d83d455349fb38f8234"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/nominate.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+              "bytes": 8475,
+              "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+            },
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/nominate.py",
+              "bytes": 8475,
+              "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+            }
+          ]
+        },
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+              "bytes": 8475,
+              "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+            },
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/nominate.py",
+              "bytes": 8475,
+              "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/nominate.py",
+          "bytes": 8475,
+          "sha256": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/prepare.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/prepare.py",
+          "bytes": 3973,
+          "sha256": "c4d37c9de337be9c5c796053f9d402252d9815bd6ebea5f309c4aebb4c7a90ba",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/prepare.py",
+              "bytes": 3973,
+              "sha256": "c4d37c9de337be9c5c796053f9d402252d9815bd6ebea5f309c4aebb4c7a90ba"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "c4d37c9de337be9c5c796053f9d402252d9815bd6ebea5f309c4aebb4c7a90ba",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/prepare.py",
+          "bytes": 3973,
+          "sha256": "c4d37c9de337be9c5c796053f9d402252d9815bd6ebea5f309c4aebb4c7a90ba"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/repeat_control.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/repeat_control.py",
+          "bytes": 2889,
+          "sha256": "ce024ecd63da5e9fed84143e9eb94a63f15b26ff7f8f93a0f6c11ac13b350ec5",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/repeat_control.py",
+              "bytes": 2889,
+              "sha256": "ce024ecd63da5e9fed84143e9eb94a63f15b26ff7f8f93a0f6c11ac13b350ec5"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "ce024ecd63da5e9fed84143e9eb94a63f15b26ff7f8f93a0f6c11ac13b350ec5",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/repeat_control.py",
+          "bytes": 2889,
+          "sha256": "ce024ecd63da5e9fed84143e9eb94a63f15b26ff7f8f93a0f6c11ac13b350ec5"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-CCND1-HEG1-audit-v1/score.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+              "bytes": 7450,
+              "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+            },
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/score.py",
+              "bytes": 7450,
+              "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+            }
+          ]
+        },
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+              "bytes": 7450,
+              "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+            },
+            {
+              "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/score.py",
+              "bytes": 7450,
+              "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/DNA-addendum-2026-10-05/whole-reference-alternatives/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+        },
+        {
+          "path": "evidence/computational-followups-v2/CCND1-HEG1-additional/score.py",
+          "bytes": 7450,
+          "sha256": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/design-history-initial/prepare_design.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/design-history-initial/prepare_design.py",
+          "bytes": 14512,
+          "sha256": "67d4e27cf184481c2616051cc30b07702abfdfa23fac2980cfcb62ac3c203659",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/design-history-initial/prepare_design.py",
+              "bytes": 14512,
+              "sha256": "67d4e27cf184481c2616051cc30b07702abfdfa23fac2980cfcb62ac3c203659"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "67d4e27cf184481c2616051cc30b07702abfdfa23fac2980cfcb62ac3c203659",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/design-history-initial/prepare_design.py",
+          "bytes": 14512,
+          "sha256": "67d4e27cf184481c2616051cc30b07702abfdfa23fac2980cfcb62ac3c203659"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/design-history-v1/prepare_design.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/design-history-v1/prepare_design.py",
+          "bytes": 14508,
+          "sha256": "5f609e7ec16700bf09a93108b8512f639e492f9401c90c4eccc853f0ac2be2ac",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/design-history-v1/prepare_design.py",
+              "bytes": 14508,
+              "sha256": "5f609e7ec16700bf09a93108b8512f639e492f9401c90c4eccc853f0ac2be2ac"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "5f609e7ec16700bf09a93108b8512f639e492f9401c90c4eccc853f0ac2be2ac",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/design-history-v1/prepare_design.py",
+          "bytes": 14508,
+          "sha256": "5f609e7ec16700bf09a93108b8512f639e492f9401c90c4eccc853f0ac2be2ac"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/execution-initial-failure/run_benchmark.original.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/execution-initial-failure/run_benchmark.original.py",
+          "bytes": 6696,
+          "sha256": "db6168394ce18f5f2dcb8258cb207c285fc6f25791e9b9548f2e7a331059b9a1",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/execution-initial-failure/run_benchmark.original.py",
+              "bytes": 6696,
+              "sha256": "db6168394ce18f5f2dcb8258cb207c285fc6f25791e9b9548f2e7a331059b9a1"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "db6168394ce18f5f2dcb8258cb207c285fc6f25791e9b9548f2e7a331059b9a1",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/execution-initial-failure/run_benchmark.original.py",
+          "bytes": 6696,
+          "sha256": "db6168394ce18f5f2dcb8258cb207c285fc6f25791e9b9548f2e7a331059b9a1"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/finalize_findings.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/finalize_findings.py",
+          "bytes": 5228,
+          "sha256": "fefb4f8a994b045f837480c0d0bdc269fdebe113541d0bc0a9525440d602ab42",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/finalize_findings.py",
+              "bytes": 5228,
+              "sha256": "fefb4f8a994b045f837480c0d0bdc269fdebe113541d0bc0a9525440d602ab42"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "fefb4f8a994b045f837480c0d0bdc269fdebe113541d0bc0a9525440d602ab42",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/finalize_findings.py",
+          "bytes": 5228,
+          "sha256": "fefb4f8a994b045f837480c0d0bdc269fdebe113541d0bc0a9525440d602ab42"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/independent_claim_audit.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/independent_claim_audit.py",
+          "bytes": 6024,
+          "sha256": "ca0543ec6e35fd49bb03f5aabb7d8eccd7ce1bd7b5e83928ad5300881add86b2",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/independent_claim_audit.py",
+              "bytes": 6024,
+              "sha256": "ca0543ec6e35fd49bb03f5aabb7d8eccd7ce1bd7b5e83928ad5300881add86b2"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "ca0543ec6e35fd49bb03f5aabb7d8eccd7ce1bd7b5e83928ad5300881add86b2",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/independent_claim_audit.py",
+          "bytes": 6024,
+          "sha256": "ca0543ec6e35fd49bb03f5aabb7d8eccd7ce1bd7b5e83928ad5300881add86b2"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/independent_design_audit.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/independent_design_audit.py",
+          "bytes": 11082,
+          "sha256": "ca223cb12ca3d5d9984dc195c1aa833edae175305172ea5139fe8f9255c52bd6",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/independent_design_audit.py",
+              "bytes": 11082,
+              "sha256": "ca223cb12ca3d5d9984dc195c1aa833edae175305172ea5139fe8f9255c52bd6"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "ca223cb12ca3d5d9984dc195c1aa833edae175305172ea5139fe8f9255c52bd6",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/independent_design_audit.py",
+          "bytes": 11082,
+          "sha256": "ca223cb12ca3d5d9984dc195c1aa833edae175305172ea5139fe8f9255c52bd6"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/independent_fastq_inventory.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/independent_fastq_inventory.py",
+          "bytes": 3243,
+          "sha256": "40a12b7dbac07a23e3ebd4ebf7d4edc9ba5a669198bebd894bea7ab149b22f80",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/independent_fastq_inventory.py",
+              "bytes": 3243,
+              "sha256": "40a12b7dbac07a23e3ebd4ebf7d4edc9ba5a669198bebd894bea7ab149b22f80"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "40a12b7dbac07a23e3ebd4ebf7d4edc9ba5a669198bebd894bea7ab149b22f80",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/independent_fastq_inventory.py",
+          "bytes": 3243,
+          "sha256": "40a12b7dbac07a23e3ebd4ebf7d4edc9ba5a669198bebd894bea7ab149b22f80"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/independent_mate_geometry.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/independent_mate_geometry.py",
+          "bytes": 5977,
+          "sha256": "15f1a6bdea1115fc219e39a755a9f8daccf90a0963cd6d01184d06fa1a5bc1b6",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/independent_mate_geometry.py",
+              "bytes": 5977,
+              "sha256": "15f1a6bdea1115fc219e39a755a9f8daccf90a0963cd6d01184d06fa1a5bc1b6"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "15f1a6bdea1115fc219e39a755a9f8daccf90a0963cd6d01184d06fa1a5bc1b6",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/independent_mate_geometry.py",
+          "bytes": 5977,
+          "sha256": "15f1a6bdea1115fc219e39a755a9f8daccf90a0963cd6d01184d06fa1a5bc1b6"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/independent_outcome_audit.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/independent_outcome_audit.py",
+          "bytes": 15708,
+          "sha256": "05d8385286a6addbc0152f518edb00d40595a3cb2e2c640fab4684936da4b7a3",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/independent_outcome_audit.py",
+              "bytes": 15708,
+              "sha256": "05d8385286a6addbc0152f518edb00d40595a3cb2e2c640fab4684936da4b7a3"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "05d8385286a6addbc0152f518edb00d40595a3cb2e2c640fab4684936da4b7a3",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/independent_outcome_audit.py",
+          "bytes": 15708,
+          "sha256": "05d8385286a6addbc0152f518edb00d40595a3cb2e2c640fab4684936da4b7a3"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/independent_trim_geometry.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/independent_trim_geometry.py",
+          "bytes": 3780,
+          "sha256": "801be0c830f6dc77a8165b0d97d69ce8b0189ddabf49d0c861e71f268efefb83",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/independent_trim_geometry.py",
+              "bytes": 3780,
+              "sha256": "801be0c830f6dc77a8165b0d97d69ce8b0189ddabf49d0c861e71f268efefb83"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "801be0c830f6dc77a8165b0d97d69ce8b0189ddabf49d0c861e71f268efefb83",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/independent_trim_geometry.py",
+          "bytes": 3780,
+          "sha256": "801be0c830f6dc77a8165b0d97d69ce8b0189ddabf49d0c861e71f268efefb83"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/mirror_results.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/mirror_results.py",
+          "bytes": 3463,
+          "sha256": "ddcd984aa0b3a78fd3b4618cb59fbef66583d76e0a3d9e2d3db9ebca5eacc4f5",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/mirror_results.py",
+              "bytes": 3463,
+              "sha256": "ddcd984aa0b3a78fd3b4618cb59fbef66583d76e0a3d9e2d3db9ebca5eacc4f5"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "ddcd984aa0b3a78fd3b4618cb59fbef66583d76e0a3d9e2d3db9ebca5eacc4f5",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/mirror_results.py",
+          "bytes": 3463,
+          "sha256": "ddcd984aa0b3a78fd3b4618cb59fbef66583d76e0a3d9e2d3db9ebca5eacc4f5"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/prepare_design.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/prepare_design.py",
+          "bytes": 14527,
+          "sha256": "bf5c702d4fe0b669ddb79b6b22196641d3ab0e6eb8e531bf1b4a30641e616c51",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/prepare_design.py",
+              "bytes": 14527,
+              "sha256": "bf5c702d4fe0b669ddb79b6b22196641d3ab0e6eb8e531bf1b4a30641e616c51"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "bf5c702d4fe0b669ddb79b6b22196641d3ab0e6eb8e531bf1b4a30641e616c51",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/prepare_design.py",
+          "bytes": 14527,
+          "sha256": "bf5c702d4fe0b669ddb79b6b22196641d3ab0e6eb8e531bf1b4a30641e616c51"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/run_benchmark.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/run_benchmark.py",
+          "bytes": 8938,
+          "sha256": "0a385fc30f91180e50d282a5b1a48c03ce7d4912d2faf4cdad39c3580a8d0788",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/run_benchmark.py",
+              "bytes": 8938,
+              "sha256": "0a385fc30f91180e50d282a5b1a48c03ce7d4912d2faf4cdad39c3580a8d0788"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "0a385fc30f91180e50d282a5b1a48c03ce7d4912d2faf4cdad39c3580a8d0788",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/run_benchmark.py",
+          "bytes": 8938,
+          "sha256": "0a385fc30f91180e50d282a5b1a48c03ce7d4912d2faf4cdad39c3580a8d0788"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-fusion-robustness-v1/summarize_benchmark.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/summarize_benchmark.py",
+          "bytes": 8589,
+          "sha256": "29a8b20f76b4708faa6b2e2159019b5323f34a4b831ecbddd095a135d3fa5ed9",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/computational-followups-v2/fusion-robustness/summarize_benchmark.py",
+              "bytes": 8589,
+              "sha256": "29a8b20f76b4708faa6b2e2159019b5323f34a4b831ecbddd095a135d3fa5ed9"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "29a8b20f76b4708faa6b2e2159019b5323f34a4b831ecbddd095a135d3fa5ed9",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/computational-followups-v2/fusion-robustness/summarize_benchmark.py",
+          "bytes": 8589,
+          "sha256": "29a8b20f76b4708faa6b2e2159019b5323f34a4b831ecbddd095a135d3fa5ed9"
+        }
+      ],
+      "fresh_match_confirmed": true
+    },
+    {
+      "source": "work/oct5-population-panel-concordance-v1/independent_annotation_audit.py",
+      "resident_candidate_comparison": [
+        {
+          "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/public-annotation/independent_annotation_audit.py",
+          "bytes": 4235,
+          "sha256": "84e52cc7e0d4d85a40cee10b6a840a42bbf7ae11f280f3927b6fbb79c6622389",
+          "repo_exact_matches": [
+            {
+              "path": "evidence/population-panel/public-annotation/independent_annotation_audit.py",
+              "bytes": 4235,
+              "sha256": "84e52cc7e0d4d85a40cee10b6a840a42bbf7ae11f280f3927b6fbb79c6622389"
+            }
+          ]
+        }
+      ],
+      "original_source_fresh_sha256": "84e52cc7e0d4d85a40cee10b6a840a42bbf7ae11f280f3927b6fbb79c6622389",
+      "fresh_original_exact_repository_matches": [
+        {
+          "path": "evidence/population-panel/public-annotation/independent_annotation_audit.py",
+          "bytes": 4235,
+          "sha256": "84e52cc7e0d4d85a40cee10b6a840a42bbf7ae11f280f3927b6fbb79c6622389"
+        }
+      ],
+      "fresh_match_confirmed": true
+    }
+  ],
+  "summary": {
+    "copied_resident": 34,
+    "copied_original": 52,
+    "unavailable": 0,
+    "intended_exclusions": 12,
+    "existing_hash_matches": 73,
+    "resident_copies_fresh_original_hash_verified": 34,
+    "existing_methods_fresh_original_hash_verified": 73,
+    "source_identity_mismatches": 0
+  },
+  "limitations": [
+    "Original analysis scripts retain their historical absolute paths and dependencies; this is not a tested portable pipeline.",
+    "Resident-copy identity qualifications are explicit per file.",
+    "Unreadable originals remain preserved in the original workspace; failed reads were not replaced by empty files.",
+    "No scientific calculations or source modifications occurred."
+  ],
+  "identity_recheck_completed_utc": "2026-10-07T01:32:50.390620+00:00"
+}

@@ -1,0 +1,68 @@
+BAP1 antigen evidence: independent computational audit
+1 October 2026
+
+Result: no concrete sequence or affinity-table error found. The interpretation
+is suitable for experimental triage, with the provenance labels below corrected.
+This is a separate implementation checking the same data and public references,
+not independent clinical validation.
+
+Sequence checks passed. Direct reconstruction from NM_004656.3 confirms the
+BAP1 deletion, first changed residue 57, seven-residue altered tail KGLYLGG,
+and stop after residue 63. IEERKGLYL spans residues 53–61 and EERKGLYL spans
+54–61; their position-matched wild-type sequences are IEERRSRRK and EERRSRRK.
+Both leave two real G residues before the stop. The supplied natural local
+contexts and sequence hashes agree. RASA1 independently reproduces the two-
+residue QT tail and stop after residue 251.
+
+Normal-reference checks passed. An independent unseeded scan tested every
+equal-length window in 104,760 GENCODE37 proteins (40,063,142 residues). It
+exactly reproduced every occurrence in the production seed-based search: no
+zero-, one-, or two-substitution neighbor for the nine-mer; no zero- or one-
+substitution neighbor for the eight-mer, but 24 distinct two-substitution
+neighbors across 68 reference occurrences. This bounded comparison does not
+cover population polymorphisms, unannotated ORFs, length-changing recognition
+or arbitrary TCR cross-reactivity, and therefore is not a safety test.
+
+Affinity checks passed. The 56-row normal-neighbor table consistently uses
+HLA-B*50:01. Six applicable overlaps with the focused/historical tables agree
+within floating-point tolerance. Model versions remain correlated checks, and
+none of their scores or percentiles is a patient-specific probability. Choosing
+leading peptides after screening 676 candidates also provides no calibrated
+false-discovery rate. The overlapping BAP1 peptides remain one mutation lead.
+
+Material presentation corrections completed at the parent's request:
+
+1. The summary RNA_alt_fragments column is now RNA_variant_alt_fragments. All
+   676 numeric/sequence/model rows are preserved exactly. A schema explains
+   that BAP1's 254 supports the variant locus, while complete peptide-window
+   RNA counts are 241 for the nine-mer and 245 for the eight-mer; none is an
+   independent-UMI-molecule count.
+2. The schema explicitly distinguishes separately optimized mutant/WT best
+   alleles from fixed-allele comparisons. Ratios of their best affinities are
+   not generally matched-HLA contrasts. Focused BAP1 B*50:01 contrasts already
+   use the same allele correctly.
+
+The source summary generator now reproduces the table from existing predictions
+without rerunning a model, verifies preservation against the previous table,
+and writes identical research-screen output and schema files to the delivery
+directory. See candidate-screen-summary-generation.json for hashes.
+
+Biological interpretation is appropriately bounded. Apcher's cell experiments
+support the possibility of MHC-I peptide generation upstream of a premature
+stop despite curtailed full-length protein production; they do not establish
+production of this BAP1 peptide. Litchfield's observational frameshift/NMD
+work supports investigation, not a mesothelioma vaccine success probability.
+The existing stop-context audit reconstructs exon/junction distances without
+claiming an NMD-escape fraction. Retain those limits.
+
+Optional wording clarification for handoff: confirmation in an available
+current tumor specimen need not imply that a new biopsy is mandatory. Suitable
+existing material may answer the question; any additional biopsy is a clinical
+decision. No evidence here establishes mutation presence at every current site,
+tumor-cell HLA retention, protein presentation, T-cell recognition or benefit.
+
+Reproducible audit: peer-review-bap1-antigen.py and .json.
+Relevant primary sources reviewed:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3136330/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7393139/
+https://github.com/openvax/mhcflurry

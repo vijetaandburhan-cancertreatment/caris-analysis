@@ -1,0 +1,12 @@
+{
+  "prior_observed_loci": 62358,
+  "new_observed_loci": 62358,
+  "integer_fields_per_row": 15,
+  "compared_integer_fields": 935370,
+  "differences": 0,
+  "new_loci": 0,
+  "old_missing_loci": 0,
+  "old_maximum_reported_postquality_depth": 8634,
+  "new_maximum_reported_postquality_depth": 8634,
+  "interpretation": "Exact count equality, if observed, supports no depth-cap effect for these particular final fields; this is an empirical rerun check, not inference from postquality depth alone."
+}

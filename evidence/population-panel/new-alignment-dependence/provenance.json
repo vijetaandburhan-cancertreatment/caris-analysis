@@ -1,0 +1,1634 @@
+{
+  "created_utc": "2026-10-05T06:51:28.092662+00:00",
+  "script_sha256": "aac02a1150d1b81000fea701a64e523ea1f7cd6a5be14c1e5484df7802efd773",
+  "count_complete_sha256": "3035393aee8d555e5590d849e6664c0671663527bfc1256d8e7490c8d4c4c0df",
+  "joint_callable_sha256": "25934a24cd3057c0324d116fe5f67ad3584e1d0a131efa8a77481fc8fd0ede8d",
+  "public_panel_sha256": "16435c85aff7e14589e41ef81e06151d912739ddd0144b1480abd7612f13b0b3",
+  "original_bam": {
+    "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853.bam",
+    "bytes": 2835547302,
+    "index": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-analysis/RNA_TN26-279853.bam.bai",
+    "index_sha256": "128b0c9ad5d0bd7a182765401470dc58b35308952723e05f7cecaa2bc1d423f6",
+    "hash_note": "Previously verified resident original; no redundant full BAM hash pass performed for this bounded check."
+  },
+  "new_bam": {
+    "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/patient-D8/target-genes.sorted.bam",
+    "bytes": 1530871,
+    "sha256": "897606ea1e3024833a126efd483dfed3392b2f565e20d5664d470ef5f68bd10d",
+    "index_sha256": "731ae4dcb400ef9d8ac1b9c51fee7e71fdfa5d77d256d2ba6b98c3f3e89b9fe2"
+  },
+  "headers": {
+    "original": {
+      "HD": {
+        "VN": "1.4",
+        "SO": "coordinate"
+      },
+      "SQ": [
+        {
+          "SN": "chr1",
+          "LN": 248956422
+        },
+        {
+          "SN": "chr2",
+          "LN": 242193529
+        },
+        {
+          "SN": "chr3",
+          "LN": 198295559
+        },
+        {
+          "SN": "chr4",
+          "LN": 190214555
+        },
+        {
+          "SN": "chr5",
+          "LN": 181538259
+        },
+        {
+          "SN": "chr6",
+          "LN": 170805979
+        },
+        {
+          "SN": "chr7",
+          "LN": 159345973
+        },
+        {
+          "SN": "chr8",
+          "LN": 145138636
+        },
+        {
+          "SN": "chr9",
+          "LN": 138394717
+        },
+        {
+          "SN": "chr10",
+          "LN": 133797422
+        },
+        {
+          "SN": "chr11",
+          "LN": 135086622
+        },
+        {
+          "SN": "chr12",
+          "LN": 133275309
+        },
+        {
+          "SN": "chr13",
+          "LN": 114364328
+        },
+        {
+          "SN": "chr14",
+          "LN": 107043718
+        },
+        {
+          "SN": "chr15",
+          "LN": 101991189
+        },
+        {
+          "SN": "chr16",
+          "LN": 90338345
+        },
+        {
+          "SN": "chr17",
+          "LN": 83257441
+        },
+        {
+          "SN": "chr18",
+          "LN": 80373285
+        },
+        {
+          "SN": "chr19",
+          "LN": 58617616
+        },
+        {
+          "SN": "chr20",
+          "LN": 64444167
+        },
+        {
+          "SN": "chr21",
+          "LN": 46709983
+        },
+        {
+          "SN": "chr22",
+          "LN": 50818468
+        },
+        {
+          "SN": "chrX",
+          "LN": 156040895
+        },
+        {
+          "SN": "chrY",
+          "LN": 57227415
+        },
+        {
+          "SN": "chrM",
+          "LN": 16569
+        },
+        {
+          "SN": "GL000008.2",
+          "LN": 209709
+        },
+        {
+          "SN": "GL000009.2",
+          "LN": 201709
+        },
+        {
+          "SN": "GL000194.1",
+          "LN": 191469
+        },
+        {
+          "SN": "GL000195.1",
+          "LN": 182896
+        },
+        {
+          "SN": "GL000205.2",
+          "LN": 185591
+        },
+        {
+          "SN": "GL000208.1",
+          "LN": 92689
+        },
+        {
+          "SN": "GL000213.1",
+          "LN": 164239
+        },
+        {
+          "SN": "GL000214.1",
+          "LN": 137718
+        },
+        {
+          "SN": "GL000216.2",
+          "LN": 176608
+        },
+        {
+          "SN": "GL000218.1",
+          "LN": 161147
+        },
+        {
+          "SN": "GL000219.1",
+          "LN": 179198
+        },
+        {
+          "SN": "GL000220.1",
+          "LN": 161802
+        },
+        {
+          "SN": "GL000221.1",
+          "LN": 155397
+        },
+        {
+          "SN": "GL000224.1",
+          "LN": 179693
+        },
+        {
+          "SN": "GL000225.1",
+          "LN": 211173
+        },
+        {
+          "SN": "GL000226.1",
+          "LN": 15008
+        },
+        {
+          "SN": "KI270302.1",
+          "LN": 2274
+        },
+        {
+          "SN": "KI270303.1",
+          "LN": 1942
+        },
+        {
+          "SN": "KI270304.1",
+          "LN": 2165
+        },
+        {
+          "SN": "KI270305.1",
+          "LN": 1472
+        },
+        {
+          "SN": "KI270310.1",
+          "LN": 1201
+        },
+        {
+          "SN": "KI270311.1",
+          "LN": 12399
+        },
+        {
+          "SN": "KI270312.1",
+          "LN": 998
+        },
+        {
+          "SN": "KI270315.1",
+          "LN": 2276
+        },
+        {
+          "SN": "KI270316.1",
+          "LN": 1444
+        },
+        {
+          "SN": "KI270317.1",
+          "LN": 37690
+        },
+        {
+          "SN": "KI270320.1",
+          "LN": 4416
+        },
+        {
+          "SN": "KI270322.1",
+          "LN": 21476
+        },
+        {
+          "SN": "KI270329.1",
+          "LN": 1040
+        },
+        {
+          "SN": "KI270330.1",
+          "LN": 1652
+        },
+        {
+          "SN": "KI270333.1",
+          "LN": 2699
+        },
+        {
+          "SN": "KI270334.1",
+          "LN": 1368
+        },
+        {
+          "SN": "KI270335.1",
+          "LN": 1048
+        },
+        {
+          "SN": "KI270336.1",
+          "LN": 1026
+        },
+        {
+          "SN": "KI270337.1",
+          "LN": 1121
+        },
+        {
+          "SN": "KI270338.1",
+          "LN": 1428
+        },
+        {
+          "SN": "KI270340.1",
+          "LN": 1428
+        },
+        {
+          "SN": "KI270362.1",
+          "LN": 3530
+        },
+        {
+          "SN": "KI270363.1",
+          "LN": 1803
+        },
+        {
+          "SN": "KI270364.1",
+          "LN": 2855
+        },
+        {
+          "SN": "KI270366.1",
+          "LN": 8320
+        },
+        {
+          "SN": "KI270371.1",
+          "LN": 2805
+        },
+        {
+          "SN": "KI270372.1",
+          "LN": 1650
+        },
+        {
+          "SN": "KI270373.1",
+          "LN": 1451
+        },
+        {
+          "SN": "KI270374.1",
+          "LN": 2656
+        },
+        {
+          "SN": "KI270375.1",
+          "LN": 2378
+        },
+        {
+          "SN": "KI270376.1",
+          "LN": 1136
+        },
+        {
+          "SN": "KI270378.1",
+          "LN": 1048
+        },
+        {
+          "SN": "KI270379.1",
+          "LN": 1045
+        },
+        {
+          "SN": "KI270381.1",
+          "LN": 1930
+        },
+        {
+          "SN": "KI270382.1",
+          "LN": 4215
+        },
+        {
+          "SN": "KI270383.1",
+          "LN": 1750
+        },
+        {
+          "SN": "KI270384.1",
+          "LN": 1658
+        },
+        {
+          "SN": "KI270385.1",
+          "LN": 990
+        },
+        {
+          "SN": "KI270386.1",
+          "LN": 1788
+        },
+        {
+          "SN": "KI270387.1",
+          "LN": 1537
+        },
+        {
+          "SN": "KI270388.1",
+          "LN": 1216
+        },
+        {
+          "SN": "KI270389.1",
+          "LN": 1298
+        },
+        {
+          "SN": "KI270390.1",
+          "LN": 2387
+        },
+        {
+          "SN": "KI270391.1",
+          "LN": 1484
+        },
+        {
+          "SN": "KI270392.1",
+          "LN": 971
+        },
+        {
+          "SN": "KI270393.1",
+          "LN": 1308
+        },
+        {
+          "SN": "KI270394.1",
+          "LN": 970
+        },
+        {
+          "SN": "KI270395.1",
+          "LN": 1143
+        },
+        {
+          "SN": "KI270396.1",
+          "LN": 1880
+        },
+        {
+          "SN": "KI270411.1",
+          "LN": 2646
+        },
+        {
+          "SN": "KI270412.1",
+          "LN": 1179
+        },
+        {
+          "SN": "KI270414.1",
+          "LN": 2489
+        },
+        {
+          "SN": "KI270417.1",
+          "LN": 2043
+        },
+        {
+          "SN": "KI270418.1",
+          "LN": 2145
+        },
+        {
+          "SN": "KI270419.1",
+          "LN": 1029
+        },
+        {
+          "SN": "KI270420.1",
+          "LN": 2321
+        },
+        {
+          "SN": "KI270422.1",
+          "LN": 1445
+        },
+        {
+          "SN": "KI270423.1",
+          "LN": 981
+        },
+        {
+          "SN": "KI270424.1",
+          "LN": 2140
+        },
+        {
+          "SN": "KI270425.1",
+          "LN": 1884
+        },
+        {
+          "SN": "KI270429.1",
+          "LN": 1361
+        },
+        {
+          "SN": "KI270435.1",
+          "LN": 92983
+        },
+        {
+          "SN": "KI270438.1",
+          "LN": 112505
+        },
+        {
+          "SN": "KI270442.1",
+          "LN": 392061
+        },
+        {
+          "SN": "KI270448.1",
+          "LN": 7992
+        },
+        {
+          "SN": "KI270465.1",
+          "LN": 1774
+        },
+        {
+          "SN": "KI270466.1",
+          "LN": 1233
+        },
+        {
+          "SN": "KI270467.1",
+          "LN": 3920
+        },
+        {
+          "SN": "KI270468.1",
+          "LN": 4055
+        },
+        {
+          "SN": "KI270507.1",
+          "LN": 5353
+        },
+        {
+          "SN": "KI270508.1",
+          "LN": 1951
+        },
+        {
+          "SN": "KI270509.1",
+          "LN": 2318
+        },
+        {
+          "SN": "KI270510.1",
+          "LN": 2415
+        },
+        {
+          "SN": "KI270511.1",
+          "LN": 8127
+        },
+        {
+          "SN": "KI270512.1",
+          "LN": 22689
+        },
+        {
+          "SN": "KI270515.1",
+          "LN": 6361
+        },
+        {
+          "SN": "KI270516.1",
+          "LN": 1300
+        },
+        {
+          "SN": "KI270517.1",
+          "LN": 3253
+        },
+        {
+          "SN": "KI270518.1",
+          "LN": 2186
+        },
+        {
+          "SN": "KI270519.1",
+          "LN": 138126
+        },
+        {
+          "SN": "KI270521.1",
+          "LN": 7642
+        },
+        {
+          "SN": "KI270522.1",
+          "LN": 5674
+        },
+        {
+          "SN": "KI270528.1",
+          "LN": 2983
+        },
+        {
+          "SN": "KI270529.1",
+          "LN": 1899
+        },
+        {
+          "SN": "KI270530.1",
+          "LN": 2168
+        },
+        {
+          "SN": "KI270538.1",
+          "LN": 91309
+        },
+        {
+          "SN": "KI270539.1",
+          "LN": 993
+        },
+        {
+          "SN": "KI270544.1",
+          "LN": 1202
+        },
+        {
+          "SN": "KI270548.1",
+          "LN": 1599
+        },
+        {
+          "SN": "KI270579.1",
+          "LN": 31033
+        },
+        {
+          "SN": "KI270580.1",
+          "LN": 1553
+        },
+        {
+          "SN": "KI270581.1",
+          "LN": 7046
+        },
+        {
+          "SN": "KI270582.1",
+          "LN": 6504
+        },
+        {
+          "SN": "KI270583.1",
+          "LN": 1400
+        },
+        {
+          "SN": "KI270584.1",
+          "LN": 4513
+        },
+        {
+          "SN": "KI270587.1",
+          "LN": 2969
+        },
+        {
+          "SN": "KI270588.1",
+          "LN": 6158
+        },
+        {
+          "SN": "KI270589.1",
+          "LN": 44474
+        },
+        {
+          "SN": "KI270590.1",
+          "LN": 4685
+        },
+        {
+          "SN": "KI270591.1",
+          "LN": 5796
+        },
+        {
+          "SN": "KI270593.1",
+          "LN": 3041
+        },
+        {
+          "SN": "KI270706.1",
+          "LN": 175055
+        },
+        {
+          "SN": "KI270707.1",
+          "LN": 32032
+        },
+        {
+          "SN": "KI270708.1",
+          "LN": 127682
+        },
+        {
+          "SN": "KI270709.1",
+          "LN": 66860
+        },
+        {
+          "SN": "KI270710.1",
+          "LN": 40176
+        },
+        {
+          "SN": "KI270711.1",
+          "LN": 42210
+        },
+        {
+          "SN": "KI270712.1",
+          "LN": 176043
+        },
+        {
+          "SN": "KI270713.1",
+          "LN": 40745
+        },
+        {
+          "SN": "KI270714.1",
+          "LN": 41717
+        },
+        {
+          "SN": "KI270715.1",
+          "LN": 161471
+        },
+        {
+          "SN": "KI270716.1",
+          "LN": 153799
+        },
+        {
+          "SN": "KI270717.1",
+          "LN": 40062
+        },
+        {
+          "SN": "KI270718.1",
+          "LN": 38054
+        },
+        {
+          "SN": "KI270719.1",
+          "LN": 176845
+        },
+        {
+          "SN": "KI270720.1",
+          "LN": 39050
+        },
+        {
+          "SN": "KI270721.1",
+          "LN": 100316
+        },
+        {
+          "SN": "KI270722.1",
+          "LN": 194050
+        },
+        {
+          "SN": "KI270723.1",
+          "LN": 38115
+        },
+        {
+          "SN": "KI270724.1",
+          "LN": 39555
+        },
+        {
+          "SN": "KI270725.1",
+          "LN": 172810
+        },
+        {
+          "SN": "KI270726.1",
+          "LN": 43739
+        },
+        {
+          "SN": "KI270727.1",
+          "LN": 448248
+        },
+        {
+          "SN": "KI270728.1",
+          "LN": 1872759
+        },
+        {
+          "SN": "KI270729.1",
+          "LN": 280839
+        },
+        {
+          "SN": "KI270730.1",
+          "LN": 112551
+        },
+        {
+          "SN": "KI270731.1",
+          "LN": 150754
+        },
+        {
+          "SN": "KI270732.1",
+          "LN": 41543
+        },
+        {
+          "SN": "KI270733.1",
+          "LN": 179772
+        },
+        {
+          "SN": "KI270734.1",
+          "LN": 165050
+        },
+        {
+          "SN": "KI270735.1",
+          "LN": 42811
+        },
+        {
+          "SN": "KI270736.1",
+          "LN": 181920
+        },
+        {
+          "SN": "KI270737.1",
+          "LN": 103838
+        },
+        {
+          "SN": "KI270738.1",
+          "LN": 99375
+        },
+        {
+          "SN": "KI270739.1",
+          "LN": 73985
+        },
+        {
+          "SN": "KI270740.1",
+          "LN": 37240
+        },
+        {
+          "SN": "KI270741.1",
+          "LN": 157432
+        },
+        {
+          "SN": "KI270742.1",
+          "LN": 186739
+        },
+        {
+          "SN": "KI270743.1",
+          "LN": 210658
+        },
+        {
+          "SN": "KI270744.1",
+          "LN": 168472
+        },
+        {
+          "SN": "KI270745.1",
+          "LN": 41891
+        },
+        {
+          "SN": "KI270746.1",
+          "LN": 66486
+        },
+        {
+          "SN": "KI270747.1",
+          "LN": 198735
+        },
+        {
+          "SN": "KI270748.1",
+          "LN": 93321
+        },
+        {
+          "SN": "KI270749.1",
+          "LN": 158759
+        },
+        {
+          "SN": "KI270750.1",
+          "LN": 148850
+        },
+        {
+          "SN": "KI270751.1",
+          "LN": 150742
+        },
+        {
+          "SN": "KI270752.1",
+          "LN": 27745
+        },
+        {
+          "SN": "KI270753.1",
+          "LN": 62944
+        },
+        {
+          "SN": "KI270754.1",
+          "LN": 40191
+        },
+        {
+          "SN": "KI270755.1",
+          "LN": 36723
+        },
+        {
+          "SN": "KI270756.1",
+          "LN": 79590
+        },
+        {
+          "SN": "KI270757.1",
+          "LN": 71251
+        }
+      ],
+      "PG": [
+        {
+          "ID": "STAR",
+          "PN": "STAR",
+          "VN": "2.7.8a",
+          "CL": "/gpfs1/share/tools/envs/WTSFusion2/bin/STAR   --runThreadN 4   --genomeDir /gpfs1/share/STAR-Fusion/STAR-Fusion-v1.10.0/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir//ref_genome.fa.star.idx   --genomeLoad NoSharedMemory   --readFilesIn TN26-279853_S25.R1.fastq.gz   TN26-279853_S25.R2.fastq.gz      --readFilesCommand \"gunzip -c\"      --outFileNamePrefix /gpfs5/prod/Hybrid_WTS/260830_A01687_0587_AH2KM3DSXG/Lane1/WTSFusion/TN26-279853/   --outReadsUnmapped Fastx   --outSAMtype BAM   SortedByCoordinate      --outSAMstrandField intronMotif   --outSAMunmapped Within      --outSAMattrRGline ID:TN26-279853   SM:TN26-279853   PL:ILLUMINA      --alignIntronMax 200000   --alignMatesGapMax 200000   --alignSJDBoverhangMin 10   --alignSJstitchMismatchNmax 5   -1   5   5      --alignSplicedMateMapLmin 30   --alignSplicedMateMapLminOverLmate 0   --alignInsertionFlush Right   --peOverlapNbasesMin 12   --peOverlapMMp 0.1   --chimSegmentMin 12   --chimScoreJunctionNonGTAG -4   --chimJunctionOverhangMin 8   --chimMultimapNmax 20   --chimMultimapScoreRange 3   --chimNonchimScoreDropMin 10   --chimOutJunctionFormat 1      --quantMode GeneCounts      --twopassMode Basic"
+        }
+      ],
+      "RG": [
+        {
+          "ID": "TN26-279853",
+          "SM": "TN26-279853",
+          "PL": "ILLUMINA"
+        }
+      ],
+      "CO": [
+        "user command line: /gpfs1/share/tools/envs/WTSFusion2/bin/STAR --runThreadN 4 --genomeDir /gpfs1/share/STAR-Fusion/STAR-Fusion-v1.10.0/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir//ref_genome.fa.star.idx --readFilesIn TN26-279853_S25.R1.fastq.gz TN26-279853_S25.R2.fastq.gz --outFileNamePrefix /gpfs5/prod/Hybrid_WTS/260830_A01687_0587_AH2KM3DSXG/Lane1/WTSFusion/TN26-279853/ --outSAMattrRGline ID:TN26-279853 SM:TN26-279853 PL:ILLUMINA --outReadsUnmapped Fastx --chimSegmentMin 12 --chimJunctionOverhangMin 8 --chimOutJunctionFormat 1 --alignSJDBoverhangMin 10 --alignMatesGapMax 200000 --alignIntronMax 200000 --alignSJstitchMismatchNmax 5 -1 5 5 --outSAMstrandField intronMotif --outSAMunmapped Within --alignInsertionFlush Right --alignSplicedMateMapLminOverLmate 0 --alignSplicedMateMapLmin 30 --outSAMtype BAM SortedByCoordinate --chimMultimapScoreRange 3 --chimScoreJunctionNonGTAG -4 --chimMultimapNmax 20 --chimNonchimScoreDropMin 10 --peOverlapNbasesMin 12 --peOverlapMMp 0.1 --genomeLoad NoSharedMemory --twopassMode Basic --readFilesCommand \"gunzip -c\" --quantMode GeneCounts"
+      ]
+    },
+    "new": {
+      "HD": {
+        "VN": "1.4",
+        "SO": "coordinate"
+      },
+      "SQ": [
+        {
+          "SN": "chr1",
+          "LN": 248956422
+        },
+        {
+          "SN": "chr2",
+          "LN": 242193529
+        },
+        {
+          "SN": "chr3",
+          "LN": 198295559
+        },
+        {
+          "SN": "chr4",
+          "LN": 190214555
+        },
+        {
+          "SN": "chr5",
+          "LN": 181538259
+        },
+        {
+          "SN": "chr6",
+          "LN": 170805979
+        },
+        {
+          "SN": "chr7",
+          "LN": 159345973
+        },
+        {
+          "SN": "chr8",
+          "LN": 145138636
+        },
+        {
+          "SN": "chr9",
+          "LN": 138394717
+        },
+        {
+          "SN": "chr10",
+          "LN": 133797422
+        },
+        {
+          "SN": "chr11",
+          "LN": 135086622
+        },
+        {
+          "SN": "chr12",
+          "LN": 133275309
+        },
+        {
+          "SN": "chr13",
+          "LN": 114364328
+        },
+        {
+          "SN": "chr14",
+          "LN": 107043718
+        },
+        {
+          "SN": "chr15",
+          "LN": 101991189
+        },
+        {
+          "SN": "chr16",
+          "LN": 90338345
+        },
+        {
+          "SN": "chr17",
+          "LN": 83257441
+        },
+        {
+          "SN": "chr18",
+          "LN": 80373285
+        },
+        {
+          "SN": "chr19",
+          "LN": 58617616
+        },
+        {
+          "SN": "chr20",
+          "LN": 64444167
+        },
+        {
+          "SN": "chr21",
+          "LN": 46709983
+        },
+        {
+          "SN": "chr22",
+          "LN": 50818468
+        },
+        {
+          "SN": "chrX",
+          "LN": 156040895
+        },
+        {
+          "SN": "chrY",
+          "LN": 57227415
+        },
+        {
+          "SN": "chrM",
+          "LN": 16569
+        },
+        {
+          "SN": "GL000008.2",
+          "LN": 209709
+        },
+        {
+          "SN": "GL000009.2",
+          "LN": 201709
+        },
+        {
+          "SN": "GL000194.1",
+          "LN": 191469
+        },
+        {
+          "SN": "GL000195.1",
+          "LN": 182896
+        },
+        {
+          "SN": "GL000205.2",
+          "LN": 185591
+        },
+        {
+          "SN": "GL000208.1",
+          "LN": 92689
+        },
+        {
+          "SN": "GL000213.1",
+          "LN": 164239
+        },
+        {
+          "SN": "GL000214.1",
+          "LN": 137718
+        },
+        {
+          "SN": "GL000216.2",
+          "LN": 176608
+        },
+        {
+          "SN": "GL000218.1",
+          "LN": 161147
+        },
+        {
+          "SN": "GL000219.1",
+          "LN": 179198
+        },
+        {
+          "SN": "GL000220.1",
+          "LN": 161802
+        },
+        {
+          "SN": "GL000221.1",
+          "LN": 155397
+        },
+        {
+          "SN": "GL000224.1",
+          "LN": 179693
+        },
+        {
+          "SN": "GL000225.1",
+          "LN": 211173
+        },
+        {
+          "SN": "GL000226.1",
+          "LN": 15008
+        },
+        {
+          "SN": "KI270302.1",
+          "LN": 2274
+        },
+        {
+          "SN": "KI270303.1",
+          "LN": 1942
+        },
+        {
+          "SN": "KI270304.1",
+          "LN": 2165
+        },
+        {
+          "SN": "KI270305.1",
+          "LN": 1472
+        },
+        {
+          "SN": "KI270310.1",
+          "LN": 1201
+        },
+        {
+          "SN": "KI270311.1",
+          "LN": 12399
+        },
+        {
+          "SN": "KI270312.1",
+          "LN": 998
+        },
+        {
+          "SN": "KI270315.1",
+          "LN": 2276
+        },
+        {
+          "SN": "KI270316.1",
+          "LN": 1444
+        },
+        {
+          "SN": "KI270317.1",
+          "LN": 37690
+        },
+        {
+          "SN": "KI270320.1",
+          "LN": 4416
+        },
+        {
+          "SN": "KI270322.1",
+          "LN": 21476
+        },
+        {
+          "SN": "KI270329.1",
+          "LN": 1040
+        },
+        {
+          "SN": "KI270330.1",
+          "LN": 1652
+        },
+        {
+          "SN": "KI270333.1",
+          "LN": 2699
+        },
+        {
+          "SN": "KI270334.1",
+          "LN": 1368
+        },
+        {
+          "SN": "KI270335.1",
+          "LN": 1048
+        },
+        {
+          "SN": "KI270336.1",
+          "LN": 1026
+        },
+        {
+          "SN": "KI270337.1",
+          "LN": 1121
+        },
+        {
+          "SN": "KI270338.1",
+          "LN": 1428
+        },
+        {
+          "SN": "KI270340.1",
+          "LN": 1428
+        },
+        {
+          "SN": "KI270362.1",
+          "LN": 3530
+        },
+        {
+          "SN": "KI270363.1",
+          "LN": 1803
+        },
+        {
+          "SN": "KI270364.1",
+          "LN": 2855
+        },
+        {
+          "SN": "KI270366.1",
+          "LN": 8320
+        },
+        {
+          "SN": "KI270371.1",
+          "LN": 2805
+        },
+        {
+          "SN": "KI270372.1",
+          "LN": 1650
+        },
+        {
+          "SN": "KI270373.1",
+          "LN": 1451
+        },
+        {
+          "SN": "KI270374.1",
+          "LN": 2656
+        },
+        {
+          "SN": "KI270375.1",
+          "LN": 2378
+        },
+        {
+          "SN": "KI270376.1",
+          "LN": 1136
+        },
+        {
+          "SN": "KI270378.1",
+          "LN": 1048
+        },
+        {
+          "SN": "KI270379.1",
+          "LN": 1045
+        },
+        {
+          "SN": "KI270381.1",
+          "LN": 1930
+        },
+        {
+          "SN": "KI270382.1",
+          "LN": 4215
+        },
+        {
+          "SN": "KI270383.1",
+          "LN": 1750
+        },
+        {
+          "SN": "KI270384.1",
+          "LN": 1658
+        },
+        {
+          "SN": "KI270385.1",
+          "LN": 990
+        },
+        {
+          "SN": "KI270386.1",
+          "LN": 1788
+        },
+        {
+          "SN": "KI270387.1",
+          "LN": 1537
+        },
+        {
+          "SN": "KI270388.1",
+          "LN": 1216
+        },
+        {
+          "SN": "KI270389.1",
+          "LN": 1298
+        },
+        {
+          "SN": "KI270390.1",
+          "LN": 2387
+        },
+        {
+          "SN": "KI270391.1",
+          "LN": 1484
+        },
+        {
+          "SN": "KI270392.1",
+          "LN": 971
+        },
+        {
+          "SN": "KI270393.1",
+          "LN": 1308
+        },
+        {
+          "SN": "KI270394.1",
+          "LN": 970
+        },
+        {
+          "SN": "KI270395.1",
+          "LN": 1143
+        },
+        {
+          "SN": "KI270396.1",
+          "LN": 1880
+        },
+        {
+          "SN": "KI270411.1",
+          "LN": 2646
+        },
+        {
+          "SN": "KI270412.1",
+          "LN": 1179
+        },
+        {
+          "SN": "KI270414.1",
+          "LN": 2489
+        },
+        {
+          "SN": "KI270417.1",
+          "LN": 2043
+        },
+        {
+          "SN": "KI270418.1",
+          "LN": 2145
+        },
+        {
+          "SN": "KI270419.1",
+          "LN": 1029
+        },
+        {
+          "SN": "KI270420.1",
+          "LN": 2321
+        },
+        {
+          "SN": "KI270422.1",
+          "LN": 1445
+        },
+        {
+          "SN": "KI270423.1",
+          "LN": 981
+        },
+        {
+          "SN": "KI270424.1",
+          "LN": 2140
+        },
+        {
+          "SN": "KI270425.1",
+          "LN": 1884
+        },
+        {
+          "SN": "KI270429.1",
+          "LN": 1361
+        },
+        {
+          "SN": "KI270435.1",
+          "LN": 92983
+        },
+        {
+          "SN": "KI270438.1",
+          "LN": 112505
+        },
+        {
+          "SN": "KI270442.1",
+          "LN": 392061
+        },
+        {
+          "SN": "KI270448.1",
+          "LN": 7992
+        },
+        {
+          "SN": "KI270465.1",
+          "LN": 1774
+        },
+        {
+          "SN": "KI270466.1",
+          "LN": 1233
+        },
+        {
+          "SN": "KI270467.1",
+          "LN": 3920
+        },
+        {
+          "SN": "KI270468.1",
+          "LN": 4055
+        },
+        {
+          "SN": "KI270507.1",
+          "LN": 5353
+        },
+        {
+          "SN": "KI270508.1",
+          "LN": 1951
+        },
+        {
+          "SN": "KI270509.1",
+          "LN": 2318
+        },
+        {
+          "SN": "KI270510.1",
+          "LN": 2415
+        },
+        {
+          "SN": "KI270511.1",
+          "LN": 8127
+        },
+        {
+          "SN": "KI270512.1",
+          "LN": 22689
+        },
+        {
+          "SN": "KI270515.1",
+          "LN": 6361
+        },
+        {
+          "SN": "KI270516.1",
+          "LN": 1300
+        },
+        {
+          "SN": "KI270517.1",
+          "LN": 3253
+        },
+        {
+          "SN": "KI270518.1",
+          "LN": 2186
+        },
+        {
+          "SN": "KI270519.1",
+          "LN": 138126
+        },
+        {
+          "SN": "KI270521.1",
+          "LN": 7642
+        },
+        {
+          "SN": "KI270522.1",
+          "LN": 5674
+        },
+        {
+          "SN": "KI270528.1",
+          "LN": 2983
+        },
+        {
+          "SN": "KI270529.1",
+          "LN": 1899
+        },
+        {
+          "SN": "KI270530.1",
+          "LN": 2168
+        },
+        {
+          "SN": "KI270538.1",
+          "LN": 91309
+        },
+        {
+          "SN": "KI270539.1",
+          "LN": 993
+        },
+        {
+          "SN": "KI270544.1",
+          "LN": 1202
+        },
+        {
+          "SN": "KI270548.1",
+          "LN": 1599
+        },
+        {
+          "SN": "KI270579.1",
+          "LN": 31033
+        },
+        {
+          "SN": "KI270580.1",
+          "LN": 1553
+        },
+        {
+          "SN": "KI270581.1",
+          "LN": 7046
+        },
+        {
+          "SN": "KI270582.1",
+          "LN": 6504
+        },
+        {
+          "SN": "KI270583.1",
+          "LN": 1400
+        },
+        {
+          "SN": "KI270584.1",
+          "LN": 4513
+        },
+        {
+          "SN": "KI270587.1",
+          "LN": 2969
+        },
+        {
+          "SN": "KI270588.1",
+          "LN": 6158
+        },
+        {
+          "SN": "KI270589.1",
+          "LN": 44474
+        },
+        {
+          "SN": "KI270590.1",
+          "LN": 4685
+        },
+        {
+          "SN": "KI270591.1",
+          "LN": 5796
+        },
+        {
+          "SN": "KI270593.1",
+          "LN": 3041
+        },
+        {
+          "SN": "KI270706.1",
+          "LN": 175055
+        },
+        {
+          "SN": "KI270707.1",
+          "LN": 32032
+        },
+        {
+          "SN": "KI270708.1",
+          "LN": 127682
+        },
+        {
+          "SN": "KI270709.1",
+          "LN": 66860
+        },
+        {
+          "SN": "KI270710.1",
+          "LN": 40176
+        },
+        {
+          "SN": "KI270711.1",
+          "LN": 42210
+        },
+        {
+          "SN": "KI270712.1",
+          "LN": 176043
+        },
+        {
+          "SN": "KI270713.1",
+          "LN": 40745
+        },
+        {
+          "SN": "KI270714.1",
+          "LN": 41717
+        },
+        {
+          "SN": "KI270715.1",
+          "LN": 161471
+        },
+        {
+          "SN": "KI270716.1",
+          "LN": 153799
+        },
+        {
+          "SN": "KI270717.1",
+          "LN": 40062
+        },
+        {
+          "SN": "KI270718.1",
+          "LN": 38054
+        },
+        {
+          "SN": "KI270719.1",
+          "LN": 176845
+        },
+        {
+          "SN": "KI270720.1",
+          "LN": 39050
+        },
+        {
+          "SN": "KI270721.1",
+          "LN": 100316
+        },
+        {
+          "SN": "KI270722.1",
+          "LN": 194050
+        },
+        {
+          "SN": "KI270723.1",
+          "LN": 38115
+        },
+        {
+          "SN": "KI270724.1",
+          "LN": 39555
+        },
+        {
+          "SN": "KI270725.1",
+          "LN": 172810
+        },
+        {
+          "SN": "KI270726.1",
+          "LN": 43739
+        },
+        {
+          "SN": "KI270727.1",
+          "LN": 448248
+        },
+        {
+          "SN": "KI270728.1",
+          "LN": 1872759
+        },
+        {
+          "SN": "KI270729.1",
+          "LN": 280839
+        },
+        {
+          "SN": "KI270730.1",
+          "LN": 112551
+        },
+        {
+          "SN": "KI270731.1",
+          "LN": 150754
+        },
+        {
+          "SN": "KI270732.1",
+          "LN": 41543
+        },
+        {
+          "SN": "KI270733.1",
+          "LN": 179772
+        },
+        {
+          "SN": "KI270734.1",
+          "LN": 165050
+        },
+        {
+          "SN": "KI270735.1",
+          "LN": 42811
+        },
+        {
+          "SN": "KI270736.1",
+          "LN": 181920
+        },
+        {
+          "SN": "KI270737.1",
+          "LN": 103838
+        },
+        {
+          "SN": "KI270738.1",
+          "LN": 99375
+        },
+        {
+          "SN": "KI270739.1",
+          "LN": 73985
+        },
+        {
+          "SN": "KI270740.1",
+          "LN": 37240
+        },
+        {
+          "SN": "KI270741.1",
+          "LN": 157432
+        },
+        {
+          "SN": "KI270742.1",
+          "LN": 186739
+        },
+        {
+          "SN": "KI270743.1",
+          "LN": 210658
+        },
+        {
+          "SN": "KI270744.1",
+          "LN": 168472
+        },
+        {
+          "SN": "KI270745.1",
+          "LN": 41891
+        },
+        {
+          "SN": "KI270746.1",
+          "LN": 66486
+        },
+        {
+          "SN": "KI270747.1",
+          "LN": 198735
+        },
+        {
+          "SN": "KI270748.1",
+          "LN": 93321
+        },
+        {
+          "SN": "KI270749.1",
+          "LN": 158759
+        },
+        {
+          "SN": "KI270750.1",
+          "LN": 148850
+        },
+        {
+          "SN": "KI270751.1",
+          "LN": 150742
+        },
+        {
+          "SN": "KI270752.1",
+          "LN": 27745
+        },
+        {
+          "SN": "KI270753.1",
+          "LN": 62944
+        },
+        {
+          "SN": "KI270754.1",
+          "LN": 40191
+        },
+        {
+          "SN": "KI270755.1",
+          "LN": 36723
+        },
+        {
+          "SN": "KI270756.1",
+          "LN": 79590
+        },
+        {
+          "SN": "KI270757.1",
+          "LN": 71251
+        }
+      ],
+      "PG": [
+        {
+          "ID": "STAR",
+          "PN": "STAR",
+          "VN": "2.7.11b",
+          "CL": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/STAR_2.7.11b/MacOSX_x86_64/STAR   --runThreadN 6   --genomeDir /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/STAR_G37_primary_D8_SA12   --genomeLoad NoSharedMemory   --readFilesIn /Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R1.fastq.gz   /Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R2.fastq.gz      --readFilesCommand /usr/bin/gzip   -cd      --outFileNamePrefix /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/patient-D8/STAR.   --outStd BAM_Unsorted   --outSAMtype BAM   Unsorted      --outSAMunmapped Within      --outBAMcompression 0   --outFilterMultimapNmax 50   --alignSJstitchMismatchNmax 5   -1   5   5      --alignSplicedMateMapLminOverLmate 0.5   --peOverlapNbasesMin 10   --chimSegmentMin 10   --chimScoreDropMax 30   --chimScoreSeparation 1   --chimScoreJunctionNonGTAG 0   --chimJunctionOverhangMin 10   --chimOutType WithinBAM   HardClip   Junctions      --chimSegmentReadGapMax 3   --chimMultimapNmax 50   --chimOutJunctionFormat 1"
+        },
+        {
+          "ID": "samtools",
+          "PN": "samtools",
+          "PP": "STAR",
+          "VN": "1.24 (pysam)",
+          "CL": "samtools sort -@ 2 -m 256M -o /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/patient-D8/target-genes.sorted.bam /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/patient-D8/target-genes.bam"
+        }
+      ],
+      "CO": [
+        "user command line: /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/STAR_2.7.11b/MacOSX_x86_64/STAR --runThreadN 6 --genomeDir /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/STAR_G37_primary_D8_SA12 --readFilesIn /Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R1.fastq.gz /Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R2.fastq.gz --outFileNamePrefix /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/patient-D8/STAR. --genomeLoad NoSharedMemory --readFilesCommand /usr/bin/gzip -cd --outStd BAM_Unsorted --outSAMtype BAM Unsorted --outSAMunmapped Within --outBAMcompression 0 --outFilterMultimapNmax 50 --peOverlapNbasesMin 10 --alignSplicedMateMapLminOverLmate 0.5 --alignSJstitchMismatchNmax 5 -1 5 5 --chimSegmentMin 10 --chimOutType WithinBAM HardClip Junctions --chimJunctionOverhangMin 10 --chimScoreDropMax 30 --chimScoreJunctionNonGTAG 0 --chimScoreSeparation 1 --chimSegmentReadGapMax 3 --chimMultimapNmax 50 --chimOutJunctionFormat 1"
+      ]
+    }
+  },
+  "output_hashes": {
+    "comparison.tsv": "17a3d27bbb7345518b30c9e0614d249b7e6f1a893b91ac58bc0bdd6399e7f022",
+    "qname-evidence.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "summary.json": "6168c7476888de6494189f019b0b6005f15e40bff14f0ddd62c0f7215be327e6",
+    "qualification.json": "6e1004656d74a42a4a72ba798b6aeb5e28c59a46583a86edc908de3871539f26",
+    "target-panel-coverage.tsv": "54008cab75a728857cb64d2464359f1e20cc2fe1827e6bcf16f97291afa7deff"
+  },
+  "all_public_loci_count_source_sha256": "8ffd169966439dfa9de994b7dd8bd9207b75357fcfc0a4afa0d7480b08527655"
+}

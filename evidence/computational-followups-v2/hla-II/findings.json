@@ -1,0 +1,322 @@
+{
+  "finished_utc": "2026-10-05T02:08:12.593697+00:00",
+  "status": "Completed controlled exploratory HLA-II screen; no biological validation",
+  "method_validation": {
+    "v2_public_examples": 32,
+    "v1_public_examples": 100,
+    "v1_classII_DP_examples": 26,
+    "max_absolute_tolerance": 1e-05,
+    "passed": true,
+    "detail": "method-validation.json"
+  },
+  "scope": {
+    "mutant_long_peptides": 117,
+    "BAP1": 91,
+    "RASA1": 26,
+    "lengths_aa": [
+      13,
+      25
+    ],
+    "HLA_combinations": 9,
+    "mutant_WT_pairings_per_release": 1053,
+    "scored_rows_per_release": 2106,
+    "releases": 2,
+    "natural_stops_preserved": true
+  },
+  "gene_summary": [
+    {
+      "gene": "BAP1",
+      "distinct_mutant_peptides": 91,
+      "HLA_combinations": 9,
+      "peptide_HLA_pairs": 819,
+      "max_v2_EL": 0.37000597,
+      "max_v2_BA": 0.85109216,
+      "mutant_v2_EL_gt_WT": 518,
+      "mutant_v2_BA_gt_WT": 431,
+      "both_author_cutpoints_v2": 0,
+      "both_author_cutpoints_v1": 2,
+      "both_author_cutpoints_both_releases": 0,
+      "max_EL_difference_between_releases": 0.46073511,
+      "max_BA_difference_between_releases": 1.7132920399999998
+    },
+    {
+      "gene": "RASA1",
+      "distinct_mutant_peptides": 26,
+      "HLA_combinations": 9,
+      "peptide_HLA_pairs": 234,
+      "max_v2_EL": 0.92863715,
+      "max_v2_BA": 0.8202197,
+      "mutant_v2_EL_gt_WT": 152,
+      "mutant_v2_BA_gt_WT": 107,
+      "both_author_cutpoints_v2": 0,
+      "both_author_cutpoints_v1": 0,
+      "both_author_cutpoints_both_releases": 0,
+      "max_EL_difference_between_releases": 0.30550625000000003,
+      "max_BA_difference_between_releases": 1.0754172
+    }
+  ],
+  "research_lead": {
+    "window_id": "RASA1_237_15",
+    "Allele Name": "HLA-DPA1*01:03/DPB1*02:01",
+    "peptide": "GDYYIGGRRFSSLQT",
+    "gene": "RASA1",
+    "length": 15,
+    "aa_start1": 237,
+    "aa_end1": 251,
+    "altered_positions_in_peptide1": "14,15",
+    "reaches_predicted_stop": true,
+    "HLA_caveat": "DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing",
+    "WT_peptide": "GDYYIGGRRFSSLSD",
+    "v2_mutant_el": 0.92575026,
+    "v2_mutant_el_fold_min": 0.857867,
+    "v2_mutant_el_fold_max": 0.9930495,
+    "v2_mutant_ba": 0.4532121,
+    "v2_mutant_ba_fold_min": 0.33976403,
+    "v2_mutant_ba_fold_max": 0.60650826,
+    "v2_wt_el": 0.7773989,
+    "v2_wt_el_fold_min": 0.5562306,
+    "v2_wt_el_fold_max": 0.98908293,
+    "v2_wt_ba": 0.40024692,
+    "v2_wt_ba_fold_min": 0.16726968,
+    "v2_wt_ba_fold_max": 0.5311415,
+    "v2_mutant_minus_wt_el": 0.14835136,
+    "v2_mutant_minus_wt_ba": 0.05296518,
+    "v1_mutant_el": 0.9585067,
+    "v1_mutant_el_fold_min": 0.8974447,
+    "v1_mutant_el_fold_max": 0.9901792,
+    "v1_mutant_ba": 0.4284044,
+    "v1_mutant_ba_fold_min": 0.25476113,
+    "v1_mutant_ba_fold_max": 0.5268891,
+    "v1_wt_el": 0.80294293,
+    "v1_wt_el_fold_min": 0.29549676,
+    "v1_wt_el_fold_max": 0.98957866,
+    "v1_wt_ba": 0.38786912,
+    "v1_wt_ba_fold_min": 0.34986666,
+    "v1_wt_ba_fold_max": 0.43926302,
+    "v1_mutant_minus_wt_el": 0.15556377,
+    "v1_mutant_minus_wt_ba": 0.04053528,
+    "mutation_containing_9mer_windows": 2,
+    "wholly_WT_9mer_windows": 5,
+    "mutation_containing_9mer_sequences": "GGRRFSSLQ;GRRFSSLQT",
+    "mutated_residues_in_peptide": 2,
+    "official_HLA_pseudosequence_has_X": false,
+    "v1_both_scores_above_author_0_5_cutpoints": false,
+    "v2_both_scores_above_author_0_5_cutpoints": false
+  },
+  "regression_range_diagnostics": {
+    "v1": {
+      "BA_min": -0.13946481,
+      "BA_max": 2.2609065,
+      "BA_outside_target_0_1": 45,
+      "execution": {
+        "script_sha256": "ff066456b3edc9af84fa9c7ce47d18d3311577a1ff56e80bea164e5c017e8f52",
+        "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+        "torch": "2.14.1",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "rows": 2106,
+        "elapsed_seconds": 450.2689759731293,
+        "peak_rss_bytes": 552189952,
+        "batch_size": 32,
+        "library": "work/oct4-followup/hla-II/CapHLA/HLA_library.csv",
+        "network_blocked": true,
+        "model_dir": "work/oct4-followup/hla-II/CapHLA-v1"
+      }
+    },
+    "v2": {
+      "BA_min": -0.020298142,
+      "BA_max": 1.1706117,
+      "BA_outside_target_0_1": 4,
+      "execution": {
+        "script_sha256": "ff066456b3edc9af84fa9c7ce47d18d3311577a1ff56e80bea164e5c017e8f52",
+        "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+        "torch": "2.14.1",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "rows": 2106,
+        "elapsed_seconds": 517.37424492836,
+        "peak_rss_bytes": 546553856,
+        "batch_size": 32,
+        "library": "None",
+        "network_blocked": true,
+        "model_dir": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/hla-II/CapHLA"
+      }
+    }
+  },
+  "normal_reference": {
+    "release": "GENCODE50",
+    "protein_records": 382428,
+    "long_exact_matches": 0,
+    "mutation_containing9mers": 9,
+    "mutation_containing9mers_with_exact_reference_match": 0
+  },
+  "prioritization": "RASA1 15mer/DP02:01 is an exploratory CD4 testing lead; high WT scores and shared WT cores prevent a mutation-specific claim. No robust BAP1 classII result. Does not invalidate earlier separate classI BAP1 predictions.",
+  "limits": [
+    "RNA HLA calls are provisional; DRA assumed; DQ combinations unphased; sole DPA1/DRB5 calls do not establish homozygosity.",
+    "EL scores are not calibrated patient presentation probabilities; BA is unbounded normalized regression, not measured nM or percentile rank.",
+    "The two releases are the same model family, not independent validation. Public numerical reproduction establishes execution fidelity, not clinical accuracy.",
+    "Allele-specific training counts could not be verified; v1 bundled classII controls are DP only.",
+    "Single-edit reference transcript translation; no matched normal or protein, HLA ligand or T-cell assay confirmation.",
+    "Mutated9mer windows are possible cores only; no binding register inferred. Exact reference absence does not establish tumor specificity or safety.",
+    "No patient data sent to external prediction service; all inference blocked network access."
+  ],
+  "length12_sensitivity": {
+    "scope": "Post-primary sensitivity adding12mers because they are within the new method's published classII length range. Original13\u201325mer primary results preserved. No selection of favorable rows.",
+    "windows": 9,
+    "BAP1_windows": 7,
+    "RASA1_windows": 2,
+    "HLA_combinations": 9,
+    "rows_per_release": 162,
+    "reference_absence_inference": "Each new12mer contains a mutation-containing9mer with zero exact matches in the completedGENCODE50 scan; consequently no complete exact12mer reference match can exist. This is a logical consequence of the earlier scan, not a new full scan.",
+    "models": {
+      "v1": {
+        "max_EL_by_gene": {
+          "BAP1": 0.7248066,
+          "RASA1": 0.79736716
+        },
+        "max_BA_by_gene": {
+          "BAP1": 0.41522375,
+          "RASA1": 0.33709997
+        },
+        "both_author_cutpoints_by_gene": {
+          "BAP1": 0,
+          "RASA1": 0
+        },
+        "top_EL_per_gene": [
+          {
+            "window_id": "RASA1_239_12",
+            "Allele Name": "HLA-DPA1*01:03/DPB1*02:01",
+            "peptide": "YYIGGRRFSSLQ",
+            "gene": "RASA1",
+            "sequence_type": "mutant",
+            "length": 12,
+            "aa_start1": 239,
+            "aa_end1": 250,
+            "altered_positions_in_peptide1": "12",
+            "reaches_predicted_stop": false,
+            "HLA_caveat": "DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing",
+            "el_fold0": 0.764136,
+            "el_fold1": 0.7258104,
+            "el_fold2": 0.9673757,
+            "el_fold3": 0.9679328,
+            "el_fold4": 0.56158084,
+            "presentation_score": 0.79736716,
+            "ba_fold0": 0.5728672,
+            "ba_fold1": 0.21139142,
+            "ba_fold2": 0.2562705,
+            "ba_fold3": 0.26004514,
+            "ba_fold4": 0.19537014,
+            "affinity_score": 0.2991889,
+            "model_release": "v1",
+            "WT_peptide": "YYIGGRRFSSLS",
+            "WT_EL": 0.61449796,
+            "WT_BA": 0.25985223
+          },
+          {
+            "window_id": "BAP1_47_12",
+            "Allele Name": "HLA-DRB5*01:02",
+            "peptide": "IFLFKWIEERKG",
+            "gene": "BAP1",
+            "sequence_type": "mutant",
+            "length": 12,
+            "aa_start1": 47,
+            "aa_end1": 58,
+            "altered_positions_in_peptide1": "11,12",
+            "reaches_predicted_stop": false,
+            "HLA_caveat": "Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed",
+            "el_fold0": 0.7853381,
+            "el_fold1": 0.66900724,
+            "el_fold2": 0.7723058,
+            "el_fold3": 0.8443922,
+            "el_fold4": 0.5529896,
+            "presentation_score": 0.7248066,
+            "ba_fold0": 0.38177288,
+            "ba_fold1": 0.26726705,
+            "ba_fold2": 0.28883755,
+            "ba_fold3": 0.38144195,
+            "ba_fold4": 0.39508837,
+            "affinity_score": 0.3428816,
+            "model_release": "v1",
+            "WT_peptide": "IFLFKWIEERRS",
+            "WT_EL": 0.28468078,
+            "WT_BA": 0.33532643
+          }
+        ]
+      },
+      "v2": {
+        "max_EL_by_gene": {
+          "BAP1": 0.53238153,
+          "RASA1": 0.8079983
+        },
+        "max_BA_by_gene": {
+          "BAP1": 0.43227473,
+          "RASA1": 0.39357865
+        },
+        "both_author_cutpoints_by_gene": {
+          "BAP1": 0,
+          "RASA1": 0
+        },
+        "top_EL_per_gene": [
+          {
+            "window_id": "RASA1_240_12",
+            "Allele Name": "HLA-DPA1*01:03/DPB1*02:01",
+            "peptide": "YIGGRRFSSLQT",
+            "gene": "RASA1",
+            "sequence_type": "mutant",
+            "length": 12,
+            "aa_start1": 240,
+            "aa_end1": 251,
+            "altered_positions_in_peptide1": "11,12",
+            "reaches_predicted_stop": true,
+            "HLA_caveat": "DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing",
+            "el_fold0": 0.92457604,
+            "el_fold1": 0.8312245,
+            "el_fold2": 0.2959719,
+            "el_fold3": 0.99682355,
+            "el_fold4": 0.99139553,
+            "presentation_score": 0.8079983,
+            "ba_fold0": 0.2691319,
+            "ba_fold1": 0.2374565,
+            "ba_fold2": 0.18458757,
+            "ba_fold3": 0.21900833,
+            "ba_fold4": 0.2539702,
+            "affinity_score": 0.23283091,
+            "model_release": "v2",
+            "WT_peptide": "YIGGRRFSSLSD",
+            "WT_EL": 0.5946039,
+            "WT_BA": 0.18234368
+          },
+          {
+            "window_id": "BAP1_47_12",
+            "Allele Name": "HLA-DRB5*01:02",
+            "peptide": "IFLFKWIEERKG",
+            "gene": "BAP1",
+            "sequence_type": "mutant",
+            "length": 12,
+            "aa_start1": 47,
+            "aa_end1": 58,
+            "altered_positions_in_peptide1": "11,12",
+            "reaches_predicted_stop": false,
+            "HLA_caveat": "Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed",
+            "el_fold0": 0.9807389,
+            "el_fold1": 0.36434737,
+            "el_fold2": 0.112922154,
+            "el_fold3": 0.2987525,
+            "el_fold4": 0.9051469,
+            "presentation_score": 0.53238153,
+            "ba_fold0": 0.2696186,
+            "ba_fold1": 0.2488112,
+            "ba_fold2": 0.22902107,
+            "ba_fold3": 0.2995752,
+            "ba_fold4": 0.32057554,
+            "affinity_score": 0.27352032,
+            "model_release": "v2",
+            "WT_peptide": "IFLFKWIEERRS",
+            "WT_EL": 0.51139444,
+            "WT_BA": 0.2794288
+          }
+        ]
+      }
+    }
+  }
+}

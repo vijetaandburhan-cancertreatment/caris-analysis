@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "reference_transcripts": {
+    "transcripts": 234485,
+    "bases": 384229184
+  },
+  "reference_md5": "9741f0fe3dc652936b9fe6fee62cbd36",
+  "public_exact_match_controls": 60,
+  "public_exact_match_control_pass": true,
+  "available_markers": {
+    "B*50:01": {
+      "conditional_pair_only": 234,
+      "reference_exclusive": 71,
+      "masked_non_HLA_B": 15
+    },
+    "B*52:01": {
+      "conditional_pair_only": 552,
+      "reference_exclusive": 157,
+      "masked_non_HLA_B": 0
+    }
+  },
+  "elapsed_seconds": 17.537230014801025,
+  "peak_RSS_bytes": 1978613760
+}

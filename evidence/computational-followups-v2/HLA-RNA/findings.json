@@ -1,0 +1,159 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-10-05T04:07:04.885538+00:00",
+  "main_result": [
+    {
+      "marker_length_nt": 91,
+      "allele_compatible_with_prior_genotype": "B*50:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 344,
+      "positive_query_name_pairs": 2132,
+      "distinct_full_pair_sequences": 1588,
+      "cross_allele_conflict_pairs": 0,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    },
+    {
+      "marker_length_nt": 91,
+      "allele_compatible_with_prior_genotype": "B*52:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 344,
+      "positive_query_name_pairs": 1655,
+      "distinct_full_pair_sequences": 1299,
+      "cross_allele_conflict_pairs": 0,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    }
+  ],
+  "all_sensitivity_rows": [
+    {
+      "marker_length_nt": 51,
+      "allele_compatible_with_prior_genotype": "B*50:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 87,
+      "positive_query_name_pairs": 1870,
+      "distinct_full_pair_sequences": 1382,
+      "cross_allele_conflict_pairs": 1,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    },
+    {
+      "marker_length_nt": 51,
+      "allele_compatible_with_prior_genotype": "B*52:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 87,
+      "positive_query_name_pairs": 1399,
+      "distinct_full_pair_sequences": 1096,
+      "cross_allele_conflict_pairs": 1,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    },
+    {
+      "marker_length_nt": 71,
+      "allele_compatible_with_prior_genotype": "B*50:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 240,
+      "positive_query_name_pairs": 2564,
+      "distinct_full_pair_sequences": 1895,
+      "cross_allele_conflict_pairs": 1,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    },
+    {
+      "marker_length_nt": 71,
+      "allele_compatible_with_prior_genotype": "B*52:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 240,
+      "positive_query_name_pairs": 1944,
+      "distinct_full_pair_sequences": 1495,
+      "cross_allele_conflict_pairs": 1,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    },
+    {
+      "marker_length_nt": 91,
+      "allele_compatible_with_prior_genotype": "B*50:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 344,
+      "positive_query_name_pairs": 2132,
+      "distinct_full_pair_sequences": 1588,
+      "cross_allele_conflict_pairs": 0,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    },
+    {
+      "marker_length_nt": 91,
+      "allele_compatible_with_prior_genotype": "B*52:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 344,
+      "positive_query_name_pairs": 1655,
+      "distinct_full_pair_sequences": 1299,
+      "cross_allele_conflict_pairs": 0,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    },
+    {
+      "marker_length_nt": 111,
+      "allele_compatible_with_prior_genotype": "B*50:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 433,
+      "positive_query_name_pairs": 1875,
+      "distinct_full_pair_sequences": 1439,
+      "cross_allele_conflict_pairs": 0,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    },
+    {
+      "marker_length_nt": 111,
+      "allele_compatible_with_prior_genotype": "B*52:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 433,
+      "positive_query_name_pairs": 1450,
+      "distinct_full_pair_sequences": 1166,
+      "cross_allele_conflict_pairs": 0,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    },
+    {
+      "marker_length_nt": 131,
+      "allele_compatible_with_prior_genotype": "B*50:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 557,
+      "positive_query_name_pairs": 1291,
+      "distinct_full_pair_sequences": 1037,
+      "cross_allele_conflict_pairs": 0,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    },
+    {
+      "marker_length_nt": 131,
+      "allele_compatible_with_prior_genotype": "B*52:01",
+      "base_quality_min": 30,
+      "read_end_distance_min_nt": 5,
+      "matched_CDS_start_positions": 557,
+      "positive_query_name_pairs": 1005,
+      "distinct_full_pair_sequences": 835,
+      "cross_allele_conflict_pairs": 0,
+      "interpretation": "Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance"
+    }
+  ],
+  "independent_recount_pass": true,
+  "full_original_RNA_pairs": 23209264,
+  "reference_global_specificity": "conditional; other HLA-B allele compatibility unresolved",
+  "nonB_genomic_mask": {
+    "status": "passed",
+    "counts": {
+      "nonB_genomic_records": 23995,
+      "nonB_genomic_bases": 60274212,
+      "B_records_not_paralog_screen": 8505
+    },
+    "newly_masked_markers": 1,
+    "elapsed_seconds": 8.85051417350769,
+    "peak_RSS_bytes": 746749952,
+    "purpose": "Screen every non-HLA-B genomic record, including records without CDS, for paralog/pseudogene sequence matches. Complements all-CDS and whole-transcriptome marker masks."
+  },
+  "tumor_retention_or_LOH_claim": false,
+  "external_patient_submission_by_this_HLA_workstream": false,
+  "paid_compute_cost_usd": 0,
+  "main_findings_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-hla-allele-support/findings.txt"
+}

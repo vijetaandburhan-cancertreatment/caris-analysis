@@ -1,0 +1,133 @@
+{
+  "conventions": "Independent query-global / reference-local affine alignment; standard library only.\nNo query-end clipping. Reference prefix/suffix are free. Gap length L costs\nopen + extend*(L-1). Scores compare fixed sequences, not MAPQ or probabilities.\n",
+  "controls": [
+    {
+      "name": "perfect",
+      "expected_score": 8,
+      "result": {
+        "score": 8,
+        "ref_start0": 0,
+        "ref_end0": 4,
+        "query_aligned": "ACGT",
+        "reference_aligned": "ACGT",
+        "matches": 4,
+        "mismatches": 0,
+        "insertion_bases": 0,
+        "deletion_bases": 0,
+        "gap_opens": 0
+      }
+    },
+    {
+      "name": "free_reference_ends",
+      "expected_score": 8,
+      "result": {
+        "score": 8,
+        "ref_start0": 2,
+        "ref_end0": 6,
+        "query_aligned": "ACGT",
+        "reference_aligned": "ACGT",
+        "matches": 4,
+        "mismatches": 0,
+        "insertion_bases": 0,
+        "deletion_bases": 0,
+        "gap_opens": 0
+      }
+    },
+    {
+      "name": "mismatch",
+      "expected_score": 2,
+      "result": {
+        "score": 2,
+        "ref_start0": 0,
+        "ref_end0": 4,
+        "query_aligned": "ACCT",
+        "reference_aligned": "ACGT",
+        "matches": 3,
+        "mismatches": 1,
+        "insertion_bases": 0,
+        "deletion_bases": 0,
+        "gap_opens": 0
+      }
+    },
+    {
+      "name": "query_insertion_1",
+      "expected_score": 2,
+      "result": {
+        "score": 2,
+        "ref_start0": 0,
+        "ref_end0": 4,
+        "query_aligned": "ACGTT",
+        "reference_aligned": "ACGT-",
+        "matches": 4,
+        "mismatches": 0,
+        "insertion_bases": 1,
+        "deletion_bases": 0,
+        "gap_opens": 1
+      }
+    },
+    {
+      "name": "query_insertion_2",
+      "expected_score": 1,
+      "result": {
+        "score": 1,
+        "ref_start0": 0,
+        "ref_end0": 4,
+        "query_aligned": "ACGTTT",
+        "reference_aligned": "ACGT--",
+        "matches": 4,
+        "mismatches": 0,
+        "insertion_bases": 2,
+        "deletion_bases": 0,
+        "gap_opens": 1
+      }
+    },
+    {
+      "name": "reference_insertion",
+      "expected_score": 2,
+      "result": {
+        "score": 2,
+        "ref_start0": 0,
+        "ref_end0": 5,
+        "query_aligned": "AC-GT",
+        "reference_aligned": "ACTGT",
+        "matches": 4,
+        "mismatches": 0,
+        "insertion_bases": 0,
+        "deletion_bases": 1,
+        "gap_opens": 1
+      }
+    },
+    {
+      "name": "repeat",
+      "expected_score": 12,
+      "result": {
+        "score": 12,
+        "ref_start0": 2,
+        "ref_end0": 8,
+        "query_aligned": "CTTCTT",
+        "reference_aligned": "CTTCTT",
+        "matches": 6,
+        "mismatches": 0,
+        "insertion_bases": 0,
+        "deletion_bases": 0,
+        "gap_opens": 0
+      }
+    },
+    {
+      "name": "reverse_complement",
+      "expected_score": 8,
+      "result": {
+        "score": 8,
+        "ref_start0": 2,
+        "ref_end0": 6,
+        "query_aligned": "GACT",
+        "reference_aligned": "GACT",
+        "matches": 4,
+        "mismatches": 0,
+        "insertion_bases": 0,
+        "deletion_bases": 0,
+        "gap_opens": 0
+      }
+    }
+  ]
+}

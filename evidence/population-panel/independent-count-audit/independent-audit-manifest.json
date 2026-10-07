@@ -1,0 +1,95 @@
+{
+  "created_utc": "2026-10-05T06:54:33.773420+00:00",
+  "design_sha256": "90a153f630375103363792037618d93a864b01bad029575f36d6a3a382ee0bfa",
+  "status": "PASS exact count and summary QC; origin interpretation separate",
+  "outputs": {
+    "DNA-audit.json": {
+      "bytes": 2279,
+      "sha256": "249dc92b4b1e738a95033210bd89e5fbcb9657f5c453434a4007c8cae1b6f2a7"
+    },
+    "DNA-direct-counts.tsv": {
+      "bytes": 494203,
+      "sha256": "15c747896abba361b1bca17b0bc182bed90c80212bc8194ed8e576c07d5843b7"
+    },
+    "DNA-progress.json": {
+      "bytes": 133,
+      "sha256": "defe0f7116f77a21482fa74ec79380b7f49307b031294d18a219fcd5ff2d3816"
+    },
+    "DNA-run.log": {
+      "bytes": 132,
+      "sha256": "0a135d2200a2306d260618346eb1570c2240876ee4e0f44cde6e40cafad0dc6c"
+    },
+    "RNA-audit.json": {
+      "bytes": 2281,
+      "sha256": "e5aa00e4e50ef45a80f2436b11fdfdf3e78a35eab66e87f65142f860da0496c5"
+    },
+    "RNA-direct-counts.tsv": {
+      "bytes": 461462,
+      "sha256": "80ef5df04399ccd3384a0738bf5995478a3271c37d811d81eae294226e338ad7"
+    },
+    "RNA-progress.json": {
+      "bytes": 132,
+      "sha256": "cf73bac99e895e0fdb5851b797ab61eca548b902f57eb69171330aa76a5364ae"
+    },
+    "RNA-run.log": {
+      "bytes": 131,
+      "sha256": "d7fdc20b8be5d712857bb1530258832bbcbb6b12600f47b2b45d6f0cc97b02c8"
+    },
+    "all13-below90-dominant-sites.tsv": {
+      "bytes": 4018,
+      "sha256": "f9db2dc6062dc1d19fae1ecb2c29eaf415d564602ee14e972f001a0dd5c3f0f8"
+    },
+    "direct_count.py": {
+      "bytes": 6995,
+      "sha256": "dbbb83f81eb90c92da1ae3005285200ef76d397b56951589c11f16857b1ea5be"
+    },
+    "exception-tables-schema.json": {
+      "bytes": 1283,
+      "sha256": "1239d69592644581704822d28bc62579600f89ae090ca3fac409c25e72490ae1"
+    },
+    "finalize_audit.py": {
+      "bytes": 7939,
+      "sha256": "f1a0a4ca6e8cf7dae3fc2c70269b13275aa1ab303be7ae0abcea0a21818a5e6d"
+    },
+    "findings.txt": {
+      "bytes": 6604,
+      "sha256": "d01bed8718d736afb56bb06dd45cf83ea9c546feb42aa519bbce9a0be934f024"
+    },
+    "independent-observed-versus-ACGT-coverage.json": {
+      "bytes": 556,
+      "sha256": "5a476102762f798315e14418d653a84eed2b347e406f41840754530a4b6e3203"
+    },
+    "independent-summary-audit.json": {
+      "bytes": 3804,
+      "sha256": "9ca9433cd26497c92db85fe586a0587081555650f536563bf53039a0116db30b"
+    },
+    "independent-target-intersection.json": {
+      "bytes": 1117,
+      "sha256": "0830a2512201f8130d08d82f7490ca6ea2ecc7053e431af4d08e1aacccd9c3d0"
+    },
+    "preliminary-exact-discordances.json": {
+      "bytes": 6622,
+      "sha256": "655935739782ac1e2e303eeeb4daa652d45f7db89d8288cc34c6de39dd655fd7"
+    },
+    "sensitivity-and-exact-discordances.json": {
+      "bytes": 22660,
+      "sha256": "ce5004c4412ce9f34906eb84c65815f868decd014675301446b047b27fa947d3"
+    },
+    "sensitivity_summary.py": {
+      "bytes": 4134,
+      "sha256": "3e121bf50b3fc1b4b9bc05c05cc448f15f9575da88b11e4901e9b18707243cbc"
+    },
+    "summary_audit.py": {
+      "bytes": 5158,
+      "sha256": "5bc1003e8dee840ef7db170e2cf73d5ef33fed850794e8dc6ed773978a8bac13"
+    },
+    "synthetic-qualification.json": {
+      "bytes": 3420,
+      "sha256": "839f06af7f1e24a012d1bee4a6be65df50ac8f6df870a5a92a04c08716ff688c"
+    },
+    "three-MAPQ60-only-flags.tsv": {
+      "bytes": 1643,
+      "sha256": "9c65e107b8df1609e7f484914e048e8730363ca8de89fe38bf9f9921cda9826a"
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "control_type": "Observed annotated junctions with >=5 local fragment names; exact coordinate+strand comparison using start-1,end from Snaptron. Confirms conversion on common junction controls. Absence remains expression/pipeline-dependent, not an error or tumor-specificity test.",
+  "per_gene": [
+    {
+      "gene": "FGFR2",
+      "observed_annotated_junctions_ge5": 23,
+      "exact_GTEx_coordinate_strand_matches": 22
+    },
+    {
+      "gene": "RASA1",
+      "observed_annotated_junctions_ge5": 24,
+      "exact_GTEx_coordinate_strand_matches": 23
+    },
+    {
+      "gene": "AKT1",
+      "observed_annotated_junctions_ge5": 18,
+      "exact_GTEx_coordinate_strand_matches": 18
+    },
+    {
+      "gene": "JAK1",
+      "observed_annotated_junctions_ge5": 24,
+      "exact_GTEx_coordinate_strand_matches": 24
+    },
+    {
+      "gene": "KDM6A",
+      "observed_annotated_junctions_ge5": 36,
+      "exact_GTEx_coordinate_strand_matches": 36
+    },
+    {
+      "gene": "NTRK2",
+      "observed_annotated_junctions_ge5": 17,
+      "exact_GTEx_coordinate_strand_matches": 17
+    },
+    {
+      "gene": "FGFR3",
+      "observed_annotated_junctions_ge5": 20,
+      "exact_GTEx_coordinate_strand_matches": 20
+    },
+    {
+      "gene": "ERBB2",
+      "observed_annotated_junctions_ge5": 32,
+      "exact_GTEx_coordinate_strand_matches": 30
+    },
+    {
+      "gene": "SMARCA4",
+      "observed_annotated_junctions_ge5": 45,
+      "exact_GTEx_coordinate_strand_matches": 43
+    },
+    {
+      "gene": "FGFR1",
+      "observed_annotated_junctions_ge5": 33,
+      "exact_GTEx_coordinate_strand_matches": 27
+    },
+    {
+      "gene": "PBRM1",
+      "observed_annotated_junctions_ge5": 42,
+      "exact_GTEx_coordinate_strand_matches": 42
+    },
+    {
+      "gene": "AKT3",
+      "observed_annotated_junctions_ge5": 21,
+      "exact_GTEx_coordinate_strand_matches": 20
+    },
+    {
+      "gene": "NRAS",
+      "observed_annotated_junctions_ge5": 6,
+      "exact_GTEx_coordinate_strand_matches": 6
+    },
+    {
+      "gene": "JAK2",
+      "observed_annotated_junctions_ge5": 24,
+      "exact_GTEx_coordinate_strand_matches": 24
+    },
+    {
+      "gene": "AKT2",
+      "observed_annotated_junctions_ge5": 20,
+      "exact_GTEx_coordinate_strand_matches": 20
+    },
+    {
+      "gene": "KRAS",
+      "observed_annotated_junctions_ge5": 7,
+      "exact_GTEx_coordinate_strand_matches": 7
+    },
+    {
+      "gene": "RAF1",
+      "observed_annotated_junctions_ge5": 19,
+      "exact_GTEx_coordinate_strand_matches": 19
+    },
+    {
+      "gene": "ARID1A",
+      "observed_annotated_junctions_ge5": 21,
+      "exact_GTEx_coordinate_strand_matches": 21
+    },
+    {
+      "gene": "BAP1",
+      "observed_annotated_junctions_ge5": 19,
+      "exact_GTEx_coordinate_strand_matches": 19
+    },
+    {
+      "gene": "KIT",
+      "observed_annotated_junctions_ge5": 17,
+      "exact_GTEx_coordinate_strand_matches": 17
+    },
+    {
+      "gene": "SMARCB1",
+      "observed_annotated_junctions_ge5": 10,
+      "exact_GTEx_coordinate_strand_matches": 9
+    },
+    {
+      "gene": "PDGFRB",
+      "observed_annotated_junctions_ge5": 25,
+      "exact_GTEx_coordinate_strand_matches": 25
+    },
+    {
+      "gene": "MAP2K1",
+      "observed_annotated_junctions_ge5": 10,
+      "exact_GTEx_coordinate_strand_matches": 10
+    },
+    {
+      "gene": "ALK",
+      "observed_annotated_junctions_ge5": 28,
+      "exact_GTEx_coordinate_strand_matches": 28
+    },
+    {
+      "gene": "TP53",
+      "observed_annotated_junctions_ge5": 13,
+      "exact_GTEx_coordinate_strand_matches": 13
+    },
+    {
+      "gene": "SETD2",
+      "observed_annotated_junctions_ge5": 25,
+      "exact_GTEx_coordinate_strand_matches": 25
+    },
+    {
+      "gene": "EGFR",
+      "observed_annotated_junctions_ge5": 27,
+      "exact_GTEx_coordinate_strand_matches": 27
+    },
+    {
+      "gene": "MET",
+      "observed_annotated_junctions_ge5": 23,
+      "exact_GTEx_coordinate_strand_matches": 23
+    },
+    {
+      "gene": "PTEN",
+      "observed_annotated_junctions_ge5": 8,
+      "exact_GTEx_coordinate_strand_matches": 8
+    },
+    {
+      "gene": "NF2",
+      "observed_annotated_junctions_ge5": 20,
+      "exact_GTEx_coordinate_strand_matches": 20
+    },
+    {
+      "gene": "MAP2K2",
+      "observed_annotated_junctions_ge5": 12,
+      "exact_GTEx_coordinate_strand_matches": 12
+    },
+    {
+      "gene": "ARID1B",
+      "observed_annotated_junctions_ge5": 26,
+      "exact_GTEx_coordinate_strand_matches": 26
+    },
+    {
+      "gene": "APC",
+      "observed_annotated_junctions_ge5": 22,
+      "exact_GTEx_coordinate_strand_matches": 22
+    },
+    {
+      "gene": "RB1",
+      "observed_annotated_junctions_ge5": 33,
+      "exact_GTEx_coordinate_strand_matches": 26
+    },
+    {
+      "gene": "AXL",
+      "observed_annotated_junctions_ge5": 21,
+      "exact_GTEx_coordinate_strand_matches": 21
+    },
+    {
+      "gene": "SUFU",
+      "observed_annotated_junctions_ge5": 11,
+      "exact_GTEx_coordinate_strand_matches": 11
+    }
+  ],
+  "total_observed_annotated_controls": 782,
+  "total_GTEx_matches": 761
+}

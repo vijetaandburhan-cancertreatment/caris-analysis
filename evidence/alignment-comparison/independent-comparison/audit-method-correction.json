@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-05T08:14:44.706676+00:00",
+  "scope": "Independent transition reviewer only; no primary counts, data, thresholds or frozen cohort changed.",
+  "initial_error": "The first independent transition selection treated all16 sites as if they had a baseline DNA-dominant allele, defaulting any other category toALT. The3 MAPQ60-only sites are separately prespecified by unexpected_base and cannot use that default.",
+  "observed_difference_scope": "Only the3 separate MAPQ-only loci;13 baseline exception transitions already agreed.",
+  "correction": "Use explicit ref_dominant/alt_dominant elseNone; for MAPQ60_only_not_baseline_flag select the frozen unexpected_base exactly. Retain all existing paired-read count/filter logic.",
+  "initial_debug_file": "transition-audit-debug-differences.json",
+  "initial_debug_sha256": "6d27a59c6c9a623249fe3ca772ae4da23fe929e471d381b97fd5fac715689817",
+  "final_result": "All989 prespecified individual transitions agree exactly after fixing the independent selection/schema mistake;49,911 all-cohort integer comparisons unchanged and passing.",
+  "final_audit": "primary-and-transition-audit.json"
+}

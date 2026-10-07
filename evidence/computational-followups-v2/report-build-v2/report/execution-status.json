@@ -1,0 +1,4 @@
+{
+  "heading": "Execution and preservation",
+  "text": "All nine original files remain preserved locally and on Drive. Two private S3 RNA copies match local SHA256 and S3 full-object CRC64 checksums. No EC2 instance or EBS volume was created. Optional dense-index comparison needs an unapproved AWS plan upgrade; completed local findings do not depend on it."
+}

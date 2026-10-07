@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "pages": 3,
+  "page_word_counts": [
+    394,
+    385,
+    467
+  ],
+  "pdf_sha256": "331a2e4a6a70f0cdfba3984be2ee78b053013a3908e7770b2c792e8c26535cba",
+  "numerical_review": "All static numbers independently audited; required annotated-exon and baseline-dominant qualifications applied.",
+  "origin_review": "Read-origin reviewer approved paragraphs; sharedPABPC1 support qualification applied.",
+  "visual_review": "All3 pages rendered and visually inspected; final page2 re-inspected after precise edge-filter wording. Black/white, no clipping/overlap, tables readable.",
+  "method_precision": "clean filter requires at least5 querybases between testedbase and bothalignedends; baseline results preserved.",
+  "created_utc": "2026-10-05T07:09:39.255366+00:00",
+  "read_origin_findings_sha256": "25e36b114e28a016104d5ec761ee9184dec75a8fb977e587e41483e077357f03",
+  "read_origin_additional_limits": "EXOC3 reached configured seed/window caps; detailed findings preserve counts. PDF labels search bounded and does not assert exhaustive or proven origin."
+}

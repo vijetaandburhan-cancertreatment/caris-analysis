@@ -1,0 +1,6 @@
+{
+  "manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "script_sha256": "bf5c702d4fe0b669ddb79b6b22196641d3ab0e6eb8e531bf1b4a30641e616c51",
+  "frozen_utc": "2026-10-05T05:24:23.978178+00:00",
+  "status": "Awaiting independent design review; no benchmark alignment executed."
+}

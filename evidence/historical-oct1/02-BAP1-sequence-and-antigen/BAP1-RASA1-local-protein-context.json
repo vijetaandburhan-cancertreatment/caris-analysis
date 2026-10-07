@@ -1,0 +1,53 @@
+{
+  "scope": "Natural local conditional protein contexts for expert antigen review; up to25 residues before and25 after first changed residue. Stop limits preserved; no appended linker or invented downstream residues. Not a vaccine construct or clinically validated sequence. Mutation status versus normal and actual tumor antigen presentation remain unresolved. Use dedicated HLA-II methods if exploring CD4 targets; current MHCflurry outputs are classI.",
+  "records": [
+    {
+      "gene": "BAP1",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11",
+      "sequence_type": "wt",
+      "amino_acid_start1": 32,
+      "amino_acid_end1": 81,
+      "sequence": "IYDLQSKCQGPVYGFIFLFKWIEERRSRRKVSTLVDDTSVIDDDIVNNMF",
+      "sha256_sequence": "82f1302cf3ae9f5f185392413b2864f463967a4ff2353eab68beecd7eaa094ee",
+      "first_altered_position1": 57,
+      "window_reaches_predicted_protein_end": false
+    },
+    {
+      "gene": "BAP1",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11",
+      "sequence_type": "mutant",
+      "amino_acid_start1": 32,
+      "amino_acid_end1": 63,
+      "sequence": "IYDLQSKCQGPVYGFIFLFKWIEERKGLYLGG",
+      "sha256_sequence": "8b808695a2a43a1e043cda1974e50042db11ffd78fd25f3d43f16fa8cad5520d",
+      "first_altered_position1": 57,
+      "window_reaches_predicted_protein_end": true
+    },
+    {
+      "gene": "RASA1",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG",
+      "sequence_type": "wt",
+      "amino_acid_start1": 225,
+      "amino_acid_end1": 274,
+      "sequence": "NVVNHFRIIAMCGDYYIGGRRFSSLSDLIGYYSHVSCLLKGEKLLYPVAP",
+      "sha256_sequence": "74bbac60d61b6c0f8e42792111efb669176a3790705a291f5ac6713add59d0c1",
+      "first_altered_position1": 250,
+      "window_reaches_predicted_protein_end": false
+    },
+    {
+      "gene": "RASA1",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG",
+      "sequence_type": "mutant",
+      "amino_acid_start1": 225,
+      "amino_acid_end1": 251,
+      "sequence": "NVVNHFRIIAMCGDYYIGGRRFSSLQT",
+      "sha256_sequence": "e73e7b226f8e9cd55feb137460189264cef051c0c127e6fa11e50f4057ce50c2",
+      "first_altered_position1": 250,
+      "window_reaches_predicted_protein_end": true
+    }
+  ]
+}

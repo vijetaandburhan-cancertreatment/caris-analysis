@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-10-05T03:24:25.682587+00:00",
+  "files": [
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R1.fastq.gz",
+      "size_bytes": 1579972407,
+      "mtime_ns": 1790881322201354892,
+      "sha256": "e931ccacc7e6ea4e58d3fb33dadb99553cbea54b51252c67c44e283cb27d3bc5",
+      "matches_previously_source_CRC_verified_SHA256": true,
+      "unchanged_during_read": true
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R2.fastq.gz",
+      "size_bytes": 1612673312,
+      "mtime_ns": 1790883070773144782,
+      "sha256": "b03ab626d8f57b71a89b7ba4a5c97fb5f0d0c91ea695492d0564c3644d849300",
+      "matches_previously_source_CRC_verified_SHA256": true,
+      "unchanged_during_read": true
+    }
+  ],
+  "originals_modified": false,
+  "paired_preflight": {
+    "first_pairs_checked": 10000,
+    "errors": [],
+    "maximum_read_length_in_sample": 161,
+    "scope": "First10000 pairs only; exact whole-file SHA256 matches prior source-CRC-verified files. Whole-file processed count expected23209264 pairs from prior full kallisto run; STAR final count will be checked independently."
+  },
+  "finished_utc": "2026-10-05T03:24:28.225839+00:00"
+}

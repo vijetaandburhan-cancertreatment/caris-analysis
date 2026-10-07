@@ -1,0 +1,14 @@
+Independent population-panel DNA/RNA design review
+
+The proposed follow-up addresses a real gap: the earlier335-marker comparison selected on this DNA sample’s near-homozygous ALT calls. The165,782-locus public panel was selected without patient allele evidence, but only DNA was counted previously. Its annotated table contains62,358 observedDNA rows;103,424 panel sites must remain as zero-observed entries.
+
+Both coordinate-sorted original BAMs and their indexes open, all six chromosomes exist, and each assay has one read group. The newer STAR target-only BAM cannot replace the original whole RNA alignment. No new large scan was executed for this review.
+
+The full-panel recount, symmetric REF/ALT dominance strata, all-ACGT denominators, complete attrition, deterministic dispersed subset and independent discordance/control recount are supported. The important implementation refinement is cap handling: a reported post-quality pileup depth below100,000 does not by itself prove the pileup was never truncated before quality filtering. Make that check explicit before interpreting the denominator.
+
+Use allele-fraction discordance language. RNA expression can legitimately favor one allele; shared normal/tumor cells and homologous mapping complicate even near-homozygous DNA comparisons. Keep disagreement sites visible when adding clean-read or paralog-qualified sensitivity analyses. Operational breadth floors are not statistical power or identity calibration.
+
+See independent-design-review.json for exact filters, proposed audit selection, input provenance, resource bounds and remaining safeguards. No probability of identity, contamination fraction, clinical change or patient data upload follows from this design.
+
+Final refinement approved, 2026-10-05T06:38:54.391896+00:00
+Both DNA and RNA will be freshly counted without a depth cap, under explicit memory/disk guards, after -d0 semantics are qualified for the installed implementation. The new DNA counts will be compared against every prior observed DNA row; qualified depth alone will not be used to infer that old counts were uncapped. The full 165,782 public-site universe remains fixed, including 103,424 sites absent from the old observed-row table. Spacing is coordinate-first and independent of observed allele direction; actual overlapping GENCODE gene IDs establish gene breadth. This approves the design subject to that pre-execution tool qualification; no new patient counts were executed during this independent review.

@@ -1,0 +1,35 @@
+{
+  "genes": [
+    "B2M",
+    "TAP1",
+    "TAP2",
+    "TAPBP",
+    "JAK1",
+    "JAK2",
+    "IFNGR1",
+    "IFNGR2",
+    "STAT1",
+    "IRF1",
+    "NLRC5",
+    "PSMB8",
+    "PSMB9",
+    "CIITA",
+    "RFX5",
+    "RFXANK",
+    "RFXAP"
+  ],
+  "selected_CDS_plus4_bp_total": 34273,
+  "bases_ge20_strict_depth": 34264,
+  "screen_variants": 24,
+  "missense_candidates": 12,
+  "all_missense_observed_as_common_catalog_alleles": true,
+  "stop_gain_or_frameshift_candidates": 0,
+  "interpretation": "No new obvious coding loss-of-function candidate emerged under this bounded screen. All12 missense candidates are common public population alleles; none is promoted as a newly found immune-escape mutation. This does not establish functional antigen presentation/interferon response or predict immunotherapy benefit.",
+  "limits": [
+    "One selected coding transcript plus4bp, not all regulatory/structural/epigenetic alterations.",
+    "Initial SNV >=10alt reads,>=5% allele fraction; reference alignments, no clinical sensitivity.",
+    "Expression is bulk and includes nonmalignant cells.",
+    "July pretreatment specimen cannot exclude later treatment-acquired resistance.",
+    "No matched normal or clinical pathogenicity adjudication for common polymorphisms."
+  ]
+}

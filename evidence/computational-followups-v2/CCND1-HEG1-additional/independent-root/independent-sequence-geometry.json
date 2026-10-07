@@ -1,0 +1,347 @@
+{
+  "reference_models_independently_rebuilt": true,
+  "two_proposed_models_identical": true,
+  "model_sha256": "2b2cb8cba929ec3a6a921181062d80b2302e259c425ec913d7a53d0b070c7a50",
+  "equivalent_junction_shifts_tested": [
+    -40,
+    40
+  ],
+  "equivalent_junction_deltas": [
+    -17,
+    -16,
+    -15,
+    -14,
+    -13,
+    -12,
+    -11,
+    -10,
+    -9,
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0
+  ],
+  "delta_convention": "delta changes left RNA length250+delta and right RNA length500-delta; both genomic join coordinates decrease bydelta",
+  "Q20_pairs": 11,
+  "Q30_pairs": 9,
+  "Q20_fully_RC_pairs": 10,
+  "Q20_sequence_families": 7,
+  "pair_details": [
+    {
+      "pair_id": "P01",
+      "family": "F06",
+      "Q20": true,
+      "Q30": true,
+      "fully_RC_mates": true,
+      "R1_length": 133,
+      "R2_length": 133,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 59,
+          "minQ": 37
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 24,
+          "minQ": 11
+        }
+      ]
+    },
+    {
+      "pair_id": "P02",
+      "family": "F03",
+      "Q20": true,
+      "Q30": true,
+      "fully_RC_mates": true,
+      "R1_length": 129,
+      "R2_length": 129,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 58,
+          "minQ": 37
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 21,
+          "minQ": 37
+        }
+      ]
+    },
+    {
+      "pair_id": "P03",
+      "family": "F02",
+      "Q20": false,
+      "Q30": false,
+      "fully_RC_mates": false,
+      "R1_length": 150,
+      "R2_length": 161,
+      "hits": [
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 21,
+          "minQ": 11
+        }
+      ]
+    },
+    {
+      "pair_id": "P04",
+      "family": "F06",
+      "Q20": true,
+      "Q30": true,
+      "fully_RC_mates": true,
+      "R1_length": 133,
+      "R2_length": 133,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 59,
+          "minQ": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 24,
+          "minQ": 37
+        }
+      ]
+    },
+    {
+      "pair_id": "P05",
+      "family": "F08",
+      "Q20": true,
+      "Q30": true,
+      "fully_RC_mates": true,
+      "R1_length": 128,
+      "R2_length": 128,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 59,
+          "minQ": 37
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 19,
+          "minQ": 37
+        }
+      ]
+    },
+    {
+      "pair_id": "P06",
+      "family": "F07",
+      "Q20": true,
+      "Q30": true,
+      "fully_RC_mates": false,
+      "R1_length": 128,
+      "R2_length": 128,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 59,
+          "minQ": 37
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 19,
+          "minQ": 37
+        }
+      ]
+    },
+    {
+      "pair_id": "P07",
+      "family": "F01",
+      "Q20": true,
+      "Q30": true,
+      "fully_RC_mates": true,
+      "R1_length": 77,
+      "R2_length": 77,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 7,
+          "minQ": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 20,
+          "minQ": 37
+        }
+      ]
+    },
+    {
+      "pair_id": "P08",
+      "family": "F05",
+      "Q20": false,
+      "Q30": false,
+      "fully_RC_mates": false,
+      "R1_length": 150,
+      "R2_length": 161,
+      "hits": [
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 25,
+          "minQ": 11
+        }
+      ]
+    },
+    {
+      "pair_id": "P09",
+      "family": "F01",
+      "Q20": true,
+      "Q30": false,
+      "fully_RC_mates": true,
+      "R1_length": 77,
+      "R2_length": 77,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 7,
+          "minQ": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 20,
+          "minQ": 25
+        }
+      ]
+    },
+    {
+      "pair_id": "P10",
+      "family": "F10",
+      "Q20": true,
+      "Q30": true,
+      "fully_RC_mates": true,
+      "R1_length": 118,
+      "R2_length": 118,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 52,
+          "minQ": 37
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 16,
+          "minQ": 25
+        }
+      ]
+    },
+    {
+      "pair_id": "P11",
+      "family": "F10",
+      "Q20": true,
+      "Q30": false,
+      "fully_RC_mates": true,
+      "R1_length": 118,
+      "R2_length": 118,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 52,
+          "minQ": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 16,
+          "minQ": 25
+        }
+      ]
+    },
+    {
+      "pair_id": "P12",
+      "family": "F04",
+      "Q20": false,
+      "Q30": false,
+      "fully_RC_mates": false,
+      "R1_length": 129,
+      "R2_length": 129,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 58,
+          "minQ": 11
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 21,
+          "minQ": 11
+        }
+      ]
+    },
+    {
+      "pair_id": "P13",
+      "family": "F01",
+      "Q20": true,
+      "Q30": true,
+      "fully_RC_mates": true,
+      "R1_length": 77,
+      "R2_length": 77,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 7,
+          "minQ": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 20,
+          "minQ": 37
+        }
+      ]
+    },
+    {
+      "pair_id": "P14",
+      "family": "F09",
+      "Q20": true,
+      "Q30": true,
+      "fully_RC_mates": true,
+      "R1_length": 90,
+      "R2_length": 90,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "start0": 16,
+          "minQ": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "start0": 24,
+          "minQ": 37
+        }
+      ]
+    }
+  ],
+  "limits": "Exact overlapping mates/families are not independent molecules; reference-derived microhomology permits multiple breakpoint labels but does not distinguish biologicalRNA from library chimera."
+}

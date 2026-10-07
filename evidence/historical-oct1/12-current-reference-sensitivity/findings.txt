@@ -1,0 +1,40 @@
+Current-reference sensitivity analysis — 1 October 2026
+
+Updating the public reference does not introduce an exact reference-protein match to either BAP1 candidate. The current GENCODE release does add seven more two-substitution neighbors to the eight-mer, which expands possible experimental controls. This is reference coverage, not evidence of safety, cross-reactivity, translation or tumor-specificity.
+
+The official GENCODE human site lists release 50, released June 2026 on GRCh38.p14. Its protein-coding transcript translation FASTA is 21,136,991 compressed bytes. The collection covers all listed reference regions, scaffolds, patches and alternate loci and includes translations from protein-coding, NMD, non-stop-decay, immunoglobulin/TCR, polymorphic-pseudogene and protein-coding-loss-of-function transcript categories. It should be described as a reference translation collection, not as proteins experimentally proven to be expressed in healthy tissue.
+
+An exhaustive unseeded scan streamed one FASTA record at a time and compared every equal-length amino-acid window by Hamming distance. This is a separate computational implementation from the earlier three-seed search. Its rerun on GENCODE37 exactly reproduces all previous BAP1 neighbor sequences. GENCODE37 had 104,760 translation records; GENCODE50 has 382,428. These are FASTA-record counts, not unique genes or unique protein sequences.
+
+BAP1 nine-mer IEERKGLYL
+GENCODE37: 39,225,936 equal-length windows; no exact, one-substitution or two-substitution match.
+GENCODE50: 153,625,979 windows; still no exact, one-substitution or two-substitution match.
+
+BAP1 eight-mer EERKGLYL
+GENCODE37: 39,330,453 windows; no exact or one-substitution match; 24 distinct two-substitution sequences across 68 reference occurrences.
+GENCODE50: 154,008,128 windows; no exact or one-substitution match; 31 distinct two-substitution sequences across 392 reference occurrences. All 24 old sequences remain, and seven are newly included:
+- EEKKGLKL — example EGFR-221 / ENST00001118378.1
+- EEKKQLYL — example TXNIP-211 / ENST00001038505.1
+- EERKRLQL — example SH3BP2-269 / ENST00001082108.1
+- EESKGLCL — example PSEN2-258 / ENST00000940861.2
+- EQRKGLQL — example RNF166-215 / ENST00001007847.1
+- GERKGLSL — example SORD-232 / ENST00001131073.1
+- LEREGLYL — example GDPD4-209 / ENST00001108251.1
+
+The new seven neighbors were not affinity-scored in this bounded check. Prior affinity tables contain only the 24 GENCODE37 neighbors. If the reference count is updated to 31 in a summary, do not imply all 31 underwent the previous HLA-binding comparison.
+
+Subsequent separate local step: root then scored all 31 GENCODE50 neighbors plus the four mutant/wild-type BAP1 controls with the same two local class-I model releases. Results are in reference-control-affinity.json/.tsv, with score-reference-controls.py. The independent input/arithmetic audit in reference-control-affinity-audit.json confirms 70 unique model/peptide rows, the complete 31-plus-four input set, HLA-B*50:01 throughout, and all 56 previously scored affinity values reproduced within the predefined tolerance; percentile ranks were identical. Thus the seven newly added controls now have separately recorded affinity predictions. This follow-up still does not test cross-reactivity or safety and does not alter the narrower scope of the original reference-sequence scan.
+
+Optional RASA1 eight-mer RRFSSLQT
+No exact match in either reference. Only exact matching was requested/performed for RASA1 here; the absence of one- or two-substitution neighbors was not assessed.
+
+Practical interpretation: the nine-mer's lack of close equal-length matches is stable across this substantially enlarged reference. The eight-mer's larger control set illustrates that reference choice changes apparent novelty. Neither fact measures antigen processing, HLA display, T-cell recognition or patient-specific normal tissue expression. Normal population variation, other databases, unannotated/noncanonical ORFs, unequal-length/gapped similarity, post-translational changes and TCR degeneracy remain outside this scan. Absence of an exact reference match is not matched-normal confirmation and cannot establish a tumor-specific or safe vaccine target.
+
+Resource limits were met: peak process RSS 55,263,232 bytes (~52.7 MiB), total elapsed 192.32 seconds including download; computational scans took approximately 4 and 15 seconds. No genome/index download or model rerun was used. No patient sequence or identifier was sent to an external service; requests contained only generic public reference URLs. Both source references and all outputs are preserved.
+
+Reproducibility: check-current-reference.py; public-reference-manifest.json with compressed SHA256/MD5 and HTTP headers; gencode37-window-results.json; gencode50-window-results.json; gencode50-neighbors.tsv; findings.json; run.log. Both compressed FASTA files were streamed to normal gzip/parser EOF.
+
+Primary sources:
+https://www.gencodegenes.org/human/release_50.html
+https://www.gencodegenes.org/human/releases.html
+https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.pc_translations.fa.gz

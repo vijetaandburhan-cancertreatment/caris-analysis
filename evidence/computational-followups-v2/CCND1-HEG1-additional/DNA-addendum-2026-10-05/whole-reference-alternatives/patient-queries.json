@@ -1,0 +1,58 @@
+[
+  {
+    "query_id": "DNA_Q1",
+    "sequence": "GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG",
+    "kind": "patient_DNA_BAM_stored_sequence",
+    "members": [
+      {
+        "pair_id": "3f4e31f229dad51cdda79d0215b08da32fdbdc0062f8b2164422f23352063276",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": false,
+        "BAM_stored_reverse": false
+      },
+      {
+        "pair_id": "16ca2cc830bc01023c8afd7ffcf3b5f50c11bfb4b89fedc5c1c0f1290c395cc5",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": true,
+        "BAM_stored_reverse": false
+      },
+      {
+        "pair_id": "3f4e31f229dad51cdda79d0215b08da32fdbdc0062f8b2164422f23352063276",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": false,
+        "BAM_stored_reverse": true
+      },
+      {
+        "pair_id": "16ca2cc830bc01023c8afd7ffcf3b5f50c11bfb4b89fedc5c1c0f1290c395cc5",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": true,
+        "BAM_stored_reverse": true
+      }
+    ]
+  },
+  {
+    "query_id": "DNA_Q2",
+    "sequence": "GGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC",
+    "kind": "patient_DNA_BAM_stored_sequence",
+    "members": [
+      {
+        "pair_id": "0a474766e508ce1bea2a6448edea345182021de3bc2417fccb4f435995d6c492",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": false,
+        "BAM_stored_reverse": false
+      },
+      {
+        "pair_id": "0a474766e508ce1bea2a6448edea345182021de3bc2417fccb4f435995d6c492",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": false,
+        "BAM_stored_reverse": true
+      }
+    ]
+  }
+]

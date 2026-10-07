@@ -1,0 +1,12 @@
+{
+  "status": "CAPTURE_STREAM_EOF",
+  "counts": {
+    "input_records": 82529623,
+    "captured_records": 1004728,
+    "named_records": 9061,
+    "cohort_overlap_records": 1001796,
+    "both_records": 6129
+  },
+  "exception_names_seen": 3426,
+  "output_bytes": 64138072
+}

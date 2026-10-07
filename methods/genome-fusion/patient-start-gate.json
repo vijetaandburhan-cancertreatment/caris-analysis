@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-05T03:49:47.455364+00:00",
+  "public_execution_controls_passed": true,
+  "sparse_equivalence_gate": "NOT PASSED: preserved compact D1/D8 differences. Proceed for discovery with explicit sensitivity limitation; independent full D1 comparison planned by parent.",
+  "filter_tuning": false,
+  "all_expected_pairs": 23209264,
+  "notes": [
+    "Genome-aware RNA fusion analysis, not whole-genome DNA sequencing.",
+    "Arriba does not report intragenic deletions; negative results cannot exclude BAP1/LATS exon loss.",
+    "No full patient BAM retained locally; four-gene selective BAM and full junction/SJ logs retained."
+  ]
+}

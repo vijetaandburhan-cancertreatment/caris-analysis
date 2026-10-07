@@ -1,0 +1,32 @@
+[
+  {
+    "path": "patient-full-pass/STAR.SJ.out.tab",
+    "bytes": 8014550,
+    "sha256": "59c33b162a9bebf09624eae95bf0eb6e1ecdf107ec1fe5b2ba4ed223da7db632",
+    "reason": "Not required for allele/placement comparison; preserved resident, not deleted."
+  },
+  {
+    "path": "patient-full-pass/STAR.Chimeric.out.junction",
+    "bytes": 147309538,
+    "sha256": "80730a2f4a0f14d5d21ce691f3aec300a145d5993fd7c35c2beb91f9a1429c26",
+    "reason": "Not required for allele/placement comparison; preserved resident, not deleted."
+  },
+  {
+    "path": "patient-full-pass/capture-summary.json.progress",
+    "bytes": 276,
+    "sha256": "721278e9bdefb3a161e07ed4b13e55f06437ff5283544eea737363d1967c3fa4",
+    "reason": "Not required for allele/placement comparison; preserved resident, not deleted."
+  },
+  {
+    "path": "patient-full-pass/STAR.Log.std.out",
+    "bytes": 1380,
+    "sha256": "42ae8b0ef1cb84575599e979c7d19945fa65bf2305e59c6f62360a605de2e169",
+    "reason": "Not required for allele/placement comparison; preserved resident, not deleted."
+  },
+  {
+    "path": "patient-full-pass/status.json",
+    "bytes": 4699,
+    "sha256": "f596d3387f87baa585f0a22afe1325124dfd8e197d2e013d6c8fe463a1f26e49",
+    "reason": "Not required for allele/placement comparison; preserved resident, not deleted."
+  }
+]

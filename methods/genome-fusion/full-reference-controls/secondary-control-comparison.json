@@ -1,0 +1,452 @@
+{
+  "created_utc": "2026-10-05T03:51:56.151002+00:00",
+  "reference_expected_rows": 29,
+  "reference_expected_gene_pairs": 22,
+  "Arriba_accepted_rows": 44,
+  "gene_pairs_matching_by_stable_ID": 15,
+  "gene_pairs_matching_by_symbols_or_ID": 19,
+  "pair_comparison": [
+    {
+      "expected_ids": [
+        "ENSG00000006114",
+        "ENSG00000141232"
+      ],
+      "expected_symbols": [
+        "SYNRG",
+        "TOB1"
+      ],
+      "matched_by_stable_ids": false,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "TOB1",
+          "SYNRG",
+          "ENSG00000141232.5",
+          "ENSG00000275066.5"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000099331",
+        "ENSG00000124209"
+      ],
+      "expected_symbols": [
+        "MYO9B",
+        "RAB22A"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "RAB22A",
+          "MYO9B",
+          "ENSG00000124209.4",
+          "ENSG00000099331.13"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000100991",
+        "ENSG00000174100"
+      ],
+      "expected_symbols": [
+        "MRPL45",
+        "TRPC4AP"
+      ],
+      "matched_by_stable_ids": false,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "TRPC4AP",
+          "MRPL45",
+          "ENSG00000100991.12",
+          "ENSG00000278845.5"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000101040",
+        "ENSG00000126001"
+      ],
+      "expected_symbols": [
+        "CEP250",
+        "ZMYND8"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "ZMYND8",
+          "CEP250",
+          "ENSG00000101040.19",
+          "ENSG00000126001.16"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000101134",
+        "ENSG00000131748"
+      ],
+      "expected_symbols": [
+        "DOK5",
+        "STARD3"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "STARD3",
+          "DOK5",
+          "ENSG00000131748.16",
+          "ENSG00000101134.12"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000101146",
+        "ENSG00000124222"
+      ],
+      "expected_symbols": [
+        "RAE1",
+        "STX16"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "STX16",
+          "RAE1",
+          "ENSG00000124222.22",
+          "ENSG00000101146.13"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000101146",
+        "ENSG00000254995"
+      ],
+      "expected_symbols": [
+        "RAE1",
+        "STX16-NPEPL1"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "STX16-NPEPL1",
+          "RAE1",
+          "ENSG00000254995.4",
+          "ENSG00000101146.13"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000101191",
+        "ENSG00000101407"
+      ],
+      "expected_symbols": [
+        "DIDO1",
+        "TTI1"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "DIDO1",
+          "TTI1",
+          "ENSG00000101191.17",
+          "ENSG00000101407.13"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000108384",
+        "ENSG00000141720"
+      ],
+      "expected_symbols": [
+        "PIP4K2B",
+        "RAD51C"
+      ],
+      "matched_by_stable_ids": false,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "PIP4K2B",
+          "RAD51C",
+          "ENSG00000276293.5",
+          "ENSG00000108384.15"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000108395",
+        "ENSG00000141140"
+      ],
+      "expected_symbols": [
+        "MYO19",
+        "TRIM37"
+      ],
+      "matched_by_stable_ids": false,
+      "matched_by_symbols": false,
+      "matched_by_either": false,
+      "actual_identifiers": []
+    },
+    {
+      "expected_ids": [
+        "ENSG00000108443",
+        "ENSG00000159210"
+      ],
+      "expected_symbols": [
+        "RPS6KB1",
+        "SNF8"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "RPS6KB1",
+          "SNF8",
+          "ENSG00000108443.14",
+          "ENSG00000159210.10"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000108510",
+        "ENSG00000141376"
+      ],
+      "expected_symbols": [
+        "BCAS3",
+        "MED13"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "MED13",
+          "BCAS3",
+          "ENSG00000108510.10",
+          "ENSG00000141376.23"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000124164",
+        "ENSG00000161405"
+      ],
+      "expected_symbols": [
+        "IKZF3",
+        "VAPB"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "VAPB",
+          "IKZF3",
+          "ENSG00000124164.16",
+          "ENSG00000161405.17"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000125686",
+        "ENSG00000166263"
+      ],
+      "expected_symbols": [
+        "MED1",
+        "STXBP4"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "MED1",
+          "STXBP4",
+          "ENSG00000125686.12",
+          "ENSG00000166263.13"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000125686",
+        "ENSG00000167107"
+      ],
+      "expected_symbols": [
+        "ACSF2",
+        "MED1"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "MED1",
+          "ACSF2",
+          "ENSG00000125686.12",
+          "ENSG00000167107.13"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000126351",
+        "ENSG00000235300"
+      ],
+      "expected_symbols": [
+        "AC090627.1",
+        "THRA"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": false,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "THRA",
+          "THRA1/BTR",
+          "ENSG00000126351.13",
+          "ENSG00000235300.4"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000132005",
+        "ENSG00000141867"
+      ],
+      "expected_symbols": [
+        "BRD4",
+        "RFX1"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "BRD4",
+          "RFX1",
+          "ENSG00000141867.19",
+          "ENSG00000132005.9"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000132142",
+        "ENSG00000141750"
+      ],
+      "expected_symbols": [
+        "ACACA",
+        "STAC2"
+      ],
+      "matched_by_stable_ids": false,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "ACACA",
+          "STAC2",
+          "ENSG00000278540.5",
+          "ENSG00000141750.7"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000138744",
+        "ENSG00000153207"
+      ],
+      "expected_symbols": [
+        "AHCTF1",
+        "NAAA"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "AHCTF1",
+          "NAAA",
+          "ENSG00000153207.16",
+          "ENSG00000138744.16"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000148219",
+        "ENSG00000231901"
+      ],
+      "expected_symbols": [
+        "ASTN2",
+        "RP11-281A20.1"
+      ],
+      "matched_by_stable_ids": false,
+      "matched_by_symbols": false,
+      "matched_by_either": false,
+      "actual_identifiers": []
+    },
+    {
+      "expected_ids": [
+        "ENSG00000153551",
+        "ENSG00000170266"
+      ],
+      "expected_symbols": [
+        "CMTM7",
+        "GLB1"
+      ],
+      "matched_by_stable_ids": true,
+      "matched_by_symbols": true,
+      "matched_by_either": true,
+      "actual_identifiers": [
+        [
+          "GLB1",
+          "CMTM7",
+          "ENSG00000170266.16",
+          "ENSG00000153551.14"
+        ]
+      ]
+    },
+    {
+      "expected_ids": [
+        "ENSG00000257261",
+        "ENSG00000272369"
+      ],
+      "expected_symbols": [
+        "RP11-446N19.1",
+        "RP11-96H19.1"
+      ],
+      "matched_by_stable_ids": false,
+      "matched_by_symbols": false,
+      "matched_by_either": false,
+      "actual_identifiers": []
+    }
+  ],
+  "interpretation": "Cross-caller example-output concordance only, not a validated truth set or measured sensitivity/specificity. Coordinates/annotation/caller/version differ; some gene IDs changed while symbols agree. No filter tuning. Do not treat additional calls as established true or false positives."
+}

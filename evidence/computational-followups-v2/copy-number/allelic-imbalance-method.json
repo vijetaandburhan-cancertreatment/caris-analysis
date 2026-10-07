@@ -1,0 +1,15 @@
+{
+  "public_selection": "independent population-common panel, globalAF0.05\u20130.95",
+  "base_filter": "ref+altfragments>=30;bothalleles>=5;minorAF>=0.05;otherAF<=2%;discordant<=5%;bothorientationsforbothalleles>=1",
+  "stringent_filter": "basefilter plusdepth>=50;bothalleles>=10;bothorientations>=2;>=90%fragmentsfor eachallelehaveatleastonebase>5ntfromread5primeend",
+  "sampling": "No matchednormal. Sites with bothalleles become candidateheterozygotes, not confirmed constitutional heterozygotes. Complete LOH in puretumor could disappear from this selectedsubset.",
+  "CI": "3000 fixedseed bootstrap of1Mb blockmedians; descriptive samplingstability only, not confidenceinLOH or adjusted for technicalcapture bias. Regions<5blocks have no CI.",
+  "purityexamples": "Assume germlineAB normaldiploid, one homogeneous tumorstate, no mappingbias; m=[(1-p)+p*b]/[2(1-p)+p*C]. Multiple(C,b,p) produce same m. Bulkdepthratios shown against a TRUE normal, which is absent.",
+  "caveats": [
+    "PopulationLD and correlatedcapture sites prevent treating everymarker as an independentreplicate.",
+    "FFPE/mapping/reference/capture allele biases and subclonality are not eliminated.",
+    "Markers not physically phased to driver variants.",
+    "Arm-median estimates may average distinct segments.",
+    "No tumor-only allele counts prove a BAP1 secondhit, somaticstatus,orMTAPhomozygousloss."
+  ]
+}

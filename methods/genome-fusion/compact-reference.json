@@ -1,0 +1,36 @@
+{
+  "generated_utc": "2026-10-05T03:27:08.736861+00:00",
+  "regions": [
+    {
+      "chromosome": "chr9",
+      "gene": "ABL1",
+      "retained_start1": 130663016,
+      "retained_end1": 130937675,
+      "gene_start1": 130713016,
+      "gene_end1": 130887675,
+      "retained_sequence_sha256": "e09f2ef574db8e5423e907e481f747777bd51a5a6cff4d9a371953e15bd21087"
+    },
+    {
+      "chromosome": "chr22",
+      "gene": "BCR",
+      "retained_start1": 23129704,
+      "retained_end1": 23368037,
+      "gene_start1": 23179704,
+      "gene_end1": 23318037,
+      "retained_sequence_sha256": "3e406a69f88643b261f37a4949a3afb569300b5889ad83e61eadc32a77a2e124"
+    }
+  ],
+  "annotation_records": 239,
+  "only_full_ABL1_BCR_gene_annotation_retained": true,
+  "coordinates": "Unshifted GRCh38 coordinates; longNprefix preserves coordinates. Other genomic loci absent or replaced byN. Not a specificity or whole-genome sensitivity benchmark.",
+  "files": {
+    "assembly.fa": {
+      "bytes": 155848783,
+      "sha256": "3624973aa7600d5b6d0c0e07f3e4631c543a0d7dc0163f3f4db082b857005d32"
+    },
+    "annotation.gtf": {
+      "bytes": 112933,
+      "sha256": "1ee86d3039de557f8090f24436579d21b421eedf2ac0eb610ba587193db81312"
+    }
+  }
+}

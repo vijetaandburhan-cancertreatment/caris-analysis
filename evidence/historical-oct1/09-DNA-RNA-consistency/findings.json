@@ -1,0 +1,8265 @@
+{
+  "scope": "Internal consistency of export-selected dbSNP alleles with reported DNA VAF >=98%, excluding export low-quality filters. Recount uses primary nonduplicate MAPQ30/BQ30, bases >=5 from aligned ends; RNA unique mappings when NH present; mates collapsed and discordants excluded. Not an ancestry/identity test, not independently selected fingerprint loci, not matched-normal analysis, not contamination estimate. Selection from this same DNA VCF creates ascertainment bias; no chance-match probability calculated.",
+  "summary": {
+    "tested_export_selected_markers": 335,
+    "DNA_high_alt_and_both_depth20_markers": 216,
+    "RNA_same_allele_ge90pct": 215,
+    "RNA_same_allele_ge98pct": 210,
+    "discordant_below90pct": [
+      {
+        "chrom": "chrX",
+        "pos1": 15820243,
+        "public_id": "rs2301724",
+        "ref": "C",
+        "alt": "T",
+        "gene": "ZRSR2",
+        "Caris_filter": "rs",
+        "Caris_VAF": "1.000",
+        "DNA": {
+          "counts": {
+            "T": 268
+          },
+          "assessable_names": 268,
+          "specified_alt_fraction": 1.0
+        },
+        "RNA": {
+          "counts": {
+            "T": 170,
+            "C": 142
+          },
+          "assessable_names": 312,
+          "specified_alt_fraction": 0.5448717948717948
+        }
+      }
+    ],
+    "genes_represented": 128,
+    "chromosomes_represented": [
+      "chr1",
+      "chr10",
+      "chr11",
+      "chr12",
+      "chr13",
+      "chr14",
+      "chr15",
+      "chr16",
+      "chr17",
+      "chr18",
+      "chr19",
+      "chr2",
+      "chr20",
+      "chr22",
+      "chr3",
+      "chr4",
+      "chr5",
+      "chr6",
+      "chr7",
+      "chr8",
+      "chr9",
+      "chrX"
+    ],
+    "elapsed_seconds": 8.948875904083252
+  },
+  "rows": [
+    {
+      "chrom": "chr1",
+      "pos1": 2556714,
+      "public_id": "rs4870",
+      "ref": "A",
+      "alt": "G",
+      "gene": "TNFRSF14",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 1234
+        },
+        "assessable_names": 1234,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 199
+        },
+        "assessable_names": 199,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 2562891,
+      "public_id": "rs2234167",
+      "ref": "G",
+      "alt": "A",
+      "gene": "TNFRSF14",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 1220
+        },
+        "assessable_names": 1220,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 419
+        },
+        "assessable_names": 419,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 7677739,
+      "public_id": "rs3011926",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CAMTA1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 467
+        },
+        "assessable_names": 467,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 2
+        },
+        "assessable_names": 2,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 11145001,
+      "public_id": "rs1057079",
+      "ref": "C",
+      "alt": "T",
+      "gene": "MTOR",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 712,
+          "C": 1
+        },
+        "assessable_names": 713,
+        "specified_alt_fraction": 0.9985974754558204
+      },
+      "RNA": {
+        "counts": {
+          "T": 641
+        },
+        "assessable_names": 641,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 11228701,
+      "public_id": "rs1064261",
+      "ref": "G",
+      "alt": "A",
+      "gene": "MTOR",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 1459
+        },
+        "assessable_names": 1459,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 305
+        },
+        "assessable_names": 305,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 11241657,
+      "public_id": "rs1135172",
+      "ref": "A",
+      "alt": "G",
+      "gene": "MTOR",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 1436
+        },
+        "assessable_names": 1436,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 107
+        },
+        "assessable_names": 107,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 17054002,
+      "public_id": "rs2746462",
+      "ref": "G",
+      "alt": "T",
+      "gene": "SDHB",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 1535
+        },
+        "assessable_names": 1535,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 209
+        },
+        "assessable_names": 209,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 23559007,
+      "public_id": "rs11574",
+      "ref": "T",
+      "alt": "C",
+      "gene": "ID3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 386
+        },
+        "assessable_names": 386,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 77,
+          "A": 1
+        },
+        "assessable_names": 78,
+        "specified_alt_fraction": 0.9871794871794872
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 36286832,
+      "public_id": "rs6425977",
+      "ref": "C",
+      "alt": "T",
+      "gene": "THRAP3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.996",
+      "DNA": {
+        "counts": {
+          "T": 566,
+          "C": 1
+        },
+        "assessable_names": 567,
+        "specified_alt_fraction": 0.9982363315696648
+      },
+      "RNA": {
+        "counts": {
+          "T": 129
+        },
+        "assessable_names": 129,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 36471458,
+      "public_id": "rs3917981",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CSF3R",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "G": 413
+        },
+        "assessable_names": 413,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 13
+        },
+        "assessable_names": 13,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 36471464,
+      "public_id": "rs3917980",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CSF3R",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 421
+        },
+        "assessable_names": 421,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 12
+        },
+        "assessable_names": 12,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 39897382,
+      "public_id": "rs3134614",
+      "ref": "G",
+      "alt": "C",
+      "gene": "MYCL",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 389
+        },
+        "assessable_names": 389,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 8
+        },
+        "assessable_names": 8,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 47251517,
+      "public_id": "rs2758735",
+      "ref": "A",
+      "alt": "G",
+      "gene": "STIL",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 200
+        },
+        "assessable_names": 200,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 15
+        },
+        "assessable_names": 15,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 113834946,
+      "public_id": "rs2476601",
+      "ref": "A",
+      "alt": "G",
+      "gene": "PTPN22",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 111
+        },
+        "assessable_names": 111,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 155900625,
+      "public_id": "rs1749409",
+      "ref": "G",
+      "alt": "A",
+      "gene": "RIT1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "A": 186
+        },
+        "assessable_names": 186,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {},
+        "assessable_names": 0,
+        "specified_alt_fraction": null
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 156879203,
+      "public_id": "rs6337",
+      "ref": "C",
+      "alt": "T",
+      "gene": "NTRK1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 2511,
+          "C": 1
+        },
+        "assessable_names": 2512,
+        "specified_alt_fraction": 0.9996019108280255
+      },
+      "RNA": {
+        "counts": {
+          "T": 72
+        },
+        "assessable_names": 72,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 157587911,
+      "public_id": "rs2777962",
+      "ref": "G",
+      "alt": "A",
+      "gene": "FCRL4",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 129
+        },
+        "assessable_names": 129,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {},
+        "assessable_names": 0,
+        "specified_alt_fraction": null
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 158649938,
+      "public_id": "rs2482965",
+      "ref": "A",
+      "alt": "C",
+      "gene": "SPTA1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 94
+        },
+        "assessable_names": 94,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 2
+        },
+        "assessable_names": 2,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 158677705,
+      "public_id": "rs325996",
+      "ref": "A",
+      "alt": "T",
+      "gene": "SPTA1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 273
+        },
+        "assessable_names": 273,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 158677841,
+      "public_id": "rs325995",
+      "ref": "T",
+      "alt": "A",
+      "gene": "SPTA1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 208
+        },
+        "assessable_names": 208,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 5
+        },
+        "assessable_names": 5,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 158685246,
+      "public_id": "rs435080",
+      "ref": "G",
+      "alt": "A",
+      "gene": "SPTA1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 334
+        },
+        "assessable_names": 334,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 158686491,
+      "public_id": "rs2564858",
+      "ref": "T",
+      "alt": "C",
+      "gene": "SPTA1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 65
+        },
+        "assessable_names": 65,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {},
+        "assessable_names": 0,
+        "specified_alt_fraction": null
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 202012734,
+      "public_id": "rs2819362",
+      "ref": "T",
+      "alt": "C",
+      "gene": "ELF3",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "C": 564,
+          "T": 1
+        },
+        "assessable_names": 565,
+        "specified_alt_fraction": 0.9982300884955753
+      },
+      "RNA": {
+        "counts": {
+          "C": 14
+        },
+        "assessable_names": 14,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 204444169,
+      "public_id": "rs2292459",
+      "ref": "C",
+      "alt": "T",
+      "gene": "PIK3C2B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 139
+        },
+        "assessable_names": 139,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 1
+        },
+        "assessable_names": 1,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 226383139,
+      "public_id": "rs1805415",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PARP1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 374,
+          "T": 1
+        },
+        "assessable_names": 375,
+        "specified_alt_fraction": 0.9973333333333333
+      },
+      "RNA": {
+        "counts": {
+          "C": 497,
+          "T": 2
+        },
+        "assessable_names": 499,
+        "specified_alt_fraction": 0.9959919839679359
+      }
+    },
+    {
+      "chrom": "chr1",
+      "pos1": 241881973,
+      "public_id": "rs1635498",
+      "ref": "C",
+      "alt": "T",
+      "gene": "EXO1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.994",
+      "DNA": {
+        "counts": {
+          "T": 153
+        },
+        "assessable_names": 153,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 21
+        },
+        "assessable_names": 21,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 17772760,
+      "public_id": "rs300175",
+      "ref": "G",
+      "alt": "A",
+      "gene": "GEN1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 158
+        },
+        "assessable_names": 158,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 18
+        },
+        "assessable_names": 18,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 25247044,
+      "public_id": "rs2276599",
+      "ref": "C",
+      "alt": "T",
+      "gene": "DNMT3A",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 1932,
+          "A": 1
+        },
+        "assessable_names": 1933,
+        "specified_alt_fraction": 0.999482669425763
+      },
+      "RNA": {
+        "counts": {
+          "T": 12
+        },
+        "assessable_names": 12,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 29193706,
+      "public_id": "rs1670283",
+      "ref": "T",
+      "alt": "C",
+      "gene": "ALK",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 3303
+        },
+        "assessable_names": 3303,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 83
+        },
+        "assessable_names": 83,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 29320797,
+      "public_id": "rs2293564",
+      "ref": "T",
+      "alt": "C",
+      "gene": "ALK",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 2973,
+          "G": 1
+        },
+        "assessable_names": 2974,
+        "specified_alt_fraction": 0.9996637525218561
+      },
+      "RNA": {
+        "counts": {
+          "C": 137
+        },
+        "assessable_names": 137,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 29717663,
+      "public_id": "rs2246745",
+      "ref": "A",
+      "alt": "T",
+      "gene": "ALK",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 933,
+          "C": 1
+        },
+        "assessable_names": 934,
+        "specified_alt_fraction": 0.9989293361884368
+      },
+      "RNA": {
+        "counts": {
+          "T": 100
+        },
+        "assessable_names": 100,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 29920633,
+      "public_id": "rs4358080",
+      "ref": "G",
+      "alt": "C",
+      "gene": "ALK",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 1881
+        },
+        "assessable_names": 1881,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 37
+        },
+        "assessable_names": 37,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 42282878,
+      "public_id": "rs6736913",
+      "ref": "A",
+      "alt": "G",
+      "gene": "EML4",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 750
+        },
+        "assessable_names": 750,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 1977,
+          "C": 1,
+          "T": 1,
+          "discordant": 1
+        },
+        "assessable_names": 1979,
+        "specified_alt_fraction": 0.998989388580091
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 58161561,
+      "public_id": "rs848291",
+      "ref": "A",
+      "alt": "G",
+      "gene": "FANCL",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 641
+        },
+        "assessable_names": 641,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 299
+        },
+        "assessable_names": 299,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 60460824,
+      "public_id": "rs7569946",
+      "ref": "A",
+      "alt": "G",
+      "gene": "BCL11A",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 777,
+          "C": 1
+        },
+        "assessable_names": 778,
+        "specified_alt_fraction": 0.9987146529562982
+      },
+      "RNA": {
+        "counts": {
+          "G": 18
+        },
+        "assessable_names": 18,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 96253904,
+      "public_id": "rs3852673",
+      "ref": "C",
+      "alt": "T",
+      "gene": "TMEM127",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 3396,
+          "C": 2
+        },
+        "assessable_names": 3398,
+        "specified_alt_fraction": 0.9994114184814596
+      },
+      "RNA": {
+        "counts": {
+          "T": 920
+        },
+        "assessable_names": 920,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 99601618,
+      "public_id": "rs4851214",
+      "ref": "G",
+      "alt": "A",
+      "gene": "AFF3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "A": 475,
+          "G": 1
+        },
+        "assessable_names": 476,
+        "specified_alt_fraction": 0.9978991596638656
+      },
+      "RNA": {
+        "counts": {
+          "A": 31
+        },
+        "assessable_names": 31,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 108773007,
+      "public_id": "rs826580",
+      "ref": "G",
+      "alt": "A",
+      "gene": "RANBP2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.993",
+      "DNA": {
+        "counts": {
+          "A": 144
+        },
+        "assessable_names": 144,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 206,
+          "G": 1
+        },
+        "assessable_names": 207,
+        "specified_alt_fraction": 0.9951690821256038
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 120968871,
+      "public_id": "rs2592595",
+      "ref": "G",
+      "alt": "A",
+      "gene": "GLI2",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "A": 659
+        },
+        "assessable_names": 659,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 197
+        },
+        "assessable_names": 197,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 120989380,
+      "public_id": "rs3738880",
+      "ref": "G",
+      "alt": "T",
+      "gene": "GLI2",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 839
+        },
+        "assessable_names": 839,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 21
+        },
+        "assessable_names": 21,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 120989830,
+      "public_id": "rs12711538",
+      "ref": "G",
+      "alt": "A",
+      "gene": "GLI2",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 897
+        },
+        "assessable_names": 897,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 90
+        },
+        "assessable_names": 90,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 120989853,
+      "public_id": "rs10167980",
+      "ref": "A",
+      "alt": "G",
+      "gene": "GLI2",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.993",
+      "DNA": {
+        "counts": {
+          "G": 821,
+          "A": 4,
+          "T": 1
+        },
+        "assessable_names": 826,
+        "specified_alt_fraction": 0.9939467312348669
+      },
+      "RNA": {
+        "counts": {
+          "G": 83
+        },
+        "assessable_names": 83,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 140270357,
+      "public_id": "rs3748865",
+      "ref": "A",
+      "alt": "G",
+      "gene": "LRP1B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 183
+        },
+        "assessable_names": 183,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {},
+        "assessable_names": 0,
+        "specified_alt_fraction": null
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 140274519,
+      "public_id": "rs1386356",
+      "ref": "C",
+      "alt": "T",
+      "gene": "LRP1B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 255
+        },
+        "assessable_names": 255,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 6
+        },
+        "assessable_names": 6,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 140517007,
+      "public_id": "rs4954672",
+      "ref": "T",
+      "alt": "C",
+      "gene": "LRP1B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.995",
+      "DNA": {
+        "counts": {
+          "C": 195,
+          "T": 1
+        },
+        "assessable_names": 196,
+        "specified_alt_fraction": 0.9948979591836735
+      },
+      "RNA": {
+        "counts": {
+          "C": 6
+        },
+        "assessable_names": 6,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 140994023,
+      "public_id": "rs13007735",
+      "ref": "G",
+      "alt": "A",
+      "gene": "LRP1B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 208
+        },
+        "assessable_names": 208,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 5
+        },
+        "assessable_names": 5,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 141059052,
+      "public_id": "rs1525579",
+      "ref": "A",
+      "alt": "G",
+      "gene": "LRP1B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 109
+        },
+        "assessable_names": 109,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 1
+        },
+        "assessable_names": 1,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 157770468,
+      "public_id": "rs1146031",
+      "ref": "C",
+      "alt": "T",
+      "gene": "ACVR1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "T": 1401,
+          "C": 1
+        },
+        "assessable_names": 1402,
+        "specified_alt_fraction": 0.9992867332382311
+      },
+      "RNA": {
+        "counts": {
+          "T": 1085,
+          "C": 1
+        },
+        "assessable_names": 1086,
+        "specified_alt_fraction": 0.9990791896869244
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 157780398,
+      "public_id": "rs2227861",
+      "ref": "G",
+      "alt": "A",
+      "gene": "ACVR1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 2009,
+          "G": 1
+        },
+        "assessable_names": 2010,
+        "specified_alt_fraction": 0.9995024875621891
+      },
+      "RNA": {
+        "counts": {
+          "A": 249
+        },
+        "assessable_names": 249,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 168973818,
+      "public_id": "rs2287622",
+      "ref": "A",
+      "alt": "G",
+      "gene": "ABCB11",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.996",
+      "DNA": {
+        "counts": {
+          "G": 263
+        },
+        "assessable_names": 263,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 168986299,
+      "public_id": "rs2287618",
+      "ref": "T",
+      "alt": "C",
+      "gene": "ABCB11",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 159
+        },
+        "assessable_names": 159,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {},
+        "assessable_names": 0,
+        "specified_alt_fraction": null
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 211387139,
+      "public_id": "rs3748962",
+      "ref": "T",
+      "alt": "C",
+      "gene": "ERBB4",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 1385
+        },
+        "assessable_names": 1385,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 67
+        },
+        "assessable_names": 67,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 214780740,
+      "public_id": "rs2229571",
+      "ref": "C",
+      "alt": "G",
+      "gene": "BARD1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "G": 1447,
+          "A": 2
+        },
+        "assessable_names": 1449,
+        "specified_alt_fraction": 0.9986197377501725
+      },
+      "RNA": {
+        "counts": {
+          "G": 883
+        },
+        "assessable_names": 883,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 214809500,
+      "public_id": "rs1048108",
+      "ref": "G",
+      "alt": "A",
+      "gene": "BARD1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 1756,
+          "G": 1
+        },
+        "assessable_names": 1757,
+        "specified_alt_fraction": 0.9994308480364257
+      },
+      "RNA": {
+        "counts": {
+          "A": 94
+        },
+        "assessable_names": 94,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 222297170,
+      "public_id": "rs12623857",
+      "ref": "A",
+      "alt": "G",
+      "gene": "PAX3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 442
+        },
+        "assessable_names": 442,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 6
+        },
+        "assessable_names": 6,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 222922841,
+      "public_id": "rs11891410",
+      "ref": "G",
+      "alt": "A",
+      "gene": "ACSL3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 142
+        },
+        "assessable_names": 142,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 11
+        },
+        "assessable_names": 11,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 47083895,
+      "public_id": "rs4082155",
+      "ref": "G",
+      "alt": "A",
+      "gene": "SETD2",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 1071,
+          "G": 1
+        },
+        "assessable_names": 1072,
+        "specified_alt_fraction": 0.9990671641791045
+      },
+      "RNA": {
+        "counts": {
+          "A": 597,
+          "G": 3
+        },
+        "assessable_names": 600,
+        "specified_alt_fraction": 0.995
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 47121171,
+      "public_id": "rs6767907",
+      "ref": "A",
+      "alt": "G",
+      "gene": "SETD2",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "G": 905
+        },
+        "assessable_names": 905,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 261
+        },
+        "assessable_names": 261,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 89472514,
+      "public_id": "rs17801309",
+      "ref": "G",
+      "alt": "A",
+      "gene": "EPHA3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 188
+        },
+        "assessable_names": 188,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 89472543,
+      "public_id": "rs35124509",
+      "ref": "T",
+      "alt": "C",
+      "gene": "EPHA3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 180
+        },
+        "assessable_names": 180,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 100748174,
+      "public_id": "rs11353",
+      "ref": "T",
+      "alt": "C",
+      "gene": "TFG",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 307
+        },
+        "assessable_names": 307,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 235
+        },
+        "assessable_names": 235,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 121519902,
+      "public_id": "rs702018",
+      "ref": "G",
+      "alt": "A",
+      "gene": "POLQ",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 429
+        },
+        "assessable_names": 429,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 80
+        },
+        "assessable_names": 80,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 121544873,
+      "public_id": "rs702017",
+      "ref": "C",
+      "alt": "A",
+      "gene": "POLQ",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 155
+        },
+        "assessable_names": 155,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 13
+        },
+        "assessable_names": 13,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 128638009,
+      "public_id": "rs1697",
+      "ref": "C",
+      "alt": "T",
+      "gene": "RPN1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "T": 666,
+          "C": 1
+        },
+        "assessable_names": 667,
+        "specified_alt_fraction": 0.9985007496251874
+      },
+      "RNA": {
+        "counts": {
+          "T": 684
+        },
+        "assessable_names": 684,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 129171507,
+      "public_id": "rs4303883",
+      "ref": "G",
+      "alt": "A",
+      "gene": "CNBP",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 335
+        },
+        "assessable_names": 335,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 372
+        },
+        "assessable_names": 372,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 135179900,
+      "public_id": "rs1042787",
+      "ref": "C",
+      "alt": "T",
+      "gene": "EPHB1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "T": 360,
+          "C": 1
+        },
+        "assessable_names": 361,
+        "specified_alt_fraction": 0.997229916897507
+      },
+      "RNA": {
+        "counts": {
+          "T": 28
+        },
+        "assessable_names": 28,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 142449489,
+      "public_id": "rs1802904",
+      "ref": "C",
+      "alt": "T",
+      "gene": "ATR",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 896
+        },
+        "assessable_names": 896,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 195
+        },
+        "assessable_names": 195,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 187729244,
+      "public_id": "rs1056932",
+      "ref": "G",
+      "alt": "A",
+      "gene": "BCL6",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 642
+        },
+        "assessable_names": 642,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 81
+        },
+        "assessable_names": 81,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 196071387,
+      "public_id": "rs480760",
+      "ref": "T",
+      "alt": "C",
+      "gene": "TFRC",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.996",
+      "DNA": {
+        "counts": {
+          "C": 127
+        },
+        "assessable_names": 127,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 9
+        },
+        "assessable_names": 9,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 196073940,
+      "public_id": "rs3817672",
+      "ref": "C",
+      "alt": "T",
+      "gene": "TFRC",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 346
+        },
+        "assessable_names": 346,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 647
+        },
+        "assessable_names": 647,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 1806167,
+      "public_id": "rs7688609",
+      "ref": "G",
+      "alt": "A",
+      "gene": "FGFR3",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "A": 2261
+        },
+        "assessable_names": 2261,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 306
+        },
+        "assessable_names": 306,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 20519370,
+      "public_id": "rs519813",
+      "ref": "T",
+      "alt": "C",
+      "gene": "SLIT2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 163
+        },
+        "assessable_names": 163,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 1
+        },
+        "assessable_names": 1,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 54263911,
+      "public_id": "rs2229307",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PDGFRA",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 664
+        },
+        "assessable_names": 664,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 90
+        },
+        "assessable_names": 90,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 54267559,
+      "public_id": "rs4358459",
+      "ref": "T",
+      "alt": "G",
+      "gene": "PDGFRA",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 802
+        },
+        "assessable_names": 802,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 91
+        },
+        "assessable_names": 91,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 54273604,
+      "public_id": "rs35597368",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PDGFRA",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 1995
+        },
+        "assessable_names": 1995,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 156,
+          "T": 1
+        },
+        "assessable_names": 157,
+        "specified_alt_fraction": 0.9936305732484076
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 54274888,
+      "public_id": "rs1873778",
+      "ref": "A",
+      "alt": "G",
+      "gene": "PDGFRA",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 260
+        },
+        "assessable_names": 260,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 37
+        },
+        "assessable_names": 37,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 54277410,
+      "public_id": "rs10028020",
+      "ref": "G",
+      "alt": "A",
+      "gene": "PDGFRA",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 144
+        },
+        "assessable_names": 144,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 59
+        },
+        "assessable_names": 59,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 54285873,
+      "public_id": "rs2228230",
+      "ref": "C",
+      "alt": "T",
+      "gene": "PDGFRA",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "T": 1254,
+          "C": 2
+        },
+        "assessable_names": 1256,
+        "specified_alt_fraction": 0.9984076433121019
+      },
+      "RNA": {
+        "counts": {
+          "T": 43
+        },
+        "assessable_names": 43,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 54295224,
+      "public_id": "rs7685117",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PDGFRA",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 752
+        },
+        "assessable_names": 752,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 48
+        },
+        "assessable_names": 48,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 74382717,
+      "public_id": "rs2367707",
+      "ref": "A",
+      "alt": "G",
+      "gene": "EREG",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 196
+        },
+        "assessable_names": 196,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 142086266,
+      "public_id": "rs336324",
+      "ref": "A",
+      "alt": "G",
+      "gene": "INPP4B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 78
+        },
+        "assessable_names": 78,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 1
+        },
+        "assessable_names": 1,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 186595726,
+      "public_id": "rs1298865",
+      "ref": "A",
+      "alt": "G",
+      "gene": "FAT1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 1314
+        },
+        "assessable_names": 1314,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 3586,
+          "A": 12
+        },
+        "assessable_names": 3598,
+        "specified_alt_fraction": 0.9966648137854364
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 186598052,
+      "public_id": "rs1280097",
+      "ref": "C",
+      "alt": "G",
+      "gene": "FAT1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 940
+        },
+        "assessable_names": 940,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 910
+        },
+        "assessable_names": 910,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 186603866,
+      "public_id": "rs2637777",
+      "ref": "A",
+      "alt": "C",
+      "gene": "FAT1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "C": 1753,
+          "T": 2,
+          "A": 1
+        },
+        "assessable_names": 1756,
+        "specified_alt_fraction": 0.9982915717539863
+      },
+      "RNA": {
+        "counts": {
+          "C": 8040,
+          "T": 8,
+          "A": 6
+        },
+        "assessable_names": 8054,
+        "specified_alt_fraction": 0.9982617333002235
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 186613209,
+      "public_id": "rs2249916",
+      "ref": "G",
+      "alt": "A",
+      "gene": "FAT1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 2517,
+          "G": 2
+        },
+        "assessable_names": 2519,
+        "specified_alt_fraction": 0.999206034140532
+      },
+      "RNA": {
+        "counts": {
+          "A": 12068,
+          "C": 2,
+          "G": 1
+        },
+        "assessable_names": 12071,
+        "specified_alt_fraction": 0.9997514704664071
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 186613221,
+      "public_id": "rs2249917",
+      "ref": "A",
+      "alt": "G",
+      "gene": "FAT1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "G": 2494,
+          "A": 3
+        },
+        "assessable_names": 2497,
+        "specified_alt_fraction": 0.9987985582699239
+      },
+      "RNA": {
+        "counts": {
+          "G": 10818,
+          "A": 16
+        },
+        "assessable_names": 10834,
+        "specified_alt_fraction": 0.9985231678050581
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 186617176,
+      "public_id": "rs1280099",
+      "ref": "G",
+      "alt": "A",
+      "gene": "FAT1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 508
+        },
+        "assessable_names": 508,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 1231
+        },
+        "assessable_names": 1231,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 186636739,
+      "public_id": "rs328418",
+      "ref": "T",
+      "alt": "C",
+      "gene": "FAT1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 1657,
+          "T": 2
+        },
+        "assessable_names": 1659,
+        "specified_alt_fraction": 0.9987944544906571
+      },
+      "RNA": {
+        "counts": {
+          "C": 6605,
+          "T": 1
+        },
+        "assessable_names": 6606,
+        "specified_alt_fraction": 0.9998486224644263
+      }
+    },
+    {
+      "chrom": "chr4",
+      "pos1": 186663617,
+      "public_id": "rs172903",
+      "ref": "C",
+      "alt": "G",
+      "gene": "FAT1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 789
+        },
+        "assessable_names": 789,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 37
+        },
+        "assessable_names": 37,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 38950674,
+      "public_id": "rs2115949",
+      "ref": "G",
+      "alt": "A",
+      "gene": "RICTOR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 307
+        },
+        "assessable_names": 307,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 89
+        },
+        "assessable_names": 89,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 56815924,
+      "public_id": "rs28710284",
+      "ref": "G",
+      "alt": "C",
+      "gene": "MAP3K1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "C": 1022,
+          "T": 2
+        },
+        "assessable_names": 1024,
+        "specified_alt_fraction": 0.998046875
+      },
+      "RNA": {
+        "counts": {
+          "C": 32
+        },
+        "assessable_names": 32,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 56856589,
+      "public_id": "rs832567",
+      "ref": "C",
+      "alt": "A",
+      "gene": "MAP3K1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 328
+        },
+        "assessable_names": 328,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 30
+        },
+        "assessable_names": 30,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 56865960,
+      "public_id": "rs832575",
+      "ref": "G",
+      "alt": "A",
+      "gene": "MAP3K1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 464
+        },
+        "assessable_names": 464,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 120
+        },
+        "assessable_names": 120,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 56881616,
+      "public_id": "rs702689",
+      "ref": "G",
+      "alt": "A",
+      "gene": "MAP3K1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 761
+        },
+        "assessable_names": 761,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 251
+        },
+        "assessable_names": 251,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 56881916,
+      "public_id": "rs832582",
+      "ref": "G",
+      "alt": "A",
+      "gene": "MAP3K1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 1382
+        },
+        "assessable_names": 1382,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 582
+        },
+        "assessable_names": 582,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 56882390,
+      "public_id": "rs832583",
+      "ref": "A",
+      "alt": "C",
+      "gene": "MAP3K1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 1281,
+          "T": 1
+        },
+        "assessable_names": 1282,
+        "specified_alt_fraction": 0.999219968798752
+      },
+      "RNA": {
+        "counts": {
+          "C": 1168,
+          "T": 3
+        },
+        "assessable_names": 1171,
+        "specified_alt_fraction": 0.9974380871050385
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 80654962,
+      "public_id": "rs1650697",
+      "ref": "A",
+      "alt": "G",
+      "gene": "MSH3",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 765
+        },
+        "assessable_names": 765,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 54
+        },
+        "assessable_names": 54,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 80854162,
+      "public_id": "rs184967",
+      "ref": "A",
+      "alt": "G",
+      "gene": "MSH3",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "G": 538,
+          "A": 1
+        },
+        "assessable_names": 539,
+        "specified_alt_fraction": 0.9981447124304267
+      },
+      "RNA": {
+        "counts": {
+          "G": 277,
+          "C": 1
+        },
+        "assessable_names": 278,
+        "specified_alt_fraction": 0.9964028776978417
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 80873118,
+      "public_id": "rs26279",
+      "ref": "G",
+      "alt": "A",
+      "gene": "MSH3",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 565
+        },
+        "assessable_names": 565,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 103
+        },
+        "assessable_names": 103,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 132486363,
+      "public_id": "rs9282762",
+      "ref": "T",
+      "alt": "C",
+      "gene": "IRF1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 536
+        },
+        "assessable_names": 536,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 27
+        },
+        "assessable_names": 27,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 132486380,
+      "public_id": "rs2070724",
+      "ref": "A",
+      "alt": "G",
+      "gene": "IRF1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 471
+        },
+        "assessable_names": 471,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 150078115,
+      "public_id": "rs2228422",
+      "ref": "G",
+      "alt": "A",
+      "gene": "CSF1R",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "A": 1540,
+          "G": 1
+        },
+        "assessable_names": 1541,
+        "specified_alt_fraction": 0.9993510707332901
+      },
+      "RNA": {
+        "counts": {
+          "A": 3340,
+          "G": 1
+        },
+        "assessable_names": 3341,
+        "specified_alt_fraction": 0.9997006884166417
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 150080990,
+      "public_id": "rs216123",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CSF1R",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 2473,
+          "A": 2,
+          "C": 1
+        },
+        "assessable_names": 2476,
+        "specified_alt_fraction": 0.9987883683360258
+      },
+      "RNA": {
+        "counts": {
+          "G": 686
+        },
+        "assessable_names": 686,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 161692065,
+      "public_id": "rs12522663",
+      "ref": "G",
+      "alt": "T",
+      "gene": "GABRA6",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 403
+        },
+        "assessable_names": 403,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 7
+        },
+        "assessable_names": 7,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 177294197,
+      "public_id": "rs28580074",
+      "ref": "T",
+      "alt": "C",
+      "gene": "NSD1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 3693,
+          "T": 2
+        },
+        "assessable_names": 3695,
+        "specified_alt_fraction": 0.9994587280108255
+      },
+      "RNA": {
+        "counts": {
+          "C": 470,
+          "T": 3
+        },
+        "assessable_names": 473,
+        "specified_alt_fraction": 0.9936575052854123
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 177513383,
+      "public_id": "rs335438",
+      "ref": "G",
+      "alt": "A",
+      "gene": "DDX41",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 873
+        },
+        "assessable_names": 873,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 202
+        },
+        "assessable_names": 202,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 180619344,
+      "public_id": "rs448012",
+      "ref": "G",
+      "alt": "C",
+      "gene": "FLT4",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 331
+        },
+        "assessable_names": 331,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 6
+        },
+        "assessable_names": 6,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 35455885,
+      "public_id": "rs4713867",
+      "ref": "A",
+      "alt": "C",
+      "gene": "FANCE",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 2987,
+          "T": 3
+        },
+        "assessable_names": 2990,
+        "specified_alt_fraction": 0.9989966555183947
+      },
+      "RNA": {
+        "counts": {
+          "C": 54
+        },
+        "assessable_names": 54,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 41684866,
+      "public_id": "rs1062966",
+      "ref": "T",
+      "alt": "C",
+      "gene": "TFEB",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "C": 778,
+          "T": 2
+        },
+        "assessable_names": 780,
+        "specified_alt_fraction": 0.9974358974358974
+      },
+      "RNA": {
+        "counts": {
+          "C": 12
+        },
+        "assessable_names": 12,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 44250383,
+      "public_id": "rs13296",
+      "ref": "A",
+      "alt": "G",
+      "gene": "HSP90AB1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 414
+        },
+        "assessable_names": 414,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 6938,
+          "A": 18,
+          "C": 2,
+          "T": 1
+        },
+        "assessable_names": 6959,
+        "specified_alt_fraction": 0.9969823250467021
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 93258133,
+      "public_id": "rs345730",
+      "ref": "C",
+      "alt": "T",
+      "gene": "EPHA7",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 183
+        },
+        "assessable_names": 183,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 10
+        },
+        "assessable_names": 10,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 93272406,
+      "public_id": "rs345713",
+      "ref": "A",
+      "alt": "G",
+      "gene": "EPHA7",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 197
+        },
+        "assessable_names": 197,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 93358263,
+      "public_id": "rs164544",
+      "ref": "C",
+      "alt": "T",
+      "gene": "EPHA7",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 192
+        },
+        "assessable_names": 192,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 5
+        },
+        "assessable_names": 5,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 137198101,
+      "public_id": "rs1887415",
+      "ref": "A",
+      "alt": "G",
+      "gene": "IFNGR1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 137
+        },
+        "assessable_names": 137,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 32
+        },
+        "assessable_names": 32,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 137219233,
+      "public_id": "rs7749390",
+      "ref": "A",
+      "alt": "G",
+      "gene": "IFNGR1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 179
+        },
+        "assessable_names": 179,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 151880740,
+      "public_id": "rs4986934",
+      "ref": "T",
+      "alt": "C",
+      "gene": "ESR1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 1145
+        },
+        "assessable_names": 1145,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 70
+        },
+        "assessable_names": 70,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 157084796,
+      "public_id": "rs3734441",
+      "ref": "G",
+      "alt": "A",
+      "gene": "ARID1B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 536
+        },
+        "assessable_names": 536,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 110
+        },
+        "assessable_names": 110,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 166165782,
+      "public_id": "rs2305089",
+      "ref": "C",
+      "alt": "T",
+      "gene": "TBXT",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 524
+        },
+        "assessable_names": 524,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 2
+        },
+        "assessable_names": 2,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 167898195,
+      "public_id": "rs9346511",
+      "ref": "C",
+      "alt": "T",
+      "gene": "AFDN",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 216
+        },
+        "assessable_names": 216,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 12
+        },
+        "assessable_names": 12,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 167915438,
+      "public_id": "rs3213591",
+      "ref": "T",
+      "alt": "G",
+      "gene": "AFDN",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 425
+        },
+        "assessable_names": 425,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 1
+        },
+        "assessable_names": 1,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr6",
+      "pos1": 167943158,
+      "public_id": "rs1132306",
+      "ref": "T",
+      "alt": "C",
+      "gene": "AFDN",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "C": 388,
+          "T": 1
+        },
+        "assessable_names": 389,
+        "specified_alt_fraction": 0.9974293059125964
+      },
+      "RNA": {
+        "counts": {
+          "C": 685,
+          "T": 1
+        },
+        "assessable_names": 686,
+        "specified_alt_fraction": 0.9985422740524781
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 5987144,
+      "public_id": "rs2228006",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PMS2",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 2647,
+          "A": 1,
+          "T": 1
+        },
+        "assessable_names": 2649,
+        "specified_alt_fraction": 0.9992449981124952
+      },
+      "RNA": {
+        "counts": {
+          "C": 579
+        },
+        "assessable_names": 579,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 5997349,
+      "public_id": "rs1805319",
+      "ref": "G",
+      "alt": "C",
+      "gene": "PMS2",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "C": 457,
+          "G": 1
+        },
+        "assessable_names": 458,
+        "specified_alt_fraction": 0.9978165938864629
+      },
+      "RNA": {
+        "counts": {
+          "C": 511
+        },
+        "assessable_names": 511,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 13939184,
+      "public_id": "rs9639168",
+      "ref": "T",
+      "alt": "C",
+      "gene": "ETV1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 245
+        },
+        "assessable_names": 245,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 38
+        },
+        "assessable_names": 38,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 55181370,
+      "public_id": "rs1050171",
+      "ref": "G",
+      "alt": "A",
+      "gene": "EGFR",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 1383
+        },
+        "assessable_names": 1383,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 264
+        },
+        "assessable_names": 264,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 55198724,
+      "public_id": "rs1140475",
+      "ref": "T",
+      "alt": "C",
+      "gene": "EGFR",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "C": 1964,
+          "G": 1,
+          "T": 1
+        },
+        "assessable_names": 1966,
+        "specified_alt_fraction": 0.9989827060020345
+      },
+      "RNA": {
+        "counts": {
+          "C": 2007,
+          "T": 5
+        },
+        "assessable_names": 2012,
+        "specified_alt_fraction": 0.9975149105367793
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 78127263,
+      "public_id": "rs2074641",
+      "ref": "T",
+      "alt": "C",
+      "gene": "MAGI2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 702
+        },
+        "assessable_names": 702,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 43,
+          "T": 1
+        },
+        "assessable_names": 44,
+        "specified_alt_fraction": 0.9772727272727273
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 78127407,
+      "public_id": "rs7812015",
+      "ref": "C",
+      "alt": "T",
+      "gene": "MAGI2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 392
+        },
+        "assessable_names": 392,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 44
+        },
+        "assessable_names": 44,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 81717369,
+      "public_id": "rs1800793",
+      "ref": "T",
+      "alt": "C",
+      "gene": "HGF",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 228
+        },
+        "assessable_names": 228,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {},
+        "assessable_names": 0,
+        "specified_alt_fraction": null
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 98961257,
+      "public_id": "rs160384",
+      "ref": "G",
+      "alt": "C",
+      "gene": "TRRAP",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 521
+        },
+        "assessable_names": 521,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 17
+        },
+        "assessable_names": 17,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 102249048,
+      "public_id": "rs368214",
+      "ref": "C",
+      "alt": "T",
+      "gene": "CUX1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 323
+        },
+        "assessable_names": 323,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 40
+        },
+        "assessable_names": 40,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 106868533,
+      "public_id": "rs849389",
+      "ref": "A",
+      "alt": "G",
+      "gene": "PIK3CG",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "G": 997,
+          "A": 1
+        },
+        "assessable_names": 998,
+        "specified_alt_fraction": 0.998997995991984
+      },
+      "RNA": {
+        "counts": {
+          "G": 39
+        },
+        "assessable_names": 39,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 106868542,
+      "public_id": "rs849390",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PIK3CG",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "C": 1001,
+          "T": 1
+        },
+        "assessable_names": 1002,
+        "specified_alt_fraction": 0.999001996007984
+      },
+      "RNA": {
+        "counts": {
+          "C": 26
+        },
+        "assessable_names": 26,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr7",
+      "pos1": 124841191,
+      "public_id": "rs3815221",
+      "ref": "G",
+      "alt": "A",
+      "gene": "POT1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 509
+        },
+        "assessable_names": 509,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 12
+        },
+        "assessable_names": 12,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 17957406,
+      "public_id": "rs208753",
+      "ref": "A",
+      "alt": "G",
+      "gene": "PCM1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 191
+        },
+        "assessable_names": 191,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 165
+        },
+        "assessable_names": 165,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 27454186,
+      "public_id": "rs1879184",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PTK2B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 760
+        },
+        "assessable_names": 760,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 90
+        },
+        "assessable_names": 90,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 27458359,
+      "public_id": "rs1879182",
+      "ref": "A",
+      "alt": "G",
+      "gene": "PTK2B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "G": 565,
+          "A": 1
+        },
+        "assessable_names": 566,
+        "specified_alt_fraction": 0.9982332155477032
+      },
+      "RNA": {
+        "counts": {
+          "G": 177
+        },
+        "assessable_names": 177,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 27458383,
+      "public_id": "rs1879181",
+      "ref": "A",
+      "alt": "G",
+      "gene": "PTK2B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 584
+        },
+        "assessable_names": 584,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 195
+        },
+        "assessable_names": 195,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 31141606,
+      "public_id": "rs3024239",
+      "ref": "C",
+      "alt": "T",
+      "gene": "WRN",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 857,
+          "C": 1
+        },
+        "assessable_names": 858,
+        "specified_alt_fraction": 0.9988344988344988
+      },
+      "RNA": {
+        "counts": {
+          "T": 13
+        },
+        "assessable_names": 13,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 37841677,
+      "public_id": "rs4976898",
+      "ref": "C",
+      "alt": "G",
+      "gene": "ADGRA2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.990",
+      "DNA": {
+        "counts": {
+          "G": 272,
+          "C": 2
+        },
+        "assessable_names": 274,
+        "specified_alt_fraction": 0.9927007299270073
+      },
+      "RNA": {
+        "counts": {
+          "G": 5
+        },
+        "assessable_names": 5,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 37841998,
+      "public_id": "rs7010546",
+      "ref": "C",
+      "alt": "T",
+      "gene": "ADGRA2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 339
+        },
+        "assessable_names": 339,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 10
+        },
+        "assessable_names": 10,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 47933959,
+      "public_id": "rs1231202",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PRKDC",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 766
+        },
+        "assessable_names": 766,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 21
+        },
+        "assessable_names": 21,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 67952493,
+      "public_id": "rs61753697",
+      "ref": "G",
+      "alt": "A",
+      "gene": "PREX2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "A": 438,
+          "G": 1
+        },
+        "assessable_names": 439,
+        "specified_alt_fraction": 0.9977220956719818
+      },
+      "RNA": {
+        "counts": {
+          "A": 18
+        },
+        "assessable_names": 18,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 68108261,
+      "public_id": "rs4260880",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PREX2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.995",
+      "DNA": {
+        "counts": {
+          "C": 217
+        },
+        "assessable_names": 217,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 5
+        },
+        "assessable_names": 5,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 107958139,
+      "public_id": "rs601558",
+      "ref": "A",
+      "alt": "G",
+      "gene": "RSPO2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "G": 374,
+          "T": 1
+        },
+        "assessable_names": 375,
+        "specified_alt_fraction": 0.9973333333333333
+      },
+      "RNA": {
+        "counts": {
+          "G": 15
+        },
+        "assessable_names": 15,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 144512253,
+      "public_id": "rs4925828",
+      "ref": "A",
+      "alt": "G",
+      "gene": "RECQL4",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "G": 463,
+          "A": 1
+        },
+        "assessable_names": 464,
+        "specified_alt_fraction": 0.9978448275862069
+      },
+      "RNA": {
+        "counts": {
+          "G": 6
+        },
+        "assessable_names": 6,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 144517130,
+      "public_id": "rs2721190",
+      "ref": "A",
+      "alt": "G",
+      "gene": "RECQL4",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 556
+        },
+        "assessable_names": 556,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 17
+        },
+        "assessable_names": 17,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 2191309,
+      "public_id": "rs2296212",
+      "ref": "C",
+      "alt": "G",
+      "gene": "SMARCA2",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 96
+        },
+        "assessable_names": 96,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 47
+        },
+        "assessable_names": 47,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 5081780,
+      "public_id": "rs2230724",
+      "ref": "G",
+      "alt": "A",
+      "gene": "JAK2",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "A": 496
+        },
+        "assessable_names": 496,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 1169
+        },
+        "assessable_names": 1169,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 5557672,
+      "public_id": "rs7854303",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PDCD1LG2",
+      "Caris_filter": "Benign;rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 360
+        },
+        "assessable_names": 360,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 28
+        },
+        "assessable_names": 28,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 27183465,
+      "public_id": "rs682632",
+      "ref": "A",
+      "alt": "C",
+      "gene": "TEK",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 36
+        },
+        "assessable_names": 36,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 6
+        },
+        "assessable_names": 6,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 36840626,
+      "public_id": "rs3780135",
+      "ref": "G",
+      "alt": "A",
+      "gene": "PAX5",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 343
+        },
+        "assessable_names": 343,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 13
+        },
+        "assessable_names": 13,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 95447312,
+      "public_id": "rs357564",
+      "ref": "G",
+      "alt": "A",
+      "gene": "PTCH1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "A": 2424
+        },
+        "assessable_names": 2424,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 395,
+          "G": 1
+        },
+        "assessable_names": 396,
+        "specified_alt_fraction": 0.9974747474747475
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 97697296,
+      "public_id": "rs1800975",
+      "ref": "T",
+      "alt": "C",
+      "gene": "XPA",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 313
+        },
+        "assessable_names": 313,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 10
+        },
+        "assessable_names": 10,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 128693624,
+      "public_id": "rs4836618",
+      "ref": "C",
+      "alt": "T",
+      "gene": "SET",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 140
+        },
+        "assessable_names": 140,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 1
+        },
+        "assessable_names": 1,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 129900507,
+      "public_id": "rs1023000",
+      "ref": "C",
+      "alt": "T",
+      "gene": "FNBP1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 667
+        },
+        "assessable_names": 667,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 605
+        },
+        "assessable_names": 605,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 136510809,
+      "public_id": "rs3125001",
+      "ref": "C",
+      "alt": "T",
+      "gene": "NOTCH1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 2382
+        },
+        "assessable_names": 2382,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 44,
+          "C": 3
+        },
+        "assessable_names": 47,
+        "specified_alt_fraction": 0.9361702127659575
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 136515972,
+      "public_id": "rs3125006",
+      "ref": "A",
+      "alt": "G",
+      "gene": "NOTCH1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 2451,
+          "A": 2
+        },
+        "assessable_names": 2453,
+        "specified_alt_fraction": 0.9991846718304117
+      },
+      "RNA": {
+        "counts": {
+          "G": 32
+        },
+        "assessable_names": 32,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 27100268,
+      "public_id": "rs7897309",
+      "ref": "T",
+      "alt": "C",
+      "gene": "ANKRD26",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 330
+        },
+        "assessable_names": 330,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 11
+        },
+        "assessable_names": 11,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 32023041,
+      "public_id": "rs176924",
+      "ref": "A",
+      "alt": "G",
+      "gene": "KIF5B",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 277
+        },
+        "assessable_names": 277,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 43100520,
+      "public_id": "rs1800858",
+      "ref": "A",
+      "alt": "G",
+      "gene": "RET",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 2273,
+          "T": 1
+        },
+        "assessable_names": 2274,
+        "specified_alt_fraction": 0.9995602462620933
+      },
+      "RNA": {
+        "counts": {
+          "G": 82
+        },
+        "assessable_names": 82,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 43111239,
+      "public_id": "rs1800860",
+      "ref": "A",
+      "alt": "G",
+      "gene": "RET",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 3167
+        },
+        "assessable_names": 3167,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 29
+        },
+        "assessable_names": 29,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 49493110,
+      "public_id": "rs4253132",
+      "ref": "G",
+      "alt": "A",
+      "gene": "ERCC6",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 146
+        },
+        "assessable_names": 146,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 59792934,
+      "public_id": "rs1053266",
+      "ref": "G",
+      "alt": "T",
+      "gene": "CCDC6",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.996",
+      "DNA": {
+        "counts": {
+          "T": 2990,
+          "G": 4,
+          "C": 4
+        },
+        "assessable_names": 2998,
+        "specified_alt_fraction": 0.9973315543695798
+      },
+      "RNA": {
+        "counts": {
+          "T": 740,
+          "G": 1,
+          "C": 4
+        },
+        "assessable_names": 745,
+        "specified_alt_fraction": 0.9932885906040269
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 59793016,
+      "public_id": "rs1053265",
+      "ref": "C",
+      "alt": "T",
+      "gene": "CCDC6",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.996",
+      "DNA": {
+        "counts": {
+          "T": 4120,
+          "A": 2,
+          "C": 4,
+          "G": 3
+        },
+        "assessable_names": 4129,
+        "specified_alt_fraction": 0.9978202954710583
+      },
+      "RNA": {
+        "counts": {
+          "T": 4874,
+          "A": 3,
+          "C": 6,
+          "G": 3
+        },
+        "assessable_names": 4886,
+        "specified_alt_fraction": 0.9975440032746623
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 68572823,
+      "public_id": "rs10823229",
+      "ref": "A",
+      "alt": "G",
+      "gene": "TET1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 136
+        },
+        "assessable_names": 136,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 68646098,
+      "public_id": "rs3998860",
+      "ref": "A",
+      "alt": "G",
+      "gene": "TET1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 163
+        },
+        "assessable_names": 163,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 30
+        },
+        "assessable_names": 30,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 71511149,
+      "public_id": "rs3802720",
+      "ref": "T",
+      "alt": "C",
+      "gene": "CDH23",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.995",
+      "DNA": {
+        "counts": {
+          "C": 488,
+          "A": 1,
+          "T": 1
+        },
+        "assessable_names": 490,
+        "specified_alt_fraction": 0.9959183673469387
+      },
+      "RNA": {
+        "counts": {
+          "C": 14
+        },
+        "assessable_names": 14,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 71695444,
+      "public_id": "rs3752752",
+      "ref": "T",
+      "alt": "C",
+      "gene": "CDH23",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 494
+        },
+        "assessable_names": 494,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 27
+        },
+        "assessable_names": 27,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 71695516,
+      "public_id": "rs3752751",
+      "ref": "T",
+      "alt": "C",
+      "gene": "CDH23",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "C": 421,
+          "A": 1
+        },
+        "assessable_names": 422,
+        "specified_alt_fraction": 0.9976303317535545
+      },
+      "RNA": {
+        "counts": {
+          "C": 19
+        },
+        "assessable_names": 19,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 71732322,
+      "public_id": "rs1227065",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CDH23",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 606
+        },
+        "assessable_names": 606,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 10
+        },
+        "assessable_names": 10,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 71738598,
+      "public_id": "rs56181447",
+      "ref": "G",
+      "alt": "A",
+      "gene": "CDH23",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 745
+        },
+        "assessable_names": 745,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 71741799,
+      "public_id": "rs1227051",
+      "ref": "G",
+      "alt": "A",
+      "gene": "CDH23",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 871,
+          "G": 1
+        },
+        "assessable_names": 872,
+        "specified_alt_fraction": 0.9988532110091743
+      },
+      "RNA": {
+        "counts": {
+          "A": 12
+        },
+        "assessable_names": 12,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 102397970,
+      "public_id": "rs4919632",
+      "ref": "C",
+      "alt": "T",
+      "gene": "NFKB2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 284
+        },
+        "assessable_names": 284,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 2
+        },
+        "assessable_names": 2,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 102399439,
+      "public_id": "rs4919633",
+      "ref": "A",
+      "alt": "G",
+      "gene": "NFKB2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 680
+        },
+        "assessable_names": 680,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 34
+        },
+        "assessable_names": 34,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 102400677,
+      "public_id": "rs4919634",
+      "ref": "A",
+      "alt": "G",
+      "gene": "NFKB2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 512
+        },
+        "assessable_names": 512,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 48
+        },
+        "assessable_names": 48,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 110602112,
+      "public_id": "rs2419565",
+      "ref": "A",
+      "alt": "G",
+      "gene": "SMC3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.996",
+      "DNA": {
+        "counts": {
+          "G": 251,
+          "A": 1
+        },
+        "assessable_names": 252,
+        "specified_alt_fraction": 0.996031746031746
+      },
+      "RNA": {
+        "counts": {
+          "G": 103
+        },
+        "assessable_names": 103,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr10",
+      "pos1": 121538644,
+      "public_id": "rs1047100",
+      "ref": "T",
+      "alt": "C",
+      "gene": "FGFR2",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 1391
+        },
+        "assessable_names": 1391,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 337
+        },
+        "assessable_names": 337,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 32396399,
+      "public_id": "rs16754",
+      "ref": "T",
+      "alt": "C",
+      "gene": "WT1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 2020,
+          "A": 1,
+          "T": 1
+        },
+        "assessable_names": 2022,
+        "specified_alt_fraction": 0.9990108803165183
+      },
+      "RNA": {
+        "counts": {
+          "C": 108
+        },
+        "assessable_names": 108,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 32435016,
+      "public_id": "rs1799925",
+      "ref": "G",
+      "alt": "A",
+      "gene": "WT1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 947
+        },
+        "assessable_names": 947,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 26
+        },
+        "assessable_names": 26,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 33859470,
+      "public_id": "rs3740617",
+      "ref": "T",
+      "alt": "C",
+      "gene": "LMO2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 713
+        },
+        "assessable_names": 713,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 89
+        },
+        "assessable_names": 89,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 57236870,
+      "public_id": "rs948847",
+      "ref": "G",
+      "alt": "T",
+      "gene": "APLNR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 714
+        },
+        "assessable_names": 714,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 23
+        },
+        "assessable_names": 23,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 64804546,
+      "public_id": "rs2959656",
+      "ref": "T",
+      "alt": "C",
+      "gene": "MEN1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "C": 3081,
+          "T": 3,
+          "G": 3,
+          "A": 1
+        },
+        "assessable_names": 3088,
+        "specified_alt_fraction": 0.9977331606217616
+      },
+      "RNA": {
+        "counts": {
+          "C": 227,
+          "G": 2
+        },
+        "assessable_names": 229,
+        "specified_alt_fraction": 0.9912663755458515
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 64805085,
+      "public_id": "rs540012",
+      "ref": "A",
+      "alt": "G",
+      "gene": "MEN1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 3484,
+          "A": 1
+        },
+        "assessable_names": 3485,
+        "specified_alt_fraction": 0.999713055954089
+      },
+      "RNA": {
+        "counts": {
+          "G": 360
+        },
+        "assessable_names": 360,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 67490352,
+      "public_id": "rs641081",
+      "ref": "C",
+      "alt": "A",
+      "gene": "AIP",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 2392
+        },
+        "assessable_names": 2392,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 782
+        },
+        "assessable_names": 782,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 77340638,
+      "public_id": "rs2725832",
+      "ref": "G",
+      "alt": "C",
+      "gene": "PAK1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 355
+        },
+        "assessable_names": 355,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 92798190,
+      "public_id": "rs7949157",
+      "ref": "A",
+      "alt": "G",
+      "gene": "FAT3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 313
+        },
+        "assessable_names": 313,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 5
+        },
+        "assessable_names": 5,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 92799511,
+      "public_id": "rs12362722",
+      "ref": "T",
+      "alt": "C",
+      "gene": "FAT3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 190
+        },
+        "assessable_names": 190,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 2
+        },
+        "assessable_names": 2,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 92801276,
+      "public_id": "rs3847531",
+      "ref": "A",
+      "alt": "G",
+      "gene": "FAT3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.995",
+      "DNA": {
+        "counts": {
+          "G": 315
+        },
+        "assessable_names": 315,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 18
+        },
+        "assessable_names": 18,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 96092633,
+      "public_id": "rs7931870",
+      "ref": "A",
+      "alt": "G",
+      "gene": "MAML2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 545
+        },
+        "assessable_names": 545,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 24
+        },
+        "assessable_names": 24,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 118754900,
+      "public_id": "rs580079",
+      "ref": "C",
+      "alt": "T",
+      "gene": "DDX6",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.994",
+      "DNA": {
+        "counts": {
+          "T": 184,
+          "A": 1
+        },
+        "assessable_names": 185,
+        "specified_alt_fraction": 0.9945945945945946
+      },
+      "RNA": {
+        "counts": {
+          "T": 5
+        },
+        "assessable_names": 5,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 120421861,
+      "public_id": "rs532006",
+      "ref": "T",
+      "alt": "A",
+      "gene": "ARHGEF12",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "A": 448
+        },
+        "assessable_names": 448,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 125655300,
+      "public_id": "rs506504",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CHEK1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 726
+        },
+        "assessable_names": 726,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 343
+        },
+        "assessable_names": 343,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 128911444,
+      "public_id": "rs6590357",
+      "ref": "T",
+      "alt": "C",
+      "gene": "KCNJ5",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 899,
+          "T": 1
+        },
+        "assessable_names": 900,
+        "specified_alt_fraction": 0.9988888888888889
+      },
+      "RNA": {
+        "counts": {
+          "C": 7
+        },
+        "assessable_names": 7,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 128912083,
+      "public_id": "rs7118824",
+      "ref": "T",
+      "alt": "G",
+      "gene": "KCNJ5",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 799
+        },
+        "assessable_names": 799,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 5
+        },
+        "assessable_names": 5,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 128912107,
+      "public_id": "rs7118833",
+      "ref": "T",
+      "alt": "C",
+      "gene": "KCNJ5",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "C": 784,
+          "T": 2
+        },
+        "assessable_names": 786,
+        "specified_alt_fraction": 0.9974554707379135
+      },
+      "RNA": {
+        "counts": {
+          "C": 7
+        },
+        "assessable_names": 7,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 128912117,
+      "public_id": "rs7102584",
+      "ref": "C",
+      "alt": "G",
+      "gene": "KCNJ5",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.995",
+      "DNA": {
+        "counts": {
+          "G": 795,
+          "A": 3
+        },
+        "assessable_names": 798,
+        "specified_alt_fraction": 0.9962406015037594
+      },
+      "RNA": {
+        "counts": {
+          "G": 7
+        },
+        "assessable_names": 7,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr11",
+      "pos1": 128916399,
+      "public_id": "rs4937391",
+      "ref": "G",
+      "alt": "A",
+      "gene": "KCNJ5",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 348
+        },
+        "assessable_names": 348,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 4445382,
+      "public_id": "rs7358740",
+      "ref": "G",
+      "alt": "C",
+      "gene": "FGF6",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "C": 693,
+          "T": 1
+        },
+        "assessable_names": 694,
+        "specified_alt_fraction": 0.9985590778097982
+      },
+      "RNA": {
+        "counts": {
+          "C": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 15503898,
+      "public_id": "rs4764199",
+      "ref": "T",
+      "alt": "A",
+      "gene": "PTPRO",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 114
+        },
+        "assessable_names": 114,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 2
+        },
+        "assessable_names": 2,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 47981785,
+      "public_id": "rs1635553",
+      "ref": "A",
+      "alt": "G",
+      "gene": "COL2A1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 105
+        },
+        "assessable_names": 105,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 1
+        },
+        "assessable_names": 1,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 47982508,
+      "public_id": "rs2276454",
+      "ref": "G",
+      "alt": "A",
+      "gene": "COL2A1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 126
+        },
+        "assessable_names": 126,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 48004297,
+      "public_id": "rs3803183",
+      "ref": "T",
+      "alt": "A",
+      "gene": "COL2A1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 79
+        },
+        "assessable_names": 79,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 49026411,
+      "public_id": "rs575965702",
+      "ref": "G",
+      "alt": "A",
+      "gene": "KMT2D",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 2969,
+          "G": 1,
+          "T": 1
+        },
+        "assessable_names": 2971,
+        "specified_alt_fraction": 0.999326825984517
+      },
+      "RNA": {
+        "counts": {
+          "A": 255
+        },
+        "assessable_names": 255,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 111446804,
+      "public_id": "rs3184504",
+      "ref": "T",
+      "alt": "C",
+      "gene": "SH2B3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 571
+        },
+        "assessable_names": 571,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 68
+        },
+        "assessable_names": 68,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 120978819,
+      "public_id": "rs1169289",
+      "ref": "C",
+      "alt": "G",
+      "gene": "HNF1A",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 2777,
+          "A": 1,
+          "C": 1
+        },
+        "assessable_names": 2779,
+        "specified_alt_fraction": 0.9992803166606693
+      },
+      "RNA": {
+        "counts": {
+          "G": 25
+        },
+        "assessable_names": 25,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 120978847,
+      "public_id": "rs1169288",
+      "ref": "A",
+      "alt": "C",
+      "gene": "HNF1A",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 2855
+        },
+        "assessable_names": 2855,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 19
+        },
+        "assessable_names": 19,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 120999579,
+      "public_id": "rs1169305",
+      "ref": "A",
+      "alt": "G",
+      "gene": "HNF1A",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 2911,
+          "A": 2
+        },
+        "assessable_names": 2913,
+        "specified_alt_fraction": 0.9993134225883968
+      },
+      "RNA": {
+        "counts": {
+          "G": 80
+        },
+        "assessable_names": 80,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 132632393,
+      "public_id": "rs5745022",
+      "ref": "T",
+      "alt": "C",
+      "gene": "POLE",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 2465,
+          "A": 1,
+          "T": 1
+        },
+        "assessable_names": 2467,
+        "specified_alt_fraction": 0.999189298743413
+      },
+      "RNA": {
+        "counts": {
+          "C": 370
+        },
+        "assessable_names": 370,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 132643245,
+      "public_id": "rs5744944",
+      "ref": "T",
+      "alt": "C",
+      "gene": "POLE",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 2983,
+          "T": 2
+        },
+        "assessable_names": 2985,
+        "specified_alt_fraction": 0.9993299832495812
+      },
+      "RNA": {
+        "counts": {
+          "C": 867
+        },
+        "assessable_names": 867,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 132643940,
+      "public_id": "rs5744934",
+      "ref": "T",
+      "alt": "C",
+      "gene": "POLE",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 2594
+        },
+        "assessable_names": 2594,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 1090
+        },
+        "assessable_names": 1090,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 132659414,
+      "public_id": "rs5744857",
+      "ref": "C",
+      "alt": "T",
+      "gene": "POLE",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 3145,
+          "C": 3
+        },
+        "assessable_names": 3148,
+        "specified_alt_fraction": 0.9990470139771284
+      },
+      "RNA": {
+        "counts": {
+          "T": 390
+        },
+        "assessable_names": 390,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr12",
+      "pos1": 132676210,
+      "public_id": "rs4077170",
+      "ref": "C",
+      "alt": "G",
+      "gene": "POLE",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 1716,
+          "A": 1
+        },
+        "assessable_names": 1717,
+        "specified_alt_fraction": 0.9994175888177053
+      },
+      "RNA": {
+        "counts": {
+          "G": 86,
+          "C": 1
+        },
+        "assessable_names": 87,
+        "specified_alt_fraction": 0.9885057471264368
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 27963105,
+      "public_id": "rs1805108",
+      "ref": "A",
+      "alt": "C",
+      "gene": "CDX2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 292
+        },
+        "assessable_names": 292,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 2
+        },
+        "assessable_names": 2,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 27963180,
+      "public_id": "rs1805107",
+      "ref": "G",
+      "alt": "A",
+      "gene": "CDX2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 479
+        },
+        "assessable_names": 479,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 2
+        },
+        "assessable_names": 2,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 28061947,
+      "public_id": "rs7338903",
+      "ref": "G",
+      "alt": "A",
+      "gene": "FLT3",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 1533
+        },
+        "assessable_names": 1533,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 30
+        },
+        "assessable_names": 30,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 28308924,
+      "public_id": "rs7993418",
+      "ref": "G",
+      "alt": "A",
+      "gene": "FLT1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 673
+        },
+        "assessable_names": 673,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 127
+        },
+        "assessable_names": 127,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 32338918,
+      "public_id": "rs206075",
+      "ref": "A",
+      "alt": "G",
+      "gene": "BRCA2",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 777
+        },
+        "assessable_names": 777,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 98
+        },
+        "assessable_names": 98,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 32355250,
+      "public_id": "rs169547",
+      "ref": "T",
+      "alt": "C",
+      "gene": "BRCA2",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 877,
+          "T": 1
+        },
+        "assessable_names": 878,
+        "specified_alt_fraction": 0.9988610478359908
+      },
+      "RNA": {
+        "counts": {
+          "C": 77
+        },
+        "assessable_names": 77,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 72768901,
+      "public_id": "rs2196979",
+      "ref": "C",
+      "alt": "T",
+      "gene": "DIS3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.986",
+      "DNA": {
+        "counts": {
+          "T": 70,
+          "A": 1
+        },
+        "assessable_names": 71,
+        "specified_alt_fraction": 0.9859154929577465
+      },
+      "RNA": {
+        "counts": {
+          "T": 37
+        },
+        "assessable_names": 37,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 72775221,
+      "public_id": "rs7332388",
+      "ref": "G",
+      "alt": "C",
+      "gene": "DIS3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.993",
+      "DNA": {
+        "counts": {
+          "C": 150
+        },
+        "assessable_names": 150,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 87,
+          "T": 2
+        },
+        "assessable_names": 89,
+        "specified_alt_fraction": 0.9775280898876404
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 102852167,
+      "public_id": "rs1047768",
+      "ref": "T",
+      "alt": "C",
+      "gene": "ERCC5",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 171
+        },
+        "assessable_names": 171,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 114,
+          "T": 1
+        },
+        "assessable_names": 115,
+        "specified_alt_fraction": 0.991304347826087
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 102875499,
+      "public_id": "rs9514066",
+      "ref": "G",
+      "alt": "C",
+      "gene": "ERCC5",
+      "Caris_filter": "Benign;rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 259
+        },
+        "assessable_names": 259,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 115
+        },
+        "assessable_names": 115,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 113233887,
+      "public_id": "rs2146408",
+      "ref": "T",
+      "alt": "C",
+      "gene": "CUL4A",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 386
+        },
+        "assessable_names": 386,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 7
+        },
+        "assessable_names": 7,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 113243006,
+      "public_id": "rs3764124",
+      "ref": "C",
+      "alt": "T",
+      "gene": "CUL4A",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 310
+        },
+        "assessable_names": 310,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 217
+        },
+        "assessable_names": 217,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 113253077,
+      "public_id": "rs9549365",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CUL4A",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 177
+        },
+        "assessable_names": 177,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 13
+        },
+        "assessable_names": 13,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr13",
+      "pos1": 113255025,
+      "public_id": "rs2302757",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CUL4A",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.996",
+      "DNA": {
+        "counts": {
+          "G": 247,
+          "A": 1
+        },
+        "assessable_names": 248,
+        "specified_alt_fraction": 0.9959677419354839
+      },
+      "RNA": {
+        "counts": {
+          "G": 325
+        },
+        "assessable_names": 325,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr14",
+      "pos1": 20356022,
+      "public_id": "rs3093930",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PARP2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 361
+        },
+        "assessable_names": 361,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 360,
+          "T": 1
+        },
+        "assessable_names": 361,
+        "specified_alt_fraction": 0.997229916897507
+      }
+    },
+    {
+      "chrom": "chr14",
+      "pos1": 24414681,
+      "public_id": "rs8017377",
+      "ref": "G",
+      "alt": "A",
+      "gene": "NYNRIN",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 368
+        },
+        "assessable_names": 368,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 8
+        },
+        "assessable_names": 8,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr14",
+      "pos1": 50739303,
+      "public_id": "rs3015485",
+      "ref": "A",
+      "alt": "G",
+      "gene": "NIN",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.995",
+      "DNA": {
+        "counts": {
+          "G": 428,
+          "A": 1,
+          "C": 1
+        },
+        "assessable_names": 430,
+        "specified_alt_fraction": 0.9953488372093023
+      },
+      "RNA": {
+        "counts": {
+          "G": 8
+        },
+        "assessable_names": 8,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr14",
+      "pos1": 50770983,
+      "public_id": "rs17793018",
+      "ref": "A",
+      "alt": "G",
+      "gene": "NIN",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 708
+        },
+        "assessable_names": 708,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 195
+        },
+        "assessable_names": 195,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr14",
+      "pos1": 50772349,
+      "public_id": "rs8020503",
+      "ref": "C",
+      "alt": "G",
+      "gene": "NIN",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 535
+        },
+        "assessable_names": 535,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 276
+        },
+        "assessable_names": 276,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr14",
+      "pos1": 75047180,
+      "public_id": "rs175081",
+      "ref": "T",
+      "alt": "C",
+      "gene": "MLH3",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 1510,
+          "T": 1
+        },
+        "assessable_names": 1511,
+        "specified_alt_fraction": 0.99933818663137
+      },
+      "RNA": {
+        "counts": {
+          "C": 240
+        },
+        "assessable_names": 240,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr14",
+      "pos1": 81144239,
+      "public_id": "rs1991517",
+      "ref": "G",
+      "alt": "C",
+      "gene": "TSHR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 568
+        },
+        "assessable_names": 568,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 5
+        },
+        "assessable_names": 5,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr14",
+      "pos1": 102084466,
+      "public_id": "rs4947",
+      "ref": "G",
+      "alt": "A",
+      "gene": "HSP90AA1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.995",
+      "DNA": {
+        "counts": {
+          "A": 217
+        },
+        "assessable_names": 217,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 565
+        },
+        "assessable_names": 565,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr14",
+      "pos1": 102101959,
+      "public_id": "rs10873531",
+      "ref": "G",
+      "alt": "A",
+      "gene": "HSP90AA1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 686
+        },
+        "assessable_names": 686,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 11
+        },
+        "assessable_names": 11,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr14",
+      "pos1": 102102030,
+      "public_id": "rs8005905",
+      "ref": "T",
+      "alt": "A",
+      "gene": "HSP90AA1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 724
+        },
+        "assessable_names": 724,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 13
+        },
+        "assessable_names": 13,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 34348017,
+      "public_id": "rs374230",
+      "ref": "C",
+      "alt": "T",
+      "gene": "NUTM1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 619
+        },
+        "assessable_names": 619,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 6
+        },
+        "assessable_names": 6,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 34348177,
+      "public_id": "rs430083",
+      "ref": "T",
+      "alt": "C",
+      "gene": "NUTM1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 715
+        },
+        "assessable_names": 715,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 1
+        },
+        "assessable_names": 1,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 38322324,
+      "public_id": "rs7182445",
+      "ref": "G",
+      "alt": "A",
+      "gene": "SPRED1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 167
+        },
+        "assessable_names": 167,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 37
+        },
+        "assessable_names": 37,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 38339729,
+      "public_id": "rs7180446",
+      "ref": "C",
+      "alt": "A",
+      "gene": "SPRED1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 153
+        },
+        "assessable_names": 153,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 15
+        },
+        "assessable_names": 15,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 38351373,
+      "public_id": "rs3751526",
+      "ref": "T",
+      "alt": "C",
+      "gene": "SPRED1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "C": 360,
+          "T": 1
+        },
+        "assessable_names": 361,
+        "specified_alt_fraction": 0.997229916897507
+      },
+      "RNA": {
+        "counts": {
+          "C": 340,
+          "T": 1
+        },
+        "assessable_names": 341,
+        "specified_alt_fraction": 0.9970674486803519
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 41699117,
+      "public_id": "rs2178004",
+      "ref": "A",
+      "alt": "T",
+      "gene": "MGA",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 195
+        },
+        "assessable_names": 195,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 146
+        },
+        "assessable_names": 146,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 41734566,
+      "public_id": "rs1918314",
+      "ref": "C",
+      "alt": "T",
+      "gene": "MGA",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 306
+        },
+        "assessable_names": 306,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 39
+        },
+        "assessable_names": 39,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 41749514,
+      "public_id": "rs2695163",
+      "ref": "G",
+      "alt": "A",
+      "gene": "MGA",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "A": 277
+        },
+        "assessable_names": 277,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 58
+        },
+        "assessable_names": 58,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 67164997,
+      "public_id": "rs1065080",
+      "ref": "A",
+      "alt": "G",
+      "gene": "SMAD3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 1095,
+          "A": 1
+        },
+        "assessable_names": 1096,
+        "specified_alt_fraction": 0.9990875912408759
+      },
+      "RNA": {
+        "counts": {
+          "G": 598
+        },
+        "assessable_names": 598,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 88136554,
+      "public_id": "rs1863480",
+      "ref": "G",
+      "alt": "A",
+      "gene": "NTRK3",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 1985
+        },
+        "assessable_names": 1985,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 95
+        },
+        "assessable_names": 95,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 90540121,
+      "public_id": "rs8033595",
+      "ref": "G",
+      "alt": "A",
+      "gene": "CRTC3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 287
+        },
+        "assessable_names": 287,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 232
+        },
+        "assessable_names": 232,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 92967373,
+      "public_id": "rs4777755",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CHD2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "G": 316
+        },
+        "assessable_names": 316,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 77
+        },
+        "assessable_names": 77,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr15",
+      "pos1": 92978374,
+      "public_id": "rs11074121",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CHD2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 316
+        },
+        "assessable_names": 316,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 463
+        },
+        "assessable_names": 463,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 346264,
+      "public_id": "rs1805105",
+      "ref": "A",
+      "alt": "G",
+      "gene": "AXIN1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 749
+        },
+        "assessable_names": 749,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 205,
+          "A": 5
+        },
+        "assessable_names": 210,
+        "specified_alt_fraction": 0.9761904761904762
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 3589138,
+      "public_id": "rs3810812",
+      "ref": "A",
+      "alt": "G",
+      "gene": "SLX4",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 839
+        },
+        "assessable_names": 839,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 18
+        },
+        "assessable_names": 18,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 10909047,
+      "public_id": "rs2228238",
+      "ref": "G",
+      "alt": "A",
+      "gene": "CIITA",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 713
+        },
+        "assessable_names": 713,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 25
+        },
+        "assessable_names": 25,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 10909070,
+      "public_id": "rs7197779",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CIITA",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 772
+        },
+        "assessable_names": 772,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 27
+        },
+        "assessable_names": 27,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 12069112,
+      "public_id": "rs1641843",
+      "ref": "A",
+      "alt": "G",
+      "gene": "SNX29",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 267
+        },
+        "assessable_names": 267,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 13
+        },
+        "assessable_names": 13,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 12568563,
+      "public_id": "rs2288423",
+      "ref": "C",
+      "alt": "T",
+      "gene": "SNX29",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 717
+        },
+        "assessable_names": 717,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 65
+        },
+        "assessable_names": 65,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 13932150,
+      "public_id": "rs254942",
+      "ref": "G",
+      "alt": "A",
+      "gene": "ERCC4",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 154
+        },
+        "assessable_names": 154,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 4
+        },
+        "assessable_names": 4,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 31182621,
+      "public_id": "rs741810",
+      "ref": "C",
+      "alt": "A",
+      "gene": "FUS",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 371
+        },
+        "assessable_names": 371,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 547
+        },
+        "assessable_names": 547,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 56821584,
+      "public_id": "rs2118017",
+      "ref": "C",
+      "alt": "G",
+      "gene": "NUP93",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 209
+        },
+        "assessable_names": 209,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 103
+        },
+        "assessable_names": 103,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 56834788,
+      "public_id": "rs1347591",
+      "ref": "A",
+      "alt": "G",
+      "gene": "NUP93",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 151
+        },
+        "assessable_names": 151,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 5
+        },
+        "assessable_names": 5,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 67657765,
+      "public_id": "rs6979",
+      "ref": "A",
+      "alt": "G",
+      "gene": "ACD",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 505
+        },
+        "assessable_names": 505,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 27
+        },
+        "assessable_names": 27,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 68737469,
+      "public_id": "rs3743674",
+      "ref": "C",
+      "alt": "T",
+      "gene": "CDH1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 2109,
+          "C": 1
+        },
+        "assessable_names": 2110,
+        "specified_alt_fraction": 0.999526066350711
+      },
+      "RNA": {
+        "counts": {
+          "T": 12
+        },
+        "assessable_names": 12,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 68823538,
+      "public_id": "rs1801552",
+      "ref": "T",
+      "alt": "C",
+      "gene": "CDH1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 1597
+        },
+        "assessable_names": 1597,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 105
+        },
+        "assessable_names": 105,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 81786163,
+      "public_id": "rs1143685",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PLCG2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 771
+        },
+        "assessable_names": 771,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 47
+        },
+        "assessable_names": 47,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 81907714,
+      "public_id": "rs1143689",
+      "ref": "C",
+      "alt": "T",
+      "gene": "PLCG2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 394
+        },
+        "assessable_names": 394,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 63
+        },
+        "assessable_names": 63,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 81919476,
+      "public_id": "rs12448130",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PLCG2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 706
+        },
+        "assessable_names": 706,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 2
+        },
+        "assessable_names": 2,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr16",
+      "pos1": 81937798,
+      "public_id": "rs1071644",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PLCG2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 570
+        },
+        "assessable_names": 570,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 84
+        },
+        "assessable_names": 84,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 1830105,
+      "public_id": "rs5030749",
+      "ref": "A",
+      "alt": "G",
+      "gene": "RPA1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 279
+        },
+        "assessable_names": 279,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 119
+        },
+        "assessable_names": 119,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 5139599,
+      "public_id": "rs8073787",
+      "ref": "T",
+      "alt": "C",
+      "gene": "USP6",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 1042
+        },
+        "assessable_names": 1042,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 7
+        },
+        "assessable_names": 7,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 7314144,
+      "public_id": "rs2292064",
+      "ref": "T",
+      "alt": "C",
+      "gene": "GPS2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 374
+        },
+        "assessable_names": 374,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 76
+        },
+        "assessable_names": 76,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 8143454,
+      "public_id": "rs2585405",
+      "ref": "C",
+      "alt": "G",
+      "gene": "PER1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.995",
+      "DNA": {
+        "counts": {
+          "G": 447
+        },
+        "assessable_names": 447,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 32
+        },
+        "assessable_names": 32,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 8144851,
+      "public_id": "rs2253820",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PER1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 432
+        },
+        "assessable_names": 432,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 74
+        },
+        "assessable_names": 74,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 8144965,
+      "public_id": "rs2735611",
+      "ref": "G",
+      "alt": "A",
+      "gene": "PER1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 424
+        },
+        "assessable_names": 424,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 64
+        },
+        "assessable_names": 64,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 20204460,
+      "public_id": "rs2703805",
+      "ref": "T",
+      "alt": "C",
+      "gene": "SPECC1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 379
+        },
+        "assessable_names": 379,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 197
+        },
+        "assessable_names": 197,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 20204926,
+      "public_id": "rs2703806",
+      "ref": "A",
+      "alt": "T",
+      "gene": "SPECC1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 146
+        },
+        "assessable_names": 146,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 32
+        },
+        "assessable_names": 32,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 20205876,
+      "public_id": "rs2703807",
+      "ref": "C",
+      "alt": "T",
+      "gene": "SPECC1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.994",
+      "DNA": {
+        "counts": {
+          "T": 181,
+          "C": 1
+        },
+        "assessable_names": 182,
+        "specified_alt_fraction": 0.9945054945054945
+      },
+      "RNA": {
+        "counts": {
+          "T": 26
+        },
+        "assessable_names": 26,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 20260216,
+      "public_id": "rs2703791",
+      "ref": "A",
+      "alt": "G",
+      "gene": "SPECC1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 211
+        },
+        "assessable_names": 211,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 46
+        },
+        "assessable_names": 46,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 39727784,
+      "public_id": "rs1058808",
+      "ref": "C",
+      "alt": "G",
+      "gene": "ERBB2",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 3069,
+          "A": 1
+        },
+        "assessable_names": 3070,
+        "specified_alt_fraction": 0.9996742671009772
+      },
+      "RNA": {
+        "counts": {
+          "G": 425,
+          "A": 1
+        },
+        "assessable_names": 426,
+        "specified_alt_fraction": 0.9976525821596244
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 43071077,
+      "public_id": "rs1799966",
+      "ref": "T",
+      "alt": "C",
+      "gene": "BRCA1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 1733,
+          "A": 1
+        },
+        "assessable_names": 1734,
+        "specified_alt_fraction": 0.9994232987312572
+      },
+      "RNA": {
+        "counts": {
+          "C": 111
+        },
+        "assessable_names": 111,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 43082453,
+      "public_id": "rs1060915",
+      "ref": "A",
+      "alt": "G",
+      "gene": "BRCA1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 1723,
+          "C": 1
+        },
+        "assessable_names": 1724,
+        "specified_alt_fraction": 0.9994199535962877
+      },
+      "RNA": {
+        "counts": {
+          "G": 368
+        },
+        "assessable_names": 368,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 43091983,
+      "public_id": "rs16942",
+      "ref": "T",
+      "alt": "C",
+      "gene": "BRCA1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 1260
+        },
+        "assessable_names": 1260,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 43
+        },
+        "assessable_names": 43,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 43092418,
+      "public_id": "rs16941",
+      "ref": "T",
+      "alt": "C",
+      "gene": "BRCA1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 996,
+          "T": 1
+        },
+        "assessable_names": 997,
+        "specified_alt_fraction": 0.9989969909729187
+      },
+      "RNA": {
+        "counts": {
+          "C": 167
+        },
+        "assessable_names": 167,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 43092919,
+      "public_id": "rs799917",
+      "ref": "G",
+      "alt": "A",
+      "gene": "BRCA1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 1175,
+          "T": 1
+        },
+        "assessable_names": 1176,
+        "specified_alt_fraction": 0.9991496598639455
+      },
+      "RNA": {
+        "counts": {
+          "A": 64
+        },
+        "assessable_names": 64,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 43093220,
+      "public_id": "rs16940",
+      "ref": "A",
+      "alt": "G",
+      "gene": "BRCA1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 1127
+        },
+        "assessable_names": 1127,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 230
+        },
+        "assessable_names": 230,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 43093449,
+      "public_id": "rs1799949",
+      "ref": "G",
+      "alt": "A",
+      "gene": "BRCA1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 1091
+        },
+        "assessable_names": 1091,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 85
+        },
+        "assessable_names": 85,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 50375415,
+      "public_id": "rs3760413",
+      "ref": "A",
+      "alt": "C",
+      "gene": "EME1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 436
+        },
+        "assessable_names": 436,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 6
+        },
+        "assessable_names": 6,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 61683635,
+      "public_id": "rs4986763",
+      "ref": "A",
+      "alt": "G",
+      "gene": "BRIP1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 825,
+          "A": 1
+        },
+        "assessable_names": 826,
+        "specified_alt_fraction": 0.9987893462469734
+      },
+      "RNA": {
+        "counts": {
+          "G": 11
+        },
+        "assessable_names": 11,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 61685986,
+      "public_id": "rs4986764",
+      "ref": "A",
+      "alt": "G",
+      "gene": "BRIP1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "G": 1035,
+          "A": 1,
+          "T": 1
+        },
+        "assessable_names": 1037,
+        "specified_alt_fraction": 0.9980713596914176
+      },
+      "RNA": {
+        "counts": {
+          "G": 81,
+          "A": 1
+        },
+        "assessable_names": 82,
+        "specified_alt_fraction": 0.9878048780487805
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 61686104,
+      "public_id": "rs4986765",
+      "ref": "T",
+      "alt": "C",
+      "gene": "BRIP1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 972
+        },
+        "assessable_names": 972,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 170
+        },
+        "assessable_names": 170,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 63930138,
+      "public_id": "rs2070776",
+      "ref": "A",
+      "alt": "G",
+      "gene": "CD79B",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 2748,
+          "T": 1,
+          "A": 3
+        },
+        "assessable_names": 2752,
+        "specified_alt_fraction": 0.998546511627907
+      },
+      "RNA": {
+        "counts": {
+          "G": 67
+        },
+        "assessable_names": 67,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 65537650,
+      "public_id": "rs1133683",
+      "ref": "G",
+      "alt": "A",
+      "gene": "AXIN2",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 3563,
+          "G": 2,
+          "T": 1
+        },
+        "assessable_names": 3566,
+        "specified_alt_fraction": 0.9991587212563096
+      },
+      "RNA": {
+        "counts": {
+          "A": 820,
+          "G": 1
+        },
+        "assessable_names": 821,
+        "specified_alt_fraction": 0.9987819732034104
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 65537671,
+      "public_id": "rs9915936",
+      "ref": "T",
+      "alt": "C",
+      "gene": "AXIN2",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 3373,
+          "A": 1
+        },
+        "assessable_names": 3374,
+        "specified_alt_fraction": 0.9997036158861885
+      },
+      "RNA": {
+        "counts": {
+          "C": 721
+        },
+        "assessable_names": 721,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 76736425,
+      "public_id": "rs237058",
+      "ref": "A",
+      "alt": "G",
+      "gene": "SRSF2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 742,
+          "A": 1
+        },
+        "assessable_names": 743,
+        "specified_alt_fraction": 0.9986541049798116
+      },
+      "RNA": {
+        "counts": {
+          "G": 259
+        },
+        "assessable_names": 259,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 76737017,
+      "public_id": "rs237057",
+      "ref": "G",
+      "alt": "A",
+      "gene": "SRSF2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.995",
+      "DNA": {
+        "counts": {
+          "A": 366
+        },
+        "assessable_names": 366,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 191
+        },
+        "assessable_names": 191,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 80846529,
+      "public_id": "rs3751945",
+      "ref": "C",
+      "alt": "T",
+      "gene": "RPTOR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 684
+        },
+        "assessable_names": 684,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 56
+        },
+        "assessable_names": 56,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 80945758,
+      "public_id": "rs1567962",
+      "ref": "C",
+      "alt": "T",
+      "gene": "RPTOR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.997",
+      "DNA": {
+        "counts": {
+          "T": 614,
+          "C": 1,
+          "G": 1
+        },
+        "assessable_names": 616,
+        "specified_alt_fraction": 0.9967532467532467
+      },
+      "RNA": {
+        "counts": {
+          "T": 114
+        },
+        "assessable_names": 114,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 81996668,
+      "public_id": "rs8074498",
+      "ref": "T",
+      "alt": "A",
+      "gene": "ASPSCR1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 537,
+          "C": 1
+        },
+        "assessable_names": 538,
+        "specified_alt_fraction": 0.9981412639405205
+      },
+      "RNA": {
+        "counts": {
+          "A": 30
+        },
+        "assessable_names": 30,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr18",
+      "pos1": 724612,
+      "public_id": "rs537141",
+      "ref": "A",
+      "alt": "G",
+      "gene": "YES1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 246
+        },
+        "assessable_names": 246,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 123
+        },
+        "assessable_names": 123,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr18",
+      "pos1": 44953165,
+      "public_id": "rs8096662",
+      "ref": "A",
+      "alt": "G",
+      "gene": "SETBP1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.996",
+      "DNA": {
+        "counts": {
+          "G": 528,
+          "A": 2
+        },
+        "assessable_names": 530,
+        "specified_alt_fraction": 0.9962264150943396
+      },
+      "RNA": {
+        "counts": {
+          "G": 116,
+          "T": 4
+        },
+        "assessable_names": 120,
+        "specified_alt_fraction": 0.9666666666666667
+      }
+    },
+    {
+      "chrom": "chr18",
+      "pos1": 63355558,
+      "public_id": "rs2003149",
+      "ref": "C",
+      "alt": "T",
+      "gene": "KDSR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 186
+        },
+        "assessable_names": 186,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 192
+        },
+        "assessable_names": 192,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 6586257,
+      "public_id": "rs1862511",
+      "ref": "G",
+      "alt": "A",
+      "gene": "CD70",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 673
+        },
+        "assessable_names": 673,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 17
+        },
+        "assessable_names": 17,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 11110781,
+      "public_id": "rs12710260",
+      "ref": "G",
+      "alt": "C",
+      "gene": "LDLR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 393
+        },
+        "assessable_names": 393,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 6
+        },
+        "assessable_names": 6,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 11113589,
+      "public_id": "rs5930",
+      "ref": "A",
+      "alt": "G",
+      "gene": "LDLR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "G": 603,
+          "A": 1
+        },
+        "assessable_names": 604,
+        "specified_alt_fraction": 0.9983443708609272
+      },
+      "RNA": {
+        "counts": {
+          "G": 254
+        },
+        "assessable_names": 254,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 11116926,
+      "public_id": "rs688",
+      "ref": "C",
+      "alt": "T",
+      "gene": "LDLR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 510
+        },
+        "assessable_names": 510,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 310
+        },
+        "assessable_names": 310,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 11120205,
+      "public_id": "rs5925",
+      "ref": "T",
+      "alt": "C",
+      "gene": "LDLR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 522
+        },
+        "assessable_names": 522,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 639,
+          "T": 3
+        },
+        "assessable_names": 642,
+        "specified_alt_fraction": 0.9953271028037384
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 11123265,
+      "public_id": "rs5927",
+      "ref": "A",
+      "alt": "G",
+      "gene": "LDLR",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.993",
+      "DNA": {
+        "counts": {
+          "G": 613,
+          "A": 1
+        },
+        "assessable_names": 614,
+        "specified_alt_fraction": 0.998371335504886
+      },
+      "RNA": {
+        "counts": {
+          "G": 370
+        },
+        "assessable_names": 370,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 18161380,
+      "public_id": "rs2241088",
+      "ref": "A",
+      "alt": "C",
+      "gene": "PIK3R2",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "C": 1745,
+          "T": 2
+        },
+        "assessable_names": 1747,
+        "specified_alt_fraction": 0.9988551803091014
+      },
+      "RNA": {
+        "counts": {
+          "C": 53
+        },
+        "assessable_names": 53,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 18162237,
+      "public_id": "rs1011320",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PIK3R2",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 4003,
+          "T": 2
+        },
+        "assessable_names": 4005,
+        "specified_alt_fraction": 0.9995006242197253
+      },
+      "RNA": {
+        "counts": {
+          "C": 1069,
+          "T": 1
+        },
+        "assessable_names": 1070,
+        "specified_alt_fraction": 0.9990654205607477
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 18168828,
+      "public_id": "rs273269",
+      "ref": "T",
+      "alt": "C",
+      "gene": "PIK3R2",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "C": 5013,
+          "T": 1
+        },
+        "assessable_names": 5014,
+        "specified_alt_fraction": 0.9998005584363782
+      },
+      "RNA": {
+        "counts": {
+          "C": 3432,
+          "T": 5
+        },
+        "assessable_names": 3437,
+        "specified_alt_fraction": 0.9985452429444283
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 43546043,
+      "public_id": "rs25479",
+      "ref": "C",
+      "alt": "T",
+      "gene": "XRCC1",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 2448
+        },
+        "assessable_names": 2448,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 18
+        },
+        "assessable_names": 18,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 43551574,
+      "public_id": "rs25487",
+      "ref": "T",
+      "alt": "C",
+      "gene": "XRCC1",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "C": 3016,
+          "G": 3,
+          "T": 1
+        },
+        "assessable_names": 3020,
+        "specified_alt_fraction": 0.9986754966887417
+      },
+      "RNA": {
+        "counts": {
+          "C": 215,
+          "T": 3
+        },
+        "assessable_names": 218,
+        "specified_alt_fraction": 0.9862385321100917
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 43553075,
+      "public_id": "rs915927",
+      "ref": "T",
+      "alt": "C",
+      "gene": "XRCC1",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 2547,
+          "T": 2
+        },
+        "assessable_names": 2549,
+        "specified_alt_fraction": 0.9992153785798352
+      },
+      "RNA": {
+        "counts": {
+          "C": 581
+        },
+        "assessable_names": 581,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 45365051,
+      "public_id": "rs238406",
+      "ref": "T",
+      "alt": "G",
+      "gene": "ERCC2",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 3016
+        },
+        "assessable_names": 3016,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 374
+        },
+        "assessable_names": 374,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr19",
+      "pos1": 53576890,
+      "public_id": "rs8109631",
+      "ref": "A",
+      "alt": "G",
+      "gene": "ZNF331",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 250
+        },
+        "assessable_names": 250,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 3
+        },
+        "assessable_names": 3,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr20",
+      "pos1": 9307875,
+      "public_id": "rs6077510",
+      "ref": "G",
+      "alt": "A",
+      "gene": "PLCB4",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 60
+        },
+        "assessable_names": 60,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 105
+        },
+        "assessable_names": 105,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr20",
+      "pos1": 43189649,
+      "public_id": "rs2867655",
+      "ref": "C",
+      "alt": "G",
+      "gene": "PTPRT",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 388
+        },
+        "assessable_names": 388,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 14
+        },
+        "assessable_names": 14,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr20",
+      "pos1": 47639206,
+      "public_id": "rs4810648",
+      "ref": "C",
+      "alt": "T",
+      "gene": "NCOA3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 178
+        },
+        "assessable_names": 178,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 8
+        },
+        "assessable_names": 8,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr22",
+      "pos1": 19196584,
+      "public_id": "rs1061325",
+      "ref": "T",
+      "alt": "C",
+      "gene": "CLTCL1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "C": 479
+        },
+        "assessable_names": 479,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "C": 42
+        },
+        "assessable_names": 42,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr22",
+      "pos1": 19210386,
+      "public_id": "rs698423",
+      "ref": "T",
+      "alt": "C",
+      "gene": "CLTCL1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.996",
+      "DNA": {
+        "counts": {
+          "C": 843,
+          "A": 1,
+          "T": 2
+        },
+        "assessable_names": 846,
+        "specified_alt_fraction": 0.9964539007092199
+      },
+      "RNA": {
+        "counts": {
+          "C": 90
+        },
+        "assessable_names": 90,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr22",
+      "pos1": 28884003,
+      "public_id": "rs1065497",
+      "ref": "C",
+      "alt": "T",
+      "gene": "ZNRF3",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "T": 676
+        },
+        "assessable_names": 676,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 179
+        },
+        "assessable_names": 179,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr22",
+      "pos1": 36295561,
+      "public_id": "rs710181",
+      "ref": "A",
+      "alt": "C",
+      "gene": "MYH9",
+      "Caris_filter": "rs",
+      "Caris_VAF": "0.996",
+      "DNA": {
+        "counts": {
+          "C": 560,
+          "T": 1,
+          "A": 1
+        },
+        "assessable_names": 562,
+        "specified_alt_fraction": 0.99644128113879
+      },
+      "RNA": {
+        "counts": {
+          "C": 2149,
+          "A": 2,
+          "T": 2
+        },
+        "assessable_names": 2153,
+        "specified_alt_fraction": 0.9981421272642824
+      }
+    },
+    {
+      "chrom": "chr22",
+      "pos1": 36312039,
+      "public_id": "rs2413396",
+      "ref": "C",
+      "alt": "T",
+      "gene": "MYH9",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 710
+        },
+        "assessable_names": 710,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 20
+        },
+        "assessable_names": 20,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr22",
+      "pos1": 37973969,
+      "public_id": "rs139884",
+      "ref": "A",
+      "alt": "G",
+      "gene": "SOX10",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 547
+        },
+        "assessable_names": 547,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 2
+        },
+        "assessable_names": 2,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr22",
+      "pos1": 41141230,
+      "public_id": "rs6002267",
+      "ref": "G",
+      "alt": "T",
+      "gene": "EP300",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 742
+        },
+        "assessable_names": 742,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 10
+        },
+        "assessable_names": 10,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chr22",
+      "pos1": 41152004,
+      "public_id": "rs20551",
+      "ref": "A",
+      "alt": "G",
+      "gene": "EP300",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 1130
+        },
+        "assessable_names": 1130,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 2501,
+          "T": 1,
+          "C": 1
+        },
+        "assessable_names": 2503,
+        "specified_alt_fraction": 0.9992009588493808
+      }
+    },
+    {
+      "chrom": "chr22",
+      "pos1": 41155035,
+      "public_id": "rs20552",
+      "ref": "T",
+      "alt": "A",
+      "gene": "EP300",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 1051
+        },
+        "assessable_names": 1051,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 2848
+        },
+        "assessable_names": 2848,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chrX",
+      "pos1": 14850684,
+      "public_id": "rs2905223",
+      "ref": "A",
+      "alt": "G",
+      "gene": "FANCB",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "G": 170
+        },
+        "assessable_names": 170,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "G": 6
+        },
+        "assessable_names": 6,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chrX",
+      "pos1": 15820243,
+      "public_id": "rs2301724",
+      "ref": "C",
+      "alt": "T",
+      "gene": "ZRSR2",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 268
+        },
+        "assessable_names": 268,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 170,
+          "C": 142
+        },
+        "assessable_names": 312,
+        "specified_alt_fraction": 0.5448717948717948
+      }
+    },
+    {
+      "chrom": "chrX",
+      "pos1": 40073555,
+      "public_id": "rs144606152",
+      "ref": "G",
+      "alt": "A",
+      "gene": "BCOR",
+      "Caris_filter": ".",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 2375
+        },
+        "assessable_names": 2375,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 1351
+        },
+        "assessable_names": 1351,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chrX",
+      "pos1": 40074086,
+      "public_id": "rs5917933",
+      "ref": "A",
+      "alt": "G",
+      "gene": "BCOR",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "G": 2295,
+          "A": 1
+        },
+        "assessable_names": 2296,
+        "specified_alt_fraction": 0.9995644599303136
+      },
+      "RNA": {
+        "counts": {
+          "G": 207
+        },
+        "assessable_names": 207,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chrX",
+      "pos1": 96884407,
+      "public_id": "rs2642219",
+      "ref": "G",
+      "alt": "A",
+      "gene": "RPA4",
+      "Caris_filter": "Benign",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 372
+        },
+        "assessable_names": 372,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {},
+        "assessable_names": 0,
+        "specified_alt_fraction": null
+      }
+    },
+    {
+      "chrom": "chrX",
+      "pos1": 96884460,
+      "public_id": "rs2642218",
+      "ref": "T",
+      "alt": "C",
+      "gene": "RPA4",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.998",
+      "DNA": {
+        "counts": {
+          "C": 335
+        },
+        "assessable_names": 335,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {},
+        "assessable_names": 0,
+        "specified_alt_fraction": null
+      }
+    },
+    {
+      "chrom": "chrX",
+      "pos1": 101353203,
+      "public_id": "rs1135363",
+      "ref": "G",
+      "alt": "A",
+      "gene": "BTK",
+      "Caris_filter": ".",
+      "Caris_VAF": "0.999",
+      "DNA": {
+        "counts": {
+          "A": 435
+        },
+        "assessable_names": 435,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 61
+        },
+        "assessable_names": 61,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chrX",
+      "pos1": 154766321,
+      "public_id": "rs2728532",
+      "ref": "G",
+      "alt": "T",
+      "gene": "DKC1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "T": 336
+        },
+        "assessable_names": 336,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "T": 319
+        },
+        "assessable_names": 319,
+        "specified_alt_fraction": 1.0
+      }
+    },
+    {
+      "chrom": "chrX",
+      "pos1": 154776873,
+      "public_id": "rs1800533",
+      "ref": "G",
+      "alt": "A",
+      "gene": "DKC1",
+      "Caris_filter": "rs",
+      "Caris_VAF": "1.000",
+      "DNA": {
+        "counts": {
+          "A": 329
+        },
+        "assessable_names": 329,
+        "specified_alt_fraction": 1.0
+      },
+      "RNA": {
+        "counts": {
+          "A": 168
+        },
+        "assessable_names": 168,
+        "specified_alt_fraction": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-05T06:08:16.325053+00:00",
+  "manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "script_sha256": "801be0c830f6dc77a8165b0d97d69ce8b0189ddabf49d0c861e71f268efefb83",
+  "retained_geometry": [
+    {
+      "dataset": "strong_original",
+      "source_name": "BCR-ABL1-12",
+      "nominal_raw_crossing_mate_minor_anchor_cap": null,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3138,
+          "retained_end_on_construct0": 3288,
+          "crosses": true,
+          "left_of_junction": 96,
+          "right_of_junction": 54
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3083,
+          "retained_end_on_construct0": 3233,
+          "crosses": false,
+          "left_of_junction": null,
+          "right_of_junction": null
+        }
+      ],
+      "overlap_nt": 95,
+      "gap_nt": 0,
+      "joint_construct_span": 205,
+      "joint_reference_left_available_nt": 151,
+      "joint_reference_right_available_nt": 54,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_original",
+      "source_name": "BCR-ABL1-66",
+      "nominal_raw_crossing_mate_minor_anchor_cap": null,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3176,
+          "retained_end_on_construct0": 3326,
+          "crosses": true,
+          "left_of_junction": 58,
+          "right_of_junction": 92
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3133,
+          "retained_end_on_construct0": 3283,
+          "crosses": true,
+          "left_of_junction": 101,
+          "right_of_junction": 49
+        }
+      ],
+      "overlap_nt": 107,
+      "gap_nt": 0,
+      "joint_construct_span": 193,
+      "joint_reference_left_available_nt": 101,
+      "joint_reference_right_available_nt": 92,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_original",
+      "source_name": "BCR-ABL1-24",
+      "nominal_raw_crossing_mate_minor_anchor_cap": null,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "retained_start_on_construct0": 3138,
+          "retained_end_on_construct0": 3288,
+          "crosses": true,
+          "left_of_junction": 96,
+          "right_of_junction": 54
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "retained_start_on_construct0": 3186,
+          "retained_end_on_construct0": 3336,
+          "crosses": true,
+          "left_of_junction": 48,
+          "right_of_junction": 102
+        }
+      ],
+      "overlap_nt": 102,
+      "gap_nt": 0,
+      "joint_construct_span": 198,
+      "joint_reference_left_available_nt": 96,
+      "joint_reference_right_available_nt": 102,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_original",
+      "source_name": "BCR-ABL1-74",
+      "nominal_raw_crossing_mate_minor_anchor_cap": null,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3190,
+          "retained_end_on_construct0": 3340,
+          "crosses": true,
+          "left_of_junction": 44,
+          "right_of_junction": 106
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3133,
+          "retained_end_on_construct0": 3283,
+          "crosses": true,
+          "left_of_junction": 101,
+          "right_of_junction": 49
+        }
+      ],
+      "overlap_nt": 93,
+      "gap_nt": 0,
+      "joint_construct_span": 207,
+      "joint_reference_left_available_nt": 101,
+      "joint_reference_right_available_nt": 106,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor12",
+      "source_name": "BCR-ABL1-12",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 12,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3138,
+          "retained_end_on_construct0": 3246,
+          "crosses": true,
+          "left_of_junction": 96,
+          "right_of_junction": 12
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3083,
+          "retained_end_on_construct0": 3233,
+          "crosses": false,
+          "left_of_junction": null,
+          "right_of_junction": null
+        }
+      ],
+      "overlap_nt": 95,
+      "gap_nt": 0,
+      "joint_construct_span": 163,
+      "joint_reference_left_available_nt": 151,
+      "joint_reference_right_available_nt": 12,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor12",
+      "source_name": "BCR-ABL1-66",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 12,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3222,
+          "retained_end_on_construct0": 3326,
+          "crosses": true,
+          "left_of_junction": 12,
+          "right_of_junction": 92
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3133,
+          "retained_end_on_construct0": 3246,
+          "crosses": true,
+          "left_of_junction": 101,
+          "right_of_junction": 12
+        }
+      ],
+      "overlap_nt": 24,
+      "gap_nt": 0,
+      "joint_construct_span": 193,
+      "joint_reference_left_available_nt": 101,
+      "joint_reference_right_available_nt": 92,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor12",
+      "source_name": "BCR-ABL1-24",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 12,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "retained_start_on_construct0": 3138,
+          "retained_end_on_construct0": 3246,
+          "crosses": true,
+          "left_of_junction": 96,
+          "right_of_junction": 12
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "retained_start_on_construct0": 3222,
+          "retained_end_on_construct0": 3336,
+          "crosses": true,
+          "left_of_junction": 12,
+          "right_of_junction": 102
+        }
+      ],
+      "overlap_nt": 24,
+      "gap_nt": 0,
+      "joint_construct_span": 198,
+      "joint_reference_left_available_nt": 96,
+      "joint_reference_right_available_nt": 102,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor12",
+      "source_name": "BCR-ABL1-74",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 12,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3222,
+          "retained_end_on_construct0": 3340,
+          "crosses": true,
+          "left_of_junction": 12,
+          "right_of_junction": 106
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3133,
+          "retained_end_on_construct0": 3246,
+          "crosses": true,
+          "left_of_junction": 101,
+          "right_of_junction": 12
+        }
+      ],
+      "overlap_nt": 24,
+      "gap_nt": 0,
+      "joint_construct_span": 207,
+      "joint_reference_left_available_nt": 101,
+      "joint_reference_right_available_nt": 106,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor20",
+      "source_name": "BCR-ABL1-12",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 20,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3138,
+          "retained_end_on_construct0": 3254,
+          "crosses": true,
+          "left_of_junction": 96,
+          "right_of_junction": 20
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3083,
+          "retained_end_on_construct0": 3233,
+          "crosses": false,
+          "left_of_junction": null,
+          "right_of_junction": null
+        }
+      ],
+      "overlap_nt": 95,
+      "gap_nt": 0,
+      "joint_construct_span": 171,
+      "joint_reference_left_available_nt": 151,
+      "joint_reference_right_available_nt": 20,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor20",
+      "source_name": "BCR-ABL1-66",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 20,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3214,
+          "retained_end_on_construct0": 3326,
+          "crosses": true,
+          "left_of_junction": 20,
+          "right_of_junction": 92
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3133,
+          "retained_end_on_construct0": 3254,
+          "crosses": true,
+          "left_of_junction": 101,
+          "right_of_junction": 20
+        }
+      ],
+      "overlap_nt": 40,
+      "gap_nt": 0,
+      "joint_construct_span": 193,
+      "joint_reference_left_available_nt": 101,
+      "joint_reference_right_available_nt": 92,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor20",
+      "source_name": "BCR-ABL1-24",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 20,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "retained_start_on_construct0": 3138,
+          "retained_end_on_construct0": 3254,
+          "crosses": true,
+          "left_of_junction": 96,
+          "right_of_junction": 20
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "retained_start_on_construct0": 3214,
+          "retained_end_on_construct0": 3336,
+          "crosses": true,
+          "left_of_junction": 20,
+          "right_of_junction": 102
+        }
+      ],
+      "overlap_nt": 40,
+      "gap_nt": 0,
+      "joint_construct_span": 198,
+      "joint_reference_left_available_nt": 96,
+      "joint_reference_right_available_nt": 102,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor20",
+      "source_name": "BCR-ABL1-74",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 20,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3214,
+          "retained_end_on_construct0": 3340,
+          "crosses": true,
+          "left_of_junction": 20,
+          "right_of_junction": 106
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3133,
+          "retained_end_on_construct0": 3254,
+          "crosses": true,
+          "left_of_junction": 101,
+          "right_of_junction": 20
+        }
+      ],
+      "overlap_nt": 40,
+      "gap_nt": 0,
+      "joint_construct_span": 207,
+      "joint_reference_left_available_nt": 101,
+      "joint_reference_right_available_nt": 106,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor30",
+      "source_name": "BCR-ABL1-12",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 30,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3138,
+          "retained_end_on_construct0": 3264,
+          "crosses": true,
+          "left_of_junction": 96,
+          "right_of_junction": 30
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3083,
+          "retained_end_on_construct0": 3233,
+          "crosses": false,
+          "left_of_junction": null,
+          "right_of_junction": null
+        }
+      ],
+      "overlap_nt": 95,
+      "gap_nt": 0,
+      "joint_construct_span": 181,
+      "joint_reference_left_available_nt": 151,
+      "joint_reference_right_available_nt": 30,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor30",
+      "source_name": "BCR-ABL1-66",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 30,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3204,
+          "retained_end_on_construct0": 3326,
+          "crosses": true,
+          "left_of_junction": 30,
+          "right_of_junction": 92
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3133,
+          "retained_end_on_construct0": 3264,
+          "crosses": true,
+          "left_of_junction": 101,
+          "right_of_junction": 30
+        }
+      ],
+      "overlap_nt": 60,
+      "gap_nt": 0,
+      "joint_construct_span": 193,
+      "joint_reference_left_available_nt": 101,
+      "joint_reference_right_available_nt": 92,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor30",
+      "source_name": "BCR-ABL1-24",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 30,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "retained_start_on_construct0": 3138,
+          "retained_end_on_construct0": 3264,
+          "crosses": true,
+          "left_of_junction": 96,
+          "right_of_junction": 30
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "retained_start_on_construct0": 3204,
+          "retained_end_on_construct0": 3336,
+          "crosses": true,
+          "left_of_junction": 30,
+          "right_of_junction": 102
+        }
+      ],
+      "overlap_nt": 60,
+      "gap_nt": 0,
+      "joint_construct_span": 198,
+      "joint_reference_left_available_nt": 96,
+      "joint_reference_right_available_nt": 102,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    },
+    {
+      "dataset": "strong_trim_anchor30",
+      "source_name": "BCR-ABL1-74",
+      "nominal_raw_crossing_mate_minor_anchor_cap": 30,
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "retained_start_on_construct0": 3204,
+          "retained_end_on_construct0": 3340,
+          "crosses": true,
+          "left_of_junction": 30,
+          "right_of_junction": 106
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "retained_start_on_construct0": 3133,
+          "retained_end_on_construct0": 3264,
+          "crosses": true,
+          "left_of_junction": 101,
+          "right_of_junction": 30
+        }
+      ],
+      "overlap_nt": 60,
+      "gap_nt": 0,
+      "joint_construct_span": 207,
+      "joint_reference_left_available_nt": 101,
+      "joint_reference_right_available_nt": 106,
+      "joint_geometry_is_not_actual_alignment": "Actual STAR evidence must be checked; this describes sequence availability if overlapping mates are combined."
+    }
+  ],
+  "observed_trim12_chimeric_rows": [
+    {
+      "run": "compactD1__strong_trim_anchor12",
+      "name": "BCR-ABL1-66",
+      "chromosomes": [
+        "chr9",
+        "chr22"
+      ],
+      "STAR_boundaries": [
+        130854063,
+        23290414
+      ],
+      "CIGARs": [
+        "101S92M",
+        "26M717N75M92S"
+      ],
+      "PEmerged_bool": 1
+    },
+    {
+      "run": "compactD1__strong_trim_anchor12",
+      "name": "BCR-ABL1-24",
+      "chromosomes": [
+        "chr22",
+        "chr9"
+      ],
+      "STAR_boundaries": [
+        23290414,
+        130854063
+      ],
+      "CIGARs": [
+        "19S77M102S",
+        "96S102M"
+      ],
+      "PEmerged_bool": 1
+    },
+    {
+      "run": "compactD8__strong_trim_anchor12",
+      "name": "BCR-ABL1-66",
+      "chromosomes": [
+        "chr9",
+        "chr22"
+      ],
+      "STAR_boundaries": [
+        130854063,
+        23290414
+      ],
+      "CIGARs": [
+        "101S92M",
+        "26M717N75M92S"
+      ],
+      "PEmerged_bool": 1
+    },
+    {
+      "run": "compactD8__strong_trim_anchor12",
+      "name": "BCR-ABL1-24",
+      "chromosomes": [
+        "chr22",
+        "chr9"
+      ],
+      "STAR_boundaries": [
+        23290414,
+        130854063
+      ],
+      "CIGARs": [
+        "19S77M102S",
+        "96S102M"
+      ],
+      "PEmerged_bool": 1
+    },
+    {
+      "run": "fullD8__strong_trim_anchor12",
+      "name": "BCR-ABL1-66",
+      "chromosomes": [
+        "chr9",
+        "chr22"
+      ],
+      "STAR_boundaries": [
+        130854063,
+        23290414
+      ],
+      "CIGARs": [
+        "101S92M",
+        "26M717N75M92S"
+      ],
+      "PEmerged_bool": 1
+    },
+    {
+      "run": "fullD8__strong_trim_anchor12",
+      "name": "BCR-ABL1-24",
+      "chromosomes": [
+        "chr22",
+        "chr9"
+      ],
+      "STAR_boundaries": [
+        23290414,
+        130854063
+      ],
+      "CIGARs": [
+        "19S77M102S",
+        "96S102M"
+      ],
+      "PEmerged_bool": 1
+    }
+  ],
+  "conclusion": "This is paired-end end-trimming stress, not an isolated effective-anchor-length experiment. Recovered trim12 pairs66 and24 have complementary long arms and are actually merged by STAR. Pair12 is the only selected pair with only one crossing mate; after trimming, its joint available right arm equals the cap. No claims about a12nt clinical detection threshold or general sensitivity are warranted.",
+  "specific_reference_geometry": {
+    "BCR-ABL1-66": "Joint construct arms101/92nt, even at cap12; actual STAR CIGARs align those arms with a normal intron in BCR.",
+    "BCR-ABL1-24": "Joint construct arms96/102nt at cap12; observed STAR retains77nt BCR alignment with19nt clipping and102nt ABL1.",
+    "BCR-ABL1-74": "Joint construct arms101/106nt at cap12; not accepted/mapped in these controls, so sequence availability is not assumed equivalent to caller evidence.",
+    "BCR-ABL1-12": "Joint construct arms151/cap nt; one mate does not cross the junction."
+  }
+}

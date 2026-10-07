@@ -1,0 +1,5809 @@
+{
+  "rows": [
+    {
+      "query_id": "chr2_189043211_RNA_A_1",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 14,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3398,
+        "end0": 3588,
+        "score": 300.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 149,
+          "classification": "same_genomic_position",
+          "target_window_position0": 169,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_A_2",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 9,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3443,
+        "end0": 3588,
+        "score": 210.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 104,
+          "classification": "same_genomic_position",
+          "target_window_position0": 124,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_A_3",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 7,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3435,
+        "end0": 3588,
+        "score": 226.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 112,
+          "classification": "same_genomic_position",
+          "target_window_position0": 132,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_A_4",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 7,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3396,
+        "end0": 3588,
+        "score": 304.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 151,
+          "classification": "same_genomic_position",
+          "target_window_position0": 171,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_A_5",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 5,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3425,
+        "end0": 3588,
+        "score": 246.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 122,
+          "classification": "same_genomic_position",
+          "target_window_position0": 142,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_A_6",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3443,
+        "end0": 3588,
+        "score": 204.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 104,
+          "classification": "same_genomic_position",
+          "target_window_position0": 124,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_A_7",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3460,
+        "end0": 3588,
+        "score": 176.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 87,
+          "classification": "same_genomic_position",
+          "target_window_position0": 107,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_A_8",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3453,
+        "end0": 3588,
+        "score": 190.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 94,
+          "classification": "same_genomic_position",
+          "target_window_position0": 114,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_G_1",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 11,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3460,
+        "end0": 3661,
+        "score": 316.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 73,
+          "oriented_query_position0": 87,
+          "classification": "same_genomic_position",
+          "target_window_position0": 107,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_G_2",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 10,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3390,
+        "end0": 3591,
+        "score": 316.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 3,
+          "oriented_query_position0": 157,
+          "classification": "same_genomic_position",
+          "target_window_position0": 177,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_G_3",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 9,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3473,
+        "end0": 3663,
+        "score": 294.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 75,
+          "oriented_query_position0": 74,
+          "classification": "same_genomic_position",
+          "target_window_position0": 94,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr2_189043211_RNA_G_4",
+      "site": {
+        "chrom": "chr2",
+        "pos1": 189043211,
+        "gene_symbols": "COL5A2",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CTCTGTGGCCCTTCTGACCTCTGTCACCTCGGTCTCCATGATCACCTTTGT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 8,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000374866.9",
+        "gene_id": "ENSG00000204262.14",
+        "gene_name": "COL5A2",
+        "transcript_name": "COL5A2-201",
+        "start0": 3389,
+        "end0": 3590,
+        "score": 316.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 2,
+          "oriented_query_position0": 158,
+          "classification": "same_genomic_position",
+          "target_window_position0": 178,
+          "genomic_mapping": [
+            "chr2",
+            189043210,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_DNA_T_1",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "DNA",
+      "role": "unexpected",
+      "base": "T",
+      "family_names": 5,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 11871365,
+        "end0": 11871566,
+        "score": 322.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 6,
+          "oriented_query_position0": 6,
+          "classification": "different_genomic_position",
+          "target_window_position0": 26,
+          "genomic_mapping": [
+            "chr3",
+            11871391,
+            "+"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_DNA_T_2",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "DNA",
+      "role": "unexpected",
+      "base": "T",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 11871359,
+        "end0": 11871560,
+        "score": 322.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 12,
+          "oriented_query_position0": 12,
+          "classification": "different_genomic_position",
+          "target_window_position0": 32,
+          "genomic_mapping": [
+            "chr3",
+            11871391,
+            "+"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_C_1",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 7,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 10049375,
+        "end0": 10049576,
+        "score": 316.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 73,
+          "oriented_query_position0": 73,
+          "classification": "same_genomic_position",
+          "target_window_position0": 93,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_C_2",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 7,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 10049389,
+        "end0": 10049579,
+        "score": 300.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 59,
+          "oriented_query_position0": 59,
+          "classification": "same_genomic_position",
+          "target_window_position0": 79,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_C_3",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 10049448,
+        "end0": 10049584,
+        "score": 192.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 0,
+          "classification": "same_genomic_position",
+          "target_window_position0": 20,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_C_4",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 10049411,
+        "end0": 10049584,
+        "score": 266.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 37,
+          "oriented_query_position0": 37,
+          "classification": "same_genomic_position",
+          "target_window_position0": 57,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_T_1",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "T",
+      "family_names": 18,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000287647.7",
+        "gene_id": "ENSG00000144554.12",
+        "gene_name": "FANCD2",
+        "transcript_name": "FANCD2-201",
+        "start0": 1581,
+        "end0": 1771,
+        "score": 294.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 0,
+          "classification": "same_genomic_position",
+          "target_window_position0": 20,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_T_2",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "T",
+      "family_names": 10,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000287647.7",
+        "gene_id": "ENSG00000144554.12",
+        "gene_name": "FANCD2",
+        "transcript_name": "FANCD2-201",
+        "start0": 1485,
+        "end0": 1686,
+        "score": 316.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 96,
+          "oriented_query_position0": 96,
+          "classification": "same_genomic_position",
+          "target_window_position0": 116,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_T_3",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "T",
+      "family_names": 8,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000287647.7",
+        "gene_id": "ENSG00000144554.12",
+        "gene_name": "FANCD2",
+        "transcript_name": "FANCD2-201",
+        "start0": 1530,
+        "end0": 1731,
+        "score": 316.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 51,
+          "oriented_query_position0": 51,
+          "classification": "same_genomic_position",
+          "target_window_position0": 71,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_T_4",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "T",
+      "family_names": 8,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000287647.7",
+        "gene_id": "ENSG00000144554.12",
+        "gene_name": "FANCD2",
+        "transcript_name": "FANCD2-201",
+        "start0": 1527,
+        "end0": 1728,
+        "score": 316.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 54,
+          "oriented_query_position0": 54,
+          "classification": "same_genomic_position",
+          "target_window_position0": 74,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_T_5",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "T",
+      "family_names": 7,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000287647.7",
+        "gene_id": "ENSG00000144554.12",
+        "gene_name": "FANCD2",
+        "transcript_name": "FANCD2-201",
+        "start0": 1501,
+        "end0": 1691,
+        "score": 294.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 80,
+          "oriented_query_position0": 80,
+          "classification": "same_genomic_position",
+          "target_window_position0": 100,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_T_6",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "T",
+      "family_names": 6,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000287647.7",
+        "gene_id": "ENSG00000144554.12",
+        "gene_name": "FANCD2",
+        "transcript_name": "FANCD2-201",
+        "start0": 1537,
+        "end0": 1727,
+        "score": 294.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 44,
+          "oriented_query_position0": 44,
+          "classification": "same_genomic_position",
+          "target_window_position0": 64,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_T_7",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "T",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000287647.7",
+        "gene_id": "ENSG00000144554.12",
+        "gene_name": "FANCD2",
+        "transcript_name": "FANCD2-201",
+        "start0": 1578,
+        "end0": 1771,
+        "score": 300.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 3,
+          "oriented_query_position0": 3,
+          "classification": "same_genomic_position",
+          "target_window_position0": 23,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_10049469_RNA_T_8",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 10049469,
+        "gene_symbols": "FANCD2",
+        "unexpected_base": "T",
+        "expected_base": "C",
+        "selection": "MAPQ60_only",
+        "reference_base": "C",
+        "genomic_context51": "TCCTTCTAGAGTTGGTAGTGTTAAACCCATCTGCTATGATGATGAATGCTG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "T",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000287647.7",
+        "gene_id": "ENSG00000144554.12",
+        "gene_name": "FANCD2",
+        "transcript_name": "FANCD2-201",
+        "start0": 1487,
+        "end0": 1688,
+        "score": 316.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 94,
+          "oriented_query_position0": 94,
+          "classification": "same_genomic_position",
+          "target_window_position0": 114,
+          "genomic_mapping": [
+            "chr3",
+            10049468,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_C_1",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 9,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568785,
+        "end0": 195568979,
+        "score": 278.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 24,
+          "oriented_query_position0": 24,
+          "classification": "query_insertion_or_terminal_gap",
+          "target_window_position0": null,
+          "genomic_mapping": null,
+          "target_base": null,
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_C_2",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568785,
+        "end0": 195568976,
+        "score": 274.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 24,
+          "oriented_query_position0": 24,
+          "classification": "query_insertion_or_terminal_gap",
+          "target_window_position0": null,
+          "genomic_mapping": null,
+          "target_base": null,
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_C_3",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568772,
+        "end0": 195568972,
+        "score": 290.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 37,
+          "oriented_query_position0": 37,
+          "classification": "query_insertion_or_terminal_gap",
+          "target_window_position0": null,
+          "genomic_mapping": null,
+          "target_base": null,
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_C_4",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568798,
+        "end0": 195568999,
+        "score": 203.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 11,
+          "oriented_query_position0": 11,
+          "classification": "query_insertion_or_terminal_gap",
+          "target_window_position0": null,
+          "genomic_mapping": null,
+          "target_base": null,
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_C_5",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568784,
+        "end0": 195568977,
+        "score": 278.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 25,
+          "oriented_query_position0": 25,
+          "classification": "query_insertion_or_terminal_gap",
+          "target_window_position0": null,
+          "genomic_mapping": null,
+          "target_base": null,
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_C_6",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568761,
+        "end0": 195568962,
+        "score": 241.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 48,
+          "oriented_query_position0": 48,
+          "classification": "query_insertion_or_terminal_gap",
+          "target_window_position0": null,
+          "genomic_mapping": null,
+          "target_base": null,
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_C_7",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568720,
+        "end0": 195568925,
+        "score": 177.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 89,
+          "oriented_query_position0": 89,
+          "classification": "query_insertion_or_terminal_gap",
+          "target_window_position0": null,
+          "genomic_mapping": null,
+          "target_base": null,
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_C_8",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568785,
+        "end0": 195568971,
+        "score": 246.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 24,
+          "oriented_query_position0": 24,
+          "classification": "different_genomic_position",
+          "target_window_position0": 45,
+          "genomic_mapping": [
+            "chr3",
+            195568830,
+            "+"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_G_1",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 6,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568811,
+        "end0": 195569001,
+        "score": 294.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 2,
+          "oriented_query_position0": 2,
+          "classification": "same_genomic_position",
+          "target_window_position0": 22,
+          "genomic_mapping": [
+            "chr3",
+            195568833,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_G_2",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568811,
+        "end0": 195569001,
+        "score": 288.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 2,
+          "oriented_query_position0": 2,
+          "classification": "same_genomic_position",
+          "target_window_position0": 22,
+          "genomic_mapping": [
+            "chr3",
+            195568833,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_G_3",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568785,
+        "end0": 195568975,
+        "score": 272.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 28,
+          "oriented_query_position0": 28,
+          "classification": "different_genomic_position",
+          "target_window_position0": 49,
+          "genomic_mapping": [
+            "chr3",
+            195568834,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195568834_RNA_G_4",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195568834,
+        "gene_symbols": "APOD",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "GTGGTTGATTGGTTTGTCTTTATGGGGGGGGGGTAGGGGAAAGCGAAGCAG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195568809,
+        "end0": 195568999,
+        "score": 286.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 4,
+          "oriented_query_position0": 4,
+          "classification": "different_genomic_position",
+          "target_window_position0": 25,
+          "genomic_mapping": [
+            "chr3",
+            195568834,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_DNA_G_1",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "DNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 12,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195677631,
+        "end0": 195677832,
+        "score": 304.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 126,
+          "oriented_query_position0": 126,
+          "classification": "same_genomic_position",
+          "target_window_position0": 146,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_DNA_G_2",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "DNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 10,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195677636,
+        "end0": 195677837,
+        "score": 310.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 121,
+          "oriented_query_position0": 121,
+          "classification": "same_genomic_position",
+          "target_window_position0": 141,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_A_1",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "A",
+      "family_names": 47,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000429897.5",
+        "gene_id": "ENSG00000242086.8",
+        "gene_name": "MUC20-OT1",
+        "transcript_name": "MUC20-OT1-207",
+        "start0": 1259,
+        "end0": 1446,
+        "score": 294.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 94,
+          "oriented_query_position0": 94,
+          "classification": "same_genomic_position",
+          "target_window_position0": 114,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_A_2",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "A",
+      "family_names": 26,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195677708,
+        "end0": 195677850,
+        "score": 204.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 49,
+          "oriented_query_position0": 49,
+          "classification": "same_genomic_position",
+          "target_window_position0": 69,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_A_3",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "A",
+      "family_names": 14,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000429897.5",
+        "gene_id": "ENSG00000242086.8",
+        "gene_name": "MUC20-OT1",
+        "transcript_name": "MUC20-OT1-207",
+        "start0": 1238,
+        "end0": 1439,
+        "score": 322.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 115,
+          "oriented_query_position0": 115,
+          "classification": "same_genomic_position",
+          "target_window_position0": 135,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_A_4",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "A",
+      "family_names": 13,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000429897.5",
+        "gene_id": "ENSG00000242086.8",
+        "gene_name": "MUC20-OT1",
+        "transcript_name": "MUC20-OT1-207",
+        "start0": 1350,
+        "end0": 1551,
+        "score": 322.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 3,
+          "oriented_query_position0": 3,
+          "classification": "same_genomic_position",
+          "target_window_position0": 23,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_G_1",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 8,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195677726,
+        "end0": 195677850,
+        "score": 162.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 31,
+          "oriented_query_position0": 31,
+          "classification": "same_genomic_position",
+          "target_window_position0": 51,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_G_2",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 5,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000429897.5",
+        "gene_id": "ENSG00000242086.8",
+        "gene_name": "MUC20-OT1",
+        "transcript_name": "MUC20-OT1-207",
+        "start0": 1282,
+        "end0": 1446,
+        "score": 230.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 71,
+          "oriented_query_position0": 71,
+          "classification": "same_genomic_position",
+          "target_window_position0": 91,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_G_3",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 5,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195677744,
+        "end0": 195677850,
+        "score": 126.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 13,
+          "oriented_query_position0": 13,
+          "classification": "same_genomic_position",
+          "target_window_position0": 33,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_G_4",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 5,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000429897.5",
+        "gene_id": "ENSG00000242086.8",
+        "gene_name": "MUC20-OT1",
+        "transcript_name": "MUC20-OT1-207",
+        "start0": 1343,
+        "end0": 1520,
+        "score": 268.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 10,
+          "oriented_query_position0": 10,
+          "classification": "same_genomic_position",
+          "target_window_position0": 30,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_G_5",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195677743,
+        "end0": 195677944,
+        "score": 310.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 14,
+          "oriented_query_position0": 14,
+          "classification": "same_genomic_position",
+          "target_window_position0": 34,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_G_6",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195677713,
+        "end0": 195677850,
+        "score": 182.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 44,
+          "oriented_query_position0": 44,
+          "classification": "same_genomic_position",
+          "target_window_position0": 64,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_G_7",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000429897.5",
+        "gene_id": "ENSG00000242086.8",
+        "gene_name": "MUC20-OT1",
+        "transcript_name": "MUC20-OT1-207",
+        "start0": 1348,
+        "end0": 1502,
+        "score": 216.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 5,
+          "oriented_query_position0": 5,
+          "classification": "same_genomic_position",
+          "target_window_position0": 25,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr3_195677778_RNA_G_8",
+      "site": {
+        "chrom": "chr3",
+        "pos1": 195677778,
+        "gene_symbols": "SDHAP2;MUC20-OT1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "MAPQ60_only",
+        "reference_base": "A",
+        "genomic_context51": "AATGCTGGGGAAGAATCTGTCACGAATCTTGACAAATTGAGATTTGCTGAT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr3",
+        "start0": 195677718,
+        "end0": 195677897,
+        "score": 266.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 39,
+          "oriented_query_position0": 39,
+          "classification": "same_genomic_position",
+          "target_window_position0": 59,
+          "genomic_mapping": [
+            "chr3",
+            195677777,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_A_1",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000510441.1",
+        "gene_id": "ENSG00000180104.16",
+        "gene_name": "EXOC3",
+        "transcript_name": "EXOC3-207",
+        "start0": 0,
+        "end0": 197,
+        "score": 292.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 68,
+          "oriented_query_position0": 68,
+          "classification": "different_genomic_position",
+          "target_window_position0": 105,
+          "genomic_mapping": [
+            "chr5",
+            443279,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_A_2",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000510441.1",
+        "gene_id": "ENSG00000180104.16",
+        "gene_name": "EXOC3",
+        "transcript_name": "EXOC3-207",
+        "start0": 13,
+        "end0": 193,
+        "score": 250.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 51,
+          "oriented_query_position0": 51,
+          "classification": "different_genomic_position",
+          "target_window_position0": 92,
+          "genomic_mapping": [
+            "chr5",
+            443279,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_A_3",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000510441.1",
+        "gene_id": "ENSG00000180104.16",
+        "gene_name": "EXOC3",
+        "transcript_name": "EXOC3-207",
+        "start0": 10,
+        "end0": 193,
+        "score": 256.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 54,
+          "oriented_query_position0": 54,
+          "classification": "different_genomic_position",
+          "target_window_position0": 95,
+          "genomic_mapping": [
+            "chr5",
+            443279,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_A_4",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000510441.1",
+        "gene_id": "ENSG00000180104.16",
+        "gene_name": "EXOC3",
+        "transcript_name": "EXOC3-207",
+        "start0": 10,
+        "end0": 193,
+        "score": 250.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 54,
+          "oriented_query_position0": 54,
+          "classification": "different_genomic_position",
+          "target_window_position0": 95,
+          "genomic_mapping": [
+            "chr5",
+            443279,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_A_5",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000510441.1",
+        "gene_id": "ENSG00000180104.16",
+        "gene_name": "EXOC3",
+        "transcript_name": "EXOC3-207",
+        "start0": 0,
+        "end0": 146,
+        "score": 192.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 69,
+          "oriented_query_position0": 69,
+          "classification": "different_genomic_position",
+          "target_window_position0": 105,
+          "genomic_mapping": [
+            "chr5",
+            443279,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_A_6",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000510441.1",
+        "gene_id": "ENSG00000180104.16",
+        "gene_name": "EXOC3",
+        "transcript_name": "EXOC3-207",
+        "start0": 0,
+        "end0": 197,
+        "score": 280.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 68,
+          "oriented_query_position0": 68,
+          "classification": "different_genomic_position",
+          "target_window_position0": 105,
+          "genomic_mapping": [
+            "chr5",
+            443279,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_A_7",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr5",
+        "start0": 443171,
+        "end0": 443374,
+        "score": 234.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 67,
+          "oriented_query_position0": 67,
+          "classification": "different_genomic_position",
+          "target_window_position0": 108,
+          "genomic_mapping": [
+            "chr5",
+            443279,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_A_8",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000510441.1",
+        "gene_id": "ENSG00000180104.16",
+        "gene_name": "EXOC3",
+        "transcript_name": "EXOC3-207",
+        "start0": 0,
+        "end0": 228,
+        "score": 296.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 67,
+          "oriented_query_position0": 67,
+          "classification": "different_genomic_position",
+          "target_window_position0": 105,
+          "genomic_mapping": [
+            "chr5",
+            443279,
+            "+"
+          ],
+          "target_base": "A",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_C_1",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 9,
+      "best_reference": {
+        "kind": "genome",
+        "id": "GL000220.1",
+        "start0": 114173,
+        "end0": 114273,
+        "score": 100.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 30,
+          "oriented_query_position0": 30,
+          "classification": "different_genomic_position",
+          "target_window_position0": 53,
+          "genomic_mapping": [
+            "GL000220.1",
+            114226,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_C_2",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "genome",
+        "id": "GL000220.1",
+        "start0": 114173,
+        "end0": 114272,
+        "score": 98.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 30,
+          "oriented_query_position0": 30,
+          "classification": "different_genomic_position",
+          "target_window_position0": 53,
+          "genomic_mapping": [
+            "GL000220.1",
+            114226,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_C_3",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr7",
+        "start0": 100694274,
+        "end0": 100694439,
+        "score": 77.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 44,
+          "oriented_query_position0": 11,
+          "classification": "different_genomic_position",
+          "target_window_position0": 67,
+          "genomic_mapping": [
+            "chr7",
+            100694341,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_443259_RNA_C_4",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 443259,
+        "gene_symbols": "EXOC3",
+        "unexpected_base": "A",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAGCCG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "KI270733.1",
+        "start0": 133637,
+        "end0": 133752,
+        "score": 75.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 51,
+          "oriented_query_position0": 51,
+          "classification": "query_insertion_or_terminal_gap",
+          "target_window_position0": null,
+          "genomic_mapping": null,
+          "target_base": null,
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_C_1",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr5",
+        "start0": 80654770,
+        "end0": 80654971,
+        "score": 322.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 126,
+          "oriented_query_position0": 126,
+          "classification": "same_genomic_position",
+          "target_window_position0": 146,
+          "genomic_mapping": [
+            "chr5",
+            80654916,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_C_2",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr5",
+        "start0": 80654749,
+        "end0": 80654950,
+        "score": 322.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 147,
+          "oriented_query_position0": 147,
+          "classification": "same_genomic_position",
+          "target_window_position0": 167,
+          "genomic_mapping": [
+            "chr5",
+            80654916,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_C_3",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000265081.7",
+        "gene_id": "ENSG00000113318.11",
+        "gene_name": "MSH3",
+        "transcript_name": "MSH3-201",
+        "start0": 191,
+        "end0": 392,
+        "score": 249.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 36,
+          "oriented_query_position0": 36,
+          "classification": "same_genomic_position",
+          "target_window_position0": 74,
+          "genomic_mapping": [
+            "chr5",
+            80654916,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_C_4",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "C",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr5",
+        "start0": 80654805,
+        "end0": 80654964,
+        "score": 205.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 91,
+          "oriented_query_position0": 91,
+          "classification": "same_genomic_position",
+          "target_window_position0": 111,
+          "genomic_mapping": [
+            "chr5",
+            80654916,
+            "+"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_G_1",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000439211.7",
+        "gene_id": "ENSG00000228716.7",
+        "gene_name": "DHFR",
+        "transcript_name": "DHFR-201",
+        "start0": 3,
+        "end0": 201,
+        "score": 259.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 105,
+          "oriented_query_position0": 52,
+          "classification": "different_genomic_position",
+          "target_window_position0": 72,
+          "genomic_mapping": [
+            "chr5",
+            80654907,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_G_2",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000265081.7",
+        "gene_id": "ENSG00000113318.11",
+        "gene_name": "MSH3",
+        "transcript_name": "MSH3-201",
+        "start0": 211,
+        "end0": 354,
+        "score": 163.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 25,
+          "oriented_query_position0": 25,
+          "classification": "different_genomic_position",
+          "target_window_position0": 45,
+          "genomic_mapping": [
+            "chr5",
+            80654907,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_G_3",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000265081.7",
+        "gene_id": "ENSG00000113318.11",
+        "gene_name": "MSH3",
+        "transcript_name": "MSH3-201",
+        "start0": 211,
+        "end0": 412,
+        "score": 279.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 25,
+          "oriented_query_position0": 25,
+          "classification": "different_genomic_position",
+          "target_window_position0": 45,
+          "genomic_mapping": [
+            "chr5",
+            80654907,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_G_4",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000265081.7",
+        "gene_id": "ENSG00000113318.11",
+        "gene_name": "MSH3",
+        "transcript_name": "MSH3-201",
+        "start0": 127,
+        "end0": 317,
+        "score": 230.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 91,
+          "oriented_query_position0": 91,
+          "classification": "different_genomic_position",
+          "target_window_position0": 129,
+          "genomic_mapping": [
+            "chr5",
+            80654907,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_G_5",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000265081.7",
+        "gene_id": "ENSG00000113318.11",
+        "gene_name": "MSH3",
+        "transcript_name": "MSH3-201",
+        "start0": 185,
+        "end0": 386,
+        "score": 251.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 33,
+          "oriented_query_position0": 33,
+          "classification": "different_genomic_position",
+          "target_window_position0": 71,
+          "genomic_mapping": [
+            "chr5",
+            80654907,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_G_6",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr5",
+        "start0": 80654799,
+        "end0": 80654949,
+        "score": 156.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 70,
+          "oriented_query_position0": 70,
+          "classification": "different_genomic_position",
+          "target_window_position0": 108,
+          "genomic_mapping": [
+            "chr5",
+            80654907,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_G_7",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000265081.7",
+        "gene_id": "ENSG00000113318.11",
+        "gene_name": "MSH3",
+        "transcript_name": "MSH3-201",
+        "start0": 229,
+        "end0": 419,
+        "score": 280.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 7,
+          "oriented_query_position0": 7,
+          "classification": "different_genomic_position",
+          "target_window_position0": 27,
+          "genomic_mapping": [
+            "chr5",
+            80654907,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr5_80654917_RNA_G_8",
+      "site": {
+        "chrom": "chr5",
+        "pos1": 80654917,
+        "gene_symbols": "MSH3;DHFR",
+        "unexpected_base": "G",
+        "expected_base": "C",
+        "selection": "primary",
+        "reference_base": "C",
+        "genomic_context51": "AGCGGCCGCAGCGGCCGCAGCGCCCCCAGCGCCCCCAGCTCCCGCCTTCCC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr5",
+        "start0": 80654785,
+        "end0": 80654967,
+        "score": 241.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 102,
+          "oriented_query_position0": 102,
+          "classification": "different_genomic_position",
+          "target_window_position0": 122,
+          "genomic_mapping": [
+            "chr5",
+            80654907,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_A_1",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "A",
+      "family_names": 15,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2160,
+        "end0": 2361,
+        "score": 322.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 151,
+          "oriented_query_position0": 9,
+          "classification": "same_genomic_position",
+          "target_window_position0": 29,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_A_2",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "A",
+      "family_names": 13,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2027,
+        "end0": 2217,
+        "score": 300.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 7,
+          "oriented_query_position0": 142,
+          "classification": "same_genomic_position",
+          "target_window_position0": 162,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_A_3",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "A",
+      "family_names": 12,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2139,
+        "end0": 2329,
+        "score": 300.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 119,
+          "oriented_query_position0": 30,
+          "classification": "same_genomic_position",
+          "target_window_position0": 50,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_A_4",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "A",
+      "family_names": 10,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2131,
+        "end0": 2332,
+        "score": 322.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 122,
+          "oriented_query_position0": 38,
+          "classification": "same_genomic_position",
+          "target_window_position0": 58,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "T"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_G_1",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2011,
+        "end0": 2212,
+        "score": 304.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 2,
+          "oriented_query_position0": 158,
+          "classification": "same_genomic_position",
+          "target_window_position0": 178,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_G_2",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2058,
+        "end0": 2259,
+        "score": 292.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 49,
+          "oriented_query_position0": 111,
+          "classification": "same_genomic_position",
+          "target_window_position0": 131,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_G_3",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2022,
+        "end0": 2223,
+        "score": 298.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 13,
+          "oriented_query_position0": 147,
+          "classification": "same_genomic_position",
+          "target_window_position0": 167,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_G_4",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2035,
+        "end0": 2236,
+        "score": 298.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 26,
+          "oriented_query_position0": 134,
+          "classification": "same_genomic_position",
+          "target_window_position0": 154,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_G_5",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2009,
+        "end0": 2210,
+        "score": 304.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 0,
+          "oriented_query_position0": 160,
+          "classification": "same_genomic_position",
+          "target_window_position0": 180,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_G_6",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2059,
+        "end0": 2260,
+        "score": 286.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 50,
+          "oriented_query_position0": 110,
+          "classification": "same_genomic_position",
+          "target_window_position0": 130,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_G_7",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2080,
+        "end0": 2256,
+        "score": 242.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 46,
+          "oriented_query_position0": 89,
+          "classification": "same_genomic_position",
+          "target_window_position0": 109,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705591_RNA_G_8",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705591,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "G",
+        "expected_base": "A",
+        "selection": "primary",
+        "reference_base": "A",
+        "genomic_context51": "CAAGGTGGGACAGAAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGG"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "G",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2080,
+        "end0": 2229,
+        "score": 200.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 19,
+          "oriented_query_position0": 89,
+          "classification": "same_genomic_position",
+          "target_window_position0": 109,
+          "genomic_mapping": [
+            "chr8",
+            100705590,
+            "-"
+          ],
+          "target_base": "T",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_C_1",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 5,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2001,
+        "end0": 2202,
+        "score": 310.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 5,
+          "oriented_query_position0": 155,
+          "classification": "same_genomic_position",
+          "target_window_position0": 175,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_C_2",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2011,
+        "end0": 2212,
+        "score": 304.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 15,
+          "oriented_query_position0": 145,
+          "classification": "same_genomic_position",
+          "target_window_position0": 165,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_C_3",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2058,
+        "end0": 2259,
+        "score": 292.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 62,
+          "oriented_query_position0": 98,
+          "classification": "same_genomic_position",
+          "target_window_position0": 118,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_C_4",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2022,
+        "end0": 2223,
+        "score": 298.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 26,
+          "oriented_query_position0": 134,
+          "classification": "same_genomic_position",
+          "target_window_position0": 154,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_C_5",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2035,
+        "end0": 2236,
+        "score": 298.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 39,
+          "oriented_query_position0": 121,
+          "classification": "same_genomic_position",
+          "target_window_position0": 141,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_C_6",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2009,
+        "end0": 2210,
+        "score": 304.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 13,
+          "oriented_query_position0": 147,
+          "classification": "same_genomic_position",
+          "target_window_position0": 167,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_C_7",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2059,
+        "end0": 2260,
+        "score": 286.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 63,
+          "oriented_query_position0": 97,
+          "classification": "same_genomic_position",
+          "target_window_position0": 117,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_C_8",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "C",
+      "family_names": 3,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2003,
+        "end0": 2204,
+        "score": 310.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 7,
+          "oriented_query_position0": 153,
+          "classification": "same_genomic_position",
+          "target_window_position0": 173,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_G_1",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 13,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2027,
+        "end0": 2217,
+        "score": 300.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 20,
+          "oriented_query_position0": 129,
+          "classification": "same_genomic_position",
+          "target_window_position0": 149,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_G_2",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 12,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2139,
+        "end0": 2329,
+        "score": 300.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 132,
+          "oriented_query_position0": 17,
+          "classification": "same_genomic_position",
+          "target_window_position0": 37,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_G_3",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 10,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2131,
+        "end0": 2332,
+        "score": 322.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 135,
+          "oriented_query_position0": 25,
+          "classification": "same_genomic_position",
+          "target_window_position0": 45,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr8_100705604_RNA_G_4",
+      "site": {
+        "chrom": "chr8",
+        "pos1": 100705604,
+        "gene_symbols": "PABPC1",
+        "unexpected_base": "C",
+        "expected_base": "G",
+        "selection": "primary",
+        "reference_base": "G",
+        "genomic_context51": "AAGTACTCACCCAACATTTGCTTTTGCTCTTGAGGAGGGGCAGATGCCAAC"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 9,
+      "best_reference": {
+        "kind": "transcript",
+        "id": "ENST00000318607.10",
+        "gene_id": "ENSG00000070756.17",
+        "gene_name": "PABPC1",
+        "transcript_name": "PABPC1-201",
+        "start0": 2136,
+        "end0": 2337,
+        "score": 322.0
+      },
+      "orientation": "-",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 140,
+          "oriented_query_position0": 20,
+          "classification": "same_genomic_position",
+          "target_window_position0": 40,
+          "genomic_mapping": [
+            "chr8",
+            100705603,
+            "-"
+          ],
+          "target_base": "C",
+          "query_base": "C"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_DNA_A_1",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "DNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 6,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737211,
+        "end0": 65737412,
+        "score": 316.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 48,
+          "oriented_query_position0": 48,
+          "classification": "same_genomic_position",
+          "target_window_position0": 68,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_DNA_A_2",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "DNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 5,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737200,
+        "end0": 65737401,
+        "score": 316.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 59,
+          "oriented_query_position0": 59,
+          "classification": "same_genomic_position",
+          "target_window_position0": 79,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_A_1",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737237,
+        "end0": 65737414,
+        "score": 262.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 22,
+          "oriented_query_position0": 22,
+          "classification": "same_genomic_position",
+          "target_window_position0": 42,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_A_2",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737183,
+        "end0": 65737384,
+        "score": 308.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 76,
+          "oriented_query_position0": 76,
+          "classification": "same_genomic_position",
+          "target_window_position0": 96,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_A_3",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737191,
+        "end0": 65737381,
+        "score": 294.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 68,
+          "oriented_query_position0": 68,
+          "classification": "same_genomic_position",
+          "target_window_position0": 88,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_A_4",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737198,
+        "end0": 65737383,
+        "score": 284.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 61,
+          "oriented_query_position0": 61,
+          "classification": "same_genomic_position",
+          "target_window_position0": 81,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_A_5",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 2,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737213,
+        "end0": 65737402,
+        "score": 292.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 46,
+          "oriented_query_position0": 46,
+          "classification": "same_genomic_position",
+          "target_window_position0": 66,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_A_6",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737237,
+        "end0": 65737334,
+        "score": 108.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 22,
+          "oriented_query_position0": 22,
+          "classification": "same_genomic_position",
+          "target_window_position0": 42,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_A_7",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737237,
+        "end0": 65737356,
+        "score": 152.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 22,
+          "oriented_query_position0": 22,
+          "classification": "same_genomic_position",
+          "target_window_position0": 42,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_A_8",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "unexpected",
+      "base": "A",
+      "family_names": 1,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737237,
+        "end0": 65737363,
+        "score": 166.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 22,
+          "oriented_query_position0": 22,
+          "classification": "same_genomic_position",
+          "target_window_position0": 42,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "A"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_G_1",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 6,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737237,
+        "end0": 65737364,
+        "score": 174.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 22,
+          "oriented_query_position0": 22,
+          "classification": "same_genomic_position",
+          "target_window_position0": 42,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_G_2",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 5,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737186,
+        "end0": 65737368,
+        "score": 278.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 73,
+          "oriented_query_position0": 73,
+          "classification": "same_genomic_position",
+          "target_window_position0": 93,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_G_3",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 5,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737213,
+        "end0": 65737403,
+        "score": 300.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 46,
+          "oriented_query_position0": 46,
+          "classification": "same_genomic_position",
+          "target_window_position0": 66,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    },
+    {
+      "query_id": "chr9_65737280_RNA_G_4",
+      "site": {
+        "chrom": "chr9",
+        "pos1": 65737280,
+        "gene_symbols": "FOXD4L4",
+        "unexpected_base": "A",
+        "expected_base": "G",
+        "selection": "MAPQ60_only",
+        "reference_base": "G",
+        "genomic_context51": "ACGAGGTGGAAGACGAGGAGGAGGAGGCGAGACAGCAGTTCCTAGAGCAGT"
+      },
+      "assay": "RNA",
+      "role": "expected",
+      "base": "G",
+      "family_names": 4,
+      "best_reference": {
+        "kind": "genome",
+        "id": "chr9",
+        "start0": 65737237,
+        "end0": 65737427,
+        "score": 300.0
+      },
+      "orientation": "+",
+      "mapping": [
+        {
+          "stored_BAM_query_position0": 22,
+          "oriented_query_position0": 22,
+          "classification": "same_genomic_position",
+          "target_window_position0": 42,
+          "genomic_mapping": [
+            "chr9",
+            65737279,
+            "+"
+          ],
+          "target_base": "G",
+          "query_base": "G"
+        }
+      ],
+      "note": "One first-best affine alignment; repeat-equivalent traceback alternatives not enumerated, so placement ambiguity not a new genotype call."
+    }
+  ],
+  "transcript_exons": {
+    "ENST00000374866.9": [
+      [
+        "chr2",
+        189179507,
+        189179761,
+        "-"
+      ],
+      [
+        "chr2",
+        189110224,
+        189110449,
+        "-"
+      ],
+      [
+        "chr2",
+        189104263,
+        189104277,
+        "-"
+      ],
+      [
+        "chr2",
+        189100106,
+        189100139,
+        "-"
+      ],
+      [
+        "chr2",
+        189098726,
+        189098759,
+        "-"
+      ],
+      [
+        "chr2",
+        189097276,
+        189097330,
+        "-"
+      ],
+      [
+        "chr2",
+        189092309,
+        189092420,
+        "-"
+      ],
+      [
+        "chr2",
+        189088694,
+        189088772,
+        "-"
+      ],
+      [
+        "chr2",
+        189086725,
+        189086770,
+        "-"
+      ],
+      [
+        "chr2",
+        189085718,
+        189085772,
+        "-"
+      ],
+      [
+        "chr2",
+        189085159,
+        189085213,
+        "-"
+      ],
+      [
+        "chr2",
+        189083983,
+        189084037,
+        "-"
+      ],
+      [
+        "chr2",
+        189080989,
+        189081043,
+        "-"
+      ],
+      [
+        "chr2",
+        189079977,
+        189080031,
+        "-"
+      ],
+      [
+        "chr2",
+        189079062,
+        189079107,
+        "-"
+      ],
+      [
+        "chr2",
+        189078515,
+        189078569,
+        "-"
+      ],
+      [
+        "chr2",
+        189075392,
+        189075437,
+        "-"
+      ],
+      [
+        "chr2",
+        189072039,
+        189072093,
+        "-"
+      ],
+      [
+        "chr2",
+        189068785,
+        189068884,
+        "-"
+      ],
+      [
+        "chr2",
+        189068225,
+        189068270,
+        "-"
+      ],
+      [
+        "chr2",
+        189068014,
+        189068113,
+        "-"
+      ],
+      [
+        "chr2",
+        189066728,
+        189066782,
+        "-"
+      ],
+      [
+        "chr2",
+        189066389,
+        189066497,
+        "-"
+      ],
+      [
+        "chr2",
+        189065003,
+        189065057,
+        "-"
+      ],
+      [
+        "chr2",
+        189064556,
+        189064655,
+        "-"
+      ],
+      [
+        "chr2",
+        189063979,
+        189064033,
+        "-"
+      ],
+      [
+        "chr2",
+        189063171,
+        189063270,
+        "-"
+      ],
+      [
+        "chr2",
+        189063009,
+        189063063,
+        "-"
+      ],
+      [
+        "chr2",
+        189062864,
+        189062918,
+        "-"
+      ],
+      [
+        "chr2",
+        189061561,
+        189061615,
+        "-"
+      ],
+      [
+        "chr2",
+        189060729,
+        189060783,
+        "-"
+      ],
+      [
+        "chr2",
+        189058848,
+        189058893,
+        "-"
+      ],
+      [
+        "chr2",
+        189058428,
+        189058527,
+        "-"
+      ],
+      [
+        "chr2",
+        189057319,
+        189057427,
+        "-"
+      ],
+      [
+        "chr2",
+        189056972,
+        189057026,
+        "-"
+      ],
+      [
+        "chr2",
+        189054158,
+        189054212,
+        "-"
+      ],
+      [
+        "chr2",
+        189053894,
+        189053948,
+        "-"
+      ],
+      [
+        "chr2",
+        189053423,
+        189053477,
+        "-"
+      ],
+      [
+        "chr2",
+        189052910,
+        189053018,
+        "-"
+      ],
+      [
+        "chr2",
+        189052748,
+        189052802,
+        "-"
+      ],
+      [
+        "chr2",
+        189052171,
+        189052225,
+        "-"
+      ],
+      [
+        "chr2",
+        189051319,
+        189051481,
+        "-"
+      ],
+      [
+        "chr2",
+        189050568,
+        189050676,
+        "-"
+      ],
+      [
+        "chr2",
+        189049346,
+        189049454,
+        "-"
+      ],
+      [
+        "chr2",
+        189048208,
+        189048262,
+        "-"
+      ],
+      [
+        "chr2",
+        189045799,
+        189045907,
+        "-"
+      ],
+      [
+        "chr2",
+        189045178,
+        189045232,
+        "-"
+      ],
+      [
+        "chr2",
+        189043150,
+        189043258,
+        "-"
+      ],
+      [
+        "chr2",
+        189042719,
+        189042773,
+        "-"
+      ],
+      [
+        "chr2",
+        189041585,
+        189041693,
+        "-"
+      ],
+      [
+        "chr2",
+        189039271,
+        189039563,
+        "-"
+      ],
+      [
+        "chr2",
+        189036615,
+        189036803,
+        "-"
+      ],
+      [
+        "chr2",
+        189034915,
+        189035155,
+        "-"
+      ],
+      [
+        "chr2",
+        189031897,
+        189034216,
+        "-"
+      ]
+    ],
+    "ENST00000287647.7": [
+      [
+        "chr3",
+        10026413,
+        10026473,
+        "+"
+      ],
+      [
+        "chr3",
+        10028624,
+        10028721,
+        "+"
+      ],
+      [
+        "chr3",
+        10032831,
+        10032972,
+        "+"
+      ],
+      [
+        "chr3",
+        10034468,
+        10034536,
+        "+"
+      ],
+      [
+        "chr3",
+        10034694,
+        10034798,
+        "+"
+      ],
+      [
+        "chr3",
+        10035172,
+        10035233,
+        "+"
+      ],
+      [
+        "chr3",
+        10036286,
+        10036339,
+        "+"
+      ],
+      [
+        "chr3",
+        10039278,
+        10039357,
+        "+"
+      ],
+      [
+        "chr3",
+        10039720,
+        10039845,
+        "+"
+      ],
+      [
+        "chr3",
+        10041622,
+        10041710,
+        "+"
+      ],
+      [
+        "chr3",
+        10042558,
+        10042663,
+        "+"
+      ],
+      [
+        "chr3",
+        10043049,
+        10043150,
+        "+"
+      ],
+      [
+        "chr3",
+        10043483,
+        10043592,
+        "+"
+      ],
+      [
+        "chr3",
+        10043828,
+        10043864,
+        "+"
+      ],
+      [
+        "chr3",
+        10046579,
+        10046723,
+        "+"
+      ],
+      [
+        "chr3",
+        10047916,
+        10048051,
+        "+"
+      ],
+      [
+        "chr3",
+        10049373,
+        10049505,
+        "+"
+      ],
+      [
+        "chr3",
+        10052386,
+        10052497,
+        "+"
+      ],
+      [
+        "chr3",
+        10060293,
+        10060403,
+        "+"
+      ],
+      [
+        "chr3",
+        10062150,
+        10062211,
+        "+"
+      ],
+      [
+        "chr3",
+        10063791,
+        10063911,
+        "+"
+      ],
+      [
+        "chr3",
+        10064355,
+        10064429,
+        "+"
+      ],
+      [
+        "chr3",
+        10064728,
+        10064875,
+        "+"
+      ],
+      [
+        "chr3",
+        10065393,
+        10065494,
+        "+"
+      ],
+      [
+        "chr3",
+        10065863,
+        10065979,
+        "+"
+      ],
+      [
+        "chr3",
+        10067208,
+        10067317,
+        "+"
+      ],
+      [
+        "chr3",
+        10072870,
+        10072981,
+        "+"
+      ],
+      [
+        "chr3",
+        10073252,
+        10073362,
+        "+"
+      ],
+      [
+        "chr3",
+        10074529,
+        10074673,
+        "+"
+      ],
+      [
+        "chr3",
+        10078080,
+        10078197,
+        "+"
+      ],
+      [
+        "chr3",
+        10081099,
+        10081228,
+        "+"
+      ],
+      [
+        "chr3",
+        10081345,
+        10081464,
+        "+"
+      ],
+      [
+        "chr3",
+        10085811,
+        10085922,
+        "+"
+      ],
+      [
+        "chr3",
+        10087133,
+        10087264,
+        "+"
+      ],
+      [
+        "chr3",
+        10088448,
+        10088542,
+        "+"
+      ],
+      [
+        "chr3",
+        10088827,
+        10088950,
+        "+"
+      ],
+      [
+        "chr3",
+        10090291,
+        10090385,
+        "+"
+      ],
+      [
+        "chr3",
+        10092180,
+        10092252,
+        "+"
+      ],
+      [
+        "chr3",
+        10093284,
+        10093323,
+        "+"
+      ],
+      [
+        "chr3",
+        10094288,
+        10094363,
+        "+"
+      ],
+      [
+        "chr3",
+        10095199,
+        10095274,
+        "+"
+      ],
+      [
+        "chr3",
+        10096325,
+        10096472,
+        "+"
+      ],
+      [
+        "chr3",
+        10098719,
+        10099660,
+        "+"
+      ]
+    ],
+    "ENST00000429897.5": [
+      [
+        "chr3",
+        195658064,
+        195658165,
+        "+"
+      ],
+      [
+        "chr3",
+        195661755,
+        195661841,
+        "+"
+      ],
+      [
+        "chr3",
+        195662570,
+        195662733,
+        "+"
+      ],
+      [
+        "chr3",
+        195664085,
+        195664250,
+        "+"
+      ],
+      [
+        "chr3",
+        195666065,
+        195666214,
+        "+"
+      ],
+      [
+        "chr3",
+        195668518,
+        195668641,
+        "+"
+      ],
+      [
+        "chr3",
+        195671131,
+        195671300,
+        "+"
+      ],
+      [
+        "chr3",
+        195672483,
+        195672679,
+        "+"
+      ],
+      [
+        "chr3",
+        195673817,
+        195673987,
+        "+"
+      ],
+      [
+        "chr3",
+        195677726,
+        195677848,
+        "+"
+      ],
+      [
+        "chr3",
+        195681189,
+        195681301,
+        "+"
+      ],
+      [
+        "chr3",
+        195681535,
+        195681666,
+        "+"
+      ],
+      [
+        "chr3",
+        195683751,
+        195683865,
+        "+"
+      ],
+      [
+        "chr3",
+        195688532,
+        195688862,
+        "+"
+      ]
+    ],
+    "ENST00000510441.1": [
+      [
+        "chr5",
+        443174,
+        443290,
+        "+"
+      ],
+      [
+        "chr5",
+        446149,
+        446349,
+        "+"
+      ],
+      [
+        "chr5",
+        447017,
+        447314,
+        "+"
+      ]
+    ],
+    "ENST00000439211.7": [
+      [
+        "chr5",
+        80654403,
+        80654983,
+        "-"
+      ],
+      [
+        "chr5",
+        80654007,
+        80654057,
+        "-"
+      ],
+      [
+        "chr5",
+        80649388,
+        80649494,
+        "-"
+      ],
+      [
+        "chr5",
+        80637882,
+        80638009,
+        "-"
+      ],
+      [
+        "chr5",
+        80633876,
+        80633992,
+        "-"
+      ],
+      [
+        "chr5",
+        80626225,
+        80629165,
+        "-"
+      ]
+    ],
+    "ENST00000265081.7": [
+      [
+        "chr5",
+        80654651,
+        80654964,
+        "+"
+      ],
+      [
+        "chr5",
+        80656410,
+        80656531,
+        "+"
+      ],
+      [
+        "chr5",
+        80665142,
+        80665363,
+        "+"
+      ],
+      [
+        "chr5",
+        80670096,
+        80670309,
+        "+"
+      ],
+      [
+        "chr5",
+        80672243,
+        80672360,
+        "+"
+      ],
+      [
+        "chr5",
+        80672740,
+        80672858,
+        "+"
+      ],
+      [
+        "chr5",
+        80674982,
+        80675128,
+        "+"
+      ],
+      [
+        "chr5",
+        80678926,
+        80679093,
+        "+"
+      ],
+      [
+        "chr5",
+        80725452,
+        80725565,
+        "+"
+      ],
+      [
+        "chr5",
+        80728850,
+        80728965,
+        "+"
+      ],
+      [
+        "chr5",
+        80741463,
+        80741548,
+        "+"
+      ],
+      [
+        "chr5",
+        80744505,
+        80744615,
+        "+"
+      ],
+      [
+        "chr5",
+        80761545,
+        80761678,
+        "+"
+      ],
+      [
+        "chr5",
+        80767932,
+        80768120,
+        "+"
+      ],
+      [
+        "chr5",
+        80768834,
+        80769003,
+        "+"
+      ],
+      [
+        "chr5",
+        80775693,
+        80775758,
+        "+"
+      ],
+      [
+        "chr5",
+        80778719,
+        80778836,
+        "+"
+      ],
+      [
+        "chr5",
+        80787564,
+        80787672,
+        "+"
+      ],
+      [
+        "chr5",
+        80792732,
+        80792844,
+        "+"
+      ],
+      [
+        "chr5",
+        80813583,
+        80813741,
+        "+"
+      ],
+      [
+        "chr5",
+        80854129,
+        80854316,
+        "+"
+      ],
+      [
+        "chr5",
+        80864812,
+        80864942,
+        "+"
+      ],
+      [
+        "chr5",
+        80873115,
+        80873287,
+        "+"
+      ],
+      [
+        "chr5",
+        80875750,
+        80876815,
+        "+"
+      ]
+    ],
+    "ENST00000318607.10": [
+      [
+        "chr8",
+        100721390,
+        100722088,
+        "-"
+      ],
+      [
+        "chr8",
+        100718086,
+        100718280,
+        "-"
+      ],
+      [
+        "chr8",
+        100717772,
+        100717888,
+        "-"
+      ],
+      [
+        "chr8",
+        100715461,
+        100715601,
+        "-"
+      ],
+      [
+        "chr8",
+        100713086,
+        100713181,
+        "-"
+      ],
+      [
+        "chr8",
+        100712651,
+        100712789,
+        "-"
+      ],
+      [
+        "chr8",
+        100712361,
+        100712457,
+        "-"
+      ],
+      [
+        "chr8",
+        100709458,
+        100709731,
+        "-"
+      ],
+      [
+        "chr8",
+        100709132,
+        100709223,
+        "-"
+      ],
+      [
+        "chr8",
+        100706886,
+        100706997,
+        "-"
+      ],
+      [
+        "chr8",
+        100706650,
+        100706805,
+        "-"
+      ],
+      [
+        "chr8",
+        100705588,
+        100705673,
+        "-"
+      ],
+      [
+        "chr8",
+        100704925,
+        100705056,
+        "-"
+      ],
+      [
+        "chr8",
+        100704296,
+        100704390,
+        "-"
+      ],
+      [
+        "chr8",
+        100702915,
+        100703359,
+        "-"
+      ]
+    ]
+  },
+  "limits": "The queried base may move or enter an insertion in a full-read optimal alignment. This does not establish biological origin or correct breakpoint/indel genotype."
+}

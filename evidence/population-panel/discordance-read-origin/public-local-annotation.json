@@ -1,0 +1,3120 @@
+{
+  "chr2:189043211": [
+    {
+      "feature": "gene",
+      "start1": 189031898,
+      "end1": 189225312,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000204262.14",
+        "gene_type": "protein_coding",
+        "gene_name": "COL5A2",
+        "hgnc_id": "HGNC:2210",
+        "tag": "ncRNA_host",
+        "havana_gene": "OTTHUMG00000149842.5"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 189043151,
+      "end1": 189043258,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000204262.14",
+        "transcript_id": "ENST00000374866.9",
+        "gene_type": "protein_coding",
+        "gene_name": "COL5A2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "COL5A2-201",
+        "exon_id": "ENSE00001464915.1",
+        "protein_id": "ENSP00000364000.3",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:2210",
+        "tag": "CCDS",
+        "ccdsid": "CCDS33350.1",
+        "havana_gene": "OTTHUMG00000149842.5",
+        "havana_transcript": "OTTHUMT00000313523.3"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 189043151,
+      "end1": 189043258,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000204262.14",
+        "transcript_id": "ENST00000374866.9",
+        "gene_type": "protein_coding",
+        "gene_name": "COL5A2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "COL5A2-201",
+        "exon_id": "ENSE00001464915.1",
+        "protein_id": "ENSP00000364000.3",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:2210",
+        "tag": "CCDS",
+        "ccdsid": "CCDS33350.1",
+        "havana_gene": "OTTHUMG00000149842.5",
+        "havana_transcript": "OTTHUMT00000313523.3"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 189043151,
+      "end1": 189043258,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000204262.14",
+        "transcript_id": "ENST00000618828.1",
+        "gene_type": "protein_coding",
+        "gene_name": "COL5A2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "COL5A2-203",
+        "exon_id": "ENSE00001464915.1",
+        "protein_id": "ENSP00000482184.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:2210",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000149842.5"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 189043151,
+      "end1": 189043258,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000204262.14",
+        "transcript_id": "ENST00000618828.1",
+        "gene_type": "protein_coding",
+        "gene_name": "COL5A2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "COL5A2-203",
+        "exon_id": "ENSE00001464915.1",
+        "protein_id": "ENSP00000482184.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:2210",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000149842.5"
+      }
+    }
+  ],
+  "chr3:10049469": [
+    {
+      "feature": "gene",
+      "start1": 10026414,
+      "end1": 10101932,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "hgnc_id": "HGNC:3585",
+        "tag": "ncRNA_host",
+        "havana_gene": "OTTHUMG00000128670.3"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 10049374,
+      "end1": 10049505,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000287647.7",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "FANCD2-201",
+        "exon_id": "ENSE00001785971.1",
+        "protein_id": "ENSP00000287647.3",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:3585",
+        "tag": "CCDS",
+        "ccdsid": "CCDS2595.1",
+        "havana_gene": "OTTHUMG00000128670.3",
+        "havana_transcript": "OTTHUMT00000250562.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 10049374,
+      "end1": 10049505,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000287647.7",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "FANCD2-201",
+        "exon_id": "ENSE00001785971.1",
+        "protein_id": "ENSP00000287647.3",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:3585",
+        "tag": "CCDS",
+        "ccdsid": "CCDS2595.1",
+        "havana_gene": "OTTHUMG00000128670.3",
+        "havana_transcript": "OTTHUMT00000250562.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 10049374,
+      "end1": 10049505,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000676013.1",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "FANCD2-214",
+        "exon_id": "ENSE00001785971.1",
+        "protein_id": "ENSP00000501999.1",
+        "hgnc_id": "HGNC:3585",
+        "tag": "cds_end_NF",
+        "havana_gene": "OTTHUMG00000128670.3"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 10049374,
+      "end1": 10049505,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000676013.1",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "FANCD2-214",
+        "exon_id": "ENSE00001785971.1",
+        "protein_id": "ENSP00000501999.1",
+        "hgnc_id": "HGNC:3585",
+        "tag": "cds_end_NF",
+        "havana_gene": "OTTHUMG00000128670.3"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 10049374,
+      "end1": 10049505,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000675286.1",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "FANCD2-213",
+        "exon_id": "ENSE00001785971.1",
+        "protein_id": "ENSP00000502379.1",
+        "hgnc_id": "HGNC:3585",
+        "tag": "CCDS",
+        "ccdsid": "CCDS33696.1",
+        "havana_gene": "OTTHUMG00000128670.3"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 10049374,
+      "end1": 10049505,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000675286.1",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "FANCD2-213",
+        "exon_id": "ENSE00001785971.1",
+        "protein_id": "ENSP00000502379.1",
+        "hgnc_id": "HGNC:3585",
+        "tag": "CCDS",
+        "ccdsid": "CCDS33696.1",
+        "havana_gene": "OTTHUMG00000128670.3"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 10049374,
+      "end1": 10049505,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000419585.5",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "FANCD2-202",
+        "exon_id": "ENSE00001785971.1",
+        "protein_id": "ENSP00000398754.1",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:3585",
+        "tag": "CCDS",
+        "ccdsid": "CCDS33696.1",
+        "havana_gene": "OTTHUMG00000128670.3",
+        "havana_transcript": "OTTHUMT00000339873.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 10049374,
+      "end1": 10049505,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000419585.5",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "protein_coding",
+        "transcript_name": "FANCD2-202",
+        "exon_id": "ENSE00001785971.1",
+        "protein_id": "ENSP00000398754.1",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:3585",
+        "tag": "CCDS",
+        "ccdsid": "CCDS33696.1",
+        "havana_gene": "OTTHUMG00000128670.3",
+        "havana_transcript": "OTTHUMT00000339873.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 10049374,
+      "end1": 10049504,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000464934.1",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "retained_intron",
+        "transcript_name": "FANCD2-207",
+        "exon_id": "ENSE00001870888.1",
+        "transcript_support_level": "4",
+        "hgnc_id": "HGNC:3585",
+        "havana_gene": "OTTHUMG00000128670.3",
+        "havana_transcript": "OTTHUMT00000339878.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 10049462,
+      "end1": 10049505,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000421731.5",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "FANCD2-203",
+        "exon_id": "ENSE00001758656.1",
+        "protein_id": "ENSP00000389936.1",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:3585",
+        "tag": "cds_start_NF",
+        "havana_gene": "OTTHUMG00000128670.3",
+        "havana_transcript": "OTTHUMT00000339875.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 10049462,
+      "end1": 10049505,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000144554.12",
+        "transcript_id": "ENST00000421731.5",
+        "gene_type": "protein_coding",
+        "gene_name": "FANCD2",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "FANCD2-203",
+        "exon_id": "ENSE00001758656.1",
+        "protein_id": "ENSP00000389936.1",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:3585",
+        "tag": "cds_start_NF",
+        "havana_gene": "OTTHUMG00000128670.3",
+        "havana_transcript": "OTTHUMT00000339875.1"
+      }
+    }
+  ],
+  "chr3:195568834": [
+    {
+      "feature": "gene",
+      "start1": 195568705,
+      "end1": 195584033,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000189058.9",
+        "gene_type": "protein_coding",
+        "gene_name": "APOD",
+        "hgnc_id": "HGNC:612",
+        "havana_gene": "OTTHUMG00000155854.3"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 195568705,
+      "end1": 195569135,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000189058.9",
+        "transcript_id": "ENST00000343267.8",
+        "gene_type": "protein_coding",
+        "gene_name": "APOD",
+        "transcript_type": "protein_coding",
+        "transcript_name": "APOD-201",
+        "exon_id": "ENSE00001373102.4",
+        "protein_id": "ENSP00000345179.3",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:612",
+        "tag": "CCDS",
+        "ccdsid": "CCDS33925.1",
+        "havana_gene": "OTTHUMG00000155854.3",
+        "havana_transcript": "OTTHUMT00000342004.2"
+      }
+    },
+    {
+      "feature": "UTR",
+      "start1": 195568705,
+      "end1": 195568902,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000189058.9",
+        "transcript_id": "ENST00000343267.8",
+        "gene_type": "protein_coding",
+        "gene_name": "APOD",
+        "transcript_type": "protein_coding",
+        "transcript_name": "APOD-201",
+        "exon_id": "ENSE00001373102.4",
+        "protein_id": "ENSP00000345179.3",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:612",
+        "tag": "CCDS",
+        "ccdsid": "CCDS33925.1",
+        "havana_gene": "OTTHUMG00000155854.3",
+        "havana_transcript": "OTTHUMT00000342004.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 195568753,
+      "end1": 195569135,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000189058.9",
+        "transcript_id": "ENST00000458447.5",
+        "gene_type": "protein_coding",
+        "gene_name": "APOD",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "APOD-204",
+        "exon_id": "ENSE00001788968.1",
+        "protein_id": "ENSP00000391597.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:612",
+        "havana_gene": "OTTHUMG00000155854.3",
+        "havana_transcript": "OTTHUMT00000342006.1"
+      }
+    },
+    {
+      "feature": "UTR",
+      "start1": 195568753,
+      "end1": 195569135,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000189058.9",
+        "transcript_id": "ENST00000458447.5",
+        "gene_type": "protein_coding",
+        "gene_name": "APOD",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "APOD-204",
+        "exon_id": "ENSE00001788968.1",
+        "protein_id": "ENSP00000391597.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:612",
+        "havana_gene": "OTTHUMG00000155854.3",
+        "havana_transcript": "OTTHUMT00000342006.1"
+      }
+    }
+  ],
+  "chr3:195677778": [
+    {
+      "feature": "gene",
+      "start1": 195658062,
+      "end1": 195739964,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000242086.8",
+        "gene_type": "lncRNA",
+        "gene_name": "MUC20-OT1",
+        "hgnc_id": "HGNC:53807",
+        "tag": "overlapping_locus",
+        "havana_gene": "OTTHUMG00000155834.14"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 195677727,
+      "end1": 195677848,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000242086.8",
+        "transcript_id": "ENST00000429897.5",
+        "gene_type": "lncRNA",
+        "gene_name": "MUC20-OT1",
+        "transcript_type": "lncRNA",
+        "transcript_name": "MUC20-OT1-207",
+        "exon_id": "ENSE00003534761.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:53807",
+        "tag": "readthrough_transcript",
+        "havana_gene": "OTTHUMG00000155834.14",
+        "havana_transcript": "OTTHUMT00000341949.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 195677727,
+      "end1": 195677848,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000242086.8",
+        "transcript_id": "ENST00000445430.5",
+        "gene_type": "lncRNA",
+        "gene_name": "MUC20-OT1",
+        "transcript_type": "lncRNA",
+        "transcript_name": "MUC20-OT1-212",
+        "exon_id": "ENSE00003534761.1",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:53807",
+        "tag": "readthrough_transcript",
+        "havana_gene": "OTTHUMG00000155834.14",
+        "havana_transcript": "OTTHUMT00000341951.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 195677727,
+      "end1": 195678067,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000242086.8",
+        "transcript_id": "ENST00000446521.1",
+        "gene_type": "lncRNA",
+        "gene_name": "MUC20-OT1",
+        "transcript_type": "lncRNA",
+        "transcript_name": "MUC20-OT1-214",
+        "exon_id": "ENSE00001595424.1",
+        "transcript_support_level": "4",
+        "hgnc_id": "HGNC:53807",
+        "tag": "readthrough_transcript",
+        "havana_gene": "OTTHUMG00000155834.14",
+        "havana_transcript": "OTTHUMT00000341954.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 195677755,
+      "end1": 195677848,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000242086.8",
+        "transcript_id": "ENST00000631288.2",
+        "gene_type": "lncRNA",
+        "gene_name": "MUC20-OT1",
+        "transcript_type": "lncRNA",
+        "transcript_name": "MUC20-OT1-338",
+        "exon_id": "ENSE00003771751.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:53807",
+        "tag": "readthrough_transcript",
+        "havana_gene": "OTTHUMG00000155834.14",
+        "havana_transcript": "OTTHUMT00000481386.1"
+      }
+    },
+    {
+      "feature": "gene",
+      "start1": 195658096,
+      "end1": 195685904,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000215837.7",
+        "gene_type": "transcribed_unprocessed_pseudogene",
+        "gene_name": "SDHAP2",
+        "hgnc_id": "HGNC:27408",
+        "tag": "overlapping_locus",
+        "havana_gene": "OTTHUMG00000155835.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 195677727,
+      "end1": 195677848,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000215837.7",
+        "transcript_id": "ENST00000455183.1",
+        "gene_type": "transcribed_unprocessed_pseudogene",
+        "gene_name": "SDHAP2",
+        "transcript_type": "transcribed_unprocessed_pseudogene",
+        "transcript_name": "SDHAP2-201",
+        "exon_id": "ENSE00003516119.1",
+        "transcript_support_level": "NA",
+        "hgnc_id": "HGNC:27408",
+        "ont": "PGO:0000019",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000155835.1",
+        "havana_transcript": "OTTHUMT00000341947.1"
+      }
+    }
+  ],
+  "chr5:443259": [
+    {
+      "feature": "gene",
+      "start1": 443175,
+      "end1": 471937,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000180104.16",
+        "gene_type": "protein_coding",
+        "gene_name": "EXOC3",
+        "hgnc_id": "HGNC:30378",
+        "havana_gene": "OTTHUMG00000162205.5"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 443175,
+      "end1": 443290,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000180104.16",
+        "transcript_id": "ENST00000510441.1",
+        "gene_type": "protein_coding",
+        "gene_name": "EXOC3",
+        "transcript_type": "processed_transcript",
+        "transcript_name": "EXOC3-207",
+        "exon_id": "ENSE00002071340.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:30378",
+        "tag": "exp_conf",
+        "havana_gene": "OTTHUMG00000162205.5",
+        "havana_transcript": "OTTHUMT00000367886.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 443176,
+      "end1": 443290,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000180104.16",
+        "transcript_id": "ENST00000512944.6",
+        "gene_type": "protein_coding",
+        "gene_name": "EXOC3",
+        "transcript_type": "protein_coding",
+        "transcript_name": "EXOC3-209",
+        "exon_id": "ENSE00002036650.2",
+        "protein_id": "ENSP00000425587.1",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:30378",
+        "tag": "CCDS",
+        "ccdsid": "CCDS54830.1",
+        "havana_gene": "OTTHUMG00000162205.5",
+        "havana_transcript": "OTTHUMT00000367882.2"
+      }
+    },
+    {
+      "feature": "UTR",
+      "start1": 443176,
+      "end1": 443290,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000180104.16",
+        "transcript_id": "ENST00000512944.6",
+        "gene_type": "protein_coding",
+        "gene_name": "EXOC3",
+        "transcript_type": "protein_coding",
+        "transcript_name": "EXOC3-209",
+        "exon_id": "ENSE00002036650.2",
+        "protein_id": "ENSP00000425587.1",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:30378",
+        "tag": "CCDS",
+        "ccdsid": "CCDS54830.1",
+        "havana_gene": "OTTHUMG00000162205.5",
+        "havana_transcript": "OTTHUMT00000367882.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 443233,
+      "end1": 443290,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000180104.16",
+        "transcript_id": "ENST00000515601.6",
+        "gene_type": "protein_coding",
+        "gene_name": "EXOC3",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "EXOC3-210",
+        "exon_id": "ENSE00002031874.1",
+        "protein_id": "ENSP00000424404.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:30378",
+        "tag": "dotter_confirmed",
+        "havana_gene": "OTTHUMG00000162205.5",
+        "havana_transcript": "OTTHUMT00000367883.2"
+      }
+    },
+    {
+      "feature": "UTR",
+      "start1": 443233,
+      "end1": 443290,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000180104.16",
+        "transcript_id": "ENST00000515601.6",
+        "gene_type": "protein_coding",
+        "gene_name": "EXOC3",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "EXOC3-210",
+        "exon_id": "ENSE00002031874.1",
+        "protein_id": "ENSP00000424404.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:30378",
+        "tag": "dotter_confirmed",
+        "havana_gene": "OTTHUMG00000162205.5",
+        "havana_transcript": "OTTHUMT00000367883.2"
+      }
+    }
+  ],
+  "chr5:80654917": [
+    {
+      "feature": "gene",
+      "start1": 80626226,
+      "end1": 80654983,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000228716.7",
+        "gene_type": "protein_coding",
+        "gene_name": "DHFR",
+        "hgnc_id": "HGNC:2861",
+        "tag": "overlapping_locus",
+        "havana_gene": "OTTHUMG00000162529.3"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 80654404,
+      "end1": 80654983,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000228716.7",
+        "transcript_id": "ENST00000439211.7",
+        "gene_type": "protein_coding",
+        "gene_name": "DHFR",
+        "transcript_type": "protein_coding",
+        "transcript_name": "DHFR-201",
+        "exon_id": "ENSE00001752304.2",
+        "protein_id": "ENSP00000396308.2",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:2861",
+        "tag": "CCDS",
+        "ccdsid": "CCDS47240.1",
+        "havana_gene": "OTTHUMG00000162529.3",
+        "havana_transcript": "OTTHUMT00000369450.2"
+      }
+    },
+    {
+      "feature": "UTR",
+      "start1": 80654490,
+      "end1": 80654983,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000228716.7",
+        "transcript_id": "ENST00000439211.7",
+        "gene_type": "protein_coding",
+        "gene_name": "DHFR",
+        "transcript_type": "protein_coding",
+        "transcript_name": "DHFR-201",
+        "exon_id": "ENSE00001752304.2",
+        "protein_id": "ENSP00000396308.2",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:2861",
+        "tag": "CCDS",
+        "ccdsid": "CCDS47240.1",
+        "havana_gene": "OTTHUMG00000162529.3",
+        "havana_transcript": "OTTHUMT00000369450.2"
+      }
+    },
+    {
+      "feature": "gene",
+      "start1": 80654652,
+      "end1": 80876815,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000113318.11",
+        "gene_type": "protein_coding",
+        "gene_name": "MSH3",
+        "hgnc_id": "HGNC:7326",
+        "havana_gene": "OTTHUMG00000162540.5"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 80654652,
+      "end1": 80654964,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000113318.11",
+        "transcript_id": "ENST00000670357.1",
+        "gene_type": "protein_coding",
+        "gene_name": "MSH3",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "MSH3-207",
+        "exon_id": "ENSE00001244866.6",
+        "protein_id": "ENSP00000499791.1",
+        "hgnc_id": "HGNC:7326",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000162540.5",
+        "havana_transcript": "OTTHUMT00000369472.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 80654728,
+      "end1": 80654964,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000113318.11",
+        "transcript_id": "ENST00000670357.1",
+        "gene_type": "protein_coding",
+        "gene_name": "MSH3",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "MSH3-207",
+        "exon_id": "ENSE00001244866.6",
+        "protein_id": "ENSP00000499791.1",
+        "hgnc_id": "HGNC:7326",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000162540.5",
+        "havana_transcript": "OTTHUMT00000369472.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 80654652,
+      "end1": 80654964,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000113318.11",
+        "transcript_id": "ENST00000265081.7",
+        "gene_type": "protein_coding",
+        "gene_name": "MSH3",
+        "transcript_type": "protein_coding",
+        "transcript_name": "MSH3-201",
+        "exon_id": "ENSE00001244866.6",
+        "protein_id": "ENSP00000265081.6",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:7326",
+        "tag": "CCDS",
+        "ccdsid": "CCDS34195.1",
+        "havana_gene": "OTTHUMG00000162540.5",
+        "havana_transcript": "OTTHUMT00000369471.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 80654728,
+      "end1": 80654964,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000113318.11",
+        "transcript_id": "ENST00000265081.7",
+        "gene_type": "protein_coding",
+        "gene_name": "MSH3",
+        "transcript_type": "protein_coding",
+        "transcript_name": "MSH3-201",
+        "exon_id": "ENSE00001244866.6",
+        "protein_id": "ENSP00000265081.6",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:7326",
+        "tag": "CCDS",
+        "ccdsid": "CCDS34195.1",
+        "havana_gene": "OTTHUMG00000162540.5",
+        "havana_transcript": "OTTHUMT00000369471.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 80654694,
+      "end1": 80654964,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000113318.11",
+        "transcript_id": "ENST00000667069.1",
+        "gene_type": "protein_coding",
+        "gene_name": "MSH3",
+        "transcript_type": "protein_coding",
+        "transcript_name": "MSH3-206",
+        "exon_id": "ENSE00003857665.1",
+        "protein_id": "ENSP00000499502.1",
+        "hgnc_id": "HGNC:7326",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000162540.5",
+        "havana_transcript": "OTTHUMT00000505044.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 80654728,
+      "end1": 80654964,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000113318.11",
+        "transcript_id": "ENST00000667069.1",
+        "gene_type": "protein_coding",
+        "gene_name": "MSH3",
+        "transcript_type": "protein_coding",
+        "transcript_name": "MSH3-206",
+        "exon_id": "ENSE00003857665.1",
+        "protein_id": "ENSP00000499502.1",
+        "hgnc_id": "HGNC:7326",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000162540.5",
+        "havana_transcript": "OTTHUMT00000505044.1"
+      }
+    }
+  ],
+  "chr8:100705591": [
+    {
+      "feature": "gene",
+      "start1": 100685816,
+      "end1": 100722809,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "ncRNA_host",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677892.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-235",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677765.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-232",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503838.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677765.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-232",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503838.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000676662.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-226",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503686.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000676662.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-226",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503686.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000678709.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-237",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_partial",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380229.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677140.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-228",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503044.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380228.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677140.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-228",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503044.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380228.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677787.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-234",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000504835.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677787.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-234",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000504835.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000678290.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-236",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000676976.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-227",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000676655.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "processed_transcript",
+        "transcript_name": "PABPC1-225",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000678954.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "PABPC1-239",
+        "exon_id": "ENSE00003596765.1",
+        "protein_id": "ENSP00000503455.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "UTR",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000678954.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "PABPC1-239",
+        "exon_id": "ENSE00003596765.1",
+        "protein_id": "ENSP00000503455.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677775.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-233",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520142.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-214",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000430012.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380233.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520142.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-214",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000430012.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380233.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677380.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-230",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503421.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677380.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-230",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503421.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677478.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-231",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000504369.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677478.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-231",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000504369.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000521865.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-218",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429119.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380232.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000521865.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-218",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429119.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380232.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520804.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-215",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428749.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380236.3"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520804.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-215",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428749.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380236.3"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522720.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-221",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429790.2",
+        "transcript_support_level": "4",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380234.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522720.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-221",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429790.2",
+        "transcript_support_level": "4",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380234.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520868.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-216",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428021.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "cds_start_NF",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380216.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520868.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-216",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428021.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "cds_start_NF",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380216.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000318607.10",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-201",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000313007.5",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380217.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000318607.10",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-201",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000313007.5",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380217.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000679197.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-240",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503058.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000679197.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-240",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503058.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000519100.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-209",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000427914.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000519100.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-209",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000427914.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000519004.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-208",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429594.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380218.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000519004.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-208",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429594.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380218.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705695,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677285.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-229",
+        "exon_id": "ENSE00003745063.2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522387.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-219",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429395.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380219.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522387.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-219",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429395.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380219.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000523636.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "PABPC1-223",
+        "exon_id": "ENSE00003680306.1",
+        "protein_id": "ENSP00000428948.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "cds_start_NF",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380220.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000523636.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "PABPC1-223",
+        "exon_id": "ENSE00003680306.1",
+        "protein_id": "ENSP00000428948.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "cds_start_NF",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380220.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000517990.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-204",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428030.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "not_organism_supported",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380221.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000517990.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-204",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428030.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "not_organism_supported",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380221.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522658.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-220",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428840.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380222.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522658.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-220",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428840.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380222.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000678822.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-238",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000523555.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-222",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429892.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000523555.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-222",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429892.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000610907.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-224",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000478108.2",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380230.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000610907.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-224",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000478108.2",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380230.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000519848.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-213",
+        "exon_id": "ENSE00003596765.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380223.1"
+      }
+    }
+  ],
+  "chr8:100705604": [
+    {
+      "feature": "gene",
+      "start1": 100685816,
+      "end1": 100722809,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "ncRNA_host",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677892.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-235",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677765.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-232",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503838.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677765.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-232",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503838.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000676662.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-226",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503686.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000676662.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-226",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503686.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000678709.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-237",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_partial",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380229.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677140.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-228",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503044.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380228.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677140.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-228",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503044.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380228.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677787.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-234",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000504835.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677787.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-234",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000504835.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000678290.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-236",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000676976.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-227",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000676655.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "processed_transcript",
+        "transcript_name": "PABPC1-225",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000678954.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "PABPC1-239",
+        "exon_id": "ENSE00003596765.1",
+        "protein_id": "ENSP00000503455.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "UTR",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000678954.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "PABPC1-239",
+        "exon_id": "ENSE00003596765.1",
+        "protein_id": "ENSP00000503455.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677775.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-233",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520142.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-214",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000430012.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380233.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520142.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-214",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000430012.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380233.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677380.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-230",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503421.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677380.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-230",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503421.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677478.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-231",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000504369.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677478.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-231",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000504369.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000521865.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-218",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429119.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380232.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000521865.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-218",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429119.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380232.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520804.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-215",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428749.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380236.3"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520804.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-215",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428749.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380236.3"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522720.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-221",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429790.2",
+        "transcript_support_level": "4",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380234.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522720.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-221",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429790.2",
+        "transcript_support_level": "4",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380234.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520868.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-216",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428021.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "cds_start_NF",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380216.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000520868.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-216",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428021.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "cds_start_NF",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380216.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000318607.10",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-201",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000313007.5",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380217.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000318607.10",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-201",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000313007.5",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380217.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000679197.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-240",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503058.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000679197.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-240",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000503058.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000519100.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-209",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000427914.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000519100.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-209",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000427914.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000519004.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-208",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429594.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380218.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000519004.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-208",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429594.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380218.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705695,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000677285.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-229",
+        "exon_id": "ENSE00003745063.2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522387.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-219",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429395.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380219.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522387.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-219",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429395.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380219.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000523636.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "PABPC1-223",
+        "exon_id": "ENSE00003680306.1",
+        "protein_id": "ENSP00000428948.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "cds_start_NF",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380220.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000523636.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "nonsense_mediated_decay",
+        "transcript_name": "PABPC1-223",
+        "exon_id": "ENSE00003680306.1",
+        "protein_id": "ENSP00000428948.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "cds_start_NF",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380220.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000517990.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-204",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428030.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "not_organism_supported",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380221.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000517990.5",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-204",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428030.1",
+        "transcript_support_level": "5",
+        "hgnc_id": "HGNC:8554",
+        "tag": "not_organism_supported",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380221.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522658.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-220",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428840.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380222.1"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000522658.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-220",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000428840.2",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380222.1"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000678822.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-238",
+        "exon_id": "ENSE00003596765.1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "RNA_Seq_supported_only",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000523555.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-222",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429892.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000523555.6",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-222",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000429892.2",
+        "transcript_support_level": "3",
+        "hgnc_id": "HGNC:8554",
+        "tag": "CCDS",
+        "ccdsid": "CCDS6289.1",
+        "havana_gene": "OTTHUMG00000164779.4"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000610907.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-224",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000478108.2",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380230.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000610907.2",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "protein_coding",
+        "transcript_name": "PABPC1-224",
+        "exon_id": "ENSE00003509544.1",
+        "protein_id": "ENSP00000478108.2",
+        "transcript_support_level": "1",
+        "hgnc_id": "HGNC:8554",
+        "tag": "basic",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380230.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 100705589,
+      "end1": 100705673,
+      "strand": "-",
+      "attrs": {
+        "gene_id": "ENSG00000070756.17",
+        "transcript_id": "ENST00000519848.1",
+        "gene_type": "protein_coding",
+        "gene_name": "PABPC1",
+        "transcript_type": "retained_intron",
+        "transcript_name": "PABPC1-213",
+        "exon_id": "ENSE00003596765.1",
+        "transcript_support_level": "2",
+        "hgnc_id": "HGNC:8554",
+        "havana_gene": "OTTHUMG00000164779.4",
+        "havana_transcript": "OTTHUMT00000380223.1"
+      }
+    }
+  ],
+  "chr9:65737280": [
+    {
+      "feature": "gene",
+      "start1": 65736555,
+      "end1": 65738784,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000184659.5",
+        "gene_type": "protein_coding",
+        "gene_name": "FOXD4L4",
+        "hgnc_id": "HGNC:23762",
+        "havana_gene": "OTTHUMG00000013337.2"
+      }
+    },
+    {
+      "feature": "exon",
+      "start1": 65736555,
+      "end1": 65738784,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000184659.5",
+        "transcript_id": "ENST00000377413.2",
+        "gene_type": "protein_coding",
+        "gene_name": "FOXD4L4",
+        "transcript_type": "protein_coding",
+        "transcript_name": "FOXD4L4-201",
+        "exon_id": "ENSE00001771836.2",
+        "protein_id": "ENSP00000366630.1",
+        "transcript_support_level": "NA",
+        "hgnc_id": "HGNC:23762",
+        "tag": "CCDS",
+        "ccdsid": "CCDS75845.1",
+        "havana_gene": "OTTHUMG00000013337.2",
+        "havana_transcript": "OTTHUMT00000037143.2"
+      }
+    },
+    {
+      "feature": "CDS",
+      "start1": 65737146,
+      "end1": 65738393,
+      "strand": "+",
+      "attrs": {
+        "gene_id": "ENSG00000184659.5",
+        "transcript_id": "ENST00000377413.2",
+        "gene_type": "protein_coding",
+        "gene_name": "FOXD4L4",
+        "transcript_type": "protein_coding",
+        "transcript_name": "FOXD4L4-201",
+        "exon_id": "ENSE00001771836.2",
+        "protein_id": "ENSP00000366630.1",
+        "transcript_support_level": "NA",
+        "hgnc_id": "HGNC:23762",
+        "tag": "CCDS",
+        "ccdsid": "CCDS75845.1",
+        "havana_gene": "OTTHUMG00000013337.2",
+        "havana_transcript": "OTTHUMT00000037143.2"
+      }
+    }
+  ]
+}

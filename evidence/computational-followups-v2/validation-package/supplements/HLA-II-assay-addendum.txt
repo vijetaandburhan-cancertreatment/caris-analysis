@@ -1,0 +1,18 @@
+Exploratory HLA-II/CD4 assay addendum | 4 October 2026
+
+The controlled CapHLA screen adds a RASA1 mutant-versus-reference CD4 testing lead. It does not supply a validated neoantigen or change the BAP1 class-I evidence in the base package.
+
+RASA1 candidate: GDYYIGGRRFSSLQT, conditional mutant amino acids 237-251; same-position reference control GDYYIGGRRFSSLSD. The mutant ends at the real predicted early stop; no extra downstream residues are added. Provisional HLA pair: DPA1*01:03 / DPB1*02:01, requiring clinical confirmation from normal material.
+
+For this pair, current CapHLA v2 EL is 0.925750 versus reference 0.777399; older v1 EL is 0.958507 versus reference 0.802943. Normalized BA is v2 0.453212 versus 0.400247, and v1 0.428404 versus 0.387869. These are model scores, not measured affinities, percentile ranks, probabilities, or percentages. Neither release crosses both authors' exploratory EL/BA 0.5 cutpoints for this pair. A high EL score alone must not be called successful validation. V1/V2 consistency is release sensitivity, not independent biology.
+
+The key specificity uncertainty is the peptide core. Five of its seven possible nine-amino-acid cores contain only unchanged reference sequence. Only GGRRFSSLQ and GRRFSSLQT include altered residues, at positions 9 or 8/9 respectively within those possible cores. The actual HLA-bound register is unknown. A response to the 15-mer could recognize a shared unchanged core rather than the mutation. Test the full mutant and reference peptides in matched titrations, establish restricting HLA, and map recognition/register if a response exists. Require endogenous processing/presentation and target-cell recognition where feasible; a peptide-pulsed CD4 response alone is insufficient. Normal-tissue expression/cross-reactivity and matched-normal variant status remain essential before any therapeutic interpretation.
+
+BAP1 does not gain a robust mutation-selective CD4 result. Its maximum v2 EL in the primary mutation-containing 13-25mer set is 0.370006. Two older-release-only combined-cutpoint positives do not reproduce in v2. A separate 12-mer sensitivity gives IFLFKWIEERKG / DRB5*01:02 EL 0.532382 versus reference 0.511394, with low normalized BA 0.273520 versus reference 0.279429. This modest, largely shared signal does not justify calling a validated BAP1 CD4 target. Threshold failure also does not prove biological impossibility.
+
+Method checks: all 32 official v2 regression examples and all 100 v1 examples reproduced within 0.00001 tolerance. The primary screen contains 117 mutant long peptides, their reference counterparts, and nine provisional HLA combinations: 1,053 paired comparisons. A separate row/sequence/core audit verified all comparisons and the RASA1 lead. The small 12-mer sensitivity is separate from those counts. No exact GENCODE50 match was found for the 117 primary mutant long peptides or nine mutation-containing possible cores; this does not establish safety. No patient sequence was uploaded for scoring. No new model was run for this handoff.
+
+The complete controlled HLA-II result, public-model provenance, raw scores and length sensitivity live in the companion outputs/caris-followup/hla-II package. The base HLA calls are provisional; DRA assumptions, unphased DQ combinations and two ambiguous X-containing model mappings remain documented there. Unbounded normalized BA outputs outside 0-1 were retained, not clamped or converted into nM. The selected RASA1 DP pair has no ambiguous X in its model pseudosequence.
+
+Primary method: https://github.com/changyunjian/CapHLA
+Publication: https://doi.org/10.1093/bib/bbae595

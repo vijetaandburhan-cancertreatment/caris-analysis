@@ -1,0 +1,102 @@
+{
+  "created_utc": "2026-10-01T21:12:38Z",
+  "method": "pysam AlignmentFile.find_introns on independently indexed local fetch, primary flags excluding4/256/512/1024/2048; MAPQ>=20, NH=1 where present. No anchor-length/base-quality filters. Counts are alignments, not molecules. Exact zeros are broader-filter negatives for specified coordinates only, not absence of other splicing or low-frequency disease.",
+  "results": [
+    {
+      "gene": "MET",
+      "transcript": "ENST00000397752.8",
+      "strand": "+",
+      "exon_number_transcript_1based": 14,
+      "exon_start0": 116771848,
+      "exon_end0": 116771989,
+      "filters": {
+        "primary_flag_pass": 1156,
+        "mapq_unique_pass": 1156
+      },
+      "events": {
+        "skip": {
+          "chrom": "chr7",
+          "intron_start0": 116771654,
+          "intron_end0": 116774880,
+          "read_count_no_anchor_filter": 0
+        },
+        "left_inclusion": {
+          "chrom": "chr7",
+          "intron_start0": 116771654,
+          "intron_end0": 116771848,
+          "read_count_no_anchor_filter": 169
+        },
+        "right_inclusion": {
+          "chrom": "chr7",
+          "intron_start0": 116771989,
+          "intron_end0": 116774880,
+          "read_count_no_anchor_filter": 150
+        }
+      }
+    },
+    {
+      "gene": "BAP1",
+      "transcript": "ENST00000460680.6",
+      "strand": "-",
+      "exon_number_transcript_1based": 4,
+      "exon_start0": 52408473,
+      "exon_end0": 52408606,
+      "filters": {
+        "primary_flag_pass": 4387,
+        "mapq_unique_pass": 4363
+      },
+      "events": {
+        "skip": {
+          "chrom": "chr3",
+          "intron_start0": 52408077,
+          "intron_end0": 52409553,
+          "read_count_no_anchor_filter": 4
+        },
+        "left_inclusion": {
+          "chrom": "chr3",
+          "intron_start0": 52408077,
+          "intron_end0": 52408473,
+          "read_count_no_anchor_filter": 453
+        },
+        "right_inclusion": {
+          "chrom": "chr3",
+          "intron_start0": 52408606,
+          "intron_end0": 52409553,
+          "read_count_no_anchor_filter": 946
+        }
+      }
+    },
+    {
+      "gene": "RASA1",
+      "transcript": "ENST00000274376.11",
+      "strand": "+",
+      "exon_number_transcript_1based": 3,
+      "exon_start0": 87332506,
+      "exon_end0": 87332642,
+      "filters": {
+        "primary_flag_pass": 811,
+        "mapq_unique_pass": 811
+      },
+      "events": {
+        "skip": {
+          "chrom": "chr5",
+          "intron_start0": 87331500,
+          "intron_end0": 87333266,
+          "read_count_no_anchor_filter": 0
+        },
+        "left_inclusion": {
+          "chrom": "chr5",
+          "intron_start0": 87331500,
+          "intron_end0": 87332506,
+          "read_count_no_anchor_filter": 169
+        },
+        "right_inclusion": {
+          "chrom": "chr5",
+          "intron_start0": 87332642,
+          "intron_end0": 87333266,
+          "read_count_no_anchor_filter": 310
+        }
+      }
+    }
+  ]
+}

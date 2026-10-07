@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "source_capture_sha256": "cddc05f6234de42134f5ad9c94066db31501c28341584a53933f33e026f11817",
+  "existing_control_records": 7,
+  "expected_captured": 4,
+  "actual_captured": 4,
+  "all_SAM_fields_and_header_equal": true,
+  "independent_decision_method": "Explicit aligned query/reference coordinate pairs; not the primary get_blocks predicate",
+  "synthetic_endpoint_CIGAR_cases": [
+    {
+      "start0": 100,
+      "cigar": "10M",
+      "SNP_pos0": 100,
+      "expected_overlap": true,
+      "observed_overlap": true
+    },
+    {
+      "start0": 90,
+      "cigar": "10M",
+      "SNP_pos0": 100,
+      "expected_overlap": false,
+      "observed_overlap": false
+    },
+    {
+      "start0": 91,
+      "cigar": "10M",
+      "SNP_pos0": 100,
+      "expected_overlap": true,
+      "observed_overlap": true
+    },
+    {
+      "start0": 101,
+      "cigar": "10M",
+      "SNP_pos0": 100,
+      "expected_overlap": false,
+      "observed_overlap": false
+    },
+    {
+      "start0": 90,
+      "cigar": "10M5I10M",
+      "SNP_pos0": 100,
+      "expected_overlap": true,
+      "observed_overlap": true
+    },
+    {
+      "start0": 90,
+      "cigar": "5M10N5M",
+      "SNP_pos0": 100,
+      "expected_overlap": false,
+      "observed_overlap": false
+    },
+    {
+      "start0": 90,
+      "cigar": "5M10D5M",
+      "SNP_pos0": 100,
+      "expected_overlap": false,
+      "observed_overlap": false
+    },
+    {
+      "start0": 95,
+      "cigar": "5S10M",
+      "SNP_pos0": 100,
+      "expected_overlap": true,
+      "observed_overlap": true
+    },
+    {
+      "start0": 100,
+      "cigar": "10=",
+      "SNP_pos0": 100,
+      "expected_overlap": true,
+      "observed_overlap": true
+    },
+    {
+      "start0": 100,
+      "cigar": "10X",
+      "SNP_pos0": 100,
+      "expected_overlap": true,
+      "observed_overlap": true
+    }
+  ],
+  "control_input_sha256": "d281a2930daea432ca2d61a5a1d80fd89bfd041cc4b22532702d3891db33478c",
+  "control_output_sha256": "047e081f26bb53a4fc7f7b7b147b73406ec6c156ae583ff238011d6a4ee7fab1",
+  "patient_reads_accessed": false
+}

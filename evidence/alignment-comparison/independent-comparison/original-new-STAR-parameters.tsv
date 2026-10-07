@@ -1,0 +1,29 @@
+parameter	original_recorded_value	new_value	new_value_source	comparison
+runThreadN	4	6	explicit frozen argv	different
+genomeDir	/gpfs1/share/STAR-Fusion/STAR-Fusion-v1.10.0/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir//ref_genome.fa.star.idx	/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/STAR_G37_primary_D8_SA12	explicit frozen argv	different
+twopassMode	Basic	None	exact STAR2.7.11b binary --help default	different
+alignInsertionFlush	Right	None	exact STAR2.7.11b binary --help default	different
+peOverlapNbasesMin	12	10	explicit frozen argv	different
+peOverlapMMp	0.1	0.01	exact STAR2.7.11b binary --help default	different
+alignIntronMax	200000	0	exact STAR2.7.11b binary --help default	different
+alignMatesGapMax	200000	0	exact STAR2.7.11b binary --help default	different
+alignSJDBoverhangMin	10	3	exact STAR2.7.11b binary --help default	different
+alignSplicedMateMapLmin	30	0	exact STAR2.7.11b binary --help default	different
+alignSplicedMateMapLminOverLmate	0	0.5	explicit frozen argv	different
+alignSJstitchMismatchNmax	5 -1 5 5	5 -1 5 5	explicit frozen argv	same explicit values
+outFilterMultimapNmax	NOT EXPLICITLY RECORDED	50	explicit frozen argv	original default not independently established
+chimSegmentMin	12	10	explicit frozen argv	different
+chimJunctionOverhangMin	8	10	explicit frozen argv	different
+chimScoreJunctionNonGTAG	-4	0	explicit frozen argv	different
+chimMultimapNmax	20	50	explicit frozen argv	different
+chimMultimapScoreRange	3	1	exact STAR2.7.11b binary --help default	different
+chimNonchimScoreDropMin	10	20	exact STAR2.7.11b binary --help default	different
+chimScoreDropMax	NOT EXPLICITLY RECORDED	30	explicit frozen argv	original default not independently established
+chimScoreSeparation	NOT EXPLICITLY RECORDED	1	explicit frozen argv	original default not independently established
+chimSegmentReadGapMax	NOT EXPLICITLY RECORDED	3	explicit frozen argv	original default not independently established
+outSAMstrandField	intronMotif	None	exact STAR2.7.11b binary --help default	different
+outSAMtype	BAM SortedByCoordinate	BAM Unsorted	explicit frozen argv	different
+outSAMunmapped	Within	Within	explicit frozen argv	same explicit values
+outReadsUnmapped	Fastx	None	exact STAR2.7.11b binary --help default	different
+outSAMattrRGline	ID:TN26-279853 SM:TN26-279853 PL:ILLUMINA	-	exact STAR2.7.11b binary --help default	different
+quantMode	GeneCounts	-	exact STAR2.7.11b binary --help default	different

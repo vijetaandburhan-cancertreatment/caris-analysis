@@ -1,0 +1,9 @@
+{
+  "loci": 388,
+  "exact_matches": 388,
+  "mismatches": [],
+  "selection": "fixed-seed25stringentloci perarm plusallstringentmarkersBAP1regional51\u201353.5Mb and9p21regional19\u201325Mb",
+  "independence": "separate direct CIGAR position counting implementation, same BAM data/reference; not independentclinical validation",
+  "clean_sensitivity": "no softclips, originalbaseBQ>=25,MAPQ>=30,base>=5ntfrombothalignedreadends; discordantmatesexcluded",
+  "caveat": "Clean counts are a subset and may have lowerdepth; minorallele ratios rather than totalcount equality shouldbe compared."
+}

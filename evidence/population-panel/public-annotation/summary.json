@@ -1,0 +1,164 @@
+{
+  "total_loci": 165782,
+  "categories": {
+    "unique_gene": 109574,
+    "all_loci": 165782,
+    "intergenic": 34026,
+    "multi_gene": 22182,
+    "in_pc_gene_exon": 55566,
+    "in_pc_transcript_exon": 40391,
+    "overlaps_protein_coding_gene": 116464,
+    "exactly_one_pc_gene_regardless_other_gene_overlap": 106485
+  },
+  "distinct_overlapping_gene_ids": 9901,
+  "distinct_gene_ids_with_at_least_one_unique_gene_locus": 7381,
+  "distinct_overlapping_protein_coding_gene_ids": 5686,
+  "distinct_protein_coding_gene_ids_with_at_least_one_unique_gene_locus": 4896,
+  "by_chromosome": {
+    "chr17": {
+      "intergenic": 2356,
+      "all_loci": 20977,
+      "unique_gene": 15240,
+      "in_pc_gene_exon": 9909,
+      "in_pc_transcript_exon": 7210,
+      "overlaps_protein_coding_gene": 17667,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 15969,
+      "multi_gene": 3381
+    },
+    "chr2": {
+      "intergenic": 8155,
+      "all_loci": 38913,
+      "unique_gene": 25804,
+      "in_pc_gene_exon": 12626,
+      "in_pc_transcript_exon": 8845,
+      "overlaps_protein_coding_gene": 26874,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 25043,
+      "multi_gene": 4954
+    },
+    "chr3": {
+      "unique_gene": 21584,
+      "all_loci": 32702,
+      "intergenic": 6295,
+      "multi_gene": 4823,
+      "in_pc_gene_exon": 10406,
+      "in_pc_transcript_exon": 7595,
+      "overlaps_protein_coding_gene": 23689,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 21226
+    },
+    "chr5": {
+      "intergenic": 6847,
+      "all_loci": 28606,
+      "unique_gene": 17533,
+      "in_pc_gene_exon": 8707,
+      "in_pc_transcript_exon": 6449,
+      "overlaps_protein_coding_gene": 18292,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 16582,
+      "multi_gene": 4226
+    },
+    "chr8": {
+      "intergenic": 4804,
+      "all_loci": 22440,
+      "unique_gene": 15238,
+      "multi_gene": 2398,
+      "in_pc_gene_exon": 6893,
+      "in_pc_transcript_exon": 5011,
+      "overlaps_protein_coding_gene": 15062,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 14103
+    },
+    "chr9": {
+      "intergenic": 5569,
+      "all_loci": 22144,
+      "unique_gene": 14175,
+      "overlaps_protein_coding_gene": 14880,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 13562,
+      "multi_gene": 2400,
+      "in_pc_gene_exon": 7025,
+      "in_pc_transcript_exon": 5281
+    }
+  },
+  "by_scope": {
+    "exon100": {
+      "multi_gene": 15256,
+      "all_loci": 80398,
+      "in_pc_gene_exon": 53093,
+      "in_pc_transcript_exon": 38551,
+      "overlaps_protein_coding_gene": 78436,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 70721,
+      "unique_gene": 63514,
+      "intergenic": 1628
+    },
+    "exon100+focal250kb": {
+      "unique_gene": 105,
+      "all_loci": 187,
+      "overlaps_protein_coding_gene": 184,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 111,
+      "in_pc_gene_exon": 122,
+      "in_pc_transcript_exon": 89,
+      "multi_gene": 80,
+      "intergenic": 2
+    },
+    "exon100+focal250kb+grid10kb": {
+      "unique_gene": 8,
+      "all_loci": 14,
+      "overlaps_protein_coding_gene": 13,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 8,
+      "multi_gene": 5,
+      "in_pc_gene_exon": 7,
+      "in_pc_transcript_exon": 7,
+      "intergenic": 1
+    },
+    "exon100+grid10kb": {
+      "unique_gene": 2771,
+      "all_loci": 3514,
+      "in_pc_gene_exon": 2344,
+      "overlaps_protein_coding_gene": 3428,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 3093,
+      "multi_gene": 667,
+      "in_pc_transcript_exon": 1744,
+      "intergenic": 76
+    },
+    "focal250kb": {
+      "intergenic": 1442,
+      "all_loci": 2874,
+      "unique_gene": 815,
+      "overlaps_protein_coding_gene": 774,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 446,
+      "multi_gene": 617
+    },
+    "focal250kb+grid10kb": {
+      "intergenic": 57,
+      "all_loci": 139,
+      "unique_gene": 53,
+      "overlaps_protein_coding_gene": 51,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 32,
+      "multi_gene": 29
+    },
+    "grid10kb": {
+      "unique_gene": 42308,
+      "all_loci": 78656,
+      "intergenic": 30820,
+      "multi_gene": 5528,
+      "overlaps_protein_coding_gene": 33578,
+      "exactly_one_pc_gene_regardless_other_gene_overlap": 32074
+    }
+  },
+  "annotation_gene_count_all_contigs": 60710,
+  "GTF_feature_counts": {
+    "gene": 60710,
+    "transcript": 234552,
+    "exon": 1461241,
+    "CDS": 806960,
+    "start_codon": 91720,
+    "stop_codon": 84663,
+    "UTR": 339389,
+    "Selenocysteine": 117
+  },
+  "GTF_intervals_overlapping_panel": {
+    "gene": 9901,
+    "exon": 69091
+  },
+  "scope": "Public panel only. Counts describe locus annotations, not patient coverage, observed variants, genotypes, expression or sample concordance.",
+  "multi_gene_policy": "Any two or more versioned gene IDs with overlapping gene spans are multi_gene even if only one is protein_coding. No unique assignment is imputed.",
+  "exon_policy": "pc_gene_exon includes exons from any transcript of a protein_coding gene; pc_transcript_exon restricts transcript_type to protein_coding. Both include UTR exonic bases and do not mean CDS membership.",
+  "intergenic_definition": "No overlapping GENCODE37 gene feature on this exact primary-reference chromosome; not a claim of absent regulatory function."
+}

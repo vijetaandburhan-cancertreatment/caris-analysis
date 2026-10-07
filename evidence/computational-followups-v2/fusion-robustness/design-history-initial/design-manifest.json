@@ -1,0 +1,3661 @@
+{
+  "version": "v1",
+  "frozen_utc": "2026-10-05T05:21:44.633611+00:00",
+  "purpose": "Public-fixture pipeline robustness, not clinical sensitivity, limit of detection, biological reproducibility, patient validation or generalizable percentage.",
+  "truth_method": "Build fixed spliced BCR::ABL1 from declared GENCODE37 transcript breakpoints; ungapped Hamming alignment of each original read and reverse complement; eligible pair has at least one uniquely best mate with <=3 mismatches and >=10 nt on each junction side. Selection does not use new or previous STAR/Arriba acceptance. All source read classification retained, including exclusions.",
+  "junction": {
+    "BCR_last_retained_base1": "chr22:23290413",
+    "ABL1_first_retained_base1": "chr9:130854064",
+    "fusion_transcript_boundary0": 3234,
+    "fusion_transcript_length": 6548,
+    "fusion_transcript_sha256": "27174e1cdf39a86c1293bdceea67f2673c23f086b5693f1dd20a064c93195638"
+  },
+  "parent_transcripts": {
+    "BCR": {
+      "tx": "ENST00000305877.13",
+      "chrom": "chr22",
+      "breakpoint1": 23290413,
+      "exons0": [
+        [
+          23180508,
+          23182239
+        ],
+        [
+          23253798,
+          23253980
+        ],
+        [
+          23260949,
+          23261054
+        ],
+        [
+          23261354,
+          23261540
+        ],
+        [
+          23268407,
+          23268515
+        ],
+        [
+          23271531,
+          23271592
+        ],
+        [
+          23273080,
+          23273133
+        ],
+        [
+          23273633,
+          23273774
+        ],
+        [
+          23283976,
+          23284098
+        ],
+        [
+          23285032,
+          23285201
+        ],
+        [
+          23287158,
+          23287278
+        ],
+        [
+          23288096,
+          23288172
+        ],
+        [
+          23289516,
+          23289621
+        ],
+        [
+          23290338,
+          23290413
+        ],
+        [
+          23292540,
+          23292638
+        ],
+        [
+          23295023,
+          23295155
+        ],
+        [
+          23309423,
+          23309483
+        ],
+        [
+          23310323,
+          23310433
+        ],
+        [
+          23311696,
+          23311836
+        ],
+        [
+          23312886,
+          23313021
+        ],
+        [
+          23313967,
+          23314073
+        ],
+        [
+          23314551,
+          23314714
+        ],
+        [
+          23315432,
+          23318037
+        ]
+      ],
+      "cut0": 3234,
+      "sequence_sha256": "617ff7257b87f0cd4d57fc1626a5787f66f8f0ca64e3563b0f8fc914999b46f4"
+    },
+    "ABL1": {
+      "tx": "ENST00000372348.7",
+      "chrom": "chr9",
+      "breakpoint1": 130854064,
+      "exons0": [
+        [
+          130713015,
+          130714455
+        ],
+        [
+          130854063,
+          130854237
+        ],
+        [
+          130854800,
+          130855096
+        ],
+        [
+          130862762,
+          130863035
+        ],
+        [
+          130872128,
+          130872213
+        ],
+        [
+          130872859,
+          130873037
+        ],
+        [
+          130874867,
+          130875052
+        ],
+        [
+          130878414,
+          130878567
+        ],
+        [
+          130880067,
+          130880157
+        ],
+        [
+          130880499,
+          130880664
+        ],
+        [
+          130883968,
+          130885683
+        ]
+      ],
+      "cut0": 1440,
+      "sequence_sha256": "6d412b009386e04086133c8673d5749d019d3d9b4ae7a74104cc470cf8f87be3"
+    }
+  },
+  "source_provenance": {
+    "reference_fasta": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/GRCh38.primary_assembly.genome.fa",
+      "sha256": null,
+      "bytes": 3151417447,
+      "hash_source": "Existing official reference and prior completed pipeline manifest; unchanged resident FASTA."
+    },
+    "compact_gtf": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/annotation.gtf",
+      "sha256": "1ee86d3039de557f8090f24436579d21b421eedf2ac0eb610ba587193db81312",
+      "bytes": 112933
+    },
+    "STAR": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/STAR_2.7.11b/MacOSX_x86_64/STAR",
+      "sha256": "b460f7b8f0c205f193c9ec4ea360f9ed448ca00bc7194d87206b4ceac9da90d6",
+      "bytes": 5001048
+    },
+    "Arriba": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/arriba",
+      "sha256": "81fe855aa96a4a6c07de6d2753d3c50e48e110ee79aaa31f229152d36697e417",
+      "bytes": 2111096
+    },
+    "source_R1": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/public-controls/arriba.R1.fastq.gz",
+      "sha256": "0adf642e5e638ab8b40b1482a67c3dde240713b16a883230bcc47a7a9b426407",
+      "bytes": 2756
+    },
+    "source_R2": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-followup/genome-fusion/public-controls/arriba.R2.fastq.gz",
+      "sha256": "05d7a9e63c718266d0247414cc098ec33fbb098718484f8cbc32adda8818e4cf",
+      "bytes": 2895
+    }
+  },
+  "truth_reads": [
+    {
+      "name": "BCR-ABL1-80",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3333,
+          "end_on_fusion0": 3483,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3384,
+          "end_on_fusion0": 3534,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-78",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3285,
+          "end_on_fusion0": 3435,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3334,
+          "end_on_fusion0": 3484,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-76",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3207,
+          "end_on_fusion0": 3357,
+          "crosses_junction": true,
+          "left_anchor": 27,
+          "right_anchor": 123,
+          "original_read_junction_cut0": 27,
+          "eligible_crossing_mate": true
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3273,
+          "end_on_fusion0": 3423,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-74",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3190,
+          "end_on_fusion0": 3340,
+          "crosses_junction": true,
+          "left_anchor": 44,
+          "right_anchor": 106,
+          "original_read_junction_cut0": 106,
+          "eligible_crossing_mate": true
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3133,
+          "end_on_fusion0": 3283,
+          "crosses_junction": true,
+          "left_anchor": 101,
+          "right_anchor": 49,
+          "original_read_junction_cut0": 101,
+          "eligible_crossing_mate": true
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-72",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 3,
+          "best_locations": 1,
+          "start_on_fusion0": 3044,
+          "end_on_fusion0": 3194,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 45,
+          "best_locations": 1,
+          "start_on_fusion0": 2985,
+          "end_on_fusion0": 3135,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-70",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3482,
+          "end_on_fusion0": 3632,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3445,
+          "end_on_fusion0": 3595,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-68",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3233,
+          "end_on_fusion0": 3383,
+          "crosses_junction": true,
+          "left_anchor": 1,
+          "right_anchor": 149,
+          "original_read_junction_cut0": 1,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 3,
+          "best_locations": 1,
+          "start_on_fusion0": 3259,
+          "end_on_fusion0": 3409,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-66",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3176,
+          "end_on_fusion0": 3326,
+          "crosses_junction": true,
+          "left_anchor": 58,
+          "right_anchor": 92,
+          "original_read_junction_cut0": 92,
+          "eligible_crossing_mate": true
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3133,
+          "end_on_fusion0": 3283,
+          "crosses_junction": true,
+          "left_anchor": 101,
+          "right_anchor": 49,
+          "original_read_junction_cut0": 101,
+          "eligible_crossing_mate": true
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-64",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3225,
+          "end_on_fusion0": 3375,
+          "crosses_junction": true,
+          "left_anchor": 9,
+          "right_anchor": 141,
+          "original_read_junction_cut0": 9,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3274,
+          "end_on_fusion0": 3424,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-62",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3349,
+          "end_on_fusion0": 3499,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3291,
+          "end_on_fusion0": 3441,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-60",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3195,
+          "end_on_fusion0": 3345,
+          "crosses_junction": true,
+          "left_anchor": 39,
+          "right_anchor": 111,
+          "original_read_junction_cut0": 39,
+          "eligible_crossing_mate": true
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3244,
+          "end_on_fusion0": 3394,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-58",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3159,
+          "end_on_fusion0": 3309,
+          "crosses_junction": true,
+          "left_anchor": 75,
+          "right_anchor": 75,
+          "original_read_junction_cut0": 75,
+          "eligible_crossing_mate": true
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3196,
+          "end_on_fusion0": 3346,
+          "crosses_junction": true,
+          "left_anchor": 38,
+          "right_anchor": 112,
+          "original_read_junction_cut0": 112,
+          "eligible_crossing_mate": true
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-56",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3456,
+          "end_on_fusion0": 3606,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3499,
+          "end_on_fusion0": 3649,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-54",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3170,
+          "end_on_fusion0": 3320,
+          "crosses_junction": true,
+          "left_anchor": 64,
+          "right_anchor": 86,
+          "original_read_junction_cut0": 64,
+          "eligible_crossing_mate": true
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3221,
+          "end_on_fusion0": 3371,
+          "crosses_junction": true,
+          "left_anchor": 13,
+          "right_anchor": 137,
+          "original_read_junction_cut0": 137,
+          "eligible_crossing_mate": true
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-52",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3390,
+          "end_on_fusion0": 3540,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3448,
+          "end_on_fusion0": 3598,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-50",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3259,
+          "end_on_fusion0": 3409,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3303,
+          "end_on_fusion0": 3453,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-48",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3271,
+          "end_on_fusion0": 3421,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3228,
+          "end_on_fusion0": 3378,
+          "crosses_junction": true,
+          "left_anchor": 6,
+          "right_anchor": 144,
+          "original_read_junction_cut0": 6,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-46",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 17,
+          "best_locations": 1,
+          "start_on_fusion0": 3026,
+          "end_on_fusion0": 3176,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 51,
+          "best_locations": 1,
+          "start_on_fusion0": 2976,
+          "end_on_fusion0": 3126,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-44",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3394,
+          "end_on_fusion0": 3544,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3351,
+          "end_on_fusion0": 3501,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-42",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3379,
+          "end_on_fusion0": 3529,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3338,
+          "end_on_fusion0": 3488,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-40",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 2,
+          "best_locations": 1,
+          "start_on_fusion0": 3353,
+          "end_on_fusion0": 3503,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3409,
+          "end_on_fusion0": 3559,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-38",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3471,
+          "end_on_fusion0": 3621,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3425,
+          "end_on_fusion0": 3575,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-36",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3443,
+          "end_on_fusion0": 3593,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3490,
+          "end_on_fusion0": 3640,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-34",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3317,
+          "end_on_fusion0": 3467,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3357,
+          "end_on_fusion0": 3507,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-32",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3421,
+          "end_on_fusion0": 3571,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3465,
+          "end_on_fusion0": 3615,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-30",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3438,
+          "end_on_fusion0": 3588,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3388,
+          "end_on_fusion0": 3538,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-28",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3262,
+          "end_on_fusion0": 3412,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3212,
+          "end_on_fusion0": 3362,
+          "crosses_junction": true,
+          "left_anchor": 22,
+          "right_anchor": 128,
+          "original_read_junction_cut0": 22,
+          "eligible_crossing_mate": true
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-26",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3350,
+          "end_on_fusion0": 3500,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3308,
+          "end_on_fusion0": 3458,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-24",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 2,
+          "best_locations": 1,
+          "start_on_fusion0": 3138,
+          "end_on_fusion0": 3288,
+          "crosses_junction": true,
+          "left_anchor": 96,
+          "right_anchor": 54,
+          "original_read_junction_cut0": 96,
+          "eligible_crossing_mate": true
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3186,
+          "end_on_fusion0": 3336,
+          "crosses_junction": true,
+          "left_anchor": 48,
+          "right_anchor": 102,
+          "original_read_junction_cut0": 102,
+          "eligible_crossing_mate": true
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-22",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3371,
+          "end_on_fusion0": 3521,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3435,
+          "end_on_fusion0": 3585,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-20",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3353,
+          "end_on_fusion0": 3503,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3306,
+          "end_on_fusion0": 3456,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-18",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 2,
+          "best_locations": 1,
+          "start_on_fusion0": 3069,
+          "end_on_fusion0": 3219,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3116,
+          "end_on_fusion0": 3266,
+          "crosses_junction": true,
+          "left_anchor": 118,
+          "right_anchor": 32,
+          "original_read_junction_cut0": 32,
+          "eligible_crossing_mate": true
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-16",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3459,
+          "end_on_fusion0": 3609,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3411,
+          "end_on_fusion0": 3561,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-14",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3280,
+          "end_on_fusion0": 3430,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3304,
+          "end_on_fusion0": 3454,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-12",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3138,
+          "end_on_fusion0": 3288,
+          "crosses_junction": true,
+          "left_anchor": 96,
+          "right_anchor": 54,
+          "original_read_junction_cut0": 54,
+          "eligible_crossing_mate": true
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3083,
+          "end_on_fusion0": 3233,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-10",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3199,
+          "end_on_fusion0": 3349,
+          "crosses_junction": true,
+          "left_anchor": 35,
+          "right_anchor": 115,
+          "original_read_junction_cut0": 115,
+          "eligible_crossing_mate": true
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3150,
+          "end_on_fusion0": 3300,
+          "crosses_junction": true,
+          "left_anchor": 84,
+          "right_anchor": 66,
+          "original_read_junction_cut0": 84,
+          "eligible_crossing_mate": true
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-8",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3380,
+          "end_on_fusion0": 3530,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3333,
+          "end_on_fusion0": 3483,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-6",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3417,
+          "end_on_fusion0": 3567,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3474,
+          "end_on_fusion0": 3624,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "name": "BCR-ABL1-4",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3062,
+          "end_on_fusion0": 3212,
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null,
+          "original_read_junction_cut0": null,
+          "eligible_crossing_mate": false
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3127,
+          "end_on_fusion0": 3277,
+          "crosses_junction": true,
+          "left_anchor": 107,
+          "right_anchor": 43,
+          "original_read_junction_cut0": 43,
+          "eligible_crossing_mate": true
+        }
+      ],
+      "eligible": true
+    },
+    {
+      "name": "BCR-ABL1-2",
+      "mates": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "best_mismatches": 1,
+          "best_locations": 1,
+          "start_on_fusion0": 3169,
+          "end_on_fusion0": 3319,
+          "crosses_junction": true,
+          "left_anchor": 65,
+          "right_anchor": 85,
+          "original_read_junction_cut0": 65,
+          "eligible_crossing_mate": true
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "best_mismatches": 0,
+          "best_locations": 1,
+          "start_on_fusion0": 3215,
+          "end_on_fusion0": 3365,
+          "crosses_junction": true,
+          "left_anchor": 19,
+          "right_anchor": 131,
+          "original_read_junction_cut0": 131,
+          "eligible_crossing_mate": true
+        }
+      ],
+      "eligible": true
+    }
+  ],
+  "eligible_source_names": [
+    "BCR-ABL1-76",
+    "BCR-ABL1-74",
+    "BCR-ABL1-66",
+    "BCR-ABL1-60",
+    "BCR-ABL1-58",
+    "BCR-ABL1-54",
+    "BCR-ABL1-28",
+    "BCR-ABL1-24",
+    "BCR-ABL1-18",
+    "BCR-ABL1-12",
+    "BCR-ABL1-10",
+    "BCR-ABL1-4",
+    "BCR-ABL1-2"
+  ],
+  "shortest_anchor_name": "BCR-ABL1-54",
+  "strong_anchor_names": [
+    "BCR-ABL1-12",
+    "BCR-ABL1-66",
+    "BCR-ABL1-24",
+    "BCR-ABL1-74"
+  ],
+  "parent_fragments": [
+    {
+      "name": "UNFUSED_BCR_00",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 2784,
+      "fragment_end0": 3034,
+      "fragment_length": 250,
+      "quality_source_name": "BCR-ABL1-80",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_01",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 2831,
+      "fragment_end0": 3131,
+      "fragment_length": 300,
+      "quality_source_name": "BCR-ABL1-78",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_02",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 2878,
+      "fragment_end0": 3228,
+      "fragment_length": 350,
+      "quality_source_name": "BCR-ABL1-76",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_03",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 2925,
+      "fragment_end0": 3325,
+      "fragment_length": 400,
+      "quality_source_name": "BCR-ABL1-74",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_04",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 2972,
+      "fragment_end0": 3222,
+      "fragment_length": 250,
+      "quality_source_name": "BCR-ABL1-72",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_05",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3019,
+      "fragment_end0": 3319,
+      "fragment_length": 300,
+      "quality_source_name": "BCR-ABL1-70",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_06",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3066,
+      "fragment_end0": 3416,
+      "fragment_length": 350,
+      "quality_source_name": "BCR-ABL1-68",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_07",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3113,
+      "fragment_end0": 3513,
+      "fragment_length": 400,
+      "quality_source_name": "BCR-ABL1-66",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_08",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3160,
+      "fragment_end0": 3410,
+      "fragment_length": 250,
+      "quality_source_name": "BCR-ABL1-64",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_09",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3207,
+      "fragment_end0": 3507,
+      "fragment_length": 300,
+      "quality_source_name": "BCR-ABL1-62",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_10",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3254,
+      "fragment_end0": 3604,
+      "fragment_length": 350,
+      "quality_source_name": "BCR-ABL1-60",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_11",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3301,
+      "fragment_end0": 3701,
+      "fragment_length": 400,
+      "quality_source_name": "BCR-ABL1-58",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_12",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3348,
+      "fragment_end0": 3598,
+      "fragment_length": 250,
+      "quality_source_name": "BCR-ABL1-56",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_13",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3395,
+      "fragment_end0": 3695,
+      "fragment_length": 300,
+      "quality_source_name": "BCR-ABL1-54",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_14",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3442,
+      "fragment_end0": 3792,
+      "fragment_length": 350,
+      "quality_source_name": "BCR-ABL1-52",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_BCR_15",
+      "gene": "BCR",
+      "transcript": "ENST00000305877.13",
+      "fragment_start0": 3489,
+      "fragment_end0": 3889,
+      "fragment_length": 400,
+      "quality_source_name": "BCR-ABL1-50",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_00",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 990,
+      "fragment_end0": 1240,
+      "fragment_length": 250,
+      "quality_source_name": "BCR-ABL1-48",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_01",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1037,
+      "fragment_end0": 1337,
+      "fragment_length": 300,
+      "quality_source_name": "BCR-ABL1-46",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_02",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1084,
+      "fragment_end0": 1434,
+      "fragment_length": 350,
+      "quality_source_name": "BCR-ABL1-44",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_03",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1131,
+      "fragment_end0": 1531,
+      "fragment_length": 400,
+      "quality_source_name": "BCR-ABL1-42",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_04",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1178,
+      "fragment_end0": 1428,
+      "fragment_length": 250,
+      "quality_source_name": "BCR-ABL1-40",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_05",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1225,
+      "fragment_end0": 1525,
+      "fragment_length": 300,
+      "quality_source_name": "BCR-ABL1-38",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_06",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1272,
+      "fragment_end0": 1622,
+      "fragment_length": 350,
+      "quality_source_name": "BCR-ABL1-36",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_07",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1319,
+      "fragment_end0": 1719,
+      "fragment_length": 400,
+      "quality_source_name": "BCR-ABL1-34",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_08",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1366,
+      "fragment_end0": 1616,
+      "fragment_length": 250,
+      "quality_source_name": "BCR-ABL1-32",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_09",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1413,
+      "fragment_end0": 1713,
+      "fragment_length": 300,
+      "quality_source_name": "BCR-ABL1-30",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_10",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1460,
+      "fragment_end0": 1810,
+      "fragment_length": 350,
+      "quality_source_name": "BCR-ABL1-28",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_11",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1507,
+      "fragment_end0": 1907,
+      "fragment_length": 400,
+      "quality_source_name": "BCR-ABL1-26",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_12",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1554,
+      "fragment_end0": 1804,
+      "fragment_length": 250,
+      "quality_source_name": "BCR-ABL1-24",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_13",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1601,
+      "fragment_end0": 1901,
+      "fragment_length": 300,
+      "quality_source_name": "BCR-ABL1-22",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_14",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1648,
+      "fragment_end0": 1998,
+      "fragment_length": 350,
+      "quality_source_name": "BCR-ABL1-20",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    },
+    {
+      "name": "UNFUSED_ABL1_15",
+      "gene": "ABL1",
+      "transcript": "ENST00000372348.7",
+      "fragment_start0": 1695,
+      "fragment_end0": 2095,
+      "fragment_length": 400,
+      "quality_source_name": "BCR-ABL1-18",
+      "sequence_origin": "Exact normal GENCODE37 spliced parental transcript; sequence is newly synthetic; source qualities reused without modification."
+    }
+  ],
+  "datasets": [
+    {
+      "id": "parental_zero",
+      "kind": "synthetic unfused-parent zero-fusion control",
+      "source_fusion_names": [],
+      "input_pairs": 32,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/parental_zero.R1.fastq.gz",
+          "sha256": "226dd18057f40f8826a0da5576d24b89fb3028b778ee2f700f044a2c1af39dcc",
+          "uncompressed_sha256": "e999595c60a7a9567bb12d9034e87d8fecb5e51f3da47b09b25f587f73d6260e",
+          "bytes": 2463
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/parental_zero.R2.fastq.gz",
+          "sha256": "8aca8bf157e3f46ed645c4cacb6ebae9bcf82a22bd9ef576e4b3a77250083756",
+          "uncompressed_sha256": "ed4180900520c7c762c2909f544c7262fa9b308e4a27b6907fe0eef615eb292c",
+          "bytes": 2683
+        }
+      ]
+    },
+    {
+      "id": "fixture_all40",
+      "kind": "unaltered full public fixture; not independent of earlier control runs",
+      "source_fusion_names": [
+        "BCR-ABL1-80",
+        "BCR-ABL1-78",
+        "BCR-ABL1-76",
+        "BCR-ABL1-74",
+        "BCR-ABL1-72",
+        "BCR-ABL1-70",
+        "BCR-ABL1-68",
+        "BCR-ABL1-66",
+        "BCR-ABL1-64",
+        "BCR-ABL1-62",
+        "BCR-ABL1-60",
+        "BCR-ABL1-58",
+        "BCR-ABL1-56",
+        "BCR-ABL1-54",
+        "BCR-ABL1-52",
+        "BCR-ABL1-50",
+        "BCR-ABL1-48",
+        "BCR-ABL1-46",
+        "BCR-ABL1-44",
+        "BCR-ABL1-42",
+        "BCR-ABL1-40",
+        "BCR-ABL1-38",
+        "BCR-ABL1-36",
+        "BCR-ABL1-34",
+        "BCR-ABL1-32",
+        "BCR-ABL1-30",
+        "BCR-ABL1-28",
+        "BCR-ABL1-26",
+        "BCR-ABL1-24",
+        "BCR-ABL1-22",
+        "BCR-ABL1-20",
+        "BCR-ABL1-18",
+        "BCR-ABL1-16",
+        "BCR-ABL1-14",
+        "BCR-ABL1-12",
+        "BCR-ABL1-10",
+        "BCR-ABL1-8",
+        "BCR-ABL1-6",
+        "BCR-ABL1-4",
+        "BCR-ABL1-2"
+      ],
+      "input_pairs": 40,
+      "names": [
+        "BCR-ABL1-80",
+        "BCR-ABL1-78",
+        "BCR-ABL1-76",
+        "BCR-ABL1-74",
+        "BCR-ABL1-72",
+        "BCR-ABL1-70",
+        "BCR-ABL1-68",
+        "BCR-ABL1-66",
+        "BCR-ABL1-64",
+        "BCR-ABL1-62",
+        "BCR-ABL1-60",
+        "BCR-ABL1-58",
+        "BCR-ABL1-56",
+        "BCR-ABL1-54",
+        "BCR-ABL1-52",
+        "BCR-ABL1-50",
+        "BCR-ABL1-48",
+        "BCR-ABL1-46",
+        "BCR-ABL1-44",
+        "BCR-ABL1-42",
+        "BCR-ABL1-40",
+        "BCR-ABL1-38",
+        "BCR-ABL1-36",
+        "BCR-ABL1-34",
+        "BCR-ABL1-32",
+        "BCR-ABL1-30",
+        "BCR-ABL1-28",
+        "BCR-ABL1-26",
+        "BCR-ABL1-24",
+        "BCR-ABL1-22",
+        "BCR-ABL1-20",
+        "BCR-ABL1-18",
+        "BCR-ABL1-16",
+        "BCR-ABL1-14",
+        "BCR-ABL1-12",
+        "BCR-ABL1-10",
+        "BCR-ABL1-8",
+        "BCR-ABL1-6",
+        "BCR-ABL1-4",
+        "BCR-ABL1-2"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/fixture_all40.R1.fastq.gz",
+          "sha256": "48df6318f756a488be7923f18306c1f6e6f9a243cdc044dcd9be95e56b95d063",
+          "uncompressed_sha256": "899def89d6cc8ffd58df605466f7d2738f5c2f2afcf36efc82eee476e9c4841a",
+          "bytes": 2744
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/fixture_all40.R2.fastq.gz",
+          "sha256": "761aae09b29c4b3b1a1fe508c7dd54e2defe7edf9e0ef48b55011419ab5f84c6",
+          "uncompressed_sha256": "8df5fac43a1c54b2c64ba6a391ecf5f797f8665f4734c5ddf5d6e43a1e587ac3",
+          "bytes": 2883
+        }
+      ]
+    },
+    {
+      "id": "support_01_selection_1",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-4"
+      ],
+      "input_pairs": 33,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-4"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_01_selection_1.R1.fastq.gz",
+          "sha256": "2652c849c044a98e666691553907dd1a17d299e69de310dc348d7031c37228bb",
+          "uncompressed_sha256": "88177178e5fb263b828dfb0521c6c4462f9a61dd65f3b029fafd3606a6069ff4",
+          "bytes": 2525
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_01_selection_1.R2.fastq.gz",
+          "sha256": "8369c233c9313b05944e447cbb3d03b5b20e28b0cc570ebf98f516b09ced0409",
+          "uncompressed_sha256": "e551ac370dd7c4ffab3f6d0232f4fb5a9cacf7d1b525ff928f408106aebe7c10",
+          "bytes": 2755
+        }
+      ],
+      "seed": 0,
+      "source_support_level": 1
+    },
+    {
+      "id": "support_01_selection_2",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-2"
+      ],
+      "input_pairs": 33,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-2"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_01_selection_2.R1.fastq.gz",
+          "sha256": "c7649323443f7d2b2255ba6c825bed9d03c4a49d6a216c4acd32d7ce60347a0b",
+          "uncompressed_sha256": "6e915369a9522baa8291dbb03f09819329bc4ac5099dee28c2c7137b20456c2f",
+          "bytes": 2531
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_01_selection_2.R2.fastq.gz",
+          "sha256": "e0de2212b39238a7875796ff51aa59e12555be1cbd5f8794b9725e1aad3f82ab",
+          "uncompressed_sha256": "0fb15bdab0e17f97d87f1885596d33c037982e10020b0bbc5a26fe451d294ee5",
+          "bytes": 2759
+        }
+      ],
+      "seed": 1,
+      "source_support_level": 1
+    },
+    {
+      "id": "support_01_selection_3",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-54"
+      ],
+      "input_pairs": 33,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-54"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_01_selection_3.R1.fastq.gz",
+          "sha256": "a451d06de326da8a8431725a7ef09d082dc07ac7e1d3422ef4c327f0afbf9ba1",
+          "uncompressed_sha256": "b94fcec696d470dbaeab6c0ee963e5fba9263b8328d1f52c3d290226d8e59f8b",
+          "bytes": 2491
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_01_selection_3.R2.fastq.gz",
+          "sha256": "30150e6082b7dff4da3988b21d727a2e77be89c7a2496ee48b7af92be742d787",
+          "uncompressed_sha256": "b6d7d48bb7543d44d9f236df4149d82989c3a3f6cb14380a343b8be56f14be9c",
+          "bytes": 2709
+        }
+      ],
+      "seed": 2,
+      "source_support_level": 1
+    },
+    {
+      "id": "support_02_selection_1",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "input_pairs": 34,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_02_selection_1.R1.fastq.gz",
+          "sha256": "72a602ae71f9bbd380cdbe29ed00bd8c737633568132d10989a77ac0cccde14f",
+          "uncompressed_sha256": "46584a6ef1d0adf7a5399d9156f1d069ae11ff50b2e45ea240a81eabb1c56bc1",
+          "bytes": 2583
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_02_selection_1.R2.fastq.gz",
+          "sha256": "6b5787d21422a43cf62d6c7774fc1fa2f8f736c6b9e4d7e0c178d441cc7c6c2d",
+          "uncompressed_sha256": "4abfc9c702c77766b2c59fc4a398b14bc3d27b1fd41355c0e17a3cb8ee7b8e69",
+          "bytes": 2818
+        }
+      ],
+      "seed": 0,
+      "source_support_level": 2
+    },
+    {
+      "id": "support_02_selection_2",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "input_pairs": 34,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_02_selection_2.R1.fastq.gz",
+          "sha256": "0f02ec8a6234e0d07d89b0c9595b500394efbececc8bef69d49667bab0a63431",
+          "uncompressed_sha256": "0857f45098153601d71f6400f595b40ecd12e7872c0cbc22af7969c1977fc985",
+          "bytes": 2598
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_02_selection_2.R2.fastq.gz",
+          "sha256": "4ec0d246b234a5361c6999804d59fe7c909c8503beb8ccbd6b8c790a62599caa",
+          "uncompressed_sha256": "f146ddef3e241ab1ce06db2d06a01fbc3fa7adc1b40f775d767a5fee469af677",
+          "bytes": 2823
+        }
+      ],
+      "seed": 1,
+      "source_support_level": 2
+    },
+    {
+      "id": "support_02_selection_3",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-54",
+        "BCR-ABL1-60"
+      ],
+      "input_pairs": 34,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-54",
+        "BCR-ABL1-60"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_02_selection_3.R1.fastq.gz",
+          "sha256": "eaa243b775eb8c497ecc5db87d5296d465dfca961bb1762cf986e1bd1a16aa4c",
+          "uncompressed_sha256": "47734dba65926a6a2d662184bbc79a02ef0db9717cb25d3083578f9326769260",
+          "bytes": 2508
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_02_selection_3.R2.fastq.gz",
+          "sha256": "11ba6b411c09e2a5b2d82fed0a890b29b1bb304347e34a2b3f88c04a1a7f4303",
+          "uncompressed_sha256": "c194d6656bf8413aa457f99f6ab9587d3680e52eadb22c7284c69b595b9e55c2",
+          "bytes": 2725
+        }
+      ],
+      "seed": 2,
+      "source_support_level": 2
+    },
+    {
+      "id": "support_03_selection_1",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "input_pairs": 35,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_03_selection_1.R1.fastq.gz",
+          "sha256": "89bdbed33ed44c61af0a46dd7575579c8afa4b44508c225d14e4ce82cc5958bc",
+          "uncompressed_sha256": "b2a19cc0a968b96ca91bc1a5e1bd2aff4efb8d397715c4c56295078e9a299fbc",
+          "bytes": 2644
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_03_selection_1.R2.fastq.gz",
+          "sha256": "12aa27aad306727fe563868f6bfa887ec6c5c635338cb1c234fe68f562ab8e8e",
+          "uncompressed_sha256": "2b1e23d2da6cbdb13fd1ebbafb9f17649893c7ddbf89b21fba5712306507b8ff",
+          "bytes": 2881
+        }
+      ],
+      "seed": 0,
+      "source_support_level": 3
+    },
+    {
+      "id": "support_03_selection_2",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "input_pairs": 35,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_03_selection_2.R1.fastq.gz",
+          "sha256": "e3dd2e01c28308cb753274c3496b902ea4bf2f4bd375b5f85783c51877ee7200",
+          "uncompressed_sha256": "d7ac6df8f38b44a1362472179e7db89039f876ac9c1a06f71500093892a685b5",
+          "bytes": 2618
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_03_selection_2.R2.fastq.gz",
+          "sha256": "0cdec6b53b00b601da0c55bc9869eaf62ba543db0a6f31ef5784533243225f44",
+          "uncompressed_sha256": "a01f7b60d843b0b04c8a02c1bb5f30a3606314944e4d4965299d21c5fe8d2dc7",
+          "bytes": 2837
+        }
+      ],
+      "seed": 1,
+      "source_support_level": 3
+    },
+    {
+      "id": "support_03_selection_3",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-54",
+        "BCR-ABL1-60",
+        "BCR-ABL1-74"
+      ],
+      "input_pairs": 35,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-54",
+        "BCR-ABL1-60",
+        "BCR-ABL1-74"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_03_selection_3.R1.fastq.gz",
+          "sha256": "ca204beb1522143fb598582853489fdae2e52bb50b15945be2e83be6484760e1",
+          "uncompressed_sha256": "b1ace5653e598f105515490a7ee5c22b60e89966136422dae1b079a54c175a03",
+          "bytes": 2574
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_03_selection_3.R2.fastq.gz",
+          "sha256": "e9eb09db6ec3828e50b63ed83efd851ad6481d2e9fc025aa69704d4539ec2624",
+          "uncompressed_sha256": "e449fc5f853205029d69bd41249f29c62782d2c0af82f7997587e6c000faa196",
+          "bytes": 2791
+        }
+      ],
+      "seed": 2,
+      "source_support_level": 3
+    },
+    {
+      "id": "support_05_selection_1",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-54"
+      ],
+      "input_pairs": 37,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-54"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_05_selection_1.R1.fastq.gz",
+          "sha256": "4a450cdfe65c9c50d5f6b150f8d129547c22ce608e5c4a0dee84c3fd64ea7545",
+          "uncompressed_sha256": "2c060c098daeafdb8d8baf9fdfdedd0259028ab01e4b2549ef2cc2a14233afd8",
+          "bytes": 2744
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_05_selection_1.R2.fastq.gz",
+          "sha256": "bcfba314bcaa63ea416146863283639b453c094bb7b40f3edafce494532f62de",
+          "uncompressed_sha256": "fc96753367082d348bb2d6bf8204d561d80a704de0eb01e6d34c76873032170a",
+          "bytes": 2985
+        }
+      ],
+      "seed": 0,
+      "source_support_level": 5
+    },
+    {
+      "id": "support_05_selection_2",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-54",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "input_pairs": 37,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-54",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_05_selection_2.R1.fastq.gz",
+          "sha256": "e4b90825b35ab779c58edd095dcd4a6fb3cdea6654caae519e973b0ed5325eff",
+          "uncompressed_sha256": "ec879344cf294b49b488189415557fbd52c4a60b77472967e70d5d92421b2ae9",
+          "bytes": 2647
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_05_selection_2.R2.fastq.gz",
+          "sha256": "14f34076025948bf891fc92453285b6e1520e7bb0043a47f80fa823615c4bf19",
+          "uncompressed_sha256": "97ad7acd53e8493b78561bc12d5f6f6ec3f83d136c5c39db6950931e2d74b4d1",
+          "bytes": 2867
+        }
+      ],
+      "seed": 1,
+      "source_support_level": 5
+    },
+    {
+      "id": "support_05_selection_3",
+      "kind": "unmodified source pairs plus fixed synthetic parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-54",
+        "BCR-ABL1-60",
+        "BCR-ABL1-74",
+        "BCR-ABL1-76"
+      ],
+      "input_pairs": 37,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-4",
+        "BCR-ABL1-54",
+        "BCR-ABL1-60",
+        "BCR-ABL1-74",
+        "BCR-ABL1-76"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_05_selection_3.R1.fastq.gz",
+          "sha256": "8715cc8cffd74d6db0fccdb29aa854ce129f60d43afbc28b43b23a04974c8a45",
+          "uncompressed_sha256": "97a9a91267c3ceeb43dac34cc3fafb5cb1e9d4c4705595bcb7be7708b1b8625e",
+          "bytes": 2640
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_05_selection_3.R2.fastq.gz",
+          "sha256": "5bae7ddb7b9d711c08e7bd15c4453134e54d76cdb3446d468461560cf9170515",
+          "uncompressed_sha256": "6497f62ae36bc3e172773e901993f64a218ca8664f99d0cb30eb6cd67515afc6",
+          "bytes": 2870
+        }
+      ],
+      "seed": 2,
+      "source_support_level": 5
+    },
+    {
+      "id": "support_all",
+      "kind": "all eligible source crossing pairs plus fixed parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-54",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-74",
+        "BCR-ABL1-76"
+      ],
+      "input_pairs": 45,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-54",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-74",
+        "BCR-ABL1-76"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_all.R1.fastq.gz",
+          "sha256": "396a73b36e2977b188738142b85ece656b0fa72194beaabfc846157854f65789",
+          "uncompressed_sha256": "a0e27ba754d80cb1493816982099469354b756e5db4d99410bd675a8ae4e9581",
+          "bytes": 2935
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/support_all.R2.fastq.gz",
+          "sha256": "48ec451a516db68060fa7e18f1af8ce227c3f9933718a1436ddcfbdd426e79bc",
+          "uncompressed_sha256": "91e6307a8e411c014acc5edd9602f95552dd25a5cb348abdcc22253bbeac7a1d",
+          "bytes": 3161
+        }
+      ],
+      "source_support_level": 13
+    },
+    {
+      "id": "shortest_anchor",
+      "kind": "unaltered shortest-anchor source pair plus parental background",
+      "source_fusion_names": [
+        "BCR-ABL1-54"
+      ],
+      "input_pairs": 33,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-54"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/shortest_anchor.R1.fastq.gz",
+          "sha256": "a451d06de326da8a8431725a7ef09d082dc07ac7e1d3422ef4c327f0afbf9ba1",
+          "uncompressed_sha256": "b94fcec696d470dbaeab6c0ee963e5fba9263b8328d1f52c3d290226d8e59f8b",
+          "bytes": 2491
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/shortest_anchor.R2.fastq.gz",
+          "sha256": "30150e6082b7dff4da3988b21d727a2e77be89c7a2496ee48b7af92be742d787",
+          "uncompressed_sha256": "b6d7d48bb7543d44d9f236df4149d82989c3a3f6cb14380a343b8be56f14be9c",
+          "bytes": 2709
+        }
+      ],
+      "minor_anchor": 13
+    },
+    {
+      "id": "strong_original",
+      "kind": "unmodified strong anchors",
+      "source_fusion_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-66",
+        "BCR-ABL1-24",
+        "BCR-ABL1-74"
+      ],
+      "input_pairs": 36,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-12",
+        "BCR-ABL1-66",
+        "BCR-ABL1-24",
+        "BCR-ABL1-74"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_original.R1.fastq.gz",
+          "sha256": "059a7bd5bf0083ef5b0a02b892f2d43cd6a93b4bb74bd1beab8ef7c06fb01385",
+          "uncompressed_sha256": "643aae13afbf15224db1803fb7486dafe72eb4f83e59394b42295db001dda58c",
+          "bytes": 2644
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_original.R2.fastq.gz",
+          "sha256": "692a3ab753762616c1922a5fb1d9493e59be023aad6550184957fc8af38e78e7",
+          "uncompressed_sha256": "dea9630e2b5abb056231ca39b83c1d834bc9f622f2f17810dcd1042464f70784",
+          "bytes": 2858
+        }
+      ],
+      "anchor_cap": null,
+      "trim_records": [
+        {
+          "name": "BCR-ABL1-12",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": 54,
+          "new_junction_cut0": 54,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-12",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": null,
+          "new_junction_cut0": null,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-66",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": 92,
+          "new_junction_cut0": 92,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-66",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": 101,
+          "new_junction_cut0": 101,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-24",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": 96,
+          "new_junction_cut0": 96,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-24",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": 102,
+          "new_junction_cut0": 102,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-74",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": 106,
+          "new_junction_cut0": 106,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-74",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": 101,
+          "new_junction_cut0": 101,
+          "sequence_and_quality_trimmed_identically": true
+        }
+      ]
+    },
+    {
+      "id": "strong_trim_anchor12",
+      "kind": "end-trimmed public fragment pairs; no manufactured bases",
+      "source_fusion_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-66",
+        "BCR-ABL1-24",
+        "BCR-ABL1-74"
+      ],
+      "input_pairs": 36,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-12",
+        "BCR-ABL1-66",
+        "BCR-ABL1-24",
+        "BCR-ABL1-74"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor12.R1.fastq.gz",
+          "sha256": "0a3325aac6d851becf61f1652e3f818abda1e0198ac8ce0272df40678a06528c",
+          "uncompressed_sha256": "c993917c24be19f33e1d4ad9c7a713697b8603ddf07ba0e23f2bfa47bc33da27",
+          "bytes": 2629
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor12.R2.fastq.gz",
+          "sha256": "e40cffd81ceb3c992b253148c4410ac808ebe60542b65f4c2c0da2a0649ec960",
+          "uncompressed_sha256": "a6e10c24704a5db026bfa7d3305d5bb685716b9acee9290eaad0c8dbdb8235d9",
+          "bytes": 2849
+        }
+      ],
+      "anchor_cap": 12,
+      "trim_records": [
+        {
+          "name": "BCR-ABL1-12",
+          "mate": 1,
+          "original_start0_retained": 42,
+          "original_end0_retained": 150,
+          "retained_length": 108,
+          "original_junction_cut0": 54,
+          "new_junction_cut0": 12,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-12",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": null,
+          "new_junction_cut0": null,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-66",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 104,
+          "retained_length": 104,
+          "original_junction_cut0": 92,
+          "new_junction_cut0": 92,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-66",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 113,
+          "retained_length": 113,
+          "original_junction_cut0": 101,
+          "new_junction_cut0": 101,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-24",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 108,
+          "retained_length": 108,
+          "original_junction_cut0": 96,
+          "new_junction_cut0": 96,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-24",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 114,
+          "retained_length": 114,
+          "original_junction_cut0": 102,
+          "new_junction_cut0": 102,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-74",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 118,
+          "retained_length": 118,
+          "original_junction_cut0": 106,
+          "new_junction_cut0": 106,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-74",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 113,
+          "retained_length": 113,
+          "original_junction_cut0": 101,
+          "new_junction_cut0": 101,
+          "sequence_and_quality_trimmed_identically": true
+        }
+      ]
+    },
+    {
+      "id": "strong_trim_anchor20",
+      "kind": "end-trimmed public fragment pairs; no manufactured bases",
+      "source_fusion_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-66",
+        "BCR-ABL1-24",
+        "BCR-ABL1-74"
+      ],
+      "input_pairs": 36,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-12",
+        "BCR-ABL1-66",
+        "BCR-ABL1-24",
+        "BCR-ABL1-74"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R1.fastq.gz",
+          "sha256": "044568a2fa61d5a6b4bed7685ffa16833370ebf4c5db115db103714205fe6cde",
+          "uncompressed_sha256": "dfca84420755e15d2b48ac6c867408ecd8fbfe555ad50fab55a3a298ce1230a0",
+          "bytes": 2635
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R2.fastq.gz",
+          "sha256": "257b9f934fa85ff098353c6740279e4afcc06f3012b688b86e803f9ea80d9c4a",
+          "uncompressed_sha256": "01dd67a02fa2134661e1b4d5dae56fa25d7c65e68345217063859a7684bf39b3",
+          "bytes": 2852
+        }
+      ],
+      "anchor_cap": 20,
+      "trim_records": [
+        {
+          "name": "BCR-ABL1-12",
+          "mate": 1,
+          "original_start0_retained": 34,
+          "original_end0_retained": 150,
+          "retained_length": 116,
+          "original_junction_cut0": 54,
+          "new_junction_cut0": 20,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-12",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": null,
+          "new_junction_cut0": null,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-66",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 112,
+          "retained_length": 112,
+          "original_junction_cut0": 92,
+          "new_junction_cut0": 92,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-66",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 121,
+          "retained_length": 121,
+          "original_junction_cut0": 101,
+          "new_junction_cut0": 101,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-24",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 116,
+          "retained_length": 116,
+          "original_junction_cut0": 96,
+          "new_junction_cut0": 96,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-24",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 122,
+          "retained_length": 122,
+          "original_junction_cut0": 102,
+          "new_junction_cut0": 102,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-74",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 126,
+          "retained_length": 126,
+          "original_junction_cut0": 106,
+          "new_junction_cut0": 106,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-74",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 121,
+          "retained_length": 121,
+          "original_junction_cut0": 101,
+          "new_junction_cut0": 101,
+          "sequence_and_quality_trimmed_identically": true
+        }
+      ]
+    },
+    {
+      "id": "strong_trim_anchor30",
+      "kind": "end-trimmed public fragment pairs; no manufactured bases",
+      "source_fusion_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-66",
+        "BCR-ABL1-24",
+        "BCR-ABL1-74"
+      ],
+      "input_pairs": 36,
+      "names": [
+        "UNFUSED_BCR_00",
+        "UNFUSED_BCR_01",
+        "UNFUSED_BCR_02",
+        "UNFUSED_BCR_03",
+        "UNFUSED_BCR_04",
+        "UNFUSED_BCR_05",
+        "UNFUSED_BCR_06",
+        "UNFUSED_BCR_07",
+        "UNFUSED_BCR_08",
+        "UNFUSED_BCR_09",
+        "UNFUSED_BCR_10",
+        "UNFUSED_BCR_11",
+        "UNFUSED_BCR_12",
+        "UNFUSED_BCR_13",
+        "UNFUSED_BCR_14",
+        "UNFUSED_BCR_15",
+        "UNFUSED_ABL1_00",
+        "UNFUSED_ABL1_01",
+        "UNFUSED_ABL1_02",
+        "UNFUSED_ABL1_03",
+        "UNFUSED_ABL1_04",
+        "UNFUSED_ABL1_05",
+        "UNFUSED_ABL1_06",
+        "UNFUSED_ABL1_07",
+        "UNFUSED_ABL1_08",
+        "UNFUSED_ABL1_09",
+        "UNFUSED_ABL1_10",
+        "UNFUSED_ABL1_11",
+        "UNFUSED_ABL1_12",
+        "UNFUSED_ABL1_13",
+        "UNFUSED_ABL1_14",
+        "UNFUSED_ABL1_15",
+        "BCR-ABL1-12",
+        "BCR-ABL1-66",
+        "BCR-ABL1-24",
+        "BCR-ABL1-74"
+      ],
+      "files": [
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor30.R1.fastq.gz",
+          "sha256": "4cd0897d4867cc6eab6d1f5be2f41aef75e4f90848e8cb847d9c8123496140c7",
+          "uncompressed_sha256": "0f05f715511382c7c05082ad8ab5d40ecba6c7cad951f1bd0870d0bbb27ea5f0",
+          "bytes": 2639
+        },
+        {
+          "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor30.R2.fastq.gz",
+          "sha256": "ad3002567ff48433a0c2c131ca0e5f25b53beb4786dde9015b406e024d854a4c",
+          "uncompressed_sha256": "8c58eb3f97dea609fae470febe950444d1a252ffb17d1dcd10485db66a483d2a",
+          "bytes": 2855
+        }
+      ],
+      "anchor_cap": 30,
+      "trim_records": [
+        {
+          "name": "BCR-ABL1-12",
+          "mate": 1,
+          "original_start0_retained": 24,
+          "original_end0_retained": 150,
+          "retained_length": 126,
+          "original_junction_cut0": 54,
+          "new_junction_cut0": 30,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-12",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 150,
+          "retained_length": 150,
+          "original_junction_cut0": null,
+          "new_junction_cut0": null,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-66",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 122,
+          "retained_length": 122,
+          "original_junction_cut0": 92,
+          "new_junction_cut0": 92,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-66",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 131,
+          "retained_length": 131,
+          "original_junction_cut0": 101,
+          "new_junction_cut0": 101,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-24",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 126,
+          "retained_length": 126,
+          "original_junction_cut0": 96,
+          "new_junction_cut0": 96,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-24",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 132,
+          "retained_length": 132,
+          "original_junction_cut0": 102,
+          "new_junction_cut0": 102,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-74",
+          "mate": 1,
+          "original_start0_retained": 0,
+          "original_end0_retained": 136,
+          "retained_length": 136,
+          "original_junction_cut0": 106,
+          "new_junction_cut0": 106,
+          "sequence_and_quality_trimmed_identically": true
+        },
+        {
+          "name": "BCR-ABL1-74",
+          "mate": 2,
+          "original_start0_retained": 0,
+          "original_end0_retained": 131,
+          "retained_length": 131,
+          "original_junction_cut0": 101,
+          "new_junction_cut0": 101,
+          "sequence_and_quality_trimmed_identically": true
+        }
+      ]
+    }
+  ],
+  "compact_matrix": [
+    {
+      "dataset": "parental_zero",
+      "sparseD": 1
+    },
+    {
+      "dataset": "parental_zero",
+      "sparseD": 8
+    },
+    {
+      "dataset": "fixture_all40",
+      "sparseD": 1
+    },
+    {
+      "dataset": "fixture_all40",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_01_selection_1",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_01_selection_1",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_01_selection_2",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_01_selection_2",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_01_selection_3",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_01_selection_3",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_02_selection_1",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_02_selection_1",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_02_selection_2",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_02_selection_2",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_02_selection_3",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_02_selection_3",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_03_selection_1",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_03_selection_1",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_03_selection_2",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_03_selection_2",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_03_selection_3",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_03_selection_3",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_05_selection_1",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_05_selection_1",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_05_selection_2",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_05_selection_2",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_05_selection_3",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_05_selection_3",
+      "sparseD": 8
+    },
+    {
+      "dataset": "support_all",
+      "sparseD": 1
+    },
+    {
+      "dataset": "support_all",
+      "sparseD": 8
+    },
+    {
+      "dataset": "shortest_anchor",
+      "sparseD": 1
+    },
+    {
+      "dataset": "shortest_anchor",
+      "sparseD": 8
+    },
+    {
+      "dataset": "strong_original",
+      "sparseD": 1
+    },
+    {
+      "dataset": "strong_original",
+      "sparseD": 8
+    },
+    {
+      "dataset": "strong_trim_anchor12",
+      "sparseD": 1
+    },
+    {
+      "dataset": "strong_trim_anchor12",
+      "sparseD": 8
+    },
+    {
+      "dataset": "strong_trim_anchor20",
+      "sparseD": 1
+    },
+    {
+      "dataset": "strong_trim_anchor20",
+      "sparseD": 8
+    },
+    {
+      "dataset": "strong_trim_anchor30",
+      "sparseD": 1
+    },
+    {
+      "dataset": "strong_trim_anchor30",
+      "sparseD": 8
+    }
+  ],
+  "full_reference_D8_transfer_checks": [
+    "parental_zero",
+    "shortest_anchor",
+    "strong_trim_anchor12"
+  ],
+  "no_prior_comparison": {
+    "dataset": "support_01_selection_1",
+    "sparseD": 1,
+    "omit_arriba_flags": [
+      "-k"
+    ],
+    "keep_tags_flag_t": true,
+    "reason": "One predeclared check of known-fusion recovery prior; no filter thresholds changed."
+  },
+  "resources": {
+    "max_process_RSS_GiB": 12,
+    "disk_min_GiB": 3,
+    "STAR_threads": 2,
+    "execution": "Sequential STAR to small BAM, then Arriba; gzip all caller logs during execution to avoid repetitive unknown-contig warning disk usage; no new index/download.",
+    "expected_max_runs": 44
+  },
+  "outcomes": [
+    "Exact breakpoints accepted/discarded, confidence and filter reasons",
+    "Distinct input query names vs distinct STAR target-junction names vs Arriba supporting names",
+    "Per-name target/competing-locus alignment geometry, CIGAR, anchors, MAPQ, NH and NM",
+    "Target support identity intersections/differences D1 versus D8",
+    "Warnings and resource metrics; no detection-rate extrapolation"
+  ],
+  "fixed_settings": "STAR2.7.11b, Arriba2.5.1, GENCODE37; identical declared mapping/filter parameters; SAindex12 and overhang160; only sparseD varies in compact pairwise comparisons. Parent background fixed across support/anchor datasets. Source pair identity/sequences/quality unchanged except explicitly trimmed datasets. No duplicate copies of identical source fragments.",
+  "limitations": [
+    "Selected subsets overlap and share one synthetic fixture; not independent biological replicates.",
+    "Ungapped sequence-derived eligibility threshold is a benchmark definition, not all possible true fragment truth.",
+    "Compact reference lacks competing loci; full-reference D8 transfer checks address only three prespecified cases.",
+    "Known BCR::ABL1 prior stays enabled except one declared no-prior comparison.",
+    "Trimming also changes read length and mate geometry, so effects cannot be assigned solely to anchor length.",
+    "Synthetic parental controls reuse fixture quality strings and sample a tiny portion of normal transcript diversity.",
+    "No patient data, new clinical claims, whole-RNA rerun or changes to earlier outputs."
+  ]
+}

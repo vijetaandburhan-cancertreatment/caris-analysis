@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-10-05T05:53:21.890463+00:00",
+  "independent_method": "Rebuilt joined sequence from genomic FASTA; read-substring lookup instead of marker-string search; separate CIGAR coordinate traversal instead of get_aligned_pairs; all bounded BAM records checked. Original whole DNA was not rescanned.",
+  "records": 44483,
+  "strict_records": 19611,
+  "name_RG_fragments": 22246,
+  "exact_marker_counts": {
+    "strict_50nt_BQ20": 0,
+    "strict_50nt_BQ30": 0,
+    "strict_100nt_BQ20": 0,
+    "strict_100nt_BQ30": 0,
+    "all_flags_50nt_BQ20": 0,
+    "all_flags_50nt_BQ30": 0,
+    "all_flags_100nt_BQ20": 0,
+    "all_flags_100nt_BQ30": 0
+  },
+  "any_exact_marker_ignoring_BQ_fragments": 0,
+  "synthetic_quality_threshold_cases": 288,
+  "coverage_fields_reproduced": 180,
+  "marker_set_rebuilt_from_genomic_FASTA_matches": true,
+  "bounded_BAM_sha256": "42638a6cff2bd523c2d897ec7e47dd1f336e60089c0d07ebf73294d31da76cf8",
+  "scope": "Negative only within saved locus/mate records and these RNA-derived exact markers; not genomic rearrangement exclusion."
+}

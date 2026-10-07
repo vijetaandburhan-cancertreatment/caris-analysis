@@ -1,0 +1,14 @@
+{
+  "completed_utc": "2026-10-05T06:11:30.127985+00:00",
+  "prior_RNA_version_manifest_sha256": "ef400711acf72ded0c49f4d2282d9359fe88d8abeb56fdce4447c6adf4d2471b",
+  "prior_RNA_entries_reverified": 44,
+  "prior_RNA_entries_reverified_from_resident_mirror": true,
+  "DNA_addendum_manifest_sha256": "1766c3712057f8b2d0926d002823a13a603322784eefdc497962177c266c0370",
+  "DNA_addendum_entries": 33,
+  "DNA_addendum_findings_sha256": "ece1407edf377b93163c6caba1e4d50a7aac2bfbe39a5d6098c23a4a03ef7d16",
+  "DNA_addendum_bounded_BAM_sha256": "42638a6cff2bd523c2d897ec7e47dd1f336e60089c0d07ebf73294d31da76cf8",
+  "local_directory": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05",
+  "resident_mirror": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05",
+  "separate_versions": true,
+  "manifest_self_hash_excluded": true
+}

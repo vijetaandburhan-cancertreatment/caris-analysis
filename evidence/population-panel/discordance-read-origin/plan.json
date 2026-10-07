@@ -1,0 +1,39 @@
+{
+  "frozen_utc": "2026-10-05T06:50:31.039344+00:00",
+  "version": "read-origin-v1-prespecified-before-patient-fetch",
+  "loci_coordinate_first_cap": 20,
+  "initial_loci": [
+    [
+      "chr2",
+      189043211
+    ],
+    [
+      "chr3",
+      195568834
+    ],
+    [
+      "chr5",
+      443259
+    ],
+    [
+      "chr5",
+      80654917
+    ],
+    [
+      "chr8",
+      100705591
+    ],
+    [
+      "chr8",
+      100705604
+    ]
+  ],
+  "selection": "Same six strong sites confirmed by root independent all-site exact ACGT screen. No residual added sites. Preserve all original panel/count/v2 results.",
+  "fetch": "Indexed original DNA/RNA BAM at each coordinate only; preserve all fetched read sequences/qualities/flags/CIGAR/NH/SA and mate geometry. Collapse queryname+RG only for count summaries and conflict accounting, not assertion of independent molecules.",
+  "quality_context": "Compare expected/unexpected ACGT by MAPQ, NH, BQ, query-edge distance, strand, splice/indel/softclip context, and full-sequence/start families. Primary filters as original frozen panel; variants agent owns independent counts/sensitivity.",
+  "public_context": "G37 transcript/exon annotation, genomic neighborhood, exact31/51nt site-centered allele contexts; no assumed paralog mechanism without sequence evidence.",
+  "origin_if_needed": "At most8 unexpected-RNA +4 expected-RNA +2 unexpected-DNA full-sequence-family representatives per site, ranked by descending family-name count then deterministic sequence. Preserve counts/omissions. Frozen19nt disjoint+terminal seeds, both orientations; genome/G37 transcript nomination, <=1000hits per seed/reference and<=500windows/query/reference, mark all caps; same prior affine full-query physical-window-end conventions. No likelihood interpretation.",
+  "bounds": "Sequential process;4GiB RSS;3GiB free-disk guard;newoutputs<=1GiB;no full patient BAM scan/new alignment/download/read upload.",
+  "controls": "Synthetic CIGAR exact/softclip/splice/indel/low-BQ/mate-conflict cases before patient count interpretation; normal-parent/mismatch/indel controls if alternative-scoring branch used.",
+  "prohibited": "No clinical interpretation, identity certainty, contamination quantification, allelic expression mechanism proof or forced artifact explanation."
+}

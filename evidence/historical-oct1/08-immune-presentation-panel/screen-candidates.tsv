@@ -1,0 +1,25 @@
+gene	chrom	pos1	ref	alt	screen_type	screen_alt_reads	screen_anchor_read_depth	screen_fraction	consequence	protein	coding	transcript	Caris_VCF_exact_matches
+TAP1	chr6	32847125	C	T	SNV	227	454	0.5	synonymous	=	c.1983G>A	ENST00000354258.5	[]
+TAP1	chr6	32847198	T	C	SNV	336	336	1.0	missense	D637G	c.1910A>G	ENST00000354258.5	[]
+TAP1	chr6	32848666	C	T	SNV	61	131	0.46564885496183206	missense	V518I	c.1552G>A	ENST00000354258.5	[]
+TAP1	chr6	32850459	G	A	SNV	148	347	0.4265129682997118	missense	A370V	c.1109C>T	ENST00000354258.5	[]
+TAP1	chr6	32850997	T	C	SNV	473	473	1.0	missense	I333V	c.997A>G	ENST00000354258.5	[]
+TAP1	chr6	32852191	G	A	SNV	148	332	0.4457831325301205	synonymous	=	c.762C>T	ENST00000354258.5	[]
+TAP1	chr6	32853214	A	G	SNV	219	451	0.48558758314855877	synonymous	=	c.423T>C	ENST00000354258.5	[]
+TAP2	chr6	32830032	C	T	SNV	176	417	0.42206235011990406	missense	A565T	c.1693G>A	ENST00000374897.4	[]
+TAP2	chr6	32832635	C	T	SNV	200	484	0.4132231404958678	missense	V379I	c.1135G>A	ENST00000374897.4	[]
+TAPBP	chr6	33305078	G	C	SNV	845	845	1.0	missense	T260R	c.779C>G	ENST00000434618.7	[]
+JAK2	chr9	5050706	C	T	SNV	166	900	0.18444444444444444	synonymous	=	c.489C>T	ENST00000381652.4	"[{""line"": 1677, ""filter"": ""."", ""protein"": ""H163="", ""gene"": ""JAK2"", ""clinical"": null, ""VAF"": ""0.184""}]"
+JAK2	chr9	5081780	G	A	SNV	988	988	1.0	synonymous	=	c.2490G>A	ENST00000381652.4	"[{""line"": 1682, ""filter"": ""."", ""protein"": ""L830="", ""gene"": ""JAK2"", ""clinical"": null, ""VAF"": ""0.998""}]"
+IFNGR1	chr6	137198101	A	G	SNV	263	263	1.0	missense	L467P	c.1400T>C	ENST00000367739.9	"[{""line"": 1248, ""filter"": ""rs"", ""protein"": ""L467P"", ""gene"": ""IFNGR1"", ""clinical"": null, ""VAF"": ""1.000""}]"
+IFNGR2	chr21	33415005	A	G	SNV	111	290	0.38275862068965516	missense	Q64R	c.191A>G	ENST00000290219.11	[]
+IRF1	chr5	132486363	T	C	SNV	950	950	1.0	synonymous	=	c.555A>G	ENST00000245414.9	"[{""line"": 1099, ""filter"": ""rs"", ""protein"": ""P185="", ""gene"": ""IRF1"", ""clinical"": null, ""VAF"": ""1.000""}]"
+NLRC5	chr16	57025515	C	T	SNV	144	252	0.5714285714285714	missense	P191L	c.572C>T	ENST00000262510.10	[]
+NLRC5	chr16	57037201	T	C	SNV	330	568	0.5809859154929577	synonymous	=	c.2718T>C	ENST00000262510.10	[]
+NLRC5	chr16	57037202	A	G	SNV	573	573	1.0	missense	N907D	c.2719A>G	ENST00000262510.10	[]
+NLRC5	chr16	57070607	A	G	SNV	82	133	0.6165413533834586	synonymous	=	c.4656A>G	ENST00000262510.10	[]
+NLRC5	chr16	57077320	C	T	SNV	76	121	0.628099173553719	synonymous	=	c.4860C>T	ENST00000262510.10	[]
+PSMB8	chr6	32843868	A	G	SNV	188	489	0.38445807770961143	synonymous	=	c.129T>C	ENST00000374882.8	[]
+CIITA	chr16	10909047	G	A	SNV	1262	1262	1.0	synonymous	=	c.2676G>A	ENST00000324288.14	"[{""line"": 2435, ""filter"": ""rs"", ""protein"": ""T892="", ""gene"": ""CIITA"", ""clinical"": null, ""VAF"": ""1.000""}]"
+CIITA	chr16	10909070	A	G	SNV	1378	1378	1.0	missense	Q900R	c.2699A>G	ENST00000324288.14	"[{""line"": 2436, ""filter"": ""rs"", ""protein"": ""Q900R"", ""gene"": ""CIITA"", ""clinical"": null, ""VAF"": ""1.000""}]"
+RFX5	chr1	151343685	G	A	SNV	175	175	1.0	synonymous	=	c.753C>T	ENST00000452671.7	[]

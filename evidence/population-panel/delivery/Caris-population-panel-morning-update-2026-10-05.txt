@@ -1,0 +1,29 @@
+Caris population-selected DNA/RNA check — 5 October 2026
+Supplement to the completed, unchanged v2 research handoff
+
+The additional check is complete. It used a public common-SNP panel selected without Papa’s DNA allele calls, addressing a selection limitation in the older 335-marker DNA/RNA comparison.
+
+Main result
+All 165,782 selected positions on chromosomes 2, 3, 5, 8, 9 and 17 remain in the coverage accounting. There are 4,015 sites with at least 20 unambiguous A/C/G/T query-name units in both assays. At 2,873 sites dominated by one DNA allele (at least 98%), RNA retains that allele at at least 90% at 2,860 sites (99.55%); 2,760 retain it at at least 98%. None of these baseline DNA-dominant positions becomes at least 98% the opposite REF/ALT allele in RNA.
+
+This is broad allele compatibility, not a clinical identity test, contamination estimate, independent realignment validation, or prognosis result. The loci are selected and correlated. A prespecified subset spaced at least 50 kb apart retained 120 DNA-dominant callable sites; all 120 retain the same RNA allele at at least 90%, and 115 at at least 98%.
+
+Exceptions remain visible
+There are 13 baseline dominant-DNA sites with less than 90% same-allele RNA retention. Six meet the prespecified stronger depth/allele threshold: COL5A2, APOD, EXOC3, MSH3/DHFR and two adjacent PABPC1 positions. Read-end dependence and local gap-placement alternatives qualify several sites, without proving a corrected origin. PABPC1 remains unresolved; the two positions share 65 supporting query names in the same qualifying alignments and are not independent checks. Seven lower-depth exceptions and three separate MAPQ 60-sensitive flags are retained in the evidence tables. No discrepancy was converted into a new tumor mutation or treatment target.
+
+Verification
+A separate CIGAR-based implementation exactly reproduced all 4,015 baseline positions in both assays across six checked fields. Summary arithmetic, thresholds, spacing and coverage accounting were independently verified. Fresh effectively uncapped DNA counts match all 935,370 compared integer fields in the previous 62,358 observed DNA rows. Installed depth/mate/filter controls passed. The ordinary-reference alignment scorer independently reproduced 670 exported scores.
+
+Important coverage qualification
+RNA has 25,707 positions with at least one qualifying A/C/G/T unit, not 78,071 base-covered positions: many reported pileup rows contain only reference skips or other non-ACGT/zero evidence. Of 73 public sites inside the retained newer BAP1/RASA1 alignment intervals, none meets joint callability; maximum original RNA depth is 9. The newer-alignment comparison is explicitly not evaluable. No threshold was relaxed.
+
+What this changes
+It provides additional technical support for using the paired Caris data in the already completed research work. It does not change the v2 biological handoff or prioritize a different treatment. The MTAP confirmation and BAP1/RASA1 antigen-related research leads in v2 remain at their previously stated validation level.
+
+Deliverables
+Caris-DNA-RNA-population-panel-addendum-2026-10-05.pdf — three-page black/white report.
+Caris-population-panel-evidence-2026-10-05.zip — frozen design, all selected-locus counts, scripts, independent audits, discrepancy/read-context evidence and provenance.
+The archive is additive; the v2 one-pager, full report, evidence bundle and original Caris data remain unchanged. Large compressed raw pileups are preserved in the resident analysis folder and listed by hash in the archive manifest.
+
+Execution and cost
+Local execution only. No new AWS compute, EBS, upgrade, IAM/security changes, external outreach or reset. The AWS plan upgrade remains deferred and unapproved. The authorized credits were not needed for this follow-up. No confirmation is required for the completed local work.

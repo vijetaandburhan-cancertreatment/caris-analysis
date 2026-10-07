@@ -1,0 +1,3643 @@
+{
+  "created_utc": "2026-10-01T19:27:49Z",
+  "pysam_version": "0.24.1",
+  "samtools_version": "1.24",
+  "max_threads": 2,
+  "files": [
+    {
+      "kind": "RNA",
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/outputs/caris-raw-data/TN26-279853/RNA_TN26-279853.bam",
+      "bytes": 2835547302,
+      "index": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-analysis/RNA_TN26-279853.bam.bai",
+      "index_bytes": 3626064,
+      "header": {
+        "HD": {
+          "VN": "1.4",
+          "SO": "coordinate"
+        },
+        "SQ": [
+          {
+            "SN": "chr1",
+            "LN": 248956422
+          },
+          {
+            "SN": "chr2",
+            "LN": 242193529
+          },
+          {
+            "SN": "chr3",
+            "LN": 198295559
+          },
+          {
+            "SN": "chr4",
+            "LN": 190214555
+          },
+          {
+            "SN": "chr5",
+            "LN": 181538259
+          },
+          {
+            "SN": "chr6",
+            "LN": 170805979
+          },
+          {
+            "SN": "chr7",
+            "LN": 159345973
+          },
+          {
+            "SN": "chr8",
+            "LN": 145138636
+          },
+          {
+            "SN": "chr9",
+            "LN": 138394717
+          },
+          {
+            "SN": "chr10",
+            "LN": 133797422
+          },
+          {
+            "SN": "chr11",
+            "LN": 135086622
+          },
+          {
+            "SN": "chr12",
+            "LN": 133275309
+          },
+          {
+            "SN": "chr13",
+            "LN": 114364328
+          },
+          {
+            "SN": "chr14",
+            "LN": 107043718
+          },
+          {
+            "SN": "chr15",
+            "LN": 101991189
+          },
+          {
+            "SN": "chr16",
+            "LN": 90338345
+          },
+          {
+            "SN": "chr17",
+            "LN": 83257441
+          },
+          {
+            "SN": "chr18",
+            "LN": 80373285
+          },
+          {
+            "SN": "chr19",
+            "LN": 58617616
+          },
+          {
+            "SN": "chr20",
+            "LN": 64444167
+          },
+          {
+            "SN": "chr21",
+            "LN": 46709983
+          },
+          {
+            "SN": "chr22",
+            "LN": 50818468
+          },
+          {
+            "SN": "chrX",
+            "LN": 156040895
+          },
+          {
+            "SN": "chrY",
+            "LN": 57227415
+          },
+          {
+            "SN": "chrM",
+            "LN": 16569
+          },
+          {
+            "SN": "GL000008.2",
+            "LN": 209709
+          },
+          {
+            "SN": "GL000009.2",
+            "LN": 201709
+          },
+          {
+            "SN": "GL000194.1",
+            "LN": 191469
+          },
+          {
+            "SN": "GL000195.1",
+            "LN": 182896
+          },
+          {
+            "SN": "GL000205.2",
+            "LN": 185591
+          },
+          {
+            "SN": "GL000208.1",
+            "LN": 92689
+          },
+          {
+            "SN": "GL000213.1",
+            "LN": 164239
+          },
+          {
+            "SN": "GL000214.1",
+            "LN": 137718
+          },
+          {
+            "SN": "GL000216.2",
+            "LN": 176608
+          },
+          {
+            "SN": "GL000218.1",
+            "LN": 161147
+          },
+          {
+            "SN": "GL000219.1",
+            "LN": 179198
+          },
+          {
+            "SN": "GL000220.1",
+            "LN": 161802
+          },
+          {
+            "SN": "GL000221.1",
+            "LN": 155397
+          },
+          {
+            "SN": "GL000224.1",
+            "LN": 179693
+          },
+          {
+            "SN": "GL000225.1",
+            "LN": 211173
+          },
+          {
+            "SN": "GL000226.1",
+            "LN": 15008
+          },
+          {
+            "SN": "KI270302.1",
+            "LN": 2274
+          },
+          {
+            "SN": "KI270303.1",
+            "LN": 1942
+          },
+          {
+            "SN": "KI270304.1",
+            "LN": 2165
+          },
+          {
+            "SN": "KI270305.1",
+            "LN": 1472
+          },
+          {
+            "SN": "KI270310.1",
+            "LN": 1201
+          },
+          {
+            "SN": "KI270311.1",
+            "LN": 12399
+          },
+          {
+            "SN": "KI270312.1",
+            "LN": 998
+          },
+          {
+            "SN": "KI270315.1",
+            "LN": 2276
+          },
+          {
+            "SN": "KI270316.1",
+            "LN": 1444
+          },
+          {
+            "SN": "KI270317.1",
+            "LN": 37690
+          },
+          {
+            "SN": "KI270320.1",
+            "LN": 4416
+          },
+          {
+            "SN": "KI270322.1",
+            "LN": 21476
+          },
+          {
+            "SN": "KI270329.1",
+            "LN": 1040
+          },
+          {
+            "SN": "KI270330.1",
+            "LN": 1652
+          },
+          {
+            "SN": "KI270333.1",
+            "LN": 2699
+          },
+          {
+            "SN": "KI270334.1",
+            "LN": 1368
+          },
+          {
+            "SN": "KI270335.1",
+            "LN": 1048
+          },
+          {
+            "SN": "KI270336.1",
+            "LN": 1026
+          },
+          {
+            "SN": "KI270337.1",
+            "LN": 1121
+          },
+          {
+            "SN": "KI270338.1",
+            "LN": 1428
+          },
+          {
+            "SN": "KI270340.1",
+            "LN": 1428
+          },
+          {
+            "SN": "KI270362.1",
+            "LN": 3530
+          },
+          {
+            "SN": "KI270363.1",
+            "LN": 1803
+          },
+          {
+            "SN": "KI270364.1",
+            "LN": 2855
+          },
+          {
+            "SN": "KI270366.1",
+            "LN": 8320
+          },
+          {
+            "SN": "KI270371.1",
+            "LN": 2805
+          },
+          {
+            "SN": "KI270372.1",
+            "LN": 1650
+          },
+          {
+            "SN": "KI270373.1",
+            "LN": 1451
+          },
+          {
+            "SN": "KI270374.1",
+            "LN": 2656
+          },
+          {
+            "SN": "KI270375.1",
+            "LN": 2378
+          },
+          {
+            "SN": "KI270376.1",
+            "LN": 1136
+          },
+          {
+            "SN": "KI270378.1",
+            "LN": 1048
+          },
+          {
+            "SN": "KI270379.1",
+            "LN": 1045
+          },
+          {
+            "SN": "KI270381.1",
+            "LN": 1930
+          },
+          {
+            "SN": "KI270382.1",
+            "LN": 4215
+          },
+          {
+            "SN": "KI270383.1",
+            "LN": 1750
+          },
+          {
+            "SN": "KI270384.1",
+            "LN": 1658
+          },
+          {
+            "SN": "KI270385.1",
+            "LN": 990
+          },
+          {
+            "SN": "KI270386.1",
+            "LN": 1788
+          },
+          {
+            "SN": "KI270387.1",
+            "LN": 1537
+          },
+          {
+            "SN": "KI270388.1",
+            "LN": 1216
+          },
+          {
+            "SN": "KI270389.1",
+            "LN": 1298
+          },
+          {
+            "SN": "KI270390.1",
+            "LN": 2387
+          },
+          {
+            "SN": "KI270391.1",
+            "LN": 1484
+          },
+          {
+            "SN": "KI270392.1",
+            "LN": 971
+          },
+          {
+            "SN": "KI270393.1",
+            "LN": 1308
+          },
+          {
+            "SN": "KI270394.1",
+            "LN": 970
+          },
+          {
+            "SN": "KI270395.1",
+            "LN": 1143
+          },
+          {
+            "SN": "KI270396.1",
+            "LN": 1880
+          },
+          {
+            "SN": "KI270411.1",
+            "LN": 2646
+          },
+          {
+            "SN": "KI270412.1",
+            "LN": 1179
+          },
+          {
+            "SN": "KI270414.1",
+            "LN": 2489
+          },
+          {
+            "SN": "KI270417.1",
+            "LN": 2043
+          },
+          {
+            "SN": "KI270418.1",
+            "LN": 2145
+          },
+          {
+            "SN": "KI270419.1",
+            "LN": 1029
+          },
+          {
+            "SN": "KI270420.1",
+            "LN": 2321
+          },
+          {
+            "SN": "KI270422.1",
+            "LN": 1445
+          },
+          {
+            "SN": "KI270423.1",
+            "LN": 981
+          },
+          {
+            "SN": "KI270424.1",
+            "LN": 2140
+          },
+          {
+            "SN": "KI270425.1",
+            "LN": 1884
+          },
+          {
+            "SN": "KI270429.1",
+            "LN": 1361
+          },
+          {
+            "SN": "KI270435.1",
+            "LN": 92983
+          },
+          {
+            "SN": "KI270438.1",
+            "LN": 112505
+          },
+          {
+            "SN": "KI270442.1",
+            "LN": 392061
+          },
+          {
+            "SN": "KI270448.1",
+            "LN": 7992
+          },
+          {
+            "SN": "KI270465.1",
+            "LN": 1774
+          },
+          {
+            "SN": "KI270466.1",
+            "LN": 1233
+          },
+          {
+            "SN": "KI270467.1",
+            "LN": 3920
+          },
+          {
+            "SN": "KI270468.1",
+            "LN": 4055
+          },
+          {
+            "SN": "KI270507.1",
+            "LN": 5353
+          },
+          {
+            "SN": "KI270508.1",
+            "LN": 1951
+          },
+          {
+            "SN": "KI270509.1",
+            "LN": 2318
+          },
+          {
+            "SN": "KI270510.1",
+            "LN": 2415
+          },
+          {
+            "SN": "KI270511.1",
+            "LN": 8127
+          },
+          {
+            "SN": "KI270512.1",
+            "LN": 22689
+          },
+          {
+            "SN": "KI270515.1",
+            "LN": 6361
+          },
+          {
+            "SN": "KI270516.1",
+            "LN": 1300
+          },
+          {
+            "SN": "KI270517.1",
+            "LN": 3253
+          },
+          {
+            "SN": "KI270518.1",
+            "LN": 2186
+          },
+          {
+            "SN": "KI270519.1",
+            "LN": 138126
+          },
+          {
+            "SN": "KI270521.1",
+            "LN": 7642
+          },
+          {
+            "SN": "KI270522.1",
+            "LN": 5674
+          },
+          {
+            "SN": "KI270528.1",
+            "LN": 2983
+          },
+          {
+            "SN": "KI270529.1",
+            "LN": 1899
+          },
+          {
+            "SN": "KI270530.1",
+            "LN": 2168
+          },
+          {
+            "SN": "KI270538.1",
+            "LN": 91309
+          },
+          {
+            "SN": "KI270539.1",
+            "LN": 993
+          },
+          {
+            "SN": "KI270544.1",
+            "LN": 1202
+          },
+          {
+            "SN": "KI270548.1",
+            "LN": 1599
+          },
+          {
+            "SN": "KI270579.1",
+            "LN": 31033
+          },
+          {
+            "SN": "KI270580.1",
+            "LN": 1553
+          },
+          {
+            "SN": "KI270581.1",
+            "LN": 7046
+          },
+          {
+            "SN": "KI270582.1",
+            "LN": 6504
+          },
+          {
+            "SN": "KI270583.1",
+            "LN": 1400
+          },
+          {
+            "SN": "KI270584.1",
+            "LN": 4513
+          },
+          {
+            "SN": "KI270587.1",
+            "LN": 2969
+          },
+          {
+            "SN": "KI270588.1",
+            "LN": 6158
+          },
+          {
+            "SN": "KI270589.1",
+            "LN": 44474
+          },
+          {
+            "SN": "KI270590.1",
+            "LN": 4685
+          },
+          {
+            "SN": "KI270591.1",
+            "LN": 5796
+          },
+          {
+            "SN": "KI270593.1",
+            "LN": 3041
+          },
+          {
+            "SN": "KI270706.1",
+            "LN": 175055
+          },
+          {
+            "SN": "KI270707.1",
+            "LN": 32032
+          },
+          {
+            "SN": "KI270708.1",
+            "LN": 127682
+          },
+          {
+            "SN": "KI270709.1",
+            "LN": 66860
+          },
+          {
+            "SN": "KI270710.1",
+            "LN": 40176
+          },
+          {
+            "SN": "KI270711.1",
+            "LN": 42210
+          },
+          {
+            "SN": "KI270712.1",
+            "LN": 176043
+          },
+          {
+            "SN": "KI270713.1",
+            "LN": 40745
+          },
+          {
+            "SN": "KI270714.1",
+            "LN": 41717
+          },
+          {
+            "SN": "KI270715.1",
+            "LN": 161471
+          },
+          {
+            "SN": "KI270716.1",
+            "LN": 153799
+          },
+          {
+            "SN": "KI270717.1",
+            "LN": 40062
+          },
+          {
+            "SN": "KI270718.1",
+            "LN": 38054
+          },
+          {
+            "SN": "KI270719.1",
+            "LN": 176845
+          },
+          {
+            "SN": "KI270720.1",
+            "LN": 39050
+          },
+          {
+            "SN": "KI270721.1",
+            "LN": 100316
+          },
+          {
+            "SN": "KI270722.1",
+            "LN": 194050
+          },
+          {
+            "SN": "KI270723.1",
+            "LN": 38115
+          },
+          {
+            "SN": "KI270724.1",
+            "LN": 39555
+          },
+          {
+            "SN": "KI270725.1",
+            "LN": 172810
+          },
+          {
+            "SN": "KI270726.1",
+            "LN": 43739
+          },
+          {
+            "SN": "KI270727.1",
+            "LN": 448248
+          },
+          {
+            "SN": "KI270728.1",
+            "LN": 1872759
+          },
+          {
+            "SN": "KI270729.1",
+            "LN": 280839
+          },
+          {
+            "SN": "KI270730.1",
+            "LN": 112551
+          },
+          {
+            "SN": "KI270731.1",
+            "LN": 150754
+          },
+          {
+            "SN": "KI270732.1",
+            "LN": 41543
+          },
+          {
+            "SN": "KI270733.1",
+            "LN": 179772
+          },
+          {
+            "SN": "KI270734.1",
+            "LN": 165050
+          },
+          {
+            "SN": "KI270735.1",
+            "LN": 42811
+          },
+          {
+            "SN": "KI270736.1",
+            "LN": 181920
+          },
+          {
+            "SN": "KI270737.1",
+            "LN": 103838
+          },
+          {
+            "SN": "KI270738.1",
+            "LN": 99375
+          },
+          {
+            "SN": "KI270739.1",
+            "LN": 73985
+          },
+          {
+            "SN": "KI270740.1",
+            "LN": 37240
+          },
+          {
+            "SN": "KI270741.1",
+            "LN": 157432
+          },
+          {
+            "SN": "KI270742.1",
+            "LN": 186739
+          },
+          {
+            "SN": "KI270743.1",
+            "LN": 210658
+          },
+          {
+            "SN": "KI270744.1",
+            "LN": 168472
+          },
+          {
+            "SN": "KI270745.1",
+            "LN": 41891
+          },
+          {
+            "SN": "KI270746.1",
+            "LN": 66486
+          },
+          {
+            "SN": "KI270747.1",
+            "LN": 198735
+          },
+          {
+            "SN": "KI270748.1",
+            "LN": 93321
+          },
+          {
+            "SN": "KI270749.1",
+            "LN": 158759
+          },
+          {
+            "SN": "KI270750.1",
+            "LN": 148850
+          },
+          {
+            "SN": "KI270751.1",
+            "LN": 150742
+          },
+          {
+            "SN": "KI270752.1",
+            "LN": 27745
+          },
+          {
+            "SN": "KI270753.1",
+            "LN": 62944
+          },
+          {
+            "SN": "KI270754.1",
+            "LN": 40191
+          },
+          {
+            "SN": "KI270755.1",
+            "LN": 36723
+          },
+          {
+            "SN": "KI270756.1",
+            "LN": 79590
+          },
+          {
+            "SN": "KI270757.1",
+            "LN": 71251
+          }
+        ],
+        "PG": [
+          {
+            "ID": "STAR",
+            "PN": "STAR",
+            "VN": "2.7.8a",
+            "CL": "/gpfs1/share/tools/envs/WTSFusion2/bin/STAR   --runThreadN 4   --genomeDir /gpfs1/share/STAR-Fusion/STAR-Fusion-v1.10.0/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir//ref_genome.fa.star.idx   --genomeLoad NoSharedMemory   --readFilesIn TN26-279853_S25.R1.fastq.gz   TN26-279853_S25.R2.fastq.gz      --readFilesCommand \"gunzip -c\"      --outFileNamePrefix /gpfs5/prod/Hybrid_WTS/260830_A01687_0587_AH2KM3DSXG/Lane1/WTSFusion/TN26-279853/   --outReadsUnmapped Fastx   --outSAMtype BAM   SortedByCoordinate      --outSAMstrandField intronMotif   --outSAMunmapped Within      --outSAMattrRGline ID:TN26-279853   SM:TN26-279853   PL:ILLUMINA      --alignIntronMax 200000   --alignMatesGapMax 200000   --alignSJDBoverhangMin 10   --alignSJstitchMismatchNmax 5   -1   5   5      --alignSplicedMateMapLmin 30   --alignSplicedMateMapLminOverLmate 0   --alignInsertionFlush Right   --peOverlapNbasesMin 12   --peOverlapMMp 0.1   --chimSegmentMin 12   --chimScoreJunctionNonGTAG -4   --chimJunctionOverhangMin 8   --chimMultimapNmax 20   --chimMultimapScoreRange 3   --chimNonchimScoreDropMin 10   --chimOutJunctionFormat 1      --quantMode GeneCounts      --twopassMode Basic"
+          }
+        ],
+        "RG": [
+          {
+            "ID": "TN26-279853",
+            "SM": "TN26-279853",
+            "PL": "ILLUMINA"
+          }
+        ],
+        "CO": [
+          "user command line: /gpfs1/share/tools/envs/WTSFusion2/bin/STAR --runThreadN 4 --genomeDir /gpfs1/share/STAR-Fusion/STAR-Fusion-v1.10.0/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir//ref_genome.fa.star.idx --readFilesIn TN26-279853_S25.R1.fastq.gz TN26-279853_S25.R2.fastq.gz --outFileNamePrefix /gpfs5/prod/Hybrid_WTS/260830_A01687_0587_AH2KM3DSXG/Lane1/WTSFusion/TN26-279853/ --outSAMattrRGline ID:TN26-279853 SM:TN26-279853 PL:ILLUMINA --outReadsUnmapped Fastx --chimSegmentMin 12 --chimJunctionOverhangMin 8 --chimOutJunctionFormat 1 --alignSJDBoverhangMin 10 --alignMatesGapMax 200000 --alignIntronMax 200000 --alignSJstitchMismatchNmax 5 -1 5 5 --outSAMstrandField intronMotif --outSAMunmapped Within --alignInsertionFlush Right --alignSplicedMateMapLminOverLmate 0 --alignSplicedMateMapLmin 30 --outSAMtype BAM SortedByCoordinate --chimMultimapScoreRange 3 --chimScoreJunctionNonGTAG -4 --chimMultimapNmax 20 --chimNonchimScoreDropMin 10 --peOverlapNbasesMin 12 --peOverlapMMp 0.1 --genomeLoad NoSharedMemory --twopassMode Basic --readFilesCommand \"gunzip -c\" --quantMode GeneCounts"
+        ]
+      },
+      "flagstat": {
+        "QC-passed reads": {
+          "total": 71034470,
+          "primary": 46418528,
+          "secondary": 24615942,
+          "supplementary": 0,
+          "duplicates": 0,
+          "primary duplicates": 0,
+          "mapped": 67827021,
+          "mapped %": 95.48,
+          "primary mapped": 43211079,
+          "primary mapped %": 93.09,
+          "paired in sequencing": 46418528,
+          "read1": 23209264,
+          "read2": 23209264,
+          "properly paired": 43210352,
+          "properly paired %": 93.09,
+          "with itself and mate mapped": 43210352,
+          "singletons": 727,
+          "singletons %": 0.0,
+          "with mate mapped to a different chr": 0,
+          "with mate mapped to a different chr (mapQ >= 5)": 0
+        },
+        "QC-failed reads": {
+          "total": 0,
+          "primary": 0,
+          "secondary": 0,
+          "supplementary": 0,
+          "duplicates": 0,
+          "primary duplicates": 0,
+          "mapped": 0,
+          "mapped %": null,
+          "primary mapped": 0,
+          "primary mapped %": null,
+          "paired in sequencing": 0,
+          "read1": 0,
+          "read2": 0,
+          "properly paired": 0,
+          "properly paired %": null,
+          "with itself and mate mapped": 0,
+          "singletons": 0,
+          "singletons %": null,
+          "with mate mapped to a different chr": 0,
+          "with mate mapped to a different chr (mapQ >= 5)": 0
+        }
+      },
+      "idxstats": [
+        {
+          "contig": "chr1",
+          "mapped": 3100289,
+          "unmapped": 0,
+          "total": 3100289
+        },
+        {
+          "contig": "chr2",
+          "mapped": 2833029,
+          "unmapped": 0,
+          "total": 2833029
+        },
+        {
+          "contig": "chr3",
+          "mapped": 1958642,
+          "unmapped": 0,
+          "total": 1958642
+        },
+        {
+          "contig": "chr4",
+          "mapped": 1624214,
+          "unmapped": 0,
+          "total": 1624214
+        },
+        {
+          "contig": "chr5",
+          "mapped": 2651618,
+          "unmapped": 0,
+          "total": 2651618
+        },
+        {
+          "contig": "chr6",
+          "mapped": 1901422,
+          "unmapped": 0,
+          "total": 1901422
+        },
+        {
+          "contig": "chr7",
+          "mapped": 1607447,
+          "unmapped": 0,
+          "total": 1607447
+        },
+        {
+          "contig": "chr8",
+          "mapped": 1736336,
+          "unmapped": 0,
+          "total": 1736336
+        },
+        {
+          "contig": "chr9",
+          "mapped": 1422388,
+          "unmapped": 0,
+          "total": 1422388
+        },
+        {
+          "contig": "chr10",
+          "mapped": 1639994,
+          "unmapped": 0,
+          "total": 1639994
+        },
+        {
+          "contig": "chr11",
+          "mapped": 2839374,
+          "unmapped": 0,
+          "total": 2839374
+        },
+        {
+          "contig": "chr12",
+          "mapped": 2298320,
+          "unmapped": 0,
+          "total": 2298320
+        },
+        {
+          "contig": "chr13",
+          "mapped": 532184,
+          "unmapped": 0,
+          "total": 532184
+        },
+        {
+          "contig": "chr14",
+          "mapped": 2325672,
+          "unmapped": 0,
+          "total": 2325672
+        },
+        {
+          "contig": "chr15",
+          "mapped": 1300526,
+          "unmapped": 0,
+          "total": 1300526
+        },
+        {
+          "contig": "chr16",
+          "mapped": 1921898,
+          "unmapped": 0,
+          "total": 1921898
+        },
+        {
+          "contig": "chr17",
+          "mapped": 2829315,
+          "unmapped": 0,
+          "total": 2829315
+        },
+        {
+          "contig": "chr18",
+          "mapped": 371050,
+          "unmapped": 0,
+          "total": 371050
+        },
+        {
+          "contig": "chr19",
+          "mapped": 2502446,
+          "unmapped": 0,
+          "total": 2502446
+        },
+        {
+          "contig": "chr20",
+          "mapped": 1161904,
+          "unmapped": 0,
+          "total": 1161904
+        },
+        {
+          "contig": "chr21",
+          "mapped": 12411259,
+          "unmapped": 0,
+          "total": 12411259
+        },
+        {
+          "contig": "chr22",
+          "mapped": 1210589,
+          "unmapped": 0,
+          "total": 1210589
+        },
+        {
+          "contig": "chrX",
+          "mapped": 1946494,
+          "unmapped": 0,
+          "total": 1946494
+        },
+        {
+          "contig": "chrY",
+          "mapped": 25646,
+          "unmapped": 0,
+          "total": 25646
+        },
+        {
+          "contig": "chrM",
+          "mapped": 457521,
+          "unmapped": 0,
+          "total": 457521
+        },
+        {
+          "contig": "GL000008.2",
+          "mapped": 116,
+          "unmapped": 0,
+          "total": 116
+        },
+        {
+          "contig": "GL000009.2",
+          "mapped": 240,
+          "unmapped": 0,
+          "total": 240
+        },
+        {
+          "contig": "GL000194.1",
+          "mapped": 174,
+          "unmapped": 0,
+          "total": 174
+        },
+        {
+          "contig": "GL000195.1",
+          "mapped": 1188,
+          "unmapped": 0,
+          "total": 1188
+        },
+        {
+          "contig": "GL000205.2",
+          "mapped": 5544,
+          "unmapped": 0,
+          "total": 5544
+        },
+        {
+          "contig": "GL000208.1",
+          "mapped": 36,
+          "unmapped": 0,
+          "total": 36
+        },
+        {
+          "contig": "GL000213.1",
+          "mapped": 220,
+          "unmapped": 0,
+          "total": 220
+        },
+        {
+          "contig": "GL000214.1",
+          "mapped": 498,
+          "unmapped": 0,
+          "total": 498
+        },
+        {
+          "contig": "GL000216.2",
+          "mapped": 62,
+          "unmapped": 0,
+          "total": 62
+        },
+        {
+          "contig": "GL000218.1",
+          "mapped": 220,
+          "unmapped": 0,
+          "total": 220
+        },
+        {
+          "contig": "GL000219.1",
+          "mapped": 684,
+          "unmapped": 0,
+          "total": 684
+        },
+        {
+          "contig": "GL000220.1",
+          "mapped": 6491171,
+          "unmapped": 0,
+          "total": 6491171
+        },
+        {
+          "contig": "GL000221.1",
+          "mapped": 136,
+          "unmapped": 0,
+          "total": 136
+        },
+        {
+          "contig": "GL000224.1",
+          "mapped": 724,
+          "unmapped": 0,
+          "total": 724
+        },
+        {
+          "contig": "GL000225.1",
+          "mapped": 144,
+          "unmapped": 0,
+          "total": 144
+        },
+        {
+          "contig": "GL000226.1",
+          "mapped": 6,
+          "unmapped": 0,
+          "total": 6
+        },
+        {
+          "contig": "KI270302.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270303.1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "KI270304.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270305.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270310.1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "KI270311.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270312.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270315.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270316.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270317.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270320.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270322.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270329.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270330.1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "KI270333.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270334.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270335.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270336.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270337.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270338.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270340.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270362.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270363.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270364.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270366.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270371.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270372.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270373.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270374.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270375.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270376.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270378.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270379.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270381.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270382.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270383.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270384.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270385.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270386.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270387.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270388.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270389.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270390.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270391.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270392.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270393.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270394.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270395.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270396.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270411.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270412.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270414.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270417.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270418.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270419.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270420.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270422.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270423.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270424.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270425.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270429.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270435.1",
+          "mapped": 4,
+          "unmapped": 0,
+          "total": 4
+        },
+        {
+          "contig": "KI270438.1",
+          "mapped": 176,
+          "unmapped": 0,
+          "total": 176
+        },
+        {
+          "contig": "KI270442.1",
+          "mapped": 540,
+          "unmapped": 0,
+          "total": 540
+        },
+        {
+          "contig": "KI270448.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270465.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270466.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270467.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270468.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270507.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270508.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270509.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270510.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270511.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270512.1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "KI270515.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270516.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270517.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270518.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270519.1",
+          "mapped": 10,
+          "unmapped": 0,
+          "total": 10
+        },
+        {
+          "contig": "KI270521.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270522.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270528.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270529.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270530.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270538.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270539.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270544.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270548.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270579.1",
+          "mapped": 4,
+          "unmapped": 0,
+          "total": 4
+        },
+        {
+          "contig": "KI270580.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270581.1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "KI270582.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270583.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270584.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270587.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270588.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270589.1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "KI270590.1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "KI270591.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270593.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270706.1",
+          "mapped": 246,
+          "unmapped": 0,
+          "total": 246
+        },
+        {
+          "contig": "KI270707.1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "KI270708.1",
+          "mapped": 68,
+          "unmapped": 0,
+          "total": 68
+        },
+        {
+          "contig": "KI270709.1",
+          "mapped": 76,
+          "unmapped": 0,
+          "total": 76
+        },
+        {
+          "contig": "KI270710.1",
+          "mapped": 6,
+          "unmapped": 0,
+          "total": 6
+        },
+        {
+          "contig": "KI270711.1",
+          "mapped": 7356,
+          "unmapped": 0,
+          "total": 7356
+        },
+        {
+          "contig": "KI270712.1",
+          "mapped": 716,
+          "unmapped": 0,
+          "total": 716
+        },
+        {
+          "contig": "KI270713.1",
+          "mapped": 4796,
+          "unmapped": 0,
+          "total": 4796
+        },
+        {
+          "contig": "KI270714.1",
+          "mapped": 298,
+          "unmapped": 0,
+          "total": 298
+        },
+        {
+          "contig": "KI270715.1",
+          "mapped": 4,
+          "unmapped": 0,
+          "total": 4
+        },
+        {
+          "contig": "KI270716.1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "KI270717.1",
+          "mapped": 98,
+          "unmapped": 0,
+          "total": 98
+        },
+        {
+          "contig": "KI270718.1",
+          "mapped": 82,
+          "unmapped": 0,
+          "total": 82
+        },
+        {
+          "contig": "KI270719.1",
+          "mapped": 66,
+          "unmapped": 0,
+          "total": 66
+        },
+        {
+          "contig": "KI270720.1",
+          "mapped": 6,
+          "unmapped": 0,
+          "total": 6
+        },
+        {
+          "contig": "KI270721.1",
+          "mapped": 183018,
+          "unmapped": 0,
+          "total": 183018
+        },
+        {
+          "contig": "KI270722.1",
+          "mapped": 106,
+          "unmapped": 0,
+          "total": 106
+        },
+        {
+          "contig": "KI270723.1",
+          "mapped": 18,
+          "unmapped": 0,
+          "total": 18
+        },
+        {
+          "contig": "KI270724.1",
+          "mapped": 30,
+          "unmapped": 0,
+          "total": 30
+        },
+        {
+          "contig": "KI270725.1",
+          "mapped": 162,
+          "unmapped": 0,
+          "total": 162
+        },
+        {
+          "contig": "KI270726.1",
+          "mapped": 314,
+          "unmapped": 0,
+          "total": 314
+        },
+        {
+          "contig": "KI270727.1",
+          "mapped": 2618,
+          "unmapped": 0,
+          "total": 2618
+        },
+        {
+          "contig": "KI270728.1",
+          "mapped": 4442,
+          "unmapped": 0,
+          "total": 4442
+        },
+        {
+          "contig": "KI270729.1",
+          "mapped": 182,
+          "unmapped": 0,
+          "total": 182
+        },
+        {
+          "contig": "KI270730.1",
+          "mapped": 46,
+          "unmapped": 0,
+          "total": 46
+        },
+        {
+          "contig": "KI270731.1",
+          "mapped": 1608,
+          "unmapped": 0,
+          "total": 1608
+        },
+        {
+          "contig": "KI270732.1",
+          "mapped": 176,
+          "unmapped": 0,
+          "total": 176
+        },
+        {
+          "contig": "KI270733.1",
+          "mapped": 6504411,
+          "unmapped": 0,
+          "total": 6504411
+        },
+        {
+          "contig": "KI270734.1",
+          "mapped": 1656,
+          "unmapped": 0,
+          "total": 1656
+        },
+        {
+          "contig": "KI270735.1",
+          "mapped": 138,
+          "unmapped": 0,
+          "total": 138
+        },
+        {
+          "contig": "KI270736.1",
+          "mapped": 58,
+          "unmapped": 0,
+          "total": 58
+        },
+        {
+          "contig": "KI270737.1",
+          "mapped": 8,
+          "unmapped": 0,
+          "total": 8
+        },
+        {
+          "contig": "KI270738.1",
+          "mapped": 24,
+          "unmapped": 0,
+          "total": 24
+        },
+        {
+          "contig": "KI270739.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270740.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270741.1",
+          "mapped": 66,
+          "unmapped": 0,
+          "total": 66
+        },
+        {
+          "contig": "KI270742.1",
+          "mapped": 138,
+          "unmapped": 0,
+          "total": 138
+        },
+        {
+          "contig": "KI270743.1",
+          "mapped": 136,
+          "unmapped": 0,
+          "total": 136
+        },
+        {
+          "contig": "KI270744.1",
+          "mapped": 524,
+          "unmapped": 0,
+          "total": 524
+        },
+        {
+          "contig": "KI270745.1",
+          "mapped": 692,
+          "unmapped": 0,
+          "total": 692
+        },
+        {
+          "contig": "KI270746.1",
+          "mapped": 738,
+          "unmapped": 0,
+          "total": 738
+        },
+        {
+          "contig": "KI270747.1",
+          "mapped": 46,
+          "unmapped": 0,
+          "total": 46
+        },
+        {
+          "contig": "KI270748.1",
+          "mapped": 54,
+          "unmapped": 0,
+          "total": 54
+        },
+        {
+          "contig": "KI270749.1",
+          "mapped": 50,
+          "unmapped": 0,
+          "total": 50
+        },
+        {
+          "contig": "KI270750.1",
+          "mapped": 88,
+          "unmapped": 0,
+          "total": 88
+        },
+        {
+          "contig": "KI270751.1",
+          "mapped": 102,
+          "unmapped": 0,
+          "total": 102
+        },
+        {
+          "contig": "KI270752.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270753.1",
+          "mapped": 6,
+          "unmapped": 0,
+          "total": 6
+        },
+        {
+          "contig": "KI270754.1",
+          "mapped": 40,
+          "unmapped": 0,
+          "total": 40
+        },
+        {
+          "contig": "KI270755.1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "KI270756.1",
+          "mapped": 14,
+          "unmapped": 0,
+          "total": 14
+        },
+        {
+          "contig": "KI270757.1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        }
+      ],
+      "elapsed_seconds": 17.2
+    },
+    {
+      "kind": "DNA",
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/outputs/caris-raw-data/TN26-279853/DNA_TN26-279853.bam",
+      "bytes": 9325653547,
+      "index": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-analysis/DNA_TN26-279853.bam.bai",
+      "index_bytes": 4195320,
+      "header": {
+        "HD": {
+          "VN": "1.5",
+          "SO": "coordinate"
+        },
+        "SQ": [
+          {
+            "SN": "chrM",
+            "LN": 16569
+          },
+          {
+            "SN": "chr1",
+            "LN": 248956422
+          },
+          {
+            "SN": "chr2",
+            "LN": 242193529
+          },
+          {
+            "SN": "chr3",
+            "LN": 198295559
+          },
+          {
+            "SN": "chr4",
+            "LN": 190214555
+          },
+          {
+            "SN": "chr5",
+            "LN": 181538259
+          },
+          {
+            "SN": "chr6",
+            "LN": 170805979
+          },
+          {
+            "SN": "chr7",
+            "LN": 159345973
+          },
+          {
+            "SN": "chr8",
+            "LN": 145138636
+          },
+          {
+            "SN": "chr9",
+            "LN": 138394717
+          },
+          {
+            "SN": "chr10",
+            "LN": 133797422
+          },
+          {
+            "SN": "chr11",
+            "LN": 135086622
+          },
+          {
+            "SN": "chr12",
+            "LN": 133275309
+          },
+          {
+            "SN": "chr13",
+            "LN": 114364328
+          },
+          {
+            "SN": "chr14",
+            "LN": 107043718
+          },
+          {
+            "SN": "chr15",
+            "LN": 101991189
+          },
+          {
+            "SN": "chr16",
+            "LN": 90338345
+          },
+          {
+            "SN": "chr17",
+            "LN": 83257441
+          },
+          {
+            "SN": "chr18",
+            "LN": 80373285
+          },
+          {
+            "SN": "chr19",
+            "LN": 58617616
+          },
+          {
+            "SN": "chr20",
+            "LN": 64444167
+          },
+          {
+            "SN": "chr21",
+            "LN": 46709983
+          },
+          {
+            "SN": "chr22",
+            "LN": 50818468
+          },
+          {
+            "SN": "chrX",
+            "LN": 156040895
+          },
+          {
+            "SN": "chrY",
+            "LN": 57227415
+          },
+          {
+            "SN": "chrUn_GL000195v1",
+            "LN": 182896
+          },
+          {
+            "SN": "chrUn_GL000213v1",
+            "LN": 164239
+          },
+          {
+            "SN": "chrUn_GL000214v1",
+            "LN": 137718
+          },
+          {
+            "SN": "chrUn_GL000216v2",
+            "LN": 176608
+          },
+          {
+            "SN": "chrUn_GL000218v1",
+            "LN": 161147
+          },
+          {
+            "SN": "chrUn_GL000219v1",
+            "LN": 179198
+          },
+          {
+            "SN": "chrUn_GL000220v1",
+            "LN": 161802
+          },
+          {
+            "SN": "chrUn_GL000224v1",
+            "LN": 179693
+          },
+          {
+            "SN": "chrUn_GL000226v1",
+            "LN": 15008
+          },
+          {
+            "SN": "chrUn_KI270302v1",
+            "LN": 2274
+          },
+          {
+            "SN": "chrUn_KI270303v1",
+            "LN": 1942
+          },
+          {
+            "SN": "chrUn_KI270304v1",
+            "LN": 2165
+          },
+          {
+            "SN": "chrUn_KI270305v1",
+            "LN": 1472
+          },
+          {
+            "SN": "chrUn_KI270310v1",
+            "LN": 1201
+          },
+          {
+            "SN": "chrUn_KI270311v1",
+            "LN": 12399
+          },
+          {
+            "SN": "chrUn_KI270312v1",
+            "LN": 998
+          },
+          {
+            "SN": "chrUn_KI270315v1",
+            "LN": 2276
+          },
+          {
+            "SN": "chrUn_KI270316v1",
+            "LN": 1444
+          },
+          {
+            "SN": "chrUn_KI270317v1",
+            "LN": 37690
+          },
+          {
+            "SN": "chrUn_KI270320v1",
+            "LN": 4416
+          },
+          {
+            "SN": "chrUn_KI270322v1",
+            "LN": 21476
+          },
+          {
+            "SN": "chrUn_KI270329v1",
+            "LN": 1040
+          },
+          {
+            "SN": "chrUn_KI270330v1",
+            "LN": 1652
+          },
+          {
+            "SN": "chrUn_KI270333v1",
+            "LN": 2699
+          },
+          {
+            "SN": "chrUn_KI270334v1",
+            "LN": 1368
+          },
+          {
+            "SN": "chrUn_KI270335v1",
+            "LN": 1048
+          },
+          {
+            "SN": "chrUn_KI270336v1",
+            "LN": 1026
+          },
+          {
+            "SN": "chrUn_KI270337v1",
+            "LN": 1121
+          },
+          {
+            "SN": "chrUn_KI270338v1",
+            "LN": 1428
+          },
+          {
+            "SN": "chrUn_KI270340v1",
+            "LN": 1428
+          },
+          {
+            "SN": "chrUn_KI270362v1",
+            "LN": 3530
+          },
+          {
+            "SN": "chrUn_KI270363v1",
+            "LN": 1803
+          },
+          {
+            "SN": "chrUn_KI270364v1",
+            "LN": 2855
+          },
+          {
+            "SN": "chrUn_KI270366v1",
+            "LN": 8320
+          },
+          {
+            "SN": "chrUn_KI270371v1",
+            "LN": 2805
+          },
+          {
+            "SN": "chrUn_KI270372v1",
+            "LN": 1650
+          },
+          {
+            "SN": "chrUn_KI270373v1",
+            "LN": 1451
+          },
+          {
+            "SN": "chrUn_KI270374v1",
+            "LN": 2656
+          },
+          {
+            "SN": "chrUn_KI270375v1",
+            "LN": 2378
+          },
+          {
+            "SN": "chrUn_KI270376v1",
+            "LN": 1136
+          },
+          {
+            "SN": "chrUn_KI270378v1",
+            "LN": 1048
+          },
+          {
+            "SN": "chrUn_KI270379v1",
+            "LN": 1045
+          },
+          {
+            "SN": "chrUn_KI270381v1",
+            "LN": 1930
+          },
+          {
+            "SN": "chrUn_KI270382v1",
+            "LN": 4215
+          },
+          {
+            "SN": "chrUn_KI270383v1",
+            "LN": 1750
+          },
+          {
+            "SN": "chrUn_KI270384v1",
+            "LN": 1658
+          },
+          {
+            "SN": "chrUn_KI270385v1",
+            "LN": 990
+          },
+          {
+            "SN": "chrUn_KI270386v1",
+            "LN": 1788
+          },
+          {
+            "SN": "chrUn_KI270387v1",
+            "LN": 1537
+          },
+          {
+            "SN": "chrUn_KI270388v1",
+            "LN": 1216
+          },
+          {
+            "SN": "chrUn_KI270389v1",
+            "LN": 1298
+          },
+          {
+            "SN": "chrUn_KI270390v1",
+            "LN": 2387
+          },
+          {
+            "SN": "chrUn_KI270391v1",
+            "LN": 1484
+          },
+          {
+            "SN": "chrUn_KI270392v1",
+            "LN": 971
+          },
+          {
+            "SN": "chrUn_KI270393v1",
+            "LN": 1308
+          },
+          {
+            "SN": "chrUn_KI270394v1",
+            "LN": 970
+          },
+          {
+            "SN": "chrUn_KI270395v1",
+            "LN": 1143
+          },
+          {
+            "SN": "chrUn_KI270396v1",
+            "LN": 1880
+          },
+          {
+            "SN": "chrUn_KI270411v1",
+            "LN": 2646
+          },
+          {
+            "SN": "chrUn_KI270412v1",
+            "LN": 1179
+          },
+          {
+            "SN": "chrUn_KI270414v1",
+            "LN": 2489
+          },
+          {
+            "SN": "chrUn_KI270417v1",
+            "LN": 2043
+          },
+          {
+            "SN": "chrUn_KI270418v1",
+            "LN": 2145
+          },
+          {
+            "SN": "chrUn_KI270419v1",
+            "LN": 1029
+          },
+          {
+            "SN": "chrUn_KI270420v1",
+            "LN": 2321
+          },
+          {
+            "SN": "chrUn_KI270422v1",
+            "LN": 1445
+          },
+          {
+            "SN": "chrUn_KI270423v1",
+            "LN": 981
+          },
+          {
+            "SN": "chrUn_KI270424v1",
+            "LN": 2140
+          },
+          {
+            "SN": "chrUn_KI270425v1",
+            "LN": 1884
+          },
+          {
+            "SN": "chrUn_KI270429v1",
+            "LN": 1361
+          },
+          {
+            "SN": "chrUn_KI270435v1",
+            "LN": 92983
+          },
+          {
+            "SN": "chrUn_KI270438v1",
+            "LN": 112505
+          },
+          {
+            "SN": "chrUn_KI270442v1",
+            "LN": 392061
+          },
+          {
+            "SN": "chrUn_KI270448v1",
+            "LN": 7992
+          },
+          {
+            "SN": "chrUn_KI270465v1",
+            "LN": 1774
+          },
+          {
+            "SN": "chrUn_KI270466v1",
+            "LN": 1233
+          },
+          {
+            "SN": "chrUn_KI270467v1",
+            "LN": 3920
+          },
+          {
+            "SN": "chrUn_KI270468v1",
+            "LN": 4055
+          },
+          {
+            "SN": "chrUn_KI270507v1",
+            "LN": 5353
+          },
+          {
+            "SN": "chrUn_KI270508v1",
+            "LN": 1951
+          },
+          {
+            "SN": "chrUn_KI270509v1",
+            "LN": 2318
+          },
+          {
+            "SN": "chrUn_KI270510v1",
+            "LN": 2415
+          },
+          {
+            "SN": "chrUn_KI270511v1",
+            "LN": 8127
+          },
+          {
+            "SN": "chrUn_KI270512v1",
+            "LN": 22689
+          },
+          {
+            "SN": "chrUn_KI270515v1",
+            "LN": 6361
+          },
+          {
+            "SN": "chrUn_KI270516v1",
+            "LN": 1300
+          },
+          {
+            "SN": "chrUn_KI270517v1",
+            "LN": 3253
+          },
+          {
+            "SN": "chrUn_KI270518v1",
+            "LN": 2186
+          },
+          {
+            "SN": "chrUn_KI270519v1",
+            "LN": 138126
+          },
+          {
+            "SN": "chrUn_KI270521v1",
+            "LN": 7642
+          },
+          {
+            "SN": "chrUn_KI270522v1",
+            "LN": 5674
+          },
+          {
+            "SN": "chrUn_KI270528v1",
+            "LN": 2983
+          },
+          {
+            "SN": "chrUn_KI270529v1",
+            "LN": 1899
+          },
+          {
+            "SN": "chrUn_KI270530v1",
+            "LN": 2168
+          },
+          {
+            "SN": "chrUn_KI270538v1",
+            "LN": 91309
+          },
+          {
+            "SN": "chrUn_KI270539v1",
+            "LN": 993
+          },
+          {
+            "SN": "chrUn_KI270544v1",
+            "LN": 1202
+          },
+          {
+            "SN": "chrUn_KI270548v1",
+            "LN": 1599
+          },
+          {
+            "SN": "chrUn_KI270579v1",
+            "LN": 31033
+          },
+          {
+            "SN": "chrUn_KI270580v1",
+            "LN": 1553
+          },
+          {
+            "SN": "chrUn_KI270581v1",
+            "LN": 7046
+          },
+          {
+            "SN": "chrUn_KI270582v1",
+            "LN": 6504
+          },
+          {
+            "SN": "chrUn_KI270583v1",
+            "LN": 1400
+          },
+          {
+            "SN": "chrUn_KI270584v1",
+            "LN": 4513
+          },
+          {
+            "SN": "chrUn_KI270587v1",
+            "LN": 2969
+          },
+          {
+            "SN": "chrUn_KI270588v1",
+            "LN": 6158
+          },
+          {
+            "SN": "chrUn_KI270589v1",
+            "LN": 44474
+          },
+          {
+            "SN": "chrUn_KI270590v1",
+            "LN": 4685
+          },
+          {
+            "SN": "chrUn_KI270591v1",
+            "LN": 5796
+          },
+          {
+            "SN": "chrUn_KI270593v1",
+            "LN": 3041
+          },
+          {
+            "SN": "chrUn_KI270741v1",
+            "LN": 157432
+          },
+          {
+            "SN": "chrUn_KI270742v1",
+            "LN": 186739
+          },
+          {
+            "SN": "chrUn_KI270743v1",
+            "LN": 210658
+          },
+          {
+            "SN": "chrUn_KI270744v1",
+            "LN": 168472
+          },
+          {
+            "SN": "chrUn_KI270745v1",
+            "LN": 41891
+          },
+          {
+            "SN": "chrUn_KI270746v1",
+            "LN": 66486
+          },
+          {
+            "SN": "chrUn_KI270747v1",
+            "LN": 198735
+          },
+          {
+            "SN": "chrUn_KI270748v1",
+            "LN": 93321
+          },
+          {
+            "SN": "chrUn_KI270749v1",
+            "LN": 158759
+          },
+          {
+            "SN": "chrUn_KI270750v1",
+            "LN": 148850
+          },
+          {
+            "SN": "chrUn_KI270751v1",
+            "LN": 150742
+          },
+          {
+            "SN": "chrUn_KI270752v1",
+            "LN": 27745
+          },
+          {
+            "SN": "chrUn_KI270753v1",
+            "LN": 62944
+          },
+          {
+            "SN": "chrUn_KI270754v1",
+            "LN": 40191
+          },
+          {
+            "SN": "chrUn_KI270755v1",
+            "LN": 36723
+          },
+          {
+            "SN": "chrUn_KI270756v1",
+            "LN": 79590
+          },
+          {
+            "SN": "chrUn_KI270757v1",
+            "LN": 71251
+          }
+        ],
+        "RG": [
+          {
+            "ID": "TN26-279853",
+            "SM": "TN26-279853",
+            "PL": "ILLUMINA"
+          }
+        ],
+        "PG": [
+          {
+            "ID": "bwa",
+            "CL": "/gpfs1/share/tools/sentieon/libexec/bwa mem -v 1 -M -t 16 -R @RG\\tID:TN26-279853\\tSM:TN26-279853\\tPL:ILLUMINA /gpfs5/prod/private/tissue-hybrid-cdx/wes/release/reference/hg38.pU2AF1_Y_PAR_masked.noHap.fa TN26-279853_S25.R1.fastq.gz TN26-279853_S25.R2.fastq.gz\tPN:bwa\tVN:0.7.17-r1188"
+          },
+          {
+            "ID": "sentieon-Dedup",
+            "CL": "/gpfs1/share/tools/sentieon/libexec/driver -t 16 -i Alignment_720Gene/TN26-279853.sort.bam --algo Dedup --score_info Alignment_720Gene/TN26-279853.score.txt --metrics Alignment_720Gene/TN26-279853.dedup_metrics.txt --bam_compression 1 Alignment_720Gene/TN26-279853.tmp.bam\tPN:sentieon-Dedup\tPP:sentieon-sort\tVN:sentieon-genomics-202112.01"
+          },
+          {
+            "ID": "sentieon-ReadWriter",
+            "CL": "/gpfs1/share/tools/sentieon/libexec/driver -t 16 -i Alignment_720Gene/TN26-279853.tmp.bam --algo ReadWriter Alignment_720Gene/TN26-279853.dedup.bam\tPN:sentieon-ReadWriter\tPP:sentieon-Dedup\tVN:sentieon-genomics-202112.01"
+          },
+          {
+            "ID": "sentieon-sort",
+            "CL": "/gpfs1/share/tools/sentieon/libexec/util sort --bam_compression 1 -r /gpfs5/prod/private/tissue-hybrid-cdx/wes/release/reference/hg38.pU2AF1_Y_PAR_masked.noHap.fa -o Alignment_720Gene/TN26-279853.sort.bam -t 16 --sam2bam -i -\tPN:sentieon-sort\tPP:bwa\tVN:sentieon-genomics-202112.01"
+          },
+          {
+            "ID": "sentieon-Realigner",
+            "CL": "/gpfs1/share/tools/sentieon/libexec/driver -t 16 -r /gpfs5/prod/private/tissue-hybrid-cdx/wes/release/reference/hg38.pU2AF1_Y_PAR_masked.noHap.fa -i Alignment_720Gene/TN26-279853.dedup.bam --algo Realigner --interval_list /gpfs5/prod/private/tissue-hybrid-cdx/wes/release/lookup/targetGenes_allCovered.Kapa.bed Alignment_720Gene/TN26-279853.bam\tPN:sentieon-Realigner\tPP:sentieon-ReadWriter\tVN:sentieon-genomics-202112.01"
+          }
+        ]
+      },
+      "flagstat": {
+        "QC-passed reads": {
+          "total": 242845798,
+          "primary": 241838622,
+          "secondary": 1007176,
+          "supplementary": 0,
+          "duplicates": 71636940,
+          "primary duplicates": 71636940,
+          "mapped": 242552111,
+          "mapped %": 99.88,
+          "primary mapped": 241544935,
+          "primary mapped %": 99.88,
+          "paired in sequencing": 241838622,
+          "read1": 120919311,
+          "read2": 120919311,
+          "properly paired": 239908942,
+          "properly paired %": 99.2,
+          "with itself and mate mapped": 241333986,
+          "singletons": 210949,
+          "singletons %": 0.09,
+          "with mate mapped to a different chr": 1060662,
+          "with mate mapped to a different chr (mapQ >= 5)": 649135
+        },
+        "QC-failed reads": {
+          "total": 0,
+          "primary": 0,
+          "secondary": 0,
+          "supplementary": 0,
+          "duplicates": 0,
+          "primary duplicates": 0,
+          "mapped": 0,
+          "mapped %": null,
+          "primary mapped": 0,
+          "primary mapped %": null,
+          "paired in sequencing": 0,
+          "read1": 0,
+          "read2": 0,
+          "properly paired": 0,
+          "properly paired %": null,
+          "with itself and mate mapped": 0,
+          "singletons": 0,
+          "singletons %": null,
+          "with mate mapped to a different chr": 0,
+          "with mate mapped to a different chr (mapQ >= 5)": 0
+        }
+      },
+      "idxstats": [
+        {
+          "contig": "chrM",
+          "mapped": 216473,
+          "unmapped": 98,
+          "total": 216571
+        },
+        {
+          "contig": "chr1",
+          "mapped": 19279692,
+          "unmapped": 14784,
+          "total": 19294476
+        },
+        {
+          "contig": "chr2",
+          "mapped": 14196290,
+          "unmapped": 12579,
+          "total": 14208869
+        },
+        {
+          "contig": "chr3",
+          "mapped": 11500834,
+          "unmapped": 7983,
+          "total": 11508817
+        },
+        {
+          "contig": "chr4",
+          "mapped": 8110138,
+          "unmapped": 5278,
+          "total": 8115416
+        },
+        {
+          "contig": "chr5",
+          "mapped": 14065128,
+          "unmapped": 10747,
+          "total": 14075875
+        },
+        {
+          "contig": "chr6",
+          "mapped": 10572955,
+          "unmapped": 8310,
+          "total": 10581265
+        },
+        {
+          "contig": "chr7",
+          "mapped": 11306427,
+          "unmapped": 8726,
+          "total": 11315153
+        },
+        {
+          "contig": "chr8",
+          "mapped": 7230956,
+          "unmapped": 6422,
+          "total": 7237378
+        },
+        {
+          "contig": "chr9",
+          "mapped": 9359755,
+          "unmapped": 8502,
+          "total": 9368257
+        },
+        {
+          "contig": "chr10",
+          "mapped": 9425702,
+          "unmapped": 7256,
+          "total": 9432958
+        },
+        {
+          "contig": "chr11",
+          "mapped": 13100829,
+          "unmapped": 11543,
+          "total": 13112372
+        },
+        {
+          "contig": "chr12",
+          "mapped": 12736001,
+          "unmapped": 10048,
+          "total": 12746049
+        },
+        {
+          "contig": "chr13",
+          "mapped": 3174354,
+          "unmapped": 2060,
+          "total": 3176414
+        },
+        {
+          "contig": "chr14",
+          "mapped": 10437184,
+          "unmapped": 8007,
+          "total": 10445191
+        },
+        {
+          "contig": "chr15",
+          "mapped": 9031684,
+          "unmapped": 9815,
+          "total": 9041499
+        },
+        {
+          "contig": "chr16",
+          "mapped": 12218941,
+          "unmapped": 11555,
+          "total": 12230496
+        },
+        {
+          "contig": "chr17",
+          "mapped": 14557584,
+          "unmapped": 14036,
+          "total": 14571620
+        },
+        {
+          "contig": "chr18",
+          "mapped": 2723445,
+          "unmapped": 2269,
+          "total": 2725714
+        },
+        {
+          "contig": "chr19",
+          "mapped": 23429742,
+          "unmapped": 27192,
+          "total": 23456934
+        },
+        {
+          "contig": "chr20",
+          "mapped": 5716937,
+          "unmapped": 5779,
+          "total": 5722716
+        },
+        {
+          "contig": "chr21",
+          "mapped": 3846888,
+          "unmapped": 3641,
+          "total": 3850529
+        },
+        {
+          "contig": "chr22",
+          "mapped": 7024987,
+          "unmapped": 6718,
+          "total": 7031705
+        },
+        {
+          "contig": "chrX",
+          "mapped": 8170491,
+          "unmapped": 6514,
+          "total": 8177005
+        },
+        {
+          "contig": "chrY",
+          "mapped": 325831,
+          "unmapped": 310,
+          "total": 326141
+        },
+        {
+          "contig": "chrUn_GL000195v1",
+          "mapped": 6915,
+          "unmapped": 3,
+          "total": 6918
+        },
+        {
+          "contig": "chrUn_GL000213v1",
+          "mapped": 15604,
+          "unmapped": 11,
+          "total": 15615
+        },
+        {
+          "contig": "chrUn_GL000214v1",
+          "mapped": 11831,
+          "unmapped": 8,
+          "total": 11839
+        },
+        {
+          "contig": "chrUn_GL000216v2",
+          "mapped": 8813,
+          "unmapped": 55,
+          "total": 8868
+        },
+        {
+          "contig": "chrUn_GL000218v1",
+          "mapped": 9991,
+          "unmapped": 5,
+          "total": 9996
+        },
+        {
+          "contig": "chrUn_GL000219v1",
+          "mapped": 8321,
+          "unmapped": 7,
+          "total": 8328
+        },
+        {
+          "contig": "chrUn_GL000220v1",
+          "mapped": 516088,
+          "unmapped": 582,
+          "total": 516670
+        },
+        {
+          "contig": "chrUn_GL000224v1",
+          "mapped": 18621,
+          "unmapped": 15,
+          "total": 18636
+        },
+        {
+          "contig": "chrUn_GL000226v1",
+          "mapped": 100,
+          "unmapped": 0,
+          "total": 100
+        },
+        {
+          "contig": "chrUn_KI270302v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270303v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270304v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270305v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270310v1",
+          "mapped": 6,
+          "unmapped": 0,
+          "total": 6
+        },
+        {
+          "contig": "chrUn_KI270311v1",
+          "mapped": 6,
+          "unmapped": 0,
+          "total": 6
+        },
+        {
+          "contig": "chrUn_KI270312v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270315v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270316v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270317v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270320v1",
+          "mapped": 13,
+          "unmapped": 0,
+          "total": 13
+        },
+        {
+          "contig": "chrUn_KI270322v1",
+          "mapped": 6,
+          "unmapped": 0,
+          "total": 6
+        },
+        {
+          "contig": "chrUn_KI270329v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270330v1",
+          "mapped": 69,
+          "unmapped": 0,
+          "total": 69
+        },
+        {
+          "contig": "chrUn_KI270333v1",
+          "mapped": 21,
+          "unmapped": 0,
+          "total": 21
+        },
+        {
+          "contig": "chrUn_KI270334v1",
+          "mapped": 8,
+          "unmapped": 0,
+          "total": 8
+        },
+        {
+          "contig": "chrUn_KI270335v1",
+          "mapped": 6,
+          "unmapped": 0,
+          "total": 6
+        },
+        {
+          "contig": "chrUn_KI270336v1",
+          "mapped": 8,
+          "unmapped": 0,
+          "total": 8
+        },
+        {
+          "contig": "chrUn_KI270337v1",
+          "mapped": 24,
+          "unmapped": 0,
+          "total": 24
+        },
+        {
+          "contig": "chrUn_KI270338v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270340v1",
+          "mapped": 15,
+          "unmapped": 0,
+          "total": 15
+        },
+        {
+          "contig": "chrUn_KI270362v1",
+          "mapped": 8,
+          "unmapped": 0,
+          "total": 8
+        },
+        {
+          "contig": "chrUn_KI270363v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270364v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270366v1",
+          "mapped": 7,
+          "unmapped": 0,
+          "total": 7
+        },
+        {
+          "contig": "chrUn_KI270371v1",
+          "mapped": 4,
+          "unmapped": 0,
+          "total": 4
+        },
+        {
+          "contig": "chrUn_KI270372v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270373v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270374v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270375v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270376v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270378v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270379v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270381v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270382v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270383v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270384v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270385v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270386v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270387v1",
+          "mapped": 1,
+          "unmapped": 0,
+          "total": 1
+        },
+        {
+          "contig": "chrUn_KI270388v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270389v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270390v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270391v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270392v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270393v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270394v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270395v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270396v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270411v1",
+          "mapped": 4,
+          "unmapped": 0,
+          "total": 4
+        },
+        {
+          "contig": "chrUn_KI270412v1",
+          "mapped": 6,
+          "unmapped": 0,
+          "total": 6
+        },
+        {
+          "contig": "chrUn_KI270414v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270417v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270418v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270419v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270420v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270422v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270423v1",
+          "mapped": 9,
+          "unmapped": 0,
+          "total": 9
+        },
+        {
+          "contig": "chrUn_KI270424v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270425v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270429v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270435v1",
+          "mapped": 226,
+          "unmapped": 0,
+          "total": 226
+        },
+        {
+          "contig": "chrUn_KI270438v1",
+          "mapped": 2189,
+          "unmapped": 1,
+          "total": 2190
+        },
+        {
+          "contig": "chrUn_KI270442v1",
+          "mapped": 9489,
+          "unmapped": 6,
+          "total": 9495
+        },
+        {
+          "contig": "chrUn_KI270448v1",
+          "mapped": 25,
+          "unmapped": 0,
+          "total": 25
+        },
+        {
+          "contig": "chrUn_KI270465v1",
+          "mapped": 6,
+          "unmapped": 0,
+          "total": 6
+        },
+        {
+          "contig": "chrUn_KI270466v1",
+          "mapped": 10,
+          "unmapped": 0,
+          "total": 10
+        },
+        {
+          "contig": "chrUn_KI270467v1",
+          "mapped": 20,
+          "unmapped": 0,
+          "total": 20
+        },
+        {
+          "contig": "chrUn_KI270468v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270507v1",
+          "mapped": 22,
+          "unmapped": 0,
+          "total": 22
+        },
+        {
+          "contig": "chrUn_KI270508v1",
+          "mapped": 33,
+          "unmapped": 0,
+          "total": 33
+        },
+        {
+          "contig": "chrUn_KI270509v1",
+          "mapped": 10,
+          "unmapped": 0,
+          "total": 10
+        },
+        {
+          "contig": "chrUn_KI270510v1",
+          "mapped": 10,
+          "unmapped": 0,
+          "total": 10
+        },
+        {
+          "contig": "chrUn_KI270511v1",
+          "mapped": 10,
+          "unmapped": 0,
+          "total": 10
+        },
+        {
+          "contig": "chrUn_KI270512v1",
+          "mapped": 75,
+          "unmapped": 1,
+          "total": 76
+        },
+        {
+          "contig": "chrUn_KI270515v1",
+          "mapped": 22,
+          "unmapped": 0,
+          "total": 22
+        },
+        {
+          "contig": "chrUn_KI270516v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270517v1",
+          "mapped": 16,
+          "unmapped": 0,
+          "total": 16
+        },
+        {
+          "contig": "chrUn_KI270518v1",
+          "mapped": 4,
+          "unmapped": 0,
+          "total": 4
+        },
+        {
+          "contig": "chrUn_KI270519v1",
+          "mapped": 336,
+          "unmapped": 0,
+          "total": 336
+        },
+        {
+          "contig": "chrUn_KI270521v1",
+          "mapped": 36,
+          "unmapped": 0,
+          "total": 36
+        },
+        {
+          "contig": "chrUn_KI270522v1",
+          "mapped": 4,
+          "unmapped": 0,
+          "total": 4
+        },
+        {
+          "contig": "chrUn_KI270528v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270529v1",
+          "mapped": 4,
+          "unmapped": 0,
+          "total": 4
+        },
+        {
+          "contig": "chrUn_KI270530v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270538v1",
+          "mapped": 262,
+          "unmapped": 0,
+          "total": 262
+        },
+        {
+          "contig": "chrUn_KI270539v1",
+          "mapped": 3,
+          "unmapped": 0,
+          "total": 3
+        },
+        {
+          "contig": "chrUn_KI270544v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270548v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270579v1",
+          "mapped": 21,
+          "unmapped": 0,
+          "total": 21
+        },
+        {
+          "contig": "chrUn_KI270580v1",
+          "mapped": 12,
+          "unmapped": 0,
+          "total": 12
+        },
+        {
+          "contig": "chrUn_KI270581v1",
+          "mapped": 33,
+          "unmapped": 0,
+          "total": 33
+        },
+        {
+          "contig": "chrUn_KI270582v1",
+          "mapped": 11,
+          "unmapped": 0,
+          "total": 11
+        },
+        {
+          "contig": "chrUn_KI270583v1",
+          "mapped": 2,
+          "unmapped": 0,
+          "total": 2
+        },
+        {
+          "contig": "chrUn_KI270584v1",
+          "mapped": 12,
+          "unmapped": 0,
+          "total": 12
+        },
+        {
+          "contig": "chrUn_KI270587v1",
+          "mapped": 0,
+          "unmapped": 0,
+          "total": 0
+        },
+        {
+          "contig": "chrUn_KI270588v1",
+          "mapped": 19,
+          "unmapped": 0,
+          "total": 19
+        },
+        {
+          "contig": "chrUn_KI270589v1",
+          "mapped": 175,
+          "unmapped": 0,
+          "total": 175
+        },
+        {
+          "contig": "chrUn_KI270590v1",
+          "mapped": 21,
+          "unmapped": 0,
+          "total": 21
+        },
+        {
+          "contig": "chrUn_KI270591v1",
+          "mapped": 25,
+          "unmapped": 0,
+          "total": 25
+        },
+        {
+          "contig": "chrUn_KI270593v1",
+          "mapped": 8,
+          "unmapped": 0,
+          "total": 8
+        },
+        {
+          "contig": "chrUn_KI270741v1",
+          "mapped": 1736,
+          "unmapped": 0,
+          "total": 1736
+        },
+        {
+          "contig": "chrUn_KI270742v1",
+          "mapped": 15347,
+          "unmapped": 5,
+          "total": 15352
+        },
+        {
+          "contig": "chrUn_KI270743v1",
+          "mapped": 6941,
+          "unmapped": 1,
+          "total": 6942
+        },
+        {
+          "contig": "chrUn_KI270744v1",
+          "mapped": 17973,
+          "unmapped": 11,
+          "total": 17984
+        },
+        {
+          "contig": "chrUn_KI270745v1",
+          "mapped": 49783,
+          "unmapped": 19,
+          "total": 49802
+        },
+        {
+          "contig": "chrUn_KI270746v1",
+          "mapped": 76287,
+          "unmapped": 34,
+          "total": 76321
+        },
+        {
+          "contig": "chrUn_KI270747v1",
+          "mapped": 2418,
+          "unmapped": 2,
+          "total": 2420
+        },
+        {
+          "contig": "chrUn_KI270748v1",
+          "mapped": 329,
+          "unmapped": 0,
+          "total": 329
+        },
+        {
+          "contig": "chrUn_KI270749v1",
+          "mapped": 1743,
+          "unmapped": 3,
+          "total": 1746
+        },
+        {
+          "contig": "chrUn_KI270750v1",
+          "mapped": 4438,
+          "unmapped": 5,
+          "total": 4443
+        },
+        {
+          "contig": "chrUn_KI270751v1",
+          "mapped": 4666,
+          "unmapped": 1,
+          "total": 4667
+        },
+        {
+          "contig": "chrUn_KI270752v1",
+          "mapped": 15,
+          "unmapped": 0,
+          "total": 15
+        },
+        {
+          "contig": "chrUn_KI270753v1",
+          "mapped": 254,
+          "unmapped": 0,
+          "total": 254
+        },
+        {
+          "contig": "chrUn_KI270754v1",
+          "mapped": 685,
+          "unmapped": 1,
+          "total": 686
+        },
+        {
+          "contig": "chrUn_KI270755v1",
+          "mapped": 107,
+          "unmapped": 0,
+          "total": 107
+        },
+        {
+          "contig": "chrUn_KI270756v1",
+          "mapped": 217,
+          "unmapped": 1,
+          "total": 218
+        },
+        {
+          "contig": "chrUn_KI270757v1",
+          "mapped": 248,
+          "unmapped": 0,
+          "total": 248
+        }
+      ],
+      "elapsed_seconds": 71.1
+    }
+  ]
+}

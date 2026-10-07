@@ -1,0 +1,71 @@
+BAP1 antigen interpretation: what the stronger sequence evidence does and does not add
+1 October 2026
+
+The exact local DNA/RNA sequence, canonical splice linkage and two correlated
+binding-model releases support carrying the BAP1 frameshift into expert
+experimental triage. They do not establish a vaccine-ready target. The observed
+mutant RNA is more informative than simply labeling the gene BAP1 or the change
+frameshift: the conditional product contains only seven altered amino acids,
+not a long new reading frame. RASA1 contains only two, and the LATS1 insertion
+creates an immediate stop with no altered tail in the selected transcript.
+
+An early stop is not, by itself, a reason to discard a candidate. A cell-model
+study showed that premature-stop-containing transcripts can supply MHC-I
+peptides even when full-length protein production is curtailed. This is a
+mechanistic possibility, not evidence that these particular BAP1 peptides are
+produced. The requirement is direct peptide/HLA or functional T-cell evidence,
+not necessarily detection of a stable truncated BAP1 protein on a routine assay.
+Source: Apcher et al., PNAS 2011,
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3136330/
+
+The larger frameshift/NMD literature gives a reason to investigate expressed
+frameshifts even in low-TMB cancers. Litchfield et al. found associations between
+expressed frameshifts and immunotherapy benefit in small melanoma cohorts, and
+reviewed experimentally reactive frameshift peptides. Longer altered tails
+were enriched among reactive examples, although the comparison was small and
+confounded by how many peptides were tested. These data do not provide a
+response probability for this patient, mesothelioma, the BAP1 seven-residue
+tail or a particular vaccine. RNA expression should not be converted into a
+measured NMD-escape rate or a protein-production claim.
+Source: Nature Communications 2020,
+https://www.nature.com/articles/s41467-020-17526-5
+
+Normal-reference sequence comparison
+
+A complete equal-length search across 104,760 GENCODE37 protein records found
+no exact, one-substitution or two-substitution normal-reference neighbor for
+IEERKGLYL. For EERKGLYL there were no exact or one-substitution matches and 24
+distinct two-substitution neighbors. This is a bounded sequence observation,
+not proof of tumor specificity, immunogenicity or safety. It excludes neither
+normal population variants nor noncanonical translation, different-length
+cross-recognition or unrelated peptides recognized by the same T-cell receptor.
+
+The 24 neighboring eight-mers were scored locally against HLA-B*50:01 with the
+same two affinity-model releases. Several also have favorable predicted
+affinity. That is expected for some self peptides and does not demonstrate
+cross-reactivity; HLA binding and T-cell recognition are different questions.
+The sequences can serve as an optional experimental control list if Michael's
+team develops a cognate T-cell assay. They should not be described as predicted
+toxic off-targets, and this comparison should not alone select or reject the
+nine-mer versus eight-mer.
+
+Detailed provenance and results:
+bap1-normal-sequence-neighbors.json/.tsv
+bap1-normal-neighbor-affinity.json/.tsv
+normal-neighbor-screen.py
+predict-normal-neighbors.py
+bap1-local-validation/findings.txt
+
+Priority order for a research team
+
+1. Establish the exact variant in a current tumor specimen and normal-DNA
+   comparator, and confirm high-resolution blood HLA. The July brain specimen
+   cannot establish that every current extracranial site shares the target.
+2. Independently review the mutant transcript and local phasing, and retain
+   both overlapping BAP1 peptides as one mutation hypothesis.
+3. Assess actual tumor HLA-B*50:01 expression/retention and peptide presentation
+   or T-cell recognition with appropriate normal/self controls. Positive bulk
+   RNA HLA typing is not proof of malignant-cell allele retention.
+4. Only then determine whether the candidate belongs in a development program.
+   These research observations do not replace standard treatment, establish
+   clinical-trial eligibility or predict survival.

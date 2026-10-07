@@ -1,0 +1,11 @@
+{
+  "frozen_before_run_utc": "2026-10-05T05:58:13.385085+00:00",
+  "authorized_by_root": "Bounded whole primary genome + G37 transcript alternatives for two unique DNA linked sequence families using frozen RNA audit pipeline. No full DNA scan.",
+  "patient_distinct_sequences": 2,
+  "prior_pipeline_files_unchanged": {
+    "nominate.py": "25b814740bd22c18c9bc40ceb1f8fe2a17becc2acae79c4143f7b32676ddd1aa",
+    "score.py": "6e3ded40ca81704d7f552c8c935c029908dd52cf9a8c26a380c3addd62c1ec61"
+  },
+  "score_quality_coordinates": "For this DNA reuse, detailed scorer labels raw_position0 actually mean stored BAM-query sequence coordinates, with orientation/qualities preserved; not independent FASTQ-read validation.",
+  "limit": "Seed nomination is not exhaustive gapped mapping; reference missing alternate haplotypes. Ordinary and edited parent controls retained; no tumor fusion classification."
+}

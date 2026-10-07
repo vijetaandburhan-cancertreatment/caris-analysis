@@ -1,0 +1,9 @@
+{
+  "made_utc": "2026-10-05T05:24:23.800586+00:00",
+  "previous_manifest_sha256": "df7f51908b4c8c2796cb4737bb688390a716e3bfa7244ec4b40f0b2c9df8e15d",
+  "change": "Add full-reference D8 strong_original, matching the same four source fragments/background used in strong_trim_anchor12.",
+  "reason": "Provide exact untrimmed full-reference counterpart; original40 full control differs in background and thread count.",
+  "prospective": true,
+  "benchmark_runs_executed_before_amendment": 0,
+  "clarification": "One frozen limitation sentence still says three cases; the v1.1 executable list has four full-reference D8 cases. Interpret the case count as four; no input/parameter/outcome rule change."
+}

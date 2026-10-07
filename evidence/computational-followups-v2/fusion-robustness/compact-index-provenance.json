@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-10-05T05:37:59.716007+00:00",
+  "scope": "Read-only provenance of already-built compact indexes; no regeneration or reference change.",
+  "indexes": {
+    "1": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D1_SA12",
+      "files": {
+        "Genome": {
+          "bytes": 154681010,
+          "sha256": "7db1aa516b98e06b0a8f0790c06d16e71faa2c44a5c511e0269ef87041baf2d4"
+        },
+        "SA": {
+          "bytes": 4364204,
+          "sha256": "066708080493bb052d3d39709e35dae48e51b5ce569d4ff484f18327ecea1c9c"
+        },
+        "SAindex": {
+          "bytes": 97867203,
+          "sha256": "a82eed6a19e2572f061e14f0e04af172f396cdd23e3bb67344484b090b65de2c"
+        },
+        "genomeParameters.txt": {
+          "bytes": 1402,
+          "sha256": "3887f92ff29d50ac3706b9866cd6c5c94d6a0ab76eb1b973b9ba5e573bb7db52"
+        },
+        "chrName.txt": {
+          "bytes": 11,
+          "sha256": "b85d39bedd55fa5c3b4901d78f7a163fc51fc763081ec0cacbc001468ac42810"
+        },
+        "chrStart.txt": {
+          "bytes": 22,
+          "sha256": "5fa3e2cb23e9c7290fca7856e99e1da1816d54548a57a28269e72f16488a710b"
+        },
+        "sjdbInfo.txt": {
+          "bytes": 1407,
+          "sha256": "0dfb2169736e5958500ef29affaa2dd11121258916df1851ca1cc145e1c79439"
+        },
+        "sjdbList.fromGTF.out.tab": {
+          "bytes": 1412,
+          "sha256": "ab5bcfc842fe0190ae125aeda35e1c42fd3463144c81b97fe8f46abc3f766001"
+        }
+      }
+    },
+    "8": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D8_SA12",
+      "files": {
+        "Genome": {
+          "bytes": 154681010,
+          "sha256": "7db1aa516b98e06b0a8f0790c06d16e71faa2c44a5c511e0269ef87041baf2d4"
+        },
+        "SA": {
+          "bytes": 661035,
+          "sha256": "707487842935405145e9ca4ffdf3f5d5f48963b879bcdd08118f94eb7840583a"
+        },
+        "SAindex": {
+          "bytes": 97867203,
+          "sha256": "6e5cfe2a226d5cae943e0d188558e93b0ee0a704a31a81fd50e147d951420703"
+        },
+        "genomeParameters.txt": {
+          "bytes": 1401,
+          "sha256": "79b6fc574f559a3514ce54e7a6d8837ac8136c08d7a4a89d8c6d92b7af729a1f"
+        },
+        "chrName.txt": {
+          "bytes": 11,
+          "sha256": "b85d39bedd55fa5c3b4901d78f7a163fc51fc763081ec0cacbc001468ac42810"
+        },
+        "chrStart.txt": {
+          "bytes": 22,
+          "sha256": "5fa3e2cb23e9c7290fca7856e99e1da1816d54548a57a28269e72f16488a710b"
+        },
+        "sjdbInfo.txt": {
+          "bytes": 1407,
+          "sha256": "0dfb2169736e5958500ef29affaa2dd11121258916df1851ca1cc145e1c79439"
+        },
+        "sjdbList.fromGTF.out.tab": {
+          "bytes": 1412,
+          "sha256": "ab5bcfc842fe0190ae125aeda35e1c42fd3463144c81b97fe8f46abc3f766001"
+        }
+      }
+    }
+  },
+  "Genome_bytes_identical": true
+}

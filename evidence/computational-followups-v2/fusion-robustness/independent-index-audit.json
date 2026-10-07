@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "compact_parameter_differences": {
+    "genomeSAsparseD": [
+      "1",
+      "8"
+    ],
+    "genomeFileSizes": [
+      "154681010 4364204",
+      "154681010 661035"
+    ]
+  },
+  "compact_Genome_files_identical_sha256": "7db1aa516b98e06b0a8f0790c06d16e71faa2c44a5c511e0269ef87041baf2d4",
+  "D1_parameters": {
+    "versionGenome": "2.7.4a",
+    "genomeType": "Full",
+    "genomeFastaFiles": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/assembly.fa",
+    "genomeSAindexNbases": "12",
+    "genomeChrBinNbits": "18",
+    "genomeSAsparseD": "1",
+    "genomeTransformType": "None",
+    "genomeTransformVCF": "-",
+    "sjdbOverhang": "160",
+    "sjdbFileChrStartEnd": "-",
+    "sjdbGTFfile": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/annotation.gtf",
+    "sjdbGTFchrPrefix": "-",
+    "sjdbGTFfeatureExon": "exon",
+    "sjdbGTFtagExonParentTranscript": "transcript_id",
+    "sjdbGTFtagExonParentGene": "gene_id",
+    "sjdbInsertSave": "Basic",
+    "genomeFileSizes": "154681010 4364204"
+  },
+  "D8_parameters": {
+    "versionGenome": "2.7.4a",
+    "genomeType": "Full",
+    "genomeFastaFiles": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/assembly.fa",
+    "genomeSAindexNbases": "12",
+    "genomeChrBinNbits": "18",
+    "genomeSAsparseD": "8",
+    "genomeTransformType": "None",
+    "genomeTransformVCF": "-",
+    "sjdbOverhang": "160",
+    "sjdbFileChrStartEnd": "-",
+    "sjdbGTFfile": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/annotation.gtf",
+    "sjdbGTFchrPrefix": "-",
+    "sjdbGTFfeatureExon": "exon",
+    "sjdbGTFtagExonParentTranscript": "transcript_id",
+    "sjdbGTFtagExonParentGene": "gene_id",
+    "sjdbInsertSave": "Basic",
+    "genomeFileSizes": "154681010 661035"
+  },
+  "full_D8_parameters": {
+    "versionGenome": "2.7.4a",
+    "genomeType": "Full",
+    "genomeFastaFiles": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/GRCh38.primary_assembly.genome.fa",
+    "genomeSAindexNbases": "12",
+    "genomeChrBinNbits": "18",
+    "genomeSAsparseD": "8",
+    "genomeTransformType": "None",
+    "genomeTransformVCF": "-",
+    "sjdbOverhang": "160",
+    "sjdbFileChrStartEnd": "-",
+    "sjdbGTFfile": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/gencode.v37.primary_assembly.annotation.gtf",
+    "sjdbGTFchrPrefix": "-",
+    "sjdbGTFfeatureExon": "exon",
+    "sjdbGTFtagExonParentTranscript": "transcript_id",
+    "sjdbGTFtagExonParentGene": "gene_id",
+    "sjdbInsertSave": "Basic",
+    "genomeFileSizes": "3263354873 4068537474"
+  },
+  "source_files": {
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D1_SA12/genomeParameters.txt": "3887f92ff29d50ac3706b9866cd6c5c94d6a0ab76eb1b973b9ba5e573bb7db52",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D8_SA12/genomeParameters.txt": "79b6fc574f559a3514ce54e7a6d8837ac8136c08d7a4a89d8c6d92b7af729a1f",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/STAR_G37_primary_D8_SA12/genomeParameters.txt": "6745e5d229f1dc94be1499b8945e1345828291f8a71417b32769d99743fe9df7"
+  },
+  "scope": "Independent compact genome-array equality and declared index parameters; full genome reference hash comes from owner fresh provenance addendum, not independently rehashed here."
+}

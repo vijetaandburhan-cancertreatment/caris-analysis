@@ -1,0 +1,24 @@
+{
+  "verified_utc": "2026-10-05T04:58:46.584158+00:00",
+  "source_directory": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/MET-exon14",
+  "mirror_directory": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-MET-exon14-audit",
+  "file_hash_equality": {
+    "annotation.json": true,
+    "independent-checksums.json": true,
+    "provenance.json": true,
+    "raw-exact-check.json": true,
+    "independent-junction-check.json": true,
+    "raw_exact_check.executed.py": true,
+    "raw_exact_check.py": true,
+    "check_junctions.py": true,
+    "input-provenance.json": true,
+    "checksums.json": true,
+    "junction-check.json": true,
+    "independent-audit.txt": true,
+    "findings.txt": true,
+    "independent_check.py": true
+  },
+  "all_files_match": true,
+  "manifest_sha256": "1b291c8af1e911714dfa874c2817239428e67c3a335f66b0bc48c5881e4521da",
+  "self_note": "This verification file is not recursively included in its own hash list; its two copies were compared separately."
+}

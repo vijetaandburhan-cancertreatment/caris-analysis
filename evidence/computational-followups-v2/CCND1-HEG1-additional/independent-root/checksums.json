@@ -1,0 +1,18 @@
+{
+  "independent-pair-spans.json": "0c90c68e1bd5b5d8a483f18c77557e84b83bad4547b3cdf28f4e7ffac0d4a6f0",
+  "affine_dp.py": "f791184f7b3fd49ab7b7b3b3d311cc3a055db404dba87a01ae3aaf43bba24b5f",
+  "affine-window-controls.json": "81e5e2cd88990d15537aa7eeb49207e1e9030f3e98b2778c28b4698452ce5d72",
+  "check_sequence_geometry.py": "29f869253e0c163f2e287512df8bbf55c1614e1571649e56915b0e5496b24080",
+  "check_pair_spans.py": "3cf4e9f48f42d3ddbb16b90b788e1da288cb33e1c047ec004bb26a5e1c4983e2",
+  "independent-sequence-geometry.json": "87369f4080d3a1ccd7c9b2832d251d2eb34b1d6944a92e141e897e0baca209ba",
+  "independent-patient-control-rescore.json": "25d68512ad96d0356e57aecf316b49451a298709195f4b4cf6fd0307847321ba",
+  "affine_window_dp.py": "fa433667dcef7e985532a46e707fcec35b247052b0d325a5fbcc753d6a9c3824",
+  "affine-terminal-controls.json": "7d7af59d4e560c673c3633e3a9410057400f7061b5980b62bc86d637ee9b6627",
+  "check_dp_library_conventions.py": "51ca32276abcd22d3a7f2b0a11e7e9a6f452c4c2477c814e00d01a4854604c88",
+  "rescore.log": "645da05ded53ec32a61e14124d83c2e7a56ca25913aba45d58883b7625371de7",
+  "cross-library-controls.json": "ce2e8513a77f121a5405aec9baea6ec12b9d2add7953b4460e4a631221e22f2b",
+  "findings.txt": "79e3bf54ae314125cfe4da5a83be336f86f4d043cff5c54a9e8a342886d9f782",
+  "rescore_cases.py": "4a8bfac957cda6cb7bf6e34622ec0076365236b0fca29d83d455349fb38f8234",
+  "affine-controls.json": "c838aa2b4c9c8db7a007b39e09c36d2bbaad2eff6a7e7134d4ac9cebb9cf36e2",
+  "affine_terminal_dp.py": "af9d19b00c479b90ffe85b2cf34f150146e2eebe923aa3135fbb19dd0fd3e90b"
+}

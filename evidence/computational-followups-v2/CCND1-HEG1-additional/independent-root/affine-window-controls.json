@@ -1,0 +1,83 @@
+{
+  "conventions": "Independent global two-sequence affine DP matching frozen Bio window-end scores.\nQuery rows, reference columns. Match2/mismatch-4. Internal gap L:6+(L-1).\nInsertion (gap in ref) at physical ref boundaries j=0 or m:2/base.\nDeletion (gap in query) at physical query boundaries i=0 or n:free.\nThese are window-edge penalties, not universal soft-clipping after free reference\nprefixes. All bases accounted; no MAPQ or probability interpretation.\n",
+  "controls": [
+    {
+      "name": "perfect",
+      "expected": 8,
+      "observed": {
+        "score": 8,
+        "query_aligned": "ACGT",
+        "reference_aligned": "ACGT",
+        "matches": 4,
+        "mismatches": 0,
+        "insertion_bases": 0,
+        "deletion_bases": 0
+      }
+    },
+    {
+      "name": "free_ref",
+      "expected": 8,
+      "observed": {
+        "score": 8,
+        "query_aligned": "--ACGT--",
+        "reference_aligned": "TTACGTAA",
+        "matches": 4,
+        "mismatches": 0,
+        "insertion_bases": 0,
+        "deletion_bases": 4
+      }
+    },
+    {
+      "name": "query_prefix_at_ref_edge",
+      "expected": 4,
+      "observed": {
+        "score": 4,
+        "query_aligned": "TTACGT",
+        "reference_aligned": "--ACGT",
+        "matches": 4,
+        "mismatches": 0,
+        "insertion_bases": 2,
+        "deletion_bases": 0
+      }
+    },
+    {
+      "name": "query_prefix_after_ref_prefix",
+      "expected": 1,
+      "observed": {
+        "score": 1,
+        "query_aligned": "--TTACGT--",
+        "reference_aligned": "GG--ACGTGG",
+        "matches": 4,
+        "mismatches": 0,
+        "insertion_bases": 2,
+        "deletion_bases": 4
+      }
+    },
+    {
+      "name": "counterexample",
+      "expected": -13,
+      "observed": {
+        "score": -13,
+        "query_aligned": "-TTTCCCCAGGTCATTTAT-----------",
+        "reference_aligned": "G-----CC--GACATCTAAACCCGCTGCCC",
+        "matches": 8,
+        "mismatches": 3,
+        "insertion_bases": 7,
+        "deletion_bases": 12
+      }
+    },
+    {
+      "name": "internal_insertion",
+      "expected": 10,
+      "observed": {
+        "score": 10,
+        "query_aligned": "ACGATTGCA",
+        "reference_aligned": "ACG-TTGCA",
+        "matches": 8,
+        "mismatches": 0,
+        "insertion_bases": 1,
+        "deletion_bases": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "method": "Start/end intervals reconstructed from independent DP traceback, not owner coordinates. Full-reference gap-only ends excluded. Tie-selected placements can depend on alignment convention. Patterns are not proven original molecules.",
+  "Q20_start_end_patterns": {
+    "203-334": 2,
+    "204-333": 1,
+    "205-334": 2,
+    "205-282": 3,
+    "209-327": 2,
+    "209-299": 1
+  },
+  "pattern_count": 6,
+  "all14_opposite_orientations": true,
+  "pairs": [
+    {
+      "pair_id": "P01",
+      "Q20": true,
+      "span": [
+        203,
+        334
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 203,
+          "end0": 334,
+          "orientation": "-",
+          "score": 255,
+          "case": "Q09-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 203,
+          "end0": 334,
+          "orientation": "+",
+          "score": 255,
+          "case": "Q02+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P02",
+      "Q20": true,
+      "span": [
+        204,
+        333
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 204,
+          "end0": 333,
+          "orientation": "-",
+          "score": 252,
+          "case": "Q03-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 204,
+          "end0": 333,
+          "orientation": "+",
+          "score": 252,
+          "case": "Q07+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P03",
+      "Q20": false,
+      "span": [
+        204,
+        434
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 284,
+          "end0": 434,
+          "orientation": "-",
+          "score": 300,
+          "case": "Q17-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 204,
+          "end0": 365,
+          "orientation": "+",
+          "score": 310,
+          "case": "Q05+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P04",
+      "Q20": true,
+      "span": [
+        203,
+        334
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 203,
+          "end0": 334,
+          "orientation": "-",
+          "score": 255,
+          "case": "Q09-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 203,
+          "end0": 334,
+          "orientation": "+",
+          "score": 255,
+          "case": "Q02+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P05",
+      "Q20": true,
+      "span": [
+        205,
+        334
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 205,
+          "end0": 334,
+          "orientation": "-",
+          "score": 250,
+          "case": "Q10-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 205,
+          "end0": 334,
+          "orientation": "+",
+          "score": 250,
+          "case": "Q12+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P06",
+      "Q20": true,
+      "span": [
+        205,
+        334
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 205,
+          "end0": 334,
+          "orientation": "-",
+          "score": 250,
+          "case": "Q10-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 205,
+          "end0": 334,
+          "orientation": "+",
+          "score": 244,
+          "case": "Q11+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P07",
+      "Q20": true,
+      "span": [
+        205,
+        282
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 205,
+          "end0": 282,
+          "orientation": "-",
+          "score": 142,
+          "case": "Q01-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 205,
+          "end0": 282,
+          "orientation": "+",
+          "score": 142,
+          "case": "Q13+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P08",
+      "Q20": false,
+      "span": [
+        201,
+        434
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 284,
+          "end0": 434,
+          "orientation": "-",
+          "score": 300,
+          "case": "Q17-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 201,
+          "end0": 361,
+          "orientation": "+",
+          "score": 302,
+          "case": "Q08+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P09",
+      "Q20": true,
+      "span": [
+        205,
+        282
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 205,
+          "end0": 282,
+          "orientation": "-",
+          "score": 142,
+          "case": "Q01-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 205,
+          "end0": 282,
+          "orientation": "+",
+          "score": 142,
+          "case": "Q13+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P10",
+      "Q20": true,
+      "span": [
+        209,
+        327
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 209,
+          "end0": 327,
+          "orientation": "-",
+          "score": 236,
+          "case": "Q18-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 209,
+          "end0": 327,
+          "orientation": "+",
+          "score": 236,
+          "case": "Q16+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P11",
+      "Q20": true,
+      "span": [
+        209,
+        327
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 209,
+          "end0": 327,
+          "orientation": "-",
+          "score": 236,
+          "case": "Q18-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 209,
+          "end0": 327,
+          "orientation": "+",
+          "score": 236,
+          "case": "Q16+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P12",
+      "Q20": false,
+      "span": [
+        204,
+        333
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 204,
+          "end0": 333,
+          "orientation": "-",
+          "score": 246,
+          "case": "Q04-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 204,
+          "end0": 333,
+          "orientation": "+",
+          "score": 240,
+          "case": "Q06+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P13",
+      "Q20": true,
+      "span": [
+        205,
+        282
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 205,
+          "end0": 282,
+          "orientation": "-",
+          "score": 142,
+          "case": "Q01-_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 205,
+          "end0": 282,
+          "orientation": "+",
+          "score": 142,
+          "case": "Q13+_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    },
+    {
+      "pair_id": "P14",
+      "Q20": true,
+      "span": [
+        209,
+        299
+      ],
+      "opposite_orientations": true,
+      "mates": [
+        {
+          "start0": 209,
+          "end0": 299,
+          "orientation": "+",
+          "score": 180,
+          "case": "Q15+_proposed_CCND1antisense_HEG1spliced"
+        },
+        {
+          "start0": 209,
+          "end0": 299,
+          "orientation": "-",
+          "score": 180,
+          "case": "Q14-_proposed_CCND1antisense_HEG1spliced"
+        }
+      ]
+    }
+  ]
+}

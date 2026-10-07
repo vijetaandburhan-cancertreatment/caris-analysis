@@ -1,0 +1,5 @@
+{
+  "reason": "Independent editorial audit found equal stored length insufficient to prove same physical query offset with terminal hard clips. Gate both records on no hard clips and exact orientation-normalized sequence equality. Main allele/count transitions unchanged.",
+  "original_script_sha256": "70331ece9b8452533a0fdccdc7c396c6683a31adc8a2330a42f3b95502811f32",
+  "updated_script_sha256": "fbe0400bd2de3601efa02f4e9c8f66dfa7f686858fe40b8e321ba99677997cd7"
+}

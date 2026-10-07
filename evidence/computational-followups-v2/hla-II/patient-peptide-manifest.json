@@ -1,0 +1,2147 @@
+{
+  "context_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/BAP1-RASA1-local-protein-context.json",
+  "context_sha256": "908fa7f953e00783a1d544ebc5e4a67c05489f25ede4dfbf893b7d5e59fff4e4",
+  "context_records": [
+    {
+      "gene": "BAP1",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11",
+      "sequence_type": "wt",
+      "amino_acid_start1": 32,
+      "amino_acid_end1": 81,
+      "sequence": "IYDLQSKCQGPVYGFIFLFKWIEERRSRRKVSTLVDDTSVIDDDIVNNMF",
+      "sha256_sequence": "82f1302cf3ae9f5f185392413b2864f463967a4ff2353eab68beecd7eaa094ee",
+      "first_altered_position1": 57,
+      "window_reaches_predicted_protein_end": false
+    },
+    {
+      "gene": "BAP1",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11",
+      "sequence_type": "mutant",
+      "amino_acid_start1": 32,
+      "amino_acid_end1": 63,
+      "sequence": "IYDLQSKCQGPVYGFIFLFKWIEERKGLYLGG",
+      "sha256_sequence": "8b808695a2a43a1e043cda1974e50042db11ffd78fd25f3d43f16fa8cad5520d",
+      "first_altered_position1": 57,
+      "window_reaches_predicted_protein_end": true
+    },
+    {
+      "gene": "RASA1",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG",
+      "sequence_type": "wt",
+      "amino_acid_start1": 225,
+      "amino_acid_end1": 274,
+      "sequence": "NVVNHFRIIAMCGDYYIGGRRFSSLSDLIGYYSHVSCLLKGEKLLYPVAP",
+      "sha256_sequence": "74bbac60d61b6c0f8e42792111efb669176a3790705a291f5ac6713add59d0c1",
+      "first_altered_position1": 250,
+      "window_reaches_predicted_protein_end": false
+    },
+    {
+      "gene": "RASA1",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG",
+      "sequence_type": "mutant",
+      "amino_acid_start1": 225,
+      "amino_acid_end1": 251,
+      "sequence": "NVVNHFRIIAMCGDYYIGGRRFSSLQT",
+      "sha256_sequence": "e73e7b226f8e9cd55feb137460189264cef051c0c127e6fa11e50f4057ce50c2",
+      "first_altered_position1": 250,
+      "window_reaches_predicted_protein_end": true
+    }
+  ],
+  "alleles": [
+    {
+      "name": "HLA-DRB1*03:01",
+      "pseudo_sequence": "QEFFIASGAAVDAIMESSYDYFDLQKRNYHVVFT",
+      "caveat": "Provisional RNA beta-chain; DRA01:01 assumed"
+    },
+    {
+      "name": "HLA-DRB1*15:02",
+      "pseudo_sequence": "QEFFIASGAAVDAIMWPRFDYFDIQAATYHVGFT",
+      "caveat": "Provisional RNA beta-chain; DRA01:01 assumed"
+    },
+    {
+      "name": "HLA-DRB5*01:02",
+      "pseudo_sequence": "QEFFIASGAAVDAIMQDYFHGYDFDRATYHVGFT",
+      "caveat": "Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+    },
+    {
+      "name": "HLA-DPA1*01:03/DPB1*02:01",
+      "pseudo_sequence": "YAFFMFSGGAILNTLFGQFEYFDIEEVRMHLGMT",
+      "caveat": "DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing"
+    },
+    {
+      "name": "HLA-DPA1*01:03/DPB1*04:01",
+      "pseudo_sequence": "YAFFMFSGGAILNTLFGQFEYFAIEKVRMHLGMT",
+      "caveat": "DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing"
+    },
+    {
+      "name": "HLA-DQA1*01:03/DQB1*02:01",
+      "pseudo_sequence": "CNFHQGGGARVAHIMYFGLSSFAIRKARVHLETT",
+      "caveat": "Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established"
+    },
+    {
+      "name": "HLA-DQA1*01:03/DQB1*06:01",
+      "pseudo_sequence": "CNFHQGGGARVAHIMLFAYTYYDIRTETVHVAGI",
+      "caveat": "Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established"
+    },
+    {
+      "name": "HLA-DQA1*05:01/DQB1*02:01",
+      "pseudo_sequence": "YNYHQRXFATVLHSLYFGLSSFAIRKARVHLETT",
+      "caveat": "Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established"
+    },
+    {
+      "name": "HLA-DQA1*05:01/DQB1*06:01",
+      "pseudo_sequence": "YNYHQRXFATVLHSLLFAYTYYDIRTETVHVAGI",
+      "caveat": "Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established"
+    }
+  ],
+  "windows": [
+    {
+      "window_id": "BAP1_45_13",
+      "gene": "BAP1",
+      "length": 13,
+      "aa_start1": 45,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        13
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GFIFLFKWIEERK",
+      "wt": "GFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_46_13",
+      "gene": "BAP1",
+      "length": 13,
+      "aa_start1": 46,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        12,
+        13
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FIFLFKWIEERKG",
+      "wt": "FIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_47_13",
+      "gene": "BAP1",
+      "length": 13,
+      "aa_start1": 47,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        11,
+        12,
+        13
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "IFLFKWIEERKGL",
+      "wt": "IFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_48_13",
+      "gene": "BAP1",
+      "length": 13,
+      "aa_start1": 48,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FLFKWIEERKGLY",
+      "wt": "FLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_49_13",
+      "gene": "BAP1",
+      "length": 13,
+      "aa_start1": 49,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "LFKWIEERKGLYL",
+      "wt": "LFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_50_13",
+      "gene": "BAP1",
+      "length": 13,
+      "aa_start1": 50,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FKWIEERKGLYLG",
+      "wt": "FKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_51_13",
+      "gene": "BAP1",
+      "length": 13,
+      "aa_start1": 51,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "KWIEERKGLYLGG",
+      "wt": "KWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_44_14",
+      "gene": "BAP1",
+      "length": 14,
+      "aa_start1": 44,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        14
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "YGFIFLFKWIEERK",
+      "wt": "YGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_45_14",
+      "gene": "BAP1",
+      "length": 14,
+      "aa_start1": 45,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        13,
+        14
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GFIFLFKWIEERKG",
+      "wt": "GFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_46_14",
+      "gene": "BAP1",
+      "length": 14,
+      "aa_start1": 46,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        12,
+        13,
+        14
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FIFLFKWIEERKGL",
+      "wt": "FIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_47_14",
+      "gene": "BAP1",
+      "length": 14,
+      "aa_start1": 47,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "IFLFKWIEERKGLY",
+      "wt": "IFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_48_14",
+      "gene": "BAP1",
+      "length": 14,
+      "aa_start1": 48,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FLFKWIEERKGLYL",
+      "wt": "FLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_49_14",
+      "gene": "BAP1",
+      "length": 14,
+      "aa_start1": 49,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "LFKWIEERKGLYLG",
+      "wt": "LFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_50_14",
+      "gene": "BAP1",
+      "length": 14,
+      "aa_start1": 50,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "FKWIEERKGLYLGG",
+      "wt": "FKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_43_15",
+      "gene": "BAP1",
+      "length": 15,
+      "aa_start1": 43,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        15
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "VYGFIFLFKWIEERK",
+      "wt": "VYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_44_15",
+      "gene": "BAP1",
+      "length": 15,
+      "aa_start1": 44,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        14,
+        15
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "YGFIFLFKWIEERKG",
+      "wt": "YGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_45_15",
+      "gene": "BAP1",
+      "length": 15,
+      "aa_start1": 45,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        13,
+        14,
+        15
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GFIFLFKWIEERKGL",
+      "wt": "GFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_46_15",
+      "gene": "BAP1",
+      "length": 15,
+      "aa_start1": 46,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FIFLFKWIEERKGLY",
+      "wt": "FIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_47_15",
+      "gene": "BAP1",
+      "length": 15,
+      "aa_start1": 47,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "IFLFKWIEERKGLYL",
+      "wt": "IFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_48_15",
+      "gene": "BAP1",
+      "length": 15,
+      "aa_start1": 48,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FLFKWIEERKGLYLG",
+      "wt": "FLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_49_15",
+      "gene": "BAP1",
+      "length": 15,
+      "aa_start1": 49,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "LFKWIEERKGLYLGG",
+      "wt": "LFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_42_16",
+      "gene": "BAP1",
+      "length": 16,
+      "aa_start1": 42,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        16
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "PVYGFIFLFKWIEERK",
+      "wt": "PVYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_43_16",
+      "gene": "BAP1",
+      "length": 16,
+      "aa_start1": 43,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        15,
+        16
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "VYGFIFLFKWIEERKG",
+      "wt": "VYGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_44_16",
+      "gene": "BAP1",
+      "length": 16,
+      "aa_start1": 44,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        14,
+        15,
+        16
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "YGFIFLFKWIEERKGL",
+      "wt": "YGFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_45_16",
+      "gene": "BAP1",
+      "length": 16,
+      "aa_start1": 45,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GFIFLFKWIEERKGLY",
+      "wt": "GFIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_46_16",
+      "gene": "BAP1",
+      "length": 16,
+      "aa_start1": 46,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FIFLFKWIEERKGLYL",
+      "wt": "FIFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_47_16",
+      "gene": "BAP1",
+      "length": 16,
+      "aa_start1": 47,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "IFLFKWIEERKGLYLG",
+      "wt": "IFLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_48_16",
+      "gene": "BAP1",
+      "length": 16,
+      "aa_start1": 48,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "FLFKWIEERKGLYLGG",
+      "wt": "FLFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_41_17",
+      "gene": "BAP1",
+      "length": 17,
+      "aa_start1": 41,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        17
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GPVYGFIFLFKWIEERK",
+      "wt": "GPVYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_42_17",
+      "gene": "BAP1",
+      "length": 17,
+      "aa_start1": 42,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        16,
+        17
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "PVYGFIFLFKWIEERKG",
+      "wt": "PVYGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_43_17",
+      "gene": "BAP1",
+      "length": 17,
+      "aa_start1": 43,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        15,
+        16,
+        17
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "VYGFIFLFKWIEERKGL",
+      "wt": "VYGFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_44_17",
+      "gene": "BAP1",
+      "length": 17,
+      "aa_start1": 44,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "YGFIFLFKWIEERKGLY",
+      "wt": "YGFIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_45_17",
+      "gene": "BAP1",
+      "length": 17,
+      "aa_start1": 45,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GFIFLFKWIEERKGLYL",
+      "wt": "GFIFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_46_17",
+      "gene": "BAP1",
+      "length": 17,
+      "aa_start1": 46,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FIFLFKWIEERKGLYLG",
+      "wt": "FIFLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_47_17",
+      "gene": "BAP1",
+      "length": 17,
+      "aa_start1": 47,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "IFLFKWIEERKGLYLGG",
+      "wt": "IFLFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_40_18",
+      "gene": "BAP1",
+      "length": 18,
+      "aa_start1": 40,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        18
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "QGPVYGFIFLFKWIEERK",
+      "wt": "QGPVYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_41_18",
+      "gene": "BAP1",
+      "length": 18,
+      "aa_start1": 41,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        17,
+        18
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GPVYGFIFLFKWIEERKG",
+      "wt": "GPVYGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_42_18",
+      "gene": "BAP1",
+      "length": 18,
+      "aa_start1": 42,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        16,
+        17,
+        18
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "PVYGFIFLFKWIEERKGL",
+      "wt": "PVYGFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_43_18",
+      "gene": "BAP1",
+      "length": 18,
+      "aa_start1": 43,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "VYGFIFLFKWIEERKGLY",
+      "wt": "VYGFIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_44_18",
+      "gene": "BAP1",
+      "length": 18,
+      "aa_start1": 44,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "YGFIFLFKWIEERKGLYL",
+      "wt": "YGFIFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_45_18",
+      "gene": "BAP1",
+      "length": 18,
+      "aa_start1": 45,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GFIFLFKWIEERKGLYLG",
+      "wt": "GFIFLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_46_18",
+      "gene": "BAP1",
+      "length": 18,
+      "aa_start1": 46,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "FIFLFKWIEERKGLYLGG",
+      "wt": "FIFLFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_39_19",
+      "gene": "BAP1",
+      "length": 19,
+      "aa_start1": 39,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        19
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "CQGPVYGFIFLFKWIEERK",
+      "wt": "CQGPVYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_40_19",
+      "gene": "BAP1",
+      "length": 19,
+      "aa_start1": 40,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        18,
+        19
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "QGPVYGFIFLFKWIEERKG",
+      "wt": "QGPVYGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_41_19",
+      "gene": "BAP1",
+      "length": 19,
+      "aa_start1": 41,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        17,
+        18,
+        19
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GPVYGFIFLFKWIEERKGL",
+      "wt": "GPVYGFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_42_19",
+      "gene": "BAP1",
+      "length": 19,
+      "aa_start1": 42,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "PVYGFIFLFKWIEERKGLY",
+      "wt": "PVYGFIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_43_19",
+      "gene": "BAP1",
+      "length": 19,
+      "aa_start1": 43,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "VYGFIFLFKWIEERKGLYL",
+      "wt": "VYGFIFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_44_19",
+      "gene": "BAP1",
+      "length": 19,
+      "aa_start1": 44,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "YGFIFLFKWIEERKGLYLG",
+      "wt": "YGFIFLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_45_19",
+      "gene": "BAP1",
+      "length": 19,
+      "aa_start1": 45,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "GFIFLFKWIEERKGLYLGG",
+      "wt": "GFIFLFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_38_20",
+      "gene": "BAP1",
+      "length": 20,
+      "aa_start1": 38,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        20
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "KCQGPVYGFIFLFKWIEERK",
+      "wt": "KCQGPVYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_39_20",
+      "gene": "BAP1",
+      "length": 20,
+      "aa_start1": 39,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        19,
+        20
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "CQGPVYGFIFLFKWIEERKG",
+      "wt": "CQGPVYGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_40_20",
+      "gene": "BAP1",
+      "length": 20,
+      "aa_start1": 40,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        18,
+        19,
+        20
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "QGPVYGFIFLFKWIEERKGL",
+      "wt": "QGPVYGFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_41_20",
+      "gene": "BAP1",
+      "length": 20,
+      "aa_start1": 41,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GPVYGFIFLFKWIEERKGLY",
+      "wt": "GPVYGFIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_42_20",
+      "gene": "BAP1",
+      "length": 20,
+      "aa_start1": 42,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "PVYGFIFLFKWIEERKGLYL",
+      "wt": "PVYGFIFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_43_20",
+      "gene": "BAP1",
+      "length": 20,
+      "aa_start1": 43,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "VYGFIFLFKWIEERKGLYLG",
+      "wt": "VYGFIFLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_44_20",
+      "gene": "BAP1",
+      "length": 20,
+      "aa_start1": 44,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "YGFIFLFKWIEERKGLYLGG",
+      "wt": "YGFIFLFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_37_21",
+      "gene": "BAP1",
+      "length": 21,
+      "aa_start1": 37,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        21
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "SKCQGPVYGFIFLFKWIEERK",
+      "wt": "SKCQGPVYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_38_21",
+      "gene": "BAP1",
+      "length": 21,
+      "aa_start1": 38,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        20,
+        21
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "KCQGPVYGFIFLFKWIEERKG",
+      "wt": "KCQGPVYGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_39_21",
+      "gene": "BAP1",
+      "length": 21,
+      "aa_start1": 39,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        19,
+        20,
+        21
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "CQGPVYGFIFLFKWIEERKGL",
+      "wt": "CQGPVYGFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_40_21",
+      "gene": "BAP1",
+      "length": 21,
+      "aa_start1": 40,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "QGPVYGFIFLFKWIEERKGLY",
+      "wt": "QGPVYGFIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_41_21",
+      "gene": "BAP1",
+      "length": 21,
+      "aa_start1": 41,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GPVYGFIFLFKWIEERKGLYL",
+      "wt": "GPVYGFIFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_42_21",
+      "gene": "BAP1",
+      "length": 21,
+      "aa_start1": 42,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "PVYGFIFLFKWIEERKGLYLG",
+      "wt": "PVYGFIFLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_43_21",
+      "gene": "BAP1",
+      "length": 21,
+      "aa_start1": 43,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "VYGFIFLFKWIEERKGLYLGG",
+      "wt": "VYGFIFLFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_36_22",
+      "gene": "BAP1",
+      "length": 22,
+      "aa_start1": 36,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        22
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "QSKCQGPVYGFIFLFKWIEERK",
+      "wt": "QSKCQGPVYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_37_22",
+      "gene": "BAP1",
+      "length": 22,
+      "aa_start1": 37,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        21,
+        22
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "SKCQGPVYGFIFLFKWIEERKG",
+      "wt": "SKCQGPVYGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_38_22",
+      "gene": "BAP1",
+      "length": 22,
+      "aa_start1": 38,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        20,
+        21,
+        22
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "KCQGPVYGFIFLFKWIEERKGL",
+      "wt": "KCQGPVYGFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_39_22",
+      "gene": "BAP1",
+      "length": 22,
+      "aa_start1": 39,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "CQGPVYGFIFLFKWIEERKGLY",
+      "wt": "CQGPVYGFIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_40_22",
+      "gene": "BAP1",
+      "length": 22,
+      "aa_start1": 40,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "QGPVYGFIFLFKWIEERKGLYL",
+      "wt": "QGPVYGFIFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_41_22",
+      "gene": "BAP1",
+      "length": 22,
+      "aa_start1": 41,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GPVYGFIFLFKWIEERKGLYLG",
+      "wt": "GPVYGFIFLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_42_22",
+      "gene": "BAP1",
+      "length": 22,
+      "aa_start1": 42,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "PVYGFIFLFKWIEERKGLYLGG",
+      "wt": "PVYGFIFLFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_35_23",
+      "gene": "BAP1",
+      "length": 23,
+      "aa_start1": 35,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        23
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "LQSKCQGPVYGFIFLFKWIEERK",
+      "wt": "LQSKCQGPVYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_36_23",
+      "gene": "BAP1",
+      "length": 23,
+      "aa_start1": 36,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        22,
+        23
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "QSKCQGPVYGFIFLFKWIEERKG",
+      "wt": "QSKCQGPVYGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_37_23",
+      "gene": "BAP1",
+      "length": 23,
+      "aa_start1": 37,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        21,
+        22,
+        23
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "SKCQGPVYGFIFLFKWIEERKGL",
+      "wt": "SKCQGPVYGFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_38_23",
+      "gene": "BAP1",
+      "length": 23,
+      "aa_start1": 38,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "KCQGPVYGFIFLFKWIEERKGLY",
+      "wt": "KCQGPVYGFIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_39_23",
+      "gene": "BAP1",
+      "length": 23,
+      "aa_start1": 39,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "CQGPVYGFIFLFKWIEERKGLYL",
+      "wt": "CQGPVYGFIFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_40_23",
+      "gene": "BAP1",
+      "length": 23,
+      "aa_start1": 40,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "QGPVYGFIFLFKWIEERKGLYLG",
+      "wt": "QGPVYGFIFLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_41_23",
+      "gene": "BAP1",
+      "length": 23,
+      "aa_start1": 41,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "GPVYGFIFLFKWIEERKGLYLGG",
+      "wt": "GPVYGFIFLFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_34_24",
+      "gene": "BAP1",
+      "length": 24,
+      "aa_start1": 34,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        24
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "DLQSKCQGPVYGFIFLFKWIEERK",
+      "wt": "DLQSKCQGPVYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_35_24",
+      "gene": "BAP1",
+      "length": 24,
+      "aa_start1": 35,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        23,
+        24
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "LQSKCQGPVYGFIFLFKWIEERKG",
+      "wt": "LQSKCQGPVYGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_36_24",
+      "gene": "BAP1",
+      "length": 24,
+      "aa_start1": 36,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        22,
+        23,
+        24
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "QSKCQGPVYGFIFLFKWIEERKGL",
+      "wt": "QSKCQGPVYGFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_37_24",
+      "gene": "BAP1",
+      "length": 24,
+      "aa_start1": 37,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "SKCQGPVYGFIFLFKWIEERKGLY",
+      "wt": "SKCQGPVYGFIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_38_24",
+      "gene": "BAP1",
+      "length": 24,
+      "aa_start1": 38,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "KCQGPVYGFIFLFKWIEERKGLYL",
+      "wt": "KCQGPVYGFIFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_39_24",
+      "gene": "BAP1",
+      "length": 24,
+      "aa_start1": 39,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "CQGPVYGFIFLFKWIEERKGLYLG",
+      "wt": "CQGPVYGFIFLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_40_24",
+      "gene": "BAP1",
+      "length": 24,
+      "aa_start1": 40,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "QGPVYGFIFLFKWIEERKGLYLGG",
+      "wt": "QGPVYGFIFLFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_33_25",
+      "gene": "BAP1",
+      "length": 25,
+      "aa_start1": 33,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        25
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "YDLQSKCQGPVYGFIFLFKWIEERK",
+      "wt": "YDLQSKCQGPVYGFIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_34_25",
+      "gene": "BAP1",
+      "length": 25,
+      "aa_start1": 34,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        24,
+        25
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "DLQSKCQGPVYGFIFLFKWIEERKG",
+      "wt": "DLQSKCQGPVYGFIFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_35_25",
+      "gene": "BAP1",
+      "length": 25,
+      "aa_start1": 35,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        23,
+        24,
+        25
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "LQSKCQGPVYGFIFLFKWIEERKGL",
+      "wt": "LQSKCQGPVYGFIFLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_36_25",
+      "gene": "BAP1",
+      "length": 25,
+      "aa_start1": 36,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "QSKCQGPVYGFIFLFKWIEERKGLY",
+      "wt": "QSKCQGPVYGFIFLFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_37_25",
+      "gene": "BAP1",
+      "length": 25,
+      "aa_start1": 37,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "SKCQGPVYGFIFLFKWIEERKGLYL",
+      "wt": "SKCQGPVYGFIFLFKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_38_25",
+      "gene": "BAP1",
+      "length": 25,
+      "aa_start1": 38,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "KCQGPVYGFIFLFKWIEERKGLYLG",
+      "wt": "KCQGPVYGFIFLFKWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_39_25",
+      "gene": "BAP1",
+      "length": 25,
+      "aa_start1": 39,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "CQGPVYGFIFLFKWIEERKGLYLGG",
+      "wt": "CQGPVYGFIFLFKWIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "RASA1_238_13",
+      "gene": "RASA1",
+      "length": 13,
+      "aa_start1": 238,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        13
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "DYYIGGRRFSSLQ",
+      "wt": "DYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_239_13",
+      "gene": "RASA1",
+      "length": 13,
+      "aa_start1": 239,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        12,
+        13
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "YYIGGRRFSSLQT",
+      "wt": "YYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_237_14",
+      "gene": "RASA1",
+      "length": 14,
+      "aa_start1": 237,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        14
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "GDYYIGGRRFSSLQ",
+      "wt": "GDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_238_14",
+      "gene": "RASA1",
+      "length": 14,
+      "aa_start1": 238,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        13,
+        14
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "DYYIGGRRFSSLQT",
+      "wt": "DYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_236_15",
+      "gene": "RASA1",
+      "length": 15,
+      "aa_start1": 236,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        15
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "CGDYYIGGRRFSSLQ",
+      "wt": "CGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_237_15",
+      "gene": "RASA1",
+      "length": 15,
+      "aa_start1": 237,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        14,
+        15
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "GDYYIGGRRFSSLQT",
+      "wt": "GDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_235_16",
+      "gene": "RASA1",
+      "length": 16,
+      "aa_start1": 235,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        16
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "MCGDYYIGGRRFSSLQ",
+      "wt": "MCGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_236_16",
+      "gene": "RASA1",
+      "length": 16,
+      "aa_start1": 236,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        15,
+        16
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "CGDYYIGGRRFSSLQT",
+      "wt": "CGDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_234_17",
+      "gene": "RASA1",
+      "length": 17,
+      "aa_start1": 234,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        17
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "AMCGDYYIGGRRFSSLQ",
+      "wt": "AMCGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_235_17",
+      "gene": "RASA1",
+      "length": 17,
+      "aa_start1": 235,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        16,
+        17
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "MCGDYYIGGRRFSSLQT",
+      "wt": "MCGDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_233_18",
+      "gene": "RASA1",
+      "length": 18,
+      "aa_start1": 233,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        18
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "IAMCGDYYIGGRRFSSLQ",
+      "wt": "IAMCGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_234_18",
+      "gene": "RASA1",
+      "length": 18,
+      "aa_start1": 234,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        17,
+        18
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "AMCGDYYIGGRRFSSLQT",
+      "wt": "AMCGDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_232_19",
+      "gene": "RASA1",
+      "length": 19,
+      "aa_start1": 232,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        19
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "IIAMCGDYYIGGRRFSSLQ",
+      "wt": "IIAMCGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_233_19",
+      "gene": "RASA1",
+      "length": 19,
+      "aa_start1": 233,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        18,
+        19
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "IAMCGDYYIGGRRFSSLQT",
+      "wt": "IAMCGDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_231_20",
+      "gene": "RASA1",
+      "length": 20,
+      "aa_start1": 231,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        20
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "RIIAMCGDYYIGGRRFSSLQ",
+      "wt": "RIIAMCGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_232_20",
+      "gene": "RASA1",
+      "length": 20,
+      "aa_start1": 232,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        19,
+        20
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "IIAMCGDYYIGGRRFSSLQT",
+      "wt": "IIAMCGDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_230_21",
+      "gene": "RASA1",
+      "length": 21,
+      "aa_start1": 230,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        21
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FRIIAMCGDYYIGGRRFSSLQ",
+      "wt": "FRIIAMCGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_231_21",
+      "gene": "RASA1",
+      "length": 21,
+      "aa_start1": 231,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        20,
+        21
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "RIIAMCGDYYIGGRRFSSLQT",
+      "wt": "RIIAMCGDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_229_22",
+      "gene": "RASA1",
+      "length": 22,
+      "aa_start1": 229,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        22
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "HFRIIAMCGDYYIGGRRFSSLQ",
+      "wt": "HFRIIAMCGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_230_22",
+      "gene": "RASA1",
+      "length": 22,
+      "aa_start1": 230,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        21,
+        22
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "FRIIAMCGDYYIGGRRFSSLQT",
+      "wt": "FRIIAMCGDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_228_23",
+      "gene": "RASA1",
+      "length": 23,
+      "aa_start1": 228,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        23
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "NHFRIIAMCGDYYIGGRRFSSLQ",
+      "wt": "NHFRIIAMCGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_229_23",
+      "gene": "RASA1",
+      "length": 23,
+      "aa_start1": 229,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        22,
+        23
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "HFRIIAMCGDYYIGGRRFSSLQT",
+      "wt": "HFRIIAMCGDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_227_24",
+      "gene": "RASA1",
+      "length": 24,
+      "aa_start1": 227,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        24
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "VNHFRIIAMCGDYYIGGRRFSSLQ",
+      "wt": "VNHFRIIAMCGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_228_24",
+      "gene": "RASA1",
+      "length": 24,
+      "aa_start1": 228,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        23,
+        24
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "NHFRIIAMCGDYYIGGRRFSSLQT",
+      "wt": "NHFRIIAMCGDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_226_25",
+      "gene": "RASA1",
+      "length": 25,
+      "aa_start1": 226,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        25
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "VVNHFRIIAMCGDYYIGGRRFSSLQ",
+      "wt": "VVNHFRIIAMCGDYYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_227_25",
+      "gene": "RASA1",
+      "length": 25,
+      "aa_start1": 227,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        24,
+        25
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "VNHFRIIAMCGDYYIGGRRFSSLQT",
+      "wt": "VNHFRIIAMCGDYYIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    }
+  ],
+  "total_windows": 117,
+  "input_rows": 2106,
+  "scope": "Conditional mutation-containing13\u201325mers with same-start/same-length WT comparators. Do not extend natural new protein stops. DQ pairs unphased; no nearest HLA substitution."
+}

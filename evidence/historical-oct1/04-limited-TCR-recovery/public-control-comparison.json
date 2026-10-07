@@ -1,0 +1,45 @@
+{
+  "exact_sorted_rows_match": false,
+  "CDR3_nucleotide_set_match": true,
+  "total_CDR3s": [
+    44,
+    44
+  ],
+  "differences": [
+    {
+      "expected_contig": "assemble76",
+      "observed_contig": "assemble74",
+      "columns": [
+        {
+          "column": 8,
+          "expected": "assemble76",
+          "observed": "assemble74"
+        }
+      ]
+    },
+    {
+      "expected_contig": "assemble77",
+      "observed_contig": "assemble72",
+      "columns": [
+        {
+          "column": 8,
+          "expected": "assemble77",
+          "observed": "assemble72"
+        }
+      ]
+    },
+    {
+      "expected_contig": "assemble49",
+      "observed_contig": "assemble49",
+      "columns": [
+        {
+          "column": 6,
+          "expected": "IGHJ6*04",
+          "observed": "IGHJ6*03"
+        }
+      ]
+    }
+  ],
+  "counts_frequencies_amino_acids_identical": true,
+  "note": "All 44 CDR3 nucleotide identities, amino-acid labels, counts and frequencies match. Exact table regression does not pass: two changed consensus IDs and one low-count IGHJ6 allele label differ. Preserve without silently treating exact-match test as passed."
+}

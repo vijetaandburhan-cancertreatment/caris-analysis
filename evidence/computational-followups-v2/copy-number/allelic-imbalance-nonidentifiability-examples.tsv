@@ -1,0 +1,21 @@
+region	observed_median_minor_fraction	assumed_clonal_tumor_total_copies	assumed_tumor_minor_copies	implied_tumor_fraction_under_model	implied_bulk_total_copies_under_model	expected_depth_relative_to_true_diploid_normal	interpretation
+chr3p	0.21839080459770116	1	0	0.7205882352941176	1.2794117647058822	0.6397058823529411	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr3p	0.21839080459770116	2	0	0.5632183908045977	2.0	1.0	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr3p	0.21839080459770116	3	0	0.4622641509433962	2.462264150943396	1.231132075471698	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr3p	0.21839080459770116	4	0	0.39199999999999996	2.784	1.392	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr3p	0.21839080459770116	5	1	0.8596491228070176	4.578947368421052	2.289473684210526	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr9p	0.2246783911415079	1	0	0.710212654239958	1.289787345760042	0.644893672880021	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr9p	0.2246783911415079	2	0	0.5506432177169842	2.0	1.0	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr9p	0.2246783911415079	3	0	0.4496227105009473	2.449622710500947	1.2248113552504736	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr9p	0.2246783911415079	4	0	0.37992247626537834	2.7598449525307567	1.3799224762653783	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr9p	0.2246783911415079	5	1	0.8169354351633751	4.450806305490125	2.2254031527450624	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr9q	0.201878969654199	1	0	0.7470571981210279	1.2529428018789721	0.6264714009394861	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr9q	0.201878969654199	2	0	0.596242060691602	2.0	1.0	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr9q	0.201878969654199	3	0	0.4960915996917319	2.4960915996917317	1.2480457998458658	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr9q	0.201878969654199	4	0	0.4247470621504431	2.849494124300886	1.424747062150443	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+chr9q	0.201878969654199	5	1	0.9844876556696527	4.953462967008958	2.476731483504479	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+BAP1_plusminus1000000bp	0.22419928825622776	1	0	0.7110091743119267	1.2889908256880733	0.6444954128440367	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+BAP1_plusminus1000000bp	0.22419928825622776	2	0	0.5516014234875445	2.0	1.0	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+BAP1_plusminus1000000bp	0.22419928825622776	3	0	0.4505813953488372	2.4505813953488373	1.2252906976744187	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+BAP1_plusminus1000000bp	0.22419928825622776	4	0	0.3808353808353808	2.7616707616707616	1.3808353808353808	illustrative mathematically compatible state; not an inferred copy call or purity estimate
+BAP1_plusminus1000000bp	0.22419928825622776	5	1	0.8201058201058202	4.4603174603174605	2.2301587301587302	illustrative mathematically compatible state; not an inferred copy call or purity estimate

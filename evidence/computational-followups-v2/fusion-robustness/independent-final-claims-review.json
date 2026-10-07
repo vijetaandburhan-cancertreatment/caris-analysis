@@ -1,0 +1,1201 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-05T06:13:03.985982+00:00",
+  "manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "primary_results_sha256": "1a1e41b3f14551a8e4c22922d23d960d8a29a20693ef4b689f664ff799ad281a",
+  "primary_summary_sha256": "60189ac1eed8c2dbebf65b69d134dae9bf498af85019a4a2c22a0d0c6bf1dde1",
+  "reviewed_findings_sha256": "51f1ee32b219c635878cc939c444ca9d0bb30a63cdf1d0535f0d56cffc899657",
+  "script_sha256": "ca0543ec6e35fd49bb03f5aabb7d8eccd7ce1bd7b5e83928ad5300881add86b2",
+  "source_root": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1",
+  "runs_checked": 45,
+  "runs": [
+    {
+      "run": "compactD1__fixture_all40",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 40,
+      "accepted_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__no_known_recovery__support_01_selection_1",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 33,
+      "accepted_names": [],
+      "STAR_exact_names": [
+        "BCR-ABL1-4"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-4"
+      ],
+      "discarded_candidate_filters": [
+        "in_vitro"
+      ],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__parental_zero",
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "input_pairs": 32,
+      "accepted_names": [],
+      "STAR_exact_names": [],
+      "independent_BAM_adjacent_junction_names": [],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out"
+      ]
+    },
+    {
+      "run": "compactD1__shortest_anchor",
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "input_pairs": 33,
+      "accepted_names": [],
+      "STAR_exact_names": [],
+      "independent_BAM_adjacent_junction_names": [],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out"
+      ]
+    },
+    {
+      "run": "compactD1__strong_original",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 36,
+      "accepted_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__strong_trim_anchor12",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 36,
+      "accepted_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__strong_trim_anchor20",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 36,
+      "accepted_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__strong_trim_anchor30",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 36,
+      "accepted_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_01_selection_1",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 33,
+      "accepted_names": [],
+      "STAR_exact_names": [
+        "BCR-ABL1-4"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-4"
+      ],
+      "discarded_candidate_filters": [
+        "in_vitro"
+      ],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_01_selection_2",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 33,
+      "accepted_names": [],
+      "STAR_exact_names": [
+        "BCR-ABL1-2"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2"
+      ],
+      "discarded_candidate_filters": [
+        "in_vitro"
+      ],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_01_selection_3",
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "input_pairs": 33,
+      "accepted_names": [],
+      "STAR_exact_names": [],
+      "independent_BAM_adjacent_junction_names": [],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out"
+      ]
+    },
+    {
+      "run": "compactD1__support_02_selection_1",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 34,
+      "accepted_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_02_selection_2",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 34,
+      "accepted_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_02_selection_3",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 34,
+      "accepted_names": [],
+      "STAR_exact_names": [
+        "BCR-ABL1-60"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-60"
+      ],
+      "discarded_candidate_filters": [
+        "in_vitro"
+      ],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_03_selection_1",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 35,
+      "accepted_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_03_selection_2",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 35,
+      "accepted_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_03_selection_3",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 35,
+      "accepted_names": [],
+      "STAR_exact_names": [
+        "BCR-ABL1-60"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-60"
+      ],
+      "discarded_candidate_filters": [
+        "in_vitro"
+      ],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_05_selection_1",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 37,
+      "accepted_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_05_selection_2",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 37,
+      "accepted_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_05_selection_3",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 37,
+      "accepted_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD1__support_all",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 45,
+      "accepted_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__fixture_all40",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 40,
+      "accepted_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__parental_zero",
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "input_pairs": 32,
+      "accepted_names": [],
+      "STAR_exact_names": [],
+      "independent_BAM_adjacent_junction_names": [],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out"
+      ]
+    },
+    {
+      "run": "compactD8__shortest_anchor",
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "input_pairs": 33,
+      "accepted_names": [],
+      "STAR_exact_names": [],
+      "independent_BAM_adjacent_junction_names": [],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out"
+      ]
+    },
+    {
+      "run": "compactD8__strong_original",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 36,
+      "accepted_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__strong_trim_anchor12",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 36,
+      "accepted_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__strong_trim_anchor20",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 36,
+      "accepted_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__strong_trim_anchor30",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 36,
+      "accepted_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_01_selection_1",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 33,
+      "accepted_names": [],
+      "STAR_exact_names": [
+        "BCR-ABL1-4"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-4"
+      ],
+      "discarded_candidate_filters": [
+        "in_vitro"
+      ],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_01_selection_2",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 33,
+      "accepted_names": [],
+      "STAR_exact_names": [
+        "BCR-ABL1-2"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2"
+      ],
+      "discarded_candidate_filters": [
+        "in_vitro"
+      ],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_01_selection_3",
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "input_pairs": 33,
+      "accepted_names": [],
+      "STAR_exact_names": [],
+      "independent_BAM_adjacent_junction_names": [],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out"
+      ]
+    },
+    {
+      "run": "compactD8__support_02_selection_1",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 34,
+      "accepted_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_02_selection_2",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 34,
+      "accepted_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_02_selection_3",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 34,
+      "accepted_names": [],
+      "STAR_exact_names": [
+        "BCR-ABL1-60"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-60"
+      ],
+      "discarded_candidate_filters": [
+        "in_vitro"
+      ],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_03_selection_1",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 35,
+      "accepted_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_03_selection_2",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 35,
+      "accepted_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_03_selection_3",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 35,
+      "accepted_names": [],
+      "STAR_exact_names": [
+        "BCR-ABL1-60"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-60"
+      ],
+      "discarded_candidate_filters": [
+        "in_vitro"
+      ],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_05_selection_1",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 37,
+      "accepted_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_05_selection_2",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 37,
+      "accepted_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_05_selection_3",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 37,
+      "accepted_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "compactD8__support_all",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 45,
+      "accepted_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "fullD8__parental_zero",
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "input_pairs": 32,
+      "accepted_names": [],
+      "STAR_exact_names": [],
+      "independent_BAM_adjacent_junction_names": [],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out"
+      ]
+    },
+    {
+      "run": "fullD8__strong_original",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 36,
+      "accepted_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "fullD8__strong_trim_anchor12",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 36,
+      "accepted_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    },
+    {
+      "run": "fullD8__support_all",
+      "caller_outcome": "completed_with_call_tables",
+      "input_pairs": 45,
+      "accepted_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "STAR_exact_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "independent_BAM_adjacent_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "discarded_candidate_filters": [],
+      "hash_verified_material_files": [
+        "alignments.bam",
+        "STAR.Chimeric.out.junction",
+        "STAR.Log.final.out",
+        "fusions.tsv",
+        "fusions.discarded.tsv"
+      ]
+    }
+  ],
+  "support_identity_difference_conditions": [
+    "fixture_all40",
+    "support_03_selection_1",
+    "support_05_selection_1",
+    "support_all"
+  ],
+  "conclusion": "All45 exact target decisions, accepted query-name counts/identities, candidate-level discarded labels, STAR junction identities and separate BAM junction reconstruction agree.38 ordinary caller-table runs and7 narrowly verified no-input outcomes. Scientific claims in current corrected findings and summary pass independent review.",
+  "qualifications": [
+    "20 condition labels comprise19 distinct inputs; correlated synthetic data, not clinical sensitivity/specificity or limit-of-detection.",
+    "Paired trimming can restore long merged arms; no isolated12nt effective-anchor experiment.",
+    "Full-reference D8 versus compact changes reference competition; no full D1/D8 equivalence test.",
+    "Comprehensive audit separately rechecks compressed logs/output hashes; this claims audit checks all material call/BAM/junction hashes and exact no-input logs, not every long benign warning.",
+    "No new patient analysis or treatment inference."
+  ]
+}

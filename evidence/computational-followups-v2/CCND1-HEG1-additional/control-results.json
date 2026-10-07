@@ -1,0 +1,212 @@
+{
+  "status": "pass",
+  "scoring_controls": [
+    {
+      "id": "C_HEG1_parent",
+      "truth_nominated": true,
+      "best_alternative_score": 322.0,
+      "best_proposed_score": 322.0,
+      "top_best_score_windows": 2,
+      "alternative_top3": [
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000311127.9",
+          "score": 322.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000650592.1",
+          "score": 322.0
+        }
+      ],
+      "expected_score_pass": true
+    },
+    {
+      "id": "C_CCND1_parent",
+      "truth_nominated": true,
+      "best_alternative_score": 322.0,
+      "best_proposed_score": -60.0,
+      "top_best_score_windows": 3,
+      "alternative_top3": [
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000227507.3",
+          "score": 322.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000535993.1",
+          "score": 322.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000539241.1",
+          "score": 322.0
+        }
+      ],
+      "expected_score_pass": true
+    },
+    {
+      "id": "C_HEG1_three_substitutions",
+      "truth_nominated": true,
+      "best_alternative_score": 304.0,
+      "best_proposed_score": 304.0,
+      "top_best_score_windows": 2,
+      "alternative_top3": [
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000311127.9",
+          "score": 304.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000650592.1",
+          "score": 304.0
+        }
+      ],
+      "expected_score_pass": true
+    },
+    {
+      "id": "C_HEG1_one_insertion",
+      "truth_nominated": true,
+      "best_alternative_score": 316.0,
+      "best_proposed_score": 316.0,
+      "top_best_score_windows": 2,
+      "alternative_top3": [
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000311127.9",
+          "score": 316.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000650592.1",
+          "score": 316.0
+        }
+      ],
+      "expected_score_pass": true
+    },
+    {
+      "id": "C_HEG1_two_deletion",
+      "truth_nominated": true,
+      "best_alternative_score": 311.0,
+      "best_proposed_score": 311.0,
+      "top_best_score_windows": 2,
+      "alternative_top3": [
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000311127.9",
+          "score": 311.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000650592.1",
+          "score": 311.0
+        }
+      ],
+      "expected_score_pass": true
+    },
+    {
+      "id": "C_MET_canonical_splice",
+      "truth_nominated": true,
+      "best_alternative_score": 322.0,
+      "best_proposed_score": -83.0,
+      "top_best_score_windows": 2,
+      "alternative_top3": [
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000318493.11",
+          "score": 322.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000397752.8",
+          "score": 322.0
+        },
+        {
+          "reference_kind": "genome",
+          "reference_id": "chr7",
+          "score": 123.0
+        }
+      ],
+      "expected_score_pass": true
+    },
+    {
+      "id": "C_annotated_INS_IGF2_transcript",
+      "truth_nominated": true,
+      "best_alternative_score": 322.0,
+      "best_proposed_score": -62.0,
+      "top_best_score_windows": 2,
+      "alternative_top3": [
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000356578.8",
+          "score": 322.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000397270.1",
+          "score": 322.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000476874.1",
+          "score": 159.0
+        }
+      ],
+      "expected_score_pass": true
+    },
+    {
+      "id": "C_repeat_nonunique",
+      "truth_nominated": null,
+      "best_alternative_score": 260.0,
+      "best_proposed_score": -110.0,
+      "top_best_score_windows": 1,
+      "alternative_top3": [
+        {
+          "reference_kind": "genome",
+          "reference_id": "chr2",
+          "score": 260.0
+        },
+        {
+          "reference_kind": "genome",
+          "reference_id": "chr2",
+          "score": 238.0
+        },
+        {
+          "reference_kind": "genome",
+          "reference_id": "chr2",
+          "score": 203.0
+        }
+      ],
+      "ambiguity_preserved": true,
+      "note": "No unique placement asserted for repeat. Multiple near-best placements and hundreds of seed matches are retained; exact perfect161nt repeat is not required to exist in reference."
+    },
+    {
+      "id": "C_synthetic_proposed_join",
+      "truth_nominated": null,
+      "best_alternative_score": 148.0,
+      "best_proposed_score": 322.0,
+      "top_best_score_windows": 3,
+      "alternative_top3": [
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000311127.9",
+          "score": 148.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000477536.1",
+          "score": 148.0
+        },
+        {
+          "reference_kind": "transcript",
+          "reference_id": "ENST00000650592.1",
+          "score": 148.0
+        }
+      ],
+      "expected_score_pass": true
+    }
+  ],
+  "exact_seed_regression": true
+}

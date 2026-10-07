@@ -1,0 +1,457 @@
+{
+  "created_UTC": "2026-10-05T02:12:05.322456+00:00",
+  "scope": "Expanded research analysis of existing local Caris DNA BAM and analytical export, with public hg38/GENCODE37/1000G reference annotations. No new patient upload or clinical diagnosis. Original sources unchanged.",
+  "counts": {
+    "independent_public_SNP_positions_selected": 165782,
+    "positions_with_pileup_output": 62358,
+    "base_candidate_heterozygotes": 8921,
+    "stringent_candidate_heterozygotes": 6564,
+    "coding_genes": 818,
+    "coding_intervals": 11181,
+    "direct_CIGAR_audit_loci": 388,
+    "direct_CIGAR_exact_matches": 388,
+    "primary_chromosome_alignment_records_scanned": 241752849,
+    "accepted_read1_fragment_records_for_density": 76720320
+  },
+  "BAP1": {
+    "finding": "The frameshift is physically linked to the locally overrepresented C allele of a common population SNP. Broad3p and within-gene allelic imbalance are robust. This strengthens a hypothesis of allele-specific alteration involving the mutant haplotype; it is not a confirmed second-hit/LOH/absolute-copy result.",
+    "common_SNP": {
+      "hg38": "chr3:52408338 G>C",
+      "public_global_AF": 0.16,
+      "fragment_G": 30,
+      "fragment_C": 109,
+      "clean_G": 26,
+      "clean_C": 98,
+      "all_refalt_MAPQ60": true
+    },
+    "phase_10bp": {
+      "flank_bases": 10,
+      "SNP_pos1": 52408338,
+      "SNP_ref": "G",
+      "SNP_alt": "C",
+      "deletion_start0": 52408550,
+      "deletion_end0": 52408561,
+      "joint_fragment_counts": {
+        "G__reference": 9,
+        "C__del11": 21,
+        "C__reference": 7
+      },
+      "joint_clean_fragment_counts": {
+        "G__reference": 8,
+        "C__del11": 19,
+        "C__reference": 4
+      },
+      "marginal_fragment_counts": {
+        "SNP_G_fragments": 30,
+        "SNP_C_fragments": 109,
+        "deletion_reference_fragments": 563,
+        "deletion_del11_fragments": 707,
+        "deletion_other_fragments": 19
+      },
+      "marginal_read_counts": {
+        "SNP_G_reads": 34,
+        "SNP_C_reads": 124,
+        "deletion_del11_reads": 1127,
+        "deletion_reference_reads": 841,
+        "deletion_other_reads": 31
+      }
+    },
+    "regional_allelic_evidence": {
+      "chr3p": {
+        "region": "chr3p",
+        "filter": "candidate_heterozygous_stringent",
+        "public_panel_sites_with_any_pileup_output": "5169",
+        "candidate_heterozygous_sites": "439",
+        "oneMb_blocks": "60",
+        "site_MAF_median": "0.21839080459770116",
+        "site_MAF_Q25": "0.19130434782608696",
+        "site_MAF_Q75": "0.24423179160021263",
+        "block_median_MAF": "0.21083077185792348",
+        "block_bootstrap95_low": "0.20481927710843373",
+        "block_bootstrap95_high": "0.21956521739130436",
+        "median_fragment_depth": "126.0"
+      },
+      "chr3q": {
+        "region": "chr3q",
+        "filter": "candidate_heterozygous_stringent",
+        "public_panel_sites_with_any_pileup_output": "6241",
+        "candidate_heterozygous_sites": "582",
+        "oneMb_blocks": "77",
+        "site_MAF_median": "0.375",
+        "site_MAF_Q25": "0.34228310502283105",
+        "site_MAF_Q75": "0.4090909090909091",
+        "block_median_MAF": "0.37644172037575296",
+        "block_bootstrap95_low": "0.3675",
+        "block_bootstrap95_high": "0.3845238095238095",
+        "median_fragment_depth": "108.0"
+      },
+      "BAP1_plusminus0bp": {
+        "region": "BAP1_plusminus0bp",
+        "filter": "candidate_heterozygous_stringent",
+        "public_panel_sites_with_any_pileup_output": "1",
+        "candidate_heterozygous_sites": "1",
+        "oneMb_blocks": "1",
+        "site_MAF_median": "0.2158273381294964",
+        "site_MAF_Q25": "0.2158273381294964",
+        "site_MAF_Q75": "0.2158273381294964",
+        "block_median_MAF": "0.2158273381294964",
+        "block_bootstrap95_low": "",
+        "block_bootstrap95_high": "",
+        "median_fragment_depth": "139.0"
+      },
+      "BAP1_plusminus1000000bp": {
+        "region": "BAP1_plusminus1000000bp",
+        "filter": "candidate_heterozygous_stringent",
+        "public_panel_sites_with_any_pileup_output": "488",
+        "candidate_heterozygous_sites": "57",
+        "oneMb_blocks": "3",
+        "site_MAF_median": "0.22419928825622776",
+        "site_MAF_Q25": "0.19718309859154928",
+        "site_MAF_Q75": "0.24528301886792447",
+        "block_median_MAF": "0.2222222222222222",
+        "block_bootstrap95_low": "",
+        "block_bootstrap95_high": "",
+        "median_fragment_depth": "117.0"
+      },
+      "BAP1_plusminus5000000bp": {
+        "region": "BAP1_plusminus5000000bp",
+        "filter": "candidate_heterozygous_stringent",
+        "public_panel_sites_with_any_pileup_output": "1153",
+        "candidate_heterozygous_sites": "89",
+        "oneMb_blocks": "10",
+        "site_MAF_median": "0.2222222222222222",
+        "site_MAF_Q25": "0.19685039370078738",
+        "site_MAF_Q75": "0.2450331125827815",
+        "block_median_MAF": "0.20707663815707553",
+        "block_bootstrap95_low": "0.1965065502183406",
+        "block_bootstrap95_high": "0.22943299744322454",
+        "median_fragment_depth": "113.0"
+      }
+    },
+    "relative_density_sensitivity": [
+      {
+        "bin_kb": 100,
+        "mask_flank_bp": 100,
+        "MAPQ_min": 30,
+        "chr3p_over_chr3q_relative_fragment_density": 0.7462575207495432
+      },
+      {
+        "bin_kb": 100,
+        "mask_flank_bp": 500,
+        "MAPQ_min": 30,
+        "chr3p_over_chr3q_relative_fragment_density": 0.7591523209602667
+      },
+      {
+        "bin_kb": 100,
+        "mask_flank_bp": 2000,
+        "MAPQ_min": 30,
+        "chr3p_over_chr3q_relative_fragment_density": 0.7640071306684936
+      },
+      {
+        "bin_kb": 100,
+        "mask_flank_bp": 500,
+        "MAPQ_min": 60,
+        "chr3p_over_chr3q_relative_fragment_density": 0.7602277325168151
+      },
+      {
+        "bin_kb": 250,
+        "mask_flank_bp": 100,
+        "MAPQ_min": 30,
+        "chr3p_over_chr3q_relative_fragment_density": 0.744338075586136
+      },
+      {
+        "bin_kb": 250,
+        "mask_flank_bp": 500,
+        "MAPQ_min": 30,
+        "chr3p_over_chr3q_relative_fragment_density": 0.7556862858038162
+      },
+      {
+        "bin_kb": 250,
+        "mask_flank_bp": 2000,
+        "MAPQ_min": 30,
+        "chr3p_over_chr3q_relative_fragment_density": 0.7695259492053039
+      },
+      {
+        "bin_kb": 250,
+        "mask_flank_bp": 500,
+        "MAPQ_min": 60,
+        "chr3p_over_chr3q_relative_fragment_density": 0.7575238438073226
+      }
+    ],
+    "interpretation_boundaries": [
+      "Twenty-one C+deletion pairs do not mean every C haplotype is mutated: seven C+reference and nine G+reference pairs also exist.",
+      "All37 linkage observations are paired fragments, not a single read spanning both sites.",
+      "Haplotype linkage and tumor-only imbalance cannot distinguish hemizygous loss, copy-neutral LOH, allele-specific gain, mixtures/subclones, or exactsomatic/germline status without more information.",
+      "No confirmed biallelic inactivation, protein loss, or new treatment eligibility is claimed."
+    ]
+  },
+  "9p21": {
+    "analytical_export": "Original workbook CND test calls MTAP Deleted/CNA_Value0.80, CDKN2A Deleted/1.30, CDKN2B Deleted/0.90. Those values are retained as vendor outputs, not reinterpreted as integer tumor copies.",
+    "local_SNPs": [
+      {
+        "hg38": "chr9:21968160 G>A",
+        "reference_fragments": 184,
+        "alternate_fragments": 198,
+        "clean_ref_alt": [
+          172,
+          186
+        ]
+      },
+      {
+        "hg38": "chr9:21993965 T>C",
+        "reference_fragments": 75,
+        "alternate_fragments": 95,
+        "clean_ref_alt": [
+          67,
+          85
+        ]
+      }
+    ],
+    "finding": "The two informative CDKN2A SNPs are approximately balanced despite substantial imbalance elsewhere on9p/9q. Such bulk read evidence can be compatible with normal-cell contribution to a tumor-deleted locus, but it is not specific for homozygous tumor loss.",
+    "depth_trough": "An exploratory broad off-exon density trough is visible around22.1\u201330Mb onchr9, largely downstream of the21.8\u201322.0Mb MTAP/CDKN2A/B cluster. It must not be presented as the cluster deletion interval or exact breakpoints.",
+    "not_established": [
+      "Calibrated absolute copy number, homogeneous homozygous loss, purity-adjusted deletion extent and exact breakpoints.",
+      "Regional discordant/split alignment inspection did not reveal a supported MTAP/CDKN2A/B-spanning deletion junction; exome capture means this does not exclude one."
+    ]
+  },
+  "RASA1": {
+    "gene_depth": {
+      "gene": "RASA1",
+      "stratum": "clinical",
+      "chrom": "chr5",
+      "gene_start0": "87267882",
+      "gene_end0": "87391931",
+      "transcript": "ENST00000274376.11",
+      "MANE_Select": "1",
+      "CDS_intervals": "25",
+      "CDS_bases": "3141",
+      "GC": "0.43966889525628783",
+      "repeat_fraction": "0.017191977077363897",
+      "mean_read_depth": "390.2741165234002",
+      "median_read_depth": "282.0",
+      "bases_ge20": "3141",
+      "CND_call": "not_tested",
+      "CND_CNA_value": ""
+    },
+    "finding": "Chromosome5 contains multiple allelic-balance/depth patterns. There are no qualifying common-SNP heterozygotes inside RASA1 or within1Mb under these filters, so local LOH/second-hit status remains unestablished. A distant5Mb-window summary must not substitute for a gene-specific call.",
+    "VAF_limit": "The expressed c.747delG truncating allele remains supported by prior read analysis; VAF alone does not establish somatic status, biallelic loss or clonality."
+  },
+  "independent_phase_audit": {
+    "method": "Independent pysam get_aligned_pairs mapping, local sequence reconstruction, reciprocal mate and TLEN checks; reference from separately retained public BAP1 JSON. Same sample/BAM is not orthogonal clinical validation.",
+    "filters": "exclude flags3852 (unmapped/mate-unmapped/secondary/QCfail/duplicate/supplementary); proper pair; MAPQ>=30; BQ>=25; exact haplotypes; discordant locus calls excluded; clean: no softclip and >=5 bases from aligned read ends",
+    "reference_source": "work/oct1-deep/splicing/reference/BAP1.hg38-reference.json",
+    "reference_sha256": "84c473dd35aa9b6e466c61036874dd483917fdac095c5af2a60a101264b6faac",
+    "passed": true,
+    "prior_counts_and_fragment_identifiers_agree": true
+  },
+  "gene_depth_examples": {
+    "BAP1": {
+      "gene": "BAP1",
+      "stratum": "clinical",
+      "chrom": "chr3",
+      "gene_start0": "52401007",
+      "gene_end0": "52410008",
+      "transcript": "ENST00000460680.6",
+      "MANE_Select": "1",
+      "CDS_intervals": "17",
+      "CDS_bases": "2187",
+      "GC": "0.5848193872885231",
+      "repeat_fraction": "0.01828989483310471",
+      "mean_read_depth": "4447.446273433928",
+      "median_read_depth": "4742.0",
+      "bases_ge20": "2187",
+      "CND_call": "Deletion Not Detected",
+      "CND_CNA_value": ""
+    },
+    "RASA1": {
+      "gene": "RASA1",
+      "stratum": "clinical",
+      "chrom": "chr5",
+      "gene_start0": "87267882",
+      "gene_end0": "87391931",
+      "transcript": "ENST00000274376.11",
+      "MANE_Select": "1",
+      "CDS_intervals": "25",
+      "CDS_bases": "3141",
+      "GC": "0.43966889525628783",
+      "repeat_fraction": "0.017191977077363897",
+      "mean_read_depth": "390.2741165234002",
+      "median_read_depth": "282.0",
+      "bases_ge20": "3141",
+      "CND_call": "not_tested",
+      "CND_CNA_value": ""
+    },
+    "MTAP": {
+      "gene": "MTAP",
+      "stratum": "additional",
+      "chrom": "chr9",
+      "gene_start0": "21802635",
+      "gene_end0": "21937651",
+      "transcript": "ENST00000644715.2",
+      "MANE_Select": "1",
+      "CDS_intervals": "8",
+      "CDS_bases": "849",
+      "GC": "0.48056537102473496",
+      "repeat_fraction": "0.0",
+      "mean_read_depth": "202.90459363957598",
+      "median_read_depth": "220.0",
+      "bases_ge20": "849",
+      "CND_call": "Deleted",
+      "CND_CNA_value": "0.80"
+    },
+    "CDKN2A": {
+      "gene": "CDKN2A",
+      "stratum": "clinical",
+      "chrom": "chr9",
+      "gene_start0": "21967751",
+      "gene_end0": "21995301",
+      "transcript": "ENST00000304494.10",
+      "MANE_Select": "1",
+      "CDS_intervals": "3",
+      "CDS_bases": "468",
+      "GC": "0.7222222222222222",
+      "repeat_fraction": "0.03418803418803419",
+      "mean_read_depth": "1845.4786324786326",
+      "median_read_depth": "1906.5",
+      "bases_ge20": "468",
+      "CND_call": "Deleted",
+      "CND_CNA_value": "1.30"
+    },
+    "CDKN2B": {
+      "gene": "CDKN2B",
+      "stratum": "clinical",
+      "chrom": "chr9",
+      "gene_start0": "22002902",
+      "gene_end0": "22009305",
+      "transcript": "ENST00000276925.7",
+      "MANE_Select": "1",
+      "CDS_intervals": "2",
+      "CDS_bases": "414",
+      "GC": "0.7125603864734299",
+      "repeat_fraction": "0.0",
+      "mean_read_depth": "986.9323671497584",
+      "median_read_depth": "1204.0",
+      "bases_ge20": "414",
+      "CND_call": "Deleted",
+      "CND_CNA_value": "0.90"
+    },
+    "APC": {
+      "gene": "APC",
+      "stratum": "clinical",
+      "chrom": "chr5",
+      "gene_start0": "112707497",
+      "gene_end0": "112846239",
+      "transcript": "ENST00000257430.9",
+      "MANE_Select": "1",
+      "CDS_intervals": "15",
+      "CDS_bases": "8529",
+      "GC": "0.4124750850041036",
+      "repeat_fraction": "0.0035174111853675696",
+      "mean_read_depth": "2882.9813577207174",
+      "median_read_depth": "2844.0",
+      "bases_ge20": "8529",
+      "CND_call": "Deletion Not Detected",
+      "CND_CNA_value": ""
+    }
+  },
+  "negative_control_and_sensitivity": {
+    "separate_recount": {
+      "loci": 388,
+      "exact_matches": 388,
+      "mismatches": [],
+      "selection": "fixed-seed25stringentloci perarm plusallstringentmarkersBAP1regional51\u201353.5Mb and9p21regional19\u201325Mb",
+      "independence": "separate direct CIGAR position counting implementation, same BAM data/reference; not independentclinical validation",
+      "clean_sensitivity": "no softclips, originalbaseBQ>=25,MAPQ>=30,base>=5ntfrombothalignedreadends; discordantmatesexcluded",
+      "caveat": "Clean counts are a subset and may have lowerdepth; minorallele ratios rather than totalcount equality shouldbe compared."
+    },
+    "absolute_MAF_change_after_clean_both_read_end_filter": {
+      "median": 0.006704670544149471,
+      "p95": 0.023386018998922203,
+      "max": 0.06302220100262595,
+      "loci_with_clean_depth_ge30": 388
+    },
+    "synthetic_control": "Passed original-quality/MAPQ/duplicate/supplementary filters, paired-name collapse, conflictingmate exclusion, and zero-depth parsing. Execution validation, not clinical sensitivity/specificity."
+  },
+  "missing_calibration": [
+    "Matched normal DNA",
+    "Exact private Kapa capture target BED",
+    "Vendor reference-normal/bias model",
+    "Original CN segments/log2 ratios/BAF/purity/ploidy model",
+    "Exact private hg38.pU2AF1_Y_PAR_masked.noHap.fa; primaryhg38 coordinates used here"
+  ],
+  "next_most_decisive_data": [
+    "Caris allele-specific CN/LOH segmentation and purity/ploidy atBAP1/3p, MTAP-CDKN2A/B/9p21 andRASA1/5q.",
+    "Caris calibrated MTAP absolute-copy interpretation/thresholds, especially whether homozygousloss is supported and which assayconfirmed it.",
+    "Clinician-directed matched-normal testing plus orthogonal BAP1 variant/copy/LOH evaluation when clinically appropriate; this cannot be replaced by the present tumor-only model."
+  ],
+  "source_integrity": {
+    "BAM_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/DNA_TN26-279853.bam",
+    "bytes_now": 9325653547,
+    "previous_verified_SHA256": "7bb970e30fc4420dbfb7c8b3fd3dd916dc379641ea9dde687bfc49d1ef46d7cb",
+    "current_size_matches_verified": true,
+    "fresh_full_BAM_hash": "not repeated; complete primarychromosome readstream plusindexedrecounts succeeded",
+    "public_references": [
+      {
+        "file": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/copy-number/public/1000G.GRCh38.20190312.sites.vcf.gz",
+        "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/release/20190312_biallelic_SNV_and_INDEL/ALL.wgs.shapeit2_integrated_snvindels_v2a.GRCh38.27022019.sites.vcf.gz",
+        "bytes": 977746786,
+        "sha256": "f15ea3d012329282ab97dcfac96d0e14a917352a7c36512e3e46e0063b955d78",
+        "elapsed_seconds": 515.4617869853973,
+        "downloaded_utc": "2026-10-05T01:45:31.673876+00:00"
+      },
+      {
+        "file": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/copy-number/public/1000G.GRCh38.20190312.sites.vcf.gz.tbi",
+        "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/release/20190312_biallelic_SNV_and_INDEL/ALL.wgs.shapeit2_integrated_snvindels_v2a.GRCh38.27022019.sites.vcf.gz.tbi",
+        "bytes": 2108744,
+        "sha256": "e3afbe64a3e3809b86fc2325b9ec7170970eb81fbc816a985ff148c3ab10cdea",
+        "elapsed_seconds": 0.9738848209381104,
+        "downloaded_utc": "2026-10-05T01:36:57.186055+00:00"
+      },
+      {
+        "file": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/copy-number/public/1000G.README.txt",
+        "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/release/20190312_biallelic_SNV_and_INDEL/20190312_biallelic_SNV_and_INDEL_README.txt",
+        "bytes": 999,
+        "sha256": "554a558ce92957af61eebc8de11eabe3bc9082044c2293023a36b35a4ba6975d",
+        "elapsed_seconds": 0.3654930591583252,
+        "downloaded_utc": "2026-10-05T01:36:57.552080+00:00"
+      },
+      {
+        "file": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/copy-number/public/1000G.MANIFEST.txt",
+        "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/release/20190312_biallelic_SNV_and_INDEL/20190312_biallelic_SNV_and_INDEL_MANIFEST.txt",
+        "bytes": 5700,
+        "sha256": "70a0cb40ce40bda549c80eacc5f573cd4fb0be730a968797a0f468edf796616c",
+        "elapsed_seconds": 0.38189101219177246,
+        "downloaded_utc": "2026-10-05T01:36:57.934033+00:00"
+      },
+      {
+        "file": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/copy-number/public/hg38.2bit",
+        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit",
+        "bytes": 835393456,
+        "sha256": "1f67aaa17a77b327738fe750ab37430a85dddf73c7d9189385ad1839259acec0",
+        "elapsed_seconds": 45.053404092788696,
+        "downloaded_utc": "2026-10-05T01:37:42.987572+00:00"
+      }
+    ],
+    "1000G_published_MD5": {
+      "path": "work/oct4-followup/copy-number/public/1000G.GRCh38.20190312.sites.vcf.gz",
+      "size": 977746786,
+      "expected_size": 977746786,
+      "published_md5": "a96ef90421ad0da9463d352ee4609355",
+      "observed_md5": "a96ef90421ad0da9463d352ee4609355",
+      "PASS": true
+    }
+  },
+  "primary_method_sources": [
+    "https://www.internationalgenome.org/announcements/Variant-calls-from-1000-Genomes-Project-data-on-the-GRCh38-reference-assemlby/",
+    "https://www.gencodegenes.org/human/release_37.html",
+    "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/",
+    "https://cnvkit.readthedocs.io/en/stable/baf.html",
+    "https://cnvkit.readthedocs.io/en/stable/pipeline.html"
+  ],
+  "resource_use": {
+    "peak_RSS_genome_profile_bytes": 6992134144,
+    "genome_profile_seconds": 301.4902768135071,
+    "allele_recount_peakRSS_bytes": 191381504,
+    "public_download_bytes": 1815255685
+  }
+}

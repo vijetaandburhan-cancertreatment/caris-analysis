@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "counts": {
+    "nonB_genomic_records": 23995,
+    "nonB_genomic_bases": 60274212,
+    "B_records_not_paralog_screen": 8505
+  },
+  "new_nonB_matches": [
+    {
+      "marker_index_filtered": 15,
+      "allele": "B*50:01",
+      "k": 31,
+      "sequence": "GGCTCCCACTCCATGAGGTATTTCCACACCG",
+      "genes": [
+        "C"
+      ]
+    }
+  ],
+  "newly_masked_markers": 1,
+  "elapsed_seconds": 8.85051417350769,
+  "peak_RSS_bytes": 746749952,
+  "purpose": "Screen every non-HLA-B genomic record, including records without CDS, for paralog/pseudogene sequence matches. Complements all-CDS and whole-transcriptome marker masks."
+}

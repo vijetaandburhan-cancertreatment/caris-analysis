@@ -1,0 +1,19 @@
+Independent BAP1 paired-fragment phase audit | 4 October 2026
+
+PASS. A separate implementation using pysam aligned-pair mapping and a previously retained UCSC GRCh38 BAP1 sequence independently reproduces the phase result. No raw files were copied and no new sequence was uploaded.
+
+Main exact haplotype window, 10 reference bases on either side of the deletion:
+SNP C + 11-bp deletion: 21 query-name fragments (19 clean).
+SNP C + reference at deletion: 7 fragments (4 clean).
+SNP G + reference at deletion: 9 fragments (8 clean).
+SNP G + 11-bp deletion: 0 fragments.
+
+The SNP is chr3:52408338 G>C. The frameshift VCF allele is chr3:52408550 CGCCGGGACCGG>C (deleted GRCh38 bases 52408551-52408561). Compact public reference verifies both reference alleles. Overall SNP marginal support is C 109 / G 30 qualifying query-name fragments.
+
+All 37 jointly informative fragments have distinct paired-alignment patterns. Every fragment consists of one primary read1/read2 pair with reciprocal mate coordinates, opposite orientation and consistent signed TLEN; absolute TLEN range 245-401bp. None spans both loci on a single read: the linkage is through the paired DNA fragment. Fragment identifiers, phase counts and clean counts match the first implementation exactly.
+
+Filters: proper pair; MAPQ>=30; relevant BQ>=25; exclude unmapped, mate-unmapped, duplicate, secondary, supplementary and failed-QC reads. Match the full local reference/deletion sequence, not only a CIGAR anchor. Discordant locus calls are excluded. Clean requires no soft clipping and locus observations at least 5 bases from aligned read ends. Three-base-flank counts agree. Twenty-base-flank sensitivity retains C+del 20 / G+del 0, with fewer eligible fragments and one C+other local sequence; wider-window failures are not silently called reference.
+
+Supported wording: In this tumor DNA sample, the BAP1 frameshift is locally linked in paired-fragment reads to the C allele at chr3:52408338, the overrepresented allele at this SNP. This supports local phase, not loss of the other chromosome, somatic status, tumor clonality, protein loss or biallelic functional inactivation. Seven C+reference fragments are present; do not claim that every C-bearing fragment carries the frameshift. Query-name fragments and distinct alignment patterns are not UMI-proven original molecules. Normal-cell mixture, germline status and allele-specific copy number remain unresolved without appropriate additional evidence.
+
+Sources: BAP1-SNP-phase-independent-audit.json and audit_bap1_fragment_phase.py in this directory; source manifest/provenance embedded in JSON. Same BAM reanalysis is computational confirmation, not an orthogonal laboratory assay.

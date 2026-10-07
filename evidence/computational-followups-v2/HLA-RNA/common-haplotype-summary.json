@@ -1,0 +1,76 @@
+{
+  "status": "prepared",
+  "reference": "IMGT3.46 all CDS plus GENCODE37 transcripts; common representative coding sequences B*50:01:01/B*52:01:01",
+  "counts": {
+    "CDS_records": 32330,
+    "transcripts": 234485
+  },
+  "by_allele_length": {
+    "B*50:01": {
+      "31": {
+        "pair_discriminating": 443,
+        "paralog_safe_pair_discriminating": 18,
+        "all_reference_exclusive": 0
+      },
+      "51": {
+        "pair_discriminating": 566,
+        "paralog_safe_pair_discriminating": 145,
+        "all_reference_exclusive": 0
+      },
+      "71": {
+        "pair_discriminating": 628,
+        "paralog_safe_pair_discriminating": 313,
+        "all_reference_exclusive": 0
+      },
+      "91": {
+        "pair_discriminating": 686,
+        "paralog_safe_pair_discriminating": 442,
+        "all_reference_exclusive": 0
+      },
+      "111": {
+        "pair_discriminating": 719,
+        "paralog_safe_pair_discriminating": 556,
+        "all_reference_exclusive": 0
+      },
+      "131": {
+        "pair_discriminating": 739,
+        "paralog_safe_pair_discriminating": 648,
+        "all_reference_exclusive": 0
+      }
+    },
+    "B*52:01": {
+      "31": {
+        "pair_discriminating": 443,
+        "paralog_safe_pair_discriminating": 116,
+        "all_reference_exclusive": 0
+      },
+      "51": {
+        "pair_discriminating": 566,
+        "paralog_safe_pair_discriminating": 236,
+        "all_reference_exclusive": 0
+      },
+      "71": {
+        "pair_discriminating": 628,
+        "paralog_safe_pair_discriminating": 376,
+        "all_reference_exclusive": 0
+      },
+      "91": {
+        "pair_discriminating": 686,
+        "paralog_safe_pair_discriminating": 473,
+        "all_reference_exclusive": 0
+      },
+      "111": {
+        "pair_discriminating": 719,
+        "paralog_safe_pair_discriminating": 540,
+        "all_reference_exclusive": 0
+      },
+      "131": {
+        "pair_discriminating": 739,
+        "paralog_safe_pair_discriminating": 635,
+        "all_reference_exclusive": 0
+      }
+    }
+  },
+  "elapsed_seconds": 30.22333288192749,
+  "peak_RSS_bytes": 667107328
+}

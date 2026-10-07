@@ -1,0 +1,57 @@
+peptide	allele	model_release	predicted_affinity_nM	affinity_percentile	type
+IEERKGLYL	HLA-B*50:01	2.3.0	303.72576245742914	0.7766707879048587	BAP1 altered
+EERKGLYL	HLA-B*50:01	2.3.0	364.0186927611846	0.8466833315189928	BAP1 altered
+IEERRSRRK	HLA-B*50:01	2.3.0	18255.215827348544	9.606456653526692	BAP1 normal counterpart
+EERRSRRK	HLA-B*50:01	2.3.0	12867.795489676975	6.2718238400049175	BAP1 normal counterpart
+ASRKGLYL	HLA-B*50:01	2.3.0	30526.66058823349	39.59918556037489	normal-reference two-substitution neighbor
+EEDKGLYS	HLA-B*50:01	2.3.0	5944.0566056283305	3.308119056887423	normal-reference two-substitution neighbor
+EEEKELYL	HLA-B*50:01	2.3.0	1892.5503378188087	1.8506763886064388	normal-reference two-substitution neighbor
+EEEKILYL	HLA-B*50:01	2.3.0	387.05114949522124	0.8717958812081739	normal-reference two-substitution neighbor
+EEGKGRYL	HLA-B*50:01	2.3.0	452.1782381550997	0.9388092437968456	normal-reference two-substitution neighbor
+EERKCLIL	HLA-B*50:01	2.3.0	893.2269208975756	1.2974028025538833	normal-reference two-substitution neighbor
+EERKGALL	HLA-B*50:01	2.3.0	539.5850188562904	1.021169002684099	normal-reference two-substitution neighbor
+EERKGELL	HLA-B*50:01	2.3.0	397.9766347853999	0.883432090398443	normal-reference two-substitution neighbor
+EERKGLIT	HLA-B*50:01	2.3.0	1245.7986082452546	1.5189039988635746	normal-reference two-substitution neighbor
+EERKGLLP	HLA-B*50:01	2.3.0	2005.3847505886383	1.9019076461095132	normal-reference two-substitution neighbor
+EERKLLSL	HLA-B*50:01	2.3.0	238.3081369931941	0.6918101338770313	normal-reference two-substitution neighbor
+EERKQLGL	HLA-B*50:01	2.3.0	615.4949467147839	1.0871212341176375	normal-reference two-substitution neighbor
+EERKRLYQ	HLA-B*50:01	2.3.0	14150.311212560417	6.971620996592838	normal-reference two-substitution neighbor
+EERKSLKL	HLA-B*50:01	2.3.0	386.14649971181257	0.8708246534138051	normal-reference two-substitution neighbor
+EERSGLQL	HLA-B*50:01	2.3.0	334.04774433508226	0.8127151926081916	normal-reference two-substitution neighbor
+EKRRGLYL	HLA-B*50:01	2.3.0	22072.77867016656	13.951598026654315	normal-reference two-substitution neighbor
+ERRKGLKL	HLA-B*50:01	2.3.0	13504.752242032599	6.619089339748771	normal-reference two-substitution neighbor
+GERKGLVL	HLA-B*50:01	2.3.0	115.38712242996097	0.3854953455277464	normal-reference two-substitution neighbor
+IERKGFYL	HLA-B*50:01	2.3.0	383.5863205176646	0.868069529852064	normal-reference two-substitution neighbor
+KERKGDYL	HLA-B*50:01	2.3.0	545.8847021464928	1.0268221666465576	normal-reference two-substitution neighbor
+KERKGLEL	HLA-B*50:01	2.3.0	182.3944695239412	0.5593714377271137	normal-reference two-substitution neighbor
+LERKGGYL	HLA-B*50:01	2.3.0	1034.4738385108476	1.3909171028481533	normal-reference two-substitution neighbor
+LERKGLYI	HLA-B*50:01	2.3.0	451.45292738194837	0.9380920965142016	normal-reference two-substitution neighbor
+PERKGLSL	HLA-B*50:01	2.3.0	10644.355423998739	5.066627093366561	normal-reference two-substitution neighbor
+IEERKGLYL	HLA-B*50:01	2.2.0	103.61509009876208	0.5647500000000001	BAP1 altered
+EERKGLYL	HLA-B*50:01	2.2.0	183.56514977955715	0.8888749999999999	BAP1 altered
+IEERRSRRK	HLA-B*50:01	2.2.0	9447.045536080797	4.334249999999999	BAP1 normal counterpart
+EERRSRRK	HLA-B*50:01	2.2.0	10254.528679636469	4.556875	BAP1 normal counterpart
+ASRKGLYL	HLA-B*50:01	2.2.0	26432.964175404773	22.464250000000003	normal-reference two-substitution neighbor
+EEDKGLYS	HLA-B*50:01	2.2.0	7535.602306943192	3.8078749999999983	normal-reference two-substitution neighbor
+EEEKELYL	HLA-B*50:01	2.2.0	904.3326002070065	1.7594999999999996	normal-reference two-substitution neighbor
+EEEKILYL	HLA-B*50:01	2.2.0	143.51269557256353	0.7558749999999999	normal-reference two-substitution neighbor
+EEGKGRYL	HLA-B*50:01	2.2.0	192.87957416899746	0.910625	normal-reference two-substitution neighbor
+EERKCLIL	HLA-B*50:01	2.2.0	307.1144579727873	1.15475	normal-reference two-substitution neighbor
+EERKGALL	HLA-B*50:01	2.2.0	201.56755128112826	0.93275	normal-reference two-substitution neighbor
+EERKGELL	HLA-B*50:01	2.2.0	193.32492404109274	0.91675	normal-reference two-substitution neighbor
+EERKGLIT	HLA-B*50:01	2.2.0	1077.2706329575844	1.8622499999999995	normal-reference two-substitution neighbor
+EERKGLLP	HLA-B*50:01	2.2.0	796.4558809341396	1.68375	normal-reference two-substitution neighbor
+EERKLLSL	HLA-B*50:01	2.2.0	120.70221720673892	0.6573750000000002	normal-reference two-substitution neighbor
+EERKQLGL	HLA-B*50:01	2.2.0	471.74737480953235	1.3828750000000003	normal-reference two-substitution neighbor
+EERKRLYQ	HLA-B*50:01	2.2.0	14767.384621672245	6.279	normal-reference two-substitution neighbor
+EERKSLKL	HLA-B*50:01	2.2.0	192.9864421471224	0.910625	normal-reference two-substitution neighbor
+EERSGLQL	HLA-B*50:01	2.2.0	202.71926293941664	0.938	normal-reference two-substitution neighbor
+EKRRGLYL	HLA-B*50:01	2.2.0	26709.995987085524	23.49975	normal-reference two-substitution neighbor
+ERRKGLKL	HLA-B*50:01	2.2.0	20628.18088256608	10.605875000000005	normal-reference two-substitution neighbor
+GERKGLVL	HLA-B*50:01	2.2.0	119.35828644980981	0.6511250000000002	normal-reference two-substitution neighbor
+IERKGFYL	HLA-B*50:01	2.2.0	163.04555738864505	0.8274999999999999	normal-reference two-substitution neighbor
+KERKGDYL	HLA-B*50:01	2.2.0	521.435110117514	1.4369999999999998	normal-reference two-substitution neighbor
+KERKGLEL	HLA-B*50:01	2.2.0	146.5968139877358	0.7691249999999998	normal-reference two-substitution neighbor
+LERKGGYL	HLA-B*50:01	2.2.0	434.49168049332354	1.3362500000000004	normal-reference two-substitution neighbor
+LERKGLYI	HLA-B*50:01	2.2.0	207.75625577560209	0.94975	normal-reference two-substitution neighbor
+PERKGLSL	HLA-B*50:01	2.2.0	5158.414469274297	3.2159999999999984	normal-reference two-substitution neighbor

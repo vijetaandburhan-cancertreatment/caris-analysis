@@ -1,0 +1,228 @@
+{
+  "078bc453229c": {
+    "gene": "CEACAM3",
+    "longer_exact_junction_markers": {
+      "25+25_Q20": {
+        "fragments": 162,
+        "distinct_whole_read_sequences_orientation_normalized": 114,
+        "distinct_alignment_descriptors": 183,
+        "forward_alignments": 86,
+        "reverse_alignments": 149,
+        "both_mates": 73
+      },
+      "25+25_Q30": {
+        "fragments": 137,
+        "distinct_whole_read_sequences_orientation_normalized": 100,
+        "distinct_alignment_descriptors": 136,
+        "forward_alignments": 61,
+        "reverse_alignments": 107,
+        "both_mates": 31
+      },
+      "35+35_Q20": {
+        "fragments": 134,
+        "distinct_whole_read_sequences_orientation_normalized": 93,
+        "distinct_alignment_descriptors": 149,
+        "forward_alignments": 69,
+        "reverse_alignments": 120,
+        "both_mates": 55
+      },
+      "35+35_Q30": {
+        "fragments": 100,
+        "distinct_whole_read_sequences_orientation_normalized": 73,
+        "distinct_alignment_descriptors": 101,
+        "forward_alignments": 46,
+        "reverse_alignments": 74,
+        "both_mates": 20
+      },
+      "50+50_Q20": {
+        "fragments": 100,
+        "distinct_whole_read_sequences_orientation_normalized": 63,
+        "distinct_alignment_descriptors": 103,
+        "forward_alignments": 49,
+        "reverse_alignments": 84,
+        "both_mates": 33
+      },
+      "50+50_Q30": {
+        "fragments": 55,
+        "distinct_whole_read_sequences_orientation_normalized": 42,
+        "distinct_alignment_descriptors": 54,
+        "forward_alignments": 28,
+        "reverse_alignments": 34,
+        "both_mates": 7
+      },
+      "65+65_Q20": {
+        "fragments": 37,
+        "distinct_whole_read_sequences_orientation_normalized": 24,
+        "distinct_alignment_descriptors": 33,
+        "forward_alignments": 22,
+        "reverse_alignments": 21,
+        "both_mates": 6
+      },
+      "65+65_Q30": {
+        "fragments": 25,
+        "distinct_whole_read_sequences_orientation_normalized": 17,
+        "distinct_alignment_descriptors": 22,
+        "forward_alignments": 15,
+        "reverse_alignments": 10,
+        "both_mates": 0
+      },
+      "75+75_Q20": {
+        "fragments": 18,
+        "distinct_whole_read_sequences_orientation_normalized": 7,
+        "distinct_alignment_descriptors": 11,
+        "forward_alignments": 14,
+        "reverse_alignments": 5,
+        "both_mates": 1
+      },
+      "75+75_Q30": {
+        "fragments": 11,
+        "distinct_whole_read_sequences_orientation_normalized": 7,
+        "distinct_alignment_descriptors": 8,
+        "forward_alignments": 9,
+        "reverse_alignments": 2,
+        "both_mates": 0
+      }
+    },
+    "GENCODE37_ENST00000415495_5_coding_end": "stop codon chr19:41807218-41807220; donor41807383 is downstream in3primeUTR; no translated junction predicted"
+  },
+  "e2a8e3625460": {
+    "gene": "KRTAP9-1",
+    "longer_exact_junction_markers": {
+      "25+25_Q20": {
+        "fragments": 731,
+        "distinct_whole_read_sequences_orientation_normalized": 358,
+        "distinct_alignment_descriptors": 673,
+        "forward_alignments": 540,
+        "reverse_alignments": 589,
+        "both_mates": 398
+      },
+      "25+25_Q30": {
+        "fragments": 675,
+        "distinct_whole_read_sequences_orientation_normalized": 340,
+        "distinct_alignment_descriptors": 629,
+        "forward_alignments": 478,
+        "reverse_alignments": 522,
+        "both_mates": 325
+      },
+      "35+35_Q20": {
+        "fragments": 570,
+        "distinct_whole_read_sequences_orientation_normalized": 261,
+        "distinct_alignment_descriptors": 497,
+        "forward_alignments": 410,
+        "reverse_alignments": 429,
+        "both_mates": 269
+      },
+      "35+35_Q30": {
+        "fragments": 497,
+        "distinct_whole_read_sequences_orientation_normalized": 243,
+        "distinct_alignment_descriptors": 452,
+        "forward_alignments": 349,
+        "reverse_alignments": 357,
+        "both_mates": 209
+      },
+      "50+50_Q20": {
+        "fragments": 329,
+        "distinct_whole_read_sequences_orientation_normalized": 134,
+        "distinct_alignment_descriptors": 253,
+        "forward_alignments": 213,
+        "reverse_alignments": 237,
+        "both_mates": 121
+      },
+      "50+50_Q30": {
+        "fragments": 262,
+        "distinct_whole_read_sequences_orientation_normalized": 120,
+        "distinct_alignment_descriptors": 210,
+        "forward_alignments": 159,
+        "reverse_alignments": 172,
+        "both_mates": 69
+      },
+      "65+65_Q20": {
+        "fragments": 155,
+        "distinct_whole_read_sequences_orientation_normalized": 52,
+        "distinct_alignment_descriptors": 99,
+        "forward_alignments": 69,
+        "reverse_alignments": 114,
+        "both_mates": 28
+      },
+      "65+65_Q30": {
+        "fragments": 106,
+        "distinct_whole_read_sequences_orientation_normalized": 41,
+        "distinct_alignment_descriptors": 72,
+        "forward_alignments": 41,
+        "reverse_alignments": 80,
+        "both_mates": 15
+      },
+      "75+75_Q20": {
+        "fragments": 50,
+        "distinct_whole_read_sequences_orientation_normalized": 11,
+        "distinct_alignment_descriptors": 24,
+        "forward_alignments": 21,
+        "reverse_alignments": 31,
+        "both_mates": 2
+      },
+      "75+75_Q30": {
+        "fragments": 30,
+        "distinct_whole_read_sequences_orientation_normalized": 8,
+        "distinct_alignment_descriptors": 18,
+        "forward_alignments": 13,
+        "reverse_alignments": 18,
+        "both_mates": 1
+      }
+    },
+    "insertion_after_pos1": 41190343,
+    "inserted_sequence": "GCTGTGGGTCCAGCTGCTGCCAGCCTA",
+    "coordinate_anchored_haplotype_counts": {
+      "exact10bp_flanks_all_BQ20_MAPQ20": {
+        "fragments": {
+          "ref": 418,
+          "conflicting_mates": 73,
+          "other": 6,
+          "alt": 228
+        },
+        "read_alignments": {
+          "ref": 737,
+          "other": 11,
+          "alt": 412
+        },
+        "reference_haplotype": "CAGCCCACCTGCTGTGGGTC",
+        "alternate_haplotype": "CAGCCCACCTGCTGTGGGTCCAGCTGCTGCCAGCCTAGCTGTGGGTC"
+      },
+      "exact20bp_flanks_all_BQ20_MAPQ20": {
+        "fragments": {
+          "ref": 362,
+          "conflicting_mates": 68,
+          "other": 8,
+          "alt": 221
+        },
+        "read_alignments": {
+          "ref": 652,
+          "other": 14,
+          "alt": 398
+        },
+        "reference_haplotype": "CACCTCTTGCCAGCCCACCTGCTGTGGGTCCAGCTGCTGC",
+        "alternate_haplotype": "CACCTCTTGCCAGCCCACCTGCTGTGGGTCCAGCTGCTGCCAGCCTAGCTGTGGGTCCAGCTGCTGC"
+      }
+    },
+    "caller_ITD_plus_mismatch_equals_DNA_27bp_insertion": true,
+    "GENCODE37_ENST00000398470_1_translation": {
+      "reference_coding_bp": 750,
+      "alternate_coding_bp": 777,
+      "reference_aa": 250,
+      "alternate_aa": 259,
+      "shared_prefix_aa": 161,
+      "shared_suffix_aa": 89,
+      "reference_changed_segment": "",
+      "alternate_changed_segment": "SCGSSCCQP",
+      "reference_local_aa": "QPTCCGSSCCQPCCHPTCCQTICR",
+      "alternate_local_aa": "QPTCCGSSCCQPSCGSSCCQPCCHPTCCQTICR",
+      "internal_stop": false
+    }
+  },
+  "limits": [
+    "Local DNA evidence corroborates sequence but does not establish somatic status; no matched normal.",
+    "CEACAM3 longer markers corroborate the joined sequence, but repeat/paralog alternatives and exact genomic structural interpretation need independent validation.",
+    "KRTAP9-1 coordinate-anchored count excludes clipped/alternative representations and is not a VAF.",
+    "Sequencing duplicates not always flagged; unique read names/whole-read sequence/alignment descriptors are not independent original molecules.",
+    "KRTAP translated sequence is a selected reference isoform prediction, not protein detection or clinical significance."
+  ]
+}

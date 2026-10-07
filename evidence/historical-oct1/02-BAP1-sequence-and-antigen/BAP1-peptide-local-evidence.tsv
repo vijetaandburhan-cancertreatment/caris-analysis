@@ -1,0 +1,7 @@
+kind	peptide_or_context	exact_mutant_nucleotide_reads	exact_mutant_nucleotide_query_name_fragments	exact_reference_query_name_fragments	other_haplotype_fragments	discordant_fragments	exact_mutant_forward_reads	exact_mutant_reverse_reads	distinct_mutant_alignment_patterns	clean_mutant_fragments	interpretation
+DNA	IEERKGLYL	1083	691	517	19	0	566	517	726	640	Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules.
+DNA	EERKGLYL	1086	693	541	15	0	568	518	728	649	Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules.
+DNA	extended_context_through_predicted_stop	895	594	408	18	1	459	436	605	540	Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules.
+RNA	IEERKGLYL	410	241	50	13	0	206	204	218	192	Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules.
+RNA	EERKGLYL	419	245	52	10	0	211	208	223	194	Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules.
+RNA	extended_context_through_predicted_stop	384	231	42	15	1	190	194	205	180	Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules.

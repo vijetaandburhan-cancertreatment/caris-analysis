@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-10-01T21:36:50Z",
+  "status": "bounded splice-junction analysis complete; research results, not clinical validation",
+  "BAM_records_scanned": 71034470,
+  "global_junctions": 197901,
+  "global_unannotated_junctions": 45643,
+  "global_read_event_totals_by_annotation": {
+    "unannotated": 341220,
+    "annotated": 17520980
+  },
+  "global_unique_junction_support_bins": {
+    "unannotated:one_read": 11265,
+    "unannotated:multiple_reads": 34378,
+    "annotated:multiple_reads": 144494,
+    "annotated:one_read": 7764
+  },
+  "target_genes": 57,
+  "target_junction_rows": 2444,
+  "initial_unannotated_candidates": 169,
+  "reference_aware_passing_candidates": 143,
+  "reference_aware_passing_candidates_with_exact_GTEx_match": 141,
+  "key_findings": [
+    {
+      "topic": "MET exon14",
+      "result": "No exact exon13-to15 skipping read under primary MAPQ20/NH1 filters even before anchors; 169/150 canonical inclusion reads. Filtered paired-name support88/87 for inclusion. Bounded negative, not clinical assay exclusion."
+    },
+    {
+      "topic": "Reported frameshift splice context",
+      "result": "BAP1 exact deletion physically linked within same read to adjacent canonical junctions in141 and31 fragment names; RASA1 corresponding48 and14. Supports local mutant-spliced transcript context, not full-length/protein/antigen validation."
+    },
+    {
+      "topic": "BAP1 exon4 skipping",
+      "result": "4 broader-filter reads reduce to2 paired names; junction belongs to GENCODE37 BAP1-210 ENST00000490917.1, transcript_type nonsense_mediated_decay. Not an unannotated rescue isoform."
+    },
+    {
+      "topic": "Normal-atlas filter",
+      "result": "141 of143 reference-aware candidates have exact strand-aware GTEx junction matches. All10 BAP1 candidates occur in the atlas. Most unannotated-to-GENCODE events therefore cannot be treated as tumor-specific."
+    },
+    {
+      "topic": "APC natural splice form",
+      "result": "Highest-count initial unannotated event is303nt partial exon exclusion, matching normal APC exon9a r.934_1236del.222 original qualifying fragment names;219 with exact reference anchors;GTEx6019 samples. It is separate from the reported late APC stop-gain."
+    },
+    {
+      "topic": "Two low-level retained observations",
+      "result": "AKT1 chr14:104776770-104780089(-),16 fragments,0.905% same-boundary fraction; AKT3 chr1:243664883-243695594(-),5 fragments,0.1693%. BothGC-AG donor alternatives,2/4nt shifted versus selected transcript, absent from queried GTEx. Nearby DNA predominantlyreference. No clinical mutation, activation, antigen or drug-match claim."
+    },
+    {
+      "topic": "LATS splicing",
+      "result": "No unannotated junction meets prespecified support thresholds inLATS1/2; LATS1 expression limits sensitivity (maximum16 fragment names at a junction). Does not negate separately observed DNA/RNA variants."
+    }
+  ],
+  "limitations": [
+    "One tumor-derived bulk RNA specimen, no matched-normal RNA, no patient-specific normal DNA classification.",
+    "Global counts are read events; targeted counts use RG+paired names, not independent UMI molecules.",
+    "No chimeric outputs/full fusion analysis, long-read isoform assembly, differential-splicing statistics or validated PSI.",
+    "GTEx presence reflects normal/background/possible recurrent technical junction evidence, not tumor specificity. GTEx absence is not proof of tumor-specificity.",
+    "Most local fractions omit unspliced reads and other transcript paths; never interpret them as tumor fraction, complete-isoform PSI or event prevalence in cells.",
+    "No actionable target or diagnostic subtype was established by this splice screen."
+  ],
+  "provenance": {
+    "RNA_BAM_prior_complete_verified_SHA256": "bbbca59ff29763261af4e0303b097c06308fb23d9890de9969f1f3b1b4774701",
+    "RNA_BAM_source_CRC64NVME": "dtdP9PvAPP4=",
+    "full_source_verification": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-analysis/resident-copies-verification.json",
+    "GTF_sha256": "a3351e61dc78342dd0df7b1b45c81012d2d087f541ee346134c36f34f7919f97",
+    "GTEx_response_bytes": 5167385,
+    "GTEx_gene_queries": 36,
+    "analysis_scripts": {
+      "junction_inventory.py": "d5af0236864731a2742454dbcfc2050f31d7069530877a1ef262c3e70025803f",
+      "candidate-anchor-audit.py": "8cfe809a451ea83e1f2785150198dc1d959de8be4a83a9536ba7c8ab7bd09765",
+      "key-event-independent-recount.py": "5d326b3ed6115aac697ef7ded43b05bddbd08789eb91476fec3b4d446f1a3f94",
+      "rare-junction-DNA-check.py": "b80e79e1c4cf0bae8675291912e3de8561bbaa9707c83d30c42229025d0855b8",
+      "annotate-motifs.py": "81a6e641970d2052f32a83ad203606b9a713ef8c061f883460bf7b302c8f0649",
+      "make-candidate-read-figure.py": "37b3d9ae1824f31dbca11866911e94dfcbd72e7e38c920da84cf9da7c93107ff",
+      "query-gtex-reference.py": "7246a4414ac946e9ba7a6bf6db02718a51a4bb5223cf407fe6189ac595a28b1e",
+      "make-junction-figure.py": "89f87de35cf55101d3c60c35b8b4055d1e008cad684772e6ea33c9654671ace4",
+      "frameshift-splice-phasing.py": "7b1f59883803b768e5415e50f255b5e9e5dc34acbc0038eb3b6e6c9bf8c5c46d",
+      "compile-summary.py": "29ebafe87d1fe52c6a6a29ccea452b23e249150ddec630d2f2692f708202cd4b"
+    }
+  }
+}

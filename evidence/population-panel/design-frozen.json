@@ -1,0 +1,66 @@
+{
+  "version": "design-v1-frozen-before-patient-recount",
+  "created_utc": "2026-10-05T06:34:00.874252+00:00",
+  "scope": "Population-selected common-SNP DNA/RNA compatibility, bounded local feasibility and QC; not patient identity or contamination quantification",
+  "universe": "All165782 positions in frozen public-common-SNP-panel.tsv, selected without patient allele calls, on chr2/3/5/8/9/17",
+  "original_analysis_absent": "Oct4 panel has DNA only. Oct1 DNA/RNA assay selected335 sites from patient high-ALT DNA calls; this is a distinct selection design.",
+  "inputs": {
+    "annotation.json": "6d4609a5854a923ee41de146dc13dad9d40bafb4736b17084256c48b8754f5fb",
+    "common-SNP-recount.method.json": "abc0abdb05b362c1b5b95a1aa31d640a3eb33d5eb3031779d2d1446cc0dce7b4",
+    "public-common-SNP-alleles.annotated.tsv": "a311e4b52696c5a413000cf5fec47761619551169f926baa8954d6cfe67f42ed",
+    "public-common-SNP-panel.tsv": "16435c85aff7e14589e41ef81e06151d912739ddd0144b1480abd7612f13b0b3",
+    "public-panel-selection.json": "cc99af81d48334319a08eec897fd90852840893d3e2a58867217e78429e3c303"
+  },
+  "alignment": "Original coordinate-sorted Caris full RNA BAM (STAR2.7.8a), same fullDNA BAM; existing indexes. New full STAR2.7.11b BAM not retained by streamed design; restricted target-genes BAM usable only within retained BAP1/RASA1/LATS1/LATS2 intervals, with no broad inference.",
+  "primary_filters": {
+    "MAPQ_min": 30,
+    "BQ_min": 25,
+    "require_proper_pair": true,
+    "exclude_flags": "0xF0C",
+    "BAQ": "disabled for parity with prior DNA counts",
+    "max_depth": "0; uncapped after synthetic and samtools1.24 manual qualification",
+    "mates": "samtools overlap adjustment disabled, collapse by query name; discard qualifying conflicting ACGT mates. Both original BAM headers have a single matching RG; no UMI independence claimed.",
+    "denominator": "all unambiguous ACGT name units = ref+alt+other; retain nonACGT and conflict counts separately",
+    "fresh_DNA": "Recount all public loci with uncapped DNA and RNA. Compare all prior observed DNA counters; prior missing rows remain in universe."
+  },
+  "callability": {
+    "joint_min_ACGT_fragments_each": 20,
+    "exclude_depth_cap": "Uncapped execution validated; no finite-depth truncation assumption.",
+    "zero_rows": "Missing DNA/RNA observed rows map to zero coverage in universe, not omitted",
+    "reference_check": "All selected REF alleles checked against resident GRCh38 FASTA; all six BAM contig lengths checked"
+  },
+  "categories": {
+    "DNA_ref_dominant": ">=0.98 of allACGT",
+    "DNA_alt_dominant": ">=0.98 of allACGT",
+    "DNA_ref_alt_mixed": "each ref/alt>=0.10, sumrefalt>=0.95",
+    "residual": "all other callable mixtures retained/reported",
+    "RNA_dominant_retention": ">=0.90 and>=0.98 of specified DNA-dominant allele reported separately",
+    "mixedDNA": "RNA shifts/monoallelic expression not classified as sample incompatibility"
+  },
+  "operational_feasibility_gate": {
+    "min_joint_dominant_loci": 100,
+    "min_ref_dominant": 20,
+    "min_alt_dominant": 20,
+    "min_chromosomes": 4,
+    "min_1Mb_bins": 20,
+    "meaning": "Breadth/workflow gate only, not clinical power or probability. If unmet, report sparse evidence and stop branch.",
+    "min_uniquely_assigned_GENCODE_gene_IDs": 30
+  },
+  "distribution": "Full selection/coverage attrition by chromosome and panel scope; gene distribution/top concentrations; nearest-neighbor spacing; deterministic coordinate-first>=50kb-spaced subset selected without observed allele direction; no independence assumed. Report overlap with old335 marker set.",
+  "discordance_triage": "Bothassays>=50ACGTnames; RNA unexpected allele>=10% and>=10names while DNA sameallele<=2%. Separately record opposite near-homozygous calls and third-allele excess. Audit all up to fixed20locus cap; if more, report cap and restrict claims rather than silently choose favorable subset.",
+  "independent_review": "Direct CIGAR-count review of all joint sites if feasible; otherwise all prioritized discordances plus fixed stratified300 controls. Edge/no-softclip/MAPQ and new retained alignment sensitivity when relevant. Sequence/reference/paralog controls on actual discordances only.",
+  "resource_bounds": "Local only, no new whole alignment/download; two processes maximum, RSS<=4GiB per process, free-disk guard3GiB, new artifacts <=1GiB before reassessment, analysis deadline6:15Eastern / package6:45Eastern. Each counted chromosome allows30min; stop on unexpected limits.",
+  "forbidden_inference": [
+    "No identity certainty or chance-match probability",
+    "No contamination fraction or proof of absence",
+    "No clinical diagnosis, test or treatment decision",
+    "Population-selected surviving loci are not statistically independent"
+  ],
+  "prior_v2": "Preserve all completed v2 outputs unchanged; separately dated addendum only if informative; revise concise handoff only if useful content changes",
+  "frozen_utc": "2026-10-05T06:41:56Z",
+  "qualification_sha256": "210a60daee82d0806e52fd8b5809aaf55b75cb6ff0b42c80865cac5c0ccabdbf",
+  "gene_annotation_sha256": "6312736f1c3cfaf4a5881f09a601117262905d55c24daf286b66f312e4ede250",
+  "public_method_source": "https://www.htslib.org/doc/samtools-mpileup.html",
+  "run_script_sha256": "cd5a589093bfcb1b409738466a84bd6500ae347682640ad66f8f8b6d37b9c9a8",
+  "spacing_rule": "Sort all165782 public sites by numeric chromosome then pos1, greedily retain each if >=50000bp beyond prior retained site. Frozen before patient counts; report callability/dominance in this full-universe subset."
+}

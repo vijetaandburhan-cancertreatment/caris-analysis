@@ -1,0 +1,30 @@
+[
+  {
+    "control": "arriba",
+    "file": "fusions.tsv",
+    "bytes_identical": true,
+    "stock_SHA256": "58db8df7a0eae1c7fb9b5fa9e74cce31738a079edb0682c332a5bcd16be1a7f2",
+    "diagnostic_SHA256": "58db8df7a0eae1c7fb9b5fa9e74cce31738a079edb0682c332a5bcd16be1a7f2"
+  },
+  {
+    "control": "arriba",
+    "file": "fusions.discarded.tsv",
+    "bytes_identical": true,
+    "stock_SHA256": "3450803d894d083c917558aebde99583c076922bee0bc462c2f7becaa91a15d6",
+    "diagnostic_SHA256": "3450803d894d083c917558aebde99583c076922bee0bc462c2f7becaa91a15d6"
+  },
+  {
+    "control": "starfusion",
+    "file": "fusions.tsv",
+    "bytes_identical": true,
+    "stock_SHA256": "d5f91a74c0ddada504a1ae4b475f89f0a1a62e717a9ca68ef37f3f0a4291a0c7",
+    "diagnostic_SHA256": "d5f91a74c0ddada504a1ae4b475f89f0a1a62e717a9ca68ef37f3f0a4291a0c7"
+  },
+  {
+    "control": "starfusion",
+    "file": "fusions.discarded.tsv",
+    "bytes_identical": true,
+    "stock_SHA256": "e38e3f48107f6c879f839907c65bd72b62e4612118d3bd8d22ee4a1f287a68cd",
+    "diagnostic_SHA256": "e38e3f48107f6c879f839907c65bd72b62e4612118d3bd8d22ee4a1f287a68cd"
+  }
+]

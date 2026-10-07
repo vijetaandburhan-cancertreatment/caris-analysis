@@ -1,0 +1,352 @@
+[
+  {
+    "query_id": "Q01",
+    "sequence": "AGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACAACCCCCGAC",
+    "members": [
+      {
+        "pair_id": "P07",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFF:FFFFFFFFFFFFF:FF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F01"
+      },
+      {
+        "pair_id": "P09",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F01"
+      },
+      {
+        "pair_id": "P13",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F01"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q02",
+    "sequence": "ATACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGC",
+    "members": [
+      {
+        "pair_id": "P01",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF,FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F06"
+      },
+      {
+        "pair_id": "P04",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF::FFFFFFFFFF:F",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F06"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q03",
+    "sequence": "CCCTGGTTGATGGTAAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAACGACG",
+    "members": [
+      {
+        "pair_id": "P02",
+        "mate": 1,
+        "quality": "FFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F03"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q04",
+    "sequence": "CCCTGGTTGATGGTAAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCTACGACG",
+    "members": [
+      {
+        "pair_id": "P12",
+        "mate": 1,
+        "quality": ":FF::FFFF:,F:,F,FFFF,FFFFFFFFFFFF:,:F,:F,:::FFFF,F:FFF,FFFF:FFFFFFFF::,FFFFFF::F:FF:FFFFFFFFFF::FF:FFFFFFFFFF:F:FFF:FFFF,F,FFFFF:",
+        "caller_named": true,
+        "Q20_50nt_pair_support": false,
+        "family": "F04"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q05",
+    "sequence": "CGTCGCGGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGAT",
+    "members": [
+      {
+        "pair_id": "P03",
+        "mate": 2,
+        "quality": "FFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFF:FF,FFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF,FFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": false,
+        "family": "F02"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q06",
+    "sequence": "CGTCGTAGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATATATTTTCATCAATTTTACCATCAACCAGGG",
+    "members": [
+      {
+        "pair_id": "P12",
+        "mate": 2,
+        "quality": "FF:FFFFFFFFFFFFFFFFFF:FFF:F:FFFFF:FFFFFFFFF:FFFFF,FFFFFFFFFFFF:FFFFF::FFFFFFFFFF:FFFFF:FFF:,FF:F:F,FFFFFF,FF:FFF,FFF,,F,:FFFFF:,,",
+        "caller_named": true,
+        "Q20_50nt_pair_support": false,
+        "family": "F04"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q07",
+    "sequence": "CGTCGTTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGG",
+    "members": [
+      {
+        "pair_id": "P02",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F03"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q08",
+    "sequence": "GATACGTCGATGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTC",
+    "members": [
+      {
+        "pair_id": "P08",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFF:,:F:FFFFF:FFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFF:FFFFFFF:FFF:FF:FF:F:FFFFFFFF:FFFFF,FFFFFFFFFF:FF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": false,
+        "family": "F05"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q09",
+    "sequence": "GCCCTGGTTGATGGTAAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCACCGACGTAT",
+    "members": [
+      {
+        "pair_id": "P01",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F06"
+      },
+      {
+        "pair_id": "P04",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F06"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q10",
+    "sequence": "GCCCTGGTTGATGGTAAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCCCGAC",
+    "members": [
+      {
+        "pair_id": "P05",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F08"
+      },
+      {
+        "pair_id": "P06",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F07"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q11",
+    "sequence": "GTCGGGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACAAGGGC",
+    "members": [
+      {
+        "pair_id": "P06",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF,FFFFFFFFFF,,FFFFFF,FF:FF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F07"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q12",
+    "sequence": "GTCGGGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGC",
+    "members": [
+      {
+        "pair_id": "P05",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF,FFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F08"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q13",
+    "sequence": "GTCGGGGGTTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCT",
+    "members": [
+      {
+        "pair_id": "P07",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F01"
+      },
+      {
+        "pair_id": "P09",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F01"
+      },
+      {
+        "pair_id": "P13",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F01"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q14",
+    "sequence": "GTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAC",
+    "members": [
+      {
+        "pair_id": "P14",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": false,
+        "Q20_50nt_pair_support": true,
+        "family": "F09"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q15",
+    "sequence": "GTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCAC",
+    "members": [
+      {
+        "pair_id": "P14",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFF:FFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": false,
+        "Q20_50nt_pair_support": true,
+        "family": "F09"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q16",
+    "sequence": "GTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAA",
+    "members": [
+      {
+        "pair_id": "P10",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F10"
+      },
+      {
+        "pair_id": "P11",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFF:F:FFFFFF:FFFFFFFFFFFFFFF:FFFFFF:FFFF,FFFFF,FFFFFFF:FFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F10"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q17",
+    "sequence": "TGGGGCAGATGTAGATGTCGTTAAGGATACTGGTAAAGGTGATGGTGAGGAAGACCATGGTGTGGATGCATCAGAGGTAGACTTTAGTAGATGCACAGAGGCCCTGGTTGATGGTAAAATTGATGAAAATAAATGGTGGGATTGTGACAC",
+    "members": [
+      {
+        "pair_id": "P03",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": false,
+        "family": "F02"
+      },
+      {
+        "pair_id": "P08",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": false,
+        "family": "F05"
+      }
+    ],
+    "kind": "patient"
+  },
+  {
+    "query_id": "Q18",
+    "sequence": "TTGATGGTAAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAC",
+    "members": [
+      {
+        "pair_id": "P10",
+        "mate": 1,
+        "quality": ":FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFF:FFFFF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F10"
+      },
+      {
+        "pair_id": "P11",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFF:FF:FF",
+        "caller_named": true,
+        "Q20_50nt_pair_support": true,
+        "family": "F10"
+      }
+    ],
+    "kind": "patient"
+  }
+]

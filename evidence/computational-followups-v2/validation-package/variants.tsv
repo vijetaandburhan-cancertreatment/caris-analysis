@@ -1,0 +1,4 @@
+gene	chrom	accession	pos1	ref	alt	refseq	enst	coding	protein	g_hgvs	status	build	strand	genomic_window_start1	genomic_window_end1	protein_accession	wt_aa_length	conditional_mutant_aa_length	cds_window_ref_start1	cds_window_ref_end1
+BAP1	chr3	NC_000003.12	52408550	CGCCGGGACCGG	C	NM_004656.3	ENST00000460680.6	c.168_178del	p.(Arg57LysfsTer8)	g.52408551_52408561del	reported deletion; research peptide hypothesis	GRCh38	-	52408350	52408761	NP_004647.1	729	63	124	223
+LATS1	chr6	NC_000006.12	149695191	T	TA	NM_004690.4	ENST00000543571.6	c.378dup	p.(Asn127Ter)	g.149695192dup	exploratory unreported insertion; orthogonal confirmation required	GRCh38	-	149694991	149695391	NP_004681.1	1130	126	334	423
+LATS2	chr13	NC_000013.11	20975259	C	T	NM_014572.3	ENST00000382592.5	c.2878G>A	p.(Gly960Arg)	g.20975259C>T	exploratory unreported missense; function unknown	GRCh38	-	20975059	20975459	NP_055387.2	1088	1088	2833	2925

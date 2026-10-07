@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-01T22:48:43.499381+00:00",
+  "edits": "Corrected transcript-selection provenance (NTRK3 not MANE) and in-frame indel label, removing misleading first-difference S134D. Numeric candidate, depth, allele and exact source-match evidence unchanged; no BAM rerun. Caris original D133dup preserved in source-match fields.",
+  "files": [
+    {
+      "file": "screen-results.json",
+      "before_sha256": "b8d2e39db8bf82e6f0c5948be2699c0b8d31eb37298b54c8d5ce0f6a5218082e",
+      "after_sha256": "86c8a8b3b2d60bffba13ba5198b5de6e0ffd1c85a33df4bb6e0cfe5f74b39100"
+    },
+    {
+      "file": "screen.checkpoint.json",
+      "before_sha256": "ef8352888b9950e1be91f2c9387975e1e2be8fe43d6af31c911801208cf52fd7",
+      "after_sha256": "dd44d2440e40ac8f33aeb3e36e7a4bdc1c4788df8061231524e89f64bf62e0d0"
+    }
+  ],
+  "corrected_generator_sha256": "caa93aa562e71b38411bd63a864eb32ad6881c0f3ee0df14c3b7b59e3ed08bd7"
+}

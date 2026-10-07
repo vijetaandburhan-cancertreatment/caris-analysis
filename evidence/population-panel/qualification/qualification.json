@@ -1,0 +1,156 @@
+{
+  "status": "PASS",
+  "samtools": "1.24",
+  "pysam": "0.24.1",
+  "public_method_source": "https://www.htslib.org/doc/samtools-mpileup.html",
+  "semantics": "Samtools1.24 -d0 sets highest possible depth; 9001 synthetic pairs /18002 records retained. Finite100 cap drops records.",
+  "depth_control": {
+    "100": {
+      "command": [
+        "-B",
+        "-q",
+        "30",
+        "-Q",
+        "25",
+        "-d",
+        "100",
+        "--ff",
+        "0xF0C",
+        "--rf",
+        "2",
+        "-x",
+        "--output-QNAME",
+        "--output-BP-5",
+        "--output-MQ",
+        "--no-output-ins",
+        "--no-output-ins",
+        "--no-output-del",
+        "--no-output-del",
+        "--no-output-ends",
+        "-l",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/qualification/depth-control.bed",
+        "-o",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/qualification/depth-100.pileup",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/qualification/depth-control.bam"
+      ],
+      "result": {
+        "chrom": "chrTest",
+        "pos1": 101,
+        "ref": "A",
+        "alt": "G",
+        "read_ref": 100,
+        "read_alt": 0,
+        "fragment_ref": 50,
+        "fragment_alt": 0,
+        "fragment_other": 0,
+        "fragment_discordant": 0,
+        "fragment_nonACGT": 0,
+        "fragment_depth_refalt": 50,
+        "fragment_ALT_fraction": 0.0,
+        "minor_allele_fraction": 0.0,
+        "alt_forward_reads": 0,
+        "alt_reverse_reads": 0,
+        "ref_forward_reads": 50,
+        "ref_reverse_reads": 50,
+        "fragment_ref_BP5_gt5": 50,
+        "fragment_alt_BP5_gt5": 0,
+        "reported_pileup_depth": 100
+      }
+    },
+    "0": {
+      "command": [
+        "-B",
+        "-q",
+        "30",
+        "-Q",
+        "25",
+        "-d",
+        "0",
+        "--ff",
+        "0xF0C",
+        "--rf",
+        "2",
+        "-x",
+        "--output-QNAME",
+        "--output-BP-5",
+        "--output-MQ",
+        "--no-output-ins",
+        "--no-output-ins",
+        "--no-output-del",
+        "--no-output-del",
+        "--no-output-ends",
+        "-l",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/qualification/depth-control.bed",
+        "-o",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/qualification/depth-0.pileup",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/qualification/depth-control.bam"
+      ],
+      "result": {
+        "chrom": "chrTest",
+        "pos1": 101,
+        "ref": "A",
+        "alt": "G",
+        "read_ref": 18002,
+        "read_alt": 0,
+        "fragment_ref": 9001,
+        "fragment_alt": 0,
+        "fragment_other": 0,
+        "fragment_discordant": 0,
+        "fragment_nonACGT": 0,
+        "fragment_depth_refalt": 9001,
+        "fragment_ALT_fraction": 0.0,
+        "minor_allele_fraction": 0.0,
+        "alt_forward_reads": 0,
+        "alt_reverse_reads": 0,
+        "ref_forward_reads": 9001,
+        "ref_reverse_reads": 9001,
+        "fragment_ref_BP5_gt5": 9001,
+        "fragment_alt_BP5_gt5": 0,
+        "reported_pileup_depth": 18002
+      }
+    }
+  },
+  "reference_checked_loci": 165782,
+  "reference_mismatches": [],
+  "bam_headers": {
+    "DNA": {
+      "RG": [
+        {
+          "ID": "TN26-279853",
+          "SM": "TN26-279853",
+          "PL": "ILLUMINA"
+        }
+      ],
+      "contig_lengths": {
+        "chr2": 242193529,
+        "chr3": 198295559,
+        "chr5": 181538259,
+        "chr8": 145138636,
+        "chr9": 138394717,
+        "chr17": 83257441
+      },
+      "header_sha256": "5de17d2af0225230bcd6be7183520467325221753e7eebd53185b3b73e70bebc",
+      "bytes": 9325653547
+    },
+    "RNA": {
+      "RG": [
+        {
+          "ID": "TN26-279853",
+          "SM": "TN26-279853",
+          "PL": "ILLUMINA"
+        }
+      ],
+      "contig_lengths": {
+        "chr2": 242193529,
+        "chr3": 198295559,
+        "chr5": 181538259,
+        "chr8": 145138636,
+        "chr9": 138394717,
+        "chr17": 83257441
+      },
+      "header_sha256": "3dc4cd5932c52a8a5ef50aea3af58c40503fd9cc72160f8f729da175d1471f5c",
+      "bytes": 2835547302
+    }
+  },
+  "completed_utc": "2026-10-05T06:41:56Z"
+}

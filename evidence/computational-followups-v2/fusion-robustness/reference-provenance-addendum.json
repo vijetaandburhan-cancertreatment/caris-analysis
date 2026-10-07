@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-05T05:27:47.588028+00:00",
+  "design_manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "fasta_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/GRCh38.primary_assembly.genome.fa",
+  "fasta_bytes": 3151417447,
+  "fasta_sha256_fresh": "e49b92b3e4f321bf254c042f25b726d9931c4d74c7523e8b6bb530e63b0cfd4b",
+  "prior_download_manifest_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/GRCh38.primary_assembly.genome.fa.gz.manifest.json",
+  "prior_download_manifest_sha256": "d497c8ea2e88b06f581de37167b581d9e87ebd1e137800166acd9cbdf6f4f11a",
+  "prior_download_manifest": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_37/GRCh38.primary_assembly.genome.fa.gz",
+    "size_compressed": 844691642,
+    "size_uncompressed": 3151417447,
+    "md5": "bd46ea3566caa6fc6f95748bb6cf5cc4",
+    "sha256_compressed": "142c225c317be446bd2005ce717db02cc7276fa6bc667d6fe423bd1e0fe64c99",
+    "verified_official_md5": true,
+    "seconds": 799.5452589988708
+  },
+  "scope": "Provenance addendum only. No new dataset/reference selection or parameter change; frozen design unchanged."
+}

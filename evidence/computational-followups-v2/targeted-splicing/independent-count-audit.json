@@ -1,0 +1,83 @@
+{
+  "pysam_version": "0.24.1",
+  "independent_method": "Explicit CIGAR reference/query walk; no import of production audit; same stated filters",
+  "summary": {
+    "BAP1": {
+      "alignment_counts": {
+        "all_alignments": 40358,
+        "qualified_alignments": 40205
+      },
+      "excluded_flag_counts_nonexclusive": {
+        "secondary": 79,
+        "MAPQ_below20": 153,
+        "NH_not1": 153
+      },
+      "fragment_allele_states": {
+        "uncovered": 19792,
+        "alternate": 246,
+        "other": 12,
+        "reference": 53
+      },
+      "fragments": 20103,
+      "junctions": 53,
+      "alternate_reads_with_CIGAR_N_inside_haplotype_window": 0
+    },
+    "RASA1": {
+      "alignment_counts": {
+        "all_alignments": 3940,
+        "qualified_alignments": 3924
+      },
+      "excluded_flag_counts_nonexclusive": {
+        "MAPQ_below20": 16,
+        "NH_not1": 16,
+        "secondary": 10
+      },
+      "fragment_allele_states": {
+        "uncovered": 1836,
+        "alternate": 75,
+        "reference": 46,
+        "other": 5
+      },
+      "fragments": 1962,
+      "junctions": 31,
+      "alternate_reads_with_CIGAR_N_inside_haplotype_window": 0
+    },
+    "LATS1": {
+      "alignment_counts": {
+        "all_alignments": 768,
+        "qualified_alignments": 768
+      },
+      "excluded_flag_counts_nonexclusive": {},
+      "fragment_allele_states": {
+        "uncovered": 378,
+        "alternate": 4,
+        "reference": 2
+      },
+      "fragments": 384,
+      "junctions": 7,
+      "alternate_reads_with_CIGAR_N_inside_haplotype_window": 0
+    },
+    "LATS2": {
+      "alignment_counts": {
+        "all_alignments": 2033,
+        "qualified_alignments": 2028
+      },
+      "excluded_flag_counts_nonexclusive": {
+        "secondary": 5,
+        "MAPQ_below20": 5,
+        "NH_not1": 5
+      },
+      "fragment_allele_states": {
+        "uncovered": 1014
+      },
+      "fragments": 1014,
+      "junctions": 10,
+      "alternate_reads_with_CIGAR_N_inside_haplotype_window": 0
+    }
+  },
+  "junction_rows_compared": 101,
+  "independent_junction_rows": 101,
+  "mismatches": [],
+  "primary_fragment_anomalies": [],
+  "script_sha256": "204bf52c87c96e740ad5f4808dde36c801baa1731ee3736d3368c440194a762c"
+}

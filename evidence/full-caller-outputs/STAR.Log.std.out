@@ -1,0 +1,7 @@
+	/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/STAR_2.7.11b/MacOSX_x86_64/STAR --runThreadN 6 --genomeDir /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/STAR_G37_primary_D8_SA12 --readFilesIn /Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R1.fastq.gz /Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R2.fastq.gz --outFileNamePrefix /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/patient-D8/STAR. --genomeLoad NoSharedMemory --readFilesCommand /usr/bin/gzip -cd --outStd BAM_Unsorted --outSAMtype BAM Unsorted --outSAMunmapped Within --outBAMcompression 0 --outFilterMultimapNmax 50 --peOverlapNbasesMin 10 --alignSplicedMateMapLminOverLmate 0.5 --alignSJstitchMismatchNmax 5 -1 5 5 --chimSegmentMin 10 --chimOutType WithinBAM HardClip Junctions --chimJunctionOverhangMin 10 --chimScoreDropMax 30 --chimScoreJunctionNonGTAG 0 --chimScoreSeparation 1 --chimSegmentReadGapMax 3 --chimMultimapNmax 50 --chimOutJunctionFormat 1
+	STAR version: 2.7.11b   compiled:  :/Users/distiller/project/STARcompile/source
+Oct 04 23:49:47 ..... started STAR run
+Oct 04 23:49:48 ..... loading genome
+Oct 04 23:49:57 ..... started mapping
+Oct 05 00:20:10 ..... finished mapping
+Oct 05 00:20:11 ..... finished successfully

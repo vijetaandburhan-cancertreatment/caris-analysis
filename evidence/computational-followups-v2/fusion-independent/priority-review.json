@@ -1,0 +1,1741 @@
+{
+  "status": "complete",
+  "source": "independent exact-sequence implementation; selected RNA FASTQ audit plus indexed local DNA BAM fetch only",
+  "candidates": {
+    "078bc453229c": {
+      "gene1": "CEACAM3",
+      "gene2": "CEACAM3",
+      "type": "duplication",
+      "confidence": "high",
+      "breakpoint1": "chr19:41807383",
+      "breakpoint2": "chr19:41803759",
+      "site1": "3'UTR",
+      "site2": "intron",
+      "reading_frame": "stop-codon",
+      "strand1(gene/fusion)": "+/+",
+      "strand2(gene/fusion)": "+/+",
+      "transcript_id1": "ENST00000415495.5",
+      "transcript_id2": ".",
+      "peptide_sequence": ".",
+      "fusion_transcript": "TGTAGTGGGTAAATGGTCAGAGCCTCCCGGTCAGTTCCAGGCTGCAGCTGTCCAATGACAAGAGGACCCTCACTCTACTCAGTGTCACAAGGAATGACACAGGACCCTATGAGTGTGAAATACCGAACCCAGTGGGTGCCAGCTACAGTGACCCAGTCACGCTGAATG|CCCaGCCTGAAACAGCAAAGCTTTAAAAGAGTGGGAAAAGGCCGGGCGTGGTTGTTCATGCTTGTAATCCCTGCACTTTGGGAGGCTGAGGCGGGTGGATCACCTGAGGTCAGG",
+      "distinct_named_reads": 107,
+      "junction_25_plus_25": "TACAGTGACCCAGTCACGCTGAATG|CCCAGCCTGAAACAGCAAAGCTTTA",
+      "reference_matches": [
+        {
+          "pattern_index": 102,
+          "sequence": "CATTCAGCGTGACTGGGTCACTGTA",
+          "roles": [
+            {
+              "candidate": "078bc453229c",
+              "kind": "left_anchor",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 126,
+          "sequence": "CCCAGCCTGAAACAGCAAAGCTTTA",
+          "roles": [
+            {
+              "candidate": "078bc453229c",
+              "kind": "right_anchor",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 275,
+          "sequence": "TAAAGCTTTGCTGTTTCAGGCTGGG",
+          "roles": [
+            {
+              "candidate": "078bc453229c",
+              "kind": "right_anchor",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 276,
+          "sequence": "TAAAGCTTTGCTGTTTCAGGCTGGGCATTCAGCGTGACTGGGTCACTGTA",
+          "roles": [
+            {
+              "candidate": "078bc453229c",
+              "kind": "junction",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 281,
+          "sequence": "TACAGTGACCCAGTCACGCTGAATG",
+          "roles": [
+            {
+              "candidate": "078bc453229c",
+              "kind": "left_anchor",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 1,
+          "transcript_occurrences": 1,
+          "transcript_genes": {
+            "CEACAM3": 1
+          },
+          "genome_first_loci": [
+            {
+              "contig": "chr19",
+              "start0": 41807358,
+              "end0": 41807383
+            }
+          ]
+        },
+        {
+          "pattern_index": 282,
+          "sequence": "TACAGTGACCCAGTCACGCTGAATGCCCAGCCTGAAACAGCAAAGCTTTA",
+          "roles": [
+            {
+              "candidate": "078bc453229c",
+              "kind": "junction",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        }
+      ],
+      "reference_breakend_marker": "TACAGTGACCCAGTCACGCTGAATG|CCCGGCCTGAAACAGCAAAGCTTTA",
+      "reference_mismatch": [
+        {
+          "marker_position1": 29,
+          "reference": "G",
+          "observed": "A",
+          "genomic_position1": 41803762
+        }
+      ],
+      "coordinate_duplication_span_bp": 3625,
+      "independent_raw_50mer": {
+        "20": {
+          "pairs": 194,
+          "families": 158,
+          "R1": 160,
+          "R2": 121,
+          "both_mates": 87
+        },
+        "30": {
+          "pairs": 157,
+          "families": 133,
+          "R1": 119,
+          "R2": 71,
+          "both_mates": 33
+        }
+      },
+      "bounded_DNA": {
+        "fetch_intervals0": [
+          [
+            41806882,
+            41807883
+          ],
+          [
+            41803258,
+            41804259
+          ]
+        ],
+        "alignments_all": 6848,
+        "alignments_primary_MAPQ20_nonduplicate_QCpass": 4582,
+        "unique_fragments_strict": 2309,
+        "exact_markers": {
+          "observed_RNA_junction_Q20": {
+            "fragments": 162,
+            "examples": [
+              {
+                "name_sha256": "2f98e92bd768beec592e7782ac08f1de613fe484bd0bf92711d525746150d5c7",
+                "flag": 83,
+                "pos1": 41807248,
+                "cigar": "136M25S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "4f7178f8f4a73b0054ed8a2c02975658fba6eddb6fe1788c104db2f9bd0c1367",
+                "flag": 81,
+                "pos1": 41807248,
+                "cigar": "136M25S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "0d20e2f26c1d11dd3b49fc04a8c0b7887bf65d36c92bcfc4e42fe192caa858d8",
+                "flag": 83,
+                "pos1": 41807248,
+                "cigar": "136M25S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "462dfd68179bba0e5f5d93a8759659d98ae30a5a42bb4d43c8783a3eb12ee410",
+                "flag": 147,
+                "pos1": 41807248,
+                "cigar": "136M25S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "70e083f68915ed021d0820f77af54b392d56e6b1d7d19e67300ebbd399f59fba",
+                "flag": 97,
+                "pos1": 41807249,
+                "cigar": "135M26S",
+                "MAPQ": 60,
+                "marker_start0": 110,
+                "SA": null
+              },
+              {
+                "name_sha256": "ad97a1737efebeadf8ae961386d5f411bb6d2c415ec8d110ec761cb0822be878",
+                "flag": 99,
+                "pos1": 41807249,
+                "cigar": "135M26S",
+                "MAPQ": 60,
+                "marker_start0": 110,
+                "SA": null
+              },
+              {
+                "name_sha256": "069021bd08e7d811ab54b28d94bb381804b55feeed521d3009bddebba0549236",
+                "flag": 99,
+                "pos1": 41807249,
+                "cigar": "135M26S",
+                "MAPQ": 60,
+                "marker_start0": 110,
+                "SA": null
+              },
+              {
+                "name_sha256": "3eb1a0b2c3a8191969f2cae69c24967f23c791a4edf99c771674bed4da5700ef",
+                "flag": 163,
+                "pos1": 41807249,
+                "cigar": "135M26S",
+                "MAPQ": 60,
+                "marker_start0": 110,
+                "SA": null
+              }
+            ]
+          },
+          "observed_RNA_junction_Q30": {
+            "fragments": 137,
+            "examples": [
+              {
+                "name_sha256": "2f98e92bd768beec592e7782ac08f1de613fe484bd0bf92711d525746150d5c7",
+                "flag": 83,
+                "pos1": 41807248,
+                "cigar": "136M25S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "4f7178f8f4a73b0054ed8a2c02975658fba6eddb6fe1788c104db2f9bd0c1367",
+                "flag": 81,
+                "pos1": 41807248,
+                "cigar": "136M25S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "0d20e2f26c1d11dd3b49fc04a8c0b7887bf65d36c92bcfc4e42fe192caa858d8",
+                "flag": 83,
+                "pos1": 41807248,
+                "cigar": "136M25S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "462dfd68179bba0e5f5d93a8759659d98ae30a5a42bb4d43c8783a3eb12ee410",
+                "flag": 147,
+                "pos1": 41807248,
+                "cigar": "136M25S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "70e083f68915ed021d0820f77af54b392d56e6b1d7d19e67300ebbd399f59fba",
+                "flag": 97,
+                "pos1": 41807249,
+                "cigar": "135M26S",
+                "MAPQ": 60,
+                "marker_start0": 110,
+                "SA": null
+              },
+              {
+                "name_sha256": "069021bd08e7d811ab54b28d94bb381804b55feeed521d3009bddebba0549236",
+                "flag": 99,
+                "pos1": 41807249,
+                "cigar": "135M26S",
+                "MAPQ": 60,
+                "marker_start0": 110,
+                "SA": null
+              },
+              {
+                "name_sha256": "776d490936badd74d568979112a3baa6be2387884777e50655cfaf19c84cafef",
+                "flag": 99,
+                "pos1": 41807253,
+                "cigar": "131M27S",
+                "MAPQ": 60,
+                "marker_start0": 106,
+                "SA": null
+              },
+              {
+                "name_sha256": "c3f3624ce191b545599cfa419b33d19149163edecacddaed82c3dda640cfbcdc",
+                "flag": 147,
+                "pos1": 41807254,
+                "cigar": "130M31S",
+                "MAPQ": 60,
+                "marker_start0": 105,
+                "SA": null
+              }
+            ]
+          },
+          "reference_breakend_junction_Q20": {
+            "fragments": 0,
+            "examples": []
+          },
+          "reference_breakend_junction_Q30": {
+            "fragments": 0,
+            "examples": []
+          }
+        },
+        "breakend_aligned_coverage_Q20": {
+          "41807383": {
+            "fragments": 752,
+            "bases": {
+              "G": 752
+            }
+          },
+          "41803759": {
+            "fragments": 69,
+            "bases": {
+              "C": 69
+            }
+          }
+        },
+        "nearby_CIGAR_insertions": []
+      }
+    },
+    "e2a8e3625460": {
+      "gene1": "KRTAP9-1",
+      "gene2": "KRTAP9-1",
+      "type": "duplication/ITD",
+      "confidence": "medium",
+      "breakpoint1": "chr17:41190374",
+      "breakpoint2": "chr17:41190348",
+      "site1": "CDS",
+      "site2": "CDS",
+      "reading_frame": "in-frame",
+      "strand1(gene/fusion)": "+/+",
+      "strand2(gene/fusion)": "+/+",
+      "transcript_id1": "ENST00000398470.1",
+      "transcript_id2": "ENST00000398470.1",
+      "peptide_sequence": "SSCCQPCCHPTCYQTtCFRTTCCQPTCCQPTCCRNTSCQPTCCGSSCCQPsc|GSSCCQPCCHPTCCQTICRSTCCQPSCVTRCCSTPCCQPTCGGSSCCSQTCNESSYCLPCCR",
+      "fusion_transcript": "TCCAGTTGCTGTCAGCCTTGCTGTCACCCGACTTGCTATCAAACTAcCTGCTTCAGGACCACCTGCTGCCAGCCTACCTGCTGCCAGCCCACCTGCTGCAGGAACACCTCTTGCCAGCCCACCTGCTGTGGGTCCAGCTGCTGCCAGCCTaGCTG|TGGGTCCAGCTGCTGCCAGCCTTGCTGCCACCCAACATGCTGTCAAACCATTTGTAGATCCACCTGCTGCCAACCATCCTGTGTGACCAGATGCTGCAGCACACCCTGTTGCCAGCCAACCTGTGGTGGGTCCAGCTGCTGTAGCCAAACCTGCAATGAGTCCAGCTATTGTCTGCCTTGCTGCCGTC",
+      "distinct_named_reads": 495,
+      "junction_25_plus_25": "GGTCCAGCTGCTGCCAGCCTAGCTG|TGGGTCCAGCTGCTGCCAGCCTTGC",
+      "reference_matches": [
+        {
+          "pattern_index": 87,
+          "sequence": "CAGCTAGGCTGGCAGCAGCTGGACC",
+          "roles": [
+            {
+              "candidate": "e2a8e3625460",
+              "kind": "left_anchor",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 204,
+          "sequence": "GCAAGGCTGGCAGCAGCTGGACCCA",
+          "roles": [
+            {
+              "candidate": "e2a8e3625460",
+              "kind": "right_anchor",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 205,
+          "sequence": "GCAAGGCTGGCAGCAGCTGGACCCACAGCTAGGCTGGCAGCAGCTGGACC",
+          "roles": [
+            {
+              "candidate": "e2a8e3625460",
+              "kind": "junction",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 257,
+          "sequence": "GGTCCAGCTGCTGCCAGCCTAGCTG",
+          "roles": [
+            {
+              "candidate": "e2a8e3625460",
+              "kind": "left_anchor",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 258,
+          "sequence": "GGTCCAGCTGCTGCCAGCCTAGCTGTGGGTCCAGCTGCTGCCAGCCTTGC",
+          "roles": [
+            {
+              "candidate": "e2a8e3625460",
+              "kind": "junction",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 316,
+          "sequence": "TGGGTCCAGCTGCTGCCAGCCTTGC",
+          "roles": [
+            {
+              "candidate": "e2a8e3625460",
+              "kind": "right_anchor",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 1,
+          "transcript_occurrences": 1,
+          "transcript_genes": {
+            "KRTAP9-1": 1
+          },
+          "genome_first_loci": [
+            {
+              "contig": "chr17",
+              "start0": 41190347,
+              "end0": 41190372
+            }
+          ]
+        }
+      ],
+      "reference_breakend_marker": "GGTCCAGCTGCTGCCAGCCTTGCTG|TGGGTCCAGCTGCTGCCAGCCTTGC",
+      "reference_mismatch": [
+        {
+          "marker_position1": 21,
+          "reference": "T",
+          "observed": "A",
+          "genomic_position1": 41190370
+        }
+      ],
+      "coordinate_duplication_span_bp": 27,
+      "reference_duplicated_segment": "TGGGTCCAGCTGCTGCCAGCCTTGCTG",
+      "independent_raw_50mer": {
+        "20": {
+          "pairs": 518,
+          "families": 387,
+          "R1": 427,
+          "R2": 396,
+          "both_mates": 305
+        },
+        "30": {
+          "pairs": 480,
+          "families": 359,
+          "R1": 393,
+          "R2": 329,
+          "both_mates": 242
+        }
+      },
+      "bounded_DNA": {
+        "fetch_intervals0": [
+          [
+            41189847,
+            41190874
+          ]
+        ],
+        "alignments_all": 12286,
+        "alignments_primary_MAPQ20_nonduplicate_QCpass": 8129,
+        "unique_fragments_strict": 4079,
+        "exact_markers": {
+          "observed_RNA_junction_Q20": {
+            "fragments": 731,
+            "examples": [
+              {
+                "name_sha256": "85865074f12501aedb0c22d67e97cb76d7d75a184dbd71a9ffe13fb173c6c1b1",
+                "flag": 99,
+                "pos1": 41190214,
+                "cigar": "102M15D10M3D49M",
+                "MAPQ": 60,
+                "marker_start0": 91,
+                "SA": null
+              },
+              {
+                "name_sha256": "b5f5ee64ba9a25d18de794d7e66489258d4c27091a65ba740130ba90d76d9b7b",
+                "flag": 163,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "00bdfdfaa2daa43724682730de5b56a3b1ab1f030b9d4c779b414c6ff31bdf4a",
+                "flag": 163,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "e0b3482024ab503c39a5fe233345cd95cd87404c666b2f307c8a94eecf2308b1",
+                "flag": 83,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "1783d364fa9fb3a8cba9be07e8b025997b394d9e2d430bde865f2cbc18bc3179",
+                "flag": 147,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "061a1f748627f94328ddb86944bcb316707be12cc7e1e3f9f67ed033f409ae9e",
+                "flag": 83,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "fac75c47cd249d7666fa6d3fc8ac2de35ef6d05f2a118648a1a391ce725b49f7",
+                "flag": 147,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "8e5ce746caace3f07d34407503cf8fbbff3f2a875f86cb0c2c900e04f0ffcf94",
+                "flag": 83,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              }
+            ]
+          },
+          "observed_RNA_junction_Q30": {
+            "fragments": 675,
+            "examples": [
+              {
+                "name_sha256": "b5f5ee64ba9a25d18de794d7e66489258d4c27091a65ba740130ba90d76d9b7b",
+                "flag": 163,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "e0b3482024ab503c39a5fe233345cd95cd87404c666b2f307c8a94eecf2308b1",
+                "flag": 83,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "1783d364fa9fb3a8cba9be07e8b025997b394d9e2d430bde865f2cbc18bc3179",
+                "flag": 147,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "061a1f748627f94328ddb86944bcb316707be12cc7e1e3f9f67ed033f409ae9e",
+                "flag": 83,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "fac75c47cd249d7666fa6d3fc8ac2de35ef6d05f2a118648a1a391ce725b49f7",
+                "flag": 147,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "8e5ce746caace3f07d34407503cf8fbbff3f2a875f86cb0c2c900e04f0ffcf94",
+                "flag": 83,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "ccec53c2d03b841fd40828e213a7d6fb72acc3e1a556f10b43cdbb1f453beb85",
+                "flag": 83,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              },
+              {
+                "name_sha256": "5be51dca96067c897472104da771f3acaf8830fb48f9830e0dfc218044d9a605",
+                "flag": 83,
+                "pos1": 41190239,
+                "cigar": "131M30S",
+                "MAPQ": 60,
+                "marker_start0": 111,
+                "SA": null
+              }
+            ]
+          },
+          "reference_breakend_junction_Q20": {
+            "fragments": 0,
+            "examples": []
+          },
+          "reference_breakend_junction_Q30": {
+            "fragments": 0,
+            "examples": []
+          }
+        },
+        "breakend_aligned_coverage_Q20": {
+          "41190374": {
+            "fragments": 831,
+            "bases": {
+              "G": 829,
+              "A": 1,
+              "C": 1
+            }
+          },
+          "41190348": {
+            "fragments": 1145,
+            "bases": {
+              "T": 1145
+            }
+          }
+        },
+        "nearby_CIGAR_insertions": [
+          {
+            "insertion_after_pos1": 41190343,
+            "inserted_sequence": "GCTGTGGGTCCAGCTGCTGCCAGCCTA",
+            "length": 27,
+            "fragments": 325,
+            "strict10bpBQ20_flank_fragments": 299,
+            "strand_read_alignments": {
+              "forward": 203,
+              "reverse": 243
+            },
+            "top_cigars": [
+              [
+                "78M27I56M",
+                19
+              ],
+              [
+                "66M27I68M",
+                18
+              ],
+              [
+                "56M27I78M",
+                18
+              ],
+              [
+                "47M27I87M",
+                15
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190343,
+            "inserted_sequence": "GCTGTGGGTCCAGCTGCTACCAGCCTA",
+            "length": 27,
+            "fragments": 2,
+            "strict10bpBQ20_flank_fragments": 1,
+            "strand_read_alignments": {
+              "reverse": 2
+            },
+            "top_cigars": [
+              [
+                "81M27I53M",
+                1
+              ],
+              [
+                "52M27I82M",
+                1
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190356,
+            "inserted_sequence": "CTGCTGCCATCCTAGCTGTGGGTCCAT",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 0,
+            "strand_read_alignments": {
+              "reverse": 1
+            },
+            "top_cigars": [
+              [
+                "92M27I42M",
+                1
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190343,
+            "inserted_sequence": "GCTATGGGTCCAGCTGCTGCCAGCCTA",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 1,
+            "strand_read_alignments": {
+              "forward": 1,
+              "reverse": 1
+            },
+            "top_cigars": [
+              [
+                "78M27I56M",
+                1
+              ],
+              [
+                "33M27I101M",
+                1
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190352,
+            "inserted_sequence": "CCAGCTGCTGCCAGCCTAGCTGTGGGA",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 0,
+            "strand_read_alignments": {
+              "forward": 1
+            },
+            "top_cigars": [
+              [
+                "87M27I47M",
+                1
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190343,
+            "inserted_sequence": "GCTGTGGGTCCAGCTGCTGCCAGCCAA",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 0,
+            "strand_read_alignments": {
+              "forward": 1
+            },
+            "top_cigars": [
+              [
+                "71M27I59M",
+                1
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190369,
+            "inserted_sequence": "AGCTGTGGGTCCAGCTGCTGCCAGCCG",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 0,
+            "strand_read_alignments": {
+              "forward": 1
+            },
+            "top_cigars": [
+              [
+                "95M27I33M",
+                1
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190343,
+            "inserted_sequence": "GCTGTGGGTCCAGCTGCTGCCAGTCTA",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 1,
+            "strand_read_alignments": {
+              "reverse": 1
+            },
+            "top_cigars": [
+              [
+                "66M27I68M",
+                1
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190342,
+            "inserted_sequence": "AGCTGTGGGTCCAGCTGCTGCCAGCCA",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 0,
+            "strand_read_alignments": {
+              "forward": 1
+            },
+            "top_cigars": [
+              [
+                "63M27I61M10S",
+                1
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190366,
+            "inserted_sequence": "CCTAGCTGTGGGTCCAGCTGCTGCCAA",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 1,
+            "strand_read_alignments": {
+              "reverse": 1
+            },
+            "top_cigars": [
+              [
+                "78M27I56M",
+                1
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190346,
+            "inserted_sequence": "GTGGGTCCAGCTGCTGCCAGCCTAGCC",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 1,
+            "strand_read_alignments": {
+              "forward": 1,
+              "reverse": 1
+            },
+            "top_cigars": [
+              [
+                "51M27I58M",
+                2
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190343,
+            "inserted_sequence": "GCTGTGGGTCCTGCTGCTGCCAGCCTA",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 0,
+            "strand_read_alignments": {
+              "reverse": 1
+            },
+            "top_cigars": [
+              [
+                "47M27I87M",
+                1
+              ]
+            ]
+          },
+          {
+            "insertion_after_pos1": 41190351,
+            "inserted_sequence": "TCCAGCTGCTGCCAGCCTAGCTGTGGC",
+            "length": 27,
+            "fragments": 1,
+            "strict10bpBQ20_flank_fragments": 0,
+            "strand_read_alignments": {
+              "forward": 1
+            },
+            "top_cigars": [
+              [
+                "47M27I77M",
+                1
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "d97835c4fba3": {
+      "gene1": "NOTCH2NLC",
+      "gene2": "NOTCH2NLC",
+      "type": "duplication/ITD",
+      "confidence": "medium",
+      "breakpoint1": "chr1:149390834",
+      "breakpoint2": "chr1:149390805",
+      "site1": "CDS",
+      "site2": "CDS",
+      "reading_frame": "in-frame",
+      "strand1(gene/fusion)": "+/+",
+      "strand2(gene/fusion)": "+/+",
+      "transcript_id1": "ENST00000650865.1",
+      "transcript_id2": "ENST00000650865.1",
+      "peptide_sequence": "MWICPGGGGGGGGGGg|GGGGGGGGGGGGDREDARPAPLCCGRCWRSGCAARPPRMvsiglrgavrgar",
+      "fusion_transcript": "CCTTTGAAGCAGGAGGAGGGGAGGAGAGAGTGGGGCTCCTCTATCGGGACCCCCTCCCCATGTGGATCTGCCCAGGCGGCGGCGGCGGCGGCGGCGGCGGCGGcGG|CGGCGGCGGCGGCGGCGGCGGCGGCGGAGGAGGCGGCGACCGAGAAGATGCCCGCCCTGCGCCGCTCTGCTGTGGGCGCTGCTGGCGCTCTGGCTGTGCTGCGCGACCCCCGCGCATGGTGAGTATCGGGCTGAGGGGCGCTGTCCGCGGCGCCCGGGGC",
+      "distinct_named_reads": 88,
+      "junction_25_plus_25": "GCGGCGGCGGCGGCGGCGGCGGCGG|CGGCGGCGGCGGCGGCGGCGGCGGC",
+      "reference_matches": [
+        {
+          "pattern_index": 133,
+          "sequence": "CCGCCGCCGCCGCCGCCGCCGCCGC",
+          "roles": [
+            {
+              "candidate": "d97835c4fba3",
+              "kind": "left_anchor",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 352,
+          "transcript_occurrences": 351,
+          "transcript_genes": {
+            "DMRTA2": 2,
+            "RPRD2": 1,
+            "PLXNA2": 1,
+            "BCL11A": 11,
+            "KCMF1": 2,
+            "POU3F3": 2,
+            "AC226101.1": 1,
+            "BCL2L11": 11,
+            "SETD5": 2,
+            "SETD2": 1,
+            "THOC7": 1,
+            "ATXN7": 1,
+            "TENT4A": 1,
+            "HCN1": 3,
+            "ZSWIM6": 1,
+            "FOXF2": 1,
+            "RREB1": 1,
+            "AL365232.1": 1,
+            "KHDC1": 3,
+            "HS3ST5": 1,
+            "MTHFD1L": 3,
+            "SAPCD2P4": 1,
+            "DLX6": 1,
+            "GNB2": 4,
+            "MNX1": 1,
+            "ZNF703": 1,
+            "TCEA1": 8,
+            "EPPK1": 2,
+            "PTENP1-AS": 2,
+            "FOXE1": 1,
+            "PRDM12": 1,
+            "SKIDA1": 1,
+            "PRKG1": 1,
+            "NKX2-3": 1,
+            "AL731577.2": 1,
+            "MSI1": 1,
+            "TMED2-DT": 1,
+            "SMAD9": 2,
+            "PCDH8P1": 1,
+            "ZIC5": 1,
+            "ZNF219": 1,
+            "SLC35F4": 1,
+            "CCDC177": 1,
+            "IRF2BPL": 1,
+            "DISP2": 1,
+            "RAB26": 2,
+            "CASKIN1": 1,
+            "USP7": 2,
+            "ZFHX3": 2,
+            "MAP2K3": 8,
+            "BLMH": 3,
+            "RHOT1": 3,
+            "FMNL1": 3,
+            "CDH2": 2,
+            "ASXL3": 2,
+            "SETBP1-DT": 1,
+            "DAZAP1": 3,
+            "BTBD2": 1,
+            "KIF3B": 1,
+            "USP25": 4,
+            "ABCG1": 3,
+            "ZDHHC8": 1,
+            "CACNG2": 1,
+            "SBF1": 1,
+            "RPS6KA3": 1,
+            "DCAF12L2": 1,
+            "ZIC3": 2,
+            "AFF2": 1,
+            "HMGB3": 2,
+            "FAM50A": 2
+          },
+          "genome_first_loci": [
+            {
+              "contig": "chr1",
+              "start0": 10694584,
+              "end0": 10694609
+            },
+            {
+              "contig": "chr1",
+              "start0": 10694587,
+              "end0": 10694612
+            },
+            {
+              "contig": "chr1",
+              "start0": 10694590,
+              "end0": 10694615
+            },
+            {
+              "contig": "chr1",
+              "start0": 10694593,
+              "end0": 10694618
+            },
+            {
+              "contig": "chr1",
+              "start0": 10694596,
+              "end0": 10694621
+            },
+            {
+              "contig": "chr1",
+              "start0": 21176232,
+              "end0": 21176257
+            }
+          ]
+        },
+        {
+          "pattern_index": 154,
+          "sequence": "CGGCGGCGGCGGCGGCGGCGGCGGC",
+          "roles": [
+            {
+              "candidate": "d97835c4fba3",
+              "kind": "right_anchor",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 266,
+          "transcript_occurrences": 532,
+          "transcript_genes": {
+            "EIF4G3": 7,
+            "POU3F1": 1,
+            "B4GALT2": 3,
+            "SSBP3": 1,
+            "AL049796.1": 1,
+            "NOTCH2NLC": 2,
+            "AC242842.3": 1,
+            "UBE2Q1": 1,
+            "KCNK2": 1,
+            "EIF2AK2": 7,
+            "NRXN1": 3,
+            "POU3F3": 2,
+            "CCDC93": 1,
+            "BMPR2": 1,
+            "KANSL1L": 3,
+            "ANKRD28": 1,
+            "TMEM271": 1,
+            "PPP3CA": 4,
+            "POU4F2": 1,
+            "EXOC3": 3,
+            "UBE2B": 1,
+            "FGF18": 1,
+            "AC093246.1": 1,
+            "FAM193B": 2,
+            "RASGEF1C": 2,
+            "MAPK9": 7,
+            "C6orf223": 4,
+            "PHF10": 1,
+            "AC092647.5": 1,
+            "ZNF713": 3,
+            "RELN": 8,
+            "GRM8": 2,
+            "EGR3": 1,
+            "CHD7": 1,
+            "PDE7A": 2,
+            "LRP12": 3,
+            "ZFPM2": 1,
+            "VLDLR": 9,
+            "PTENP1": 1,
+            "TGFBR1": 4,
+            "EPB41L4B": 1,
+            "ZNF618": 3,
+            "SKIDA1": 2,
+            "ARHGAP21": 1,
+            "GRK5": 1,
+            "PPP2R2D": 1,
+            "PWWP2B": 1,
+            "BRSK2": 4,
+            "CBL": 1,
+            "FBXL14": 1,
+            "GDF11": 2,
+            "HECTD4": 1,
+            "TMED2": 3,
+            "ELF1": 1,
+            "DACH1": 4,
+            "FAM155A": 1,
+            "KTN1": 3,
+            "MTA1": 2,
+            "NIPA1": 1,
+            "NTRK3": 6,
+            "GSPT1": 2,
+            "SMG1P3": 1,
+            "TNRC6A": 1,
+            "HS3ST4": 1,
+            "CMTM4": 3,
+            "PSKH1": 2,
+            "ST3GAL2": 2,
+            "MAF": 2,
+            "AC116407.1": 1,
+            "WIPF2": 6,
+            "MLLT1": 1,
+            "CARM1": 2,
+            "GIPC1": 6,
+            "BRD4": 2,
+            "CAPNS1": 9,
+            "ERF": 2,
+            "RTN2": 5,
+            "RALGAPA2": 1,
+            "CDH4": 1,
+            "ASCC2": 11,
+            "CSNK1E": 4,
+            "ARX": 1,
+            "AR": 7,
+            "RPS6KA6": 1,
+            "PCDH19": 1,
+            "ZMAT1": 3,
+            "FMR1": 10,
+            "TMEM185A": 2
+          },
+          "genome_first_loci": [
+            {
+              "contig": "chr1",
+              "start0": 22143123,
+              "end0": 22143148
+            },
+            {
+              "contig": "chr1",
+              "start0": 22143126,
+              "end0": 22143151
+            },
+            {
+              "contig": "chr1",
+              "start0": 43979337,
+              "end0": 43979362
+            },
+            {
+              "contig": "chr1",
+              "start0": 50419101,
+              "end0": 50419126
+            },
+            {
+              "contig": "chr1",
+              "start0": 50419104,
+              "end0": 50419129
+            },
+            {
+              "contig": "chr1",
+              "start0": 93847897,
+              "end0": 93847922
+            }
+          ]
+        },
+        {
+          "pattern_index": 216,
+          "sequence": "GCCGCCGCCGCCGCCGCCGCCGCCG",
+          "roles": [
+            {
+              "candidate": "d97835c4fba3",
+              "kind": "right_anchor",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 320,
+          "transcript_occurrences": 324,
+          "transcript_genes": {
+            "DMRTA2": 2,
+            "PLXNA2": 1,
+            "BCL11A": 11,
+            "POU3F3": 2,
+            "AC226101.1": 1,
+            "BCL2L11": 11,
+            "SETD5": 2,
+            "SETD2": 1,
+            "THOC7": 1,
+            "ATXN7": 1,
+            "HCN1": 3,
+            "ZSWIM6": 1,
+            "FOXF2": 1,
+            "RREB1": 1,
+            "AL365232.1": 1,
+            "KHDC1": 3,
+            "HS3ST5": 1,
+            "SAPCD2P4": 1,
+            "DLX6": 1,
+            "GNB2": 4,
+            "MNX1": 1,
+            "ZNF703": 1,
+            "TCEA1": 8,
+            "EPPK1": 2,
+            "VLDLR-AS1": 4,
+            "PTENP1-AS": 2,
+            "FOXE1": 1,
+            "MEGF9": 1,
+            "PRDM12": 1,
+            "SKIDA1": 1,
+            "PRKG1": 1,
+            "NKX2-3": 1,
+            "AL731577.2": 1,
+            "MSI1": 1,
+            "TMED2-DT": 1,
+            "SMAD9": 2,
+            "PCDH8P1": 1,
+            "ZIC5": 1,
+            "IRS2": 1,
+            "CCDC177": 1,
+            "IRF2BPL": 1,
+            "RAB26": 2,
+            "CASKIN1": 1,
+            "SH2B1": 5,
+            "ZFHX3": 2,
+            "MAP2K3": 8,
+            "BLMH": 3,
+            "RHOT1": 3,
+            "ASXL3": 2,
+            "SETBP1-DT": 1,
+            "DAZAP1": 3,
+            "BTBD2": 1,
+            "KIF3B": 1,
+            "MMP24": 1,
+            "ABCG1": 3,
+            "CACNG2": 1,
+            "SBF1": 1,
+            "RPS6KA3": 1,
+            "DCAF12L2": 1,
+            "ZIC3": 2,
+            "AFF2": 1,
+            "HMGB3": 2,
+            "FAM50A": 2
+          },
+          "genome_first_loci": [
+            {
+              "contig": "chr1",
+              "start0": 10694586,
+              "end0": 10694611
+            },
+            {
+              "contig": "chr1",
+              "start0": 10694589,
+              "end0": 10694614
+            },
+            {
+              "contig": "chr1",
+              "start0": 10694592,
+              "end0": 10694617
+            },
+            {
+              "contig": "chr1",
+              "start0": 10694595,
+              "end0": 10694620
+            },
+            {
+              "contig": "chr1",
+              "start0": 21176231,
+              "end0": 21176256
+            },
+            {
+              "contig": "chr1",
+              "start0": 21176234,
+              "end0": 21176259
+            }
+          ]
+        },
+        {
+          "pattern_index": 217,
+          "sequence": "GCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGC",
+          "roles": [
+            {
+              "candidate": "d97835c4fba3",
+              "kind": "junction",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 9,
+          "transcript_occurrences": 2,
+          "transcript_genes": {
+            "HMGB3": 1
+          },
+          "genome_first_loci": [
+            {
+              "contig": "chr7",
+              "start0": 100694314,
+              "end0": 100694364
+            },
+            {
+              "contig": "chr7",
+              "start0": 100694317,
+              "end0": 100694367
+            },
+            {
+              "contig": "chr7",
+              "start0": 100694320,
+              "end0": 100694370
+            },
+            {
+              "contig": "chr7",
+              "start0": 100694323,
+              "end0": 100694373
+            },
+            {
+              "contig": "chr7",
+              "start0": 100694326,
+              "end0": 100694376
+            },
+            {
+              "contig": "chr7",
+              "start0": 100694329,
+              "end0": 100694379
+            }
+          ]
+        },
+        {
+          "pattern_index": 227,
+          "sequence": "GCGGCGGCGGCGGCGGCGGCGGCGG",
+          "roles": [
+            {
+              "candidate": "d97835c4fba3",
+              "kind": "left_anchor",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 301,
+          "transcript_occurrences": 582,
+          "transcript_genes": {
+            "EIF4G3": 7,
+            "AGO4": 1,
+            "POU3F1": 1,
+            "B4GALT2": 3,
+            "SSBP3": 1,
+            "AL049796.1": 1,
+            "NOTCH2NLC": 2,
+            "AC242842.3": 1,
+            "UBE2Q1": 1,
+            "KCNK2": 1,
+            "GDF7": 1,
+            "EIF2AK2": 7,
+            "NRXN1": 3,
+            "POU3F3": 2,
+            "CCDC93": 1,
+            "FZD7": 1,
+            "BMPR2": 1,
+            "KANSL1L": 3,
+            "ANKRD28": 1,
+            "TMEM271": 1,
+            "PPP3CA": 4,
+            "POU4F2": 1,
+            "EXOC3": 3,
+            "UBE2B": 1,
+            "FGF18": 1,
+            "AC093246.1": 1,
+            "FAM193B": 2,
+            "RASGEF1C": 2,
+            "MAPK9": 7,
+            "C6orf223": 4,
+            "ARID1B": 5,
+            "PHF10": 1,
+            "AC092647.5": 1,
+            "ZNF713": 3,
+            "RELN": 8,
+            "GRM8": 2,
+            "EGR3": 1,
+            "CHD7": 1,
+            "PDE7A": 2,
+            "SLCO5A1": 7,
+            "LRP12": 3,
+            "ZFPM2": 1,
+            "PTENP1": 1,
+            "TGFBR1": 4,
+            "EPB41L4B": 1,
+            "ZNF618": 3,
+            "SKIDA1": 2,
+            "ARHGAP21": 1,
+            "EIF5AL1": 1,
+            "FRA10AC1": 1,
+            "GRK5": 1,
+            "PWWP2B": 1,
+            "HRAS": 1,
+            "BRSK2": 4,
+            "C11orf80": 5,
+            "GRK2": 2,
+            "CBL": 1,
+            "FBXL14": 1,
+            "GDF11": 2,
+            "HECTD4": 1,
+            "TMED2": 3,
+            "ELF1": 1,
+            "FAM155A": 1,
+            "KTN1": 3,
+            "MTA1": 2,
+            "NIPA1": 1,
+            "HDGFL3": 1,
+            "SLCO3A1": 3,
+            "GSPT1": 2,
+            "SMG1P3": 1,
+            "TNRC6A": 1,
+            "HS3ST4": 1,
+            "PPP4C": 7,
+            "CMTM4": 3,
+            "PSKH1": 2,
+            "MAF": 3,
+            "AC116407.1": 1,
+            "WIPF2": 6,
+            "PWWP3A": 4,
+            "MLLT1": 1,
+            "CARM1": 2,
+            "GIPC1": 6,
+            "BRD4": 2,
+            "CAPNS1": 9,
+            "ERF": 2,
+            "RTN2": 5,
+            "RALGAPA2": 1,
+            "PCMTD2": 1,
+            "CSNK1E": 4,
+            "ARX": 1,
+            "AR": 7,
+            "RPS6KA6": 1,
+            "PCDH19": 1,
+            "ZMAT1": 3,
+            "FMR1": 10,
+            "TMEM185A": 2
+          },
+          "genome_first_loci": [
+            {
+              "contig": "chr1",
+              "start0": 22143122,
+              "end0": 22143147
+            },
+            {
+              "contig": "chr1",
+              "start0": 22143125,
+              "end0": 22143150
+            },
+            {
+              "contig": "chr1",
+              "start0": 22143128,
+              "end0": 22143153
+            },
+            {
+              "contig": "chr1",
+              "start0": 35808171,
+              "end0": 35808196
+            },
+            {
+              "contig": "chr1",
+              "start0": 35808338,
+              "end0": 35808363
+            },
+            {
+              "contig": "chr1",
+              "start0": 43979336,
+              "end0": 43979361
+            }
+          ]
+        },
+        {
+          "pattern_index": 228,
+          "sequence": "GCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGC",
+          "roles": [
+            {
+              "candidate": "d97835c4fba3",
+              "kind": "junction",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 5,
+          "transcript_occurrences": 8,
+          "transcript_genes": {
+            "CARM1": 1,
+            "AR": 7
+          },
+          "genome_first_loci": [
+            {
+              "contig": "chr2",
+              "start0": 86914419,
+              "end0": 86914469
+            },
+            {
+              "contig": "chr2",
+              "start0": 86914422,
+              "end0": 86914472
+            },
+            {
+              "contig": "chr2",
+              "start0": 86914425,
+              "end0": 86914475
+            },
+            {
+              "contig": "chr19",
+              "start0": 10871589,
+              "end0": 10871639
+            },
+            {
+              "contig": "chrX",
+              "start0": 67546515,
+              "end0": 67546565
+            }
+          ]
+        }
+      ],
+      "reference_breakend_marker": "GCGGCGGCGGCGGCGGCGGCGGAGG|CGGCGGCGGCGGCGGCGGCGGCGGC",
+      "reference_mismatch": [
+        {
+          "marker_position1": 23,
+          "reference": "A",
+          "observed": "C",
+          "genomic_position1": 149390832
+        }
+      ],
+      "coordinate_duplication_span_bp": 30,
+      "reference_duplicated_segment": "CGGCGGCGGCGGCGGCGGCGGCGGCGGAGG",
+      "independent_raw_50mer": {
+        "20": {
+          "pairs": 1217,
+          "families": 1146,
+          "R1": 953,
+          "R2": 899,
+          "both_mates": 635
+        },
+        "30": {
+          "pairs": 978,
+          "families": 921,
+          "R1": 807,
+          "R2": 584,
+          "both_mates": 413
+        }
+      }
+    },
+    "cb8931f687fc": {
+      "gene1": "CCND1",
+      "gene2": "HEG1",
+      "type": "translocation/3'-3'",
+      "confidence": "medium",
+      "breakpoint1": "chr11:69651217",
+      "breakpoint2": "chr3:125013572",
+      "site1": "CDS",
+      "site2": "CDS",
+      "reading_frame": ".",
+      "strand1(gene/fusion)": "+/-",
+      "strand2(gene/fusion)": "-/-",
+      "transcript_id1": ".",
+      "transcript_id2": "ENST00000311127.9",
+      "peptide_sequence": ".",
+      "fusion_transcript": "ACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTC|TTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCA",
+      "distinct_named_reads": 13,
+      "junction_25_plus_25": "GGTCCACCTCCTCCTCCTCCTCTTC|TTCTTCTTCAGGGCCTCCTTTGCCT",
+      "reference_matches": [
+        {
+          "pattern_index": 42,
+          "sequence": "AGGCAAAGGAGGCCCTGAAGAAGAA",
+          "roles": [
+            {
+              "candidate": "cb8931f687fc",
+              "kind": "right_anchor",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 1,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": [
+            {
+              "contig": "chr3",
+              "start0": 125013547,
+              "end0": 125013572
+            }
+          ]
+        },
+        {
+          "pattern_index": 43,
+          "sequence": "AGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAGGTGGACC",
+          "roles": [
+            {
+              "candidate": "cb8931f687fc",
+              "kind": "junction",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 185,
+          "sequence": "GAAGAGGAGGAGGAGGAGGTGGACC",
+          "roles": [
+            {
+              "candidate": "cb8931f687fc",
+              "kind": "left_anchor",
+              "arm": 25,
+              "orientation": "reverse"
+            }
+          ],
+          "genome_occurrences": 1,
+          "transcript_occurrences": 2,
+          "transcript_genes": {
+            "CCND1": 2
+          },
+          "genome_first_loci": [
+            {
+              "contig": "chr11",
+              "start0": 69651216,
+              "end0": 69651241
+            }
+          ]
+        },
+        {
+          "pattern_index": 255,
+          "sequence": "GGTCCACCTCCTCCTCCTCCTCTTC",
+          "roles": [
+            {
+              "candidate": "cb8931f687fc",
+              "kind": "left_anchor",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 256,
+          "sequence": "GGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCT",
+          "roles": [
+            {
+              "candidate": "cb8931f687fc",
+              "kind": "junction",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 0,
+          "transcript_genes": {},
+          "genome_first_loci": []
+        },
+        {
+          "pattern_index": 329,
+          "sequence": "TTCTTCTTCAGGGCCTCCTTTGCCT",
+          "roles": [
+            {
+              "candidate": "cb8931f687fc",
+              "kind": "right_anchor",
+              "arm": 25,
+              "orientation": "forward"
+            }
+          ],
+          "genome_occurrences": 0,
+          "transcript_occurrences": 3,
+          "transcript_genes": {
+            "HEG1": 3
+          },
+          "genome_first_loci": []
+        }
+      ],
+      "independent_raw_50mer": {
+        "20": {
+          "pairs": 11,
+          "families": 7,
+          "R1": 11,
+          "R2": 10,
+          "both_mates": 10
+        },
+        "30": {
+          "pairs": 9,
+          "families": 7,
+          "R1": 5,
+          "R2": 7,
+          "both_mates": 3
+        }
+      }
+    }
+  },
+  "sources": {
+    "arriba_output_format": "https://github.com/suhrig/arriba/wiki/05-Output-files",
+    "raw_audit": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/patient/junction-read-audit.json",
+    "reference_audit": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/patient-reference/reference-ambiguity.json"
+  },
+  "selected_RNA_pairs_checked": 13495,
+  "RNA_recount_all_8_quality_counts_pass": true,
+  "limits": [
+    "Exact markers are based on caller consensus; matching raw sequence is corroboration not a validated genomic rearrangement.",
+    "Reference exact-match counts do not cover near-matching paralogs or unrepresented normal haplotypes.",
+    "Read names and sequence families are not UMI-defined molecules. No matched-normal sample was used; no somatic or tumor-cell origin inference.",
+    "DNA check uses indexed reads aligned near the named breakends, not all unmapped DNA reads or a genome-wide structural-variant call; lack of local support is not exclusion.",
+    "Transcript frame refers to the supplied GENCODE37 isoform/model; no protein production or actionability is established."
+  ]
+}

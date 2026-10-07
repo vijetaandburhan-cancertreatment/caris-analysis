@@ -1,0 +1,40 @@
+{
+  "version": "v1",
+  "scope": "Bounded research audit of CCND1::HEG1 candidate cb8931f687fc; no clinical actionability claim",
+  "frozen_before_sequence_analysis": true,
+  "inputs": "Union of13 caller names and11Q20 exact50nt supporting pairs from existing selected FASTQs; actual union count will be recorded. Whole primary GRCh38 genome and GENCODE37 transcripts only; no full raw-RNA rescan.",
+  "nominations": {
+    "seed_length": 19,
+    "query_orientations": "forward and reverse complement",
+    "seed_starts": "0,19,38,... for all complete19nt disjoint blocks, plus final19nt block if not already represented",
+    "coverage_claim": "For a full161nt query with8 disjoint19nt blocks, up to7 substitutions leave at least one unchanged seed. Insertions/deletions can disrupt blocks differently; gapped/partially clipped alignment coverage is conditional on at least one searched19nt block surviving and the placement shift staying within20nt slop. No general indel-event or exhaustive local-mapping guarantee is claimed.",
+    "max_saved_hits_per_seed_per_reference": 20000,
+    "max_nominated_windows_per_query_per_reference": 20000,
+    "cap_behavior": "Count every seed hit; mark saturation and do not infer reference absence or best-global mapping when a cap is hit.",
+    "window": "Expected full-query placement from seed offset, plus20nt slop on each side. Merge overlapping/adjacent nominated windows conservatively; record effective window length and scored count.",
+    "reference_memory": "stream primary genome chunks; G37 transcript FASTA one record at a time; no persistent genome index"
+  },
+  "alignment": {
+    "implementation": "Biopython1.86 PairwiseAligner; exact settings checked on positive/negative controls",
+    "match": 2,
+    "mismatch": -4,
+    "internal_gap_open": -6,
+    "internal_gap_extension": -1,
+    "reference_end_gaps": 0,
+    "query_terminal_unaligned_base_penalty": -2,
+    "method": "Same semi-global affine scheme for proposed-junction and alternative targets, fitting every query base or explicitly penalizing terminal query overhang. Report aligned query fraction, terminal clipped bases, mismatches with qualities, internal gaps and coordinates. Scores are relative algorithmic scores, not MAPQ or probabilities.",
+    "retained_alignments": "Top10 distinct locus/transcript windows per query, preserving ties and total tied counts; enough detailed alignments for parent review. Exact repeated matches must not be summarized as unique."
+  },
+  "controls": "Reference-derived ordinary CCND1 and HEG1 parent transcripts, a canonical MET exon junction, a repeat-control from the previously audited NOTCH2NLC marker, and a synthetic fusion-positive sequence. Include otherwise identical parent reads carrying3 substitutions, a1nt insertion and a2nt deletion; test seed nomination and scoring. Controls demonstrate behavior within defined bounds, not clinical sensitivity.",
+  "geometry": "Audit all STAR chimeric records for selected names; both mates, orientation, exact marker location/quality, overlap, possible molecule-start patterns and microhomology. Sequence families/overlapping mates are not UMI-defined independent molecules.",
+  "resources": {
+    "target_RAM_GiB": 2,
+    "hard_RSS_GiB": 4,
+    "minimum_free_disk_GiB": 3,
+    "maximum_new_output_MiB": 200,
+    "no_new_large_index": true
+  },
+  "outputs": "New independent folder and resident mirror; preserve raw evidence, scripts, source hashes, controls, scoring settings and unresolved alternatives. No edits to current handoff.",
+  "limitations": "Primary-reference/G37 absence does not exclude alternative haplotypes, unannotated splice isoforms, paralogs, library chimeras or biological antisense RNA. No forced driver or artifact conclusion.",
+  "approval": "Root reviewed and approved scientifically before execution, with bounded seed search, cap reporting, equal scoring and mismatch/indel controls required."
+}

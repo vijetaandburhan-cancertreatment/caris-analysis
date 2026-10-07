@@ -1,0 +1,195 @@
+{
+  "status": "PASS_FINAL_METHODS_AND_PROSE_APPROVED",
+  "created_utc": "2026-10-05T08:09:23.842147+00:00",
+  "scope": "Read-only source, frozen metadata and produced small result-table/editorial audit. Did not execute patient scripts, process BAM/FASTQ records or edit root code. Seven synthetic in-memory records checked the repaired exact tracing predicate. Final release gate is supported by the separate independent count/transition audit.",
+  "audited_source_sha256": {
+    "count_compare.py": "79c5b892b4782f689b5fe9ff7f07579b45717d4da635f64c9a2c41ca020280ce",
+    "compare_names.py": "fbe0400bd2de3601efa02f4e9c8f66dfa7f686858fe40b8e321ba99677997cd7",
+    "design-frozen.json": "785102bbcd822ed081462995a952c63f8879ea390c852b5128141447521d42f9",
+    "baseline-fixed-4015.tsv": "25934a24cd3057c0324d116fe5f67ad3584e1d0a131efa8a77481fc8fd0ede8d",
+    "frozen-exception-sites.tsv": "36195e4c545e4d3615c9f0520dee5cb4dcc5711007b7d16753dbbfa911a910cb",
+    "frozen-exception-qnames.txt": "3b246b84e4c4cc058929cb6dea8b08c1317ecaadfd1d04e73425a19fb7f44912"
+  },
+  "fixed_metadata_checks": {
+    "cohort_rows": 4015,
+    "unique_cohort_keys": 4015,
+    "original_DNA_categories": {
+      "ref_dominant": 2283,
+      "alt_dominant": 590,
+      "ref_alt_mixed": 1109,
+      "residual": 33
+    },
+    "original_DNA_dominant_denominator": 2873,
+    "baseline_dominant_retain90": 2860,
+    "baseline_dominant_retain98": 2760,
+    "exception_rows": 16,
+    "review_classes": {
+      "strong_baseline_screen": 6,
+      "lower_RNA_depth_exception": 7,
+      "MAPQ60_only_not_baseline_flag": 3
+    },
+    "all_exceptions_in_fixed_cohort": true,
+    "frozen_names": 3426,
+    "unique_frozen_names": 3426
+  },
+  "passed_methods": [
+    "count_compare iterates every unique frozen cohort key rather than reselecting jointly callable survivors. Original DNA counts/categories and original RNA columns are retained.",
+    "Coverage zero and nonzero depth below20 are explicit fields/counters; coverage-loss rows are written. Dominant pass numerators require new depth>=20, while original dominant denominator remains2873. No coverage loss is silently substituted as successful retention.",
+    "Dominant transition states are original retain90/below90 crossed with new below20/retain90/below90. These are assay-count state changes, not proof of a corrected allele or biological change.",
+    "New strong-allele screening preserves the declared both-depth>=50, DNA base<=2%, RNA base>=10% and >=10 QNAME criteria and remains separate from primary fixed-denominator retention.",
+    "All16 selected exception coordinates are in the fixed cohort and are retained regardless of new coverage. The three MAPQ60-only flags remain separately labelled from the13 original DNA-dominant exceptions.",
+    "New counts use MAPQ>=30, BQ>=25, proper-pair flag and exclusion0xF0C, direct M/=/X CIGAR coordinates, and one unambiguous ACGT bit per QNAME. Conflicting qualified bases are counted separately and excluded from ACGT depth. The clean sensitivity matches no-S CIGAR plus at least5 query bases from each aligned query edge.",
+    "compare_names checks original16 ACGT counts against frozen values and checks new frozen-name allele masks against primary count output. Original supporters receive one mutually exclusive prioritized transition; failure/absence/unmapped/reference-span-without-base categories are retained.",
+    "new_all_names_same_base is a fresh full-cohort-overlap count distinct from tracking the fixed original supporter set; these must not be conflated in prose.",
+    "Explicit source limitations state that a changed full pipeline is not necessarily a correction and that emitted records are not all hypothetical placements."
+  ],
+  "substantive_issue": {
+    "id": "HARDCLIP_EQUAL_LENGTH_OFFSET",
+    "file": "compare_names.py",
+    "lines_at_review": "32-33,62-70",
+    "impact": "Auxiliary physical-query-position transition coordinates may be incorrect if equal stored query lengths conceal different terminal hard clips. Does not alter primary site allele counts or QNAME transition categories.",
+    "example": "Forward100-base read:10H90M and90M10H each store90bases. Stored index20 represents full-read offset30 versus20. Length equality alone cannot identify the same physical base.",
+    "recommended_fix": "Before reporting a physical coordinate, gate any H in either original/new alignment or reconstruct full-read hardclip offsets and verify orientation-normalized query correspondence. If omitted, label those traces indeterminate rather than reporting an exact coordinate.",
+    "reported_to_root": true,
+    "status": "RESOLVED",
+    "reviewed_original_source_sha256": "70331ece9b8452533a0fdccdc7c396c6683a31adc8a2330a42f3b95502811f32",
+    "resolution": {
+      "repaired_source_sha256": "fbe0400bd2de3601efa02f4e9c8f66dfa7f686858fe40b8e321ba99677997cd7",
+      "amendment_sha256": "00a590d589dfb9bea822bcaa8b6d62bc01ca16727007b6fe2c957acc03a32391",
+      "description": "Both original and new records must lack H CIGAR operators, have equal stored length, and have identical SHA256 of get_forward_sequence() before physical-position tracing. All other cases are explicitly not traced. Diff only adds observation metadata, trace gate and limitations; primary allele-call and QNAME outcome logic is unchanged.",
+      "synthetic_gate_checks": [
+        {
+          "case": "forward_identical",
+          "not_traced": false,
+          "expected_not_traced": false,
+          "pass": true
+        },
+        {
+          "case": "reverse_same_full_sequence",
+          "not_traced": false,
+          "expected_not_traced": false,
+          "pass": true
+        },
+        {
+          "case": "original_hardclip",
+          "not_traced": true,
+          "expected_not_traced": true,
+          "pass": true
+        },
+        {
+          "case": "new_hardclip_equal_length",
+          "not_traced": true,
+          "expected_not_traced": true,
+          "pass": true
+        },
+        {
+          "case": "different_length",
+          "not_traced": true,
+          "expected_not_traced": true,
+          "pass": true
+        },
+        {
+          "case": "same_length_changed_forward_sequence",
+          "not_traced": true,
+          "expected_not_traced": true,
+          "pass": true
+        },
+        {
+          "case": "same_sequence_softclip_allowed",
+          "not_traced": false,
+          "expected_not_traced": false,
+          "pass": true
+        }
+      ],
+      "executed_original_or_repaired_patient_script": false
+    }
+  },
+  "editorial_requirements": [
+    "Use QNAME units/read names, not independent molecules. Shared paired-end reads and PCR duplicates are not made molecularly independent by QNAME collapse.",
+    "PABPC1_linkage in compare_names is shared QNAME-set support. It does not itself establish that both alleles occupy the same qualifying alignment; the earlier original-library same-alignment check is a separate result.",
+    "For MAPQ60-only sites, the tracked allele is a sensitivity-selected allele. It is not generally unexpected under the fixed baseline DNA mixed/residual category. The script uses expected=None there, appropriately avoiding a new baseline DNA-expected label.",
+    "Do not call a strong-screen flag resolved merely because new depth falls below50, or retention corrected because a name becomes filtered, unmapped, clipped or differently placed.",
+    "Same numeric MAPQ/flag filters do not make upstream pipelines identical. References, STAR version, splice/mapping parameters and duplicate marking can differ; mapping confidence semantics (including STAR255) are not calibrated equivalence.",
+    "Ordinary records are captured only when an M/=/X block overlaps a fixed SNP; D/N-only and complete nonACGT inventories are unavailable outside the frozen-name set.",
+    "No new clinical performance, specimen identity, contamination-fraction or diagnosis inference follows from this method comparison."
+  ],
+  "nonblocking_robustness_suggestions": [
+    "Assert the known2873 dominant count and4015 unique keys at runtime before emitting baseline_denominators_preserved=True; frozen metadata was independently checked here.",
+    "Assert each supporter outcome sum equals its original supporter denominator.",
+    "Empty table lists would cause compare_names.table to index rs[0]; a header-only/empty-safe writer would be more robust if physical traces are later comprehensively gated."
+  ],
+  "synthetic_reasoning_only": {
+    "hardclip_counterexample_stored_lengths": [
+      90,
+      90
+    ],
+    "stored_query_index": 20,
+    "full_forward_read_offsets": [
+      30,
+      20
+    ],
+    "patient_read_processing_performed": false
+  },
+  "copy_prose_review": {
+    "status": "PASS_FINAL_RELEASE_GATE_SATISFIED",
+    "reviewed_utc": "2026-10-05T08:14:25.528339+00:00",
+    "files_sha256": {
+      "delivery/Caris-final-alignment-comparison-2026-10-05-preview.txt": "4c5f2b5a124d581e716f9f20eb00246bd65cda740ea76fb4181daa20372ae989",
+      "delivery/render_comparison.py": "b180a32be715e912fd9e5eeaac4ab1954c635a4731dee4a2e5cc2943b8725198",
+      "comparison/fixed4015-comparison.tsv": "c905e08ee3c9f0d2a4c31fb6eaa0379355476b96c173661206780d14d6baebe2",
+      "comparison/all16-exception-comparison.tsv": "f5c8a097a932446b012d4e626015fe62eb8b0430a8a97017893d4191a86a1e67",
+      "comparison/summary.json": "8a86ffa396d5a5588ec39a67e32c249c67e176f1a88ce72b7b2f6e8d11b89b23",
+      "name-comparison/summary.json": "673218a2f1e566425a86c94398ef2aa2adca432c9167415ee804ebcf5e86b51f",
+      "patient-full-pass/run.json": "f596d3387f87baa585f0a22afe1325124dfd8e197d2e013d6c8fe463a1f26e49"
+    },
+    "verified_claims": [
+      "All 23,209,264 RNA read pairs were processed; 4,015 original sites remain; 3,932 meet new depth20; 83 are below20 and none has zero ACGT evidence.",
+      "The original 2,873 DNA-dominant denominator remains: old2,860/new2,805 meet depth20+90%; old2,760/new2,721 meet depth20+98%. All59 new coverage failures came from originally passing sites. There are13 original versus9 new callable sites below90%.",
+      "Of13 original exceptions,5 reach90% and8 remain below it. One new MLLT3 site, chr9:20414378, changes A24/G2 to A24/G3 at depth27, below the strong-screen depth floor.",
+      "All six stronger-site DNA, original RNA and new RNA values match the frozen and new tables. Five remain strong-screen flags; APOD does not.",
+      "PABPC1 has61/470 G and73/430 C query-name counts,61 shared new names and56 original shared names retaining both. Prose identifies shared names, not independent molecules or validated tumor mutations.",
+      "All13 original exceptions plus3 separate MAPQ60-only sites remain. The latter RNA values use matched baseline filters and are not promoted to new primary flags.",
+      "All3,426 frozen names were recovered in9,061 new named records. APOD26/27 expected-G outcomes plus1 filtered outcome, and the EXOC3/MSH3-DHFR transitions, match the produced summary.",
+      "No new placement is called a correction. APOD is described as alignment/pipeline-dependent. No identity probability, contamination fraction, clinical performance, new treatment target or diagnostic conclusion is claimed.",
+      "Resource figures match run.json in decimal MB/GB:26.8 minutes,64.1 MB selective BAM,8.40 GB peak main-pipeline RSS and4.99 GB minimum free disk."
+    ],
+    "release_gate": "SATISFIED: primary-and-transition-audit.json is PASS, with zero differences over49,911 integer fields at4,015 sites and exact agreement for989 individual supporter transitions. Its source hashes match current primary tables. The independent same-record check confirms65 original and61 new PABPC1 shared names with both bases on a qualifying alignment. The report verification sentence and updated PABPC1 language are supported.",
+    "precision_edit_requested": {
+      "old": "All 23,209,264 original paired RNA reads",
+      "new": "All 23,209,264 original RNA read pairs",
+      "reason": "STAR counts paired templates for this paired FASTQ input; avoid ambiguity with individual read records.",
+      "severity": "small precision edit",
+      "status": "APPLIED_AND_VERIFIED"
+    },
+    "visual_PDF_QA": "Root reports both final pages directly rendered and inspected, with no clipping, overlap or readability issue, as recorded in final-content-approval.json. This agent performed content/hash review rather than a separate visual inspection.",
+    "patient_alignment_processing": "None; inspected source and already-generated small tables and JSON only.",
+    "final_approved_utc": "2026-10-05T08:16:05.156040+00:00",
+    "release_gate_previous": "The prose states that an independent aligned-pair implementation reproduced all 4,015 per-base rows and material exception transitions. Parent explicitly keeps release gated until that auditor supplies supporting final checks. This editorial review does not itself certify the independent patient read-level audit.",
+    "final_current_files_sha256": {
+      "delivery/render_comparison.py": "06e1e6f430e203cc244e3b44bb9b13b17fa5a6fbc4e778c4a18cef8a8b332c36",
+      "delivery/Caris-final-alignment-comparison-2026-10-05.txt": "fe5fdc120c2de0d51d902f5045e735deb9056ccd451acbcd319e6035ec350104",
+      "delivery/Caris-final-alignment-comparison-2026-10-05.pdf": "00fa2fd8dcfbbd62fc526114c779ebca9d441f8f39a316a6af6ac18c5e45bc95",
+      "independent-comparison/primary-and-transition-audit.json": "0141ef407846af50240e1dd4500afbb92764126f1b875fb2bf79db18c1a7a1aa",
+      "delivery/final-content-approval.json": "4e0950df93ff9f3d48cca8aa3ba89765b258fcdbd7d329ca4afd22f524257ceb"
+    },
+    "final_current_files_bytes": {
+      "delivery/render_comparison.py": 8335,
+      "delivery/Caris-final-alignment-comparison-2026-10-05.txt": 5653,
+      "delivery/Caris-final-alignment-comparison-2026-10-05.pdf": 7457
+    },
+    "PABPC1_qualification": "The initial QNAME-set-only restriction remains true of compare_names.py itself. A separate independent same-record audit now supports the final report wording; this still does not establish tumor-specific origin, RNA editing, independent molecules or a clinical target.",
+    "final_disposition": "No unresolved factual or material editorial issues. Final report files approved for packaging at the exact hashes recorded here. No renderer, PDF, TXT or scientific output edited by this reviewer."
+  },
+  "updated_utc": "2026-10-05T08:16:05.156040+00:00",
+  "generated_summary_arithmetic_check": {
+    "summary_sha256": "673218a2f1e566425a86c94398ef2aa2adca432c9167415ee804ebcf5e86b51f",
+    "all_18_site_base_outcome_sums_equal_original_supporter_counts": true,
+    "site_base_outcome_rows": 18,
+    "frozen_names_original": 3426,
+    "frozen_names_new": 3426,
+    "missing_new_names": 0,
+    "auxiliary_trace_rows": 2229,
+    "not_traced_rows": 267,
+    "note": "Only already-produced small tables/JSON read; no BAM/FASTQ processing. This is not a replacement for the independent patient count audit."
+  }
+}

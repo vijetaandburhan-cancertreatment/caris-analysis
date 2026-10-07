@@ -1,0 +1,11 @@
+marker_length_nt	allele_compatible_with_prior_genotype	base_quality_min	read_end_distance_min_nt	matched_CDS_start_positions	positive_query_name_pairs	distinct_full_pair_sequences	cross_allele_conflict_pairs	interpretation
+51	B*50:01	30	5	87	1870	1382	1	Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance
+51	B*52:01	30	5	87	1399	1096	1	Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance
+71	B*50:01	30	5	240	2564	1895	1	Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance
+71	B*52:01	30	5	240	1944	1495	1	Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance
+91	B*50:01	30	5	344	2132	1588	0	Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance
+91	B*52:01	30	5	344	1655	1299	0	Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance
+111	B*50:01	30	5	433	1875	1439	0	Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance
+111	B*52:01	30	5	433	1450	1166	0	Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance
+131	B*50:01	30	5	557	1291	1037	0	Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance
+131	B*52:01	30	5	557	1005	835	0	Conditional bulk RNA support; not unique HLA retyping, tumor retention, independent molecules or calibrated allele abundance

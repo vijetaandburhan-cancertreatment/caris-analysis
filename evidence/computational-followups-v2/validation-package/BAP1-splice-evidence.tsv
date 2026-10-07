@@ -1,0 +1,6 @@
+kind	intron_start0	intron_end0	annotation	reads	fragments	distinct_alignment_patterns	forward_reads	reverse_reads	same_read_deletion_state	same_query_fragment_deletion_state	proper_pair_query_fragment_deletion_state
+RNA	52407972	52408489	other_junction	2	1	2	1	1	{'unassessable': 2}	{'unphased': 1}	{'unphased': 1}
+RNA	52408077	52408473	exon_4_to_5	383	249	207	174	209	{'unassessable': 304, 'alt': 56, 'ref': 23}	{'unphased': 180, 'alt': 52, 'ref': 17}	{'unphased': 180, 'alt': 52, 'ref': 17}
+RNA	52408077	52409553	exon_3_to_5_skip_of_exon_4	3	2	3	1	2	{'unassessable': 3}	{'unphased': 2}	{'unphased': 2}
+RNA	52408604	52409553	other_junction	2	1	2	1	1	{'unassessable': 2}	{'unphased': 1}	{'unphased': 1}
+RNA	52408606	52409553	exon_3_to_4	779	484	332	437	342	{'alt': 222, 'unassessable': 532, 'ref': 25}	{'alt': 143, 'unphased': 324, 'ref': 17}	{'alt': 143, 'unphased': 324, 'ref': 17}

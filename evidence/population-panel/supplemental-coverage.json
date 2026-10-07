@@ -1,0 +1,72 @@
+{
+  "selected": 165782,
+  "by_assay": {
+    "DNA": {
+      "pileup_rows_including_nonACGT_or_zero": 62358,
+      "at_least1_ACGT": 62262,
+      "at_least20_ACGT": 35885,
+      "zero_ACGT": 103520
+    },
+    "RNA": {
+      "pileup_rows_including_nonACGT_or_zero": 78071,
+      "at_least1_ACGT": 25707,
+      "at_least20_ACGT": 4072,
+      "zero_ACGT": 140075
+    }
+  },
+  "joint20": 4015,
+  "dominant_joint_unique_gene_top10_with_symbols": [
+    {
+      "gene_id": "ENSG00000130635.16",
+      "symbol": "COL5A1",
+      "loci": 21
+    },
+    {
+      "gene_id": "ENSG00000182578.14",
+      "symbol": "CSF1R",
+      "loci": 18
+    },
+    {
+      "gene_id": "ENSG00000178209.16",
+      "symbol": "PLEC",
+      "loci": 15
+    },
+    {
+      "gene_id": "ENSG00000004399.13",
+      "symbol": "PLXND1",
+      "loci": 14
+    },
+    {
+      "gene_id": "ENSG00000163359.16",
+      "symbol": "COL6A3",
+      "loci": 13
+    },
+    {
+      "gene_id": "ENSG00000012048.23",
+      "symbol": "BRCA1",
+      "loci": 13
+    },
+    {
+      "gene_id": "ENSG00000185920.16",
+      "symbol": "PTCH1",
+      "loci": 12
+    },
+    {
+      "gene_id": "ENSG00000135976.20",
+      "symbol": "ANKRD36",
+      "loci": 11
+    },
+    {
+      "gene_id": "ENSG00000113721.14",
+      "symbol": "PDGFRB",
+      "loci": 11
+    },
+    {
+      "gene_id": "ENSG00000119321.9",
+      "symbol": "FKBP15",
+      "loci": 11
+    }
+  ],
+  "dominant_retention90_percent": 99.5475113122172,
+  "dominant_retention98_percent": 96.0668290985033
+}

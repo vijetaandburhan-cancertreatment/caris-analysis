@@ -1,0 +1,1808 @@
+{
+  "purpose": "Verify gap/end conventions of independent stdlibDP against library on300deterministic ACGT toy strings; not patient evidence or model validation",
+  "biopython_version": "1.86",
+  "aligner": "Pairwise sequence aligner with parameters\n  wildcard: None\n  match_score: 2.000000\n  mismatch_score: -4.000000\n  open_internal_insertion_score: -6.000000\n  extend_internal_insertion_score: -1.000000\n  open_left_insertion_score: -2.000000\n  extend_left_insertion_score: -2.000000\n  open_right_insertion_score: -2.000000\n  extend_right_insertion_score: -2.000000\n  open_internal_deletion_score: -6.000000\n  extend_internal_deletion_score: -1.000000\n  open_left_deletion_score: 0.000000\n  extend_left_deletion_score: 0.000000\n  open_right_deletion_score: 0.000000\n  extend_right_deletion_score: 0.000000\n  mode: global\n",
+  "all_scores_equal": true,
+  "random_checks": [
+    {
+      "query": "CAGAACCTGGTA",
+      "reference": "AACCCATTACTGGTATACATCAAGGCAGTTATTTAATT",
+      "independent_score": 4,
+      "Bio_score": 4.0
+    },
+    {
+      "query": "GTCCATGAACACT",
+      "reference": "ACGTGTGGGAATTACCTAGGGGTA",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "TTTCCCCAGGTCATTTAT",
+      "reference": "GCCGACATCTAAACCCGCTGCCC",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "GGCGTAAGCAGCTTGGTCCAC",
+      "reference": "GAGCTGCGACGTA",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "AGCTAACAATGTTAGAGGGATCTTC",
+      "reference": "CAGTGGCCTCTACCTCTTTCTGT",
+      "independent_score": -17,
+      "Bio_score": -17.0
+    },
+    {
+      "query": "GCCCTCCCTTT",
+      "reference": "TATGCT",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "TTGCAC",
+      "reference": "TGGGAGTAAGCATGTGACATAAT",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "GTGACAATGAGA",
+      "reference": "CCCGGCGTACTCCCATAATTTT",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "AAGGAGGTTCGCGACGTGTCA",
+      "reference": "AATATCTCCTTGATTGTCATGCCAATC",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "AGTGGACGCCCGCCCTTCTAACTGTTCC",
+      "reference": "TACGGATTGCCGGTGGGAGCATATAATCTACCGTCC",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "TTAACTAGCG",
+      "reference": "GAGCCACCTGTAGGGAAACTC",
+      "independent_score": -6,
+      "Bio_score": -6.0
+    },
+    {
+      "query": "AAAGCTCCACCTTGACACTACGG",
+      "reference": "AACCGTCGGAAATAATATAATAGGTGAACGTGGGGCAAAGGGTGT",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "CGACGGCACC",
+      "reference": "CCATCCAAACCAATAATCTATACTCTTGTACCC",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "GCTGAAAGGCCAGGG",
+      "reference": "CCCTCCTCGTATAGT",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "TGGTTGGATCCGCAACTAGCATGGGGTCT",
+      "reference": "AAACCATGTGCCG",
+      "independent_score": -20,
+      "Bio_score": -20.0
+    },
+    {
+      "query": "TAAGGCATTATC",
+      "reference": "GTCTCAGGGAGGTTTTGCATAAGAAGCTGAAATTTTGAACGTTGA",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "AGTTTCTACGTACGGGGACCA",
+      "reference": "GCGGAAATTGTCGGGAGAGTGACTGAAA",
+      "independent_score": -9,
+      "Bio_score": -9.0
+    },
+    {
+      "query": "TCCTTTATAAGTATCAGACAAC",
+      "reference": "CCGTGGGTTTG",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    },
+    {
+      "query": "GTATGTTAGCTAGCATCGGCAA",
+      "reference": "AGCAACTCC",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "GTAT",
+      "reference": "TCTGGTTCCCTCTTAATCCTTTACCGGTCGCGGAT",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "CAAAACTAATCACATATTTA",
+      "reference": "GCAATACAGAGTGGCTCGTTCATTATCGATAGGTAT",
+      "independent_score": -9,
+      "Bio_score": -9.0
+    },
+    {
+      "query": "CCTTGCGCCATTGGCG",
+      "reference": "AAGGTGTACGGCGCGCCATTCAGATAGCTTGATAGCCCACA",
+      "independent_score": 1,
+      "Bio_score": 1.0
+    },
+    {
+      "query": "TTATCGGCCAATTGTGCGACGAT",
+      "reference": "ACACGCTGTAT",
+      "independent_score": -17,
+      "Bio_score": -17.0
+    },
+    {
+      "query": "GTAGTTGCAGAGGA",
+      "reference": "AGCTTAACGCGTAGCGTGCCAGAACTCCGGGGCCAACC",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "TTACGAGAATCTGACCTACATGAGG",
+      "reference": "GTTACTTGTACTTGGGGGGTCAAGG",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "GTCCAGCATGATAACTTGAATT",
+      "reference": "CTAAACCCCCGGTTAAATACTCGC",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "TGGCTGAACTCGCAATGTCTCTTAGCACGG",
+      "reference": "GACCACTCGGACAGCTTGGGGTGTACGGAGGAACTCGACAAT",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "AGAATTGTTGCGACTATCAGGCAT",
+      "reference": "TAGATCTCGGTTACAAGGATTGGCAAAAGCTATA",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "AGACAATCCTGTGA",
+      "reference": "CAACCTGCGGAGACTGGATTAGCACGACGTAAACCACCAA",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "AAACTGCCTTCTCAAGACGGGATGCTGAA",
+      "reference": "CGACATGTGCTCAGTTGGTACGACGGTAT",
+      "independent_score": -19,
+      "Bio_score": -19.0
+    },
+    {
+      "query": "GCTGAGAAGCTGTG",
+      "reference": "GGAAAATTATAAAA",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "ATTTGGGT",
+      "reference": "TAACTGCGTTCCAAGTGTAATGCC",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "AATGGTGG",
+      "reference": "GACTCAGATGGCCGTTATACCACACTGCCTAATAAAGCGAAT",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "GTTC",
+      "reference": "AAGCGTTAGGGAGCTTGTGGATACGCAACA",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "GATGAAG",
+      "reference": "TTGTCTCTGACCACTAGGGGGGCACCTGTAACATCGAA",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "GCAGG",
+      "reference": "GAAGGTTCTGCGCCAAACGACCCTTTCCATCTGA",
+      "independent_score": 4,
+      "Bio_score": 4.0
+    },
+    {
+      "query": "GCCGTA",
+      "reference": "AGCGGCGTCGTGCT",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "AAATTTAAATCTGC",
+      "reference": "AAGCG",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "CAATATCCGAGGAGGTACT",
+      "reference": "CCGTCCGCCCCGATTGGTGTTGTACTGTGCCCCCTTACTT",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "TTGATAAGTTGGTGATCA",
+      "reference": "TGTTCCATCTGGTATGACA",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "CCGGTAATGCTCTAGAAATCCTAT",
+      "reference": "GATTAACGTACGCTACTAGGAACGGGCCCCTAATCAATACAACT",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "CATTCTCC",
+      "reference": "TGACGTGGCGAGGCCATAG",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "ATTATACGACTTAAACCAGCTAGCAGGTCG",
+      "reference": "TGGCTTATTATTATACCTGAGGCTCAAAATGCC",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "TAATTATTACCGAGAAGGGTGGGGC",
+      "reference": "GCCTAGT",
+      "independent_score": -23,
+      "Bio_score": -23.0
+    },
+    {
+      "query": "GCGAGCATT",
+      "reference": "TTAAAGAATAGTTTCAG",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "CGTACTTACAATTCAGCCCCCGTTGTGG",
+      "reference": "TGAG",
+      "independent_score": -29,
+      "Bio_score": -29.0
+    },
+    {
+      "query": "GCCCTGAA",
+      "reference": "CTTCTGACATATATTGTACGGCCGGGGTAGCACCTT",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "ATTTAACA",
+      "reference": "TAGATATTTGCTTCACCCG",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "CAAAAACGCTTCGCCGGTTCTAGATGTT",
+      "reference": "TACCTAAGCGTAC",
+      "independent_score": -23,
+      "Bio_score": -23.0
+    },
+    {
+      "query": "GCTACTTCTTGCTGGCATTCCTAG",
+      "reference": "CCTAAGTCCAGTATAACACTCTCTCACGCGTGA",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "GTCGGGTTCACTGCGTAGGAGG",
+      "reference": "CGACCACCTTTCCCCATGGCT",
+      "independent_score": -19,
+      "Bio_score": -19.0
+    },
+    {
+      "query": "TCTACG",
+      "reference": "GAATGTGCACGTAGAACCGGTTTGGGGTATTGAGCG",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "CAACTTCACAAACAGGGCGAGACAAGTCA",
+      "reference": "AGTTGGAATACGGACTATACTGACTATACCGCGGTGCCGGCAGGG",
+      "independent_score": -24,
+      "Bio_score": -24.0
+    },
+    {
+      "query": "GGAATCCCAT",
+      "reference": "CTAGTTCAGTCTCTCTGAGATGAAAGGTCAGTTCCTACTG",
+      "independent_score": -6,
+      "Bio_score": -6.0
+    },
+    {
+      "query": "GTGTGAATGAA",
+      "reference": "CTGAGAT",
+      "independent_score": -9,
+      "Bio_score": -9.0
+    },
+    {
+      "query": "AGTGGTTTT",
+      "reference": "GAGCTAGCACGGCC",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "CATGTACCACGTATG",
+      "reference": "AATTATGCCGTTCCCTGGTGCTATTGACGAGTAAAGGAG",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "TACGGTACACCTCTACTTATGATGTA",
+      "reference": "CCCCCCACCATGAACTTCTC",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "CCCTGCGG",
+      "reference": "TTGGTATAGAATACTAGGGC",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "GGGG",
+      "reference": "CAGTTTCCGAGCCCTGAACCATATTTAAGGGAGTGAATCTACGAA",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "TGCGC",
+      "reference": "TAGTTCTCACTGAAATCCAACGAGTC",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "CGCCGCTTCATCAGGGACGCTCACTT",
+      "reference": "CAGTAACAGACAGTTCAACGCCAGGCACTTCGGAAGTACAA",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "CGACCCGCTCCTGGATCCCTTGGAC",
+      "reference": "GTCAATGCTCT",
+      "independent_score": -22,
+      "Bio_score": -22.0
+    },
+    {
+      "query": "CAAAGCCCTGAGCGAATTCC",
+      "reference": "CAGCGACCCGCCGAAGCTCATCAGAATTTAGT",
+      "independent_score": -6,
+      "Bio_score": -6.0
+    },
+    {
+      "query": "TGAAGT",
+      "reference": "GTCTG",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "CAGAGAGGCCGTACAG",
+      "reference": "GTCA",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "ATACAGGCGTCAC",
+      "reference": "TGCGCTCACTGTAAGCTGTAGCTAGCGGGACC",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "AGTTTAGGT",
+      "reference": "GATCCATGTTCCTTCAGCTCCCGGTTGCGGCCGA",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "ACTCACCCCCGGGAATAGAGG",
+      "reference": "AACAGAGACGGGCGCG",
+      "independent_score": -11,
+      "Bio_score": -11.0
+    },
+    {
+      "query": "GCTCTGAGCTAGCTAC",
+      "reference": "GTGATG",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "GGCT",
+      "reference": "GGGAGGCTAATAAGGG",
+      "independent_score": 8,
+      "Bio_score": 8.0
+    },
+    {
+      "query": "AATTA",
+      "reference": "GATTAGTATCTGCCC",
+      "independent_score": 4,
+      "Bio_score": 4.0
+    },
+    {
+      "query": "TCAGGAT",
+      "reference": "GAGTGGCAAT",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "GTCCGCCAACACCGTTATCGCAGT",
+      "reference": "TAGATGCTCCTTCCTGTGTAGTTCCAGTACCAGATCAACGGGGG",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "AGAGAC",
+      "reference": "ATAAAGGATC",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "AGTCTGCCGAGCGT",
+      "reference": "CGGAACTCTTCCGAAACCTTGGGTCTCGCCAT",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "CCCGCATTGTCATTCGAAGTTAGTCTGAA",
+      "reference": "GCGGCAGACCAAAGGAATTAACG",
+      "independent_score": -17,
+      "Bio_score": -17.0
+    },
+    {
+      "query": "GTATCAAAGACCT",
+      "reference": "TGGTGGACCTGGCCGATTCGGTTACGGCCGATAG",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "GAGCAGAG",
+      "reference": "AAATCGAAA",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "CAGTTCTTGAGGAGATCATCCA",
+      "reference": "GTCTGAGCATGTCTGTGTTAGCACGCAACTT",
+      "independent_score": -11,
+      "Bio_score": -11.0
+    },
+    {
+      "query": "ATCGACCCGTCTGGGC",
+      "reference": "TATACAGTGACCTGAG",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "TGGTGC",
+      "reference": "TCAGCTGGGAAGTTGCAGATATTCTCGGAGCAGTTT",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "TCGCTAATTGGCTGGAGGTTTAT",
+      "reference": "ACTCAAATCGTGCAGCTG",
+      "independent_score": -15,
+      "Bio_score": -15.0
+    },
+    {
+      "query": "ACAGAGCTCCCGTGATGACCCGGCA",
+      "reference": "GTCAAGCTCGACAAGACCTATCTC",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "CGGTC",
+      "reference": "ATCAAATATGCAAAGACCCCCCCGAAGTTGGTCGTGGGCCTC",
+      "independent_score": 4,
+      "Bio_score": 4.0
+    },
+    {
+      "query": "ACATGGGTTGCGTAGGAGTGTTTGG",
+      "reference": "ACTTACAGTTGTTAA",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "AAGCGTATGCCTCTAGAAGTCTTT",
+      "reference": "GAATGACTGCAGGATATTCAGTATGATGTCCTAATGGGCA",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "TATCCAGTAAGGCGGTGC",
+      "reference": "CCGTTAA",
+      "independent_score": -17,
+      "Bio_score": -17.0
+    },
+    {
+      "query": "AGCGCCCATCTGTTCTGATT",
+      "reference": "AGATGTCTGCTAGGGCTGTAGATATGGAACGTAGAGGCCCTTTTC",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "GGACCCCAGACACTACAGACACTTCTAC",
+      "reference": "ACGCTACCATCGTCGTCCAGTCGAAGG",
+      "independent_score": -18,
+      "Bio_score": -18.0
+    },
+    {
+      "query": "TAAC",
+      "reference": "TAGGGCGAGGCTCATTACTTGA",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "TTAGGGTGCTACGCTTAT",
+      "reference": "ATAGCGTGCAGCTACCTATGATGTAGT",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "GTCTCCCTAAACCTAGTTGCT",
+      "reference": "ATTCTCTAC",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "AGGCGAGATGCTT",
+      "reference": "CGGAAAGACATAATGGAAC",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "CGCTGGGAATAGTTCGTCAC",
+      "reference": "TGTAGTTGCGCTACCACTTCGGG",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "TCTACGCCACCGACGTATCAACCT",
+      "reference": "TTCGAAGCATCCGCAGG",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "GGCAGGGTTCTAT",
+      "reference": "TAATGGGACGTACGAACCAATTTTGTCATGAGTCGTACATTCT",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "TTGGAATGGCGATCGAATGGAACTTAC",
+      "reference": "TGCAGGGAGCG",
+      "independent_score": -24,
+      "Bio_score": -24.0
+    },
+    {
+      "query": "GCTGTTCGGA",
+      "reference": "TAATCGCTGTCCTTCTGCGTGTATCTAT",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "GTACAAGTACTCGGGCG",
+      "reference": "CCTCGCCTCCGGCTCTGTTCAAC",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "TCGA",
+      "reference": "TTGTGATGAGATCT",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "ATCCGACACCGGAGATG",
+      "reference": "GGCATTATGACCAGCGCATCCA",
+      "independent_score": -9,
+      "Bio_score": -9.0
+    },
+    {
+      "query": "TGCACGACTTAGGCCGCGATATTTGTG",
+      "reference": "TGATCAGGTCTTCTCGTGTCTGAGAGTCT",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "GGATCATACCTGACATACACCATGCGCGCT",
+      "reference": "AAAATAGTTTTACGT",
+      "independent_score": -27,
+      "Bio_score": -27.0
+    },
+    {
+      "query": "CTACTGTGACATACTTTCAGGGCCT",
+      "reference": "ACCCTC",
+      "independent_score": -17,
+      "Bio_score": -17.0
+    },
+    {
+      "query": "ATCAGTTCGCGGGTTACCAAGAGGCC",
+      "reference": "CATTATGGATTTATGTG",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    },
+    {
+      "query": "TGTCTACTTT",
+      "reference": "GCCTGGTACGGCACGAAAGTTGAAACTATTCGCGTGGGACGT",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "AGGA",
+      "reference": "TTAACATTAGTGAGGTCAAAAACCCGAAAATGAAGGA",
+      "independent_score": 8,
+      "Bio_score": 8.0
+    },
+    {
+      "query": "TACAATTTGGCTTAGGAGCTATGAT",
+      "reference": "CTTTGCGCTTTCTATCATGATTAGACAGACCGGTGCCTGC",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "GGACTGCCAC",
+      "reference": "CTCAGGGATCATTATCCTCACTGTA",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "TCCGGGA",
+      "reference": "TTACGGAAT",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "GCGTTCTG",
+      "reference": "TTGGTATCCTACCGCTGGGTGAGAAAATTAGGGTGAAC",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "TGACGAGCGGGAGTCATCGGGCGGCATCG",
+      "reference": "GGCATGGCCCTAA",
+      "independent_score": -20,
+      "Bio_score": -20.0
+    },
+    {
+      "query": "ACGCTGGTGTCATAACTCG",
+      "reference": "TAGGTAACCAAGCAATGATAAAGGCATCA",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "TCAATGACCCAGTACTTACGGTCCTGAGG",
+      "reference": "TTTAGG",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    },
+    {
+      "query": "GGAAAGCTCACTTGGTGATGATCGAA",
+      "reference": "CAAGAGTGATACAGGAACTGTCTGTATTAGGCTCCGTTTG",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "CACATAGATGTATCGAAGG",
+      "reference": "TGGAGGTTTCGCAGAAAGGATAGCCCG",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "GGTAAC",
+      "reference": "TCGCGCACCTCCAGCCGAAAAAGAGGGGCGGCACCGTTTGA",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "TGTAGATACT",
+      "reference": "GCGATTGAATCGTACGATAAAATACGGCTTCTATACATT",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "CTCG",
+      "reference": "GAATGTACTGGATGTATAATCATGAAAGGTAGAGTA",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "CAATCAACTTC",
+      "reference": "TGAACCTACCGCAATGGTACGGCTTCAG",
+      "independent_score": 1,
+      "Bio_score": 1.0
+    },
+    {
+      "query": "CCTTTGAC",
+      "reference": "GGAGTCCATGCATTGAGCGCATCCTCGCGCTAAACCGTGTAACAT",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "TGTATCCTGTTA",
+      "reference": "AGGCCATCCGGGACTTACGGCACTCTTCGTGATTCTATC",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "CTAGTGACTGCGATATCAATGGGG",
+      "reference": "GCTCGGC",
+      "independent_score": -19,
+      "Bio_score": -19.0
+    },
+    {
+      "query": "AGTCAAGTTC",
+      "reference": "GATCTGCAGACAGATGCCGAAAA",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "TGTTGTTACTCGACTGCCGCACGA",
+      "reference": "GGATTGCCGATAGTTGGAACGC",
+      "independent_score": -11,
+      "Bio_score": -11.0
+    },
+    {
+      "query": "GTTATGAT",
+      "reference": "ATTATCCTGGAGCGCTCTGACAGGCGGGGTCTGCCATTACTCCAA",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "GTTCAGGTTTGCGGATACGTCTA",
+      "reference": "CTCTATTGCTATAGGATCTAAAG",
+      "independent_score": -9,
+      "Bio_score": -9.0
+    },
+    {
+      "query": "CTACCA",
+      "reference": "CTGCCTGTCAT",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "TCGAAAGCGCGCCAAGC",
+      "reference": "GCCGAGAGATGGT",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "AGTCTTCTCGTGATGGTCTCTACT",
+      "reference": "GTCTTTAAACACATCGGTGTATTT",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "TGTAAAGCAAGAGATGGCCACCGCGATA",
+      "reference": "CGCGGCTCGGAGTA",
+      "independent_score": -23,
+      "Bio_score": -23.0
+    },
+    {
+      "query": "ATCTCCCCGTAGCGG",
+      "reference": "AATACTAGACTGTATTATTGAACGA",
+      "independent_score": -11,
+      "Bio_score": -11.0
+    },
+    {
+      "query": "GGTTACGTCCTGCT",
+      "reference": "TCGTTGCGGCGTGC",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "GGACCTAATC",
+      "reference": "AAGGGGACGGCCTGGCTAATTGCTGGACCAGGGGGT",
+      "independent_score": 3,
+      "Bio_score": 3.0
+    },
+    {
+      "query": "TGTTAGGATGCGTAGGCTAAATCTTGATGA",
+      "reference": "AAAAGGACCTCCGACGCAG",
+      "independent_score": -25,
+      "Bio_score": -25.0
+    },
+    {
+      "query": "TGCCTCAAGTTTAACGCACTGAGTCAACC",
+      "reference": "CGCAAAATACT",
+      "independent_score": -26,
+      "Bio_score": -26.0
+    },
+    {
+      "query": "CGAACTCTAGTAGGGGA",
+      "reference": "ATCTGCGTGGTGAGTACCCTCCATTTGTTGAC",
+      "independent_score": -9,
+      "Bio_score": -9.0
+    },
+    {
+      "query": "TACTATCTAGCCTGCCGACTTTTCAC",
+      "reference": "GACTCTATTTGTGAT",
+      "independent_score": -17,
+      "Bio_score": -17.0
+    },
+    {
+      "query": "GGGTATGTC",
+      "reference": "GGGATG",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "CGCATAG",
+      "reference": "TCCGAGACGATTTAGCTCGAGAGATA",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "TTGAAGGTCA",
+      "reference": "TCTAATGACGGGGCGAGCCTCAAAAGCCCCC",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "CGCTTTG",
+      "reference": "ACGTAGGGACG",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "AACAACAGACGCCGCATGCGAG",
+      "reference": "TCCTGGTCTGGGGGTTAA",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    },
+    {
+      "query": "TGCAGTGCGCCTGTAAATGGGTAAT",
+      "reference": "GCGAATTCATAA",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "AGTCTGCAGTAT",
+      "reference": "AGCACAACCCAGGGAAGTTAAGTAAGAAATAGGCATTC",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "GCGTGATTGCAC",
+      "reference": "TATTGGTTGG",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "TCGCCATG",
+      "reference": "TAATCCACTGCCTGTTTTATGTTTCAG",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "TACTGGTAGAGAGTTACCGTAAC",
+      "reference": "GTCTATATTCCAAGTTTGAGCTC",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "GACTCGAATGACCGGGACG",
+      "reference": "CCGATCGTGTCTCA",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "TACGGCAAACGCTGTTAAAACGTGG",
+      "reference": "GCGATTCGGCAGTTGG",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "GCAATGCACCGTCAGGTAC",
+      "reference": "CTTCGACCCATTTAGTAGTGACATGATGTTTTTAC",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "ACCACCAAGCTGTCGCAG",
+      "reference": "GCGGCCACCAGGTACCAGC",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "AGCCTTCGCCCCGGAGAGCCCTTATC",
+      "reference": "GAGTGGAACGGGGAGTTT",
+      "independent_score": -15,
+      "Bio_score": -15.0
+    },
+    {
+      "query": "TCATGGCGATGCTCTTAAGCTGAAGCCAA",
+      "reference": "CGCGGCTCCATGCCCTTGGCTAGAGCGACG",
+      "independent_score": -11,
+      "Bio_score": -11.0
+    },
+    {
+      "query": "GCGGGCCAATG",
+      "reference": "CTAAC",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "GCTGCAAAGACGC",
+      "reference": "CAGCATATGAAGTACACAACGACCCACAGGATCG",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "GAGATAGAGTTGCC",
+      "reference": "GTGCTTGATCTA",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "GTTAAATTGGGAAATCCACTCCACCTAG",
+      "reference": "TAACGTGTTCGCTACGTGGAACCAACACGTCGTTTTTGGTCT",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "TCACGCA",
+      "reference": "CTTCTTTAGTTCGATTAATCCACTCTTC",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "GACCCTATACGCCG",
+      "reference": "CGCTGA",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "GGTGATGGGGCG",
+      "reference": "CCGTTATCCAAGGATATTTCTGGTTG",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "ATAT",
+      "reference": "GTCGTGGTTTCTGGTTATGCCA",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "GGTTAGTTACGAGCGATGATC",
+      "reference": "CCGCGCAAGGGGCAGACTATTAACTACAACCAGTCCTGCTTAAA",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "CCGCTGTGGT",
+      "reference": "ATAAGCTGTACACCGTTGCCTCAAGTACACGCTGGTGGGTGATCT",
+      "independent_score": 3,
+      "Bio_score": 3.0
+    },
+    {
+      "query": "CGACTGCGAAGCGTCATTGGGCGGTA",
+      "reference": "ATCAAA",
+      "independent_score": -23,
+      "Bio_score": -23.0
+    },
+    {
+      "query": "TCCGGTTC",
+      "reference": "GACCTCATCTGCTCCCGTTA",
+      "independent_score": 4,
+      "Bio_score": 4.0
+    },
+    {
+      "query": "CGCCTTTCGCTTACC",
+      "reference": "CGCTCAAACTACTAGTCTTCAGAAAAATCTGCATGTT",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "CCCTCATGTACAGAACAAGTTCGCGT",
+      "reference": "CAAACTAGCGCGACTGGGAGCAGTCCCTCGCTTAGGTGGGGTCAC",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "GTCTTAGTATCAAGAGTGTGTAT",
+      "reference": "CCTGTTAATGAACGCGTGCTACATTTGGGGTGGGA",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "GTTATCTTCG",
+      "reference": "GGTGCTGCGCAATGCTAACATCTCACGAGTATGTATTG",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "TTTAAATTCACCGAGCTGAACTCCGTCC",
+      "reference": "TTCTACCTTACTCGG",
+      "independent_score": -18,
+      "Bio_score": -18.0
+    },
+    {
+      "query": "TGGCGATG",
+      "reference": "CACTCGCTCGCGGTTACGTCGGCCTCCCACCATTATGTT",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "CATCATAGAC",
+      "reference": "AAAGCCGTTTGGCCCTGCCATCGACGT",
+      "independent_score": 6,
+      "Bio_score": 6.0
+    },
+    {
+      "query": "TGGTGCCAGACCAAGCCAAGCTA",
+      "reference": "CTGCTAAACAG",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "GCGTCGAGGAATCGAAG",
+      "reference": "GTGGTCCTTCACGCCCATTCCTTACGTTGCGGGTGTACT",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "GTACCTA",
+      "reference": "ACAGTTTCCGGTG",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "TACCCAACTGATCTTGGGTGTATTGG",
+      "reference": "GTGGGTCCGTATTCAGAGCAGTGTGCGAAGGCGTA",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "GCATAACATT",
+      "reference": "TTGTAAGGATAGAACGTTCGGCCCGAAATTC",
+      "independent_score": 1,
+      "Bio_score": 1.0
+    },
+    {
+      "query": "ATACTGTGAATTGAGA",
+      "reference": "AACATGGTTCTC",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "AGCTTCGCGCTTACCGG",
+      "reference": "AAAG",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "AGTGCAGCAAAA",
+      "reference": "TGTAGGCCGTAAG",
+      "independent_score": -6,
+      "Bio_score": -6.0
+    },
+    {
+      "query": "TGCTCCAGCATTGGGGTTACT",
+      "reference": "CTAAGGACGCTTGTTATGAAAG",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "ATTATCCCCTAGCCGTACCCTCCA",
+      "reference": "CTAAGCGGACATTATCTGTT",
+      "independent_score": -11,
+      "Bio_score": -11.0
+    },
+    {
+      "query": "TTGCCTGCCAACCCCACAAGAATG",
+      "reference": "CCCTACGATCGTTGCTATGCTGAGGATGGT",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "TCGCTATGATT",
+      "reference": "GTAGCCGGCCCGAGCC",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "CACCTATTACAAACTTTT",
+      "reference": "CCCGCCT",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "GACTTGCCCTGCCCCCTTATAAG",
+      "reference": "AGCCCAGTAAAACCTGAGGTTAAGCAACTTTTAG",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "TGCACC",
+      "reference": "AAACT",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "TCGGCAG",
+      "reference": "GGTTC",
+      "independent_score": -6,
+      "Bio_score": -6.0
+    },
+    {
+      "query": "TGCCTCC",
+      "reference": "GTCTTTAGCGATTAGCATATTGATGGTTCAGAA",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "CTAGAAACTGGGTTGGAGCGACTGAGA",
+      "reference": "CGGTTACCG",
+      "independent_score": -19,
+      "Bio_score": -19.0
+    },
+    {
+      "query": "GGCGCTGG",
+      "reference": "TATGTTATAACGAATATGACGTGCTCCA",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "AGCATTGATACTCTGT",
+      "reference": "ATGCATCCTAATAC",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "CACT",
+      "reference": "TCTCGTCAGTTAGTTTCGCTCCTCCACCCTCGAGATCTC",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "ACCGGT",
+      "reference": "ATACAAAACTGGATTAAGTCCAAGGCACCCCCTTA",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "AACAAAAAATTCGTCCTTCGGGAATCTGCT",
+      "reference": "TATTTGTTCAT",
+      "independent_score": -25,
+      "Bio_score": -25.0
+    },
+    {
+      "query": "CGGAAGCGATCGCTGGAAGAGA",
+      "reference": "GCTTCACGTGAAAATCGACTGTTAACCCTCTAG",
+      "independent_score": -11,
+      "Bio_score": -11.0
+    },
+    {
+      "query": "GTAAATCAAATG",
+      "reference": "TTCCAAAAAAATTAGGCCATAATAGTGTTTCAGTTCAGCCA",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "AACGCTGAATTACCAGGCGTCCAATAGC",
+      "reference": "CACGCCCACCGGTTCGTGGCAGGCGTGACC",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "AGAACGAGTCCGAAGGGAAGTCTATC",
+      "reference": "GGACATTGCCTTAACCCTCA",
+      "independent_score": -20,
+      "Bio_score": -20.0
+    },
+    {
+      "query": "CACATG",
+      "reference": "CTGCCCCGCAGTGTGGTAATCGACCCGAAAA",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "CCCTTCAGGTCAATAAACCAG",
+      "reference": "GGCCCG",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "CTCAAGTGGACTGCATC",
+      "reference": "GGTGCATCAATGCCGCCCGTTGGGTTATG",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "ACCAAGTCGC",
+      "reference": "CCGGATCAGTAGGAGGAATTCTCTTTATGTCCG",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "GCCAATATTACCCGCGCCCTCGC",
+      "reference": "GAAGA",
+      "independent_score": -24,
+      "Bio_score": -24.0
+    },
+    {
+      "query": "TTCCTCCCCTTAGAACGCCACAT",
+      "reference": "GGAAGAGATA",
+      "independent_score": -20,
+      "Bio_score": -20.0
+    },
+    {
+      "query": "TGCACTCTCTT",
+      "reference": "GTGTCTCTGGCAATCCAGCGAGACGATAA",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "GAGGTCCCCAGGTCT",
+      "reference": "AAGTCAGCCGTGTACTCTCGCA",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "TCCCAGGACGCATGCATGTCT",
+      "reference": "TGGCATATAGGAAAGGCTGTAGTCTTCTACTTCAATTCCGAC",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "ACAGACTAAAAACCGTTGGTA",
+      "reference": "CGCGGAGTCCGATACCTCGGGGAATT",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "GATATTACCCAAGCATATAT",
+      "reference": "ATAAGGGTTAAACATAAGC",
+      "independent_score": -9,
+      "Bio_score": -9.0
+    },
+    {
+      "query": "CGCCCGTGCCACAACTACTACTCTA",
+      "reference": "AGCCCCATCCTTGG",
+      "independent_score": -17,
+      "Bio_score": -17.0
+    },
+    {
+      "query": "TGAGGTTAGT",
+      "reference": "CGTTACTAATAGCCGAGCAATTACTCACCCGCAATTGG",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "CCAACCTCAGCCG",
+      "reference": "ACGGGCGA",
+      "independent_score": -11,
+      "Bio_score": -11.0
+    },
+    {
+      "query": "GAGCCCTTTGTCTGTTTACTTGC",
+      "reference": "GCGCTTCAAGGATTCCGAC",
+      "independent_score": -15,
+      "Bio_score": -15.0
+    },
+    {
+      "query": "GTTATCGATAGTTG",
+      "reference": "ACGGCCACCATTAGTTTACCATGGGTGGCGTCGTCTCCGTGGG",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "CACC",
+      "reference": "CCACTGTCTCCTTCCCGAGCAACTTCGTGCTTCGTTGT",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "TTACGTACCCGCGTAAGTAGA",
+      "reference": "CGCAC",
+      "independent_score": -22,
+      "Bio_score": -22.0
+    },
+    {
+      "query": "ACTATGGTTTGGCTT",
+      "reference": "GCTTAGCA",
+      "independent_score": -11,
+      "Bio_score": -11.0
+    },
+    {
+      "query": "CTTCCAGGGCGGGGTGTGGCGCCTCACT",
+      "reference": "CCGGTCCAAC",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    },
+    {
+      "query": "TCCATAAATGAAAGCAGGCT",
+      "reference": "GGACGGAGTT",
+      "independent_score": -19,
+      "Bio_score": -19.0
+    },
+    {
+      "query": "ACCATTCAGAGCGTGGTCGGGGGGCAGTGG",
+      "reference": "ATGCTCTT",
+      "independent_score": -28,
+      "Bio_score": -28.0
+    },
+    {
+      "query": "AAAAAACACGACGGCTACGAT",
+      "reference": "ACTTTGCCGGGCGCGTACGTCGTAAA",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "AACATTACTGAATACACGTATC",
+      "reference": "AAGGGTTTAA",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    },
+    {
+      "query": "GCACATG",
+      "reference": "GAGACCGGT",
+      "independent_score": -6,
+      "Bio_score": -6.0
+    },
+    {
+      "query": "ACTCGCAGCA",
+      "reference": "CTAGTCCGATACAGGGT",
+      "independent_score": -6,
+      "Bio_score": -6.0
+    },
+    {
+      "query": "CTGTAT",
+      "reference": "CTGGGTCCACCAAGATCCAGGGAGCTGCGAGTTG",
+      "independent_score": 0,
+      "Bio_score": 0.0
+    },
+    {
+      "query": "GGCGCTTCAGTAGAAGG",
+      "reference": "CCATCCAGGCTGTACATGGGA",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "TGCCAAACAGTAGGGTGGCCGTCTCTCGA",
+      "reference": "GCGAAAATAACGGGCACACCCGTAACGGAATATGCCG",
+      "independent_score": -18,
+      "Bio_score": -18.0
+    },
+    {
+      "query": "CAAAACGAAGATCTGTAGA",
+      "reference": "TGCC",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    },
+    {
+      "query": "TGCCGCAACAAGTACACGCGATGCAATAC",
+      "reference": "CTTTCAGACGCTCCATCCCCGATCCTTGCGAGGACGTTAAA",
+      "independent_score": -18,
+      "Bio_score": -18.0
+    },
+    {
+      "query": "TGGTCGAGTTAGC",
+      "reference": "TGGTGTGC",
+      "independent_score": 1,
+      "Bio_score": 1.0
+    },
+    {
+      "query": "GAAGTGTTCACGTGGACGAATT",
+      "reference": "ACCGGCACGATTGGCGACTCAGGATC",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "CTCATGCCGGGCA",
+      "reference": "GGTTACACGGTCTC",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "GGACCATTGCCCCCGAAT",
+      "reference": "GTCGTCTTCTGAAGCCTG",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "ATGCGTGTCAG",
+      "reference": "GTCGTACCCCCGAATGTGGTAATCGG",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "TAGTTACAAGA",
+      "reference": "GACAACATAGTGGTTGTCCCGGCCCAATCCTTGT",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "CTGCTAGGTAGATTGCATAAGACAAAGG",
+      "reference": "ATTTCCGGGACACGGAAGCGTCCTTGTTAGCCTTACGGCCGTC",
+      "independent_score": -19,
+      "Bio_score": -19.0
+    },
+    {
+      "query": "CACGTCTTATA",
+      "reference": "TTTACGCATTTAAAGTGGGTCCCTTGTTAGGT",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "ACGACGGATACTACC",
+      "reference": "AGTAACCCCACGGACCTCAGTACCGG",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "TGTTGGTGTACTCAAACAAATCG",
+      "reference": "GGAGTCGTTATATGAACCACCATGCTTACGCCACACACACAAACT",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "ACTTTCAAGATTTAACCCTGGTG",
+      "reference": "ATCAAAACCGAATGAGTAACGCAC",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "GCCGGGGTACACCCATC",
+      "reference": "CTGGCT",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "GCCCCCAGCGC",
+      "reference": "TCTTAGGCGTGG",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "CTCTATTGC",
+      "reference": "GCACAATTCACCCAAGAC",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "GAGAGT",
+      "reference": "AAGCCCATAA",
+      "independent_score": -6,
+      "Bio_score": -6.0
+    },
+    {
+      "query": "GGCTCACTGAACACCCGAGTACCAATTCGG",
+      "reference": "AACCTATCATCCGC",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    },
+    {
+      "query": "CAATACCATGCCAGTAAACGCAGATGG",
+      "reference": "TTTACACGGCCTAAGTGCGTCAGTCT",
+      "independent_score": -20,
+      "Bio_score": -20.0
+    },
+    {
+      "query": "GCTGTTAGAGTGAGGGAATATCAACGCGC",
+      "reference": "GAGCTCACTAGGATCCAATTGAAGTCGTCCTCGACCCACA",
+      "independent_score": -19,
+      "Bio_score": -19.0
+    },
+    {
+      "query": "ACCTTCCAGCTCCGGCCCA",
+      "reference": "GTTGTCTTATCCACAAGTCTTATCTGAGTGC",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "ATCTTTACAACAGTGC",
+      "reference": "CTGTCGGTGCAACCAAAAAAAGG",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "TCTGGGGTGATTGAATTGGTCCGAGGA",
+      "reference": "CTCTTGTCAGCAATTAGTTACGAGAC",
+      "independent_score": -11,
+      "Bio_score": -11.0
+    },
+    {
+      "query": "GCCCTCTGGTATCGAAACA",
+      "reference": "AGGTGCCATGCTCATCCTCCGTAGGAAGAACGCACCTTG",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "TCCACATCTGCATGTTAAATATATCCGG",
+      "reference": "TTAAGTCATCGGTCCTG",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "AGTGCGACATTCTACTCTTAATACCCC",
+      "reference": "TGCATGCACCGGAAGC",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "GCCTGCTATAGATCAGA",
+      "reference": "AGCATTACCACGCGGAG",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "TAATTAACGTA",
+      "reference": "TAGTAATCTGATTTGCTT",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "ATGACCGGGGCGGAAGCAACAC",
+      "reference": "TGTCGGATGGGTCCGGTGTGGTTCC",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "GCGAACGGCGTGGGTTAGTAA",
+      "reference": "TAGATTCTTCCAAACCAATCAAAGACAAAGACAGAGCAC",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "ACAGGCATT",
+      "reference": "CTCCC",
+      "independent_score": -9,
+      "Bio_score": -9.0
+    },
+    {
+      "query": "TGAGGGGGCTGTACCATGGAGGATTGCAC",
+      "reference": "ACGTGATGGAAATATCGAATTAATACCACGAA",
+      "independent_score": -18,
+      "Bio_score": -18.0
+    },
+    {
+      "query": "CCGGAAAGGAATG",
+      "reference": "AAAAGTCTAGATCCTCTTTTCGGCAATTGTGACA",
+      "independent_score": -6,
+      "Bio_score": -6.0
+    },
+    {
+      "query": "CATTAGCATTTTTAGGTGAGCATC",
+      "reference": "TCCTGTTGATCAATTTCCTCTCTAA",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "TATCGCTAAGGTAGCACCGTCC",
+      "reference": "GATGACACATCCG",
+      "independent_score": -17,
+      "Bio_score": -17.0
+    },
+    {
+      "query": "CAAGACTGA",
+      "reference": "GAACATAGCTCTTCCTCAGGCCGATTACACCGATTAGAAT",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "CCCCGGCGAAGATGGAAGAA",
+      "reference": "CTGAGGTTATAATT",
+      "independent_score": -18,
+      "Bio_score": -18.0
+    },
+    {
+      "query": "GTTCACG",
+      "reference": "TTACCGAGGCCGAAT",
+      "independent_score": -2,
+      "Bio_score": -2.0
+    },
+    {
+      "query": "AAGTGTCGGATATTAGCTCTATGA",
+      "reference": "AGCGATTTGATGGATGTCCT",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "GAGGAGACATATGAAAAATAAATTAATGC",
+      "reference": "TTTGTGTCTAAGGGGAGGGCTCATCCGGTTCT",
+      "independent_score": -16,
+      "Bio_score": -16.0
+    },
+    {
+      "query": "GAGAGGGAAATTACAGGATAACATAAA",
+      "reference": "TCTTTGCACCTTACCGTCCCTGCCTGAGACGGTAT",
+      "independent_score": -15,
+      "Bio_score": -15.0
+    },
+    {
+      "query": "AGAGAGTCCAGCCCGGAG",
+      "reference": "CCTGTGTGGCTGCTCATTT",
+      "independent_score": -19,
+      "Bio_score": -19.0
+    },
+    {
+      "query": "CTCCGACAATGCTACATTGGGCCT",
+      "reference": "GCTTCTTTGCGGGGGCTGA",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "TCGGGTTTACTAGGCAA",
+      "reference": "AGCTGAGACTTAA",
+      "independent_score": -13,
+      "Bio_score": -13.0
+    },
+    {
+      "query": "TGCAAAGAAATACCTCGCGAT",
+      "reference": "GGTTTAAAACTGGAACCTGGA",
+      "independent_score": -9,
+      "Bio_score": -9.0
+    },
+    {
+      "query": "TGCTGGGGGC",
+      "reference": "GGCTTGAGACTTCGGCGCAGAGTACGTGATACAAACATC",
+      "independent_score": -3,
+      "Bio_score": -3.0
+    },
+    {
+      "query": "ACTAG",
+      "reference": "AGGTGAAACGCGCATATGGCTGCCGGTGA",
+      "independent_score": -1,
+      "Bio_score": -1.0
+    },
+    {
+      "query": "AAGTGATCACTACTT",
+      "reference": "TGCCAGT",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "ACAGGCC",
+      "reference": "CCTAGCTCTTAATTTAACATGCAGCTCGCACATTGAGAAGCA",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "CAAAACATGTGGAGAT",
+      "reference": "TTCTACTGCAATCTGAGTCA",
+      "independent_score": -7,
+      "Bio_score": -7.0
+    },
+    {
+      "query": "TCCCCTCTGGAAATGAAACGGCACA",
+      "reference": "GTTCTTCACGGGTCGGTCGTAAACCCGTTTAAA",
+      "independent_score": -17,
+      "Bio_score": -17.0
+    },
+    {
+      "query": "CCGCCA",
+      "reference": "GCGCCAAAATATTCCTTT",
+      "independent_score": 6,
+      "Bio_score": 6.0
+    },
+    {
+      "query": "AGTGATGAC",
+      "reference": "GGGTTCTGGAAATCGCAGCGTT",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "CCGAGCCG",
+      "reference": "GTGCCTTATTTGCTGTATGTTTCGCACTATCAC",
+      "independent_score": -4,
+      "Bio_score": -4.0
+    },
+    {
+      "query": "TGCGTTCGTGCACATCTTTAGTCTAT",
+      "reference": "ATATGTAAATAATGC",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    },
+    {
+      "query": "GCGATCTTACACACGGAATGT",
+      "reference": "TATGCGGAGATGAGCCGCGTCCCATCTGATGGGATATA",
+      "independent_score": -8,
+      "Bio_score": -8.0
+    },
+    {
+      "query": "ATATTGTCGGGACCCCCCAGAAATGCT",
+      "reference": "CTACGTG",
+      "independent_score": -24,
+      "Bio_score": -24.0
+    },
+    {
+      "query": "TATGTGCTGAGTACCCATTATTGGGAGTTG",
+      "reference": "GCGGTAGACAGGAGGTAGC",
+      "independent_score": -17,
+      "Bio_score": -17.0
+    },
+    {
+      "query": "AGCGCCTACGTCAGGACC",
+      "reference": "TATGTTGTTTTGG",
+      "independent_score": -20,
+      "Bio_score": -20.0
+    },
+    {
+      "query": "AGACCTGTCGTTTCATACACTGGGGCGGAG",
+      "reference": "CAGGTATGTCCCAGTAACTTAAGCCGCCTCTG",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    },
+    {
+      "query": "TCTTTCACGCGGTACGCTTCCTACACGT",
+      "reference": "TAGGCTATCG",
+      "independent_score": -24,
+      "Bio_score": -24.0
+    },
+    {
+      "query": "TTGTTCGTACGCCTTG",
+      "reference": "ATTATATCTCCC",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "ATGGCGTTGCAGAAACCAATGGCAAGGGTG",
+      "reference": "ACGTCTCATTTGGGGTCTGCGTGATTAAGCATGTTCTAGCA",
+      "independent_score": -14,
+      "Bio_score": -14.0
+    },
+    {
+      "query": "GCAC",
+      "reference": "CGTCCCTCCTCGGAATTTAACTCGTACGGTGCGCTTCACCCTG",
+      "independent_score": 2,
+      "Bio_score": 2.0
+    },
+    {
+      "query": "TCGACACCTACAGGACGTCCCGACT",
+      "reference": "CAATGTTTCACGATT",
+      "independent_score": -15,
+      "Bio_score": -15.0
+    },
+    {
+      "query": "CAGTGGCAGGTTACATGCAAATAA",
+      "reference": "GTCCTCTACGGGCATATGTAAAGTTCTG",
+      "independent_score": -10,
+      "Bio_score": -10.0
+    },
+    {
+      "query": "TTGGCCATATG",
+      "reference": "CGCAGTAACCAACCGT",
+      "independent_score": -12,
+      "Bio_score": -12.0
+    },
+    {
+      "query": "ATGAAC",
+      "reference": "AGCTTCCAGCGCCTCCTGCT",
+      "independent_score": -5,
+      "Bio_score": -5.0
+    },
+    {
+      "query": "GACACCACCCAAGC",
+      "reference": "GGGGA",
+      "independent_score": -15,
+      "Bio_score": -15.0
+    },
+    {
+      "query": "ATGGTTCGATAAATGACATTAACATGGATT",
+      "reference": "TACGGAT",
+      "independent_score": -21,
+      "Bio_score": -21.0
+    }
+  ]
+}

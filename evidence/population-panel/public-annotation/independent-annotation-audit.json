@@ -1,0 +1,1396 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-05T06:40:26.904132+00:00",
+  "scope": "Public annotation only; no patient BAM or genotype data read.",
+  "method": "Independent sequential GTF attribute parsing and direct inclusive containment tests for deterministic chromosome/category cases and public named-gene start/end neighboring panel sites. No primary bisect routine imported.",
+  "sampled_loci": 81,
+  "annotation_sha256": "6312736f1c3cfaf4a5881f09a601117262905d55c24daf286b66f312e4ede250",
+  "gtf_sha256": "5e744bdc594fbc99f3b1b5dc2f282ec8ba9238ae5d4dd08ce7caeb4853e7d3dd",
+  "sampled_category_counts": {
+    "intergenic": 22,
+    "multi_gene": 29,
+    "unique_gene": 30
+  },
+  "all_locus_category_recount": {
+    "unique_gene": 109574,
+    "intergenic": 34026,
+    "multi_gene": 22182
+  },
+  "differences": [],
+  "checks": [
+    {
+      "chrom": "chr17",
+      "pos1": 121314,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 143015,
+      "expected_gene_ids": [
+        "ENSG00000272636.4"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000272636.4"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000272636.4"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 333165,
+      "expected_gene_ids": [
+        "ENSG00000181031.16",
+        "ENSG00000262061.6"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 7657424,
+      "expected_gene_ids": [
+        "ENSG00000129244.9"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000129244.9"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000129244.9"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 7665394,
+      "expected_gene_ids": [
+        "ENSG00000141510.18"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 7685993,
+      "expected_gene_ids": [
+        "ENSG00000141510.18"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000141510.18"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 7688850,
+      "expected_gene_ids": [
+        "ENSG00000141499.17"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000141499.17"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000141499.17"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 39067540,
+      "expected_gene_ids": [
+        "ENSG00000161381.14",
+        "ENSG00000263818.5"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000161381.14"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000161381.14"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 43390353,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 43786472,
+      "expected_gene_ids": [
+        "ENSG00000231256.8"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000231256.8"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000231256.8"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 82981044,
+      "expected_gene_ids": [
+        "ENSG00000175711.8",
+        "ENSG00000262339.5"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 83198614,
+      "expected_gene_ids": [
+        "ENSG00000262898.3"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr17",
+      "pos1": 83242609,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 19969,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 38938,
+      "expected_gene_ids": [
+        "ENSG00000184731.6"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000184731.6"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000184731.6"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 264227,
+      "expected_gene_ids": [
+        "ENSG00000035115.22",
+        "ENSG00000143727.16"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000035115.22",
+        "ENSG00000143727.16"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 123720564,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 127642349,
+      "expected_gene_ids": [
+        "ENSG00000072163.20"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000072163.20"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 151852161,
+      "expected_gene_ids": [
+        "ENSG00000182389.20",
+        "ENSG00000283228.1"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000182389.20"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 242072825,
+      "expected_gene_ids": [
+        "ENSG00000232002.2",
+        "ENSG00000233806.7"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 242157838,
+      "expected_gene_ids": [
+        "ENSG00000220804.8"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr2",
+      "pos1": 242171544,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 11919,
+      "expected_gene_ids": [
+        "ENSG00000223587.2"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 32900,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 127005,
+      "expected_gene_ids": [
+        "ENSG00000224318.6",
+        "ENSG00000287140.1"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 52400951,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 52408338,
+      "expected_gene_ids": [
+        "ENSG00000163930.10"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 52416027,
+      "expected_gene_ids": [
+        "ENSG00000010318.21"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 98799962,
+      "expected_gene_ids": [
+        "ENSG00000057019.16",
+        "ENSG00000064225.12"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 101716075,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 106671588,
+      "expected_gene_ids": [
+        "ENSG00000242759.8"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 198038561,
+      "expected_gene_ids": [
+        "ENSG00000185621.11",
+        "ENSG00000232832.1"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 198143976,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr3",
+      "pos1": 198172997,
+      "expected_gene_ids": [
+        "ENSG00000236438.7"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 12114,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 92226,
+      "expected_gene_ids": [
+        "ENSG00000153404.14"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000153404.14"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000153404.14"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 195925,
+      "expected_gene_ids": [
+        "ENSG00000185028.4",
+        "ENSG00000261434.1"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000185028.4"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000185028.4"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 87146631,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 87264370,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 87269178,
+      "expected_gene_ids": [
+        "ENSG00000145715.15"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000145715.15"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000145715.15"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 87389741,
+      "expected_gene_ids": [
+        "ENSG00000134480.16",
+        "ENSG00000145715.15"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 87392306,
+      "expected_gene_ids": [
+        "ENSG00000134480.16"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000134480.16"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 104144028,
+      "expected_gene_ids": [
+        "ENSG00000251026.2"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 112840628,
+      "expected_gene_ids": [
+        "ENSG00000134982.17",
+        "ENSG00000258864.1"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000134982.17"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000134982.17"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 181244029,
+      "expected_gene_ids": [
+        "ENSG00000204628.12"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 181269137,
+      "expected_gene_ids": [
+        "ENSG00000233937.7",
+        "ENSG00000248275.2"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr5",
+      "pos1": 181290649,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 103259,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 215804,
+      "expected_gene_ids": [
+        "ENSG00000223508.5"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 232183,
+      "expected_gene_ids": [
+        "ENSG00000172748.14",
+        "ENSG00000223508.5"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000172748.14"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000172748.14"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 69019389,
+      "expected_gene_ids": [
+        "ENSG00000253658.6"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 72156747,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 73788615,
+      "expected_gene_ids": [
+        "ENSG00000104343.21",
+        "ENSG00000258677.2"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000104343.21"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000104343.21"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 127726939,
+      "expected_gene_ids": [
+        "ENSG00000249375.8"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 127735707,
+      "expected_gene_ids": [
+        "ENSG00000136997.21",
+        "ENSG00000249375.8"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000136997.21"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000136997.21"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 127742841,
+      "expected_gene_ids": [
+        "ENSG00000136997.21"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000136997.21"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000136997.21"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 127750283,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 145005754,
+      "expected_gene_ids": [
+        "ENSG00000255530.1",
+        "ENSG00000255559.1"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 145066647,
+      "expected_gene_ids": [
+        "ENSG00000182307.14"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000182307.14"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000182307.14"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr8",
+      "pos1": 145069727,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 10968,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 40910,
+      "expected_gene_ids": [
+        "ENSG00000181404.17"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 53954,
+      "expected_gene_ids": [
+        "ENSG00000181404.17",
+        "ENSG00000284986.1"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 21802471,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 21803166,
+      "expected_gene_ids": [
+        "ENSG00000099810.21",
+        "ENSG00000264545.2"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000099810.21"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 21937352,
+      "expected_gene_ids": [
+        "ENSG00000099810.21",
+        "ENSG00000264545.2"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000099810.21"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000099810.21"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 21939307,
+      "expected_gene_ids": [
+        "ENSG00000264545.2"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 21966528,
+      "expected_gene_ids": [
+        "ENSG00000264545.2"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 21968160,
+      "expected_gene_ids": [
+        "ENSG00000147889.18",
+        "ENSG00000264545.2"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000147889.18"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000147889.18"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 21993965,
+      "expected_gene_ids": [
+        "ENSG00000147889.18",
+        "ENSG00000264545.2"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000147889.18"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000147889.18"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 21995883,
+      "expected_gene_ids": [
+        "ENSG00000240498.9",
+        "ENSG00000264545.2",
+        "ENSG00000266446.1"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 22000842,
+      "expected_gene_ids": [
+        "ENSG00000240498.9",
+        "ENSG00000264545.2"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 22003224,
+      "expected_gene_ids": [
+        "ENSG00000147883.12",
+        "ENSG00000240498.9",
+        "ENSG00000264545.2"
+      ],
+      "expected_pc_exon_gene_ids": [
+        "ENSG00000147883.12"
+      ],
+      "expected_pc_transcript_exon_gene_ids": [
+        "ENSG00000147883.12"
+      ],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 22008027,
+      "expected_gene_ids": [
+        "ENSG00000147883.12",
+        "ENSG00000240498.9",
+        "ENSG00000264545.2"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 22009699,
+      "expected_gene_ids": [
+        "ENSG00000240498.9",
+        "ENSG00000264545.2"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 61154980,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 69251016,
+      "expected_gene_ids": [
+        "ENSG00000119139.21",
+        "ENSG00000285130.2"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 96693391,
+      "expected_gene_ids": [
+        "ENSG00000224848.2"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 137882918,
+      "expected_gene_ids": [
+        "ENSG00000148408.13",
+        "ENSG00000203987.3"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 138170187,
+      "expected_gene_ids": [
+        "ENSG00000159247.13"
+      ],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    },
+    {
+      "chrom": "chr9",
+      "pos1": 138207894,
+      "expected_gene_ids": [],
+      "expected_pc_exon_gene_ids": [],
+      "expected_pc_transcript_exon_gene_ids": [],
+      "checks": {
+        "overlap_gene_ids": true,
+        "pc_gene_exon_gene_ids": true,
+        "pc_transcript_exon_gene_ids": true,
+        "unique_gene_id": true,
+        "gene_overlap_category": true
+      }
+    }
+  ],
+  "limitations": "A bounded annotation spot-check, not independent reannotation of all 165782 loci. Gene spans/exons include UTR; labels do not establish patient expression or independence."
+}

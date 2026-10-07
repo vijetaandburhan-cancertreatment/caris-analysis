@@ -1,0 +1,1038 @@
+{
+  "created_utc": "2026-10-01T22:41:40.091045+00:00",
+  "scope": "Local model binding predictions for reference-sequence control selection only. No cross-reactivity, safety, presentation or efficacy conclusion.",
+  "source_neighbors_sha256": "c315ead151a130efe59f1492b7c8316a3d88e02b9d9a9055faabcb48a95164bd",
+  "same_model_replay_tolerance": {
+    "relative": 0.0001,
+    "absolute_nM": 0.1
+  },
+  "prior_GENCODE37_replay_pass": true,
+  "prior_replay": [
+    {
+      "model": "2.3.0",
+      "peptide": "IEERKGLYL",
+      "old_nM": 303.72576245742914,
+      "new_nM": 303.72576245742914,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERKGLYL",
+      "old_nM": 364.0186927611846,
+      "new_nM": 364.0186927611846,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "IEERRSRRK",
+      "old_nM": 18255.215827348544,
+      "new_nM": 18255.215827348544,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERRSRRK",
+      "old_nM": 12867.795489676975,
+      "new_nM": 12867.795489676975,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "ASRKGLYL",
+      "old_nM": 30526.66058823349,
+      "new_nM": 30526.66058823349,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EEDKGLYS",
+      "old_nM": 5944.0566056283305,
+      "new_nM": 5944.0566056283305,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EEEKELYL",
+      "old_nM": 1892.5503378188087,
+      "new_nM": 1892.5503378188087,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EEEKILYL",
+      "old_nM": 387.05114949522124,
+      "new_nM": 387.05114949522124,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EEGKGRYL",
+      "old_nM": 452.1782381550997,
+      "new_nM": 452.1782381550997,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERKCLIL",
+      "old_nM": 893.2269208975756,
+      "new_nM": 893.2269208975756,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERKGALL",
+      "old_nM": 539.5850188562904,
+      "new_nM": 539.5850188562904,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERKGELL",
+      "old_nM": 397.9766347853999,
+      "new_nM": 397.9766347853999,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERKGLIT",
+      "old_nM": 1245.7986082452546,
+      "new_nM": 1245.7986082452546,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERKGLLP",
+      "old_nM": 2005.3847505886383,
+      "new_nM": 2005.3847505886383,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERKLLSL",
+      "old_nM": 238.3081369931941,
+      "new_nM": 238.3081369931941,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERKQLGL",
+      "old_nM": 615.4949467147839,
+      "new_nM": 615.4949467147839,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERKRLYQ",
+      "old_nM": 14150.311212560417,
+      "new_nM": 14150.311212560417,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERKSLKL",
+      "old_nM": 386.14649971181257,
+      "new_nM": 386.14649971181257,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EERSGLQL",
+      "old_nM": 334.04774433508226,
+      "new_nM": 334.04774433508226,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "EKRRGLYL",
+      "old_nM": 22072.77867016656,
+      "new_nM": 22072.77867016656,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "ERRKGLKL",
+      "old_nM": 13504.752242032599,
+      "new_nM": 13504.752242032599,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "GERKGLVL",
+      "old_nM": 115.38712242996097,
+      "new_nM": 115.38712242996097,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "IERKGFYL",
+      "old_nM": 383.5863205176646,
+      "new_nM": 383.5863205176646,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "KERKGDYL",
+      "old_nM": 545.8847021464928,
+      "new_nM": 545.8847021464928,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "KERKGLEL",
+      "old_nM": 182.3944695239412,
+      "new_nM": 182.3944695239412,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "LERKGGYL",
+      "old_nM": 1034.4738385108476,
+      "new_nM": 1034.4738385108476,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "LERKGLYI",
+      "old_nM": 451.45292738194837,
+      "new_nM": 451.45292738194837,
+      "pass": true
+    },
+    {
+      "model": "2.3.0",
+      "peptide": "PERKGLSL",
+      "old_nM": 10644.355423998739,
+      "new_nM": 10644.355423998739,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "IEERKGLYL",
+      "old_nM": 103.61509009876208,
+      "new_nM": 103.61509009876208,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERKGLYL",
+      "old_nM": 183.56514977955715,
+      "new_nM": 183.56514977955715,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "IEERRSRRK",
+      "old_nM": 9447.045536080797,
+      "new_nM": 9447.045536080797,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERRSRRK",
+      "old_nM": 10254.528679636469,
+      "new_nM": 10254.528679636469,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "ASRKGLYL",
+      "old_nM": 26432.964175404773,
+      "new_nM": 26432.964175404773,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EEDKGLYS",
+      "old_nM": 7535.602306943192,
+      "new_nM": 7535.602306943192,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EEEKELYL",
+      "old_nM": 904.3326002070065,
+      "new_nM": 904.3326002070065,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EEEKILYL",
+      "old_nM": 143.51269557256353,
+      "new_nM": 143.51269557256353,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EEGKGRYL",
+      "old_nM": 192.87957416899746,
+      "new_nM": 192.87957416899746,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERKCLIL",
+      "old_nM": 307.1144579727873,
+      "new_nM": 307.1144579727873,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERKGALL",
+      "old_nM": 201.56755128112826,
+      "new_nM": 201.56755128112826,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERKGELL",
+      "old_nM": 193.32492404109274,
+      "new_nM": 193.32492404109274,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERKGLIT",
+      "old_nM": 1077.2706329575844,
+      "new_nM": 1077.2706329575844,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERKGLLP",
+      "old_nM": 796.4558809341396,
+      "new_nM": 796.4558809341396,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERKLLSL",
+      "old_nM": 120.70221720673892,
+      "new_nM": 120.70221720673892,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERKQLGL",
+      "old_nM": 471.74737480953235,
+      "new_nM": 471.74737480953235,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERKRLYQ",
+      "old_nM": 14767.384621672245,
+      "new_nM": 14767.384621672245,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERKSLKL",
+      "old_nM": 192.9864421471224,
+      "new_nM": 192.9864421471224,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EERSGLQL",
+      "old_nM": 202.71926293941664,
+      "new_nM": 202.71926293941664,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "EKRRGLYL",
+      "old_nM": 26709.995987085524,
+      "new_nM": 26709.995987085524,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "ERRKGLKL",
+      "old_nM": 20628.18088256608,
+      "new_nM": 20628.18088256608,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "GERKGLVL",
+      "old_nM": 119.35828644980981,
+      "new_nM": 119.35828644980981,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "IERKGFYL",
+      "old_nM": 163.04555738864505,
+      "new_nM": 163.04555738864505,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "KERKGDYL",
+      "old_nM": 521.435110117514,
+      "new_nM": 521.435110117514,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "KERKGLEL",
+      "old_nM": 146.5968139877358,
+      "new_nM": 146.5968139877358,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "LERKGGYL",
+      "old_nM": 434.49168049332354,
+      "new_nM": 434.49168049332354,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "LERKGLYI",
+      "old_nM": 207.75625577560209,
+      "new_nM": 207.75625577560209,
+      "pass": true
+    },
+    {
+      "model": "2.2.0",
+      "peptide": "PERKGLSL",
+      "old_nM": 5158.414469274297,
+      "new_nM": 5158.414469274297,
+      "pass": true
+    }
+  ],
+  "rows": [
+    {
+      "peptide": "IEERKGLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 303.72576245742914,
+      "affinity_percentile": 0.7766707879048587,
+      "role": "BAP1 altered",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKGLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 364.0186927611846,
+      "affinity_percentile": 0.8466833315189928,
+      "role": "BAP1 altered",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "IEERRSRRK",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 18255.215827348544,
+      "affinity_percentile": 9.606456653526692,
+      "role": "BAP1 normal counterpart",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERRSRRK",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 12867.795489676975,
+      "affinity_percentile": 6.2718238400049175,
+      "role": "BAP1 normal counterpart",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "ASRKGLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 30526.66058823349,
+      "affinity_percentile": 39.59918556037489,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EEDKGLYS",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 5944.0566056283305,
+      "affinity_percentile": 3.308119056887423,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EEEKELYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 1892.5503378188087,
+      "affinity_percentile": 1.8506763886064388,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EEEKILYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 387.05114949522124,
+      "affinity_percentile": 0.8717958812081739,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EEGKGRYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 452.1782381550997,
+      "affinity_percentile": 0.9388092437968456,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EEKKGLKL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 263.81386325717204,
+      "affinity_percentile": 0.7262004325163265,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "EEKKQLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 423.1476805528914,
+      "affinity_percentile": 0.909614346592787,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "EERKCLIL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 893.2269208975756,
+      "affinity_percentile": 1.2974028025538833,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKGALL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 539.5850188562904,
+      "affinity_percentile": 1.021169002684099,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKGELL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 397.9766347853999,
+      "affinity_percentile": 0.883432090398443,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKGLIT",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 1245.7986082452546,
+      "affinity_percentile": 1.5189039988635746,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKGLLP",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 2005.3847505886383,
+      "affinity_percentile": 1.9019076461095132,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKLLSL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 238.3081369931941,
+      "affinity_percentile": 0.6918101338770313,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKQLGL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 615.4949467147839,
+      "affinity_percentile": 1.0871212341176375,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKRLQL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 927.0834797181979,
+      "affinity_percentile": 1.3204966269212035,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "EERKRLYQ",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 14150.311212560417,
+      "affinity_percentile": 6.971620996592838,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKSLKL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 386.14649971181257,
+      "affinity_percentile": 0.8708246534138051,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERSGLQL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 334.04774433508226,
+      "affinity_percentile": 0.8127151926081916,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EESKGLCL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 678.4552710522584,
+      "affinity_percentile": 1.1386154192494136,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "EKRRGLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 22072.77867016656,
+      "affinity_percentile": 13.951598026654315,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EQRKGLQL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 1992.6107722795607,
+      "affinity_percentile": 1.8961868980746626,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "ERRKGLKL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 13504.752242032599,
+      "affinity_percentile": 6.619089339748771,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "GERKGLSL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 156.21452906026704,
+      "affinity_percentile": 0.4931979104934733,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "GERKGLVL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 115.38712242996097,
+      "affinity_percentile": 0.3854953455277464,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "IERKGFYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 383.5863205176646,
+      "affinity_percentile": 0.868069529852064,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "KERKGDYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 545.8847021464928,
+      "affinity_percentile": 1.0268221666465576,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "KERKGLEL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 182.3944695239412,
+      "affinity_percentile": 0.5593714377271137,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "LEREGLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 337.7189741186293,
+      "affinity_percentile": 0.8169601470460366,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "LERKGGYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 1034.4738385108476,
+      "affinity_percentile": 1.3909171028481533,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "LERKGLYI",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 451.45292738194837,
+      "affinity_percentile": 0.9380920965142016,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "PERKGLSL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.3.0",
+      "predicted_affinity_nM": 10644.355423998739,
+      "affinity_percentile": 5.066627093366561,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "IEERKGLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 103.61509009876208,
+      "affinity_percentile": 0.5647500000000001,
+      "role": "BAP1 altered",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKGLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 183.56514977955715,
+      "affinity_percentile": 0.8888749999999999,
+      "role": "BAP1 altered",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "IEERRSRRK",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 9447.045536080797,
+      "affinity_percentile": 4.334249999999999,
+      "role": "BAP1 normal counterpart",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERRSRRK",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 10254.528679636469,
+      "affinity_percentile": 4.556875,
+      "role": "BAP1 normal counterpart",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "ASRKGLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 26432.964175404773,
+      "affinity_percentile": 22.464250000000003,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EEDKGLYS",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 7535.602306943192,
+      "affinity_percentile": 3.8078749999999983,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EEEKELYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 904.3326002070065,
+      "affinity_percentile": 1.7594999999999996,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EEEKILYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 143.51269557256353,
+      "affinity_percentile": 0.7558749999999999,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EEGKGRYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 192.87957416899746,
+      "affinity_percentile": 0.910625,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EEKKGLKL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 130.41631669079726,
+      "affinity_percentile": 0.697875,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "EEKKQLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 247.5310900599132,
+      "affinity_percentile": 1.042625,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "EERKCLIL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 307.1144579727873,
+      "affinity_percentile": 1.15475,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKGALL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 201.56755128112826,
+      "affinity_percentile": 0.93275,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKGELL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 193.32492404109274,
+      "affinity_percentile": 0.91675,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKGLIT",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 1077.2706329575844,
+      "affinity_percentile": 1.8622499999999995,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKGLLP",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 796.4558809341396,
+      "affinity_percentile": 1.68375,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKLLSL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 120.70221720673892,
+      "affinity_percentile": 0.6573750000000002,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKQLGL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 471.74737480953235,
+      "affinity_percentile": 1.3828750000000003,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKRLQL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 455.72768775572143,
+      "affinity_percentile": 1.3628750000000005,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "EERKRLYQ",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 14767.384621672245,
+      "affinity_percentile": 6.279,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERKSLKL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 192.9864421471224,
+      "affinity_percentile": 0.910625,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EERSGLQL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 202.71926293941664,
+      "affinity_percentile": 0.938,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EESKGLCL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 258.2399702141972,
+      "affinity_percentile": 1.064875,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "EKRRGLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 26709.995987085524,
+      "affinity_percentile": 23.49975,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "EQRKGLQL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 2590.2433237001637,
+      "affinity_percentile": 2.493624999999997,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "ERRKGLKL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 20628.18088256608,
+      "affinity_percentile": 10.605875000000005,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "GERKGLSL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 143.30538871515944,
+      "affinity_percentile": 0.7558749999999999,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "GERKGLVL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 119.35828644980981,
+      "affinity_percentile": 0.6511250000000002,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "IERKGFYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 163.04555738864505,
+      "affinity_percentile": 0.8274999999999999,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "KERKGDYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 521.435110117514,
+      "affinity_percentile": 1.4369999999999998,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "KERKGLEL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 146.5968139877358,
+      "affinity_percentile": 0.7691249999999998,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "LEREGLYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 126.00599076299379,
+      "affinity_percentile": 0.6808750000000001,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": false
+    },
+    {
+      "peptide": "LERKGGYL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 434.49168049332354,
+      "affinity_percentile": 1.3362500000000004,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "LERKGLYI",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 207.75625577560209,
+      "affinity_percentile": 0.94975,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    },
+    {
+      "peptide": "PERKGLSL",
+      "allele": "HLA-B*50:01",
+      "model_release": "2.2.0",
+      "predicted_affinity_nM": 5158.414469274297,
+      "affinity_percentile": 3.2159999999999984,
+      "role": "reference two-substitution control",
+      "in_prior_GENCODE37_run": true
+    }
+  ],
+  "elapsed_seconds": 6.36,
+  "peak_RSS_bytes_macOS": 897662976
+}

@@ -1,0 +1,24 @@
+{
+  "elapsed_seconds": 301.4902768135071,
+  "pysam": "0.24.1",
+  "py2bit": "0.3.3",
+  "bins_bp": 1000,
+  "fragment_filters": {
+    "read1": true,
+    "proper_pair": true,
+    "exclude_flag_mask": 3852,
+    "MAPQ_min": 30,
+    "insert_size_min": 50,
+    "insert_size_max": 1000,
+    "mate_MAPQ": "not independently filtered; MAPQ60 sensitivity on read1 only",
+    "PCR": "duplicate flags excluded; no UMI molecule assertion"
+  },
+  "capture_proxy": "GENCODE37 all protein-coding transcript exon union with100/500/2000bp flanks, NOT actual baits",
+  "limitations": [
+    "Unnormalized single-sample fragment density is NOT copy number.",
+    "Midpoints proxy physical fragments; cannot establish unique original molecules.",
+    "GC and repeat adjustment cannot remove unknown bait/capture/protocol biases.",
+    "Reference is UCSC hg38 primary rather than exact private masked Caris FASTA; unplaced/alternate contigs excluded.",
+    "Absolute copy number/purity/ploidy and somatic LOH are not identifiable without additional assumptions or independent reference."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "created": "2026-10-04",
+  "note": "No new patient uploads; same BAM analyses are computational replication, not laboratory validation",
+  "sources": [
+    {
+      "path": "outputs/caris-deep-review/LATS-independent-read-audit.json",
+      "sha256": "53f4b49c3da716b6e5575dda23191048c683f6bf150beca38786d5a2b2834185",
+      "bytes": 3528
+    },
+    {
+      "path": "outputs/caris-deep-review/Peptide-model-provenance.json",
+      "sha256": "a8e093a837cf41a989e14a92906f92fa1603cadb190c31db79cad1300862ebad",
+      "bytes": 10084
+    },
+    {
+      "path": "outputs/caris-deep-review/technical-evidence/02-BAP1-sequence-and-antigen/exon4-splice-junction-evidence.tsv",
+      "sha256": "558dae3a89a63394c49c75734279c09a3f62efdf78f9ad1c18205fa50878ae07",
+      "bytes": 890
+    },
+    {
+      "path": "outputs/caris-deep-review/technical-evidence/03-HLA/patient-HLA-comparison.tsv",
+      "sha256": "cc285c1225760bcdf6dc503b184f67aef52ad6294c842fe6c88eb57091081b6e",
+      "bytes": 1298
+    },
+    {
+      "path": "outputs/caris-deep-review/technical-evidence/12-current-reference-sensitivity/gencode50-neighbors.tsv",
+      "sha256": "c315ead151a130efe59f1492b7c8316a3d88e02b9d9a9055faabcb48a95164bd",
+      "bytes": 4064
+    },
+    {
+      "path": "outputs/caris-deep-review/technical-evidence/12-current-reference-sensitivity/reference-control-affinity.tsv",
+      "sha256": "4136cd0b2ae181d7c3c271047c54c749063581b507d1d730525eab780a0966fc",
+      "bytes": 7214
+    },
+    {
+      "path": "work/oct1-analysis/transcripts/NM_004656.3.gb",
+      "sha256": "1afc53b2b3a125235d7265969840d978fd469506d551be2b9d1aa7479948caaf",
+      "bytes": 23189
+    },
+    {
+      "path": "work/oct1-deep/genomics/LATS1.hg38-reference.json",
+      "sha256": "2e8761d6e399f9963b00df1db11805fe73b52840e7d30182b97a2f7559665f4a",
+      "bytes": 60226
+    },
+    {
+      "path": "work/oct1-deep/genomics/LATS2.hg38-reference.json",
+      "sha256": "628579af27a578a7b29bcbdff5ec6da696d26794eb23d6d50952fe7d83a38b48",
+      "bytes": 88822
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/bap1-local-validation/reference-provenance.json",
+      "sha256": "80d4aecf51e1ccd2e559204aad26cbcf738ba9e912cd7a84eeba2c36907530e6",
+      "bytes": 4081
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/bap1-local-validation/results.json",
+      "sha256": "84503704deb627f9cba96b797cdffe8a42c384f4abaf1349d95f26198de23249",
+      "bytes": 23577
+    },
+    {
+      "path": "work/oct1-deep/splicing/reference/BAP1.hg38-reference.json",
+      "sha256": "84c473dd35aa9b6e466c61036874dd483917fdac095c5af2a60a101264b6faac",
+      "bytes": 9670
+    },
+    {
+      "path": "work/oct4-followup/validation-package/references/NM_004690.4.gb",
+      "sha256": "1fd459cbd95c55faf6eaf62cda91a8f5b7cb3b612bd5e8f692238b6d58940a58",
+      "bytes": 26896
+    },
+    {
+      "path": "work/oct4-followup/validation-package/references/NM_014572.3.gb",
+      "sha256": "8293524466f7debcb2845a102950ff8f075c73cfba0a71c9cf74e52253faec19",
+      "bytes": 22867
+    },
+    {
+      "path": "work/oct4-followup/copy-number/BAP1-SNP-frameshift-fragment-phase.json",
+      "sha256": "74e9392cef1165a7f848750448e0327f21faef3519472c0656366c5da7c53307",
+      "bytes": 69570
+    },
+    {
+      "path": "work/oct4-followup/copy-number/BAP1-SNP-phase-independent-audit.json",
+      "sha256": "53245d30e2eaddeb4c3257c47d7761f2ca970cd4bd508738fa978db0950dc8af",
+      "bytes": 71048
+    },
+    {
+      "path": "work/oct4-followup/hla-II/patient-paired-comparisons.csv",
+      "sha256": "5672710c7aa102d43b90644093b63f5fe007468a661b3c6300a002b27669d415",
+      "bytes": 628947
+    },
+    {
+      "path": "work/oct4-followup/hla-II/patient-peptide-manifest.json",
+      "sha256": "d1695272cf8566ad5cf54606a94da32ef991ace5d56509142e6e6d008c8a4a25",
+      "bytes": 52335
+    },
+    {
+      "path": "work/oct4-followup/hla-II/length12-sensitivity.json",
+      "sha256": "239d52ba622bab19f4ff39ced33db34719f3eced4cb8060adc44fe9414849840",
+      "bytes": 5378
+    },
+    {
+      "path": "work/oct4-followup/hla-II/findings.txt",
+      "sha256": "a0ea2af462c0ce2e6955f8401efee1103fee0cf9dc8ee62e8cf5ea36c9c0ad70",
+      "bytes": 4517
+    },
+    {
+      "path": "work/oct4-followup/hla-II/validation-package-independent-audit.json",
+      "sha256": "66026dfe2c29c3d3d09ca224f61f4f21cdf33ab473047b14705e95834b71e97a",
+      "bytes": 2207
+    }
+  ],
+  "supplement_added": "Controlled HLA-II exploratory assay lead and independently audited local BAP1 phase"
+}

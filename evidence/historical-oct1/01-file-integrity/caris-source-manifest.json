@@ -1,0 +1,118 @@
+{
+  "source": "Caris S3 console metadata reported by parent",
+  "bucket": "caris-req-5453",
+  "expected_total_files": 9,
+  "complete_inventory": true,
+  "notes": "All nine exact names and full-object CRC64NVME checksums from source. Exact source byte counts still pending for six large files; never substitute local calculated metadata as source metadata.",
+  "files": [
+    {
+      "name": "DNA_TN26-279853.vcf",
+      "crc64nvme": "MGUB1Kaq7oA=",
+      "size_bytes": 531449,
+      "etag": "86196aa8024dee30fa94d87c4e0e432d",
+      "etag_is_md5": true,
+      "checksum_type": "FULL_OBJECT",
+      "source_crc64nvme_pending": false,
+      "encryption": "SSE-S3",
+      "multipart": false
+    },
+    {
+      "name": "RNA_TN26-279853.geneTPM_nodup.csv",
+      "crc64nvme": "ScnEw/rRcKY=",
+      "size_bytes": 1409949,
+      "checksum_type": "FULL_OBJECT",
+      "source_crc64nvme_pending": false
+    },
+    {
+      "name": "TN26-279853_20260925225733.xlsx",
+      "crc64nvme": "Luk65oNZOJU=",
+      "size_bytes": 535890,
+      "etag": "9a51210b4076be0a1bb281de0e0b8f01",
+      "etag_is_md5": true,
+      "checksum_type": "FULL_OBJECT",
+      "source_crc64nvme_pending": false,
+      "encryption": "SSE-S3",
+      "multipart": false
+    },
+    {
+      "name": "DNA_TN26-279853_S25.R1.fastq.gz",
+      "crc64nvme": "kdb3TFp7mSg=",
+      "size_bytes": null,
+      "checksum_type": "FULL_OBJECT",
+      "source_crc64nvme_pending": false,
+      "etag": "12d30a713cfe1d24d715212765803ab2-1073",
+      "etag_is_md5": false,
+      "encryption": "SSE-S3",
+      "multipart": true,
+      "source_size_pending": true,
+      "source_size_display": "8.4 GB"
+    },
+    {
+      "name": "DNA_TN26-279853_S25.R2.fastq.gz",
+      "crc64nvme": "KR1Ua/cnduI=",
+      "size_bytes": null,
+      "checksum_type": "FULL_OBJECT",
+      "source_crc64nvme_pending": false,
+      "etag": "ef487a93b995c17a041256f078e6b6cf-1105",
+      "etag_is_md5": false,
+      "encryption": "SSE-S3",
+      "multipart": true,
+      "source_size_pending": true,
+      "source_size_display": "8.6 GB"
+    },
+    {
+      "name": "DNA_TN26-279853.bam",
+      "crc64nvme": "+MUNcDUcmjM=",
+      "size_bytes": null,
+      "checksum_type": "FULL_OBJECT",
+      "source_crc64nvme_pending": false,
+      "etag": "df12a13738f1586d59092beadebdac69-1112",
+      "etag_is_md5": false,
+      "encryption": "SSE-S3",
+      "multipart": true,
+      "source_size_pending": true,
+      "source_size_display": "8.7 GB"
+    },
+    {
+      "name": "RNA_TN26-279853_S25.R1.fastq.gz",
+      "crc64nvme": "gKqM9ht/jtU=",
+      "size_bytes": null,
+      "checksum_type": "FULL_OBJECT",
+      "source_crc64nvme_pending": false,
+      "etag": "1c371b31c0046fe28a66c188331ef329-189",
+      "etag_is_md5": false,
+      "encryption": "SSE-S3",
+      "multipart": true,
+      "source_size_pending": true,
+      "source_size_display": "1.5 GB"
+    },
+    {
+      "name": "RNA_TN26-279853_S25.R2.fastq.gz",
+      "crc64nvme": "Zwy/IRIeUaI=",
+      "size_bytes": null,
+      "checksum_type": "FULL_OBJECT",
+      "source_crc64nvme_pending": false,
+      "etag": "fa84735ccc22e72248e33bd334ee5490-193",
+      "etag_is_md5": false,
+      "encryption": "SSE-S3",
+      "multipart": true,
+      "source_size_pending": true,
+      "source_size_display": "1.5 GB"
+    },
+    {
+      "name": "RNA_TN26-279853.bam",
+      "crc64nvme": "dtdP9PvAPP4=",
+      "size_bytes": null,
+      "checksum_type": "FULL_OBJECT",
+      "source_crc64nvme_pending": false,
+      "etag": "a8c5f8380e9b83fbfc6a9a57a98663ed-339",
+      "etag_is_md5": false,
+      "encryption": "SSE-S3",
+      "multipart": true,
+      "source_size_pending": true,
+      "source_size_display": "2.6 GB"
+    }
+  ],
+  "complete_source_metadata": false,
+  "complete_crc64nvme_metadata": true
+}

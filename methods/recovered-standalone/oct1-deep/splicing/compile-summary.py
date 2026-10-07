@@ -1,0 +1,30 @@
+from pathlib import Path
+import csv,json,gzip,collections,hashlib,time
+OUT=Path(__file__).resolve().parent;ROOT=OUT.parents[2]
+inv=json.loads((OUT/'inventory-summary.json').read_text());gtex=json.loads((OUT/'gtex-comparison-summary.json').read_text());A=json.loads((OUT/'target-annotation.json').read_text())
+rows=list(csv.DictReader((OUT/'target-junctions.tsv').open(),delimiter='\t'));cands=list(csv.DictReader((OUT/'candidate-gtex-comparison.tsv').open(),delimiter='\t'))
+read_totals=collections.Counter();junc_support=collections.Counter()
+with gzip.open(OUT/'all-junctions.tsv.gz','rt') as f:
+ for r in csv.DictReader(f,delimiter='\t'):
+  category='annotated' if r['annotated_GENCODE37']=='1' else 'unannotated'
+  read_totals[category]+=int(r['read_events']);junc_support[(category,'one_read' if int(r['read_events'])==1 else 'multiple_reads')]+=1
+summary=[]
+for gene in sorted(A['genes']):
+ r=[x for x in rows if x['gene']==gene];c=[x for x in cands if x['gene']==gene];passed=[x for x in c if x['reference_aware_research_pass']=='1'];g=A['genes'][gene]
+ summary.append({'gene':gene,'selected_transcript':g['selected_transcript'],'observed_junctions':len(r),'observed_annotated_junctions_ge5_fragments':sum(x['annotated_GENCODE37']=='1' and int(x['fragments'])>=5 for x in r),'max_junction_fragment_names':max([int(x['fragments']) for x in r] or [0]),'initial_unannotated_review_candidates':len(c),'reference_aware_passing_candidates':len(passed),'passing_candidates_seen_in_GTEx':sum(x['GTEx_coordinate_strand_match']=='1' for x in passed),'passing_candidates_absent_from_queried_GTEx':sum(x['GTEx_coordinate_strand_match']=='0' for x in passed)})
+with (OUT/'gene-splicing-summary.tsv').open('w') as f:
+ w=csv.DictWriter(f,fieldnames=list(summary[0]),delimiter='\t');w.writeheader();w.writerows(summary)
+source=json.loads((ROOT/'work/oct1-analysis/resident-copies-verification.json').read_text());bam=next(f for f in source['files'] if f['name']=='RNA_TN26-279853.bam')
+findings={'created_utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'status':'bounded splice-junction analysis complete; research results, not clinical validation','BAM_records_scanned':inv['stats']['BAM_records'],'global_junctions':inv['all_junctions'],'global_unannotated_junctions':inv['all_junctions']-inv['all_annotated_junctions'],'global_read_event_totals_by_annotation':dict(read_totals),'global_unique_junction_support_bins':{':'.join(k):v for k,v in junc_support.items()},'target_genes':len(A['genes']),'target_junction_rows':len(rows),'initial_unannotated_candidates':len(cands),'reference_aware_passing_candidates':143,'reference_aware_passing_candidates_with_exact_GTEx_match':141,
+'key_findings':[
+ {'topic':'MET exon14','result':'No exact exon13-to15 skipping read under primary MAPQ20/NH1 filters even before anchors; 169/150 canonical inclusion reads. Filtered paired-name support88/87 for inclusion. Bounded negative, not clinical assay exclusion.'},
+ {'topic':'Reported frameshift splice context','result':'BAP1 exact deletion physically linked within same read to adjacent canonical junctions in141 and31 fragment names; RASA1 corresponding48 and14. Supports local mutant-spliced transcript context, not full-length/protein/antigen validation.'},
+ {'topic':'BAP1 exon4 skipping','result':'4 broader-filter reads reduce to2 paired names; junction belongs to GENCODE37 BAP1-210 ENST00000490917.1, transcript_type nonsense_mediated_decay. Not an unannotated rescue isoform.'},
+ {'topic':'Normal-atlas filter','result':'141 of143 reference-aware candidates have exact strand-aware GTEx junction matches. All10 BAP1 candidates occur in the atlas. Most unannotated-to-GENCODE events therefore cannot be treated as tumor-specific.'},
+ {'topic':'APC natural splice form','result':'Highest-count initial unannotated event is303nt partial exon exclusion, matching normal APC exon9a r.934_1236del.222 original qualifying fragment names;219 with exact reference anchors;GTEx6019 samples. It is separate from the reported late APC stop-gain.'},
+ {'topic':'Two low-level retained observations','result':'AKT1 chr14:104776770-104780089(-),16 fragments,0.905% same-boundary fraction; AKT3 chr1:243664883-243695594(-),5 fragments,0.1693%. BothGC-AG donor alternatives,2/4nt shifted versus selected transcript, absent from queried GTEx. Nearby DNA predominantlyreference. No clinical mutation, activation, antigen or drug-match claim.'},
+ {'topic':'LATS splicing','result':'No unannotated junction meets prespecified support thresholds inLATS1/2; LATS1 expression limits sensitivity (maximum16 fragment names at a junction). Does not negate separately observed DNA/RNA variants.'}],
+'limitations':['One tumor-derived bulk RNA specimen, no matched-normal RNA, no patient-specific normal DNA classification.','Global counts are read events; targeted counts use RG+paired names, not independent UMI molecules.','No chimeric outputs/full fusion analysis, long-read isoform assembly, differential-splicing statistics or validated PSI.','GTEx presence reflects normal/background/possible recurrent technical junction evidence, not tumor specificity. GTEx absence is not proof of tumor-specificity.','Most local fractions omit unspliced reads and other transcript paths; never interpret them as tumor fraction, complete-isoform PSI or event prevalence in cells.','No actionable target or diagnostic subtype was established by this splice screen.'],
+'provenance':{'RNA_BAM_prior_complete_verified_SHA256':bam['calculated']['sha256'],'RNA_BAM_source_CRC64NVME':bam['calculated']['crc64nvme'],'full_source_verification':str(ROOT/'work/oct1-analysis/resident-copies-verification.json'),'GTF_sha256':inv['GTF_sha256'],'GTEx_response_bytes':gtex['total_response_bytes'],'GTEx_gene_queries':gtex['query_genes'],'analysis_scripts':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.glob('*.py')}}}
+(OUT/'findings.json').write_text(json.dumps(findings,indent=2)+'\n')
+print(json.dumps({k:v for k,v in findings.items() if k not in ('key_findings','limitations','provenance')},indent=2))

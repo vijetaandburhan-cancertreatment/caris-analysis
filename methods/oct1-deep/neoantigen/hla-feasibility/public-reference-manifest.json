@@ -1,0 +1,154 @@
+{
+  "created_utc": "2026-10-01T21:22:47Z",
+  "arcas_commit": "9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55",
+  "IMGT_commit": "8d77b3dd93959663d58ae5b626289d0746edd0e7",
+  "IMGT_release": "3.46.0",
+  "files": [
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/LICENSE",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/LICENSE",
+      "bytes": 35129,
+      "sha256": "2fcbc59fd6474f7451a53b73bb38648034eeb71fcd3613330b0ffd6296d94784"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/README.md",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/README.md",
+      "bytes": 14888,
+      "sha256": "db058c33a4e1476cf76aa84d19da1489252218e1d5e04fce7161a90afde71a4b"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/arcasHLA",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/arcasHLA",
+      "bytes": 3385,
+      "sha256": "233257af6a44a3f1d378325f34f189d9828ee2340b8386c023814da75d29a52e"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/environment.yml",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/environment.yml",
+      "bytes": 311,
+      "sha256": "0e536746d475ab14d060187d2e305708adde0d9e5dcf094f498b75fb02ab871e"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/align.py",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/scripts/align.py",
+      "bytes": 12593,
+      "sha256": "83c3e7380b994d4d857dfde4db18d7a9528a76de20c41bcf9f9bf6aa263d1538"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/arcas_utilities.py",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/scripts/arcas_utilities.py",
+      "bytes": 3278,
+      "sha256": "8cb9118542d82edf40a8e9b08a935a4c53119b3c464776bbb87cb6325fe2080a"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/convert.py",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/scripts/convert.py",
+      "bytes": 7276,
+      "sha256": "1b8422d18d79e3460865633d8528e64950ccdbd0e7e5b38920ed7f027ffccac3"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/customize.py",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/scripts/customize.py",
+      "bytes": 13644,
+      "sha256": "142b5a33653f01e791b5125ea0f4435160f198fed862aa3c1f0730071dc0f1a9"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/extract.py",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/scripts/extract.py",
+      "bytes": 10518,
+      "sha256": "5db870d51c98cd78d1ebfc1b2cc1bd15e8760e4e340794e119bd268e471367e2"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/genotype.py",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/scripts/genotype.py",
+      "bytes": 30356,
+      "sha256": "b3db1c9870ce398134527a8cb7b3cd63dca31e56cbdc84937b37c72ef086b381"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/merge.py",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/scripts/merge.py",
+      "bytes": 6342,
+      "sha256": "e0e83e8e0e54508336b0889529173ab28f5025445a3ea10c7eee35a92ecd5c5b"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/partial.py",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/scripts/partial.py",
+      "bytes": 22731,
+      "sha256": "a7c277f678bbd156c5083544078204a023709c5b4cf8c8d250cb3e568912f1f2"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/quant.py",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/scripts/quant.py",
+      "bytes": 12857,
+      "sha256": "eaf33279f9a259d13549be52130e5ecd2c89442bd7206653588498cb72e2cd1a"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/reference.py",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/scripts/reference.py",
+      "bytes": 20640,
+      "sha256": "c715a205d0d8eda393fa32148d48c730a1ac3b3815adf55a972f084f81a8c6d2"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/info/decoys_alts.json",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/dat/info/decoys_alts.json",
+      "bytes": 9552,
+      "sha256": "1e5f18f8a7efd304f3f3437e71de0c79ace63bc5432ef61783f885832616f41b"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/info/hla_freq.tsv",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/dat/info/hla_freq.tsv",
+      "bytes": 1208549,
+      "sha256": "fc48af59596b3436dc136f2dbf9d6b0bf2ce8f676eedcc52764d224383ea0e05"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/info/parameters.json",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/dat/info/parameters.json",
+      "bytes": 2605,
+      "sha256": "863855a5d57b162402c0a3c31b2d0710d90b31b50bf9537841f2b7fa47afc3ed"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/test/test.bam",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/test/test.bam",
+      "bytes": 1453026,
+      "sha256": "342717bcf88ee232cccc70baa5b201cf68f5cbddf93b28366334bff7ee7496dd"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/test/expected_output/test.genotype.json",
+      "source_url": "https://raw.githubusercontent.com/RabadanLab/arcasHLA/9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55/test/expected_output/test.genotype.json",
+      "bytes": 278,
+      "sha256": "f536c03ecc7855821c2fd5678a34bde9b2be87f883b02eeeebeda109175b2971"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/IMGTHLA/LICENCE.md",
+      "source_url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/8d77b3dd93959663d58ae5b626289d0746edd0e7/LICENCE.md",
+      "bytes": 3796,
+      "sha256": "6ab2447b8caeaf7d2ac6bde6e2e498f6ab1dfbdf84db8894922393566977c2da"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/IMGTHLA/release_version.txt",
+      "source_url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/8d77b3dd93959663d58ae5b626289d0746edd0e7/release_version.txt",
+      "bytes": 283,
+      "sha256": "2deff97dc8e741ef14f5a743ae30be957d022c1d8d3ba5cc53e95085c7825a6d"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/IMGTHLA/wmda/hla_nom_g.txt",
+      "source_url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/8d77b3dd93959663d58ae5b626289d0746edd0e7/wmda/hla_nom_g.txt",
+      "bytes": 365490,
+      "sha256": "a96f389276ed34d41a901027e0f360db2e22374e9547d9a4e4e22d294506b48a"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/IMGTHLA/wmda/hla_nom_p.txt",
+      "source_url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/8d77b3dd93959663d58ae5b626289d0746edd0e7/wmda/hla_nom_p.txt",
+      "bytes": 327770,
+      "sha256": "7e0b7da0a39a5368be66d34d1f5d0e078256dd87c4a194de26826202f1b835a8"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/IMGTHLA/hla.dat",
+      "source_url": "https://media.githubusercontent.com/media/ANHIG/IMGTHLA/8d77b3dd93959663d58ae5b626289d0746edd0e7/hla.dat",
+      "bytes": 205494921,
+      "sha256": "939680ee68ed2b4cfb4773af6c8e0b5fc5c985de00611ba13e3fcba3197d898f"
+    }
+  ],
+  "downloaded_bytes": 209060218,
+  "note": "Official catalog version explicitly represented in arcasHLA parameters. Older than current database; inference remains exploratory. No patient information in requests."
+}

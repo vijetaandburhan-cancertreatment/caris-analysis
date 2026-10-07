@@ -1,0 +1,46 @@
+run	caller_outcome	dataset	whole_reference	sparseD	known_fusion_recovery	input_pairs	selected_source_pairs	target_accepted	target_confidence	accepted_support_count_names	accepted_support_names	STAR_target_junction_count_names	STAR_target_junction_names	target_discarded_filters
+compactD1__fixture_all40	completed_with_call_tables	fixture_all40	False	1	True	40	40	True	high	10	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-28,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	10	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-28,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	
+compactD1__no_known_recovery__support_01_selection_1	completed_with_call_tables	support_01_selection_1	False	1	False	33	1	False		0		1	BCR-ABL1-4	in_vitro
+compactD1__parental_zero	no_chimeric_input; stock Arriba exit1, no call table generated	parental_zero	False	1	True	32	0	False		0		0		
+compactD1__shortest_anchor	no_chimeric_input; stock Arriba exit1, no call table generated	shortest_anchor	False	1	True	33	1	False		0		0		
+compactD1__strong_original	completed_with_call_tables	strong_original	False	1	True	36	4	True	high	3	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	3	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	
+compactD1__strong_trim_anchor12	completed_with_call_tables	strong_trim_anchor12	False	1	True	36	4	True	high	2	BCR-ABL1-24,BCR-ABL1-66	2	BCR-ABL1-24,BCR-ABL1-66	
+compactD1__strong_trim_anchor20	completed_with_call_tables	strong_trim_anchor20	False	1	True	36	4	True	high	2	BCR-ABL1-24,BCR-ABL1-66	2	BCR-ABL1-24,BCR-ABL1-66	
+compactD1__strong_trim_anchor30	completed_with_call_tables	strong_trim_anchor30	False	1	True	36	4	True	high	3	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	3	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	
+compactD1__support_01_selection_1	completed_with_call_tables	support_01_selection_1	False	1	True	33	1	False		0		1	BCR-ABL1-4	in_vitro
+compactD1__support_01_selection_2	completed_with_call_tables	support_01_selection_2	False	1	True	33	1	False		0		1	BCR-ABL1-2	in_vitro
+compactD1__support_01_selection_3	no_chimeric_input; stock Arriba exit1, no call table generated	support_01_selection_3	False	1	True	33	1	False		0		0		
+compactD1__support_02_selection_1	completed_with_call_tables	support_02_selection_1	False	1	True	34	2	True	high	2	BCR-ABL1-2,BCR-ABL1-4	2	BCR-ABL1-2,BCR-ABL1-4	
+compactD1__support_02_selection_2	completed_with_call_tables	support_02_selection_2	False	1	True	34	2	True	high	2	BCR-ABL1-2,BCR-ABL1-66	2	BCR-ABL1-2,BCR-ABL1-66	
+compactD1__support_02_selection_3	completed_with_call_tables	support_02_selection_3	False	1	True	34	2	False		0		1	BCR-ABL1-60	in_vitro
+compactD1__support_03_selection_1	completed_with_call_tables	support_03_selection_1	False	1	True	35	3	True	high	3	BCR-ABL1-2,BCR-ABL1-28,BCR-ABL1-4	3	BCR-ABL1-2,BCR-ABL1-28,BCR-ABL1-4	
+compactD1__support_03_selection_2	completed_with_call_tables	support_03_selection_2	False	1	True	35	3	True	high	2	BCR-ABL1-2,BCR-ABL1-66	2	BCR-ABL1-2,BCR-ABL1-66	
+compactD1__support_03_selection_3	completed_with_call_tables	support_03_selection_3	False	1	True	35	3	False		0		1	BCR-ABL1-60	in_vitro
+compactD1__support_05_selection_1	completed_with_call_tables	support_05_selection_1	False	1	True	37	5	True	high	4	BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-28,BCR-ABL1-4	4	BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-28,BCR-ABL1-4	
+compactD1__support_05_selection_2	completed_with_call_tables	support_05_selection_2	False	1	True	37	5	True	high	3	BCR-ABL1-2,BCR-ABL1-60,BCR-ABL1-66	3	BCR-ABL1-2,BCR-ABL1-60,BCR-ABL1-66	
+compactD1__support_05_selection_3	completed_with_call_tables	support_05_selection_3	False	1	True	37	5	True	high	3	BCR-ABL1-4,BCR-ABL1-60,BCR-ABL1-76	3	BCR-ABL1-4,BCR-ABL1-60,BCR-ABL1-76	
+compactD1__support_all	completed_with_call_tables	support_all	False	1	True	45	13	True	high	10	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-28,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	10	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-28,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	
+compactD8__fixture_all40	completed_with_call_tables	fixture_all40	False	8	True	40	40	True	high	9	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	9	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	
+compactD8__parental_zero	no_chimeric_input; stock Arriba exit1, no call table generated	parental_zero	False	8	True	32	0	False		0		0		
+compactD8__shortest_anchor	no_chimeric_input; stock Arriba exit1, no call table generated	shortest_anchor	False	8	True	33	1	False		0		0		
+compactD8__strong_original	completed_with_call_tables	strong_original	False	8	True	36	4	True	high	3	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	3	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	
+compactD8__strong_trim_anchor12	completed_with_call_tables	strong_trim_anchor12	False	8	True	36	4	True	high	2	BCR-ABL1-24,BCR-ABL1-66	2	BCR-ABL1-24,BCR-ABL1-66	
+compactD8__strong_trim_anchor20	completed_with_call_tables	strong_trim_anchor20	False	8	True	36	4	True	high	2	BCR-ABL1-24,BCR-ABL1-66	2	BCR-ABL1-24,BCR-ABL1-66	
+compactD8__strong_trim_anchor30	completed_with_call_tables	strong_trim_anchor30	False	8	True	36	4	True	high	3	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	3	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	
+compactD8__support_01_selection_1	completed_with_call_tables	support_01_selection_1	False	8	True	33	1	False		0		1	BCR-ABL1-4	in_vitro
+compactD8__support_01_selection_2	completed_with_call_tables	support_01_selection_2	False	8	True	33	1	False		0		1	BCR-ABL1-2	in_vitro
+compactD8__support_01_selection_3	no_chimeric_input; stock Arriba exit1, no call table generated	support_01_selection_3	False	8	True	33	1	False		0		0		
+compactD8__support_02_selection_1	completed_with_call_tables	support_02_selection_1	False	8	True	34	2	True	high	2	BCR-ABL1-2,BCR-ABL1-4	2	BCR-ABL1-2,BCR-ABL1-4	
+compactD8__support_02_selection_2	completed_with_call_tables	support_02_selection_2	False	8	True	34	2	True	high	2	BCR-ABL1-2,BCR-ABL1-66	2	BCR-ABL1-2,BCR-ABL1-66	
+compactD8__support_02_selection_3	completed_with_call_tables	support_02_selection_3	False	8	True	34	2	False		0		1	BCR-ABL1-60	in_vitro
+compactD8__support_03_selection_1	completed_with_call_tables	support_03_selection_1	False	8	True	35	3	True	high	2	BCR-ABL1-2,BCR-ABL1-4	2	BCR-ABL1-2,BCR-ABL1-4	
+compactD8__support_03_selection_2	completed_with_call_tables	support_03_selection_2	False	8	True	35	3	True	high	2	BCR-ABL1-2,BCR-ABL1-66	2	BCR-ABL1-2,BCR-ABL1-66	
+compactD8__support_03_selection_3	completed_with_call_tables	support_03_selection_3	False	8	True	35	3	False		0		1	BCR-ABL1-60	in_vitro
+compactD8__support_05_selection_1	completed_with_call_tables	support_05_selection_1	False	8	True	37	5	True	high	3	BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-4	3	BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-4	
+compactD8__support_05_selection_2	completed_with_call_tables	support_05_selection_2	False	8	True	37	5	True	high	3	BCR-ABL1-2,BCR-ABL1-60,BCR-ABL1-66	3	BCR-ABL1-2,BCR-ABL1-60,BCR-ABL1-66	
+compactD8__support_05_selection_3	completed_with_call_tables	support_05_selection_3	False	8	True	37	5	True	high	3	BCR-ABL1-4,BCR-ABL1-60,BCR-ABL1-76	3	BCR-ABL1-4,BCR-ABL1-60,BCR-ABL1-76	
+compactD8__support_all	completed_with_call_tables	support_all	False	8	True	45	13	True	high	9	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	9	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	
+fullD8__parental_zero	no_chimeric_input; stock Arriba exit1, no call table generated	parental_zero	True	8	True	32	0	False		0		0		
+fullD8__strong_original	completed_with_call_tables	strong_original	True	8	True	36	4	True	high	3	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	3	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	
+fullD8__strong_trim_anchor12	completed_with_call_tables	strong_trim_anchor12	True	8	True	36	4	True	high	2	BCR-ABL1-24,BCR-ABL1-66	2	BCR-ABL1-24,BCR-ABL1-66	
+fullD8__support_all	completed_with_call_tables	support_all	True	8	True	45	13	True	high	10	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-18,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	10	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-18,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	

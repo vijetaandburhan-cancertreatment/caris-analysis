@@ -1,0 +1,21 @@
+CARIS DNA + RNA: research findings
+
+TN26-279853 | Analysis completed 1 October 2026 | Handoff: 4 October 2026
+
+Source: nine Caris data files (DNA/RNA FASTQ and BAM, VCF, expression CSV and analytical workbook), from the 13 July 2026 FFPE brain specimen. Bulk sequencing; no matched-normal file supplied.
+
+MTAP / CDKN2A / CDKN2B deletion. The workbook calls all three genes Deleted; exported CNA values are 0.80, 1.30 and 0.90, respectively. These are not independently calibrated tumor copy counts. MTAP RNA remains detectable (4.88 TPM); bulk residual signal cannot resolve tumor-cell copy state. Open: segmented copy number, purity/ploidy and allele-specific analysis to distinguish homozygous loss from other explanations.
+
+Sequence-supported coding alterations. BAP1 c.168_178del11 / p.R57fs, RASA1 c.747delG / p.S250fs and APC p.S2577* have exported DNA VAFs of 54.2%, 53.5% and 40.3%, with mutant RNA support. All 21 selected protein-altering export calls were checked in DNA and RNA. Chromosome 3p allelic imbalance warrants copy-number/LOH review but does not establish a second hit. APC sequence reconstruction places its stop late in the protein; do not infer the same effect as an early APC truncation.
+
+Additional Hippo-pathway candidates found in the reads. LATS1 GRCh38 chr6:149695191 T>TA, ENST00000543571.6 c.378dup, predicts p.(Asn127Ter). Alternate/reference fragment counts: DNA 23/16, RNA 4/2. LATS2 chr13:20975259 C>T, ENST00000382592.5 c.2878G>A, predicts p.(Gly960Arg): DNA 79/38, RNA 44/5. Neither appears in the supplied variant tables. A second implementation reproduced these counts/consequences. LATS1 is a truncation hypothesis; LATS2 function is unknown. Both need normal-sample exclusion and orthogonal validation.
+
+RNA expression starting points. MSLN 253.01, KRT5 378.89, KRT6A 119.35, CALB2 41.64 and WT1 61.45 TPM; EPCAM 3.02, CLDN4 0.60, KRT20 0.52 and UPK2 0.49 TPM. These are bulk measurements, not tumor-cell protein levels or an independently validated lineage classifier. MSLN is a focused protein-validation lead.
+
+Most developed antigen hypothesis: BAP1 / HLA-B*50:01. Exact mutant coding windows support IEERKGLYL (691 DNA / 241 RNA fragments) and overlapping EERKGLYL (693 / 245). MHCflurry 2.3.0 predicts B*50:01 binding at 304 / 364 nM (ranks 0.78% / 0.85%); both also scored favorably in the 2.2.0 check. RNA HLA typing yielded A*02:01/A*26:01, B*50:01/B*52:01 and C*06:02/C*12:02, stable across two reference releases. These are overlapping candidates from one mutation. Translation, tumor specificity, tumor HLA retention, peptide presentation and T-cell recognition remain untested.
+
+Completed broader searches; useful limits. Full-input exploratory fusion analysis (23.2 million RNA pairs) produced no high-confidence actionable fusion after junction/BAM review. Of 143 selected alternative splice junctions, 141 match normal GTEx coordinates. Broader indel screening retained 32 RNA-supported candidates; 26 match public population alleles. Bulk TCR reconstruction yielded only one conservatively retained partial beta CDR3, (CASSLIGGDAFF), with no alpha-beta pairing or tumor-reactivity evidence. These bounded searches are not comprehensive negative clinical tests.
+
+Highest-value extensions. Prioritize matched-normal somatic classification; MTAP/BAP1 allele-specific copy-number analysis; LATS1/LATS2 validation; BAP1 antigen-presentation testing; and genome-aware fusion/structural-variant analysis. Provisional HLA-II calls are available; class-II peptide scoring was not completed because public numerical controls failed. Methods, candidate tables, controls and audit outputs are retained for reproducibility.
+
+Fragment counts collapse read pairs by name; they are not UMI-confirmed independent molecules. Research summary of the Caris data only; no pathology, imaging or treatment records used.

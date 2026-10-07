@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "method": "Direct summation of fragment_ref+fragment_alt+fragment_other in each original per-assay chromosome TSV, without treating observed rows or nonACGT/refskip symbols as ACGT coverage.",
+  "counts": {
+    "DNA": {
+      "observed_pileup_rows": 62358,
+      "at_least1_ACGT_QNAME": 62262,
+      "at_least20_ACGT_QNAME": 35885,
+      "zero_ACGT_rows": 96
+    },
+    "RNA": {
+      "observed_pileup_rows": 78071,
+      "at_least1_ACGT_QNAME": 25707,
+      "at_least20_ACGT_QNAME": 4072,
+      "zero_ACGT_rows": 52364
+    }
+  }
+}

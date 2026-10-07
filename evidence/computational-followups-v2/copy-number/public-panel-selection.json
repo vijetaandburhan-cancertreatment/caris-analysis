@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "chr3": {
+      "public_records_seen": 5641493,
+      "selected": 32702
+    },
+    "chr5": {
+      "public_records_seen": 5115036,
+      "selected": 28606
+    },
+    "chr9": {
+      "public_records_seen": 3384360,
+      "selected": 22144
+    },
+    "chr17": {
+      "public_records_seen": 2209149,
+      "selected": 20977
+    },
+    "chr2": {
+      "public_records_seen": 6790551,
+      "selected": 38913
+    },
+    "chr8": {
+      "public_records_seen": 4425449,
+      "selected": 22440
+    }
+  },
+  "reference": "1000G20190312 directly called GRCh38 biallelic panel; UCSC hg38 REF matches required",
+  "AF": "global alternate frequency0.05\u20130.95; SAS frequency recorded, not used to select",
+  "scope": "all protein-coding GENCODE37 exons+100bp on chr2/3/5/8/9/17, plus BAP1/RASA1/MTAP/CDKN2A/B\u00b1250kb all common SNPs, plus globalAF0.2\u20130.8 grid at least10kb apart; no patient allele evidence in selection",
+  "limitations": "These are population polymorphisms, not proof of heterozygosity or germline status in this individual. Population linkage and target enrichment violate independent-site assumptions."
+}

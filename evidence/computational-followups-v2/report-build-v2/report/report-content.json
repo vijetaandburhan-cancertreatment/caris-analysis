@@ -1,0 +1,176 @@
+{
+  "title": "New computational findings",
+  "subtitle": "Caris follow-up | 5 October 2026, revised overnight | Research review of existing data",
+  "status": "All four computational workstreams complete: copy-number/alleles, HLA-II, sequence-validation package and full-reference RNA analysis. Independent method/read checks are complete; the new inferences still require biological validation.",
+  "pages": [
+    {
+      "title": "1. Copy number and allele balance",
+      "intro": "New versus the prior handoff: denser regional allele-balance evidence and independently checked BAP1 local phase. Neither converts the vendor MTAP deletion call into calibrated tumor copy number or proves BAP1 loss of heterozygosity.",
+      "sections": [
+        {
+          "heading": "BAP1: the mutation and nearby SNP are linked",
+          "text": "At GRCh38 chr3:52408338, the SNP has 109 C versus 30 G query-name fragments. Across the SNP and the BAP1 11-bp deletion, 37 informative paired fragments give the following exact local haplotypes:",
+          "table": [
+            [
+              "SNP / deletion state",
+              "Fragments",
+              "Clean subset"
+            ],
+            [
+              "C + deletion",
+              "21",
+              "19"
+            ],
+            [
+              "C + reference",
+              "7",
+              "4"
+            ],
+            [
+              "G + reference",
+              "9",
+              "8"
+            ],
+            [
+              "G + deletion",
+              "0",
+              "0"
+            ]
+          ],
+          "after": "Independent CIGAR-based analysis reproduced every phase count and fragment identity. All 37 pairs have distinct alignment patterns, reciprocal mate coordinates and consistent insert lengths; none is a single read spanning both loci. Seven C+reference observations remain. Query-name fragments are not UMI-proven original molecules."
+        },
+        {
+          "heading": "The regional evidence is substantially broader",
+          "text": "Of 165,782 selected population SNP positions on six chromosomes, 62,358 yielded pileup output and 6,564 met stringent candidate-heterozygote criteria. On 3p, 439 sites have median minor-allele fraction 0.218; on 3q, 582 sites have 0.375. BAP1 +/-1 Mb contains 57 sites with median 0.224. Relative off-exon fragment density on 3p versus 3q is approximately 0.75-0.76 across 100-kb-bin sensitivity settings. These broaden the observations; they are not calibrated tumor copy-number calls."
+        },
+        {
+          "heading": "What this does and does not establish",
+          "text": "The BAP1 deletion is locally linked to the overrepresented C allele. The data do not distinguish loss of the opposite allele, copy-neutral loss of heterozygosity, allele-specific gain, mixed clones or normal-cell contributions. They do not establish somatic status, a second hit or biallelic BAP1 inactivation. Constitutional heterozygosity is unconfirmed without matched normal DNA."
+        },
+        {
+          "heading": "MTAP and RASA1 remain unresolved at the copy-number level",
+          "text": "The Caris analytical export already called MTAP, CDKN2A and CDKN2B Deleted, with CNA values 0.80, 1.30 and 0.90. Those are vendor outputs, not inferred integer tumor copies. The new analysis does not independently calibrate homogeneous homozygous loss. Nearly balanced local CDKN2A SNPs are compatible with several explanations; the broad downstream density trough is not a deletion boundary. No qualifying common-SNP heterozygote was found within RASA1 +/-1 Mb, leaving its local second-hit status unresolved."
+        }
+      ]
+    },
+    {
+      "title": "2. Antigen candidates and HLA RNA evidence",
+      "intro": "The new RNA analysis supports continuing the existing BAP1/B*50:01 research hypothesis. The class-II screen adds a RASA1 mutant/reference testing pair. Neither establishes a naturally displayed tumor antigen.",
+      "sections": [
+        {
+          "heading": "New: conditional B*50:01-compatible bulk RNA",
+          "text": "An alignment-independent scan of all 23,209,264 RNA pairs used 344 matched 91-nucleotide coding-window starts with every marker base Q>=30 and 5-nt end margins. It found 2,132 B*50:01-compatible pairs and 1,655 B*52:01-compatible pairs; 1,588/1,299 distinct full-pair sequences. A separate parser/search exactly reproduced the counts. Longer/shorter matched windows retain both patterns. These are overlapping sequence observations, not independent molecules or a calibrated expression ratio.",
+          "after": "The markers are shared with other catalogued HLA-B alleles. Thus the claim is conditional on the earlier RNA-based B50/B52 genotype inference, not independent clinical HLA typing. Bulk RNA cannot assign B50 transcripts to malignant cells, establish HLA retention/surface expression, or link them to the BAP1-mutant cell. B*50:01-compatible RNA is detectable; peptide presentation and selective T-cell recognition remain unproven."
+        },
+        {
+          "heading": "The RASA1 lead requires its reference control",
+          "text": "Natural-terminal RASA1 15-mer GDYYIGGRRFSSLQT (amino acids 237-251) is paired with provisional DPA1*01:03/DPB1*02:01. Its matched reference is GDYYIGGRRFSSLSD. Both have high EL scores:",
+          "table": [
+            [
+              "Model score",
+              "Mutant",
+              "Reference"
+            ],
+            [
+              "CapHLA v2 EL",
+              "0.925750",
+              "0.777399"
+            ],
+            [
+              "CapHLA v1 EL",
+              "0.958507",
+              "0.802943"
+            ],
+            [
+              "v2 normalized BA",
+              "0.453212",
+              "0.400247"
+            ]
+          ],
+          "after": "EL is a model score, not a presentation probability. Normalized BA is not measured affinity or a percentile. The pair does not meet both exploratory EL/BA>0.5 cutpoints; release consistency supports an experiment, not validation."
+        },
+        {
+          "heading": "The central specificity problem: most possible cores are unchanged",
+          "text": "Five of seven possible 9mer cores contain unchanged reference sequence. The mutation-containing candidates are GGRRFSSLQ and GRRFSSLQT, with altered residues near their ends; the bound register is unknown. A response could recognize a shared core. Test matched mutant/reference titrations, HLA restriction and register, then endogenous presentation and target-cell recognition."
+        },
+        {
+          "heading": "BAP1: preserve the negative and unstable findings",
+          "text": "BAP1 maximum current-release EL is 0.370006 in the primary 13-25mer scan. Two older-release combined-cutpoint positives fail the current release. The 12mer IFLFKWIEERKG/DRB5*01:02 gives EL 0.532382 versus reference 0.511394, low normalized BA and unstable release contrast. No robust mutation-selective BAP1 CD4 lead emerged; this does not prove biological impossibility."
+        },
+        {
+          "heading": "What was checked",
+          "text": "All 32 official CapHLA v2 and 100 v1 examples reproduced within 0.00001. The primary 117 mutant windows and matched references across nine provisional HLA combinations produce 1,053 paired comparisons; nine 12mer sensitivity windows bring the total to 126. Independent review checked every primary sequence, row and core count. HLA genotype assumptions, unphased DQ pairs and out-of-range BA scores remain documented; no nM conversion or clinical affinity claim."
+        }
+      ]
+    },
+    {
+      "title": "3. RNA support and laboratory handoff",
+      "intro": "The handoff turns sequence observations into defined laboratory questions, with reference controls and evidence gates. It is ready for research review; no new antigen or treatment response has been proven.",
+      "sections": [
+        {
+          "heading": "Sequence and control package ready",
+          "text": "Versioned GRCh38/RefSeq alleles, mutant/reference nucleotide and protein FASTAs, scoped read audits and independent sequence checks are ready. BAP1 IEERKGLYL/EERKGLYL have both same-position reference controls and 31 two-substitution human-reference 8mer controls; seven neighbors predict stronger B*50:01 binding than the 8mer. This motivates specificity controls, not a claim of cross-reactivity or safety."
+        },
+        {
+          "heading": "Keep the LATS interpretation exact",
+          "text": "LATS1 NM_004690.4:c.378dup predicts p.(Asn127Ter): 126 unchanged residues, then stop; no novel tail. LATS2 NM_014572.3:c.2878G>A predicts p.(Gly960Arg), effect unknown. Both require orthogonal and matched-normal confirmation. Sequence support alone does not establish Hippo activation or TEAD-inhibitor sensitivity."
+        },
+        {
+          "heading": "BAP1 and LATS1 RNA support survives re-alignment",
+          "text": "In the strict 10-bp-flank assay, BAP1 alternate/reference fragments are 246/53 originally and 246/52 after re-alignment. Its annotated flanking junctions retain 40/135 alternate-linked names, including 28/133 same-read links. LATS1 remains 4 alternate/2 reference, with 2 same-read alternate links at each flank. A minor BAP1 exon-skip junction has 2 names in both runs and is already annotated in a nonsense-mediated-decay transcript. It cannot be phased to the deletion. These observations support local processed mutant RNA, not complete isoforms, functional rescue or proteins. All 102 new junction rows and allele counts were independently reproduced."
+        },
+        {
+          "heading": "RASA1 illustrates alignment sensitivity",
+          "text": "Strict alternate support changes 75 to 61, with reference support 46 in both alignments. Fifteen old alternate names lose short mutation-bearing leading blocks to soft clipping; one name gains support. Nine losses also become multimapped. The underlying sequences and qualities are identical. This is an alignment/filter difference, not biological change; both runs use the same specimen/read pool."
+        },
+        {
+          "heading": "Bounded MET exon-14 check: no skipped junction detected",
+          "text": "A separate splice check found no canonical exon-13-to-15 junction in the original BAM, new STAR junction output or all 23.2 million raw RNA pairs. Exact 50-nt Q20 markers detect normal 13-to-14 and 14-to-15 junctions in 60/65 pairs, versus zero for skipping; 30-nt markers also give zero skipping. An independent CIGAR/annotation audit and synthetic skipped-exon positive control passed. This is a research negative for this junction, not clinical exclusion of all MET alterations."
+        },
+        {
+          "heading": "Evidence levels and highest-value next steps",
+          "text": "Input support: local DNA/RNA sequence evidence and recorded provenance. Method checks: independent recounts/translations and released-model/public controls. These new computational inferences lack orthogonal biological/clinical validation. Ask Caris for allele-specific CN/LOH segments, B-allele/log2 data, purity/ploidy and an explicit MTAP homozygous-loss interpretation; then prioritize matched-normal/orthogonal variant confirmation, normal-blood HLA typing and staged binding, presentation and mutant-versus-reference T-cell assays. No result alone changes treatment or trial eligibility."
+        }
+      ]
+    },
+    {
+      "title": "4. Genome-aware fusion and structural review",
+      "intro": "All 23,209,264 original RNA pairs completed STAR 2.7.11b alignment against the full GRCh38 primary reference with GENCODE 37. Uniquely mapped pairs were 81.06%; 13.21% mapped to multiple loci. This is whole-reference analysis of bulk RNA, not whole-genome DNA sequencing.",
+      "sections": [
+        {
+          "heading": "54 candidate hypotheses received read-level review",
+          "text": "Arriba retained 28 rows (1 high, 17 medium, 10 low confidence); predeclared rules added 26 of 825,436 discarded rows. All 913 original caller-named pairs were recovered. Full-input exact-junction scans, separate selected-read recounts and searches of the primary genome plus 234,485 GENCODE 37 transcripts distinguish sequence support from repeat/normal-RNA explanations. No validated activating or treatment-selecting fusion was established."
+        },
+        {
+          "heading": "What the strongest signals mean",
+          "table": [
+            [
+              "Event",
+              "Evidence and interpretation"
+            ],
+            [
+              "CEACAM3 self-event",
+              "Exact 100-nt joined sequence in 100 DNA fragments at Q20 (55 at Q30), independently reproduced. The selected breakpoint is beyond the coding stop; no coding fusion peptide is predicted. Structural interpretation and somatic status remain uncertain."
+            ],
+            [
+              "KRTAP9-1 repeat insertion",
+              "A 27-bp insertion representation has RNA and DNA support; 100-nt DNA marker counts are 329/262 at Q20/Q30. The local model adds 9 amino acids in frame. Repeat-associated mate conflicts prevent a reliable VAF. No driver role is established."
+            ],
+            [
+              "NOTCH2NLC self-event",
+              "The exact 50-nt marker occurs 14 times in the primary genome and 10 times in normal reference transcripts. Large raw counts are not specific evidence for the named event."
+            ],
+            [
+              "CCND1::HEG1",
+              "11 exact 50-nt Q20 RNA pairs (7 sequence families; 9 Q30); 17-bp microhomology and 10/11 fully overlapping mates. Bounded genome/transcript searches favor the joined sequence. A locus-limited DNA audit found no exact 50/100-nt marker, but two nonduplicate read-pair names favor imperfect joined models over nominated normal alternatives. The low-count DNA hints do not confirm a genomic fusion, endogenous antisense RNA or driver."
+            ]
+          ]
+        },
+        {
+          "heading": "Kinase names do not establish activating fusions",
+          "text": "Selected MET/NTRK2/BRAF self-junctions have back-splice/noncanonical explanations; RET/ALK candidates have head-to-head or tail-to-tail geometry. BAP1 partner hypotheses do not establish a structural second hit. All accepted rows lack caller discordant-mate support; short overlapping inserts make that limitation insufficient to reject a call by itself. The full 54-row table retains weak, ambiguous and negative findings."
+        }
+      ]
+    }
+  ]
+}

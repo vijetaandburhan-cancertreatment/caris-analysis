@@ -1,0 +1,73 @@
+{
+  "status": "PASS_NUMBERS_WITH_TWO_REQUIRED_WORDING_CLARIFICATIONS",
+  "created_utc": "2026-10-05T06:57:37.040823+00:00",
+  "reviewed_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/delivery/render_addendum.py",
+  "reviewed_source_sha256": "bc1af1f77206cad05f7f4eab10a7f712f9a3ceeddff08d69c386456593c78c86",
+  "scope": "Numerical/editorial review of static source prose/table. Unavailable editorial.json/read-origin paragraphs and rendered layout are not reviewed here.",
+  "verified_numbers": {
+    "full_universe": 165782,
+    "nonzero_ACGT_DNA": 62262,
+    "nonzero_ACGT_RNA": 25707,
+    "DNA_depth20": 35885,
+    "RNA_depth20": 4072,
+    "joint": 4015,
+    "dominant_total": 2873,
+    "ref_dominant": 2283,
+    "alt_dominant": 590,
+    "retention90_total": 2860,
+    "retention98_total": 2760,
+    "retention90_percent": 99.55,
+    "retention98_percent": 96.07,
+    "baseline_dominant_opposite98": 0,
+    "dominant_bins1Mb": 554,
+    "dominant_unique_genes": 1194,
+    "dominant_prior335_overlap": 72,
+    "dominant_neighbor_gaps_under1kb": 549,
+    "spaced_public": 17264,
+    "spaced_joint": 165,
+    "spaced_dominant": 120,
+    "spaced_retention90": 120,
+    "spaced_retention98": 115,
+    "mixed": 1109,
+    "residual": 33,
+    "mixed_RNA_REF_or_ALT98": 68,
+    "strong_discordances": 6,
+    "all_dominant_below90": 13,
+    "lower_RNA_depth_exceptions": 7,
+    "MAPQ60_only_flags": 3,
+    "old_DNA_integer_comparisons": 935370,
+    "old_DNA_rows": 62358,
+    "old_DNA_differences": 0,
+    "annotation_spotcheck_loci": 81,
+    "new_alignment_public_intersection": 73,
+    "new_alignment_joint_intersection": 0,
+    "new_alignment_original_max_RNA_depth": 9
+  },
+  "required_changes": [
+    {
+      "quote": "surviving sites are strongly enriched near expressed exons",
+      "issue": "The frozen scope and GENCODE annotation establish proximity to annotated exons; this analysis does not independently assign expression to a particular exon/gene at potentially homologous loci.",
+      "replacement": "surviving sites are strongly enriched near annotated exons"
+    },
+    {
+      "quote": "No baseline position switches to \u226598% of the opposite REF/ALT allele.",
+      "issue": "The zero count applies to the 2873 baseline DNA-dominant sites. Mixed-DNA RNA-monoallelic cases exist and are separately reported. The preceding context implies this but explicit scope avoids a broader negative.",
+      "replacement": "Among those 2,873 baseline DNA-dominant positions, none switches to \u226598% of the opposite REF/ALT allele."
+    }
+  ],
+  "optional_precision": [
+    {
+      "quote": "No finite depth cap was used (-d 0).",
+      "replacement": "The explicit depth limit was disabled (-d 0), which samtools treats as effectively unlimited.",
+      "reason": "Avoids implying mathematically infinite capacity; installed synthetic qualification establishes behavior at tested depth."
+    }
+  ],
+  "other_assessments": {
+    "identity_or_contamination_overclaim": "None found; limitations and absence of calibrated probability are explicit.",
+    "UMI_or_independent_molecule_overclaim": "None found; query-name units not unique molecules stated.",
+    "independent_alignment_overclaim": "None found; original-alignments dependence and not-evaluable newer alignment correctly stated.",
+    "exon_vs_CDS": "Protein-coding gene exons plus100bp is faithful to source selection. These are UTR-inclusive exons, not necessarily coding CDS; no current sentence asserts CDS membership.",
+    "clean_filter": "Correctly describes a separate sensitivity; correctly preserves APOD/EXOC3 reduced-depth discrepancies.",
+    "read_context": "Pending separate review; no opinion on not-yet-inserted origin_paragraphs."
+  }
+}

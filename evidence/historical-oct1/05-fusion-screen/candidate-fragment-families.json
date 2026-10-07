@@ -1,0 +1,519 @@
+{
+  "method": "Group names by both mates chromosome, strand and unclipped5prime genomic coordinate, as read from original STAR BAM. This uses known alignment portions; it is not a UMI count or re-alignment.",
+  "interpretation": "Distinct names or sequence pairs can still be PCR/optical families. A single coordinate family is insufficient independent-template support for a new clinical fusion call. Different coordinates do not prove biological molecules or a rearrangement.",
+  "summary": [
+    {
+      "central40_supported_names": 3,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "ZMYND11",
+      "geneB": "FRMD4A",
+      "candidate_names": 3,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "CTNNA1",
+      "geneB": "SIL1",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "COPB1",
+      "geneB": "ATRX",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "PTMA",
+      "geneB": "NFE2L2",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "STING1",
+      "geneB": "PRKACA",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 4,
+      "central40_primary_pair_coordinate_families": 2,
+      "geneA": "SLC29A1",
+      "geneB": "HSP90AB1",
+      "candidate_names": 6,
+      "primary_pair_unclipped5prime_coordinate_families": 3,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 3,
+      "central40_primary_pair_coordinate_families": 2,
+      "geneA": "NF1",
+      "geneB": "AK4",
+      "candidate_names": 4,
+      "primary_pair_unclipped5prime_coordinate_families": 2,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 4,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "TCF7L2",
+      "geneB": "GFRA1",
+      "candidate_names": 4,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "ABL1",
+      "geneB": "FUBP3",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 3,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "ARHGEF10",
+      "geneB": "KBTBD11",
+      "candidate_names": 3,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "COL5A2",
+      "geneB": "SLC39A10",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0
+    },
+    {
+      "central40_supported_names": 3,
+      "central40_primary_pair_coordinate_families": 2,
+      "geneA": "SHROOM2",
+      "geneB": "WWC3",
+      "candidate_names": 3,
+      "primary_pair_unclipped5prime_coordinate_families": 2,
+      "names_without_complete_primary_pair": 0
+    }
+  ],
+  "details": [
+    {
+      "central40_supported_names": 3,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "ZMYND11",
+      "geneB": "FRMD4A",
+      "candidate_names": 3,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr10",
+            13646860,
+            "forward"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr10",
+            13647086,
+            "reverse"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:4:1136:29577:3552",
+            "A01687:587:H2KM3DSXG:4:1136:29586:3568",
+            "A01687:587:H2KM3DSXG:4:1136:29649:3615"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "CTNNA1",
+      "geneB": "SIL1",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr5",
+            139042673,
+            "forward"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr5",
+            139051094,
+            "reverse"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:4:2337:12391:7701",
+            "A01687:587:H2KM3DSXG:4:2337:12635:7905"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "COPB1",
+      "geneB": "ATRX",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chrX",
+            77654140,
+            "forward"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chrX",
+            77656698,
+            "reverse"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:3:1662:12554:34287",
+            "A01687:587:H2KM3DSXG:4:2355:2844:12367"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "PTMA",
+      "geneB": "NFE2L2",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr2",
+            177234146,
+            "forward"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr2",
+            177234314,
+            "reverse"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:1:2525:29423:35070",
+            "A01687:587:H2KM3DSXG:1:2525:29848:34460"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "STING1",
+      "geneB": "PRKACA",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr19",
+            14093197,
+            "forward"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr19",
+            14093834,
+            "reverse"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:3:1217:22670:36526",
+            "A01687:587:H2KM3DSXG:4:2534:28483:23766"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 4,
+      "central40_primary_pair_coordinate_families": 2,
+      "geneA": "SLC29A1",
+      "geneB": "HSP90AB1",
+      "candidate_names": 6,
+      "primary_pair_unclipped5prime_coordinate_families": 3,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr6",
+            44249416,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr6",
+            44232366,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:1:1426:13747:32346",
+            "A01687:587:H2KM3DSXG:1:1426:13901:32550"
+          ]
+        },
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr6",
+            44249413,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr6",
+            44232364,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:3:1465:20148:35853",
+            "A01687:587:H2KM3DSXG:3:1466:16794:1329"
+          ]
+        },
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr6",
+            44249459,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr6",
+            44232345,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:4:1422:27896:4147",
+            "A01687:587:H2KM3DSXG:4:1422:31566:13542"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 3,
+      "central40_primary_pair_coordinate_families": 2,
+      "geneA": "NF1",
+      "geneB": "AK4",
+      "candidate_names": 4,
+      "primary_pair_unclipped5prime_coordinate_families": 2,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr17",
+            31345629,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr17",
+            31343035,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:2:2170:27163:2910",
+            "A01687:587:H2KM3DSXG:2:2170:27588:3145",
+            "A01687:587:H2KM3DSXG:2:2170:27597:3129"
+          ]
+        },
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr17",
+            31345423,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr17",
+            31343002,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:4:1629:11008:17613"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 4,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "TCF7L2",
+      "geneB": "GFRA1",
+      "candidate_names": 4,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr10",
+            113158150,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr10",
+            113151828,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:3:1509:25201:29481",
+            "A01687:587:H2KM3DSXG:3:2509:21875:31203",
+            "A01687:587:H2KM3DSXG:3:2509:22055:31172",
+            "A01687:587:H2KM3DSXG:3:2509:22073:31172"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "ABL1",
+      "geneB": "FUBP3",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr9",
+            130609989,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr9",
+            130595433,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:1:1642:4878:18427",
+            "A01687:587:H2KM3DSXG:2:1646:29098:33442"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 3,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "ARHGEF10",
+      "geneB": "KBTBD11",
+      "candidate_names": 3,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr8",
+            2000434,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr8",
+            1945611,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:2:2343:16459:2284",
+            "A01687:587:H2KM3DSXG:2:2343:16504:1955",
+            "A01687:587:H2KM3DSXG:2:2343:16523:2300"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 2,
+      "central40_primary_pair_coordinate_families": 1,
+      "geneA": "COL5A2",
+      "geneB": "SLC39A10",
+      "candidate_names": 2,
+      "primary_pair_unclipped5prime_coordinate_families": 1,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chr2",
+            195680169,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chr2",
+            195679954,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:3:1274:10972:14418",
+            "A01687:587:H2KM3DSXG:3:1274:11207:14512"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "central40_supported_names": 3,
+      "central40_primary_pair_coordinate_families": 2,
+      "geneA": "SHROOM2",
+      "geneB": "WWC3",
+      "candidate_names": 3,
+      "primary_pair_unclipped5prime_coordinate_families": 2,
+      "names_without_complete_primary_pair": 0,
+      "families": [
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chrX",
+            10067324,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chrX",
+            9939260,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:1:1317:10610:34835",
+            "A01687:587:H2KM3DSXG:1:1317:10655:20791"
+          ]
+        },
+        {
+          "mate1_chrom_unclipped5prime_strand": [
+            "chrX",
+            10063483,
+            "reverse"
+          ],
+          "mate2_chrom_unclipped5prime_strand": [
+            "chrX",
+            9944699,
+            "forward"
+          ],
+          "names": [
+            "A01687:587:H2KM3DSXG:4:1153:16107:15358"
+          ]
+        }
+      ],
+      "incomplete": []
+    }
+  ]
+}

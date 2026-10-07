@@ -1,0 +1,136 @@
+{
+  "scope": "relative off-exon DNA fragment density, NOT measured copy number",
+  "capture_proxy": "GENCODE37 protein-coding exon union with100/500/2000bp padding; not actual capture BED",
+  "normalization": "100/250kb bins. Density numerator proper-pair read1 fragment midpoints, denominator off-exon ACGT bp. Robust within-sample regression of log2 density on cubic GC, quadratic repeat fraction and interaction. Train on autosomes excludingchr3/5/9/17, excludingcentromeres. Center to trainingmedian. Genome background is not demonstrated diploid.",
+  "filters": "retainedoff-exonACGT>=40%bin;genomeACGT>=90%;GC0.2\u20130.75;repeat<=0.85;atleast5fragments",
+  "pseudocount": "0.5 added to fragment count before log2 to bound zero bins; retainedbins>=5 counts",
+  "limitations": [
+    "Same-sample GC/RepeatMasker correction cannot remove unknown bait/mappability/protocol biases.",
+    "No matched normal/panel of normals/assay target BED/purity/ploidy; relative density is not absolute or allele-specific copy number.",
+    "Off-exon filter uses fragment center, not full fragment; flank sensitivity included.",
+    "Centromere and sex chromosomes excluded from normalization.",
+    "Nearby windows and markers are correlated; plotting/region medians do not create independent molecular observations."
+  ],
+  "fits": {
+    "100kb_off100": {
+      "training_bins": 20918,
+      "retained_bins": 28091,
+      "beta": [
+        0.8846703510002278,
+        13.27115113621873,
+        -40.42254089086121,
+        136.64855120989463,
+        1.8791239482564417,
+        0.5339019089085345,
+        -0.2567386678521985
+      ],
+      "residual_center": -0.06733017960409926,
+      "raw_log2density_center": 1.1058059141190775
+    },
+    "100kb_off500": {
+      "training_bins": 20822,
+      "retained_bins": 27957,
+      "beta": [
+        0.840852182901613,
+        13.081823159011666,
+        -46.046801507242,
+        127.30686578252919,
+        1.9852539396333717,
+        0.1548268414776919,
+        -4.07105349557311
+      ],
+      "residual_center": -0.0653643713091774,
+      "raw_log2density_center": 1.0734040400960372
+    },
+    "100kb_off2000": {
+      "training_bins": 18850,
+      "retained_bins": 25416,
+      "beta": [
+        0.815535293618695,
+        12.771157239084951,
+        -45.47834394148564,
+        128.26359414920609,
+        2.004375655610205,
+        -0.13121694640912823,
+        -3.0086891004065266
+      ],
+      "residual_center": -0.06051764635076358,
+      "raw_log2density_center": 1.0036022366801955
+    },
+    "100kb_off500_mq60": {
+      "training_bins": 20800,
+      "retained_bins": 27885,
+      "beta": [
+        0.8207343672089549,
+        12.943459778184334,
+        -44.93164494228832,
+        121.58386093240046,
+        1.9335708215948115,
+        0.28003323408875613,
+        -4.035432101292292
+      ],
+      "residual_center": -0.06286343352623647,
+      "raw_log2density_center": 1.0518358651545605
+    },
+    "250kb_off100": {
+      "training_bins": 8339,
+      "retained_bins": 11216,
+      "beta": [
+        0.9901341399824697,
+        13.772382439720737,
+        -50.43659213799248,
+        175.73457566714796,
+        2.3916467446561036,
+        1.0169382588346665,
+        -0.13019148303612113
+      ],
+      "residual_center": -0.08066354563649861,
+      "raw_log2density_center": 1.2878387474983561
+    },
+    "250kb_off500": {
+      "training_bins": 8331,
+      "retained_bins": 11201,
+      "beta": [
+        0.9436707153914601,
+        13.70069102993383,
+        -53.38213960262728,
+        144.77100240882075,
+        2.48042939288247,
+        0.5900130578778316,
+        -4.710014482007363
+      ],
+      "residual_center": -0.08571156384369094,
+      "raw_log2density_center": 1.259282787367608
+    },
+    "250kb_off2000": {
+      "training_bins": 7903,
+      "retained_bins": 10645,
+      "beta": [
+        0.9091711159988255,
+        13.339691530952704,
+        -50.22983271913259,
+        129.8786442114921,
+        2.581308671527678,
+        -0.05045400712698785,
+        -2.770348737328523
+      ],
+      "residual_center": -0.08871357293982562,
+      "raw_log2density_center": 1.194471397984647
+    },
+    "250kb_off500_mq60": {
+      "training_bins": 8331,
+      "retained_bins": 11185,
+      "beta": [
+        0.923963533980993,
+        13.571154115030657,
+        -52.42794383915879,
+        140.24539007567572,
+        2.439254980317873,
+        0.6209219170893604,
+        -4.879598079930699
+      ],
+      "residual_center": -0.08003985556426152,
+      "raw_log2density_center": 1.240095261917811
+    }
+  }
+}

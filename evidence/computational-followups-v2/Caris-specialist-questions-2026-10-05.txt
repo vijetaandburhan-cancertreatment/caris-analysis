@@ -1,0 +1,23 @@
+Five specialist questions | 5 October 2026
+
+1. Can Caris provide its calibrated allele-specific CN/LOH segments, purity/ploidy and assay interpretation for MTAP/CDKN2A/B, and does the MTAP result meet its validated definition of homozygous tumor loss?
+Why ask: The export says Deleted with MTAP CNA 0.80; our tumor-only analysis cannot translate this into integer tumor copies or homogeneous loss.
+What the answer changes: Whether MTAP-loss trial screening has a sufficiently established biomarker, or whether orthogonal tissue confirmation is needed before relying on that status. Trial eligibility still depends on the specific protocol and clinical criteria.
+
+2. Does BAP1 have a clinically confirmed somatic second hit or loss of the WT allele, and which matched-normal/allele-specific assay can resolve it?
+Why ask: The frameshift is locally linked to the overrepresented C SNP allele, but 7 C+reference and 9 G+reference fragments remain. The current evidence cannot distinguish copy-neutral LOH, copy loss, allele-specific gain or mixed-cell explanations.
+What the answer changes: Whether we can describe BAP1 as biallelically inactivated, how to interpret the mutation's tumor specificity, and whether genetics evaluation is indicated. Local phase alone should not decide diagnosis or treatment.
+
+3. Can the research team test whether the BAP1 IEERKGLYL/EERKGLYL peptides are endogenously presented on HLA-B*50:01 and recognized selectively by T cells?
+Why ask: Their coding sequences are supported in DNA/RNA and predicted binding is favorable, but no natural ligand or functional T-cell evidence exists. The package supplies WT counterparts and all 31 nearby reference-sequence controls; several predict stronger HLA binding.
+What the answer changes: Whether to prioritize this sequence for vaccine/TCR research, retain it as a hypothesis, or deprioritize it after an adequately sensitive negative assay. A peptide-pulsing result alone would not establish endogenous tumor presentation.
+
+4. For RASA1 GDYYIGGRRFSSLQT with provisional DPA1*01:03/DPB1*02:01, is a CD4 response selective for the mutation when tested against WT GDYYIGGRRFSSLSD, and which core/register is recognized?
+Why ask: The controlled model assigns high EL scores to both mutant and WT. Five of seven possible nine-amino-acid cores are unchanged WT; the actual bound register is unknown. Confirm normal-blood HLA before committing to allele-specific assays.
+What the answer changes: Whether RASA1 adds a distinct mutation-selective CD4 research target or mainly a shared-reference response. Model scores alone do not justify calling it a validated neoantigen.
+
+5. Can LATS1 c.378dup and LATS2 c.2878G>A be confirmed in an independent tumor preparation and matched normal, then tested for loss of function/Hippo-pathway dependence if confirmed?
+Why ask: The two candidates are absent from the supplied variant tables but have reproducible local read support. LATS1 predicts an immediate stop at residue 127 without a novel tail; LATS2 Gly960Arg remains of unknown function.
+What the answer changes: Whether they support a stronger Hippo/TEAD research rationale or should remain unvalidated observations. A sequence finding alone does not establish drug sensitivity or trial eligibility.
+
+Full-reference RNA review is now complete. No validated activating fusion was established. The five laboratory questions above remain priorities; a negative research screen does not clinically exclude fusions. Conditional B*50:01-compatible bulk RNA and preserved BAP1 mutant splicing add support for testing question 3, without proving tumor-cell peptide presentation.

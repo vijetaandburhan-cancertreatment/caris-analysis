@@ -1,0 +1,90 @@
+Local HLA-II prediction feasibility and public-control result
+1 October 2026
+
+Conclusion: do not add class-II peptide scores to this case. A feasible small
+open-model setup was found, but its public numerical controls failed the
+predeclared tolerance. No patient peptide was processed and no patient sequence
+was uploaded. BAP1 and RASA1 class-II/CD4 hypotheses remain unassessed.
+
+Selected method and scope
+
+DeepSeqPanII, official repository pcpLiu/DeepSeqPanII, commit
+2161f5b8c873493c9d43c0201e88a7843d2999ec. The author's README states MIT. Only
+public source, sequence tables, models and published control values were
+downloaded: 17 files, 52,912,291 bytes. No package, global environment, account
+or paid service was added. Current local Torch is 2.14.1 on macOS arm64.
+
+The predefined intended patient model was the released BD2013 pan-allele model,
+not a model selected after inspecting patient results. Exact supplied reference
+chains DRA*01:01 / DRB1*03:01 and DRA*01:01 / DRB1*15:02 were found. DRA*01:01
+would be an explicit assumption, not a measured genotype. DRB1 calls remain
+provisional bulk-RNA inferences. No nearest-allele replacement or DP/DQ pairing
+was proposed. The BD2013 training table contains 2,505 raw DRB1*03:01 rows (2,503 after the source
+excludes peptides longer than 25 residues) and zero DRB1*15:02 rows; the latter is an unseen-allele generalization in that model.
+
+Public controls and failure
+
+The separately released BD2016 allele-held-out models have public prediction
+tables for both exact target alleles. Those models were used only for the
+predefined numerical regression check, not to choose a favorable patient model.
+For DRB1*03:01, 25 distinct 13–25mer controls were selected deterministically
+across the published score range. For DRB1*15:02, all 23 unique eligible control
+peptides were used. The predeclared maximum absolute normalized-score difference
+was 0.0001. Observed maxima were 0.02152318 and 0.02581608 respectively. Both
+failed. Peak observed memory was 247,447,552 bytes; controls took 1.33 seconds.
+
+The largest DRB1*15:02 discrepancy was then run through unchanged upstream
+main.run. It produced exactly the wrapper's 0.4339389801, while the released
+table expects 0.4597550631. Only torch.load was intercepted to enforce
+map_location=cpu and weights_only=True; model and encoding logic were unchanged.
+This rules out the local wrapper as the immediate discrepancy, but does not
+identify whether the environment, checkpoint, reference tables or released
+test provenance account for the mismatch. A batch-size diagnostic gave
+0.4339377582 at batch size 64 versus 0.4339389801 at batch size 1, a 0.00000122
+difference that does not explain the 0.02581608 discrepancy. No tolerance was
+relaxed. Independent source/public-data audit is preserved in the sibling
+class-II-method-audit directory; this is not a claim that the method is globally
+invalid or that this patient lacks class-II candidates.
+
+Source inference code contains no network or telemetry calls. The public parity
+check also blocked socket.connect and socket.getaddrinfo at runtime. No patient
+inference was authorized to continue after the failed controls.
+
+Interpretation safeguards for any later qualified class-II analysis
+
+The model returns a normalized sigmoid affinity score; higher means stronger
+predicted binding. The author's result_writer.py converts it to predicted IC50
+as 50000**(1-score). The official main.py print label says IC50 while printing
+the normalized score; copying that label would be a unit error.
+
+Even a reproducible affinity score is not clinical accuracy, peptide display,
+T-cell recognition or vaccine benefit. A mutation-containing long peptide can
+bind using an upstream wild-type core, especially with RASA1's two terminal
+altered residues. Attention weights are not a validated mutation-bearing core.
+Keep same-allele, same-window wild-type comparisons and natural premature stops;
+do not append residues merely to manufacture a longer test peptide.
+
+Other methods considered, not installed
+
+MHCnuggets' actual LICENSE is the JHU academic/nonprofit/noncommercial agreement,
+despite setup.py metadata saying Apache; it also requires a new TensorFlow
+runtime here. MixMHC2pred is academic/noncommercial restricted. DeepMHCII has no
+released pretrained model in the inspected repository and a noncommercial
+declaration. PUFFIN's documented setup uses legacy Python2/GPU dependencies.
+These were not used as workarounds.
+
+Reproducibility
+
+public-source-manifest.json records all pinned URLs, byte sizes and hashes.
+run-public-controls.py and public-controls.json/.log preserve the failed check.
+diagnose-public-mismatch.py and public-mismatch-diagnosis.json/.log preserve
+upstream parity. diagnose-public-batch.py and public-batch-diagnosis.json/.log
+preserve the batch-size check. The public source and weights remain local. There are no
+patient prediction outputs from this branch.
+
+Official sources
+https://github.com/pcpLiu/DeepSeqPanII/tree/2161f5b8c873493c9d43c0201e88a7843d2999ec
+https://github.com/KarchinLab/mhcnuggets/blob/master/LICENSE
+https://github.com/GfellerLab/MixMHC2pred
+https://github.com/yourh/DeepMHCII
+https://github.com/gifford-lab/PUFFIN

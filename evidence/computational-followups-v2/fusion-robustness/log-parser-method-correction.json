@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-05T05:49:34.285612+00:00",
+  "reason": "Some compact warning records form extremely long lines; bounded64KiB chunk extraction prevents unbounded line allocation.",
+  "scope": "Read-only summary method; no alignment/caller/input change. Warning counts now explicitly literal token counts; candidate filter reasons remain source TSV fields.",
+  "old_cache": "analysis-cache-initial-line-parser",
+  "old_process_interrupted": true,
+  "source_logs_unchanged": true
+}

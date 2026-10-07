@@ -1,0 +1,918 @@
+[
+  {
+    "case_id": "DNA_Q1+_alternative1",
+    "query_id": "DNA_Q1+",
+    "query_sequence": "GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG",
+    "target_sequence": "AAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGAGGAGGAGGAGTCACTAACAAACTCAGCATCAGTGTCCAGAACAACCG",
+    "reference": {
+      "reference_kind": "genome",
+      "reference_id": "chr3",
+      "start0": 125013503,
+      "end0": 125013642
+    },
+    "score": 94.0,
+    "coordinates": [
+      [
+        0,
+        20,
+        70,
+        71,
+        92,
+        92,
+        94,
+        94,
+        96,
+        96,
+        98,
+        98,
+        100,
+        139
+      ],
+      [
+        0,
+        0,
+        50,
+        50,
+        71,
+        74,
+        76,
+        87,
+        89,
+        90,
+        92,
+        97,
+        99,
+        99
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q1+_alternative2",
+    "query_id": "DNA_Q1+",
+    "query_sequence": "GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG",
+    "target_sequence": "AAGCCCTGCTGGAGTCAAGCCTGCGCCAGGCCCAGCAGAACATGGACCCCAAGGCCGCCGAGGAGGAGGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGACATCTGAGGGCG",
+    "reference": {
+      "reference_kind": "genome",
+      "reference_id": "chr11",
+      "start0": 69651148,
+      "end0": 69651287
+    },
+    "score": 66.0,
+    "coordinates": [
+      [
+        0,
+        41,
+        44,
+        44,
+        54,
+        56,
+        63,
+        63,
+        69,
+        69,
+        70,
+        70,
+        119,
+        139
+      ],
+      [
+        0,
+        0,
+        3,
+        10,
+        20,
+        20,
+        27,
+        30,
+        36,
+        48,
+        49,
+        50,
+        99,
+        99
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q1+_alternative3",
+    "query_id": "DNA_Q1+",
+    "query_sequence": "GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG",
+    "target_sequence": "AAGCCCTGCTGGAGTCAAGCCTGCGCCAGGCCCAGCAGAACATGGACCCCAAGGCCGCCGAGGAGGAGGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGACATCTGAGGGCG",
+    "reference": {
+      "reference_kind": "transcript",
+      "reference_id": "ENST00000227507.3",
+      "start0": 912,
+      "end0": 1051
+    },
+    "score": 66.0,
+    "coordinates": [
+      [
+        0,
+        41,
+        44,
+        44,
+        54,
+        56,
+        63,
+        63,
+        69,
+        69,
+        70,
+        70,
+        119,
+        139
+      ],
+      [
+        0,
+        0,
+        3,
+        10,
+        20,
+        20,
+        27,
+        30,
+        36,
+        48,
+        49,
+        50,
+        99,
+        99
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q1+_proposed_CCND1antisense_HEG1spliced",
+    "query_id": "DNA_Q1+",
+    "query_sequence": "GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG",
+    "target_sequence": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+    "reference": {
+      "reference_kind": "proposed",
+      "reference_id": "proposed_CCND1antisense_HEG1spliced",
+      "start0": 0,
+      "end0": 750
+    },
+    "score": -43.0,
+    "coordinates": [
+      [
+        0,
+        82,
+        89,
+        89,
+        93,
+        93,
+        101,
+        101,
+        110,
+        117,
+        120,
+        120,
+        123,
+        123,
+        131,
+        131,
+        132,
+        132,
+        134,
+        134,
+        137,
+        750
+      ],
+      [
+        0,
+        0,
+        7,
+        27,
+        31,
+        33,
+        41,
+        49,
+        58,
+        58,
+        61,
+        62,
+        65,
+        68,
+        76,
+        79,
+        80,
+        88,
+        90,
+        96,
+        99,
+        99
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q1+_proposed_CCND1antisense_HEG1genomic",
+    "query_id": "DNA_Q1+",
+    "query_sequence": "GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG",
+    "target_sequence": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+    "reference": {
+      "reference_kind": "proposed",
+      "reference_id": "proposed_CCND1antisense_HEG1genomic",
+      "start0": 0,
+      "end0": 750
+    },
+    "score": -43.0,
+    "coordinates": [
+      [
+        0,
+        82,
+        89,
+        89,
+        93,
+        93,
+        101,
+        101,
+        110,
+        117,
+        120,
+        120,
+        123,
+        123,
+        131,
+        131,
+        132,
+        132,
+        134,
+        134,
+        137,
+        750
+      ],
+      [
+        0,
+        0,
+        7,
+        27,
+        31,
+        33,
+        41,
+        49,
+        58,
+        58,
+        61,
+        62,
+        65,
+        68,
+        76,
+        79,
+        80,
+        88,
+        90,
+        96,
+        99,
+        99
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q1-_alternative1",
+    "query_id": "DNA_Q1-",
+    "query_sequence": "CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC",
+    "target_sequence": "CGGTTGTTCTGGACACTGATGCTGAGTTTGTTAGTGACTCCTCCTCCTCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTT",
+    "reference": {
+      "reference_kind": "transcript",
+      "reference_id": "ENST00000311127.9",
+      "start0": 2043,
+      "end0": 2182
+    },
+    "score": 94.0,
+    "coordinates": [
+      [
+        0,
+        39,
+        41,
+        41,
+        43,
+        43,
+        45,
+        45,
+        47,
+        47,
+        67,
+        68,
+        119,
+        139
+      ],
+      [
+        0,
+        0,
+        2,
+        7,
+        9,
+        10,
+        12,
+        23,
+        25,
+        28,
+        48,
+        48,
+        99,
+        99
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q1-_alternative2",
+    "query_id": "DNA_Q1-",
+    "query_sequence": "CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC",
+    "target_sequence": "CGGTTGTTCTGGACACTGATGCTGAGTTTGTTAGTGACTCCTCCTCCTCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTT",
+    "reference": {
+      "reference_kind": "transcript",
+      "reference_id": "ENST00000477536.1",
+      "start0": 883,
+      "end0": 1022
+    },
+    "score": 94.0,
+    "coordinates": [
+      [
+        0,
+        39,
+        41,
+        41,
+        43,
+        43,
+        45,
+        45,
+        47,
+        47,
+        67,
+        68,
+        119,
+        139
+      ],
+      [
+        0,
+        0,
+        2,
+        7,
+        9,
+        10,
+        12,
+        23,
+        25,
+        28,
+        48,
+        48,
+        99,
+        99
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q1-_alternative3",
+    "query_id": "DNA_Q1-",
+    "query_sequence": "CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC",
+    "target_sequence": "CGGTTGTTCTGGACACTGATGCTGAGTTTGTTAGTGACTCCTCCTCCTCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTT",
+    "reference": {
+      "reference_kind": "transcript",
+      "reference_id": "ENST00000650592.1",
+      "start0": 799,
+      "end0": 938
+    },
+    "score": 94.0,
+    "coordinates": [
+      [
+        0,
+        39,
+        41,
+        41,
+        43,
+        43,
+        45,
+        45,
+        47,
+        47,
+        67,
+        68,
+        119,
+        139
+      ],
+      [
+        0,
+        0,
+        2,
+        7,
+        9,
+        10,
+        12,
+        23,
+        25,
+        28,
+        48,
+        48,
+        99,
+        99
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q1-_proposed_CCND1antisense_HEG1spliced",
+    "query_id": "DNA_Q1-",
+    "query_sequence": "CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC",
+    "target_sequence": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+    "reference": {
+      "reference_kind": "proposed",
+      "reference_id": "proposed_CCND1antisense_HEG1spliced",
+      "start0": 0,
+      "end0": 750
+    },
+    "score": 174.0,
+    "coordinates": [
+      [
+        0,
+        199,
+        247,
+        248,
+        299,
+        750
+      ],
+      [
+        0,
+        0,
+        48,
+        48,
+        99,
+        99
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q1-_proposed_CCND1antisense_HEG1genomic",
+    "query_id": "DNA_Q1-",
+    "query_sequence": "CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC",
+    "target_sequence": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+    "reference": {
+      "reference_kind": "proposed",
+      "reference_id": "proposed_CCND1antisense_HEG1genomic",
+      "start0": 0,
+      "end0": 750
+    },
+    "score": 174.0,
+    "coordinates": [
+      [
+        0,
+        199,
+        247,
+        248,
+        299,
+        750
+      ],
+      [
+        0,
+        0,
+        48,
+        48,
+        99,
+        99
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q2+_alternative1",
+    "query_id": "DNA_Q2+",
+    "query_sequence": "GGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC",
+    "target_sequence": "AATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGAGGAGGAGGAGTCACTAACAAACTCAGCATCAGTGTCCAG",
+    "reference": {
+      "reference_kind": "genome",
+      "reference_id": "chr3",
+      "start0": 125013505,
+      "end0": 125013634
+    },
+    "score": 121.0,
+    "coordinates": [
+      [
+        0,
+        20,
+        93,
+        93,
+        95,
+        103,
+        114,
+        129
+      ],
+      [
+        0,
+        0,
+        73,
+        76,
+        78,
+        78,
+        89,
+        89
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q2+_alternative2",
+    "query_id": "DNA_Q2+",
+    "query_sequence": "GGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC",
+    "target_sequence": "CGAAGCCCTGCTGGAGTCAAGCCTGCGCCAGGCCCAGCAGAACATGGACCCCAAGGCCGCCGAGGAGGAGGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGA",
+    "reference": {
+      "reference_kind": "genome",
+      "reference_id": "chr11",
+      "start0": 69651146,
+      "end0": 69651275
+    },
+    "score": 48.0,
+    "coordinates": [
+      [
+        0,
+        30,
+        32,
+        32,
+        36,
+        36,
+        41,
+        45,
+        47,
+        50,
+        61,
+        61,
+        85,
+        85,
+        109,
+        129
+      ],
+      [
+        0,
+        0,
+        2,
+        10,
+        14,
+        18,
+        23,
+        23,
+        25,
+        25,
+        36,
+        38,
+        62,
+        65,
+        89,
+        89
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q2+_alternative3",
+    "query_id": "DNA_Q2+",
+    "query_sequence": "GGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC",
+    "target_sequence": "CGAAGCCCTGCTGGAGTCAAGCCTGCGCCAGGCCCAGCAGAACATGGACCCCAAGGCCGCCGAGGAGGAGGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGA",
+    "reference": {
+      "reference_kind": "transcript",
+      "reference_id": "ENST00000227507.3",
+      "start0": 910,
+      "end0": 1039
+    },
+    "score": 48.0,
+    "coordinates": [
+      [
+        0,
+        30,
+        32,
+        32,
+        36,
+        36,
+        41,
+        45,
+        47,
+        50,
+        61,
+        61,
+        85,
+        85,
+        109,
+        129
+      ],
+      [
+        0,
+        0,
+        2,
+        10,
+        14,
+        18,
+        23,
+        23,
+        25,
+        25,
+        36,
+        38,
+        62,
+        65,
+        89,
+        89
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q2+_proposed_CCND1antisense_HEG1spliced",
+    "query_id": "DNA_Q2+",
+    "query_sequence": "GGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC",
+    "target_sequence": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+    "reference": {
+      "reference_kind": "proposed",
+      "reference_id": "proposed_CCND1antisense_HEG1spliced",
+      "start0": 0,
+      "end0": 750
+    },
+    "score": -29.0,
+    "coordinates": [
+      [
+        0,
+        17,
+        21,
+        21,
+        23,
+        23,
+        25,
+        25,
+        27,
+        27,
+        35,
+        36,
+        44,
+        44,
+        49,
+        53,
+        61,
+        61,
+        73,
+        73,
+        75,
+        75,
+        77,
+        77,
+        80,
+        750
+      ],
+      [
+        0,
+        0,
+        4,
+        5,
+        7,
+        8,
+        10,
+        13,
+        15,
+        16,
+        24,
+        24,
+        32,
+        39,
+        44,
+        44,
+        52,
+        54,
+        66,
+        74,
+        76,
+        79,
+        81,
+        86,
+        89,
+        89
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q2+_proposed_CCND1antisense_HEG1genomic",
+    "query_id": "DNA_Q2+",
+    "query_sequence": "GGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC",
+    "target_sequence": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+    "reference": {
+      "reference_kind": "proposed",
+      "reference_id": "proposed_CCND1antisense_HEG1genomic",
+      "start0": 0,
+      "end0": 750
+    },
+    "score": -29.0,
+    "coordinates": [
+      [
+        0,
+        17,
+        21,
+        21,
+        23,
+        23,
+        25,
+        25,
+        27,
+        27,
+        35,
+        36,
+        44,
+        44,
+        49,
+        53,
+        61,
+        61,
+        73,
+        73,
+        75,
+        75,
+        77,
+        77,
+        80,
+        750
+      ],
+      [
+        0,
+        0,
+        4,
+        5,
+        7,
+        8,
+        10,
+        13,
+        15,
+        16,
+        24,
+        24,
+        32,
+        39,
+        44,
+        44,
+        52,
+        54,
+        66,
+        74,
+        76,
+        79,
+        81,
+        86,
+        89,
+        89
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q2-_alternative1",
+    "query_id": "DNA_Q2-",
+    "query_sequence": "GGGTGTGCAAGCCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC",
+    "target_sequence": "CTGGACACTGATGCTGAGTTTGTTAGTGACTCCTCCTCCTCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATT",
+    "reference": {
+      "reference_kind": "transcript",
+      "reference_id": "ENST00000311127.9",
+      "start0": 2051,
+      "end0": 2180
+    },
+    "score": 121.0,
+    "coordinates": [
+      [
+        0,
+        15,
+        26,
+        34,
+        36,
+        36,
+        109,
+        129
+      ],
+      [
+        0,
+        0,
+        11,
+        11,
+        13,
+        16,
+        89,
+        89
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q2-_alternative2",
+    "query_id": "DNA_Q2-",
+    "query_sequence": "GGGTGTGCAAGCCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC",
+    "target_sequence": "CTGGACACTGATGCTGAGTTTGTTAGTGACTCCTCCTCCTCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATT",
+    "reference": {
+      "reference_kind": "transcript",
+      "reference_id": "ENST00000477536.1",
+      "start0": 891,
+      "end0": 1020
+    },
+    "score": 121.0,
+    "coordinates": [
+      [
+        0,
+        15,
+        26,
+        34,
+        36,
+        36,
+        109,
+        129
+      ],
+      [
+        0,
+        0,
+        11,
+        11,
+        13,
+        16,
+        89,
+        89
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q2-_alternative3",
+    "query_id": "DNA_Q2-",
+    "query_sequence": "GGGTGTGCAAGCCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC",
+    "target_sequence": "CTGGACACTGATGCTGAGTTTGTTAGTGACTCCTCCTCCTCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATT",
+    "reference": {
+      "reference_kind": "transcript",
+      "reference_id": "ENST00000650592.1",
+      "start0": 807,
+      "end0": 936
+    },
+    "score": 121.0,
+    "coordinates": [
+      [
+        0,
+        15,
+        26,
+        34,
+        36,
+        36,
+        109,
+        129
+      ],
+      [
+        0,
+        0,
+        11,
+        11,
+        13,
+        16,
+        89,
+        89
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q2-_proposed_CCND1antisense_HEG1spliced",
+    "query_id": "DNA_Q2-",
+    "query_sequence": "GGGTGTGCAAGCCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC",
+    "target_sequence": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+    "reference": {
+      "reference_kind": "proposed",
+      "reference_id": "proposed_CCND1antisense_HEG1spliced",
+      "start0": 0,
+      "end0": 750
+    },
+    "score": 164.0,
+    "coordinates": [
+      [
+        0,
+        211,
+        233,
+        233,
+        297,
+        750
+      ],
+      [
+        0,
+        0,
+        22,
+        25,
+        89,
+        89
+      ]
+    ]
+  },
+  {
+    "case_id": "DNA_Q2-_proposed_CCND1antisense_HEG1genomic",
+    "query_id": "DNA_Q2-",
+    "query_sequence": "GGGTGTGCAAGCCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC",
+    "target_sequence": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+    "reference": {
+      "reference_kind": "proposed",
+      "reference_id": "proposed_CCND1antisense_HEG1genomic",
+      "start0": 0,
+      "end0": 750
+    },
+    "score": 164.0,
+    "coordinates": [
+      [
+        0,
+        211,
+        233,
+        233,
+        297,
+        750
+      ],
+      [
+        0,
+        0,
+        22,
+        25,
+        89,
+        89
+      ]
+    ]
+  }
+]

@@ -1,0 +1,412 @@
+[
+  {
+    "path": "analysis-cache/compactD1__fixture_all40.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__no_known_recovery__support_01_selection_1.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__parental_zero.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 346
+  },
+  {
+    "path": "analysis-cache/compactD1__shortest_anchor.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 346
+  },
+  {
+    "path": "analysis-cache/compactD1__strong_original.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__strong_trim_anchor12.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__strong_trim_anchor20.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__strong_trim_anchor30.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_01_selection_1.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_01_selection_2.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_01_selection_3.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 346
+  },
+  {
+    "path": "analysis-cache/compactD1__support_02_selection_1.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_02_selection_2.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_02_selection_3.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_03_selection_1.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_03_selection_2.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_03_selection_3.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_05_selection_1.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_05_selection_2.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_05_selection_3.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD1__support_all.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__fixture_all40.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__parental_zero.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 346
+  },
+  {
+    "path": "analysis-cache/compactD8__shortest_anchor.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 346
+  },
+  {
+    "path": "analysis-cache/compactD8__strong_original.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__strong_trim_anchor12.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__strong_trim_anchor20.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__strong_trim_anchor30.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_01_selection_1.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_01_selection_2.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_01_selection_3.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 346
+  },
+  {
+    "path": "analysis-cache/compactD8__support_02_selection_1.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_02_selection_2.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_02_selection_3.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_03_selection_1.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_03_selection_2.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_03_selection_3.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_05_selection_1.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_05_selection_2.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_05_selection_3.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/compactD8__support_all.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 360
+  },
+  {
+    "path": "analysis-cache/fullD8__parental_zero.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 346
+  },
+  {
+    "path": "analysis-cache/fullD8__strong_original.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 346
+  },
+  {
+    "path": "analysis-cache/fullD8__strong_trim_anchor12.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 346
+  },
+  {
+    "path": "analysis-cache/fullD8__support_all.warnings.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 346
+  },
+  {
+    "path": "independent-outcome-partial.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 762293
+  },
+  {
+    "path": "independent-partial-cache-binding.json",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 3485
+  },
+  {
+    "path": "runs/compactD1__fixture_all40/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147945
+  },
+  {
+    "path": "runs/compactD1__no_known_recovery__support_01_selection_1/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28140014
+  },
+  {
+    "path": "runs/compactD1__strong_original/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147958
+  },
+  {
+    "path": "runs/compactD1__strong_trim_anchor12/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147990
+  },
+  {
+    "path": "runs/compactD1__strong_trim_anchor20/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147997
+  },
+  {
+    "path": "runs/compactD1__strong_trim_anchor30/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147997
+  },
+  {
+    "path": "runs/compactD1__support_01_selection_1/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147911
+  },
+  {
+    "path": "runs/compactD1__support_01_selection_2/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147910
+  },
+  {
+    "path": "runs/compactD1__support_02_selection_1/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147956
+  },
+  {
+    "path": "runs/compactD1__support_02_selection_2/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147955
+  },
+  {
+    "path": "runs/compactD1__support_02_selection_3/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147911
+  },
+  {
+    "path": "runs/compactD1__support_03_selection_1/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147955
+  },
+  {
+    "path": "runs/compactD1__support_03_selection_2/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147967
+  },
+  {
+    "path": "runs/compactD1__support_03_selection_3/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147937
+  },
+  {
+    "path": "runs/compactD1__support_05_selection_1/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147955
+  },
+  {
+    "path": "runs/compactD1__support_05_selection_2/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147954
+  },
+  {
+    "path": "runs/compactD1__support_05_selection_3/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147968
+  },
+  {
+    "path": "runs/compactD1__support_all/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147929
+  },
+  {
+    "path": "runs/compactD8__fixture_all40/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147955
+  },
+  {
+    "path": "runs/compactD8__strong_original/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147943
+  },
+  {
+    "path": "runs/compactD8__strong_trim_anchor12/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28148035
+  },
+  {
+    "path": "runs/compactD8__strong_trim_anchor20/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147990
+  },
+  {
+    "path": "runs/compactD8__strong_trim_anchor30/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147998
+  },
+  {
+    "path": "runs/compactD8__support_01_selection_1/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147911
+  },
+  {
+    "path": "runs/compactD8__support_01_selection_2/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147910
+  },
+  {
+    "path": "runs/compactD8__support_02_selection_1/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147955
+  },
+  {
+    "path": "runs/compactD8__support_02_selection_2/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147967
+  },
+  {
+    "path": "runs/compactD8__support_02_selection_3/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147909
+  },
+  {
+    "path": "runs/compactD8__support_03_selection_1/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147965
+  },
+  {
+    "path": "runs/compactD8__support_03_selection_2/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147950
+  },
+  {
+    "path": "runs/compactD8__support_03_selection_3/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147910
+  },
+  {
+    "path": "runs/compactD8__support_05_selection_1/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147954
+  },
+  {
+    "path": "runs/compactD8__support_05_selection_2/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147954
+  },
+  {
+    "path": "runs/compactD8__support_05_selection_3/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147955
+  },
+  {
+    "path": "runs/compactD8__support_all/Arriba.log.gz",
+    "reason": "Intermediate/cache or over20MB; retained separately",
+    "bytes": 28147924
+  }
+]

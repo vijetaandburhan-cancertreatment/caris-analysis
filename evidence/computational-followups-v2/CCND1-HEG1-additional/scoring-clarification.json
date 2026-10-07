@@ -1,0 +1,13 @@
+{
+  "timing": "After nomination but before any patient alternative scoring",
+  "numeric_settings_unchanged": true,
+  "clarification": "Biopython global end-insertion scores apply when the query overhang lies at the physical edge of the reference target. A query prefix after a free reference prefix is charged as an internal insertion, not universal soft clipping. Thus unaligned query ends do not always cost2/base. The actual fixed-window global affine scheme is used identically for proposed and alternative windows, and all coordinates, gaps and aligned fractions are retained.",
+  "toy_controls": [
+    {"reference":"ACGT","query":"TTACGT","Bio_score":4},
+    {"reference":"TTACGTAA","query":"ACGT","Bio_score":8},
+    {"reference":"GGACGTGG","query":"TTACGT","Bio_score":1,"universal_query_softclip_score_would_be":4},
+    {"reference":"GCCGACATCTAAACCCGCTGCCC","query":"TTTCCCCAGGTCATTTAT","Bio_score":-13,"universal_query_softclip_DP_score_from_root":-9}
+  ],
+  "independent_review": "Root is implementing the exact physical-reference-edge penalty convention for separate rescoring; no patient conclusions existed when the distinction was identified.",
+  "interpretation_rule": "Prioritize full-span near-perfect fits. A favorable short/clipped alignment or a small margin affected by window/end penalties does not establish an alternative explanation or rule out a biological/library chimera. Scores remain relative, not MAPQ or probability."
+}

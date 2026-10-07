@@ -1,0 +1,5 @@
+{
+  "status": "Complete with explicit sensitivity limits",
+  "heading": "Technical sensitivity checks",
+  "text": "A prespecified 45-run public BCR::ABL1 benchmark gave the same accepted/not-accepted decision across 20 matched compact D1/D8 conditions (19 unique paired-input sets), although D8 lost one supporting name in four conditions. Paired-read end-trimming reduced support from 3 names to 2 in both compact indexes and a matched full-reference check. Surviving overlapping mates merge into longer junction-spanning sequences, so this does not measure a 12-nt anchor threshold. Tiny correlated mixtures, known-fusion priors and only 32 parental background fragments cannot estimate patient sensitivity or detection limits. Separately, the diagnostic rerun reproduced all 28 accepted patient rows. Mixed-unit caller warnings, rejection filters, support caps and sparse indexing limit negative conclusions; Arriba does not detect intragenic deletions."
+}

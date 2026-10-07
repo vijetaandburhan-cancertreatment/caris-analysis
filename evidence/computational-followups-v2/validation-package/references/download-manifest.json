@@ -1,0 +1,16 @@
+[
+  {
+    "accession": "NM_004690.4",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_004690.4&rettype=gb&retmode=text",
+    "path": "work/oct4-followup/validation-package/references/NM_004690.4.gb",
+    "sha256": "1fd459cbd95c55faf6eaf62cda91a8f5b7cb3b612bd5e8f692238b6d58940a58",
+    "downloaded_utc": "2026-10-05T01:39:22.533314+00:00"
+  },
+  {
+    "accession": "NM_014572.3",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_014572.3&rettype=gb&retmode=text",
+    "path": "work/oct4-followup/validation-package/references/NM_014572.3.gb",
+    "sha256": "8293524466f7debcb2845a102950ff8f075c73cfba0a71c9cf74e52253faec19",
+    "downloaded_utc": "2026-10-05T01:39:22.898513+00:00"
+  }
+]

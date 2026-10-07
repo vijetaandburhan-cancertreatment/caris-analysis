@@ -1,0 +1,36 @@
+Broader coding-indel screen: findings and research priorities
+
+The broader search recovered the already recognized BAP1 and RASA1 frameshifts and the separately investigated LATS1 candidate. It also found additional locally supported DNA variants, some with RNA evidence. After transcript reconstruction and public-population checks, this did not produce a new validated treatment target or a basis to change the cancer diagnosis. Its principal value is a reproducible set of research leads and a clearer separation of real sequence observations from tumor-specific, clinically useful alterations.
+
+What was examined
+
+A single streaming pass examined 242,845,798 DNA BAM records against one selected GENCODE37 coding transcript for each of 19,951 genes. The initial discovery required primary, nonduplicate, quality-passing alignments with MAPQ at least 20, 1–50 bp CIGAR insertions/deletions, eight high-quality aligned bases on both sides, and base quality at least 20. Of 1,950 initial events with at least five alternate paired names, 167 met a stricter frameshift-oriented shortlist. These are raw alignment observations, not somatic variant calls.
+
+A separate exact-haplotype recount used public hg38 reference windows, twelve reference bases on either side, all included bases at quality 20 or higher, and collapsed paired read names. Requiring at least ten DNA alternate names, at least 5% of exact reference-plus-alternate names, both orientations, and at least three RNA alternate names produced 32 initial RNA-supported events. Read names are not independent UMI molecules; the RNA BAM does not mark PCR duplicates. The broad screen does not assess every isoform, structural variant, regulatory mutation or all possible indel sizes, and it has no validated clinical sensitivity.
+
+What survived interpretation
+
+Independent reconstruction reproduced all 30 wholly coding conditional mutant protein sequences. Two events, in ZNF778 and ORAI1, cannot be assigned a simple coding frameshift from the selected transcript because they meet coding/splice boundaries; they remain unresolved. The other sequences assume one reference transcript, its annotated initiation site and the single tested edit. They do not establish the full expressed tumor haplotype, protein abundance or antigen presentation.
+
+Twenty-six of the 32 events match an exact public catalog alternate haplotype. Eighteen have an alternate frequency of at least 1% in a returned global reference population, making them poor candidates for promotion as newly discovered tumor-specific vaccine targets. Eight catalog-matched events have rare or unavailable frequency information. The six without an exact returned catalog match include BAP1, RASA1 and LATS1, along with three unclassified research events. Catalog absence is not evidence of novelty or somatic origin.
+
+Two failed lookups were subsequently resolved and are documented in public-catalog-lookup-resolution.json. SLC27A3 is the exact rs572408453 C7-to-C6 allele, with returned global frequencies below 0.1%. APOL4 exactly matches rs5845253; its population endpoint failed, so no population-frequency claim is justified. Independent checking verified all 26 exact matches and tied the reported frequencies to the actual matching allele rather than to a generic dbSNP identifier.
+
+The supplied VCF contains 2,843 variant records. Three of the 32 shortlist events are present as equivalent single alleles: BAP1, RASA1 and CHD2. BAP1 and RASA1 have an unspecified FILTER value, while CHD2 carries an explicit R8.1 monomer-repeat filter. The other 29 are absent as equivalent single exported alleles after allowing nearby representation shifts. This describes the delivered export; it does not establish that the laboratory missed a meaningful mutation.
+
+How to use the additional observations
+
+The main already recognized and independently supported frameshift observations remain BAP1 and RASA1; the LATS1 observation belongs with its dedicated validation and interpretation. The additional unclassified candidates should remain a research appendix. Among the six specifically audited extra loci, DNA exact-alternate support was substantial, but RNA support varied from only three to thirteen paired names. Several repeated RNA fragment endpoints reduce the apparent independence of that support. Longer exact-flank checks generally preserved the observed alternate sequence; RNA loss of assessability at wider windows sometimes reflected ordinary splice junctions or fragment ends.
+
+One useful correction emerged in NLRC3: reads classified as reference over the short indel window carry a nearby missense allele, chr16:3563597G>A, on the other observed local haplotype. In the selected transcript this is p.Ser447Leu, not the generic stop-gained label attached to the multi-allelic public record. This does not invalidate the insertion. It illustrates why the full patient haplotype and exact allele consequence matter before peptide design.
+
+The next decisive input for these extra candidates is a matched normal DNA sample. A rare inherited variant can appear in both tumor DNA and bulk RNA; those observations alone do not make it safe or useful to target. If a candidate is proven tumor-specific, the next steps are orthogonal sequence confirmation, patient-specific transcript/haplotype reconstruction and appropriate protein/presentation validation. Binding prediction alone would not complete those steps. None of these extra unclassified genes currently supports selecting a cancer drug or assigning a primary site.
+
+Reproducibility and sources
+
+Original discovery, shortlist, exact-haplotype recount, transcript translations, public reference responses and independent audit evidence are retained in this directory. audit.txt / audit.json summarize the independent review; audit-data.json preserves the bounded six-locus counts and read evidence. All source files remain preserved.
+
+GENCODE37 annotation and format documentation: https://www.gencodegenes.org/human/release_37.html and https://www.gencodegenes.org/pages/data_format.html
+Tan et al., Unified representation of genetic variants: https://pubmed.ncbi.nlm.nih.gov/25701572/
+MacArthur et al., A systematic survey of loss-of-function variants in human protein-coding genes: https://pubmed.ncbi.nlm.nih.gov/22344438/
+VCF FILTER semantics: https://samtools.github.io/hts-specs/VCFv4.1.pdf

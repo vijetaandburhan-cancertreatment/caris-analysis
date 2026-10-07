@@ -1,0 +1,180 @@
+[
+  {
+    "query_id": "DNA_Q1",
+    "sequence": "GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG",
+    "kind": "patient_DNA_BAM_stored_sequence",
+    "members": [
+      {
+        "pair_id": "3f4e31f229dad51cdda79d0215b08da32fdbdc0062f8b2164422f23352063276",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": false,
+        "BAM_stored_reverse": false
+      },
+      {
+        "pair_id": "16ca2cc830bc01023c8afd7ffcf3b5f50c11bfb4b89fedc5c1c0f1290c395cc5",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": true,
+        "BAM_stored_reverse": false
+      },
+      {
+        "pair_id": "3f4e31f229dad51cdda79d0215b08da32fdbdc0062f8b2164422f23352063276",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": false,
+        "BAM_stored_reverse": true
+      },
+      {
+        "pair_id": "16ca2cc830bc01023c8afd7ffcf3b5f50c11bfb4b89fedc5c1c0f1290c395cc5",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": true,
+        "BAM_stored_reverse": true
+      }
+    ]
+  },
+  {
+    "query_id": "DNA_Q2",
+    "sequence": "GGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC",
+    "kind": "patient_DNA_BAM_stored_sequence",
+    "members": [
+      {
+        "pair_id": "0a474766e508ce1bea2a6448edea345182021de3bc2417fccb4f435995d6c492",
+        "mate": 1,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": false,
+        "BAM_stored_reverse": false
+      },
+      {
+        "pair_id": "0a474766e508ce1bea2a6448edea345182021de3bc2417fccb4f435995d6c492",
+        "mate": 2,
+        "quality": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "duplicate": false,
+        "BAM_stored_reverse": true
+      }
+    ]
+  },
+  {
+    "query_id": "C_HEG1_parent",
+    "sequence": "ACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTA",
+    "truth": {
+      "kind": "transcript",
+      "id": "ENST00000311127.9",
+      "start0": 2263,
+      "end0": 2424
+    },
+    "expected_perfect": true,
+    "kind": "control",
+    "members": []
+  },
+  {
+    "query_id": "C_CCND1_parent",
+    "sequence": "CTGGAGGTCTGCGAGGAACAGAAGTGCGAGGAGGAGGTCTTCCCGCTGGCCATGAACTACCTGGACCGCTTCCTGTCGCTGGAGCCCGTGAAAAAGAGCCGCCTGCAGCTGCTGGGGGCCACTTGCATGTTCGTGGCCTCTAAGATGAAGGAGACCATCCC",
+    "truth": {
+      "kind": "transcript",
+      "id": "ENST00000227507.3",
+      "start0": 350,
+      "end0": 511
+    },
+    "expected_perfect": true,
+    "kind": "control",
+    "members": []
+  },
+  {
+    "query_id": "C_HEG1_three_substitutions",
+    "sequence": "ACCAGTATCCTTAACGACATCAACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTACTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCCGACATCAACAATGACATCATTCATGACAATGCTCCATAGTA",
+    "truth": {
+      "kind": "transcript",
+      "id": "ENST00000311127.9",
+      "start0": 2263,
+      "end0": 2424
+    },
+    "introduced_substitutions0": [
+      21,
+      70,
+      119
+    ],
+    "kind": "control",
+    "members": []
+  },
+  {
+    "query_id": "C_HEG1_one_insertion",
+    "sequence": "ACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGATCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTA",
+    "truth": {
+      "kind": "transcript",
+      "id": "ENST00000311127.9",
+      "start0": 2263,
+      "end0": 2424
+    },
+    "introduced_insertion_before0": 80,
+    "kind": "control",
+    "members": []
+  },
+  {
+    "query_id": "C_HEG1_two_deletion",
+    "sequence": "ACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTA",
+    "truth": {
+      "kind": "transcript",
+      "id": "ENST00000311127.9",
+      "start0": 2263,
+      "end0": 2424
+    },
+    "introduced_deleted_interval0": [
+      80,
+      82
+    ],
+    "kind": "control",
+    "members": []
+  },
+  {
+    "query_id": "C_MET_canonical_splice",
+    "sequence": "TGGTGTTGTCTCAATATCAACAGCACTGTTATTACTACTTGGGTTTTTCCTGTGGCTGAAAAAGAGAAAGCAAATTAAAGATCTGGGCAGTGAATTAGTTCGCTACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAA",
+    "truth": {
+      "kind": "transcript",
+      "id": "ENST00000397752.8",
+      "start0": 3203,
+      "end0": 3364
+    },
+    "expected_perfect": true,
+    "kind": "control",
+    "members": []
+  },
+  {
+    "query_id": "C_annotated_INS_IGF2_transcript",
+    "sequence": "TAGTGTGCGGGGAACGAGGCTTCTTCTACACACCCAAGACCCGCCGGGAGGCAGAGGACCTGCAGGCCTCAGCTTTGTCCCTCTCCTCCTCCACGTCAACCTGGCCAGAGGGTCTGGACGCCACAGCCAGGGCACCCCCTGCTTTGGTGGTGACTGCTAAT",
+    "truth": {
+      "kind": "transcript",
+      "id": "ENST00000356578.8",
+      "start0": 180,
+      "end0": 341
+    },
+    "expected_perfect": true,
+    "note": "Annotated read-through transcript sequence control, not evidence about expression in this specimen",
+    "kind": "control",
+    "members": []
+  },
+  {
+    "query_id": "C_repeat_nonunique",
+    "sequence": "CGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCG",
+    "truth": {
+      "kind": "repeat"
+    },
+    "note": "Near-pure CGG repeat requires explicit ambiguous/capped-hit treatment",
+    "kind": "control",
+    "members": []
+  },
+  {
+    "query_id": "C_synthetic_proposed_join",
+    "sequence": "CCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAG",
+    "truth": {
+      "kind": "proposed",
+      "id": "proposed_CCND1antisense_HEG1spliced",
+      "start0": 170,
+      "end0": 331
+    },
+    "expected_perfect": true,
+    "kind": "control",
+    "members": []
+  }
+]

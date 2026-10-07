@@ -1,0 +1,389 @@
+{
+  "created_utc": "2026-10-05T06:00:36.625254+00:00",
+  "input_sha256": "d60ae7d22ddeedb55511afd28646db224ab538e46592c465a21a55813d2f8418",
+  "case_count": 20,
+  "all_scores_match": true,
+  "scope": "Independent standard-library dynamic-programming rescore of supplied windows; not an independent genome nomination search, and scores are not probabilities.",
+  "rows": [
+    {
+      "case_id": "DNA_Q1+_alternative1",
+      "score": 94,
+      "independent_alignment": {
+        "score": 94,
+        "query_aligned": "--------------------GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAG-AGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG---------------------------------------",
+        "reference_aligned": "AAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGA---GG-----------AG-GA-----GGAGTCACTAACAAACTCAGCATCAGTGTCCAGAACAACCG",
+        "matches": 76,
+        "mismatches": 3,
+        "insertion_bases": 20,
+        "deletion_bases": 60
+      },
+      "reference": {
+        "reference_kind": "genome",
+        "reference_id": "chr3",
+        "start0": 125013503,
+        "end0": 125013642
+      }
+    },
+    {
+      "case_id": "DNA_Q1+_alternative2",
+      "score": 66,
+      "independent_alignment": {
+        "score": 66,
+        "query_aligned": "-----------------------------------------GTGGGATTGTGACACAAAGG--GCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG--------------------",
+        "reference_aligned": "AAGCCCTGCTGGAGTCAAGCCTGCGCCAGGCCCAGCAGAACATG-------GACCCCAAGGCCGCCGAGG---AGGAGG------------A-AGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGACATCTGAGGGCG",
+        "matches": 70,
+        "mismatches": 6,
+        "insertion_bases": 23,
+        "deletion_bases": 63
+      },
+      "reference": {
+        "reference_kind": "genome",
+        "reference_id": "chr11",
+        "start0": 69651148,
+        "end0": 69651287
+      }
+    },
+    {
+      "case_id": "DNA_Q1+_alternative3",
+      "score": 66,
+      "independent_alignment": {
+        "score": 66,
+        "query_aligned": "-----------------------------------------GTGGGATTGTGACACAAAGG--GCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG--------------------",
+        "reference_aligned": "AAGCCCTGCTGGAGTCAAGCCTGCGCCAGGCCCAGCAGAACATG-------GACCCCAAGGCCGCCGAGG---AGGAGG------------A-AGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGACATCTGAGGGCG",
+        "matches": 70,
+        "mismatches": 6,
+        "insertion_bases": 23,
+        "deletion_bases": 63
+      },
+      "reference": {
+        "reference_kind": "transcript",
+        "reference_id": "ENST00000227507.3",
+        "start0": 912,
+        "end0": 1051
+      }
+    },
+    {
+      "case_id": "DNA_Q1+_proposed_CCND1antisense_HEG1spliced",
+      "score": -43,
+      "independent_alignment": {
+        "score": -43,
+        "query_aligned": "----------------------------------------------------------------------------------GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGG-------AGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTAT--------------------CAAA--ATGCTCCG--------GAGAGGAGGGACTGTCAGG-GGA---GCACCTGG---G--------GC------CGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 42,
+        "mismatches": 6,
+        "insertion_bases": 51,
+        "deletion_bases": 702
+      },
+      "reference": {
+        "reference_kind": "proposed",
+        "reference_id": "proposed_CCND1antisense_HEG1spliced",
+        "start0": 0,
+        "end0": 750
+      }
+    },
+    {
+      "case_id": "DNA_Q1+_proposed_CCND1antisense_HEG1genomic",
+      "score": -43,
+      "independent_alignment": {
+        "score": -43,
+        "query_aligned": "----------------------------------------------------------------------------------GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGG-------AGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTAT--------------------CAAA--ATGCTCCG--------GAGAGGAGGGACTGTCAGG-GGA---GCACCTGG---G--------GC------CGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 42,
+        "mismatches": 6,
+        "insertion_bases": 51,
+        "deletion_bases": 702
+      },
+      "reference": {
+        "reference_kind": "proposed",
+        "reference_id": "proposed_CCND1antisense_HEG1genomic",
+        "start0": 0,
+        "end0": 750
+      }
+    },
+    {
+      "case_id": "DNA_Q1-_alternative1",
+      "score": 94,
+      "independent_alignment": {
+        "score": 94,
+        "query_aligned": "---------------------------------------CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTC-TCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC--------------------",
+        "reference_aligned": "CGGTTGTTCTGGACACTGATGCTGAGTTTGTTAGTGACTCC-----TC-CT-----------CC---TCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTT",
+        "matches": 76,
+        "mismatches": 3,
+        "insertion_bases": 20,
+        "deletion_bases": 60
+      },
+      "reference": {
+        "reference_kind": "transcript",
+        "reference_id": "ENST00000311127.9",
+        "start0": 2043,
+        "end0": 2182
+      }
+    },
+    {
+      "case_id": "DNA_Q1-_alternative2",
+      "score": 94,
+      "independent_alignment": {
+        "score": 94,
+        "query_aligned": "---------------------------------------CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTC-TCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC--------------------",
+        "reference_aligned": "CGGTTGTTCTGGACACTGATGCTGAGTTTGTTAGTGACTCC-----TC-CT-----------CC---TCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTT",
+        "matches": 76,
+        "mismatches": 3,
+        "insertion_bases": 20,
+        "deletion_bases": 60
+      },
+      "reference": {
+        "reference_kind": "transcript",
+        "reference_id": "ENST00000477536.1",
+        "start0": 883,
+        "end0": 1022
+      }
+    },
+    {
+      "case_id": "DNA_Q1-_alternative3",
+      "score": 94,
+      "independent_alignment": {
+        "score": 94,
+        "query_aligned": "---------------------------------------CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTC-TCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC--------------------",
+        "reference_aligned": "CGGTTGTTCTGGACACTGATGCTGAGTTTGTTAGTGACTCC-----TC-CT-----------CC---TCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTT",
+        "matches": 76,
+        "mismatches": 3,
+        "insertion_bases": 20,
+        "deletion_bases": 60
+      },
+      "reference": {
+        "reference_kind": "transcript",
+        "reference_id": "ENST00000650592.1",
+        "start0": 799,
+        "end0": 938
+      }
+    },
+    {
+      "case_id": "DNA_Q1-_proposed_CCND1antisense_HEG1spliced",
+      "score": 174,
+      "independent_alignment": {
+        "score": 174,
+        "query_aligned": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTC-TCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 96,
+        "mismatches": 3,
+        "insertion_bases": 0,
+        "deletion_bases": 651
+      },
+      "reference": {
+        "reference_kind": "proposed",
+        "reference_id": "proposed_CCND1antisense_HEG1spliced",
+        "start0": 0,
+        "end0": 750
+      }
+    },
+    {
+      "case_id": "DNA_Q1-_proposed_CCND1antisense_HEG1genomic",
+      "score": 174,
+      "independent_alignment": {
+        "score": 174,
+        "query_aligned": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTC-TCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 96,
+        "mismatches": 3,
+        "insertion_bases": 0,
+        "deletion_bases": 651
+      },
+      "reference": {
+        "reference_kind": "proposed",
+        "reference_id": "proposed_CCND1antisense_HEG1genomic",
+        "start0": 0,
+        "end0": 750
+      }
+    },
+    {
+      "case_id": "DNA_Q2+_alternative1",
+      "score": 121,
+      "independent_alignment": {
+        "score": 121,
+        "query_aligned": "--------------------GGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGG--------CTTGCACACCC---------------",
+        "reference_aligned": "AATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGAGGA---GGAGGAGTCACTAACAAACTCAGCATCAGTGTCCAG",
+        "matches": 81,
+        "mismatches": 5,
+        "insertion_bases": 3,
+        "deletion_bases": 43
+      },
+      "reference": {
+        "reference_kind": "genome",
+        "reference_id": "chr3",
+        "start0": 125013505,
+        "end0": 125013634
+      }
+    },
+    {
+      "case_id": "DNA_Q2+_alternative2",
+      "score": 48,
+      "independent_alignment": {
+        "score": 48,
+        "query_aligned": "------------------------------GGGATTGTGACACAGAGGGCAGA----GG---CAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC--------------------",
+        "reference_aligned": "CGAAGCCCTGCTGGAGTCAAGCCTGCGCCAGG--------CCCA----GCAGAACATGGACCCCAAGGCCGCC--GAGGAGGAGGAAGAGGAGGAGGAG---GAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGA",
+        "matches": 65,
+        "mismatches": 7,
+        "insertion_bases": 17,
+        "deletion_bases": 57
+      },
+      "reference": {
+        "reference_kind": "genome",
+        "reference_id": "chr11",
+        "start0": 69651146,
+        "end0": 69651275
+      }
+    },
+    {
+      "case_id": "DNA_Q2+_alternative3",
+      "score": 48,
+      "independent_alignment": {
+        "score": 48,
+        "query_aligned": "------------------------------GGGATTGTGACACAGAGGGCAGA----GG---CAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC--------------------",
+        "reference_aligned": "CGAAGCCCTGCTGGAGTCAAGCCTGCGCCAGG--------CCCA----GCAGAACATGGACCCCAAGGCCGCC--GAGGAGGAGGAAGAGGAGGAGGAG---GAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGA",
+        "matches": 65,
+        "mismatches": 7,
+        "insertion_bases": 17,
+        "deletion_bases": 57
+      },
+      "reference": {
+        "reference_kind": "transcript",
+        "reference_id": "ENST00000227507.3",
+        "start0": 910,
+        "end0": 1039
+      }
+    },
+    {
+      "case_id": "DNA_Q2+_proposed_CCND1antisense_HEG1spliced",
+      "score": -29,
+      "independent_alignment": {
+        "score": -29,
+        "query_aligned": "-----------------GGGATTGTGACACAGAGGG-CAGAGGCAAAGGAGGCCCTGAAGAA----GAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGA-TG-GA---AGGGGGAAAGA-GCAAAGGA-------AAAAACAACCAACAACA--AGGAGAATGAAG--------CT---TT-----CCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 49,
+        "mismatches": 9,
+        "insertion_bases": 31,
+        "deletion_bases": 692
+      },
+      "reference": {
+        "reference_kind": "proposed",
+        "reference_id": "proposed_CCND1antisense_HEG1spliced",
+        "start0": 0,
+        "end0": 750
+      }
+    },
+    {
+      "case_id": "DNA_Q2+_proposed_CCND1antisense_HEG1genomic",
+      "score": -29,
+      "independent_alignment": {
+        "score": -29,
+        "query_aligned": "-----------------GGGATTGTGACACAGAGGG-CAGAGGCAAAGGAGGCCCTGAAGAA----GAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGA-TG-GA---AGGGGGAAAGA-GCAAAGGA-------AAAAACAACCAACAACA--AGGAGAATGAAG--------CT---TT-----CCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 49,
+        "mismatches": 9,
+        "insertion_bases": 31,
+        "deletion_bases": 692
+      },
+      "reference": {
+        "reference_kind": "proposed",
+        "reference_id": "proposed_CCND1antisense_HEG1genomic",
+        "start0": 0,
+        "end0": 750
+      }
+    },
+    {
+      "case_id": "DNA_Q2-_alternative1",
+      "score": 121,
+      "independent_alignment": {
+        "score": 121,
+        "query_aligned": "---------------GGGTGTGCAAG--------CCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC--------------------",
+        "reference_aligned": "CTGGACACTGATGCTGAGTTTGTTAGTGACTCCTCC---TCCTCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATT",
+        "matches": 81,
+        "mismatches": 5,
+        "insertion_bases": 3,
+        "deletion_bases": 43
+      },
+      "reference": {
+        "reference_kind": "transcript",
+        "reference_id": "ENST00000311127.9",
+        "start0": 2051,
+        "end0": 2180
+      }
+    },
+    {
+      "case_id": "DNA_Q2-_alternative2",
+      "score": 121,
+      "independent_alignment": {
+        "score": 121,
+        "query_aligned": "---------------GGGTGTGCAAG--------CCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC--------------------",
+        "reference_aligned": "CTGGACACTGATGCTGAGTTTGTTAGTGACTCCTCC---TCCTCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATT",
+        "matches": 81,
+        "mismatches": 5,
+        "insertion_bases": 3,
+        "deletion_bases": 43
+      },
+      "reference": {
+        "reference_kind": "transcript",
+        "reference_id": "ENST00000477536.1",
+        "start0": 891,
+        "end0": 1020
+      }
+    },
+    {
+      "case_id": "DNA_Q2-_alternative3",
+      "score": 121,
+      "independent_alignment": {
+        "score": 121,
+        "query_aligned": "---------------GGGTGTGCAAG--------CCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC--------------------",
+        "reference_aligned": "CTGGACACTGATGCTGAGTTTGTTAGTGACTCCTCC---TCCTCCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATT",
+        "matches": 81,
+        "mismatches": 5,
+        "insertion_bases": 3,
+        "deletion_bases": 43
+      },
+      "reference": {
+        "reference_kind": "transcript",
+        "reference_id": "ENST00000650592.1",
+        "start0": 807,
+        "end0": 936
+      }
+    },
+    {
+      "case_id": "DNA_Q2-_proposed_CCND1antisense_HEG1spliced",
+      "score": 164,
+      "independent_alignment": {
+        "score": 164,
+        "query_aligned": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GGGTGTGCAAGCCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACC---TCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 86,
+        "mismatches": 0,
+        "insertion_bases": 3,
+        "deletion_bases": 664
+      },
+      "reference": {
+        "reference_kind": "proposed",
+        "reference_id": "proposed_CCND1antisense_HEG1spliced",
+        "start0": 0,
+        "end0": 750
+      }
+    },
+    {
+      "case_id": "DNA_Q2-_proposed_CCND1antisense_HEG1genomic",
+      "score": 164,
+      "independent_alignment": {
+        "score": 164,
+        "query_aligned": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GGGTGTGCAAGCCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACC---TCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 86,
+        "mismatches": 0,
+        "insertion_bases": 3,
+        "deletion_bases": 664
+      },
+      "reference": {
+        "reference_kind": "proposed",
+        "reference_id": "proposed_CCND1antisense_HEG1genomic",
+        "start0": 0,
+        "end0": 750
+      }
+    }
+  ]
+}

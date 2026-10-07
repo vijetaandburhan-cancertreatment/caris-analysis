@@ -1,0 +1,12 @@
+{
+  "prior_raw_audit_sha256": "b0e15922aecb15b9b27d52aff244a7e8c5c2d114355dd76db1c4c50bc859967e",
+  "selected_R1_sha256": "8c35c15447670912badaeacf65d150720c17793c339ad8659a9bac82031a6b7e",
+  "selected_R2_sha256": "da46ecc58e35714d97a7a2a2080c03b7fec29e9fe4249f9ad4fa4493addb64a5",
+  "pair_count": 14,
+  "caller_named_pairs": 13,
+  "Q20_exact50_pairs": 11,
+  "whole_pair_sequence_families_all": 10,
+  "whole_pair_sequence_families_Q20": 7,
+  "distinct_mate_sequences": 18,
+  "originals_modified": false
+}

@@ -1,0 +1,161 @@
+{
+  "created_utc": "2026-10-05T02:08:12.593697+00:00",
+  "source_work_directory": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/hla-II",
+  "files": [
+    {
+      "path": "CapHLA-source-manifest.json",
+      "size": 6982,
+      "sha256": "88ba1781fa4d34993f7ef29acab0bc150f64ddf32ec81e81ffdd533b9b2eb96d"
+    },
+    {
+      "path": "CapHLA-v1-source-manifest.json",
+      "size": 5807,
+      "sha256": "91244baa2d84e6c9a1609bbc370f99388d2ebe108362e6107a49a11e595c0d1e"
+    },
+    {
+      "path": "RASA1-CD4-research-lead.csv",
+      "size": 1905,
+      "sha256": "d6b938aa4ee6edf64af0d8c9dafdbc5a0cdc4e4c92cbb5e467e3856dd8b7a406"
+    },
+    {
+      "path": "README.txt",
+      "size": 7153,
+      "sha256": "44f6945b3d5d08659a903c89afa67d91bcbb1177d1ca761c3f18c59d8658ec4c"
+    },
+    {
+      "path": "build-findings.py",
+      "size": 8714,
+      "sha256": "2856dc449f75ee5ab170349016a072b696608929626e3f99612ba63a6e0c1c0d"
+    },
+    {
+      "path": "check-reference.py",
+      "size": 2628,
+      "sha256": "497fed72a3ff3d135e5feb81e753f87a0808c01a1154fa9587f3f1fe1289afda"
+    },
+    {
+      "path": "download-models.py",
+      "size": 737,
+      "sha256": "bd8b81f9919d5196db308c6a569cadfce3de0fb40d8771cb49b7e30db42c6bdb"
+    },
+    {
+      "path": "findings.json",
+      "size": 12044,
+      "sha256": "a60480c1d2db8e419158d9177f7ddbca2cc77f605da70ef0ba4ecfbcde7de984"
+    },
+    {
+      "path": "findings.txt",
+      "size": 4517,
+      "sha256": "a0ea2af462c0ce2e6955f8401efee1103fee0cf9dc8ee62e8cf5ea36c9c0ad70"
+    },
+    {
+      "path": "independent-sequence-audit.txt",
+      "size": 492,
+      "sha256": "0b2395793a0fdccf572397fbf7b61d305f03a1b0d13c9cb5a2c598ed1adb74d1"
+    },
+    {
+      "path": "length12-all-scores.csv",
+      "size": 97248,
+      "sha256": "e618d5fa73f0ff56369c56df37e2e670750fc6507d6ba6958bc90f06bfba8086"
+    },
+    {
+      "path": "length12-input.csv",
+      "size": 25968,
+      "sha256": "e41b0ec21add119c3ddca32f984cab0308197228bb544511aee5dce26c2ca847"
+    },
+    {
+      "path": "length12-peptide-manifest.json",
+      "size": 7831,
+      "sha256": "7d5ae629043fa395fa5890149d2078e47c66bc4f6756b7bcea9e29986e95528f"
+    },
+    {
+      "path": "length12-sensitivity.json",
+      "size": 5378,
+      "sha256": "239d52ba622bab19f4ff39ced33db34719f3eced4cb8060adc44fe9414849840"
+    },
+    {
+      "path": "method-validation.json",
+      "size": 3818,
+      "sha256": "30cc2c30be13dc78980886536b6a49ffc8459da3986eb9f18a2bfc35c5a24d29"
+    },
+    {
+      "path": "model-version-provenance.json",
+      "size": 311,
+      "sha256": "282739b3fb30adb997a6cac2d5156d067c86e55fd9bd878c49745a2f06e0086c"
+    },
+    {
+      "path": "normal-reference-exact-check.json",
+      "size": 50374,
+      "sha256": "af0060371d6fe6b6c6131c1db53d9aa94b19774e2371ce929af97ccb8d2ae9dc"
+    },
+    {
+      "path": "patient-input.csv",
+      "size": 352830,
+      "sha256": "a663b98a97933d15e6010074c3d7560807e39a13209e70e4633c758482f7963a"
+    },
+    {
+      "path": "patient-paired-comparisons.csv",
+      "size": 628947,
+      "sha256": "5672710c7aa102d43b90644093b63f5fe007468a661b3c6300a002b27669d415"
+    },
+    {
+      "path": "patient-peptide-manifest.json",
+      "size": 52335,
+      "sha256": "d1695272cf8566ad5cf54606a94da32ef991ace5d56509142e6e6d008c8a4a25"
+    },
+    {
+      "path": "patient-v1-scores.csv",
+      "size": 647988,
+      "sha256": "13c2d350394bc3097f7063ccac1742b99763623ba40029b9a3f955c2a0fd2ac7"
+    },
+    {
+      "path": "patient-v2-scores.csv",
+      "size": 650418,
+      "sha256": "374a0aa2a30628bb19453bdeb5bac89a3130e15acd435b4d2a0386cdf678aacc"
+    },
+    {
+      "path": "per-HLA-candidate-comparison.csv",
+      "size": 32625,
+      "sha256": "438cc1fa20a549803843b4cc7b4be2cb13c29534b1a222fc51fb014945ddc20b"
+    },
+    {
+      "path": "prepare-length12-sensitivity.py",
+      "size": 2954,
+      "sha256": "6d36c4f4691763434fe3958dc44e77b4ae9e905a993e4d7df754689d39c4ee9d"
+    },
+    {
+      "path": "prepare-patient.py",
+      "size": 2924,
+      "sha256": "5436128c5e609ae44703a37c4200d4ee8445a8c475b74033f5a0daed5b8daca5"
+    },
+    {
+      "path": "public-v1-expected.csv",
+      "size": 5720,
+      "sha256": "6d516fe6001eacd07fda5b7f6357019a0f54ef314276a8172ecb85b24ae488bf"
+    },
+    {
+      "path": "public-v1-replay.csv",
+      "size": 17062,
+      "sha256": "39ee92961ad74df8cda3e4ea6567b34335dcb83f5ee1f2a627b029aca2186f54"
+    },
+    {
+      "path": "public-v2-replay.csv",
+      "size": 5180,
+      "sha256": "5a5b9b215527fa78e9b48e12295ca4d4719f8b15762620e19e3ca5b61dc6efc6"
+    },
+    {
+      "path": "run_caphla.py",
+      "size": 3466,
+      "sha256": "ff066456b3edc9af84fa9c7ce47d18d3311577a1ff56e80bea164e5c017e8f52"
+    },
+    {
+      "path": "summarize-length12.py",
+      "size": 1970,
+      "sha256": "b4e5b5cc7b906372afca0ff3902ea131bad58601352f51f77fe74286cc73f8fc"
+    },
+    {
+      "path": "summarize.py",
+      "size": 4999,
+      "sha256": "54e20b4af4612dcbbd1096ba7eeafa58185960fa40507bad7838c6014243f6bf"
+    }
+  ]
+}

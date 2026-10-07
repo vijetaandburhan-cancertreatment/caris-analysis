@@ -1,0 +1,96 @@
+{
+  "reviewed_utc": "2026-10-01T22:40:39.028334+00:00",
+  "disposition": "STOP before patient scoring; public numerical reproduction failed",
+  "model_invalidity_claim": false,
+  "patient_CD4_negative_claim": false,
+  "patient_input_used": false,
+  "private_uploads": false,
+  "tolerance_relaxed": false,
+  "independent_checks": [
+    "17source hashes match manifest",
+    "HLA-chain/encoding/padding/eval/score-column inspection",
+    "source best-checkpoint test logic",
+    "unchanged upstream-main parity reviewed",
+    "public-data counts and duplicate padding",
+    "source file history since2019",
+    "two public500nM-bin crossings",
+    "batch1 vs64 public-only difference1.22e-6, not failure explanation"
+  ],
+  "files": [
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/public-data-audit.json",
+      "bytes": 6110,
+      "sha256": "255f832fb657b13830d462414520871d831a4f3823473eff0f74877844ef42e4"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/repository-tree.json",
+      "bytes": 58450,
+      "sha256": "94757de85506f7adecfa97f772b77f24cf8a504c2fb94a68904c63e7bd76dd30"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/public-file-history.json",
+      "bytes": 957,
+      "sha256": "bcc98407c787dd6269ca85ad191ab0e57f083f835858c30fb36d49fa5188d9a1"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/audit-public-data.py",
+      "bytes": 2868,
+      "sha256": "6fef4bfeab79595e2137ca15e96b81827a9fac59e51285a775167cde4631fd2f"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/method-audit.txt",
+      "bytes": 4326,
+      "sha256": "e7dc85e07e47664ce9916edc50712f52ad720f05aa8c6594357e50b188701c26"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/public-threshold-crossings.json",
+      "bytes": 584,
+      "sha256": "afb98e3fa15b5e5a48a9099c8eb2db03688466c68f19d168964216507a8600db"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__callbacks.py",
+      "bytes": 2439,
+      "sha256": "fc40c63dca4208891986d1f517bf48974e802049518974cc592a43df186d1493"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__result_collector.py",
+      "bytes": 1142,
+      "sha256": "641e98c243be872823cf74aff563cb2a86b238856b9b3863781cdb93addccd63"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/Models__README.md",
+      "bytes": 126,
+      "sha256": "62dd267ba8644b8c47c7735af1970d0b51597eeba2137256fa077038007a3451"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__model_checker.py",
+      "bytes": 875,
+      "sha256": "be706015659469f5018c51855d60b393e791de3b873187fca3dfbff93b9abf59"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__config_template_LOMO_BD2016.json",
+      "bytes": 804,
+      "sha256": "09ab67eaa4368cab0bdaf56445473724935cda1f66c15eae70e39c7e08a77f53"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__data_provider.py",
+      "bytes": 15585,
+      "sha256": "d4a7fee508970ab3a457aae4ae5faa63de842dc595a84e26304ca70a83fca3d2"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__run.py",
+      "bytes": 11557,
+      "sha256": "1e578a1a6441d2cfdc7ed6b4078a3a4e34c27c6b425dff2e8087b2dd889c3e5c"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/manifest.json",
+      "bytes": 2982,
+      "sha256": "96cc26db7934a584ed65e02162cda2fcd021a09325d691af1e44259ed50bcfc8"
+    },
+    {
+      "path": "work/oct1-deep/neoantigen/class-II-method-audit/additional-public-source/code_and_dataset__BD2013__config.json",
+      "bytes": 826,
+      "sha256": "42fc9af32b13f4efc4decc8257cb7ff02233cd23aa2b08a42c165623f6e4468d"
+    }
+  ]
+}

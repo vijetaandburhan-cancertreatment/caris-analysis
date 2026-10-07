@@ -1,0 +1,61 @@
+{
+  "status": "STOPPED after failed public regression; no patient predictions",
+  "source_commit": "2161f5b8c873493c9d43c0201e88a7843d2999ec",
+  "public_download_bytes": 52912291,
+  "model_preselected_for_patient_if_qualified": "Models/benchmark_weekly/model_bd2013.pytorch",
+  "control_models_scope": "Separate exact-allele held-out models with public expected predictions; not the intended general model",
+  "controls": [
+    {
+      "allele": "DRB1*03:01",
+      "model_scope": "Official BD2016 model trained with this target allele held out; this is not the BD2013 general model",
+      "unique_public_controls": 25,
+      "max_absolute_score_difference": 0.02152317762374878,
+      "pass_tolerance": 0.0001,
+      "passed": false
+    },
+    {
+      "allele": "DRB1*15:02",
+      "model_scope": "Official BD2016 model trained with this target allele held out; this is not the BD2013 general model",
+      "unique_public_controls": 23,
+      "max_absolute_score_difference": 0.02581608295440674,
+      "pass_tolerance": 0.0001,
+      "passed": false
+    }
+  ],
+  "diagnosis": {
+    "scope": "One public example only; no patient input",
+    "allele": "DRB1*15:02",
+    "peptide": "GKWKIIYFYPKDFTFVCPTE",
+    "released_expected_normalized_score": 0.4597550630569458,
+    "wrapper_normalized_score": 0.43393898010253906,
+    "unchanged_upstream_main_normalized_score": 0.43393898010253906,
+    "upstream_and_wrapper_identical": true,
+    "official_main_print": "IC 50:  0.43393898010253906",
+    "only_interception": "torch.load forced map_location=cpu, weights_only=True; inference/model/encoding implementation unchanged",
+    "conclusion": "If upstream and wrapper agree, discrepancy predates wrapper; environment or released checkpoint/reference/control consistency remains unresolved. Do not run patient predictions."
+  },
+  "resource_result": {
+    "peak_rss_bytes": 247447552,
+    "elapsed_seconds": 1.3282489776611328
+  },
+  "training_rows_in_BD2013": {
+    "DRB1*03:01": 2505,
+    "DRB1*15:02": 0
+  },
+  "patient_data_processed": false,
+  "patient_data_uploaded": false,
+  "next_step": "Ask a qualified research team to assess BAP1/RASA1 natural contexts with its established HLA-II pipeline; this branch adds no candidate score.",
+  "training_rows_in_BD2013_source_filter_note": "DRB1*03:01 has 2505 raw rows, 2503 eligible after the upstream >25-aa peptide exclusion; DRB1*15:02 remains zero.",
+  "batch_size_diagnostic": {
+    "scope": "Repeated one public control peptide only; no patient data",
+    "batch_size": 64,
+    "batch1_score": 0.43393898010253906,
+    "batch64_score_min": 0.43393775820732117,
+    "batch64_score_max": 0.43393775820732117,
+    "expected_released_score": 0.4597550630569458,
+    "maximum_batch_effect": 1.2218952178955078e-06,
+    "peak_rss_bytes": 656605184,
+    "elapsed_seconds": 0.7766621112823486
+  },
+  "independent_method_audit": "work/oct1-deep/neoantigen/class-II-method-audit/method-audit.json"
+}

@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "method": "Separate CSV field parser with all-field BLAKE2b-256 row-multisets, retaining multiplicity and original read-name ordering. Every changed row independently matched on all fields except gene1; literal gene1 token multisets compared. No unconditional gene normalization.",
+  "discarded_rows": [
+    825436,
+    825436
+  ],
+  "discarded_headers_equal": true,
+  "all_field_identical_row_instances": 825433,
+  "stock_differing_row_instances": 3,
+  "diagnostic_differing_row_instances": 3,
+  "differences": [
+    {
+      "changes": {
+        "#gene1": {
+          "stock": "FAM95B1(1509),BX664727.3(1509),BX664727.1(2265)",
+          "diagnostic": "BX664727.3(1509),FAM95B1(1509),BX664727.1(2265)"
+        }
+      },
+      "same_all_other_fields": true,
+      "gene1_tokens_equal_including_multiplicity": true,
+      "stock_multiplicity": 1,
+      "diagnostic_multiplicity": 1,
+      "breakpoint1": "chr9:40330730",
+      "breakpoint2": "chr11:27384486",
+      "gene2": "LGR4",
+      "filters": "min_support"
+    },
+    {
+      "changes": {
+        "#gene1": {
+          "stock": "OOSP4A(4594),AP000790.1(4594),OOSP4B(3280)",
+          "diagnostic": "AP000790.1(4594),OOSP4A(4594),OOSP4B(3280)"
+        }
+      },
+      "same_all_other_fields": true,
+      "gene1_tokens_equal_including_multiplicity": true,
+      "stock_multiplicity": 1,
+      "diagnostic_multiplicity": 1,
+      "breakpoint1": "chr11:59974740",
+      "breakpoint2": "chr9:128693989",
+      "gene2": "SET",
+      "filters": "mismatches(1)"
+    },
+    {
+      "changes": {
+        "#gene1": {
+          "stock": "FAM95B1(1532),BX664727.3(1532),BX664727.1(2242)",
+          "diagnostic": "BX664727.3(1532),FAM95B1(1532),BX664727.1(2242)"
+        }
+      },
+      "same_all_other_fields": true,
+      "gene1_tokens_equal_including_multiplicity": true,
+      "stock_multiplicity": 1,
+      "diagnostic_multiplicity": 1,
+      "breakpoint1": "chr9:40330753",
+      "breakpoint2": "chr15:89325086",
+      "gene2": "POLG",
+      "filters": "mismatches(1)"
+    }
+  ],
+  "unmatched": [],
+  "semantic_field_equality_except_equal_gene1_token_order": true,
+  "accepted_bytes_equal": true,
+  "accepted_sha256": "50780f808ff486527f21542fd55b010590eaee9e67b8240b67dee14da3b50f3d",
+  "stock_discarded_sha256": "99f0a63f1c7e538a854c3070d4e8b81d8e59dde737dda59ae62cd2f24fdd0e6a",
+  "diagnostic_discarded_sha256": "572e0eb53f3b0b052475d6f9cf0e9e3df832feca035d019af3414b32f2486da9",
+  "warning_counters_independently_parsed_from_log": {
+    "paired_group_count": 61161,
+    "paired_split_overlap_unresolved": 5303,
+    "supplementary_wrong_clipped_end": 37468
+  },
+  "reason_sum": 103932,
+  "warning_source_JSON_values_match": true,
+  "expected_warning": 103932,
+  "units_review": "61,161 rejected paired alignment groups with group size other than2or3;5,303 groups where split/supplementary overlap could not be resolved;37,468 individual supplementary records clipped at the wrong end. Same fragment can contribute across records/hits/stages; total is not unique reads, molecules, loss percentage or sensitivity.",
+  "subsampling_review": "Counts report cap-branch encounters/distinct keys, not absolute missed-fragment counts. Filtering thresholds and default300cap unchanged.",
+  "limits": [
+    "Accepted byte identity and parsed-field discarded equivalence verify this counter rerun did not change the reported calls; they do not validate biological calls or eliminate sensitivity loss from filtering.",
+    "The absence of fatal BAM-decoder errors rules out that observed failure route, not every possible upstream sequencing/alignment problem.",
+    "Sparse D8 indexing remains separately non-equivalent to compact D1 control. No whole-input detection sensitivity was estimated."
+  ],
+  "elapsed_seconds": 34.981319189071655,
+  "peak_RSS_bytes": 469942272
+}

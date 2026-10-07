@@ -1,0 +1,26 @@
+HLA-II/CD4 follow-up — completed 4 October 2026
+
+The most useful new result is a conditional RASA1 CD4 testing lead, not a validated neoantigen. BAP1 does not gain a robust class-II result from this screen; its earlier, separate class-I findings are unchanged.
+
+We established a reproducible local replacement for the failed DeepSeqPanII run: CapHLA, using its official MIT-licensed source and models. All 32 released v2 test examples and all 100 v1 examples, including 26 class-II DP examples, reproduced within the prespecified 0.00001 tolerance (maximum error about 0.00000041). The earlier DeepSeqPanII mismatch remains documented. V1's released HLA table omitted sequences; supplying the official v2 sequence mapping reproduced its published predictions without modifying model weights or architecture.
+
+The completed scan covers every mutation-containing 13–25mer possible in the existing BAP1/RASA1 contexts: 91 BAP1 and 26 RASA1 peptides, each with a matching normal-reference peptide, across nine provisional HLA-II combinations. That is 2,106 input rows per release and 1,053 mutant/WT comparisons. Natural stops are retained: seven altered amino acids for BAP1, two for RASA1. No downstream residues were invented.
+
+RASA1: the natural-terminal 15mer GDYYIGGRRFSSLQT (amino acids 237–251), paired with provisional DPA1*01:03/DPB1*02:01, has a consistently high model EL score:
+  Current v2: mutant 0.925750; WT GDYYIGGRRFSSLSD 0.777399.
+  Older v1: mutant 0.958507; WT 0.802943.
+  Normalized BA: v2 0.453212 versus WT 0.400247; v1 0.428404 versus WT 0.387869.
+This is suitable for discussing a paired mutant-versus-WT CD4 assay with the research team after HLA confirmation. It is not evidence that T cells recognize the mutant selectively. Five of its seven possible nine-amino-acid binding cores are entirely WT; only GGRRFSSLQ and GRRFSSLQT contain the changes, at the ends of the possible cores. The actual bound register is unknown. Neither model establishes natural tumor presentation.
+
+BAP1: within the primary 13–25mer scan, the maximum current-release EL score is 0.370006. Two older-release peptide/HLA pairs cross the authors' exploratory EL/BA 0.5 cutpoints, but both fail those combined cutpoints in the current release. No BAP1 or RASA1 pair passes both cutpoints in both releases. These thresholds are descriptive model screening rules, not a biological exclusion test; their failure does not prove that a peptide cannot work.
+
+A separately labeled 12mer sensitivity added seven BAP1 and two RASA1 windows (162 rows per release). It found no pair passing both author cutpoints. BAP1 IFLFKWIEERKG / DRB5*01:02 scores EL 0.532382 in v2, but its WT IFLFKWIEERRS is almost identical at 0.511394, and BA is 0.273520 versus WT 0.279429. The older release has a larger EL contrast, making the apparent mutant selectivity unstable. This does not change the priority above. Across primary and sensitivity work, 126 distinct mutant windows of lengths 12–25 were examined, with matched WT controls.
+
+Normal-reference check: none of the 117 mutant long peptides or nine mutation-containing possible nine-amino-acid cores exactly matches any of 382,428 GENCODE 50 translation records. This does not account for the patient's constitutional variants, unannotated proteins, alternate processing or structural cross-reactivity, and does not establish safety.
+
+Keep the score meanings narrow. EL is a model output, not a percentage likelihood of presentation or benefit. BA is an unbounded normalized regression: 4/2,106 current-release and 45/2,106 older-release outputs fall outside the nominal 0–1 target interval. We retained them without clamping or converting them into apparently precise affinities. Specific training counts for Papa's alleles were not available. RNA HLA calls need clinical confirmation; DRA is assumed, all four DQ combinations are unphased, and two DQ mappings contain the upstream model's X residue. There is no matched-normal, protein, HLA-ligand or functional T-cell validation. All patient scoring was local, with network access blocked during inference.
+
+Files: patient-paired-comparisons.csv contains all comparisons and fold ranges; per-HLA-candidate-comparison.csv shows the strongest EL, strongest BA and largest EL mutant/WT contrast for every gene/HLA pair. method-validation.json, the scripts, source manifests and README.txt make the run reproducible.
+
+Primary method: https://github.com/changyunjian/CapHLA
+Publication: https://doi.org/10.1093/bib/bbae595

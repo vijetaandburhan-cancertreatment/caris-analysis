@@ -1,0 +1,3501 @@
+{
+  "old_alternate_fragments": 75,
+  "new_alternate_fragments": 61,
+  "lost_alternate_names": 15,
+  "gained_alternate_names": 1,
+  "net_change": -14,
+  "classification": {
+    "lost: New retained CIGAR/placement no longer covers exact alternate window": 15,
+    "gained: New alignment restores a strict alternate window absent from old qualifying alignments": 1
+  },
+  "names": {
+    "A01687:587:H2KM3DSXG:3:2276:18530:16517": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333322,
+          "cigar": "14M1D81M624N56M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "a0e560db884f1b28d6fb753dd08f06e4456646a6c141d7f1eedd94ae39d37674",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333322,
+          "cigar": "14M1D81M624N56M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "low_or_missing_BQ",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 11,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "0b82ce4617afb3ff81215fab0bf4ece907a3963bbb500e84a10add9c4b8d8805",
+          "passes_strict_alternate": false
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "a0e560db884f1b28d6fb753dd08f06e4456646a6c141d7f1eedd94ae39d37674",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "0b82ce4617afb3ff81215fab0bf4ece907a3963bbb500e84a10add9c4b8d8805",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "a0e560db884f1b28d6fb753dd08f06e4456646a6c141d7f1eedd94ae39d37674",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "0b82ce4617afb3ff81215fab0bf4ece907a3963bbb500e84a10add9c4b8d8805",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "a0e560db884f1b28d6fb753dd08f06e4456646a6c141d7f1eedd94ae39d37674",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "0b82ce4617afb3ff81215fab0bf4ece907a3963bbb500e84a10add9c4b8d8805",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "a0e560db884f1b28d6fb753dd08f06e4456646a6c141d7f1eedd94ae39d37674",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "0b82ce4617afb3ff81215fab0bf4ece907a3963bbb500e84a10add9c4b8d8805",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "a0e560db884f1b28d6fb753dd08f06e4456646a6c141d7f1eedd94ae39d37674",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "0b82ce4617afb3ff81215fab0bf4ece907a3963bbb500e84a10add9c4b8d8805",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records also fail MAPQ/NH uniqueness filters.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:4:2638:1642:24032": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333283,
+          "cigar": "38S81M624N17M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 136,
+          "forward_read_sha256": "53f081a78fe803dd6b95b2cb5b2e8321640388048d13521ec12c4c60da9c2db3",
+          "forward_quality_sha256": "db7a9a9bdc232d81c09945d161935c9b9caa12feea254b411a5b8c6e22bb3c9f",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333283,
+          "cigar": "38S81M624N17M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 136,
+          "forward_read_sha256": "584c539008e2119cfe0b13ce31d87aa10327efb61ef456b2af6d74ce516832f6",
+          "forward_quality_sha256": "72c07266b0723592cbba94d923bbe1a28f32382582df0206a484a08f99185c44",
+          "passes_strict_alternate": false
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332522,
+          "end0": 87333283,
+          "cigar": "38M1D81M624N17M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 136,
+          "forward_read_sha256": "53f081a78fe803dd6b95b2cb5b2e8321640388048d13521ec12c4c60da9c2db3",
+          "forward_quality_sha256": "db7a9a9bdc232d81c09945d161935c9b9caa12feea254b411a5b8c6e22bb3c9f",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332524,
+          "end0": 87333283,
+          "cigar": "2S36M1D81M624N17M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "low_or_missing_BQ",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 11,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 136,
+          "forward_read_sha256": "584c539008e2119cfe0b13ce31d87aa10327efb61ef456b2af6d74ce516832f6",
+          "forward_quality_sha256": "72c07266b0723592cbba94d923bbe1a28f32382582df0206a484a08f99185c44",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "gained",
+      "explanation": "New alignment restores a strict alternate window absent from old qualifying alignments",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "Old38S leading clip becomes38M1D (or2S36M1D), restoring both genomic anchors; one mate has Q>=20 and the other retains lowBQ11 in the allele window.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:4:1232:29225:25676": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332547,
+          "end0": 87333322,
+          "cigar": "13M1D81M624N56M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 150,
+          "forward_read_sha256": "266ccbcd7e06a8667ab42b15a15865979698d0ebce5e136afa9642855bbbff1f",
+          "forward_quality_sha256": "27d0bcfb3a427b18cbf40001ae35e573d55591d7cc5e69528efdf92fa606fecd",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332547,
+          "end0": 87333322,
+          "cigar": "13M1D81M624N56M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 150,
+          "forward_read_sha256": "06e951e1dab0fc222647f8feaf708eb5f96cc16657507009623e3c367ee8e5e9",
+          "forward_quality_sha256": "2f49a27680a2d18564367b14d26eedd32132a959a6151ef37d11240c8dc86023",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "13S81M624N56M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 150,
+          "forward_read_sha256": "266ccbcd7e06a8667ab42b15a15865979698d0ebce5e136afa9642855bbbff1f",
+          "forward_quality_sha256": "27d0bcfb3a427b18cbf40001ae35e573d55591d7cc5e69528efdf92fa606fecd",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "13S81M624N56M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 150,
+          "forward_read_sha256": "06e951e1dab0fc222647f8feaf708eb5f96cc16657507009623e3c367ee8e5e9",
+          "forward_quality_sha256": "2f49a27680a2d18564367b14d26eedd32132a959a6151ef37d11240c8dc86023",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records remain uniquely aligned; loss is caused by the clipped allele flank.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:1219:5095:15421": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333284,
+          "cigar": "14M1D81M624N18M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 113,
+          "forward_read_sha256": "b2dc8f9a4964f8050b65942188283fecf6db4daeb8f2ceec3c4ce37ca9ff2bbf",
+          "forward_quality_sha256": "6683346dd7b7facfbf0e0139a8cf8e31284b29ca29ba272ad8cb1765402576c7",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333284,
+          "cigar": "14M1D81M624N18M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 113,
+          "forward_read_sha256": "aafb7419fd45470f7752f689efb2c23d8b6c99db04b1c489724f5e949dda555b",
+          "forward_quality_sha256": "32613f431436f9bf47b6b0ec4dabc0f4067bf93770fd96ac5bceda065df24799",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333284,
+          "cigar": "15S80M624N18M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 113,
+          "forward_read_sha256": "b2dc8f9a4964f8050b65942188283fecf6db4daeb8f2ceec3c4ce37ca9ff2bbf",
+          "forward_quality_sha256": "6683346dd7b7facfbf0e0139a8cf8e31284b29ca29ba272ad8cb1765402576c7",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333284,
+          "cigar": "15S80M624N18M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 113,
+          "forward_read_sha256": "aafb7419fd45470f7752f689efb2c23d8b6c99db04b1c489724f5e949dda555b",
+          "forward_quality_sha256": "32613f431436f9bf47b6b0ec4dabc0f4067bf93770fd96ac5bceda065df24799",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333284,
+          "cigar": "15S80M624N18M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 113,
+          "forward_read_sha256": "b2dc8f9a4964f8050b65942188283fecf6db4daeb8f2ceec3c4ce37ca9ff2bbf",
+          "forward_quality_sha256": "6683346dd7b7facfbf0e0139a8cf8e31284b29ca29ba272ad8cb1765402576c7",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333284,
+          "cigar": "15S80M624N18M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 113,
+          "forward_read_sha256": "aafb7419fd45470f7752f689efb2c23d8b6c99db04b1c489724f5e949dda555b",
+          "forward_quality_sha256": "32613f431436f9bf47b6b0ec4dabc0f4067bf93770fd96ac5bceda065df24799",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333284,
+          "cigar": "14S81M624N18M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 113,
+          "forward_read_sha256": "b2dc8f9a4964f8050b65942188283fecf6db4daeb8f2ceec3c4ce37ca9ff2bbf",
+          "forward_quality_sha256": "6683346dd7b7facfbf0e0139a8cf8e31284b29ca29ba272ad8cb1765402576c7",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333284,
+          "cigar": "14S81M624N18M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 113,
+          "forward_read_sha256": "aafb7419fd45470f7752f689efb2c23d8b6c99db04b1c489724f5e949dda555b",
+          "forward_quality_sha256": "32613f431436f9bf47b6b0ec4dabc0f4067bf93770fd96ac5bceda065df24799",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333284,
+          "cigar": "15S80M624N18M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 113,
+          "forward_read_sha256": "b2dc8f9a4964f8050b65942188283fecf6db4daeb8f2ceec3c4ce37ca9ff2bbf",
+          "forward_quality_sha256": "6683346dd7b7facfbf0e0139a8cf8e31284b29ca29ba272ad8cb1765402576c7",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333284,
+          "cigar": "15S80M624N18M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 113,
+          "forward_read_sha256": "aafb7419fd45470f7752f689efb2c23d8b6c99db04b1c489724f5e949dda555b",
+          "forward_quality_sha256": "32613f431436f9bf47b6b0ec4dabc0f4067bf93770fd96ac5bceda065df24799",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333284,
+          "cigar": "14S81M624N18M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 113,
+          "forward_read_sha256": "b2dc8f9a4964f8050b65942188283fecf6db4daeb8f2ceec3c4ce37ca9ff2bbf",
+          "forward_quality_sha256": "6683346dd7b7facfbf0e0139a8cf8e31284b29ca29ba272ad8cb1765402576c7",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333284,
+          "cigar": "14S81M624N18M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 113,
+          "forward_read_sha256": "aafb7419fd45470f7752f689efb2c23d8b6c99db04b1c489724f5e949dda555b",
+          "forward_quality_sha256": "32613f431436f9bf47b6b0ec4dabc0f4067bf93770fd96ac5bceda065df24799",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records also fail MAPQ/NH uniqueness filters.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:1343:27679:9220": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333290,
+          "cigar": "14M1D81M624N24M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "51d56c70fa5de3e6ed29ff2815f5a9c9661f1de9fec94f31ff2de37ab4312c9a",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333290,
+          "cigar": "14M1D81M624N24M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "51d56c70fa5de3e6ed29ff2815f5a9c9661f1de9fec94f31ff2de37ab4312c9a",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "51d56c70fa5de3e6ed29ff2815f5a9c9661f1de9fec94f31ff2de37ab4312c9a",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "51d56c70fa5de3e6ed29ff2815f5a9c9661f1de9fec94f31ff2de37ab4312c9a",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "51d56c70fa5de3e6ed29ff2815f5a9c9661f1de9fec94f31ff2de37ab4312c9a",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "51d56c70fa5de3e6ed29ff2815f5a9c9661f1de9fec94f31ff2de37ab4312c9a",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records also fail MAPQ/NH uniqueness filters.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:2262:28022:28354": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332547,
+          "end0": 87333333,
+          "cigar": "13M1D81M624N67M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 161,
+          "forward_read_sha256": "d632913bb2046d66a577b8d32c374418a2823ccd70dbe49f77122bb964bd1c05",
+          "forward_quality_sha256": "b10e36abc1af35d0379eb9c368ffe904ee68f295cfb0a7e9c7b110ad9934396b",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332607,
+          "end0": 87338024,
+          "cigar": "35M624N71M4636N51M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_both_anchors",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 157,
+          "forward_read_sha256": "043ef385da956f66b49ad9f9e6ecee386be8e27a749ba004f838ef2a2d4f06ce",
+          "forward_quality_sha256": "4a6c9149e6f261943af72ac7c61b0398d840c42f3b5731261551b1958ee9f121",
+          "passes_strict_alternate": false
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333333,
+          "cigar": "13S81M624N67M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 161,
+          "forward_read_sha256": "d632913bb2046d66a577b8d32c374418a2823ccd70dbe49f77122bb964bd1c05",
+          "forward_quality_sha256": "b10e36abc1af35d0379eb9c368ffe904ee68f295cfb0a7e9c7b110ad9934396b",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332607,
+          "end0": 87338024,
+          "cigar": "35M624N71M4636N51M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_both_anchors",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 157,
+          "forward_read_sha256": "043ef385da956f66b49ad9f9e6ecee386be8e27a749ba004f838ef2a2d4f06ce",
+          "forward_quality_sha256": "4a6c9149e6f261943af72ac7c61b0398d840c42f3b5731261551b1958ee9f121",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records remain uniquely aligned; loss is caused by the clipped allele flank.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:1343:27163:9549": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333290,
+          "cigar": "14M1D81M624N24M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "0aa5d1c673800fd08d4cde3183a3421c9faca753e96dea0a136789f01b62293f",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333290,
+          "cigar": "14M1D81M624N24M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "0aa5d1c673800fd08d4cde3183a3421c9faca753e96dea0a136789f01b62293f",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "0aa5d1c673800fd08d4cde3183a3421c9faca753e96dea0a136789f01b62293f",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "0aa5d1c673800fd08d4cde3183a3421c9faca753e96dea0a136789f01b62293f",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "0aa5d1c673800fd08d4cde3183a3421c9faca753e96dea0a136789f01b62293f",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "0aa5d1c673800fd08d4cde3183a3421c9faca753e96dea0a136789f01b62293f",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records also fail MAPQ/NH uniqueness filters.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:1168:16586:32095": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332547,
+          "end0": 87333320,
+          "cigar": "13M1D81M624N54M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 148,
+          "forward_read_sha256": "76f8db6a3c558b9633ed72c54ee1f9e7b21bb1bc5af684df80725746a62ef265",
+          "forward_quality_sha256": "14adbdf953904df48572548eb7942c4486b27e380102234eeefbac1789337c78",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332547,
+          "end0": 87333320,
+          "cigar": "13M1D81M624N54M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 148,
+          "forward_read_sha256": "01e66ccb19c5b3ac6c288682489932f9fd3bee93bbfe684904c4a11190bd2484",
+          "forward_quality_sha256": "19e62ea4a3df02e718649a221d86ffd135e1cf99795451ecdfc6c7b352a84eca",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333320,
+          "cigar": "13S81M624N54M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 148,
+          "forward_read_sha256": "76f8db6a3c558b9633ed72c54ee1f9e7b21bb1bc5af684df80725746a62ef265",
+          "forward_quality_sha256": "14adbdf953904df48572548eb7942c4486b27e380102234eeefbac1789337c78",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333320,
+          "cigar": "13S81M624N54M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 148,
+          "forward_read_sha256": "01e66ccb19c5b3ac6c288682489932f9fd3bee93bbfe684904c4a11190bd2484",
+          "forward_quality_sha256": "19e62ea4a3df02e718649a221d86ffd135e1cf99795451ecdfc6c7b352a84eca",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records remain uniquely aligned; loss is caused by the clipped allele flank.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:2262:28004:28354": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332547,
+          "end0": 87333333,
+          "cigar": "13M1D81M624N67M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 161,
+          "forward_read_sha256": "d632913bb2046d66a577b8d32c374418a2823ccd70dbe49f77122bb964bd1c05",
+          "forward_quality_sha256": "f0afbd86ad2999903103754f8b815c961b6c7f9cde5f3c544fae56cf45d1451c",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332607,
+          "end0": 87338024,
+          "cigar": "35M624N71M4636N51M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_both_anchors",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 157,
+          "forward_read_sha256": "043ef385da956f66b49ad9f9e6ecee386be8e27a749ba004f838ef2a2d4f06ce",
+          "forward_quality_sha256": "2e45fecaa51063b47468ff319eaa71bb6b109ca7d1d9cfc801abeb8fdcac9790",
+          "passes_strict_alternate": false
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333333,
+          "cigar": "13S81M624N67M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 161,
+          "forward_read_sha256": "d632913bb2046d66a577b8d32c374418a2823ccd70dbe49f77122bb964bd1c05",
+          "forward_quality_sha256": "f0afbd86ad2999903103754f8b815c961b6c7f9cde5f3c544fae56cf45d1451c",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332607,
+          "end0": 87338024,
+          "cigar": "35M624N71M4636N51M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_both_anchors",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 157,
+          "forward_read_sha256": "043ef385da956f66b49ad9f9e6ecee386be8e27a749ba004f838ef2a2d4f06ce",
+          "forward_quality_sha256": "2e45fecaa51063b47468ff319eaa71bb6b109ca7d1d9cfc801abeb8fdcac9790",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records remain uniquely aligned; loss is caused by the clipped allele flank.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:2:2471:8558:25833": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332547,
+          "end0": 87332642,
+          "cigar": "13M1D81M1S",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 95,
+          "forward_read_sha256": "73ca626cf013e4c53fd82d31b3bfd86d5e7acabfe6f94fd406c38a1a14a1ef82",
+          "forward_quality_sha256": "b5a34ad55c7f1cfc309280dc7e1bdd8a2e7cad85f8ac93e09f413632fb81a8e8",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332547,
+          "end0": 87332642,
+          "cigar": "13M1D81M1S",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 95,
+          "forward_read_sha256": "7e3222c4410e7b3d92b1b76f811fe30b35a24343d95e1756dc09954d8eaa7f37",
+          "forward_quality_sha256": "2232717a43ad1f699402ae392284cb68f5b7f59076be0b096a0e4d149fbc9a06",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87332642,
+          "cigar": "13S81M1S",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 95,
+          "forward_read_sha256": "73ca626cf013e4c53fd82d31b3bfd86d5e7acabfe6f94fd406c38a1a14a1ef82",
+          "forward_quality_sha256": "b5a34ad55c7f1cfc309280dc7e1bdd8a2e7cad85f8ac93e09f413632fb81a8e8",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87332642,
+          "cigar": "13S81M1S",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 95,
+          "forward_read_sha256": "7e3222c4410e7b3d92b1b76f811fe30b35a24343d95e1756dc09954d8eaa7f37",
+          "forward_quality_sha256": "2232717a43ad1f699402ae392284cb68f5b7f59076be0b096a0e4d149fbc9a06",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records remain uniquely aligned; loss is caused by the clipped allele flank.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:1168:15591:31375": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332547,
+          "end0": 87333320,
+          "cigar": "13M1D81M624N54M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 148,
+          "forward_read_sha256": "76f8db6a3c558b9633ed72c54ee1f9e7b21bb1bc5af684df80725746a62ef265",
+          "forward_quality_sha256": "87013c0c2ad0ffd2fd31d78bdd84231442d6f65071f17c60ff03cda5726023d2",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332547,
+          "end0": 87333320,
+          "cigar": "13M1D81M624N54M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 148,
+          "forward_read_sha256": "01e66ccb19c5b3ac6c288682489932f9fd3bee93bbfe684904c4a11190bd2484",
+          "forward_quality_sha256": "19e62ea4a3df02e718649a221d86ffd135e1cf99795451ecdfc6c7b352a84eca",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333320,
+          "cigar": "13S81M624N54M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 148,
+          "forward_read_sha256": "76f8db6a3c558b9633ed72c54ee1f9e7b21bb1bc5af684df80725746a62ef265",
+          "forward_quality_sha256": "87013c0c2ad0ffd2fd31d78bdd84231442d6f65071f17c60ff03cda5726023d2",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333320,
+          "cigar": "13S81M624N54M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 148,
+          "forward_read_sha256": "01e66ccb19c5b3ac6c288682489932f9fd3bee93bbfe684904c4a11190bd2484",
+          "forward_quality_sha256": "19e62ea4a3df02e718649a221d86ffd135e1cf99795451ecdfc6c7b352a84eca",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records remain uniquely aligned; loss is caused by the clipped allele flank.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:3:1432:8006:11036": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332549,
+          "end0": 87333281,
+          "cigar": "11M1D81M624N15M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 107,
+          "forward_read_sha256": "35ee19a32f4e38bee7010e84b61a69b194ceffc11ed0ff58eec3cc2478052cd6",
+          "forward_quality_sha256": "f320935e167c7b06da7e193d007c4d7738602767ba3c85fd43a6f8081c93db71",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332549,
+          "end0": 87333281,
+          "cigar": "11M1D81M624N15M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 107,
+          "forward_read_sha256": "0bbefe85f99ac108518f33b1e0929281ceadd55af7e8688928282e8220a0dd17",
+          "forward_quality_sha256": "c87ed9df7e3cb0ad966aeed583529cb682c428eba82c302145b741ebd5b0ab24",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333281,
+          "cigar": "11S81M624N15M",
+          "MAPQ": 3,
+          "NH": 2,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 107,
+          "forward_read_sha256": "35ee19a32f4e38bee7010e84b61a69b194ceffc11ed0ff58eec3cc2478052cd6",
+          "forward_quality_sha256": "f320935e167c7b06da7e193d007c4d7738602767ba3c85fd43a6f8081c93db71",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333281,
+          "cigar": "11S81M624N15M",
+          "MAPQ": 3,
+          "NH": 2,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 107,
+          "forward_read_sha256": "0bbefe85f99ac108518f33b1e0929281ceadd55af7e8688928282e8220a0dd17",
+          "forward_quality_sha256": "c87ed9df7e3cb0ad966aeed583529cb682c428eba82c302145b741ebd5b0ab24",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87185887,
+          "end0": 87333281,
+          "cigar": "10M146663N82M624N15M",
+          "MAPQ": 3,
+          "NH": 2,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 107,
+          "forward_read_sha256": "35ee19a32f4e38bee7010e84b61a69b194ceffc11ed0ff58eec3cc2478052cd6",
+          "forward_quality_sha256": "f320935e167c7b06da7e193d007c4d7738602767ba3c85fd43a6f8081c93db71",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87185887,
+          "end0": 87333281,
+          "cigar": "10M146663N82M624N15M",
+          "MAPQ": 3,
+          "NH": 2,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 107,
+          "forward_read_sha256": "0bbefe85f99ac108518f33b1e0929281ceadd55af7e8688928282e8220a0dd17",
+          "forward_quality_sha256": "c87ed9df7e3cb0ad966aeed583529cb682c428eba82c302145b741ebd5b0ab24",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records also fail MAPQ/NH uniqueness filters.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:1343:27995:9486": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333290,
+          "cigar": "14M1D81M624N24M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "b45fabb89d949bb33bb1c41fd848d6df2889ea92d65f4511c3392327860b5782",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333290,
+          "cigar": "14M1D81M624N24M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "61cb0c3f82af15a69773619f703e0268b73f94b013c576770ae6b24001e2640e",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "b45fabb89d949bb33bb1c41fd848d6df2889ea92d65f4511c3392327860b5782",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "61cb0c3f82af15a69773619f703e0268b73f94b013c576770ae6b24001e2640e",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "b45fabb89d949bb33bb1c41fd848d6df2889ea92d65f4511c3392327860b5782",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "61cb0c3f82af15a69773619f703e0268b73f94b013c576770ae6b24001e2640e",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "b45fabb89d949bb33bb1c41fd848d6df2889ea92d65f4511c3392327860b5782",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "61cb0c3f82af15a69773619f703e0268b73f94b013c576770ae6b24001e2640e",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "b45fabb89d949bb33bb1c41fd848d6df2889ea92d65f4511c3392327860b5782",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "61cb0c3f82af15a69773619f703e0268b73f94b013c576770ae6b24001e2640e",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "b45fabb89d949bb33bb1c41fd848d6df2889ea92d65f4511c3392327860b5782",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "61cb0c3f82af15a69773619f703e0268b73f94b013c576770ae6b24001e2640e",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records also fail MAPQ/NH uniqueness filters.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:1343:27661:9251": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333290,
+          "cigar": "14M1D81M624N24M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333290,
+          "cigar": "14M1D81M624N24M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333290,
+          "cigar": "15S80M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "4c8c23090567f0931a4d15504ff23295780d0392d6d01ec6b87132c915aac12e",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333290,
+          "cigar": "14S81M624N24M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 119,
+          "forward_read_sha256": "7ae2a8062f74074fa459d64a9a7d7a25e2e83bad5c07dfbbf5cdc044dbf92020",
+          "forward_quality_sha256": "2231f7f502a60faf2323f968732f29931550e55c2acbb2b9a951013befcab688",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records also fail MAPQ/NH uniqueness filters.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:2347:2926:3740": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333322,
+          "cigar": "14M1D81M624N56M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "344363e83aed76197548ef917f111d45ebf5346758ef8f3d168f3a04246ff9bb",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333322,
+          "cigar": "14M1D81M624N56M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "1de498f09658be0630ddaeae73daddce0658499de7a579f26425843dc8cdc6d8",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "344363e83aed76197548ef917f111d45ebf5346758ef8f3d168f3a04246ff9bb",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "1de498f09658be0630ddaeae73daddce0658499de7a579f26425843dc8cdc6d8",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "344363e83aed76197548ef917f111d45ebf5346758ef8f3d168f3a04246ff9bb",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "1de498f09658be0630ddaeae73daddce0658499de7a579f26425843dc8cdc6d8",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "344363e83aed76197548ef917f111d45ebf5346758ef8f3d168f3a04246ff9bb",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "1de498f09658be0630ddaeae73daddce0658499de7a579f26425843dc8cdc6d8",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "344363e83aed76197548ef917f111d45ebf5346758ef8f3d168f3a04246ff9bb",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "1de498f09658be0630ddaeae73daddce0658499de7a579f26425843dc8cdc6d8",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "344363e83aed76197548ef917f111d45ebf5346758ef8f3d168f3a04246ff9bb",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "1de498f09658be0630ddaeae73daddce0658499de7a579f26425843dc8cdc6d8",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records also fail MAPQ/NH uniqueness filters.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    },
+    "A01687:587:H2KM3DSXG:1:2637:19244:23422": {
+      "old": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333322,
+          "cigar": "14M1D81M624N56M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "c96ebfbc78f7fe12dff34228fe1e8eec9e0411fb0016d2e1186e64e21b74f9b1",
+          "passes_strict_alternate": true
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332546,
+          "end0": 87333322,
+          "cigar": "14M1D81M624N56M",
+          "MAPQ": 255,
+          "NH": 1,
+          "alignment_filter_reasons": [],
+          "window_coverage": "both_anchors",
+          "window_allele_before_filter": "alternate",
+          "window_min_BQ": 37,
+          "window_sequence": "TTTCTTCACTTCAGACCTAA",
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "fe3c20482fb7f8d78e3c8f21a261f2b71945e4e4dbd25d59bc60beaf230982e0",
+          "passes_strict_alternate": true
+        }
+      ],
+      "new": [
+        {
+          "mate": 2,
+          "flag": 163,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "c96ebfbc78f7fe12dff34228fe1e8eec9e0411fb0016d2e1186e64e21b74f9b1",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 83,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "fe3c20482fb7f8d78e3c8f21a261f2b71945e4e4dbd25d59bc60beaf230982e0",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "c96ebfbc78f7fe12dff34228fe1e8eec9e0411fb0016d2e1186e64e21b74f9b1",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "fe3c20482fb7f8d78e3c8f21a261f2b71945e4e4dbd25d59bc60beaf230982e0",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "c96ebfbc78f7fe12dff34228fe1e8eec9e0411fb0016d2e1186e64e21b74f9b1",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "fe3c20482fb7f8d78e3c8f21a261f2b71945e4e4dbd25d59bc60beaf230982e0",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "c96ebfbc78f7fe12dff34228fe1e8eec9e0411fb0016d2e1186e64e21b74f9b1",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332562,
+          "end0": 87333322,
+          "cigar": "15S80M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "fe3c20482fb7f8d78e3c8f21a261f2b71945e4e4dbd25d59bc60beaf230982e0",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 2,
+          "flag": 419,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "371f25587740f1e7e3c192e2fec9c12fc6f72ad8a6dcabf89500c0fcba96dccc",
+          "forward_quality_sha256": "c96ebfbc78f7fe12dff34228fe1e8eec9e0411fb0016d2e1186e64e21b74f9b1",
+          "passes_strict_alternate": false
+        },
+        {
+          "mate": 1,
+          "flag": 339,
+          "chrom": "chr5",
+          "start0": 87332561,
+          "end0": 87333322,
+          "cigar": "14S81M624N56M",
+          "MAPQ": 0,
+          "NH": 5,
+          "alignment_filter_reasons": [
+            "secondary",
+            "MAPQ<20",
+            "NH!=1"
+          ],
+          "window_coverage": "missing_left_anchor",
+          "window_allele_before_filter": null,
+          "window_min_BQ": null,
+          "window_sequence": null,
+          "read_length": 151,
+          "forward_read_sha256": "fa1c04573b159c8e20e5ed2baec9a02c787b241386749e3af979a7cc33923e02",
+          "forward_quality_sha256": "fe3c20482fb7f8d78e3c8f21a261f2b71945e4e4dbd25d59bc60beaf230982e0",
+          "passes_strict_alternate": false
+        }
+      ],
+      "direction": "lost",
+      "explanation": "New retained CIGAR/placement no longer covers exact alternate window",
+      "same_read_sequence_checks": [
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 2,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        },
+        {
+          "mate": 1,
+          "same_forward_sequence": true,
+          "same_forward_qualities": true
+        }
+      ],
+      "specific_reason": "The old deletion-bearing 11\u201314bp leading match is replaced by leading soft clipping in the new primary alignment, losing the left10bp allele anchor. New primary records also fail MAPQ/NH uniqueness filters.",
+      "both_mates_sequence_and_quality_identical_across_runs": true
+    }
+  },
+  "limits": [
+    "Same specimen and read pool: these are computational eligibility differences, not longitudinal biology.",
+    "New target BAM includes all alignments retained in four gene intervals, including low-MAPQ/secondary/supplementary reads, but cannot reveal placements elsewhere.",
+    "Counts group read names, not distinct original molecules."
+  ],
+  "specific_summary": {
+    "lost_primary_mapping_categories": {
+      "MAPQ=0,NH=5": 8,
+      "MAPQ=255,NH=1": 6,
+      "MAPQ=3,NH=2": 1
+    },
+    "old_lost_deletion_leading_match_bp_range": [
+      11,
+      14
+    ],
+    "all16_names_both_mates_identical_sequence_and_quality": true,
+    "causal_limit": "Direct mechanism is loss of the left allele anchor through clipping; nine names additionally fail MAPQ/NH uniqueness. Differences in STAR version, index, reference and settings have not been experimentally isolated."
+  }
+}

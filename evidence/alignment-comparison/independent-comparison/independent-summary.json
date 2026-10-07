@@ -1,0 +1,37 @@
+{
+  "status": "INDEPENDENT_COUNT_COMPLETE_PENDING_PRIMARY_COMPARISON",
+  "fixed_cohort_loci": 4015,
+  "independent_output_rows": 4015,
+  "original_DNA_categories_fixed": {
+    "ref_dominant": 2283,
+    "alt_dominant": 590,
+    "ref_alt_mixed": 1109,
+    "residual": 33
+  },
+  "new_callable20_sites": 3932,
+  "new_zero_ACGT_sites": 0,
+  "original_and_new_ref_alt_other_vectors_equal": 2128,
+  "fixed_denominator_retention": {
+    "nonzero_dominant_sites": 2873,
+    "retains90_nonzero": 2860,
+    "retains98_nonzero": 2776,
+    "callable20_dominant_sites": 2814,
+    "retains90_callable20": 2805,
+    "retains98_callable20": 2721
+  },
+  "captured_records_read": 1004728,
+  "requested_exception_names": 3426,
+  "observed_exception_names": 3426,
+  "missing_exception_names": [],
+  "exception_names_with_both_mate_flags": 3426,
+  "all16_exception_rows_retained": true,
+  "runtime_seconds": 9.065,
+  "peak_RSS_bytes_macOS": 149962752,
+  "limits": [
+    "Counts are A/C/G/T query-name units, not UMI-independent molecules.",
+    "Fixed baseline4015 sites remain the denominator; new depth losses and zero counts are retained. Fractions among nonzero or callable subsets are separately labelled.",
+    "Ordinary D/N-only alignment records were not captured and nonACGT counters therefore do not represent complete whole-BAM skip/deletion inventories.",
+    "Observed requested names/mates describe records emitted by STAR and preserved by capture, not all possible mappings or specimen identity.",
+    "This is one RNA library processed through different mapping pipelines, not an independent sample. No correction or D8-only attribution follows."
+  ]
+}

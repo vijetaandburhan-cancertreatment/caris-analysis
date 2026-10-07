@@ -1,0 +1,11 @@
+Independent stop-context audit: PASS
+
+A separate nucleotide-token reconstruction of the edited full mRNA reproduces every reported stop coordinate, exon assignment and downstream-junction distance for BAP1, RASA1 and LATS1. It uses exon identities on the mutant nucleotides rather than shifting the source script's junction list. The mutant protein lengths also agree.
+
+BAP1: stop codon TGA in transcript exon 4. Stop-end to next downstream junction: 52 nt; to final junction: 1,853 nt; 13 downstream junctions.
+RASA1: stop codon and all reported coordinates reproduce. Stop-end to next downstream junction: 71 nt; to final junction: 2,303 nt; 22 downstream junctions.
+LATS1: the stop contains an inserted nucleotide, correctly represented by a null genomic/reference coordinate. Stop-end to next downstream junction: 116 nt; to final junction: 2,503 nt; five downstream junctions.
+
+These are descriptive properties of the selected reference isoform with one edit. They do not establish nonsense-mediated decay efficiency or escape, full-length mutant transcript abundance, stable protein production, or antigen presentation. The original interpretation retains these limits appropriately.
+
+Detailed recomputed codons and nucleotide mappings are in stop-context-audit.json; the independent script is audit-stop-context.py. No private sequence upload or heavy scan was used.

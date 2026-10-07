@@ -1,0 +1,20 @@
+The diagnostic rerun reproduced the stock warning count of 103,932 and the complete 23,209,264-pair input count. All 28 accepted candidate rows are byte-identical to the stock output. Adding counters did not rescue alignments, alter filters, change thresholds or fix the known sparse-index sensitivity limitation.
+
+The warning combines different units:
+- 61,161 query-name plus HI alignment groups had the wrong number of records for Arriba's paired-read representation.
+- 5,303 groups had overlapping split segments that Arriba could not resolve while satisfying its clipping/remaining-anchor rules.
+- 37,468 individual supplementary alignment records were clipped at the end opposite to that expected by Arriba's paired-fragment convention.
+- The other instrumented rejection categories were zero.
+These sum to 103,932, but they are not unique RNA reads or molecules. A read may contribute through more than one hit or stage. Do not report this as a percentage of input reads or as a measured fusion false-negative rate.
+
+This is a caller-specific evidence-selection warning. htslib decoder failure has a separate fatal path; no such failure was observed. Complete input FASTQ structural QC previously found no paired-name mismatch, sequence/quality-length mismatch, missing quality, zero-length record or abnormal parser EOF across all 23,209,264 pairs, and current source hashes match. This supports input integrity, but does not prove that every excluded alignment is biologically spurious. The exclusions still limit sensitivity.
+
+The default support cap of 300 was left unchanged. Instrumentation counted 74,025 split-support cap encounters across 95 fusion keys; 13,337,742 filtered-discordant-list cap encounters across 4,411 keys; and 2,586 unfiltered-discordant cap breaks across 2,586 keys. These are internal branch events and per-category keys, not numbers of unique reads or all skipped fragments. A break stops further processing, so it does not enumerate the remaining skipped alignments. Categories can overlap. Capped support must not be treated as absolute transcript abundance.
+
+The two public fixtures produced byte-identical accepted and discarded files with the counter-only build. Independent source review found no change to biological decision logic. The patient accepted file is also byte-identical. Both patient discarded files have 825,436 rows: 825,433 exact row strings match, and three rows differ only in ordering of equally distant alternative intergenic gene labels (FAM95B1/BX664727.3 in two rows, OOSP4A/AP000790.1 in one). Coordinates, support counts, filters and all other fields agree. Preserve their different file hashes; do not call the discarded files byte-identical.
+
+The counter patch captures only eight representative examples per rejection category and thirty distinct example keys per subsampling category. These are first encounters, not random samples or prevalence estimates. Numeric contig IDs in the examples are mapped to reference sequence names in warning-analysis.json.
+
+Research conclusion: the warning has a reproducible technical explanation and did not change accepted candidates in this audit. It remains part of the sensitivity limitations. Neither this check nor a clean software exit clinically validates any fusion or rules out every possible fusion. The independent candidate read audit and the separate dense-index reanalysis address different questions.
+
+Evidence: warning-analysis.json; discarded-output-comparison.json; rerun-manifest.json; independent-counter-review.txt; independent-public-control-compare.json; source-integrity-evidence.json; bounded-examples.tsv; both source patches; frozen original output hashes.

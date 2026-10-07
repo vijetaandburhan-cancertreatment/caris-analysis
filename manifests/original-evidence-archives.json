@@ -1,0 +1,20 @@
+{
+  "note": "Source archives extracted into evidence/. Original archive bytes retained locally; internal package checksum manifests retained.",
+  "archives": [
+    {
+      "name": "Caris-final-alignment-comparison-evidence-2026-10-05.zip",
+      "size_bytes": 65989670,
+      "sha256": "24a345265a1ad267499828667793e3855b05cb6f2305c27fce2e1e47a70c4db8"
+    },
+    {
+      "name": "Caris-population-panel-evidence-2026-10-05.zip",
+      "size_bytes": 21849699,
+      "sha256": "8b52ef39eb81bf65adaed5339a50f257723771690510bb031b3c813f8cb62d96"
+    },
+    {
+      "name": "Caris-computational-followups-2026-10-05-v2.zip",
+      "size_bytes": 11927013,
+      "sha256": "3d344e7f4722353217d3a13cbd74fa5ec3cd6667132d1520232e972fb9d975d8"
+    }
+  ]
+}

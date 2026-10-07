@@ -1,0 +1,15 @@
+{
+  "elapsed_seconds": 375.97726106643677,
+  "gene_count": 818,
+  "CDS_interval_count": 11181,
+  "selection": "Workbook small-variant and CND genes plus all GENCODE37 protein-coding genes within2Mb ofBAP1/RASA1/MTAP/CDKN2A/B. TranscriptpriorityMANE,APPRISprincipal,basic,longestCDS. PublicCDS is not assaytargetBED.",
+  "count": "pysam count_coverage ACGT base depth; MAPQ>=30 BQ>=25 properpaired exclude unmapped/mate-unmapped/duplicate/QCfail/secondary/supplementary. Overlappingmates count separately.",
+  "reference": "UCSC hg38.2bit, not exact private customized FASTA",
+  "strata": "Workbook test names clinical/additional are provenance descriptors, not proven equal-bait-efficiency capture strata.",
+  "CND": "Originalanalyticalworkbooklabelsrecorded for comparison, not independently reclassified. CNA_Value is not assumed calibrated integer tumorcopy number.",
+  "limitations": [
+    "No normal/captureBED/calibrated reference: adjusted depths must not be called absoluteCN/homozygousloss.",
+    "BAP1 small deletion itself removesalignedbases from11bp; that localbasecoverage effect is not exoncopyloss.",
+    "Alternate/noncanonical transcripts may be differently captured."
+  ]
+}

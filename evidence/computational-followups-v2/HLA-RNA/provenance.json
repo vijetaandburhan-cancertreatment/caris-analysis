@@ -1,0 +1,37 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "pysam": "0.24.1",
+  "biopython": "1.86",
+  "matcher": "Task-local pyahocorasick2.2.0; independent Python str.find implementation",
+  "reference_files": [
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/IMGTHLA/hla.dat",
+      "bytes": 205494921,
+      "sha256": "939680ee68ed2b4cfb4773af6c8e0b5fc5c985de00611ba13e3fcba3197d898f"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/ref/hla.fasta",
+      "bytes": 13420126,
+      "sha256": "1044fcf6ae2b7a1f23615b779d677c0d315b620bfe1b18d462c5b0bf9ae381d4"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/dat/ref/hla.p.json",
+      "bytes": 617786,
+      "sha256": "541d756c1180bc957c5bd85648a85d8dd88a1a41a6ef98dd6f823d94c9da8e97"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-hla-allele-support/gencode.v37.transcripts.fa.gz",
+      "bytes": 75815926,
+      "sha256": "7603141896877258c4c45570c4af7ed4066097f4a4022461c44faebbb2dcd86f"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-hla-allele-support/deps-dist/pyahocorasick-2.2.0-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 33285,
+      "sha256": "73bb94c5621565c5ad22d2f44d45edc7e568de5bd629d22a435e76d7023dae4e"
+    }
+  ],
+  "legacy_pilot_schema_correction": "The field named reference_md5 in the31mer pilot stores arcasHLA's40-hex reference Git commit (8d77b3dd93959663d58ae5b626289d0746edd0e7), not an MD5 digest. Actual public-content SHA256 values are listed here; the pilot files are preserved without rewriting their content/hashes.",
+  "input_policy": "No patient data outside this computer; resident original RNA FASTQ files read-only; no new full FASTQ copy. Candidate-positive derived FASTQs retained for audit.",
+  "public_pipeline_resources": "Public reference copied from existing verified GENCODE37 local file; pyahocorasick wheel downloaded from PyPI into task-local deps-dist then installed only to task-local deps. No global Python environment mutation."
+}

@@ -1,0 +1,229 @@
+{
+  "created_utc": "2026-10-05T05:58:19.099785+00:00",
+  "input_sha256": "20783651447ac0e575b854735f2079fd527e97b2ae063978b4099633f06cbbfd",
+  "case_count": 12,
+  "all_scores_match": true,
+  "scope": "Independent standard-library dynamic-programming rescore of supplied windows; not an independent genome nomination search, and scores are not probabilities.",
+  "rows": [
+    {
+      "case_id": "DNA_Q1+_proposed_identical750nt",
+      "score": -43,
+      "independent_alignment": {
+        "score": -43,
+        "query_aligned": "----------------------------------------------------------------------------------GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGG-------AGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTAT--------------------CAAA--ATGCTCCG--------GAGAGGAGGGACTGTCAGG-GGA---GCACCTGG---G--------GC------CGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 42,
+        "mismatches": 6,
+        "insertion_bases": 51,
+        "deletion_bases": 702
+      },
+      "reference": {
+        "id": "proposed_identical750nt",
+        "junction_index0": 250
+      }
+    },
+    {
+      "case_id": "DNA_Q1+_CCND1_contiguous750nt",
+      "score": 66,
+      "independent_alignment": {
+        "score": 66,
+        "query_aligned": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GTGGGATTGTGACACAAAGG--GCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "GGGGGTGTGCAGGGTGGGCGGGCAAGCATCTGGTGTCTTGTGGCTCCAGAGACCAGGTGGGAGGTGGAGGCATTTGGTCCTGAGTGTCCTGACAGGTGATGGCAGCTCCCACATCTCGCTCAGGTTCAGAGGAGGCAGCATGGGCCGAGGGACAGTTTTTGGCTTAGTCTTGCTCTTATAAAGGCTTCCGGGTCATGGCACCTGGGAAGGGGCCCTCGCTGCAGGCCCCTTCTAAGGACCCCCTCTTCCCACCTCTCCCCACCCTCTCTCTCTCAGGACTGCCTCCGGGCCTGCCAGGAGCAGATCGAAGCCCTGCTGGAGTCAAGCCTGCGCCAGGCCCAGCAGAACATG-------GACCCCAAGGCCGCCGAGG---AGGAGG------------A-AGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGACATCTGAGGGCGCCAGGCAGGCGGGCGCCACCGCCACCCGCAGCGAGGGCGGAGCCGGCCCCAGGTGCTCCCCTGACAGTCCCTCCTCTCCGGAGCATTTTGATACCAGAAGGGAAAGCTTCATTCTCCTTGTTGTTGGTTGTTTTTTCCTTTGCTCTTTCCCCCTTCCATCTCTGACTTAAGCAAAAGAAAAAGATTACCCAAAAACTGTCTTTAAAAGAGAGAGAGAGAAAAAAAAAATAGTATTTGCATAACCCTGAGCGGTGGGGGAGGAGGGTTGTGCTACAGATGATAGAGGATTTTATACCCCAATAAT",
+        "matches": 70,
+        "mismatches": 6,
+        "insertion_bases": 23,
+        "deletion_bases": 674
+      },
+      "reference": {
+        "id": "CCND1_contiguous750nt",
+        "chrom": "chr11",
+        "start0": 69650841,
+        "end0": 69651591
+      }
+    },
+    {
+      "case_id": "DNA_Q1+_HEG1_contiguous750nt",
+      "score": 94,
+      "independent_alignment": {
+        "score": 94,
+        "query_aligned": "--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GTGGGATTGTGACACAAAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAG-AGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCAGCGACGTACGG--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTTGATTCTGTAATGACTTTCTCTTGGTGTGGGGTGCTCTGGCTCTTAAGGTCTGCAGTTTGACTACTATGGAGCATTGTCATGAATGATGTCATTGTTGATGTCTGAAATGAAGTCACAGGAGTCTCCCTTGCCCTGGGCAGGACAGGGGTAGAAGATGACTGTGGCAAGGTTGTTTGTGAGACAGAAAGTGGGGCAGATGTAGATGTCGTTAAGGATACTGGTAAAGGTGATGGTGAGGAAGACCATGGTGTGGATGCATCAGAGGTAGACTTTAGTAGATGCACAGAGGCCCTGGTTGATGGTAAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGA---GG-----------AG-GA-----GGAGTCACTAACAAACTCAGCATCAGTGTCCAGAACAACCGAAGTGTTCGGCATATTAATGGTGGGTGTGTAGGACGGAAGGTTGGATGTATGCAGAACTGGCGACTCAGTAGAAGGCTGAGCATATTCCCCGTCATAGGATGAGATGTTACTTCTCTCAGTCTGAGCATGAAAAAAGGAGGAATACTCTGAATGTGAAGAGTTTGAGATTTTAATATAAGAAGTTGAGCTCTCCACAATGTCTGAGGATGAACTGTTATCTGTAATGGACAGTAACGCCCGTTCTCCTTTGGTGAAAGTAGATGACAGGTAGGTGTGGTCTGTGTGGTCGCTGGAAGTCCTTTGT",
+        "matches": 76,
+        "mismatches": 3,
+        "insertion_bases": 20,
+        "deletion_bases": 671
+      },
+      "reference": {
+        "id": "HEG1_contiguous750nt",
+        "chrom": "chr3",
+        "start0": 125013197,
+        "end0": 125013947
+      }
+    },
+    {
+      "case_id": "DNA_Q1-_proposed_identical750nt",
+      "score": 174,
+      "independent_alignment": {
+        "score": 174,
+        "query_aligned": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTC-TCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 96,
+        "mismatches": 3,
+        "insertion_bases": 0,
+        "deletion_bases": 651
+      },
+      "reference": {
+        "id": "proposed_identical750nt",
+        "junction_index0": 250
+      }
+    },
+    {
+      "case_id": "DNA_Q1-_CCND1_contiguous750nt",
+      "score": -24,
+      "independent_alignment": {
+        "score": -24,
+        "query_aligned": "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CCGTACGTCGCTGGGTGTGCAAGCC-------AGGTCCACCTCCTCCTCCTCCTCT------CTTCT-TCT-TCAGGGCCTCCTTTGCCTC--TGCCCTTTGTGTCACAATCCCAC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "GGGGGTGTGCAGGGTGGGCGGGCAAGCATCTGGTGTCTTGTGGCTCCAGAGACCAGGTGGGAGGTGGAGGCATTTGGTCCTGAGTGTCCTGACAGGTGATGGCAGCTCCCACATCTCGCTCAGGTTCAGAGGAGGCAGCATGGGCCGAGGGACAGTTTTTGGCTTAGTCTTGCTCTTATAAAGGCTTCCGGGTCATGGCACCTGGGAAGGGGCCC-----TCGC------TGCAGGCCCCTTCTAAGGACCCCCTCTTC--CCACCTCTCCCCACCCTCTCTCTCTCAGGAC------TGCCTCCGGGCC-----TG--------CCAGGAGCAGATCGAAGCCCTGCTGGAGTCAAGCCTGCGCCAGGCCCAGCAGAACATGGACCCCAAGGCCGCCGAGGAGGAGGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGACATCTGAGGGCGCCAGGCAGGCGGGCGCCACCGCCACCCGCAGCGAGGGCGGAGCCGGCCCCAGGTGCTCCCCTGACAGTCCCTCCTCTCCGGAGCATTTTGATACCAGAAGGGAAAGCTTCATTCTCCTTGTTGTTGGTTGTTTTTTCCTTTGCTCTTTCCCCCTTCCATCTCTGACTTAAGCAAAAGAAAAAGATTACCCAAAAACTGTCTTTAAAAGAGAGAGAGAGAAAAAAAAAATAGTATTTGCATAACCCTGAGCGGTGGGGGAGGAGGGTTGTGCTACAGATGATAGAGGATTTTATACCCCAATAAT",
+        "matches": 58,
+        "mismatches": 9,
+        "insertion_bases": 32,
+        "deletion_bases": 683
+      },
+      "reference": {
+        "id": "CCND1_contiguous750nt",
+        "chrom": "chr11",
+        "start0": 69650841,
+        "end0": 69651591
+      }
+    },
+    {
+      "case_id": "DNA_Q1-_HEG1_contiguous750nt",
+      "score": -47,
+      "independent_alignment": {
+        "score": -47,
+        "query_aligned": "---------------CCGTACGTCGCTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTCTTCT---TCTTCAGGGCCTCCTTTGCCTCTGCCCTTTGTGTCACAATCCCAC--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTTGATTCTGTAATGACTT---TCTCTTGGTGTG---G---GGTGC--------------------TCTGGCTCTTAAGG------------TCTGCAGTTTG------------ACTACTATGGAGCATTGTCATGAATGATGTCATTGTTGATGTCTGAAATGAAGTCACAGGAGTCTCCCTTGCCCTGGGCAGGACAGGGGTAGAAGATGACTGTGGCAAGGTTGTTTGTGAGACAGAAAGTGGGGCAGATGTAGATGTCGTTAAGGATACTGGTAAAGGTGATGGTGAGGAAGACCATGGTGTGGATGCATCAGAGGTAGACTTTAGTAGATGCACAGAGGCCCTGGTTGATGGTAAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGAGGAGGAGGAGTCACTAACAAACTCAGCATCAGTGTCCAGAACAACCGAAGTGTTCGGCATATTAATGGTGGGTGTGTAGGACGGAAGGTTGGATGTATGCAGAACTGGCGACTCAGTAGAAGGCTGAGCATATTCCCCGTCATAGGATGAGATGTTACTTCTCTCAGTCTGAGCATGAAAAAAGGAGGAATACTCTGAATGTGAAGAGTTTGAGATTTTAATATAAGAAGTTGAGCTCTCCACAATGTCTGAGGATGAACTGTTATCTGTAATGGACAGTAACGCCCGTTCTCCTTTGGTGAAAGTAGATGACAGGTAGGTGTGGTCTGTGTGGTCGCTGGAAGTCCTTTGT",
+        "matches": 38,
+        "mismatches": 8,
+        "insertion_bases": 53,
+        "deletion_bases": 704
+      },
+      "reference": {
+        "id": "HEG1_contiguous750nt",
+        "chrom": "chr3",
+        "start0": 125013197,
+        "end0": 125013947
+      }
+    },
+    {
+      "case_id": "DNA_Q2+_proposed_identical750nt",
+      "score": -29,
+      "independent_alignment": {
+        "score": -29,
+        "query_aligned": "-----------------GGGATTGTGACACAGAGGG-CAGAGGCAAAGGAGGCCCTGAAGAA----GAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGA-TG-GA---AGGGGGAAAGA-GCAAAGGA-------AAAAACAACCAACAACA--AGGAGAATGAAG--------CT---TT-----CCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACCTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 49,
+        "mismatches": 9,
+        "insertion_bases": 31,
+        "deletion_bases": 692
+      },
+      "reference": {
+        "id": "proposed_identical750nt",
+        "junction_index0": 250
+      }
+    },
+    {
+      "case_id": "DNA_Q2+_CCND1_contiguous750nt",
+      "score": 48,
+      "independent_alignment": {
+        "score": 48,
+        "query_aligned": "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GGGATTGTGACACAGAGGGCAGA----GG---CAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGGCTTGCACACCC------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "GGGGGTGTGCAGGGTGGGCGGGCAAGCATCTGGTGTCTTGTGGCTCCAGAGACCAGGTGGGAGGTGGAGGCATTTGGTCCTGAGTGTCCTGACAGGTGATGGCAGCTCCCACATCTCGCTCAGGTTCAGAGGAGGCAGCATGGGCCGAGGGACAGTTTTTGGCTTAGTCTTGCTCTTATAAAGGCTTCCGGGTCATGGCACCTGGGAAGGGGCCCTCGCTGCAGGCCCCTTCTAAGGACCCCCTCTTCCCACCTCTCCCCACCCTCTCTCTCTCAGGACTGCCTCCGGGCCTGCCAGGAGCAGATCGAAGCCCTGCTGGAGTCAAGCCTGCGCCAGG--------CCCA----GCAGAACATGGACCCCAAGGCCGCC--GAGGAGGAGGAAGAGGAGGAGGAG---GAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGACATCTGAGGGCGCCAGGCAGGCGGGCGCCACCGCCACCCGCAGCGAGGGCGGAGCCGGCCCCAGGTGCTCCCCTGACAGTCCCTCCTCTCCGGAGCATTTTGATACCAGAAGGGAAAGCTTCATTCTCCTTGTTGTTGGTTGTTTTTTCCTTTGCTCTTTCCCCCTTCCATCTCTGACTTAAGCAAAAGAAAAAGATTACCCAAAAACTGTCTTTAAAAGAGAGAGAGAGAAAAAAAAAATAGTATTTGCATAACCCTGAGCGGTGGGGGAGGAGGGTTGTGCTACAGATGATAGAGGATTTTATACCCCAATAAT",
+        "matches": 65,
+        "mismatches": 7,
+        "insertion_bases": 17,
+        "deletion_bases": 678
+      },
+      "reference": {
+        "id": "CCND1_contiguous750nt",
+        "chrom": "chr11",
+        "start0": 69650841,
+        "end0": 69651591
+      }
+    },
+    {
+      "case_id": "DNA_Q2+_HEG1_contiguous750nt",
+      "score": 121,
+      "independent_alignment": {
+        "score": 121,
+        "query_aligned": "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGTGGACCTGG--------CTTGCACACCC----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTTGATTCTGTAATGACTTTCTCTTGGTGTGGGGTGCTCTGGCTCTTAAGGTCTGCAGTTTGACTACTATGGAGCATTGTCATGAATGATGTCATTGTTGATGTCTGAAATGAAGTCACAGGAGTCTCCCTTGCCCTGGGCAGGACAGGGGTAGAAGATGACTGTGGCAAGGTTGTTTGTGAGACAGAAAGTGGGGCAGATGTAGATGTCGTTAAGGATACTGGTAAAGGTGATGGTGAGGAAGACCATGGTGTGGATGCATCAGAGGTAGACTTTAGTAGATGCACAGAGGCCCTGGTTGATGGTAAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGAGGA---GGAGGAGTCACTAACAAACTCAGCATCAGTGTCCAGAACAACCGAAGTGTTCGGCATATTAATGGTGGGTGTGTAGGACGGAAGGTTGGATGTATGCAGAACTGGCGACTCAGTAGAAGGCTGAGCATATTCCCCGTCATAGGATGAGATGTTACTTCTCTCAGTCTGAGCATGAAAAAAGGAGGAATACTCTGAATGTGAAGAGTTTGAGATTTTAATATAAGAAGTTGAGCTCTCCACAATGTCTGAGGATGAACTGTTATCTGTAATGGACAGTAACGCCCGTTCTCCTTTGGTGAAAGTAGATGACAGGTAGGTGTGGTCTGTGTGGTCGCTGGAAGTCCTTTGT",
+        "matches": 81,
+        "mismatches": 5,
+        "insertion_bases": 3,
+        "deletion_bases": 664
+      },
+      "reference": {
+        "id": "HEG1_contiguous750nt",
+        "chrom": "chr3",
+        "start0": 125013197,
+        "end0": 125013947
+      }
+    },
+    {
+      "case_id": "DNA_Q2-_proposed_identical750nt",
+      "score": 164,
+      "independent_alignment": {
+        "score": 164,
+        "query_aligned": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GGGTGTGCAAGCCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTCTTTTGCTTAAGTCAGAGATGGAAGGGGGAAAGAGCAAAGGAAAAAACAACCAACAACAAGGAGAATGAAGCTTTCCCTTCTGGTATCAAAATGCTCCGGAGAGGAGGGACTGTCAGGGGAGCACCTGGGGCCGGCTCCGCCCTCGCTGCGGGTGGCGGTGGCGCCCGCCTGCCTGGCGCCCTCAGATGTCCACGTCCCGCACGTCGGTGGGTGTGCAAGCCAGGTCCACC---TCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCCACCATTTATTTTCATCAATTTTACCATCAACCAGGGCCTCTGTGCATCTACTAAAGTCTACCTCTGATGCATCCACACCATGGTCTTCCTCACCATCACCTTTACCAGTATCCTTAACGACATCTACATCTGCCCCACTTTCTGTCTCACAAACAACCTTGCCACAGTCATCTTCTACCCCTGTCCTGCCCAGGGCAAGGGAGACTCCTGTGACTTCATTTCAGACATCAACAATGACATCATTCATGACAATGCTCCATAGTAGTCAAACTGCAGACCTTAAGAGCCAGAGCACCCCACACCAAGAGAAAGTCATTACAGAATCAAAGTCACCAAGCCTGGTGTCTCTGCCCACAGAGTCCACCAAAGCTGTAACAACAAACTCTCCTTTGCCTCCATCCTTAACAGAGTCCTCCACAGAGCAAACCCTTCCAGCCACAAGCACCAACTTAG",
+        "matches": 86,
+        "mismatches": 0,
+        "insertion_bases": 3,
+        "deletion_bases": 664
+      },
+      "reference": {
+        "id": "proposed_identical750nt",
+        "junction_index0": 250
+      }
+    },
+    {
+      "case_id": "DNA_Q2-_CCND1_contiguous750nt",
+      "score": -18,
+      "independent_alignment": {
+        "score": -18,
+        "query_aligned": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GGGTGTGCAAGCC-------AGGTCCACCTCTT-CCTCCTCCTCCTCTTCTTCT-TCT-TCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "GGGGGTGTGCAGGGTGGGCGGGCAAGCATCTGGTGTCTTGTGGCTCCAGAGACCAGGTGGGAGGTGGAGGCATTTGGTCCTGAGTGTCCTGACAGGTGATGGCAGCTCCCACATCTCGCTCAGGTTCAGAGGAGGCAGCATGGGCCGAGGGACAGTTTTTGGCTTAGTCTTGCTCTTATAAAGGCTTCCGGGTCATGGCACCTGGGAAGGGGCCCTCG---CTGCAGGCCCCTTCTAAGGACCCCCTCTTCCCACCT-CTCCCCACCCTCTCTCTCTCAGGAC------TGCCTCCGGGC-CTG----------CCAGGAGCAGATCGAAGCCCTGCTGGAGTCAAGCCTGCGCCAGGCCCAGCAGAACATGGACCCCAAGGCCGCCGAGGAGGAGGAAGAGGAGGAGGAGGAGGTGGACCTGGCTTGCACACCCACCGACGTGCGGGACGTGGACATCTGAGGGCGCCAGGCAGGCGGGCGCCACCGCCACCCGCAGCGAGGGCGGAGCCGGCCCCAGGTGCTCCCCTGACAGTCCCTCCTCTCCGGAGCATTTTGATACCAGAAGGGAAAGCTTCATTCTCCTTGTTGTTGGTTGTTTTTTCCTTTGCTCTTTCCCCCTTCCATCTCTGACTTAAGCAAAAGAAAAAGATTACCCAAAAACTGTCTTTAAAAGAGAGAGAGAGAAAAAAAAAATAGTATTTGCATAACCCTGAGCGGTGGGGGAGGAGGGTTGTGCTACAGATGATAGAGGATTTTATACCCCAATAAT",
+        "matches": 55,
+        "mismatches": 13,
+        "insertion_bases": 21,
+        "deletion_bases": 682
+      },
+      "reference": {
+        "id": "CCND1_contiguous750nt",
+        "chrom": "chr11",
+        "start0": 69650841,
+        "end0": 69651591
+      }
+    },
+    {
+      "case_id": "DNA_Q2-_HEG1_contiguous750nt",
+      "score": -48,
+      "independent_alignment": {
+        "score": -48,
+        "query_aligned": "-------------------------------GGGTGTGCAAGCCAGGTCCACCTCTTCCTCCTCCTCCTCTTCTTCTTCTTCAGGGCCTCCTTTGCCTCTGCCCTCTGTGTCACAATCCC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "reference_aligned": "TTTGATTCTGTAATGACTTTCTCTTGGTGTGGGGTG----------------CTCTGGC------------------TCTTAAGG------------TCTG----CAGTTTGACTA---CTATGGAGCATTGTCATGAATGATGTCATTGTTGATGTCTGAAATGAAGTCACAGGAGTCTCCCTTGCCCTGGGCAGGACAGGGGTAGAAGATGACTGTGGCAAGGTTGTTTGTGAGACAGAAAGTGGGGCAGATGTAGATGTCGTTAAGGATACTGGTAAAGGTGATGGTGAGGAAGACCATGGTGTGGATGCATCAGAGGTAGACTTTAGTAGATGCACAGAGGCCCTGGTTGATGGTAAAATTGATGAAAATAAATGGTGGGATTGTGACACAGAGGGCAGAGGCAAAGGAGGCCCTGAAGAAGAAGAAGAGGAGGAGGAGGAAGAGGAGGAGGAGGAGTCACTAACAAACTCAGCATCAGTGTCCAGAACAACCGAAGTGTTCGGCATATTAATGGTGGGTGTGTAGGACGGAAGGTTGGATGTATGCAGAACTGGCGACTCAGTAGAAGGCTGAGCATATTCCCCGTCATAGGATGAGATGTTACTTCTCTCAGTCTGAGCATGAAAAAAGGAGGAATACTCTGAATGTGAAGAGTTTGAGATTTTAATATAAGAAGTTGAGCTCTCCACAATGTCTGAGGATGAACTGTTATCTGTAATGGACAGTAACGCCCGTTCTCCTTTGGTGAAAGTAGATGACAGGTAGGTGTGGTCTGTGTGGTCGCTGGAAGTCCTTTGT",
+        "matches": 29,
+        "mismatches": 7,
+        "insertion_bases": 53,
+        "deletion_bases": 714
+      },
+      "reference": {
+        "id": "HEG1_contiguous750nt",
+        "chrom": "chr3",
+        "start0": 125013197,
+        "end0": 125013947
+      }
+    }
+  ]
+}

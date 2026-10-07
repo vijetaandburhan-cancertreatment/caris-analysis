@@ -1,0 +1,70 @@
+{
+  "updates": [
+    {
+      "gene": "SLC27A3",
+      "source": "https://rest.ensembl.org/variation/human/rs572408453?pops=1&content-type=application/json",
+      "public_id": "rs572408453",
+      "matched_mappings": [
+        {
+          "allele_string": "CCCCCCC/CCCCCC/CCCCCCCC",
+          "end": 153779390,
+          "seq_region_name": "1",
+          "strand": 1,
+          "location": "1:153779384-153779390",
+          "coord_system": "chromosome",
+          "start": 153779384,
+          "assembly_name": "GRCh38",
+          "ancestral_allele": "CCCCCCC"
+        }
+      ],
+      "global_frequencies": [
+        {
+          "allele": "CCCCCC",
+          "population": "gnomADe:ALL",
+          "allele_count": 540,
+          "frequency": 0.0003694
+        },
+        {
+          "frequency": 0.0004416,
+          "allele_count": 67,
+          "population": "gnomADg:ALL",
+          "allele": "CCCCCC"
+        },
+        {
+          "allele": "CCCCCC",
+          "frequency": 0.000798722044728434,
+          "allele_count": 4,
+          "population": "1000GENOMES:phase_3:ALL"
+        }
+      ],
+      "matched_population_alleles": [
+        "CCCCCC"
+      ],
+      "interpretation": "Exact public catalog allele verified; inherited/somatic status remains unresolved. No normal-DNA comparator."
+    },
+    {
+      "gene": "APOL4",
+      "source": "https://rest.ensembl.org/variation/human/rs5845253?content-type=application/json",
+      "public_id": "rs5845253",
+      "matched_mappings": [
+        {
+          "ancestral_allele": "CTCT",
+          "allele_string": "CTCT/CT/CTCTCT",
+          "strand": 1,
+          "seq_region_name": "22",
+          "assembly_name": "GRCh38",
+          "end": 36191801,
+          "start": 36191798,
+          "coord_system": "chromosome",
+          "location": "22:36191798-36191801"
+        }
+      ],
+      "global_frequencies": [],
+      "matched_population_alleles": [
+        "CT"
+      ],
+      "interpretation": "Exact public catalog allele verified; inherited/somatic status remains unresolved. No normal-DNA comparator.",
+      "frequency_note": "Basic metadata verified after population endpoint failed; no frequency claim."
+    }
+  ]
+}

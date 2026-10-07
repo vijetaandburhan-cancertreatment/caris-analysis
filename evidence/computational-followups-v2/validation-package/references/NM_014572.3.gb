@@ -1,0 +1,399 @@
+LOCUS       NM_014572               5546 bp    mRNA    linear   PRI 12-JUN-2025
+DEFINITION  Homo sapiens large tumor suppressor kinase 2 (LATS2), mRNA.
+ACCESSION   NM_014572
+VERSION     NM_014572.3
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 5546)
+  AUTHORS   Nie,L., Fei,C., Fan,Y., Dang,F., Zhao,Z., Zhu,T., Wu,X., Dai,T.,
+            Balasubramanian,A., Pan,J., Hu,Y., Luo,H.R., Wei,W. and Chen,J.
+  TITLE     Consecutive palmitoylation and phosphorylation orchestrates NLRP3
+            membrane trafficking and inflammasome activation
+  JOURNAL   Mol Cell 84 (17), 3336-3353 (2024)
+   PUBMED   39173637
+REFERENCE   2  (bases 1 to 5546)
+  AUTHORS   Cao,L., Han,R., Zhao,Y., Qin,X., Li,Q., Xiong,H., Kong,Y., Liu,Z.,
+            Li,Z., Dong,F., Li,T., Zhao,X., Lei,L., Zhao,Q., Liu,D., Wang,B.
+            and Wu,X.
+  TITLE     A LATS2 and ALKBH5 positive feedback loop supports their oncogenic
+            roles
+  JOURNAL   Cell Rep 43 (4), 114032 (2024)
+   PUBMED   38568805
+  REMARK    GeneRIF: A LATS2 and ALKBH5 positive feedback loop supports their
+            oncogenic roles.
+REFERENCE   3  (bases 1 to 5546)
+  AUTHORS   Yu,H., Xu,X., Zhu,L., Chen,S. and He,J.
+  TITLE     MELK aggravates lung adenocarcinoma by regulating EZH2
+            ubiquitination and H3K27me3 histone methylation of LATS2
+  JOURNAL   J Cell Mol Med 28 (8), e18216 (2024)
+   PUBMED   38652219
+  REMARK    GeneRIF: MELK aggravates lung adenocarcinoma by regulating EZH2
+            ubiquitination and H3K27me3 histone methylation of LATS2.
+REFERENCE   4  (bases 1 to 5546)
+  AUTHORS   Li,Y., Zeng,S. and Cao,L.
+  TITLE     Mir-629 Repressed LATS2 Expression and Promoted the Proliferation
+            of Prostate Cancer Cells
+  JOURNAL   Horm Metab Res 55 (8), 573-579 (2023)
+   PUBMED   36990459
+  REMARK    GeneRIF: Mir-629 Repressed LATS2 Expression and Promoted the
+            Proliferation of Prostate Cancer Cells.
+REFERENCE   5  (bases 1 to 5546)
+  AUTHORS   Sun,Q., Lu,H., Zhang,W., Du,Y., Liang,Q., Zhang,Y., Wu,J. and
+            Zhong,M.
+  TITLE     RNF106 aggravates esophageal squamous cell carcinoma progression
+            through LATS2/YAP axis
+  JOURNAL   Arch Biochem Biophys 742, 109640 (2023)
+   PUBMED   37207933
+  REMARK    GeneRIF: RNF106 aggravates esophageal squamous cell carcinoma
+            progression through LATS2/YAP axis.
+REFERENCE   6  (bases 1 to 5546)
+  AUTHORS   Powzaniuk,M., McElwee-Witmer,S., Vogel,R.L., Hayami,T.,
+            Rutledge,S.J., Chen,F., Harada,S., Schmidt,A., Rodan,G.A.,
+            Freedman,L.P. and Bai,C.
+  TITLE     The LATS2/KPM tumor suppressor is a negative regulator of the
+            androgen receptor
+  JOURNAL   Mol Endocrinol 18 (8), 2011-2023 (2004)
+   PUBMED   15131260
+  REMARK    GeneRIF: LATS2 may play a role in androgen receptor-mediated
+            transcription and contribute to the development of prostate cancer
+REFERENCE   7  (bases 1 to 5546)
+  AUTHORS   Li,Y., Pei,J., Xia,H., Ke,H., Wang,H. and Tao,W.
+  TITLE     Lats2, a putative tumor suppressor, inhibits G1/S transition
+  JOURNAL   Oncogene 22 (28), 4398-4405 (2003)
+   PUBMED   12853976
+  REMARK    GeneRIF: of mammalian Lats2 and Lats1 control cell proliferation by
+            negatively regulating different cell cycle check points.
+REFERENCE   8  (bases 1 to 5546)
+  AUTHORS   Kanai,F., Marignani,P.A., Sarbassova,D., Yagi,R., Hall,R.A.,
+            Donowitz,M., Hisaminato,A., Fujiwara,T., Ito,Y., Cantley,L.C. and
+            Yaffe,M.B.
+  TITLE     TAZ: a novel transcriptional co-activator regulated by interactions
+            with 14-3-3 and PDZ domain proteins
+  JOURNAL   EMBO J 19 (24), 6778-6791 (2000)
+   PUBMED   11118213
+REFERENCE   9  (bases 1 to 5546)
+  AUTHORS   Hori,T., Takaori-Kondo,A., Kamikubo,Y. and Uchiyama,T.
+  TITLE     Molecular cloning of a novel human protein kinase, kpm, that is
+            homologous to warts/lats, a Drosophila tumor suppressor
+  JOURNAL   Oncogene 19 (27), 3101-3109 (2000)
+   PUBMED   10871863
+REFERENCE   10 (bases 1 to 5546)
+  AUTHORS   Yabuta,N., Fujii,T., Copeland,N.G., Gilbert,D.J., Jenkins,N.A.,
+            Nishiguchi,H., Endo,Y., Toji,S., Tanaka,H., Nishimune,Y. and
+            Nojima,H.
+  TITLE     Structure, expression, and chromosome mapping of LATS2, a mammalian
+            homologue of the Drosophila tumor suppressor gene lats/warts
+  JOURNAL   Genomics 63 (2), 263-270 (2000)
+   PUBMED   10673337
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AL161613.23, DB452765.1,
+            AF207547.1, AL356285.9 and BQ774580.1.
+            
+            On Nov 23, 2018 this sequence version replaced NM_014572.2.
+            
+            Summary: This gene encodes a serine/threonine protein kinase
+            belonging to the LATS tumor suppressor family. The protein
+            localizes to centrosomes during interphase, and early and late
+            metaphase. It interacts with the centrosomal proteins aurora-A and
+            ajuba and is required for accumulation of gamma-tubulin and spindle
+            formation at the onset of mitosis. It also interacts with a
+            negative regulator of p53 and may function in a positive feedback
+            loop with p53 that responds to cytoskeleton damage. Additionally,
+            it can function as a co-repressor of androgen-responsive gene
+            expression. [provided by RefSeq, Jul 2008].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AF207547.1, DRR138518.685317.1
+                                           [ECO:0000332]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000382592.5/ ENSP00000372035.4
+            RefSeq Select criteria :: based on conservation, expression
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-3                 AL161613.23        35820-35822         c
+            4-71                DB452765.1         1-68
+            72-1531             AF207547.1         1-1460
+            1532-1532           AL356285.9         144527-144527       c
+            1533-2576           AF207547.1         1462-2505
+            2577-2577           AL356285.9         139408-139408       c
+            2578-3949           AF207547.1         2507-3878
+            3950-5067           AL356285.9         129349-130466       c
+            5068-5546           BQ774580.1         16-494              c
+FEATURES             Location/Qualifiers
+     source          1..5546
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="13"
+                     /map="13q12.11"
+     gene            1..5546
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="large tumor suppressor kinase 2"
+                     /db_xref="GeneID:26524"
+                     /db_xref="HGNC:HGNC:6515"
+                     /db_xref="MIM:604861"
+     exon            1..241
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /inference="alignment:Splign:2.1.0"
+     exon            242..787
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    425..427
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="upstream in-frame stop codon"
+     CDS             446..3712
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /EC_number="2.7.11.1"
+                     /note="LATS (large tumor suppressor, Drosophila) homolog
+                     2; serine/threonine kinase KPM; kinase phosphorylated
+                     during mitosis protein; warts-like kinase; large tumor
+                     suppressor homolog 2; serine/threonine-protein kinase kpm;
+                     LATS, large tumor suppressor, homolog 2"
+                     /codon_start=1
+                     /product="serine/threonine-protein kinase LATS2"
+                     /protein_id="NP_055387.2"
+                     /db_xref="CCDS:CCDS9294.1"
+                     /db_xref="GeneID:26524"
+                     /db_xref="HGNC:HGNC:6515"
+                     /db_xref="MIM:604861"
+                     /translation="MRPKTFPATTYSGNSRQRLQEIREGLKQPSKSSVQGLPAGPNSD
+                     TSLDAKVLGSKDATRQQQQMRATPKFGPYQKALREIRYSLLPFANESGTSAAAEVNRQ
+                     MLQELVNAGCDQEMAGRALKQTGSRSIEAALEYISKMGYLDPRNEQIVRVIKQTSPGK
+                     GLMPTPVTRRPSFEGTGDSFASYHQLSGTPYEGPSFGADGPTALEEMPRPYVDYLFPG
+                     VGPHGPGHQHQHPPKGYGASVEAAGAHFPLQGAHYGRPHLLVPGEPLGYGVQRSPSFQ
+                     SKTPPETGGYASLPTKGQGGPPGAGLAFPPPAAGLYVPHPHHKQAGPAAHQLHVLGSR
+                     SQVFASDSPPQSLLTPSRNSLNVDLYELGSTSVQQWPAATLARRDSLQKPGLEAPPRA
+                     HVAFRPDCPVPSRTNSFNSHQPRPGPPGKAEPSLPAPNTVTAVTAAHILHPVKSVRVL
+                     RPEPQTAVGPSHPAWVPAPAPAPAPAPAPAAEGLDAKEEHALALGGAGAFPLDVEYGG
+                     PDRRCPPPPYPKHLLLRSKSEQYDLDSLCAGMEQSLRAGPNEPEGGDKSRKSAKGDKG
+                     GKDKKQIQTSPVPVRKNSRDEEKRESRIKSYSPYAFKFFMEQHVENVIKTYQQKVNRR
+                     LQLEQEMAKAGLCEAEQEQMRKILYQKESNYNRLKRAKMDKSMFVKIKTLGIGAFGEV
+                     CLACKVDTHALYAMKTLRKKDVLNRNQVAHVKAERDILAEADNEWVVKLYYSFQDKDS
+                     LYFVMDYIPGGDMMSLLIRMEVFPEHLARFYIAELTLAIESVHKMGFIHRDIKPDNIL
+                     IDLDGHIKLTDFGLCTGFRWTHNSKYYQKGSHVRQDSMEPSDLWDDVSNCRCGDRLKT
+                     LEQRARKQHQRCLAHSLVGTPNYIAPEVLLRKGYTQLCDWWSVGVILFEMLVGQPPFL
+                     APTPTETQLKVINWENTLHIPAQVKLSPEARDLITKLCCSADHRLGRNGADDLKAHPF
+                     FSAIDFSSDIRKQPAPYVPTISHPMDTSNFDPVDEESPWNDASEGSTKAWDTLTSPNN
+                     KHPEHAFYEFTFRRFFDDNGYPFRCPKPSGAEASQAESSDLESSDLVDQTEGCQPVYV
+                     "
+     misc_feature    515..592
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9NRM7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    692..694
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="Phosphoserine, by AURKA.
+                     /evidence=ECO:0000269|PubMed:15147269; propagated from
+                     UniProtKB/Swiss-Prot (Q9NRM7.2); phosphorylation site"
+     misc_feature    746..868
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9NRM7.2);
+                     Region: Interaction with ubiquitinated AMOTL2.
+                     /evidence=ECO:0000269|PubMed:26598551"
+     misc_feature    1256..1414
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9NRM7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1280..1282
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (Q9NRM7.2); phosphorylation site"
+     misc_feature    1583..1585
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (Q9NRM7.2); phosphorylation site"
+     misc_feature    1592..1729
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9NRM7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1805..1894
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9NRM7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1988..1999
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9NRM7.2);
+                     Region: PPxY motif"
+     misc_feature    2072..2221
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9NRM7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    2171..2173
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (Q9NRM7.2); phosphorylation site"
+     misc_feature    3425..3511
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9NRM7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    3566..3568
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:21952048; propagated from
+                     UniProtKB/Swiss-Prot (Q9NRM7.2); phosphorylation site"
+     misc_feature    3611..3709
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9NRM7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     exon            788..920
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /inference="alignment:Splign:2.1.0"
+     exon            921..2344
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2345..2927
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2928..3110
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3111..3217
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3218..5546
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      5527..5532
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="hexamer: ATTAAA"
+     polyA_site      5546
+                     /gene="LATS2"
+                     /gene_synonym="KPM"
+                     /note="major polyA site"
+ORIGIN      
+        1 gacgcccgtg gaatgccaac aatgtagcga atgtcccact tgggtctgcg ctttggaacc
+       61 gcggcgtgag cgccccggga agatggagca gtcgccgtcc acgccaccgc cgccgcccgg
+      121 ggctcccccg tccctgcggg gccagcagca gctccagcca ccagtgcccg gtctcccggc
+      181 gcgagaggcc cgggagccgc cggccaggac gcccccgagg gtgtagaccg cgcccctgga
+      241 gagagtgata atcttcaaaa tgaagacttt ggaaaatttt aggttctcta taggaactac
+      301 aaaaatggaa ggaaagaaca ttttcaaaag gaaattattt tgaaagtatg tttacaacaa
+      361 actgatacta ttgacagttt ttttttttaa ataataaaac actttaagaa gattgtattt
+      421 atggtaaaag gaaactggac taacaatgag gccaaagact tttcctgcca cgacttattc
+      481 tggaaatagc cggcagcgac tgcaagagat tcgtgagggg ttaaaacagc catccaagtc
+      541 ttcggttcag gggctacccg caggaccaaa cagtgacact tccctggatg ccaaagtcct
+      601 ggggagcaaa gatgccacca ggcagcagca gcagatgaga gccaccccaa agttcggacc
+      661 ttatcagaaa gccttgaggg aaatcagata ttccttgttg ccttttgcta atgaatcggg
+      721 cacctctgca gctgcagaag tgaaccggca aatgctgcag gaactggtga acgcaggatg
+      781 cgaccaggag atggctggcc gagctctcaa gcagactggc agcaggagca tcgaggccgc
+      841 cctggagtac atcagcaaga tgggctacct ggacccgagg aatgagcaga ttgtgcgggt
+      901 cattaagcag acctccccag gaaaggggct catgccaacc ccagtgacgc ggaggcccag
+      961 cttcgaagga accggcgatt cgtttgcgtc ctaccaccag ctgagcggta ccccctacga
+     1021 gggcccaagc ttcggcgctg acggccccac ggcgctggag gagatgccgc ggccgtacgt
+     1081 ggactacctt ttccccggag tcggccccca cgggcccggc caccagcacc agcacccacc
+     1141 caagggctac ggtgccagcg tagaggcagc aggggcacac ttcccgctgc agggcgcgca
+     1201 ctacgggcgg ccgcacctgc tggtgcctgg ggaacccctg ggctacggag tgcagcgcag
+     1261 cccctccttc cagagcaaga cgccgccgga gaccgggggt tacgccagcc tgcccacgaa
+     1321 gggccaggga ggaccgccag gcgccggcct cgctttccca ccccctgccg ccgggctcta
+     1381 cgtgccgcac ccacaccaca agcaggccgg tcccgcggcc caccagctgc atgtgctggg
+     1441 ctcccgcagc caggtgttcg ccagcgacag ccccccgcag agcctgctca ctccctcgcg
+     1501 gaacagcctc aacgtggacc tgtatgaatt gggcagcacc tccgtccagc agtggccggc
+     1561 tgccaccctg gcccgccggg actccctgca gaagccgggc ctggaggcgc cgccgcgcgc
+     1621 gcacgtggcc ttccggcctg actgcccagt gcccagcagg accaactcct tcaacagcca
+     1681 ccagccgcgg cccggtccgc ctggcaaggc cgagccctcc ctgcccgccc ccaacaccgt
+     1741 gacggctgtc acggccgcgc acatcttgca cccggtgaag agcgtgcgtg tgctgaggcc
+     1801 ggagccgcag acggctgtgg ggccctcgca ccccgcctgg gtgcccgcgc ctgccccggc
+     1861 ccccgccccc gcccccgccc cggctgcgga gggcttggac gccaaggagg agcatgccct
+     1921 ggcgctgggc ggcgcaggcg ccttcccgct ggacgtggag tacggaggcc cagaccggag
+     1981 gtgcccgcct ccgccctacc cgaagcacct gctgctgcgc agcaagtcgg agcagtacga
+     2041 cctggacagc ctgtgcgcag gcatggagca gagcctccgt gcgggcccca acgagcccga
+     2101 gggcggcgac aagagccgca aaagcgccaa gggggacaaa ggcggaaagg ataaaaagca
+     2161 gattcagacc tctcccgttc ccgtccgcaa aaacagcaga gacgaagaga agagagagtc
+     2221 acgcatcaag agctactcgc catacgcctt taagttcttc atggagcagc acgtggagaa
+     2281 tgtcatcaaa acctaccagc agaaggttaa ccggaggctg cagctggagc aagaaatggc
+     2341 caaagctgga ctctgtgaag ctgagcagga gcagatgcgg aagatcctct accagaaaga
+     2401 gtctaattac aacaggttaa agagggccaa gatggacaag tctatgtttg tcaagatcaa
+     2461 aaccctgggg atcggtgcct ttggagaagt gtgccttgct tgtaaggtgg acactcacgc
+     2521 cctgtacgcc atgaagaccc taaggaaaaa ggatgtcctg aaccggaatc aggtggccca
+     2581 cgtcaaggcc gagagggaca tcctggccga ggcagacaat gagtgggtgg tcaaactcta
+     2641 ctactccttc caagacaaag acagcctgta ctttgtgatg gactacatcc ctggtgggga
+     2701 catgatgagc ctgctgatcc ggatggaggt cttccctgag cacctggccc ggttctacat
+     2761 cgcagagctg actttggcca ttgagagtgt ccacaagatg ggcttcatcc accgagacat
+     2821 caagcctgat aacattttga tagatctgga tggtcacatt aaactcacag atttcggcct
+     2881 ctgcactggg ttcaggtgga ctcacaattc caaatattac cagaaaggga gccatgtcag
+     2941 acaggacagc atggagccca gcgacctctg ggatgatgtg tctaactgtc ggtgtgggga
+     3001 caggctgaag accctagagc agagggcgcg gaagcagcac cagaggtgcc tggcacattc
+     3061 actggtgggg actccaaact acatcgcacc cgaggtgctc ctccgcaaag ggtacactca
+     3121 actctgtgac tggtggagtg ttggagtgat tctcttcgag atgctggtgg ggcagccgcc
+     3181 ctttttggca cctactccca cagaaaccca gctgaaggtg atcaactggg agaacacgct
+     3241 ccacattcca gcccaggtga agctgagccc tgaggccagg gacctcatca ccaagctgtg
+     3301 ctgctccgca gaccaccgcc tggggcggaa tggggccgat gacctgaagg cccacccctt
+     3361 cttcagcgcc attgacttct ccagtgacat ccggaagcag ccagccccct acgttcccac
+     3421 catcagccac cccatggaca cctcgaattt cgaccccgta gatgaagaaa gcccttggaa
+     3481 cgatgccagc gaaggtagca ccaaggcctg ggacacactc acctcgccca ataacaagca
+     3541 tcctgagcac gcattttacg aattcacctt ccgaaggttc tttgatgaca atggctaccc
+     3601 ctttcgatgc ccaaagcctt caggagcaga agcttcacag gctgagagct cagatttaga
+     3661 aagctctgat ctggtggatc agactgaagg ctgccagcct gtgtacgtgt agatgggggc
+     3721 caggcacccc caccactcgc tgcctcccag gtcagggtcc cggagccggt gccctcacag
+     3781 gccaataggg aagccgaggg ctgttttgtt ttaaattagt ccgtcgatta cttcacttga
+     3841 aattctgctc ttcaccaaga aaacccaaac aggacacttt tgaaaacagg actcagcatc
+     3901 gctttcaata ggcttttcag gaccttcact gcattaaaac aatatttttg aaaatttagt
+     3961 acagtttaga aagagcactt attttgttta tatccatttt ttcttactaa attataggga
+     4021 ttaactttga caaatcatgc tgctgttatt ttctacattt gtattttatc catagcactt
+     4081 attcacattt aggaaaagac ataaaaactg aagaacattg atgagaaatc tctgtgcaat
+     4141 aatgtaaaaa aaaaaaaaga taacactctg ctcaatgtca cggagaccat tttatccaca
+     4201 caatggtttt tgttttttat tttttcccat gtttcaaaat tgtgatataa tgatataatg
+     4261 ttaaaagctg ctttttttgg ctttttgcat atctagtata ataggaagtg tgagcaaggt
+     4321 gatgatgtgg ctgtgatttc cgacgtctgg tgtgtggaga gtactgcatg agcagagttc
+     4381 ttctattata aaattaccat atcttgccat tcacagcagg tcctgtgaat acgtttttac
+     4441 tgagtgtctt taaatgaggt gttctagaca gtgtgctgat aatgtattgt gcgggtgacc
+     4501 tcttcgctat gattgtatct cttactgttt tgttaaagaa atgcagatgt gtaactgaga
+     4561 agtgatttgt gtgtgtgtct tggttgtgat tggattcttt gggggggggg aactgaaaca
+     4621 tttgtcatat actgaactta tatacatcaa aagggattaa tacagcgatg ccaaaaagtt
+     4681 taatcacgga cacatgtccg tttctgtagt ccgtatgctc tttcattctt ggtagagctg
+     4741 gtatgtggaa tgccatacct ctgaccctac tacttacctt tttactgaca gactgcccac
+     4801 actgaaagct tcagtgaatg ttcttagtcc tgttttcttc tgttactgtc aggaaactga
+     4861 gtgatctaat ggttctctca cttttttttt gttcttttag tgtactttga agtatcaaat
+     4921 cttaacttgg tttaaacaat acatattcct aacctttgta aaaaagcaaa gattcttcaa
+     4981 aatgacattg aaataaaaag taagccatac gtattttctt agaagtatag atgtatgtgc
+     5041 gtgtatacac acacacacac acacacagag ataaacacaa tattccttat ttcaaattag
+     5101 tatgattcct atttaaagtg atttatattt gagtaaaaag ttcaattctt ttttgctttt
+     5161 taaaaaatct gatgcttcat aattttcatt atattattcc acatattttt ccttgaagtt
+     5221 cttagcataa tgtatccatt acttagtata tatctaggca acaacactta gaagtttatc
+     5281 agtgtttaaa ctaaaaaaat aaagattcct gtgtactggt ttacatttgt gtgagtggca
+     5341 tactcaagtc tgctgtgcct gtcgtcgtga ctgtcagtat tctcgctatt ttatagtcgt
+     5401 gccatgttgt tactcacagc gctctgacat actttcatgt ggtaggttct ttctcaggaa
+     5461 ctcagtttaa ctattattta ttgatatatc attacctttg aaaagcttct actggcacaa
+     5521 tttattatta aaattttgaa tccaaa
+//
+

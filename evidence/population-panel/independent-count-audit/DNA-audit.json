@@ -1,0 +1,70 @@
+{
+  "assay": "DNA",
+  "scope": "All primary joint-callable positions; direct independent CIGAR-block/count implementation.",
+  "design_sha256": "90a153f630375103363792037618d93a864b01bad029575f36d6a3a382ee0bfa",
+  "joint_table_sha256": "25934a24cd3057c0324d116fe5f67ad3584e1d0a131efa8a77481fc8fd0ede8d",
+  "script_sha256": "dbbb83f81eb90c92da1ae3005285200ef76d397b56951589c11f16857b1ea5be",
+  "pysam": "0.24.1",
+  "samtools": "1.24",
+  "filters": "MAPQ>=30,BQ>=25,proper flag2,exclude0xF0C,qualified ACGT observations collapsed per QNAME; conflicting ACGT names excluded. Query sequence in BAM alignment orientation; no extra reverse complement.",
+  "sensitivity": "Clean requires no S anywhere in read CIGAR and >=5 query bases between locus and each aligned query end. MAPQ60 and NH==1-if-present are separate sensitivity masks. None certifies uniqueness.",
+  "excluded_from_exact_comparison": "nonACGT symbolic deletion/refskip accounting is not reconstructed; exact comparison covers ACGT alleles, conflicts and REF/ALT read counts only.",
+  "status": "PASS",
+  "sites": 4015,
+  "direct_output_sha256": "15c747896abba361b1bca17b0bc182bed90c80212bc8194ed8e576c07d5843b7",
+  "exact_compared_fields": [
+    "fragment_ref",
+    "fragment_alt",
+    "fragment_other",
+    "fragment_discordant",
+    "read_ref",
+    "read_alt"
+  ],
+  "differences": [],
+  "progress": [
+    {
+      "chrom": "chr2",
+      "sites": 862,
+      "windows": 711,
+      "seconds": 1.7627968788146973
+    },
+    {
+      "chrom": "chr3",
+      "sites": 647,
+      "windows": 533,
+      "seconds": 1.120276927947998
+    },
+    {
+      "chrom": "chr5",
+      "sites": 723,
+      "windows": 576,
+      "seconds": 2.913494110107422
+    },
+    {
+      "chrom": "chr8",
+      "sites": 450,
+      "windows": 355,
+      "seconds": 1.030730962753296
+    },
+    {
+      "chrom": "chr9",
+      "sites": 541,
+      "windows": 452,
+      "seconds": 1.977839708328247
+    },
+    {
+      "chrom": "chr17",
+      "sites": 792,
+      "windows": 621,
+      "seconds": 2.4318127632141113
+    }
+  ],
+  "totals": {
+    "fetched_records": 4142690,
+    "qualified_read_records": 2339264,
+    "sites": 4015
+  },
+  "seconds": 11.420279741287231,
+  "peak_RSS_bytes": 169902080,
+  "completed_utc": "2026-10-05T06:48:02.162982+00:00"
+}

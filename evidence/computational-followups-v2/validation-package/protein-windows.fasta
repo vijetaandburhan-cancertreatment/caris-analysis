@@ -1,0 +1,12 @@
+>BAP1_WT_protein_window NP_004647.1 aa 32-81; window only, protein continues
+IYDLQSKCQGPVYGFIFLFKWIEERRSRRKVSTLVDDTSVIDDDIVNNMF
+>BAP1_ALT_protein_window NP_004647.1 aa 32-63; actual predicted termination follows immediately
+IYDLQSKCQGPVYGFIFLFKWIEERKGLYLGG
+>LATS1_WT_protein_window NP_004681.1 aa 102-151; window only, protein continues
+NPQMLQDLQAAGFDEDMVIQALQKTNNRSIEAAIEFISKMSYQDPRREQM
+>LATS1_ALT_protein_window NP_004681.1 aa 102-126; actual predicted termination follows immediately
+NPQMLQDLQAAGFDEDMVIQALQKT
+>LATS2_WT_protein_window NP_055387.2 aa 935-984; window only, protein continues
+PAQVKLSPEARDLITKLCCSADHRLGRNGADDLKAHPFFSAIDFSSDIRK
+>LATS2_ALT_protein_window NP_055387.2 aa 935-984; window only, protein continues
+PAQVKLSPEARDLITKLCCSADHRLRRNGADDLKAHPFFSAIDFSSDIRK

@@ -1,0 +1,11 @@
+{
+  "verified_utc": "2026-10-05T06:11:31.027901+00:00",
+  "files_compared": 35,
+  "bytes": 8419583,
+  "all_hashes_match": true,
+  "mirror": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1/DNA-addendum-2026-10-05",
+  "prior_RNA_manifest_unchanged": true,
+  "prior_RNA_manifest_in_resident_mirror_matches": true,
+  "DNA_manifest_sha256": "1766c3712057f8b2d0926d002823a13a603322784eefdc497962177c266c0370",
+  "combined_receipt_sha256": "792eb56bf14e513bc598b506000d8ef0bfaa64f75218fe21734af73aa7407cd2"
+}

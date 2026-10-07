@@ -1,0 +1,187 @@
+{
+  "id": "compactD8__strong_trim_anchor12",
+  "dataset": "strong_trim_anchor12",
+  "started_utc": "2026-10-05T05:50:58.344939+00:00",
+  "status": "complete",
+  "STAR_command": [
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/STAR_2.7.11b/MacOSX_x86_64/STAR",
+    "--runThreadN",
+    "2",
+    "--genomeDir",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D8_SA12",
+    "--readFilesIn",
+    "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor12.R1.fastq.gz",
+    "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor12.R2.fastq.gz",
+    "--outFileNamePrefix",
+    "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor12/STAR.",
+    "--genomeLoad",
+    "NoSharedMemory",
+    "--readFilesCommand",
+    "/usr/bin/gzip",
+    "-cd",
+    "--outStd",
+    "BAM_Unsorted",
+    "--outSAMtype",
+    "BAM",
+    "Unsorted",
+    "--outSAMunmapped",
+    "Within",
+    "--outBAMcompression",
+    "0",
+    "--outFilterMultimapNmax",
+    "50",
+    "--peOverlapNbasesMin",
+    "10",
+    "--alignSplicedMateMapLminOverLmate",
+    "0.5",
+    "--alignSJstitchMismatchNmax",
+    "5",
+    "-1",
+    "5",
+    "5",
+    "--chimSegmentMin",
+    "10",
+    "--chimOutType",
+    "WithinBAM",
+    "HardClip",
+    "Junctions",
+    "--chimJunctionOverhangMin",
+    "10",
+    "--chimScoreDropMax",
+    "30",
+    "--chimScoreJunctionNonGTAG",
+    "0",
+    "--chimScoreSeparation",
+    "1",
+    "--chimSegmentReadGapMax",
+    "3",
+    "--chimMultimapNmax",
+    "50",
+    "--chimOutJunctionFormat",
+    "1"
+  ],
+  "Arriba_command": [
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/arriba",
+    "-x",
+    "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor12/alignments.bam",
+    "-o",
+    "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor12/fusions.tsv",
+    "-O",
+    "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor12/fusions.discarded.tsv",
+    "-a",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/assembly.fa",
+    "-g",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/annotation.gtf",
+    "-b",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/database/blacklist_hg38_GRCh38_v2.5.1.tsv.gz",
+    "-k",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/database/known_fusions_hg38_GRCh38_v2.5.1.tsv.gz",
+    "-t",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/database/known_fusions_hg38_GRCh38_v2.5.1.tsv.gz",
+    "-p",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/database/protein_domains_hg38_GRCh38_v2.5.1.gff3"
+  ],
+  "known_fusion_recovery": true,
+  "whole_reference": false,
+  "sparseD": 8,
+  "manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "runner_sha256": "0a385fc30f91180e50d282a5b1a48c03ce7d4912d2faf4cdad39c3580a8d0788",
+  "sequence_or_quality_modification": "Only as frozen in dataset manifest; runner makes none.",
+  "STAR_resources": {
+    "elapsed_seconds": 0.51,
+    "peak_observed_process_RSS_bytes": 1249280,
+    "exit_codes": [
+      0
+    ]
+  },
+  "STAR_final": {
+    "Started job on": "Oct 05 01:50:58",
+    "Started mapping on": "Oct 05 01:50:58",
+    "Finished on": "Oct 05 01:50:58",
+    "Mapping speed, Million of reads per hour": "inf",
+    "Number of input reads": "36",
+    "Average input read length": "292",
+    "Uniquely mapped reads number": "32",
+    "Uniquely mapped reads %": "88.89%",
+    "Average mapped length": "300.00",
+    "Number of splices: Total": "55",
+    "Number of splices: Annotated (sjdb)": "55",
+    "Number of splices: GT/AG": "55",
+    "Number of splices: GC/AG": "0",
+    "Number of splices: AT/AC": "0",
+    "Number of splices: Non-canonical": "0",
+    "Mismatch rate per base, %": "0.00%",
+    "Deletion rate per base": "0.00%",
+    "Deletion average length": "0.00",
+    "Insertion rate per base": "0.00%",
+    "Insertion average length": "0.00",
+    "Number of reads mapped to multiple loci": "1",
+    "% of reads mapped to multiple loci": "2.78%",
+    "Number of reads mapped to too many loci": "0",
+    "% of reads mapped to too many loci": "0.00%",
+    "Number of reads unmapped: too many mismatches": "0",
+    "% of reads unmapped: too many mismatches": "0.00%",
+    "Number of reads unmapped: too short": "3",
+    "% of reads unmapped: too short": "8.33%",
+    "Number of reads unmapped: other": "0",
+    "% of reads unmapped: other": "0.00%",
+    "Number of chimeric reads": "2",
+    "% of chimeric reads": "5.56%"
+  },
+  "Arriba_resources": {
+    "elapsed_seconds": 30.491,
+    "peak_observed_process_RSS_bytes": 1009352704,
+    "exit_codes": [
+      0,
+      0
+    ]
+  },
+  "caller_outcome": "completed_with_call_tables",
+  "finished_utc": "2026-10-05T05:51:29.359812+00:00",
+  "outputs": {
+    "STAR.SJ.out.tab": {
+      "sha256": "bba3e09a120eb8bbd988c9aab2b50f3b34a9cf9874f334fa1dcaaa1b1cb8b324",
+      "bytes": 484
+    },
+    "fusions.discarded.tsv": {
+      "sha256": "d378f0e01131f84eb13f22b970d168263e915dbda32c5d2e2eabfdfac4e4aabc",
+      "bytes": 692
+    },
+    "STAR.stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "STAR.Log.out": {
+      "sha256": "127eb4a84c143cdad5ccc9cde1c71d70a971eb3302ff78d42e4ed10560842737",
+      "bytes": 12746
+    },
+    "STAR.Chimeric.out.junction": {
+      "sha256": "073d36ff4ccafc0cdf4abb7ef5f2b3eac4f51d3d3dd53702b46d0141ea87cc70",
+      "bytes": 1883
+    },
+    "fusions.tsv": {
+      "sha256": "a6077d18120c8ec4ee9fb8bd7b93e110d94603c83451a614b24b3f29efeb7633",
+      "bytes": 1113
+    },
+    "alignments.bam": {
+      "sha256": "9237f3a71c4e3875a571d3e2bbf8d6d5d2147e9ddf776463d86b5e3c1445a76b",
+      "bytes": 25807
+    },
+    "Arriba.log.gz": {
+      "sha256": "0fb03d0a2aece2235a0174e3d267074b63c1571b4630d2c974664fa964e2913e",
+      "bytes": 28148035
+    },
+    "STAR.Log.progress.out": {
+      "sha256": "e4947209ba69b69769fb8568cb6d21e96484840ee598dc9001da720ecf866bd8",
+      "bytes": 246
+    },
+    "STAR.Log.std.out": {
+      "sha256": "3cb19b5d1d940f0d0f4357d328b8f497881f4ba7fed29686160ae0d7a73b15fa",
+      "bytes": 1581
+    },
+    "STAR.Log.final.out": {
+      "sha256": "f96a3e6f99885c43a93d0c8b48e3776288b4bd3bed0d77113629d998bf76343b",
+      "bytes": 1968
+    }
+  }
+}

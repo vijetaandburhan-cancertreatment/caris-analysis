@@ -1,0 +1,518 @@
+{
+  "status": "PRIMARY_COUNTS_COMPLETE_PENDING_INDEPENDENT_AUDIT",
+  "design_sha256": "90a153f630375103363792037618d93a864b01bad029575f36d6a3a382ee0bfa",
+  "full_panel_distribution": {
+    "loci": 165782,
+    "chromosomes": {
+      "chr2": 38913,
+      "chr3": 32702,
+      "chr5": 28606,
+      "chr8": 22440,
+      "chr9": 22144,
+      "chr17": 20977
+    },
+    "unique_1Mb_bins": 970,
+    "uniquely_assigned_gene_count": 7381,
+    "gene_overlap_categories": {
+      "intergenic": 34026,
+      "unique_gene": 109574,
+      "multi_gene": 22182
+    },
+    "top_unique_genes": [
+      [
+        "ENSG00000183117.19",
+        338
+      ],
+      [
+        "ENSG00000240498.9",
+        261
+      ],
+      [
+        "ENSG00000153707.17",
+        249
+      ],
+      [
+        "ENSG00000168702.18",
+        234
+      ],
+      [
+        "ENSG00000185942.13",
+        194
+      ],
+      [
+        "ENSG00000185008.17",
+        180
+      ],
+      [
+        "ENSG00000113448.19",
+        180
+      ],
+      [
+        "ENSG00000179915.24",
+        166
+      ],
+      [
+        "ENSG00000163939.18",
+        162
+      ],
+      [
+        "ENSG00000177694.16",
+        157
+      ]
+    ],
+    "scope": {
+      "grid10kb": 78656,
+      "exon100": 80398,
+      "exon100+grid10kb": 3514,
+      "exon100+focal250kb+grid10kb": 14,
+      "exon100+focal250kb": 187,
+      "focal250kb": 2874,
+      "focal250kb+grid10kb": 139
+    },
+    "same_chromosome_consecutive_distance_bp": {
+      "n": 165776,
+      "min": 1,
+      "median": 4319.0,
+      "max": 17185171,
+      "under1000": 58428
+    },
+    "prior335_overlap": 97
+  },
+  "joint_distribution": {
+    "loci": 4015,
+    "chromosomes": {
+      "chr2": 862,
+      "chr3": 647,
+      "chr5": 723,
+      "chr8": 450,
+      "chr9": 541,
+      "chr17": 792
+    },
+    "unique_1Mb_bins": 606,
+    "uniquely_assigned_gene_count": 1451,
+    "gene_overlap_categories": {
+      "unique_gene": 3396,
+      "multi_gene": 615,
+      "intergenic": 4
+    },
+    "top_unique_genes": [
+      [
+        "ENSG00000178209.16",
+        39
+      ],
+      [
+        "ENSG00000130635.16",
+        25
+      ],
+      [
+        "ENSG00000004399.13",
+        19
+      ],
+      [
+        "ENSG00000148400.13",
+        19
+      ],
+      [
+        "ENSG00000182578.14",
+        18
+      ],
+      [
+        "ENSG00000163359.16",
+        17
+      ],
+      [
+        "ENSG00000173821.19",
+        15
+      ],
+      [
+        "ENSG00000171094.18",
+        14
+      ],
+      [
+        "ENSG00000070756.17",
+        14
+      ],
+      [
+        "ENSG00000107104.20",
+        13
+      ]
+    ],
+    "scope": {
+      "exon100": 3798,
+      "exon100+grid10kb": 184,
+      "grid10kb": 11,
+      "exon100+focal250kb": 19,
+      "exon100+focal250kb+grid10kb": 3
+    },
+    "same_chromosome_consecutive_distance_bp": {
+      "n": 4009,
+      "min": 1,
+      "median": 16550,
+      "max": 27121579,
+      "under1000": 885
+    },
+    "prior335_overlap": 72
+  },
+  "dominant_distribution": {
+    "loci": 2873,
+    "chromosomes": {
+      "chr2": 618,
+      "chr3": 462,
+      "chr5": 534,
+      "chr8": 285,
+      "chr9": 421,
+      "chr17": 553
+    },
+    "unique_1Mb_bins": 554,
+    "uniquely_assigned_gene_count": 1194,
+    "gene_overlap_categories": {
+      "unique_gene": 2426,
+      "multi_gene": 445,
+      "intergenic": 2
+    },
+    "top_unique_genes": [
+      [
+        "ENSG00000130635.16",
+        21
+      ],
+      [
+        "ENSG00000182578.14",
+        18
+      ],
+      [
+        "ENSG00000178209.16",
+        15
+      ],
+      [
+        "ENSG00000004399.13",
+        14
+      ],
+      [
+        "ENSG00000163359.16",
+        13
+      ],
+      [
+        "ENSG00000012048.23",
+        13
+      ],
+      [
+        "ENSG00000185920.16",
+        12
+      ],
+      [
+        "ENSG00000135976.20",
+        11
+      ],
+      [
+        "ENSG00000113721.14",
+        11
+      ],
+      [
+        "ENSG00000119321.9",
+        11
+      ]
+    ],
+    "scope": {
+      "exon100": 2737,
+      "exon100+grid10kb": 115,
+      "grid10kb": 5,
+      "exon100+focal250kb": 14,
+      "exon100+focal250kb+grid10kb": 2
+    },
+    "same_chromosome_consecutive_distance_bp": {
+      "n": 2867,
+      "min": 1,
+      "median": 24880,
+      "max": 28374294,
+      "under1000": 549
+    },
+    "prior335_overlap": 72
+  },
+  "attrition": [
+    {
+      "group": "ALL",
+      "selected": 165782,
+      "DNA_observed_row": 62358,
+      "DNA_callable20": 35885,
+      "RNA_observed_row": 78071,
+      "RNA_callable20": 4072,
+      "joint_callable": 4015,
+      "joint_dominant": 2873
+    },
+    {
+      "group": "chr2",
+      "selected": 38913,
+      "DNA_observed_row": 14343,
+      "DNA_callable20": 7902,
+      "RNA_observed_row": 17642,
+      "RNA_callable20": 878,
+      "joint_callable": 862,
+      "joint_dominant": 618
+    },
+    {
+      "group": "chr3",
+      "selected": 32702,
+      "DNA_observed_row": 11475,
+      "DNA_callable20": 6375,
+      "RNA_observed_row": 15236,
+      "RNA_callable20": 653,
+      "joint_callable": 647,
+      "joint_dominant": 462
+    },
+    {
+      "group": "chr5",
+      "selected": 28606,
+      "DNA_observed_row": 9848,
+      "DNA_callable20": 5379,
+      "RNA_observed_row": 12688,
+      "RNA_callable20": 735,
+      "joint_callable": 723,
+      "joint_dominant": 534
+    },
+    {
+      "group": "chr8",
+      "selected": 22440,
+      "DNA_observed_row": 7497,
+      "DNA_callable20": 4155,
+      "RNA_observed_row": 8969,
+      "RNA_callable20": 454,
+      "joint_callable": 450,
+      "joint_dominant": 285
+    },
+    {
+      "group": "chr9",
+      "selected": 22144,
+      "DNA_observed_row": 8224,
+      "DNA_callable20": 4985,
+      "RNA_observed_row": 10049,
+      "RNA_callable20": 545,
+      "joint_callable": 541,
+      "joint_dominant": 421
+    },
+    {
+      "group": "chr17",
+      "selected": 20977,
+      "DNA_observed_row": 10971,
+      "DNA_callable20": 7089,
+      "RNA_observed_row": 13487,
+      "RNA_callable20": 807,
+      "joint_callable": 792,
+      "joint_dominant": 553
+    },
+    {
+      "group": "scope:exon100",
+      "selected": 80398,
+      "DNA_observed_row": 47567,
+      "DNA_callable20": 32383,
+      "RNA_observed_row": 51437,
+      "RNA_callable20": 3852,
+      "joint_callable": 3798,
+      "joint_dominant": 2737
+    },
+    {
+      "group": "scope:exon100+focal250kb",
+      "selected": 187,
+      "DNA_observed_row": 124,
+      "DNA_callable20": 98,
+      "RNA_observed_row": 132,
+      "RNA_callable20": 19,
+      "joint_callable": 19,
+      "joint_dominant": 14
+    },
+    {
+      "group": "scope:exon100+focal250kb+grid10kb",
+      "selected": 14,
+      "DNA_observed_row": 12,
+      "DNA_callable20": 9,
+      "RNA_observed_row": 11,
+      "RNA_callable20": 3,
+      "joint_callable": 3,
+      "joint_dominant": 2
+    },
+    {
+      "group": "scope:exon100+grid10kb",
+      "selected": 3514,
+      "DNA_observed_row": 2039,
+      "DNA_callable20": 1390,
+      "RNA_observed_row": 2310,
+      "RNA_callable20": 186,
+      "joint_callable": 184,
+      "joint_dominant": 115
+    },
+    {
+      "group": "scope:focal250kb",
+      "selected": 2874,
+      "DNA_observed_row": 309,
+      "DNA_callable20": 31,
+      "RNA_observed_row": 502,
+      "RNA_callable20": 0,
+      "joint_callable": 0,
+      "joint_dominant": 0
+    },
+    {
+      "group": "scope:focal250kb+grid10kb",
+      "selected": 139,
+      "DNA_observed_row": 18,
+      "DNA_callable20": 2,
+      "RNA_observed_row": 38,
+      "RNA_callable20": 0,
+      "joint_callable": 0,
+      "joint_dominant": 0
+    },
+    {
+      "group": "scope:grid10kb",
+      "selected": 78656,
+      "DNA_observed_row": 12289,
+      "DNA_callable20": 1972,
+      "RNA_observed_row": 23641,
+      "RNA_callable20": 12,
+      "joint_callable": 11,
+      "joint_dominant": 5
+    }
+  ],
+  "joint_categories": {
+    "ref_dominant": {
+      "n": 2283,
+      "retain90": 2272,
+      "retain98": 2189,
+      "opposite98": 0,
+      "triage_candidates": 5
+    },
+    "alt_dominant": {
+      "n": 590,
+      "retain90": 588,
+      "retain98": 571,
+      "opposite98": 0,
+      "triage_candidates": 1
+    },
+    "ref_alt_mixed": {
+      "n": 1109,
+      "RNA_ref98": 39,
+      "RNA_alt98": 29,
+      "RNA_mixed10": 882
+    },
+    "residual": {
+      "n": 33,
+      "RNA_ref98": 13,
+      "RNA_alt98": 3,
+      "RNA_mixed10": 5
+    }
+  },
+  "operational_gate": {
+    "dominant_loci": true,
+    "ref_dominant": true,
+    "alt_dominant": true,
+    "chromosomes": true,
+    "bins1Mb": true,
+    "unique_genes": true
+  },
+  "gate_pass": true,
+  "frozen_spaced50kb": {
+    "all_selected": 17264,
+    "joint_distribution": {
+      "loci": 165,
+      "chromosomes": {
+        "chr2": 44,
+        "chr3": 25,
+        "chr5": 37,
+        "chr8": 15,
+        "chr9": 16,
+        "chr17": 28
+      },
+      "unique_1Mb_bins": 147,
+      "uniquely_assigned_gene_count": 140,
+      "gene_overlap_categories": {
+        "unique_gene": 145,
+        "multi_gene": 19,
+        "intergenic": 1
+      },
+      "top_unique_genes": [
+        [
+          "ENSG00000051341.14",
+          2
+        ],
+        [
+          "ENSG00000173706.14",
+          2
+        ],
+        [
+          "ENSG00000171444.18",
+          2
+        ],
+        [
+          "ENSG00000132561.14",
+          2
+        ],
+        [
+          "ENSG00000196712.18",
+          2
+        ],
+        [
+          "ENSG00000115750.17",
+          1
+        ],
+        [
+          "ENSG00000151779.13",
+          1
+        ],
+        [
+          "ENSG00000118965.16",
+          1
+        ],
+        [
+          "ENSG00000119772.17",
+          1
+        ],
+        [
+          "ENSG00000163798.13",
+          1
+        ]
+      ],
+      "scope": {
+        "exon100": 142,
+        "exon100+grid10kb": 19,
+        "grid10kb": 4
+      },
+      "same_chromosome_consecutive_distance_bp": {
+        "n": 159,
+        "min": 50164,
+        "median": 3333932,
+        "max": 50398906,
+        "under1000": 0
+      },
+      "prior335_overlap": 3
+    },
+    "categories": {
+      "ref_dominant": {
+        "n": 95,
+        "retain90": 95,
+        "retain98": 91,
+        "opposite98": 0,
+        "triage_candidates": 0
+      },
+      "alt_dominant": {
+        "n": 25,
+        "retain90": 25,
+        "retain98": 24,
+        "opposite98": 0,
+        "triage_candidates": 0
+      },
+      "ref_alt_mixed": {
+        "n": 43,
+        "RNA_ref98": 0,
+        "RNA_alt98": 1,
+        "RNA_mixed10": 36
+      },
+      "residual": {
+        "n": 2,
+        "RNA_ref98": 1,
+        "RNA_alt98": 1,
+        "RNA_mixed10": 0
+      }
+    }
+  },
+  "triage_candidate_loci": 6,
+  "opposite98_loci": 0,
+  "third_allele_excess_loci": 1,
+  "triage_note": "Dominant-DNA candidates use aggregate unexpected RNA alleles as a sensitive screen; independent per-base audit must determine exact unexpected alleles. DNA-mixed RNA shifts do not establish incompatibility. More than20 candidates triggers fixed20 audit cap and limited unresolved reporting."
+}

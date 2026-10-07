@@ -1,0 +1,175 @@
+{
+  "conventions": "Independent affine DP: full query accounted for; free reference ends;\nquery terminal overhangs cost 2/base, internal gap length L costs6+(L-1).\nScores are relative, not MAPQ or statistical probabilities. Standard library only.\n",
+  "controls": [
+    {
+      "name": "perfect",
+      "expected": 8,
+      "observed": {
+        "score": 8,
+        "ref_start0": 0,
+        "ref_end0": 4,
+        "query_aligned": "ACGT",
+        "reference_aligned": "ACGT",
+        "leading_query_overhang": 0,
+        "trailing_query_overhang": 0,
+        "matches": 4,
+        "mismatches": 0,
+        "internal_gap_bases": 0,
+        "internal_gap_opens": 0
+      }
+    },
+    {
+      "name": "reference_overhangs",
+      "expected": 8,
+      "observed": {
+        "score": 8,
+        "ref_start0": 2,
+        "ref_end0": 6,
+        "query_aligned": "ACGT",
+        "reference_aligned": "ACGT",
+        "leading_query_overhang": 0,
+        "trailing_query_overhang": 0,
+        "matches": 4,
+        "mismatches": 0,
+        "internal_gap_bases": 0,
+        "internal_gap_opens": 0
+      }
+    },
+    {
+      "name": "mismatch",
+      "expected": 2,
+      "observed": {
+        "score": 2,
+        "ref_start0": 0,
+        "ref_end0": 4,
+        "query_aligned": "ACCT",
+        "reference_aligned": "ACGT",
+        "leading_query_overhang": 0,
+        "trailing_query_overhang": 0,
+        "matches": 3,
+        "mismatches": 1,
+        "internal_gap_bases": 0,
+        "internal_gap_opens": 0
+      }
+    },
+    {
+      "name": "leading_query",
+      "expected": 4,
+      "observed": {
+        "score": 4,
+        "ref_start0": 0,
+        "ref_end0": 4,
+        "query_aligned": "TTACGT",
+        "reference_aligned": "--ACGT",
+        "leading_query_overhang": 2,
+        "trailing_query_overhang": 0,
+        "matches": 4,
+        "mismatches": 0,
+        "internal_gap_bases": 0,
+        "internal_gap_opens": 0
+      }
+    },
+    {
+      "name": "trailing_query",
+      "expected": 4,
+      "observed": {
+        "score": 4,
+        "ref_start0": 0,
+        "ref_end0": 4,
+        "query_aligned": "ACGTTT",
+        "reference_aligned": "ACGT--",
+        "leading_query_overhang": 0,
+        "trailing_query_overhang": 2,
+        "matches": 4,
+        "mismatches": 0,
+        "internal_gap_bases": 0,
+        "internal_gap_opens": 0
+      }
+    },
+    {
+      "name": "both_query_ends",
+      "expected": 0,
+      "observed": {
+        "score": 0,
+        "ref_start0": 0,
+        "ref_end0": 4,
+        "query_aligned": "GGACGTCC",
+        "reference_aligned": "--ACGT--",
+        "leading_query_overhang": 2,
+        "trailing_query_overhang": 2,
+        "matches": 4,
+        "mismatches": 0,
+        "internal_gap_bases": 0,
+        "internal_gap_opens": 0
+      }
+    },
+    {
+      "name": "internal_1bp_insertion",
+      "expected": 10,
+      "observed": {
+        "score": 10,
+        "ref_start0": 0,
+        "ref_end0": 8,
+        "query_aligned": "ACGATTGCA",
+        "reference_aligned": "ACG-TTGCA",
+        "leading_query_overhang": 0,
+        "trailing_query_overhang": 0,
+        "matches": 8,
+        "mismatches": 0,
+        "internal_gap_bases": 1,
+        "internal_gap_opens": 1
+      }
+    },
+    {
+      "name": "internal_2bp_insertion",
+      "expected": 9,
+      "observed": {
+        "score": 9,
+        "ref_start0": 0,
+        "ref_end0": 8,
+        "query_aligned": "ACGAATTGCA",
+        "reference_aligned": "ACG--TTGCA",
+        "leading_query_overhang": 0,
+        "trailing_query_overhang": 0,
+        "matches": 8,
+        "mismatches": 0,
+        "internal_gap_bases": 2,
+        "internal_gap_opens": 1
+      }
+    },
+    {
+      "name": "internal_deletion",
+      "expected": 8,
+      "observed": {
+        "score": 8,
+        "ref_start0": 0,
+        "ref_end0": 8,
+        "query_aligned": "ACG-TGCA",
+        "reference_aligned": "ACGTTGCA",
+        "leading_query_overhang": 0,
+        "trailing_query_overhang": 0,
+        "matches": 7,
+        "mismatches": 0,
+        "internal_gap_bases": 1,
+        "internal_gap_opens": 1
+      }
+    },
+    {
+      "name": "ambiguous_is_not_match",
+      "expected": 2,
+      "observed": {
+        "score": 2,
+        "ref_start0": 0,
+        "ref_end0": 4,
+        "query_aligned": "ACNT",
+        "reference_aligned": "ACNT",
+        "leading_query_overhang": 0,
+        "trailing_query_overhang": 0,
+        "matches": 3,
+        "mismatches": 1,
+        "internal_gap_bases": 0,
+        "internal_gap_opens": 0
+      }
+    }
+  ]
+}

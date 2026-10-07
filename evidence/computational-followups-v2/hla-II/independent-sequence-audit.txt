@@ -1,0 +1,2 @@
+2026-10-04 — independent sequence-generation review by sibling agent /root/dfci_care_pathway
+Reviewed prepare-patient.py against existing BAP1/RASA1 contexts. Mutation-overlap test, same-start/same-length WT comparators, stop truncation, and25-aa-upstream context coverage are sound for the existing records. DQ pairing and DRA assumptions explicitly caveated. No blocking issue found. This is independent code/context review, not experimental validation or independent patient sequencing.

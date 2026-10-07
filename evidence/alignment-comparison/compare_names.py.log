@@ -1,0 +1,243 @@
+{
+  "status": "PRIMARY_NAME_COMPARISON_COMPLETE_PENDING_INDEPENDENT_AUDIT",
+  "original_names": 3426,
+  "new_frozen_names_seen": 3426,
+  "missing_new_frozen_names": [],
+  "all16_original_counts_match_frozen": true,
+  "new_frozen_name_masks_match_primary_full_counts": true,
+  "unexpected_supporter_transitions": [
+    {
+      "site": "chr2:189043211",
+      "gene": "COL5A2",
+      "review_class": "strong_baseline_screen",
+      "original_unexpected_base": "A",
+      "original_supporters": 116,
+      "new_all_names_same_base": 116,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 116
+      }
+    },
+    {
+      "site": "chr3:195568834",
+      "gene": "APOD",
+      "review_class": "strong_baseline_screen",
+      "original_unexpected_base": "C",
+      "original_supporters": 27,
+      "new_all_names_same_base": 0,
+      "old_supporter_outcomes": {
+        "now_G_DNA_expected": 26,
+        "site_base_overlap_but_fails_matched_filters": 1
+      }
+    },
+    {
+      "site": "chr5:443259",
+      "gene": "EXOC3",
+      "review_class": "strong_baseline_screen",
+      "original_unexpected_base": "A",
+      "original_supporters": 22,
+      "new_all_names_same_base": 23,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 14,
+        "conflicting_qualified_bases": 1,
+        "now_C_DNA_expected": 3,
+        "site_base_overlap_but_fails_matched_filters": 2,
+        "only_unmapped_emitted_records": 2
+      }
+    },
+    {
+      "site": "chr5:443259",
+      "gene": "EXOC3",
+      "review_class": "strong_baseline_screen",
+      "original_unexpected_base": "G",
+      "original_supporters": 1,
+      "new_all_names_same_base": 1,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 1
+      }
+    },
+    {
+      "site": "chr5:80654917",
+      "gene": "MSH3;DHFR",
+      "review_class": "strong_baseline_screen",
+      "original_unexpected_base": "G",
+      "original_supporters": 104,
+      "new_all_names_same_base": 65,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 58,
+        "mapped_without_base_at_original_site": 41,
+        "only_unmapped_emitted_records": 2,
+        "site_base_overlap_but_fails_matched_filters": 3
+      }
+    },
+    {
+      "site": "chr5:168468948",
+      "gene": "WWC1",
+      "review_class": "lower_RNA_depth_exception",
+      "original_unexpected_base": "C",
+      "original_supporters": 3,
+      "new_all_names_same_base": 0,
+      "old_supporter_outcomes": {
+        "site_reference_span_but_no_query_base": 3
+      }
+    },
+    {
+      "site": "chr5:177371091",
+      "gene": "RGS14",
+      "review_class": "lower_RNA_depth_exception",
+      "original_unexpected_base": "G",
+      "original_supporters": 4,
+      "new_all_names_same_base": 6,
+      "old_supporter_outcomes": {
+        "site_base_overlap_but_fails_matched_filters": 1,
+        "retains_same_unexpected_base": 3
+      }
+    },
+    {
+      "site": "chr8:100705591",
+      "gene": "PABPC1",
+      "review_class": "strong_baseline_screen",
+      "original_unexpected_base": "G",
+      "original_supporters": 65,
+      "new_all_names_same_base": 61,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 56,
+        "only_unmapped_emitted_records": 1,
+        "site_base_overlap_but_fails_matched_filters": 6,
+        "mapped_without_base_at_original_site": 2
+      }
+    },
+    {
+      "site": "chr8:100705604",
+      "gene": "PABPC1",
+      "review_class": "strong_baseline_screen",
+      "original_unexpected_base": "A",
+      "original_supporters": 1,
+      "new_all_names_same_base": 1,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 1
+      }
+    },
+    {
+      "site": "chr8:100705604",
+      "gene": "PABPC1",
+      "review_class": "strong_baseline_screen",
+      "original_unexpected_base": "C",
+      "original_supporters": 78,
+      "new_all_names_same_base": 73,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 68,
+        "only_unmapped_emitted_records": 2,
+        "site_base_overlap_but_fails_matched_filters": 6,
+        "mapped_without_base_at_original_site": 2
+      }
+    },
+    {
+      "site": "chr9:95508042",
+      "gene": "PTCH1",
+      "review_class": "lower_RNA_depth_exception",
+      "original_unexpected_base": "T",
+      "original_supporters": 4,
+      "new_all_names_same_base": 1,
+      "old_supporter_outcomes": {
+        "mapped_without_base_at_original_site": 3,
+        "retains_same_unexpected_base": 1
+      }
+    },
+    {
+      "site": "chr9:136502531",
+      "gene": "NOTCH1",
+      "review_class": "lower_RNA_depth_exception",
+      "original_unexpected_base": "T",
+      "original_supporters": 17,
+      "new_all_names_same_base": 0,
+      "old_supporter_outcomes": {
+        "site_base_overlap_but_fails_matched_filters": 17
+      }
+    },
+    {
+      "site": "chr17:29114059",
+      "gene": "MYO18A",
+      "review_class": "lower_RNA_depth_exception",
+      "original_unexpected_base": "C",
+      "original_supporters": 3,
+      "new_all_names_same_base": 3,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 3
+      }
+    },
+    {
+      "site": "chr17:31236059",
+      "gene": "NF1",
+      "review_class": "lower_RNA_depth_exception",
+      "original_unexpected_base": "G",
+      "original_supporters": 5,
+      "new_all_names_same_base": 0,
+      "old_supporter_outcomes": {
+        "site_base_overlap_but_fails_matched_filters": 5
+      }
+    },
+    {
+      "site": "chr17:77500378",
+      "gene": "SEPTIN9",
+      "review_class": "lower_RNA_depth_exception",
+      "original_unexpected_base": "G",
+      "original_supporters": 7,
+      "new_all_names_same_base": 7,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 7
+      }
+    },
+    {
+      "site": "chr3:10049469",
+      "gene": "FANCD2",
+      "review_class": "MAPQ60_only_not_baseline_flag",
+      "original_unexpected_base": "T",
+      "original_supporters": 153,
+      "new_all_names_same_base": 155,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 151,
+        "mapped_without_base_at_original_site": 1,
+        "site_base_overlap_but_fails_matched_filters": 1
+      }
+    },
+    {
+      "site": "chr3:195677778",
+      "gene": "SDHAP2;MUC20-OT1",
+      "review_class": "MAPQ60_only_not_baseline_flag",
+      "original_unexpected_base": "G",
+      "original_supporters": 357,
+      "new_all_names_same_base": 326,
+      "old_supporter_outcomes": {
+        "mapped_without_base_at_original_site": 20,
+        "retains_same_unexpected_base": 310,
+        "site_base_overlap_but_fails_matched_filters": 26,
+        "only_unmapped_emitted_records": 1
+      }
+    },
+    {
+      "site": "chr9:65737280",
+      "gene": "FOXD4L4",
+      "review_class": "MAPQ60_only_not_baseline_flag",
+      "original_unexpected_base": "A",
+      "original_supporters": 22,
+      "new_all_names_same_base": 21,
+      "old_supporter_outcomes": {
+        "retains_same_unexpected_base": 21,
+        "only_unmapped_emitted_records": 1
+      }
+    }
+  ],
+  "PABPC1_linkage": {
+    "original_591_G_names": 65,
+    "original_604_C_names": 78,
+    "original_shared": 65,
+    "new_591_G_names_all": 61,
+    "new_604_C_names_all": 73,
+    "new_shared_all": 61,
+    "old_shared_still_both": 56,
+    "old_shared_retained_591_G": 56,
+    "old_shared_retained_604_C": 56,
+    "new_shared_not_in_old_shared": 5
+  },
+  "limitations": "Same raw reads, changed full alignment pipeline. New placement is not necessarily correct. All emitted records are preserved for frozen names; not all hypothetical locations. New names outside frozen3426 have only cohort-overlap records. Auxiliary physical-offset tracing requires no hard clips in either record and exact forward-oriented query sequence equality; other cases are explicitly not traced. Shared QNAME support alone is not proof of two alleles on one record or independent molecules."
+}

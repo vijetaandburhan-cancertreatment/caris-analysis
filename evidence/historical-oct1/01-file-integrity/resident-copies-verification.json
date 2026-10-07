@@ -1,0 +1,253 @@
+{
+  "manifest": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1/caris-source-manifest.json",
+  "directory": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853",
+  "started_at": "2026-10-01T19:34:06.430723+00:00",
+  "awscrt_version": "0.37.0",
+  "algorithm": "CRC64NVME of complete stored bytes; Base64 of uint64 big-endian",
+  "chunk_bytes": 8388608,
+  "files": [
+    {
+      "name": "DNA_TN26-279853.vcf",
+      "started_at": "2026-10-01T19:34:06.431125+00:00",
+      "source": {
+        "crc64nvme": "MGUB1Kaq7oA=",
+        "checksum_type": "FULL_OBJECT",
+        "size_bytes": 531449,
+        "etag": "86196aa8024dee30fa94d87c4e0e432d",
+        "etag_is_md5": true,
+        "md5": "86196aa8024dee30fa94d87c4e0e432d",
+        "sha256": null
+      },
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/DNA_TN26-279853.vcf",
+      "size_bytes": 531449,
+      "calculated": {
+        "crc64nvme": "MGUB1Kaq7oA=",
+        "sha256": "1e9c97cbd406ec0086c8778d9e8ccb05053a498067cfec7cf0b0455399164440",
+        "md5": "86196aa8024dee30fa94d87c4e0e432d"
+      },
+      "checks": {
+        "file_unchanged_during_read": true,
+        "size_matches": true,
+        "crc64nvme_matches": true,
+        "md5_matches": true
+      },
+      "status": "verified",
+      "finished_at": "2026-10-01T19:34:06.432865+00:00"
+    },
+    {
+      "name": "RNA_TN26-279853.geneTPM_nodup.csv",
+      "started_at": "2026-10-01T19:34:06.433318+00:00",
+      "source": {
+        "crc64nvme": "ScnEw/rRcKY=",
+        "checksum_type": "FULL_OBJECT",
+        "size_bytes": 1409949,
+        "etag": null,
+        "etag_is_md5": false,
+        "md5": null,
+        "sha256": null
+      },
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853.geneTPM_nodup.csv",
+      "size_bytes": 1409949,
+      "calculated": {
+        "crc64nvme": "ScnEw/rRcKY=",
+        "sha256": "d79d9f534e22ed9ccbcbb734e243baba52dc38307a652b956767469fb67baa20",
+        "md5": "7ed0788c2db8247f1ccb613fca3f3fb3"
+      },
+      "checks": {
+        "file_unchanged_during_read": true,
+        "size_matches": true,
+        "crc64nvme_matches": true
+      },
+      "status": "verified",
+      "finished_at": "2026-10-01T19:34:06.436794+00:00"
+    },
+    {
+      "name": "TN26-279853_20260925225733.xlsx",
+      "started_at": "2026-10-01T19:34:06.437248+00:00",
+      "source": {
+        "crc64nvme": "Luk65oNZOJU=",
+        "checksum_type": "FULL_OBJECT",
+        "size_bytes": 535890,
+        "etag": "9a51210b4076be0a1bb281de0e0b8f01",
+        "etag_is_md5": true,
+        "md5": "9a51210b4076be0a1bb281de0e0b8f01",
+        "sha256": null
+      },
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/TN26-279853_20260925225733.xlsx",
+      "size_bytes": 535890,
+      "calculated": {
+        "crc64nvme": "Luk65oNZOJU=",
+        "sha256": "cf0a8426d5f122ec7b0e354f5bc5bd57ca51f397163361cdc775edfe90c962e0",
+        "md5": "9a51210b4076be0a1bb281de0e0b8f01"
+      },
+      "checks": {
+        "file_unchanged_during_read": true,
+        "size_matches": true,
+        "crc64nvme_matches": true,
+        "md5_matches": true
+      },
+      "status": "verified",
+      "finished_at": "2026-10-01T19:34:06.438731+00:00"
+    },
+    {
+      "name": "DNA_TN26-279853_S25.R1.fastq.gz",
+      "started_at": "2026-10-01T19:34:06.439048+00:00",
+      "source": {
+        "crc64nvme": "kdb3TFp7mSg=",
+        "checksum_type": "FULL_OBJECT",
+        "size_bytes": null,
+        "etag": "12d30a713cfe1d24d715212765803ab2-1073",
+        "etag_is_md5": false,
+        "md5": null,
+        "sha256": null
+      },
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/DNA_TN26-279853_S25.R1.fastq.gz",
+      "size_bytes": 8998695773,
+      "calculated": {
+        "crc64nvme": "kdb3TFp7mSg=",
+        "sha256": "f58ec669637af7b47d3dc0fb5d8f30c5a4ddb19f3416f9fd22204e3158b7f93f",
+        "md5": "81dc05f4f44ddad4f8ac400523c3e43f"
+      },
+      "checks": {
+        "file_unchanged_during_read": true,
+        "crc64nvme_matches": true
+      },
+      "status": "verified",
+      "finished_at": "2026-10-01T19:34:27.013455+00:00"
+    },
+    {
+      "name": "DNA_TN26-279853_S25.R2.fastq.gz",
+      "started_at": "2026-10-01T19:34:27.014477+00:00",
+      "source": {
+        "crc64nvme": "KR1Ua/cnduI=",
+        "checksum_type": "FULL_OBJECT",
+        "size_bytes": null,
+        "etag": "ef487a93b995c17a041256f078e6b6cf-1105",
+        "etag_is_md5": false,
+        "md5": null,
+        "sha256": null
+      },
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/DNA_TN26-279853_S25.R2.fastq.gz",
+      "size_bytes": 9264125961,
+      "calculated": {
+        "crc64nvme": "KR1Ua/cnduI=",
+        "sha256": "fad8ea9b1cd7dd212aad04e06def52b426cf2dc16070bfdb3722033b0bf8bc78",
+        "md5": "3009904572682f7a38088c0935814b54"
+      },
+      "checks": {
+        "file_unchanged_during_read": true,
+        "crc64nvme_matches": true
+      },
+      "status": "verified",
+      "finished_at": "2026-10-01T19:34:47.375317+00:00"
+    },
+    {
+      "name": "DNA_TN26-279853.bam",
+      "started_at": "2026-10-01T19:34:47.376326+00:00",
+      "source": {
+        "crc64nvme": "+MUNcDUcmjM=",
+        "checksum_type": "FULL_OBJECT",
+        "size_bytes": null,
+        "etag": "df12a13738f1586d59092beadebdac69-1112",
+        "etag_is_md5": false,
+        "md5": null,
+        "sha256": null
+      },
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/DNA_TN26-279853.bam",
+      "size_bytes": 9325653547,
+      "calculated": {
+        "crc64nvme": "+MUNcDUcmjM=",
+        "sha256": "7bb970e30fc4420dbfb7c8b3fd3dd916dc379641ea9dde687bfc49d1ef46d7cb",
+        "md5": "876e6bd94c7ea30e3a95ab725c1a3cc8"
+      },
+      "checks": {
+        "file_unchanged_during_read": true,
+        "crc64nvme_matches": true
+      },
+      "status": "verified",
+      "finished_at": "2026-10-01T19:35:12.677046+00:00"
+    },
+    {
+      "name": "RNA_TN26-279853_S25.R1.fastq.gz",
+      "started_at": "2026-10-01T19:35:12.677699+00:00",
+      "source": {
+        "crc64nvme": "gKqM9ht/jtU=",
+        "checksum_type": "FULL_OBJECT",
+        "size_bytes": null,
+        "etag": "1c371b31c0046fe28a66c188331ef329-189",
+        "etag_is_md5": false,
+        "md5": null,
+        "sha256": null
+      },
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R1.fastq.gz",
+      "size_bytes": 1579972407,
+      "calculated": {
+        "crc64nvme": "gKqM9ht/jtU=",
+        "sha256": "e931ccacc7e6ea4e58d3fb33dadb99553cbea54b51252c67c44e283cb27d3bc5",
+        "md5": "6bcc79f3479021ef64a66e80a7368c06"
+      },
+      "checks": {
+        "file_unchanged_during_read": true,
+        "crc64nvme_matches": true
+      },
+      "status": "verified",
+      "finished_at": "2026-10-01T19:35:16.146946+00:00"
+    },
+    {
+      "name": "RNA_TN26-279853_S25.R2.fastq.gz",
+      "started_at": "2026-10-01T19:35:16.147630+00:00",
+      "source": {
+        "crc64nvme": "Zwy/IRIeUaI=",
+        "checksum_type": "FULL_OBJECT",
+        "size_bytes": null,
+        "etag": "fa84735ccc22e72248e33bd334ee5490-193",
+        "etag_is_md5": false,
+        "md5": null,
+        "sha256": null
+      },
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R2.fastq.gz",
+      "size_bytes": 1612673312,
+      "calculated": {
+        "crc64nvme": "Zwy/IRIeUaI=",
+        "sha256": "b03ab626d8f57b71a89b7ba4a5c97fb5f0d0c91ea695492d0564c3644d849300",
+        "md5": "48f2284e39eb2053fa00ef19aca3bc53"
+      },
+      "checks": {
+        "file_unchanged_during_read": true,
+        "crc64nvme_matches": true
+      },
+      "status": "verified",
+      "finished_at": "2026-10-01T19:35:19.582517+00:00"
+    },
+    {
+      "name": "RNA_TN26-279853.bam",
+      "started_at": "2026-10-01T19:35:19.583228+00:00",
+      "source": {
+        "crc64nvme": "dtdP9PvAPP4=",
+        "checksum_type": "FULL_OBJECT",
+        "size_bytes": null,
+        "etag": "a8c5f8380e9b83fbfc6a9a57a98663ed-339",
+        "etag_is_md5": false,
+        "md5": null,
+        "sha256": null
+      },
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853.bam",
+      "size_bytes": 2835547302,
+      "calculated": {
+        "crc64nvme": "dtdP9PvAPP4=",
+        "sha256": "bbbca59ff29763261af4e0303b097c06308fb23d9890de9969f1f3b1b4774701",
+        "md5": "0eca6921d56bf6f66cc6a4a9e60b822f"
+      },
+      "checks": {
+        "file_unchanged_during_read": true,
+        "crc64nvme_matches": true
+      },
+      "status": "verified",
+      "finished_at": "2026-10-01T19:35:25.810142+00:00"
+    }
+  ],
+  "finished_at": "2026-10-01T19:35:25.811247+00:00",
+  "verified_count": 9,
+  "total_count": 9,
+  "all_verified": true
+}

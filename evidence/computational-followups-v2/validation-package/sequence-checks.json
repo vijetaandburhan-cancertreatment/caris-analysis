@@ -1,0 +1,32 @@
+{
+  "method": "Independent local GenBank parsing, explicit strand-aware genomic edit and standard-code translation; conditional single-edit reference context",
+  "checks": [
+    {
+      "gene": "BAP1",
+      "refseq": "NM_004656.3",
+      "genomic_ref_allele_exact": true,
+      "refseq_target_context_matches_GRCh38": true,
+      "conditional_consequence": "p.(Arg57LysfsTer8)",
+      "wt_aa_length": 729,
+      "mutant_aa_length": 63
+    },
+    {
+      "gene": "LATS1",
+      "refseq": "NM_004690.4",
+      "genomic_ref_allele_exact": true,
+      "refseq_target_context_matches_GRCh38": true,
+      "conditional_consequence": "p.(Asn127Ter)",
+      "wt_aa_length": 1130,
+      "mutant_aa_length": 126
+    },
+    {
+      "gene": "LATS2",
+      "refseq": "NM_014572.3",
+      "genomic_ref_allele_exact": true,
+      "refseq_target_context_matches_GRCh38": true,
+      "conditional_consequence": "p.(Gly960Arg)",
+      "wt_aa_length": 1088,
+      "mutant_aa_length": 1088
+    }
+  ]
+}

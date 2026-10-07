@@ -1,0 +1,8 @@
+{
+  "ready_for_final_render": true,
+  "origin_paragraphs": [
+    "COL5A2\u2019s unexpected A support is strongly dependent on read ends. A bounded search of selected representative sequences also found local gap-placement alternatives at APOD, EXOC3 and DHFR: first-best nominated ordinary alignments placed the queried base in an insertion or at a nearby reference position. These alternatives sometimes scored below the original splice-path model containing the unexpected allele. They demonstrate ambiguity, not a proven correction or preferred read origin.",
+    "The PABPC1 discrepancies remain unresolved. All 65 baseline query names supporting G at chr8:100705591 also support C at chr8:100705604 in the same qualifying alignment. The two sites therefore share substantial read support and cannot be treated as independent checks. Representative sequences are not independent molecules; the bounded reference search cannot establish allele origin."
+  ],
+  "origin_editorial_review": "Approved by read-origin reviewer; shared-support qualification applied."
+}

@@ -1,0 +1,182 @@
+{
+  "synthetic_closed_interval_boundaries": "PASS",
+  "overlapping_gene_endpoint": "PASS",
+  "single_base_interval": "PASS",
+  "positions": [
+    9,
+    10,
+    19,
+    20,
+    21,
+    29,
+    30,
+    31
+  ],
+  "overlap_counts": {
+    "9": 0,
+    "10": 1,
+    "19": 1,
+    "20": 2,
+    "21": 1,
+    "29": 1,
+    "30": 1,
+    "31": 0
+  },
+  "known_GENCODE_gene_boundaries": [
+    {
+      "gene_id": "ENSG00000163930.10",
+      "symbol": "BAP1",
+      "chrom": "chr3",
+      "start1": 52401008,
+      "end1": 52410008,
+      "test_positions": [
+        52401007,
+        52401008,
+        52410008,
+        52410009
+      ],
+      "included": [
+        52401008,
+        52410008
+      ],
+      "expected": [
+        52401008,
+        52410008
+      ],
+      "status": "PASS"
+    },
+    {
+      "gene_id": "ENSG00000145715.15",
+      "symbol": "RASA1",
+      "chrom": "chr5",
+      "start1": 87267883,
+      "end1": 87391931,
+      "test_positions": [
+        87267882,
+        87267883,
+        87391931,
+        87391932
+      ],
+      "included": [
+        87267883,
+        87391931
+      ],
+      "expected": [
+        87267883,
+        87391931
+      ],
+      "status": "PASS"
+    },
+    {
+      "gene_id": "ENSG00000234745.13",
+      "symbol": "HLA-B",
+      "chrom": "chr6",
+      "start1": 31353872,
+      "end1": 31357188,
+      "test_positions": [
+        31353871,
+        31353872,
+        31357188,
+        31357189
+      ],
+      "included": [
+        31353872,
+        31357188
+      ],
+      "expected": [
+        31353872,
+        31357188
+      ],
+      "status": "PASS"
+    },
+    {
+      "gene_id": "ENSG00000131023.13",
+      "symbol": "LATS1",
+      "chrom": "chr6",
+      "start1": 149658153,
+      "end1": 149718105,
+      "test_positions": [
+        149658152,
+        149658153,
+        149718105,
+        149718106
+      ],
+      "included": [
+        149658153,
+        149718105
+      ],
+      "expected": [
+        149658153,
+        149718105
+      ],
+      "status": "PASS"
+    },
+    {
+      "gene_id": "ENSG00000075624.17",
+      "symbol": "ACTB",
+      "chrom": "chr7",
+      "start1": 5526409,
+      "end1": 5563902,
+      "test_positions": [
+        5526408,
+        5526409,
+        5563902,
+        5563903
+      ],
+      "included": [
+        5526409,
+        5563902
+      ],
+      "expected": [
+        5526409,
+        5563902
+      ],
+      "status": "PASS"
+    },
+    {
+      "gene_id": "ENSG00000150457.9",
+      "symbol": "LATS2",
+      "chrom": "chr13",
+      "start1": 20973036,
+      "end1": 21061586,
+      "test_positions": [
+        20973035,
+        20973036,
+        21061586,
+        21061587
+      ],
+      "included": [
+        20973036,
+        21061586
+      ],
+      "expected": [
+        20973036,
+        21061586
+      ],
+      "status": "PASS"
+    },
+    {
+      "gene_id": "ENSG00000130203.10",
+      "symbol": "APOE",
+      "chrom": "chr19",
+      "start1": 44905791,
+      "end1": 44909393,
+      "test_positions": [
+        44905790,
+        44905791,
+        44909393,
+        44909394
+      ],
+      "included": [
+        44905791,
+        44909393
+      ],
+      "expected": [
+        44905791,
+        44909393
+      ],
+      "status": "PASS"
+    }
+  ],
+  "exon_gene_subset_checks": "PASS for all 165782 loci"
+}

@@ -1,0 +1,148 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir= :/Users/distiller/project/STARcompile/source
+STAR git: On branch master ; commit 73eaeb256684a2fc31ce306a95bbd27120dd8de4 ; diff files: 
+##### Command Line:
+/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/STAR_2.7.11b/MacOSX_x86_64/STAR --runThreadN 2 --genomeDir /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D8_SA12 --readFilesIn /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R1.fastq.gz /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R2.fastq.gz --outFileNamePrefix /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor20/STAR. --genomeLoad NoSharedMemory --readFilesCommand /usr/bin/gzip -cd --outStd BAM_Unsorted --outSAMtype BAM Unsorted --outSAMunmapped Within --outBAMcompression 0 --outFilterMultimapNmax 50 --peOverlapNbasesMin 10 --alignSplicedMateMapLminOverLmate 0.5 --alignSJstitchMismatchNmax 5 -1 5 5 --chimSegmentMin 10 --chimOutType WithinBAM HardClip Junctions --chimJunctionOverhangMin 10 --chimScoreDropMax 30 --chimScoreJunctionNonGTAG 0 --chimScoreSeparation 1 --chimSegmentReadGapMax 3 --chimMultimapNmax 50 --chimOutJunctionFormat 1
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor20/STAR.
+outStd                            BAM_Unsorted
+###### All USER parameters from Command Line:
+runThreadN                    2     ~RE-DEFINED
+genomeDir                     /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D8_SA12     ~RE-DEFINED
+readFilesIn                   /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R1.fastq.gz   /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R2.fastq.gz        ~RE-DEFINED
+outFileNamePrefix             /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor20/STAR.     ~RE-DEFINED
+genomeLoad                    NoSharedMemory     ~RE-DEFINED
+readFilesCommand              /usr/bin/gzip   -cd        ~RE-DEFINED
+outStd                        BAM_Unsorted     ~RE-DEFINED
+outSAMtype                    BAM   Unsorted        ~RE-DEFINED
+outSAMunmapped                Within        ~RE-DEFINED
+outBAMcompression             0     ~RE-DEFINED
+outFilterMultimapNmax         50     ~RE-DEFINED
+peOverlapNbasesMin            10     ~RE-DEFINED
+alignSplicedMateMapLminOverLmate0.5     ~RE-DEFINED
+alignSJstitchMismatchNmax     5   -1   5   5        ~RE-DEFINED
+chimSegmentMin                10     ~RE-DEFINED
+chimOutType                   WithinBAM   HardClip   Junctions        ~RE-DEFINED
+chimJunctionOverhangMin       10     ~RE-DEFINED
+chimScoreDropMax              30     ~RE-DEFINED
+chimScoreJunctionNonGTAG      0     ~RE-DEFINED
+chimScoreSeparation           1     ~RE-DEFINED
+chimSegmentReadGapMax         3     ~RE-DEFINED
+chimMultimapNmax              50     ~RE-DEFINED
+chimOutJunctionFormat         1        ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        2
+genomeDir                         /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D8_SA12
+genomeLoad                        NoSharedMemory
+readFilesIn                       /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R1.fastq.gz   /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R2.fastq.gz   
+readFilesCommand                  /usr/bin/gzip   -cd   
+outFileNamePrefix                 /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor20/STAR.
+outStd                            BAM_Unsorted
+outSAMtype                        BAM   Unsorted   
+outSAMunmapped                    Within   
+outBAMcompression                 0
+outFilterMultimapNmax             50
+alignSJstitchMismatchNmax         5   -1   5   5   
+alignSplicedMateMapLminOverLmate    0.5
+peOverlapNbasesMin                10
+chimSegmentMin                    10
+chimScoreDropMax                  30
+chimScoreSeparation               1
+chimScoreJunctionNonGTAG          0
+chimJunctionOverhangMin           10
+chimOutType                       WithinBAM   HardClip   Junctions   
+chimSegmentReadGapMax             3
+chimMultimapNmax                  50
+chimOutJunctionFormat             1   
+
+-------------------------------
+##### Final effective command line:
+/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/STAR_2.7.11b/MacOSX_x86_64/STAR   --runThreadN 2   --genomeDir /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D8_SA12   --genomeLoad NoSharedMemory   --readFilesIn /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R1.fastq.gz   /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R2.fastq.gz      --readFilesCommand /usr/bin/gzip   -cd      --outFileNamePrefix /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor20/STAR.   --outStd BAM_Unsorted   --outSAMtype BAM   Unsorted      --outSAMunmapped Within      --outBAMcompression 0   --outFilterMultimapNmax 50   --alignSJstitchMismatchNmax 5   -1   5   5      --alignSplicedMateMapLminOverLmate 0.5   --peOverlapNbasesMin 10   --chimSegmentMin 10   --chimScoreDropMax 30   --chimScoreSeparation 1   --chimScoreJunctionNonGTAG 0   --chimJunctionOverhangMin 10   --chimOutType WithinBAM   HardClip   Junctions      --chimSegmentReadGapMax 3   --chimMultimapNmax 50   --chimOutJunctionFormat 1   
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+-rw-r--r--@ 1 burhanazeem  staff  2635 Oct  5 01:24 /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R1.fastq.gz
+
+   readsCommandsFile:
+exec > "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor20/STAR._STARtmp/tmp.fifo.read1"
+echo FILE 0
+/usr/bin/gzip   -cd      "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R1.fastq.gz"
+
+
+   Input read files for mate 2 :
+-rw-r--r--@ 1 burhanazeem  staff  2852 Oct  5 01:24 /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R2.fastq.gz
+
+   readsCommandsFile:
+exec > "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor20/STAR._STARtmp/tmp.fifo.read2"
+echo FILE 0
+/usr/bin/gzip   -cd      "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R2.fastq.gz"
+
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+Reading genome generation parameters:
+### /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/STAR_2.7.11b/MacOSX_x86_64/STAR   --runMode genomeGenerate      --runThreadN 1   --genomeDir /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D8_SA12   --genomeFastaFiles /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/assembly.fa      --genomeSAindexNbases 12   --genomeSAsparseD 8   --limitGenomeGenerateRAM 1500000000   --outFileNamePrefix /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/index_D8_SA12/build.   --sjdbGTFfile /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/annotation.gtf   --sjdbOverhang 160
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/assembly.fa        ~RE-DEFINED
+genomeSAindexNbases           12     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               8     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  160     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   /Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/compact_BCR_ABL1/annotation.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               154681010   661035        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 2
+1	chr9	130937675	0
+2	chr22	23368037	131072000
+--sjdbOverhang = 160 taken from the generated genome
+Started loading the genome: Mon Oct  5 01:52:32 2026
+
+Genome: size given as a parameter = 154681010
+SA: size given as a parameter = 661035
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=12  nSAi=22369620
+nGenome=154681010;  nSAbyte=661035
+GstrandBit=32   SA number of indices=160250
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 154681010 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 154681010 bytes
+SA file size: 661035 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 661035 bytes
+Loading SAindex ... done: 97867203 bytes
+Finished loading the genome: Mon Oct  5 01:52:32 2026
+
+Sum of all Genome bytes: 617781518
+Sum of all SA bytes: 68043998
+Sum of all SAi bytes: 6751929334
+Processing splice junctions database sjdbN=50,   pGe.sjdbOverhang=160 
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+WARNING --chimOutType=WithinBAM, therefore STAR will output NM attribute
+Opening the file: /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor20/STAR._STARtmp//Chimeric.out.junction.thread0 ... ok
+Opening the file: /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/runs/compactD8__strong_trim_anchor20/STAR._STARtmp//Chimeric.out.junction.thread1 ... ok
+Created thread # 1
+Starting to map file # 0
+mate 1:   /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R1.fastq.gz
+mate 2:   /Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct5-fusion-robustness-v1/inputs/strong_trim_anchor20.R2.fastq.gz
+Thread #0 end of input stream, nextChar=-1
+Completed: thread #1
+Completed: thread #0
+Joined thread # 1
+Oct 05 01:52:32 ..... finished mapping
+RAM after mapping:
+
+RAM after freeing genome index memory:
+
+ALL DONE!

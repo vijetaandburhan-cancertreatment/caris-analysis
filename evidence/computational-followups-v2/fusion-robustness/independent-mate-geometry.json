@@ -1,0 +1,876 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-05T05:44:59.919569+00:00",
+  "manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "script_sha256": "15f1a6bdea1115fc219e39a755a9f8daccf90a0963cd6d01184d06fa1a5bc1b6",
+  "rows": [
+    {
+      "name": "BCR-ABL1-76",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "+",
+              3207
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3207,
+          "construct_end0": 3357,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 27,
+          "right_anchor": 123
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "-",
+              3273
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3273,
+          "construct_end0": 3423,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null
+        }
+      ],
+      "strong_group": false,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3207,
+      "outer_fragment_end0": 3423,
+      "outer_fragment_span": 216,
+      "overlap_bases": 84,
+      "overlap_disagreements": 0,
+      "overlap_disagreement_positions": [],
+      "construct_based_overlap_disagreement_fraction": 0.0
+    },
+    {
+      "name": "BCR-ABL1-74",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "-",
+              3190
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3190,
+          "construct_end0": 3340,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 44,
+          "right_anchor": 106
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              1,
+              "+",
+              3133
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3133,
+          "construct_end0": 3283,
+          "mismatches": 1,
+          "mismatch_positions": [
+            {
+              "construct_base0": 3222,
+              "original_read_base0": 89,
+              "base_quality": 7
+            }
+          ],
+          "crosses_junction": true,
+          "left_anchor": 101,
+          "right_anchor": 49
+        }
+      ],
+      "strong_group": true,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3133,
+      "outer_fragment_end0": 3340,
+      "outer_fragment_span": 207,
+      "overlap_bases": 93,
+      "overlap_disagreements": 1,
+      "overlap_disagreement_positions": [
+        {
+          "construct_base0": 3222,
+          "mate1_quality": 38,
+          "mate2_quality": 7
+        }
+      ],
+      "construct_based_overlap_disagreement_fraction": 0.010752688172043012
+    },
+    {
+      "name": "BCR-ABL1-66",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "-",
+              3176
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3176,
+          "construct_end0": 3326,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 58,
+          "right_anchor": 92
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "+",
+              3133
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3133,
+          "construct_end0": 3283,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 101,
+          "right_anchor": 49
+        }
+      ],
+      "strong_group": true,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3133,
+      "outer_fragment_end0": 3326,
+      "outer_fragment_span": 193,
+      "overlap_bases": 107,
+      "overlap_disagreements": 0,
+      "overlap_disagreement_positions": [],
+      "construct_based_overlap_disagreement_fraction": 0.0
+    },
+    {
+      "name": "BCR-ABL1-60",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "+",
+              3195
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3195,
+          "construct_end0": 3345,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 39,
+          "right_anchor": 111
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "-",
+              3244
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3244,
+          "construct_end0": 3394,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null
+        }
+      ],
+      "strong_group": false,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3195,
+      "outer_fragment_end0": 3394,
+      "outer_fragment_span": 199,
+      "overlap_bases": 101,
+      "overlap_disagreements": 0,
+      "overlap_disagreement_positions": [],
+      "construct_based_overlap_disagreement_fraction": 0.0
+    },
+    {
+      "name": "BCR-ABL1-58",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "+",
+              3159
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3159,
+          "construct_end0": 3309,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 75,
+          "right_anchor": 75
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              1,
+              "-",
+              3196
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3196,
+          "construct_end0": 3346,
+          "mismatches": 1,
+          "mismatch_positions": [
+            {
+              "construct_base0": 3255,
+              "original_read_base0": 90,
+              "base_quality": 7
+            }
+          ],
+          "crosses_junction": true,
+          "left_anchor": 38,
+          "right_anchor": 112
+        }
+      ],
+      "strong_group": false,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3159,
+      "outer_fragment_end0": 3346,
+      "outer_fragment_span": 187,
+      "overlap_bases": 113,
+      "overlap_disagreements": 1,
+      "overlap_disagreement_positions": [
+        {
+          "construct_base0": 3255,
+          "mate1_quality": 38,
+          "mate2_quality": 7
+        }
+      ],
+      "construct_based_overlap_disagreement_fraction": 0.008849557522123894
+    },
+    {
+      "name": "BCR-ABL1-54",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              1,
+              "+",
+              3170
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3170,
+          "construct_end0": 3320,
+          "mismatches": 1,
+          "mismatch_positions": [
+            {
+              "construct_base0": 3242,
+              "original_read_base0": 72,
+              "base_quality": 7
+            }
+          ],
+          "crosses_junction": true,
+          "left_anchor": 64,
+          "right_anchor": 86
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              1,
+              "-",
+              3221
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3221,
+          "construct_end0": 3371,
+          "mismatches": 1,
+          "mismatch_positions": [
+            {
+              "construct_base0": 3314,
+              "original_read_base0": 56,
+              "base_quality": 16
+            }
+          ],
+          "crosses_junction": true,
+          "left_anchor": 13,
+          "right_anchor": 137
+        }
+      ],
+      "strong_group": false,
+      "shortest_case": true,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3170,
+      "outer_fragment_end0": 3371,
+      "outer_fragment_span": 201,
+      "overlap_bases": 99,
+      "overlap_disagreements": 2,
+      "overlap_disagreement_positions": [
+        {
+          "construct_base0": 3242,
+          "mate1_quality": 7,
+          "mate2_quality": 38
+        },
+        {
+          "construct_base0": 3314,
+          "mate1_quality": 38,
+          "mate2_quality": 16
+        }
+      ],
+      "construct_based_overlap_disagreement_fraction": 0.020202020202020204
+    },
+    {
+      "name": "BCR-ABL1-28",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              1,
+              "-",
+              3262
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3262,
+          "construct_end0": 3412,
+          "mismatches": 1,
+          "mismatch_positions": [
+            {
+              "construct_base0": 3274,
+              "original_read_base0": 137,
+              "base_quality": 16
+            }
+          ],
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              1,
+              "+",
+              3212
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3212,
+          "construct_end0": 3362,
+          "mismatches": 1,
+          "mismatch_positions": [
+            {
+              "construct_base0": 3271,
+              "original_read_base0": 59,
+              "base_quality": 7
+            }
+          ],
+          "crosses_junction": true,
+          "left_anchor": 22,
+          "right_anchor": 128
+        }
+      ],
+      "strong_group": false,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3212,
+      "outer_fragment_end0": 3412,
+      "outer_fragment_span": 200,
+      "overlap_bases": 100,
+      "overlap_disagreements": 2,
+      "overlap_disagreement_positions": [
+        {
+          "construct_base0": 3271,
+          "mate1_quality": 38,
+          "mate2_quality": 7
+        },
+        {
+          "construct_base0": 3274,
+          "mate1_quality": 16,
+          "mate2_quality": 38
+        }
+      ],
+      "construct_based_overlap_disagreement_fraction": 0.02
+    },
+    {
+      "name": "BCR-ABL1-24",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              2,
+              "+",
+              3138
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3138,
+          "construct_end0": 3288,
+          "mismatches": 2,
+          "mismatch_positions": [
+            {
+              "construct_base0": 3141,
+              "original_read_base0": 3,
+              "base_quality": 16
+            },
+            {
+              "construct_base0": 3277,
+              "original_read_base0": 139,
+              "base_quality": 16
+            }
+          ],
+          "crosses_junction": true,
+          "left_anchor": 96,
+          "right_anchor": 54
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "-",
+              3186
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3186,
+          "construct_end0": 3336,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 48,
+          "right_anchor": 102
+        }
+      ],
+      "strong_group": true,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3138,
+      "outer_fragment_end0": 3336,
+      "outer_fragment_span": 198,
+      "overlap_bases": 102,
+      "overlap_disagreements": 1,
+      "overlap_disagreement_positions": [
+        {
+          "construct_base0": 3277,
+          "mate1_quality": 16,
+          "mate2_quality": 38
+        }
+      ],
+      "construct_based_overlap_disagreement_fraction": 0.00980392156862745
+    },
+    {
+      "name": "BCR-ABL1-18",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              2,
+              "+",
+              3069
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3069,
+          "construct_end0": 3219,
+          "mismatches": 2,
+          "mismatch_positions": [
+            {
+              "construct_base0": 3155,
+              "original_read_base0": 86,
+              "base_quality": 38
+            },
+            {
+              "construct_base0": 3205,
+              "original_read_base0": 136,
+              "base_quality": 7
+            }
+          ],
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "-",
+              3116
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3116,
+          "construct_end0": 3266,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 118,
+          "right_anchor": 32
+        }
+      ],
+      "strong_group": false,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3069,
+      "outer_fragment_end0": 3266,
+      "outer_fragment_span": 197,
+      "overlap_bases": 103,
+      "overlap_disagreements": 2,
+      "overlap_disagreement_positions": [
+        {
+          "construct_base0": 3155,
+          "mate1_quality": 38,
+          "mate2_quality": 38
+        },
+        {
+          "construct_base0": 3205,
+          "mate1_quality": 7,
+          "mate2_quality": 28
+        }
+      ],
+      "construct_based_overlap_disagreement_fraction": 0.019417475728155338
+    },
+    {
+      "name": "BCR-ABL1-12",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "-",
+              3138
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3138,
+          "construct_end0": 3288,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 96,
+          "right_anchor": 54
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "+",
+              3083
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3083,
+          "construct_end0": 3233,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null
+        }
+      ],
+      "strong_group": true,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3083,
+      "outer_fragment_end0": 3288,
+      "outer_fragment_span": 205,
+      "overlap_bases": 95,
+      "overlap_disagreements": 0,
+      "overlap_disagreement_positions": [],
+      "construct_based_overlap_disagreement_fraction": 0.0
+    },
+    {
+      "name": "BCR-ABL1-10",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "-",
+              3199
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3199,
+          "construct_end0": 3349,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 35,
+          "right_anchor": 115
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "+",
+              3150
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3150,
+          "construct_end0": 3300,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 84,
+          "right_anchor": 66
+        }
+      ],
+      "strong_group": false,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3150,
+      "outer_fragment_end0": 3349,
+      "outer_fragment_span": 199,
+      "overlap_bases": 101,
+      "overlap_disagreements": 0,
+      "overlap_disagreement_positions": [],
+      "construct_based_overlap_disagreement_fraction": 0.0
+    },
+    {
+      "name": "BCR-ABL1-4",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "+",
+              3062
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3062,
+          "construct_end0": 3212,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": false,
+          "left_anchor": null,
+          "right_anchor": null
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "-",
+              3127
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3127,
+          "construct_end0": 3277,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 107,
+          "right_anchor": 43
+        }
+      ],
+      "strong_group": false,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3062,
+      "outer_fragment_end0": 3277,
+      "outer_fragment_span": 215,
+      "overlap_bases": 85,
+      "overlap_disagreements": 0,
+      "overlap_disagreement_positions": [],
+      "construct_based_overlap_disagreement_fraction": 0.0
+    },
+    {
+      "name": "BCR-ABL1-2",
+      "mates": [
+        {
+          "mate": 1,
+          "best_placements_at_most_3_mismatches": [
+            [
+              1,
+              "+",
+              3169
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "+",
+          "construct_start0": 3169,
+          "construct_end0": 3319,
+          "mismatches": 1,
+          "mismatch_positions": [
+            {
+              "construct_base0": 3240,
+              "original_read_base0": 71,
+              "base_quality": 7
+            }
+          ],
+          "crosses_junction": true,
+          "left_anchor": 65,
+          "right_anchor": 85
+        },
+        {
+          "mate": 2,
+          "best_placements_at_most_3_mismatches": [
+            [
+              0,
+              "-",
+              3215
+            ]
+          ],
+          "length": 150,
+          "uniquely_placed": true,
+          "orientation": "-",
+          "construct_start0": 3215,
+          "construct_end0": 3365,
+          "mismatches": 0,
+          "mismatch_positions": [],
+          "crosses_junction": true,
+          "left_anchor": 19,
+          "right_anchor": 131
+        }
+      ],
+      "strong_group": false,
+      "shortest_case": false,
+      "opposite_orientations": true,
+      "inward_geometry_under_construct": true,
+      "outer_fragment_start0": 3169,
+      "outer_fragment_end0": 3365,
+      "outer_fragment_span": 196,
+      "overlap_bases": 104,
+      "overlap_disagreements": 1,
+      "overlap_disagreement_positions": [
+        {
+          "construct_base0": 3240,
+          "mate1_quality": 7,
+          "mate2_quality": 38
+        }
+      ],
+      "construct_based_overlap_disagreement_fraction": 0.009615384615384616
+    }
+  ],
+  "interpretation": [
+    "Frozen eligibility required at least one uniquely placed crossing mate; this additional audit checks both mates separately, without altering selection.",
+    "Inwardness and plausible insert length on the fixed fusion construct support a possible physical pair, not molecular independence or genome-wide mappability.",
+    "An overlap mismatch may reflect an ordinary sequencing error; this audit cannot assign the cause of a STAR rejection.",
+    "No reads were removed or altered because of these post-freeze checks."
+  ],
+  "merging_hypothesis": {
+    "source_path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/STAR-parametersDefault",
+    "source_sha256": "8cf9d46f8817921592f4fac6c2da3a094c0e54b1be0d67b4a9eb5f4b34d35a80",
+    "documented_default_peOverlapMMp": 0.01,
+    "actual_run_peOverlapNbasesMin": 10,
+    "construct_overlap_fraction_above_default": [
+      "BCR-ABL1-74",
+      "BCR-ABL1-54",
+      "BCR-ABL1-28",
+      "BCR-ABL1-18"
+    ],
+    "caveat": "These fractions are independently derived from a fixed construct alignment. Being above the documented maximum overlap mismatch proportion is a possible reason not to merge the mates, not a demonstrated causal explanation for STAR rejection. Pair28 is recovered by compact D1 as an unmerged chimera. No parameter was altered to rescue a result."
+  }
+}

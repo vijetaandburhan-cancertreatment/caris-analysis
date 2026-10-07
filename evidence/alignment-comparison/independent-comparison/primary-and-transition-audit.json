@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-05T08:13:16.741775+00:00",
+  "fixed_cohort_loci_compared": 4015,
+  "integer_field_comparisons": 49911,
+  "count_differences": [],
+  "fixed_denominator_summary": {
+    "DNA_dominant_denominator": 2873,
+    "coverage_qualified_retain90": 2805,
+    "coverage_qualified_retain98": 2721,
+    "below20_remain_in_denominator": 59,
+    "fraction_only_retain90_including_below20_secondary": 2860,
+    "fraction_only_retain98_including_below20_secondary": 2776
+  },
+  "original_named_BAM_records": 7620,
+  "original_requested_names_complete": 3426,
+  "all16_original_ACGT_vectors_match_frozen": true,
+  "individual_old_unexpected_supporter_transitions_compared": 989,
+  "all_individual_transition_classes_match_primary": true,
+  "transition_classes": {
+    "retains_same_unexpected_base": 810,
+    "now_G_DNA_expected": 26,
+    "site_base_overlap_but_fails_matched_filters": 68,
+    "only_unmapped_emitted_records": 9,
+    "conflicting_qualified_bases": 1,
+    "now_C_DNA_expected": 3,
+    "mapped_without_base_at_original_site": 69,
+    "site_reference_span_but_no_query_base": 3
+  },
+  "PABPC1_independent_linkage": {
+    "original_shared_names": 65,
+    "new_shared_names": 61,
+    "original_shared_still_both": 56,
+    "new_shared_not_in_old_shared": 5,
+    "original_shared_with_same_qualifying_record": 65,
+    "new_shared_with_same_qualifying_record": 61,
+    "new_same_record_supporting_records": 103,
+    "scope": "Two linked RNA bases on the same qualifying aligned record; this does not establish tumor-specific origin, an RNA-editing mechanism, or a clinical target."
+  },
+  "elapsed_seconds": 0.894,
+  "source_sha256": {
+    "independent-comparison/verify_primary_and_names.py": "58f96a5f73230174066b97e818ab3662b294953f083aa01d3a9eb777c95e4300",
+    "independent-comparison/audit_new_alignment.py": "6e7998bebe5e0b5c409ef35e1e1518969be92783304a497c9928328ae5e0a405",
+    "comparison/fixed4015-comparison.tsv": "c905e08ee3c9f0d2a4c31fb6eaa0379355476b96c173661206780d14d6baebe2",
+    "name-comparison/unexpected-name-transitions.tsv": "81e072fe9a2457d30c24106d78876f8a1046712f9f6fef4fae6be086d6e16f33",
+    "name-comparison/summary.json": "673218a2f1e566425a86c94398ef2aa2adca432c9167415ee804ebcf5e86b51f",
+    "original-complete-names/original-3426-names.bam": "60ed63ebba3045a8b3841b172533e3681d09123bffb70a75d61202b97dd92f23",
+    "patient-full-pass/cohort-and-exception-records.bam": "41b263ae115307085aaac7bf18847b445b451ae98eab023f1fbe340c138613c2"
+  },
+  "limits": [
+    "Only same-record linkage was independently tested; root auxiliary forward-offset/base-position tracing is a separate analysis and is not validated by this check.",
+    "Preserved baseline denominators include59 DNA-dominant sites failing new depth20. Raw fraction-only rates at shallow sites are secondary and not substituted for coverage-qualified retention.",
+    "Mapping/version/reference/parameter changes act together; no sole-D8 cause or corrected biological truth is implied."
+  ]
+}

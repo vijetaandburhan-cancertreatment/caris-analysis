@@ -1,0 +1,76 @@
+Splice-junction analysis of the Caris RNA BAM
+Kanwar Kulwant Singh — TN26-279853 — 1 October 2026
+
+The additional RNA analysis strengthens the local transcript evidence for the existing BAP1/RASA1 peptide work and rules out several attractive but misleading splice leads. It did not establish a new actionable kinase event, a tumor-specific splice neoantigen, or a different diagnosis.
+
+Most importantly, an external normal-tissue reference check was actually completed rather than merely proposed: 141 of the 143 splice candidates that survived reference-aware quality filters have exact coordinate-and-strand matches in the public GTEx junction atlas. All ten BAP1 candidates are represented there. Absence from the older GENCODE annotation was therefore a poor proxy for tumor specificity in this sample.
+
+What was analyzed
+
+The full 2.6-GB RNA BAM was streamed once through all 71,034,470 alignment records, using its existing index and the local GENCODE37 GTF. The scan used one CPU core, took about 7.1 minutes, and peaked at approximately 533 MB RAM. It left the original files unchanged. It found 197,901 qualified junction coordinates, of which 152,258 are annotated in GENCODE37; 98.1% of qualified junction-read events are at annotated coordinates. A focused panel of 57 cancer-relevant genes produced 2,444 gene/junction rows.
+
+The first-pass filters require primary mapped reads, MAPQ >=20, NH=1 when available, no secondary/supplementary/QC-failure/duplicate flags, immediately adjacent matched anchors of at least 12 bases on each side, and base quality >=20 in those anchors. A stricter 20-base-anchor count is retained. For target genes, counts collapse read group plus paired-read name per junction. These counts are fragments by read name, not independent UMI molecules; this RNA BAM has no duplicate marks.
+
+Prespecified research-priority thresholds were five fragment names, three distinct alignment start/end/strand signatures and three fragments meeting the 20-base-anchor rule. There were 169 GENCODE37-unannotated candidates. An independent indexed fetch reproduced every initial candidate fragment count. Requiring exact hg38-reference matches across both 12-base anchors, the stricter 20-base subset, and a GT–AG, GC–AG or AT–AC motif reduced the list to 143. This is quality triage, not clinical validation. A true adjacent variant could also reduce the exact-reference-match counts.
+
+The targeted normal-reference analysis used public gene-symbol queries to the Snaptron gtexv2 service: 36 successful queries, 5.2 MB of responses. No patient identifier, sequence, genotype, count table or raw file was transmitted. The service documents this as a recount3/GTEx v8 compilation in hg38 coordinates. Snaptron uses 1-based inclusive introns; subtracting one from start and preserving end matches the local 0-based half-open CIGAR N intervals. Exact strand-aware comparisons also matched 761 of 782 expressed, annotated control junctions across these genes, supporting the coordinate conversion. Unmatched controls illustrate that the atlas is not exhaustive.
+
+MET exon 14: a useful bounded negative
+
+The exact exon-13-to-15 skipping junction of the selected MET MANE transcript ENST00000397752.8, chr7:[116771654,116774880), has zero primary MAPQ20/NH1 reads even before any anchor-length or base-quality filtering. Both exon-14 inclusion junctions are clearly observed: 169 and 150 reads under those broader filters, or 88 and 87 paired-read names under the inventory filters. The independent check uses pysam.find_introns rather than the inventory's own CIGAR extractor.
+
+This is useful evidence against a readily detectable MET exon-14-skipping transcript in these alignments. It is not a validated assay-negative call or proof that no rare subclone exists. It also does not assess all MET abnormalities, fusions or amplifications. The single qualifying unannotated MET event elsewhere in the gene is exon-2 skipping; it must not be confused with the clinically recognized exon-14 event.
+
+The published literature shows both why RNA can improve detection of MET exon-14 skipping and why assay-dependent low-support calls can be false positives. Those clinical assays' thresholds cannot simply be adopted as this research workflow's sensitivity or specificity.
+https://pubmed.ncbi.nlm.nih.gov/30639620/
+https://pubmed.ncbi.nlm.nih.gov/34419686/
+
+BAP1/RASA1: stronger local context for existing peptide reconstruction
+
+A separate read-level phasing check finds the exact reported indels physically linked to adjacent canonical splice junctions. BAP1's deletion and one neighboring junction occur in the same read in 141 paired-read names; the other neighboring boundary has 31 such names. RASA1 has corresponding counts of 48 and 14. These per-junction counts overlap and must not be added as independent molecule totals. All junctions linked to the respective indel in this analysis belong to the selected MANE transcript.
+
+The phasing filter required five matched, BQ20 bases on each side of the deletion and twelve matched, BQ20 bases on both sides of the splice. It yielded 253 qualifying BAP1 alternate fragment names and 77 RASA1 names, versus 254/78 in the earlier variant table using slightly different filters. This is a filter difference, not conflicting sequence evidence.
+
+This supports the local mutant-spliced RNA context assumed by the earlier BAP1/RASA1 sequence reconstruction. It does not demonstrate a complete transcript from start to finish, translation of the early truncated product, peptide processing, HLA presentation or T-cell recognition. The existing BAP1 HLA-B*50:01 peptide hypothesis remains a conditional experimental lead.
+
+An apparent BAP1 exon-4-skipping observation was also checked. Four broader-filter reads are only two paired-read names. The junction is already annotated in BAP1-210, ENST00000490917.1, a transcript labeled nonsense_mediated_decay in GENCODE37. This is not evidence of a novel functional rescue transcript. There were no broader-filter reads skipping the frameshift-containing RASA1 exon 3, with 169/310 reads supporting its two inclusion junctions.
+
+Why the normal-tissue comparison changes the interpretation
+
+The ten BAP1 alternatives that passed the reference-aware filters all occur in the queried GTEx atlas. Its two highest-count alternatives are seen in 10,824 and 10,630 GTEx samples. These are strong counterexamples to equating an annotation gap with a tumor-specific antigen. Normal-atlas evidence can represent normal isoforms, background mis-splicing or recurrent alignment artifacts; it does not by itself establish translated normal proteins. However, these events should not be presented as new tumor-specific BAP1 targets.
+
+The single strongest initial unannotated event is in APC: chr5:[112815593,112819268), supported by 222 qualifying fragment names, 219 with exact reference anchors. It removes the first 303 coding bases of the relevant exon. Direct mapping to the selected CDS gives r.934_1236del, the known natural APC exon-9a form; modern transcript numbering calls this exon 10 because of an upstream noncoding exon. Its full-exon counterpart has 226 fragment names. The event occurs in 6,019 GTEx samples and is separately described as a naturally occurring isoform in primary APC literature. It is not a second newly discovered pathogenic APC mutation, and it is separate from the reported late p.S2577* stop-gain.
+https://pubmed.ncbi.nlm.nih.gov/24169521/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11568752/
+
+Other conspicuous alternatives also have normal-atlas support: the three-base SUFU acceptor shift is represented in 15,208 samples; the FGFR1 25-base boundary shift in 13,133; and the MAP2K1 exon-skipping junction in 16,055. These observations do not establish oncogenic activation or sensitivity to drugs targeting the named genes. Common tissue-specific alternative splicing is experimentally documented, including short tandem-acceptor events.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3250501/
+
+Two low-level observations remain for optional research review
+
+AKT1 chr14:[104776770,104780089), minus strand, has 16 reference-perfect fragment names, including 13 with perfect 20-base anchors. Its donor is shifted two bases from the selected transcript and has a GC–AG motif. It contributes approximately 0.905% of qualifying junction fragments sharing its known boundary.
+
+AKT3 chr1:[243664883,243695594), minus strand, has five reference-perfect fragment names, all meeting the 20-base-anchor rule but only three alignment signatures. Its donor is shifted four bases and also has a GC–AG motif. It contributes approximately 0.169% of qualifying junction fragments sharing the known boundary.
+
+Neither exact strand-aware coordinate appears in the returned GTEx data. This does not establish tumor specificity: rare normal splicing, RNA processing differences, PCR/alignment artifacts and incomplete atlas coverage remain plausible. A bounded +/-12-base DNA check around the novel and nearest canonical boundaries showed predominantly reference bases: roughly 3,031–3,616 fragment-name observations per base around AKT1 and 220–395 around AKT3. The largest AKT1 substitution fraction was below 0.4%; two different local deletions each had one name. No clinical somatic or splice-driver call is made. The two low-level RNA events do not demonstrate AKT activation or justify AKT-targeted therapy.
+
+If a research team wishes to pursue them, the useful next checks are orthogonal RNA validation, comparison with an appropriate normal-tissue panel, full local transcript characterization and only then any protein/antigen assessment. They rank below the more directly supported BAP1 frameshift hypothesis. Their read evidence and figures are preserved without promoting them as established targets.
+
+What was not found or not established
+
+No unannotated junction met the predefined support thresholds in LATS1 or LATS2. This does not negate the separately identified DNA/RNA variants. LATS1 has sparse junction support (maximum 16 paired-read names at any junction), so negative splice conclusions there have limited sensitivity. Other genes, including ROS1 and NTRK1, also have comparatively sparse junction coverage.
+
+The high-count SETD2 candidate has 107 initial fragment names but an AA–GT reference motif, rather than a recognized major/minor canonical motif. It was not promoted through the reference-aware screen. Its substantial read support warrants preserving the alignment observation, but it is not evidence of a validated SETD2 splice mutation.
+
+This analysis cannot discover all gene fusions from the existing BAM. Its header specifies STAR's 200,000-base maximum intron length, and the released BAM lacks the supplementary/chimeric information needed for a full fusion workflow. It also cannot establish tumor-cell-specific expression in a bulk brain-metastasis sample, differential splicing versus matched normal tissue, long-read full isoforms, allele-specific protein production, or validated antigen presentation. Same-boundary fractions omit unspliced reads and alternative transcript paths and are not transcript PSI, tumor fraction or proportions of cells.
+
+Reproducibility and artifacts
+
+The scripts, source hashes, all counts and intermediate decisions are under work/oct1-deep/splicing. The main compact files are findings.json, gene-splicing-summary.tsv, target-junctions.tsv, candidate-reference-audit.tsv and candidate-gtex-comparison.tsv. all-junctions.tsv.gz preserves the genome-wide inventory. candidate-reference-read-evidence.json and frameshift-splice-phasing.json preserve example read names/CIGARs and direct linkage counts. gtex-public contains the exact public responses and query manifests. key-splice-evidence and rare-junction-read-evidence are available as PNG, PDF and SVG; these diagrams were rendered and visually reviewed.
+
+Official methods/data references:
+https://www.gencodegenes.org/human/release_37.html
+https://regtools.readthedocs.io/en/latest/commands/junctions-extract/
+https://snaptron.idies.jhu.edu/data.html
+https://snaptron.idies.jhu.edu/reftables.html
+https://snaptron.idies.jhu.edu/wsi.html

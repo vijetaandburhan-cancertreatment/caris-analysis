@@ -1,0 +1,556 @@
+{
+  "created_utc": "2026-10-05T05:37:04.180135+00:00",
+  "scope": "Descriptive paired-source geometry from frozen sequence truth; no exclusion or subset change. Names and sequence families are not proof of independent biological molecules.",
+  "rows": [
+    {
+      "name": "BCR-ABL1-76",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3207,
+          3357
+        ],
+        [
+          "-",
+          3273,
+          3423
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 216,
+      "reference_junction_anchors": [
+        [
+          27,
+          123
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-74",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "-",
+          3190,
+          3340
+        ],
+        [
+          "+",
+          3133,
+          3283
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 207,
+      "reference_junction_anchors": [
+        [
+          44,
+          106
+        ],
+        [
+          101,
+          49
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-66",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "-",
+          3176,
+          3326
+        ],
+        [
+          "+",
+          3133,
+          3283
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 193,
+      "reference_junction_anchors": [
+        [
+          58,
+          92
+        ],
+        [
+          101,
+          49
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-60",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3195,
+          3345
+        ],
+        [
+          "-",
+          3244,
+          3394
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 199,
+      "reference_junction_anchors": [
+        [
+          39,
+          111
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-58",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3159,
+          3309
+        ],
+        [
+          "-",
+          3196,
+          3346
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 187,
+      "reference_junction_anchors": [
+        [
+          75,
+          75
+        ],
+        [
+          38,
+          112
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-54",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3170,
+          3320
+        ],
+        [
+          "-",
+          3221,
+          3371
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 201,
+      "reference_junction_anchors": [
+        [
+          64,
+          86
+        ],
+        [
+          13,
+          137
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-28",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "-",
+          3262,
+          3412
+        ],
+        [
+          "+",
+          3212,
+          3362
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 200,
+      "reference_junction_anchors": [
+        [
+          22,
+          128
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-24",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3138,
+          3288
+        ],
+        [
+          "-",
+          3186,
+          3336
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 198,
+      "reference_junction_anchors": [
+        [
+          96,
+          54
+        ],
+        [
+          48,
+          102
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-18",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3069,
+          3219
+        ],
+        [
+          "-",
+          3116,
+          3266
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 197,
+      "reference_junction_anchors": [
+        [
+          118,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-12",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "-",
+          3138,
+          3288
+        ],
+        [
+          "+",
+          3083,
+          3233
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 205,
+      "reference_junction_anchors": [
+        [
+          96,
+          54
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-10",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "-",
+          3199,
+          3349
+        ],
+        [
+          "+",
+          3150,
+          3300
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 199,
+      "reference_junction_anchors": [
+        [
+          35,
+          115
+        ],
+        [
+          84,
+          66
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-4",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3062,
+          3212
+        ],
+        [
+          "-",
+          3127,
+          3277
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 215,
+      "reference_junction_anchors": [
+        [
+          107,
+          43
+        ]
+      ]
+    },
+    {
+      "name": "BCR-ABL1-2",
+      "both_mates_unique_with_at_most3_mismatches": true,
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3169,
+          3319
+        ],
+        [
+          "-",
+          3215,
+          3365
+        ]
+      ],
+      "fragment_span_if_both_mates_valid": 196,
+      "reference_junction_anchors": [
+        [
+          65,
+          85
+        ],
+        [
+          19,
+          131
+        ]
+      ]
+    }
+  ],
+  "fully_placeable_coordinate_families": [
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3207,
+          3357
+        ],
+        [
+          "-",
+          3273,
+          3423
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-76"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "-",
+          3190,
+          3340
+        ],
+        [
+          "+",
+          3133,
+          3283
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-74"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "-",
+          3176,
+          3326
+        ],
+        [
+          "+",
+          3133,
+          3283
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-66"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3195,
+          3345
+        ],
+        [
+          "-",
+          3244,
+          3394
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-60"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3159,
+          3309
+        ],
+        [
+          "-",
+          3196,
+          3346
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-58"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3170,
+          3320
+        ],
+        [
+          "-",
+          3221,
+          3371
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-54"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "-",
+          3262,
+          3412
+        ],
+        [
+          "+",
+          3212,
+          3362
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-28"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3138,
+          3288
+        ],
+        [
+          "-",
+          3186,
+          3336
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-24"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3069,
+          3219
+        ],
+        [
+          "-",
+          3116,
+          3266
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-18"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "-",
+          3138,
+          3288
+        ],
+        [
+          "+",
+          3083,
+          3233
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-12"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "-",
+          3199,
+          3349
+        ],
+        [
+          "+",
+          3150,
+          3300
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-10"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3062,
+          3212
+        ],
+        [
+          "-",
+          3127,
+          3277
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-4"
+      ]
+    },
+    {
+      "mate_orientation_and_intervals": [
+        [
+          "+",
+          3169,
+          3319
+        ],
+        [
+          "-",
+          3215,
+          3365
+        ]
+      ],
+      "names": [
+        "BCR-ABL1-2"
+      ]
+    }
+  ]
+}

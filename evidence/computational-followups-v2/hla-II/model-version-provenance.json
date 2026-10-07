@@ -1,0 +1,14 @@
+[
+  {
+    "version": "v1",
+    "commit": "a17016fae96eae81bd710384fa288c17e84d2d3d",
+    "date": "2024-12-22T08:19:43Z",
+    "message": "version 1.0"
+  },
+  {
+    "version": "v2",
+    "commit": "33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831",
+    "date": "2025-11-16T11:42:31Z",
+    "message": "Create LICENSE"
+  }
+]

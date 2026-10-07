@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-10-05T06:14:33.172854+00:00",
+  "source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1/runs/fullD8__support_all",
+  "pair": "BCR-ABL1-28",
+  "BAM_records": [
+    {
+      "name": "BCR-ABL1-28",
+      "flag": 163,
+      "mate": 2,
+      "chromosome": "chr9",
+      "start0": 130854064,
+      "end0": 130854191,
+      "CIGAR": "23S127M",
+      "MAPQ": 255,
+      "NH": 1,
+      "HI": 1
+    },
+    {
+      "name": "BCR-ABL1-28",
+      "flag": 83,
+      "mate": 1,
+      "chromosome": "chr9",
+      "start0": 130854091,
+      "end0": 130854804,
+      "CIGAR": "146M563N4M",
+      "MAPQ": 255,
+      "NH": 1,
+      "HI": 1
+    },
+    {
+      "name": "BCR-ABL1-28",
+      "flag": 2225,
+      "mate": 2,
+      "chromosome": "chr5",
+      "start0": 86991829,
+      "end0": 86991852,
+      "CIGAR": "127H23M",
+      "MAPQ": 255,
+      "NH": 1,
+      "HI": 1
+    }
+  ],
+  "STAR_chimeric_rows": [
+    "chr9\t130854064\t-\tchr5\t86991829\t+\t0\t0\t1\tBCR-ABL1-28\t130854065\t23S127M-100p146M563N4M\t86991830\t127S23M\t1\t300\t275\t295\t295\t0"
+  ],
+  "interpretation": "The new full-reference support_all case directly shows an alternative chr5 supplementary anchor instead of the intended BCR chr22 anchor. This is specific alignment evidence for this fixture fragment, not a genome-wide sparse-index failure rate or proof that every unrecovered fragment has the same mechanism."
+}

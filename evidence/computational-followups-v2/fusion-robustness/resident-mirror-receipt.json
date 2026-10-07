@@ -1,0 +1,11 @@
+{
+  "destination": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-fusion-robustness-v1",
+  "file_count": 726,
+  "total_logical_bytes": 993763471,
+  "manifest_sha256": "9ff12325f9408637414551def6c436a48dfc579eeff8a06d93d2c725b995b7d6",
+  "all_destination_SHA256_match": true,
+  "all_destination_flags_non_dataless": true,
+  "finished_utc": "2026-10-05T06:19:55.437282+00:00",
+  "final_postrun_review_sha256": "2e2fa05744892da090e58f10a7c8555128ddae6e1a664090d2a0814f802f2209",
+  "verification_scope": "Initial 725 verified files plus separately verified final postrun review; no scientific changes"
+}

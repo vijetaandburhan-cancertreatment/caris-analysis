@@ -1,0 +1,58 @@
+{
+  "created_utc": "2026-10-05T03:41:16.960886+00:00",
+  "versions": {
+    "STAR": "2.7.11b vendor MacOSX_x86_64 binary",
+    "Arriba": "2.5.1 native arm64 from upstream source"
+  },
+  "algorithm_source_modified": false,
+  "build_repairs": [
+    "Explicit macOS SDK sysroot and SDK libc++ include path.",
+    "Upstream flat CPU-feature object basenames collide for ARM/x86; compiled upstream libdeflate1.24 ARM cpu_features.c into uniquely named cpu_features_arm.o and added to static archive. No source algorithm changes."
+  ],
+  "files": [
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/STAR_2.7.11b/MacOSX_x86_64/STAR",
+      "size": 5001048,
+      "sha256": "b460f7b8f0c205f193c9ec4ea360f9ed448ca00bc7194d87206b4ceac9da90d6"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/arriba",
+      "size": 2111096,
+      "sha256": "81fe855aa96a4a6c07de6d2753d3c50e48e110ee79aaa31f229152d36697e417"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/arriba.vendor-linux",
+      "size": 7804424,
+      "sha256": "80c29e897fd75678fc3647ff3689ca41a059f6bd1c6749877381aab87fe6b4c7"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/Makefile",
+      "size": 4199,
+      "sha256": "67a6c6b69072728acbaa185f86c8332084a63d96df361b5a56797f62f2ba83fc"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/database/protein_domains_hg38_GRCh38_v2.5.1.gff3",
+      "size": 21586693,
+      "sha256": "f59d631c286d9cf183be64a8c91877c246217430798845906a7c124cb0ee8337"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/database/cytobands_hg38_GRCh38_v2.5.1.tsv",
+      "size": 28191,
+      "sha256": "875a4c6214b28d19dcbab0d5573dce9fe0afd44212c9784173ff7ea0cbde53eb"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/database/blacklist_hg38_GRCh38_v2.5.1.tsv.gz",
+      "size": 54779787,
+      "sha256": "be45975b72c8fb07b717e8b7086f6708c219e9f57c905716a71c0c0b8bc43217"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1/database/known_fusions_hg38_GRCh38_v2.5.1.tsv.gz",
+      "size": 11986,
+      "sha256": "e0d607164da5ff39d82e4ba32e6a6862ccd5b090612a2d63701758e2768d194f"
+    }
+  ],
+  "reference_manifests": [
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/GRCh38.primary_assembly.genome.fa.gz.manifest.json",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/gencode.v37.primary_assembly.annotation.gtf.gz.manifest.json"
+  ]
+}

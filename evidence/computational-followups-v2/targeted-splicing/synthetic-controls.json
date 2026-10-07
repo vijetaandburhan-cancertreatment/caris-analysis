@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "11bp deletion",
+    "deletion WT",
+    "1bp insertion",
+    "exact junction coordinates",
+    "low quality rejected",
+    "mismatched flank rejected"
+  ],
+  "scope": "coordinate/filter unit controls only, not clinical assay validation"
+}

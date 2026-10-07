@@ -1,0 +1,96 @@
+{
+  "created_utc": "2026-10-05T04:25:28.518619+00:00",
+  "stock": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/arriba_v2.5.1",
+  "diagnostic_build": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/diagnostics/arriba-counter-build",
+  "purpose": "Counter/example logging only; all existing decision statements and thresholds preserved. Never substitute this for stock clinical validation.",
+  "original_files": {
+    "read_chimeric_alignments.cpp": "bf1377aeda858664bff4ebb19a6c4b34015183ca18de3aabfe3f18029a2b0278",
+    "fusions.cpp": "16067626d5cb4c4375fce611fdff92bfc8a82b89de5f852bf0ea12eefa3ff320"
+  },
+  "changed_files": {
+    "read_chimeric_alignments.cpp": "48c20d0f89636a1436b09b1979a50d3e8eaac44586415f65135cc406994e5af2",
+    "fusions.cpp": "8585ec3255e187e4cce4d73704c95d257485cf4a10666de7f70f4c6c83f517cf"
+  },
+  "frozen_original_outputs": {
+    "Arriba.log": {
+      "name": "Arriba.log",
+      "bytes": 5926,
+      "sha256": "38ef90418514e1a41bb65a0cf6a111f81c7e651b47e11b25bf3d2e82fab30a50"
+    },
+    "STAR.Chimeric.out.junction": {
+      "name": "STAR.Chimeric.out.junction",
+      "bytes": 147309571,
+      "sha256": "19371a09b6b45a6cb25a0367808246fb383653bf81a6b4859b233c465597fdfd"
+    },
+    "STAR.Log.final.out": {
+      "name": "STAR.Log.final.out",
+      "bytes": 2042,
+      "sha256": "1856297915554883b9f5f6f611af7092aca9ab462a150065f051299a07eeb58c"
+    },
+    "STAR.Log.out": {
+      "name": "STAR.Log.out",
+      "bytes": 29042,
+      "sha256": "dd3b7e42684766a998166e02e0be5d272b207838d85e31f058f7c7ae48524559"
+    },
+    "STAR.Log.progress.out": {
+      "name": "STAR.Log.progress.out",
+      "bytes": 3432,
+      "sha256": "20c781319aa6d0899078607b4c17975c3e1afdb09c05a5767bab7c696599ee39"
+    },
+    "STAR.Log.std.out": {
+      "name": "STAR.Log.std.out",
+      "bytes": 1413,
+      "sha256": "9dc22f5056c89d79447e49ee6c840d6659d41b7c18297b9bcc91fcc330bd8fef"
+    },
+    "STAR.SJ.out.tab": {
+      "name": "STAR.SJ.out.tab",
+      "bytes": 8014550,
+      "sha256": "59c33b162a9bebf09624eae95bf0eb6e1ecdf107ec1fe5b2ba4ed223da7db632"
+    },
+    "STAR.stderr.log": {
+      "name": "STAR.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "fusions.discarded.tsv": {
+      "name": "fusions.discarded.tsv",
+      "bytes": 190521812,
+      "sha256": "99f0a63f1c7e538a854c3070d4e8b81d8e59dde737dda59ae62cd2f24fdd0e6a"
+    },
+    "fusions.tsv": {
+      "name": "fusions.tsv",
+      "bytes": 64405,
+      "sha256": "50780f808ff486527f21542fd55b010590eaee9e67b8240b67dee14da3b50f3d"
+    },
+    "run.json": {
+      "name": "run.json",
+      "bytes": 6986,
+      "sha256": "df3a4581732402bdd4488146aaea4c8bf61a284057648397fd1797e0a05a6ab3"
+    },
+    "status.json": {
+      "name": "status.json",
+      "bytes": 6986,
+      "sha256": "df3a4581732402bdd4488146aaea4c8bf61a284057648397fd1797e0a05a6ab3"
+    },
+    "target-capture.log": {
+      "name": "target-capture.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "target-genes.bam": {
+      "name": "target-genes.bam",
+      "bytes": 2220602,
+      "sha256": "6108cc8e8f2e958f5fe11e5d0201d6fb83b53840c95d5e5cbbc7e7b15c2f7b89"
+    },
+    "target-genes.sorted.bam": {
+      "name": "target-genes.sorted.bam",
+      "bytes": 1530871,
+      "sha256": "897606ea1e3024833a126efd483dfed3392b2f565e20d5664d470ef5f68bd10d"
+    },
+    "target-genes.sorted.bam.bai": {
+      "name": "target-genes.sorted.bam.bai",
+      "bytes": 153992,
+      "sha256": "731ae4dcb400ef9d8ac1b9c51fee7e71fdfa5d77d256d2ba6b98c3f3e89b9fe2"
+    }
+  }
+}

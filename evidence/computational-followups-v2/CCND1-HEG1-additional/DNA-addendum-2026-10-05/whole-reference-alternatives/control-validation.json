@@ -1,0 +1,72 @@
+{
+  "controls": [
+    {
+      "control": "C_HEG1_parent",
+      "expected_score": 322,
+      "best_alternative_score": 322.0,
+      "true_parent_window_nominated": true,
+      "pass": true
+    },
+    {
+      "control": "C_CCND1_parent",
+      "expected_score": 322,
+      "best_alternative_score": 322.0,
+      "true_parent_window_nominated": true,
+      "pass": true
+    },
+    {
+      "control": "C_HEG1_three_substitutions",
+      "expected_score": 304,
+      "best_alternative_score": 304.0,
+      "true_parent_window_nominated": true,
+      "pass": true
+    },
+    {
+      "control": "C_HEG1_one_insertion",
+      "expected_score": 316,
+      "best_alternative_score": 316.0,
+      "true_parent_window_nominated": true,
+      "pass": true
+    },
+    {
+      "control": "C_HEG1_two_deletion",
+      "expected_score": 311,
+      "best_alternative_score": 311.0,
+      "true_parent_window_nominated": true,
+      "pass": true
+    },
+    {
+      "control": "C_MET_canonical_splice",
+      "expected_score": 322,
+      "best_alternative_score": 322.0,
+      "true_parent_window_nominated": true,
+      "pass": true
+    },
+    {
+      "control": "C_annotated_INS_IGF2_transcript",
+      "expected_score": 322,
+      "best_alternative_score": 322.0,
+      "true_parent_window_nominated": true,
+      "pass": true
+    },
+    {
+      "control": "C_synthetic_proposed_join",
+      "proposed_score": 322,
+      "best_normal_score": 148,
+      "pass": true
+    },
+    {
+      "control": "C_repeat_nonunique",
+      "genome_windows": 3435,
+      "transcript_windows": 6949,
+      "best_normal_score": 260.0,
+      "pass": "many candidate placements; no claim of a unique origin or exact 161nt repeat match"
+    }
+  ],
+  "seed_caps": {
+    "genome": [],
+    "transcript": []
+  },
+  "window_caps": [],
+  "all_planned_tests_pass": true
+}

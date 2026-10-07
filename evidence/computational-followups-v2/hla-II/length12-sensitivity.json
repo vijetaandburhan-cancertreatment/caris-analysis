@@ -1,0 +1,159 @@
+{
+  "scope": "Post-primary sensitivity adding12mers because they are within the new method's published classII length range. Original13\u201325mer primary results preserved. No selection of favorable rows.",
+  "windows": 9,
+  "BAP1_windows": 7,
+  "RASA1_windows": 2,
+  "HLA_combinations": 9,
+  "rows_per_release": 162,
+  "reference_absence_inference": "Each new12mer contains a mutation-containing9mer with zero exact matches in the completedGENCODE50 scan; consequently no complete exact12mer reference match can exist. This is a logical consequence of the earlier scan, not a new full scan.",
+  "models": {
+    "v1": {
+      "max_EL_by_gene": {
+        "BAP1": 0.7248066,
+        "RASA1": 0.79736716
+      },
+      "max_BA_by_gene": {
+        "BAP1": 0.41522375,
+        "RASA1": 0.33709997
+      },
+      "both_author_cutpoints_by_gene": {
+        "BAP1": 0,
+        "RASA1": 0
+      },
+      "top_EL_per_gene": [
+        {
+          "window_id": "RASA1_239_12",
+          "Allele Name": "HLA-DPA1*01:03/DPB1*02:01",
+          "peptide": "YYIGGRRFSSLQ",
+          "gene": "RASA1",
+          "sequence_type": "mutant",
+          "length": 12,
+          "aa_start1": 239,
+          "aa_end1": 250,
+          "altered_positions_in_peptide1": "12",
+          "reaches_predicted_stop": false,
+          "HLA_caveat": "DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing",
+          "el_fold0": 0.764136,
+          "el_fold1": 0.7258104,
+          "el_fold2": 0.9673757,
+          "el_fold3": 0.9679328,
+          "el_fold4": 0.56158084,
+          "presentation_score": 0.79736716,
+          "ba_fold0": 0.5728672,
+          "ba_fold1": 0.21139142,
+          "ba_fold2": 0.2562705,
+          "ba_fold3": 0.26004514,
+          "ba_fold4": 0.19537014,
+          "affinity_score": 0.2991889,
+          "model_release": "v1",
+          "WT_peptide": "YYIGGRRFSSLS",
+          "WT_EL": 0.61449796,
+          "WT_BA": 0.25985223
+        },
+        {
+          "window_id": "BAP1_47_12",
+          "Allele Name": "HLA-DRB5*01:02",
+          "peptide": "IFLFKWIEERKG",
+          "gene": "BAP1",
+          "sequence_type": "mutant",
+          "length": 12,
+          "aa_start1": 47,
+          "aa_end1": 58,
+          "altered_positions_in_peptide1": "11,12",
+          "reaches_predicted_stop": false,
+          "HLA_caveat": "Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed",
+          "el_fold0": 0.7853381,
+          "el_fold1": 0.66900724,
+          "el_fold2": 0.7723058,
+          "el_fold3": 0.8443922,
+          "el_fold4": 0.5529896,
+          "presentation_score": 0.7248066,
+          "ba_fold0": 0.38177288,
+          "ba_fold1": 0.26726705,
+          "ba_fold2": 0.28883755,
+          "ba_fold3": 0.38144195,
+          "ba_fold4": 0.39508837,
+          "affinity_score": 0.3428816,
+          "model_release": "v1",
+          "WT_peptide": "IFLFKWIEERRS",
+          "WT_EL": 0.28468078,
+          "WT_BA": 0.33532643
+        }
+      ]
+    },
+    "v2": {
+      "max_EL_by_gene": {
+        "BAP1": 0.53238153,
+        "RASA1": 0.8079983
+      },
+      "max_BA_by_gene": {
+        "BAP1": 0.43227473,
+        "RASA1": 0.39357865
+      },
+      "both_author_cutpoints_by_gene": {
+        "BAP1": 0,
+        "RASA1": 0
+      },
+      "top_EL_per_gene": [
+        {
+          "window_id": "RASA1_240_12",
+          "Allele Name": "HLA-DPA1*01:03/DPB1*02:01",
+          "peptide": "YIGGRRFSSLQT",
+          "gene": "RASA1",
+          "sequence_type": "mutant",
+          "length": 12,
+          "aa_start1": 240,
+          "aa_end1": 251,
+          "altered_positions_in_peptide1": "11,12",
+          "reaches_predicted_stop": true,
+          "HLA_caveat": "DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing",
+          "el_fold0": 0.92457604,
+          "el_fold1": 0.8312245,
+          "el_fold2": 0.2959719,
+          "el_fold3": 0.99682355,
+          "el_fold4": 0.99139553,
+          "presentation_score": 0.8079983,
+          "ba_fold0": 0.2691319,
+          "ba_fold1": 0.2374565,
+          "ba_fold2": 0.18458757,
+          "ba_fold3": 0.21900833,
+          "ba_fold4": 0.2539702,
+          "affinity_score": 0.23283091,
+          "model_release": "v2",
+          "WT_peptide": "YIGGRRFSSLSD",
+          "WT_EL": 0.5946039,
+          "WT_BA": 0.18234368
+        },
+        {
+          "window_id": "BAP1_47_12",
+          "Allele Name": "HLA-DRB5*01:02",
+          "peptide": "IFLFKWIEERKG",
+          "gene": "BAP1",
+          "sequence_type": "mutant",
+          "length": 12,
+          "aa_start1": 47,
+          "aa_end1": 58,
+          "altered_positions_in_peptide1": "11,12",
+          "reaches_predicted_stop": false,
+          "HLA_caveat": "Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed",
+          "el_fold0": 0.9807389,
+          "el_fold1": 0.36434737,
+          "el_fold2": 0.112922154,
+          "el_fold3": 0.2987525,
+          "el_fold4": 0.9051469,
+          "presentation_score": 0.53238153,
+          "ba_fold0": 0.2696186,
+          "ba_fold1": 0.2488112,
+          "ba_fold2": 0.22902107,
+          "ba_fold3": 0.2995752,
+          "ba_fold4": 0.32057554,
+          "affinity_score": 0.27352032,
+          "model_release": "v2",
+          "WT_peptide": "IFLFKWIEERRS",
+          "WT_EL": 0.51139444,
+          "WT_BA": 0.2794288
+        }
+      ]
+    }
+  }
+}

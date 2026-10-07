@@ -1,0 +1,484 @@
+{
+  "created_utc": "2026-10-01T21:15:12Z",
+  "method": "Primary MAPQ>=20,NH1; exact reported CIGAR deletion and >=5 matched BQ20 bases on each deletion side; junction>=12 immediately adjacent matched BQ20 bases each side. Pairing by RG+queryname. Direct-read counts require variant and junction in same alignment; paired-fragment counts may place them on mates. No UMI/full-length transcript/protein confirmation. Canonical means selected GENCODE37 MANE transcript junction membership, not full-isoform proof. These stricter conditions are not identical to prior indel evidence table filters.",
+  "results": [
+    {
+      "gene": "BAP1",
+      "chrom": "chr3",
+      "transcript": "ENST00000460680.6",
+      "genomic_deletion_start0": 52408550,
+      "deleted_bases": 11,
+      "qualifying_alt_fragment_names": 253,
+      "alt_fragment_names_with_any_qualified_junction": 164,
+      "linked_junctions": [
+        {
+          "intron_start0": 52407316,
+          "intron_end0": 52407398,
+          "canonical_selected_transcript": true,
+          "paired_fragments": 1,
+          "direct_read_fragments": 0,
+          "examples": [
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:1117:1045:11913",
+              "flag": 147,
+              "start0": 52408027,
+              "cigar": "50M396N77M11D34M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "intron_start0": 52407460,
+          "intron_end0": 52407957,
+          "canonical_selected_transcript": true,
+          "paired_fragments": 11,
+          "direct_read_fragments": 0,
+          "examples": [
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:1117:1045:11913",
+              "flag": 147,
+              "start0": 52408027,
+              "cigar": "50M396N77M11D34M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:1443:23321:36902",
+              "flag": 147,
+              "start0": 52408031,
+              "cigar": "46M396N77M11D38M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:1:2324:13756:28134",
+              "flag": 147,
+              "start0": 52408034,
+              "cigar": "43M396N77M11D41M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:3:1413:28230:6480",
+              "flag": 147,
+              "start0": 52408034,
+              "cigar": "43M396N77M11D41M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "intron_start0": 52408077,
+          "intron_end0": 52408473,
+          "canonical_selected_transcript": true,
+          "paired_fragments": 40,
+          "direct_read_fragments": 31,
+          "examples": [
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:1117:1045:11913",
+              "flag": 147,
+              "start0": 52408027,
+              "cigar": "50M396N77M11D34M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:1443:23321:36902",
+              "flag": 147,
+              "start0": 52408031,
+              "cigar": "46M396N77M11D38M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:1:2324:13756:28134",
+              "flag": 147,
+              "start0": 52408034,
+              "cigar": "43M396N77M11D41M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:3:1413:28230:6480",
+              "flag": 147,
+              "start0": 52408034,
+              "cigar": "43M396N77M11D41M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "intron_start0": 52408606,
+          "intron_end0": 52409553,
+          "canonical_selected_transcript": true,
+          "paired_fragments": 142,
+          "direct_read_fragments": 141,
+          "examples": [
+            {
+              "query_name": "A01687:587:H2KM3DSXG:4:2542:31439:7498",
+              "flag": 147,
+              "start0": 52408493,
+              "cigar": "57M11D45M947N56M3S",
+              "junctions": [
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:3:2349:21965:28792",
+              "flag": 147,
+              "start0": 52408052,
+              "cigar": "25M396N77M11D45M947N14M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ],
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:3:2349:21884:28995",
+              "flag": 147,
+              "start0": 52408052,
+              "cigar": "25M396N77M11D45M947N14M",
+              "junctions": [
+                [
+                  52408077,
+                  52408473
+                ],
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:1:2624:20419:30780",
+              "flag": 147,
+              "start0": 52408483,
+              "cigar": "67M11D45M947N49M",
+              "junctions": [
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "intron_start0": 52409608,
+          "intron_end0": 52409713,
+          "canonical_selected_transcript": true,
+          "paired_fragments": 27,
+          "direct_read_fragments": 11,
+          "examples": [
+            {
+              "query_name": "A01687:587:H2KM3DSXG:1:1243:30888:34100",
+              "flag": 99,
+              "start0": 52408473,
+              "cigar": "77M11D45M947N25M",
+              "junctions": [
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:1:1560:26684:13573",
+              "flag": 99,
+              "start0": 52408473,
+              "cigar": "77M11D45M947N25M",
+              "junctions": [
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:1554:9353:8985",
+              "flag": 99,
+              "start0": 52408473,
+              "cigar": "9S77M11D45M947N25M",
+              "junctions": [
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:1625:6271:25191",
+              "flag": 99,
+              "start0": 52408473,
+              "cigar": "1S77M11D45M947N25M",
+              "junctions": [
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "intron_start0": 52409743,
+          "intron_end0": 52409841,
+          "canonical_selected_transcript": true,
+          "paired_fragments": 24,
+          "direct_read_fragments": 5,
+          "examples": [
+            {
+              "query_name": "A01687:587:H2KM3DSXG:1:1243:30888:34100",
+              "flag": 99,
+              "start0": 52408473,
+              "cigar": "77M11D45M947N25M",
+              "junctions": [
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:1625:6271:25191",
+              "flag": 99,
+              "start0": 52408473,
+              "cigar": "1S77M11D45M947N25M",
+              "junctions": [
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:3:1459:22932:10175",
+              "flag": 99,
+              "start0": 52408473,
+              "cigar": "77M11D45M947N25M",
+              "junctions": [
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:3:2235:18656:32487",
+              "flag": 99,
+              "start0": 52408473,
+              "cigar": "77M11D45M947N25M",
+              "junctions": [
+                [
+                  52408606,
+                  52409553
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "gene": "RASA1",
+      "chrom": "chr5",
+      "transcript": "ENST00000274376.11",
+      "genomic_deletion_start0": 87332560,
+      "deleted_bases": 1,
+      "qualifying_alt_fragment_names": 77,
+      "alt_fragment_names_with_any_qualified_junction": 55,
+      "linked_junctions": [
+        {
+          "intron_start0": 87331500,
+          "intron_end0": 87332506,
+          "canonical_selected_transcript": true,
+          "paired_fragments": 16,
+          "direct_read_fragments": 14,
+          "examples": [
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:2606:13810:15201",
+              "flag": 83,
+              "start0": 87332509,
+              "cigar": "51M1D81M624N18M",
+              "junctions": [
+                [
+                  87332642,
+                  87333266
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:4:2278:7093:10144",
+              "flag": 83,
+              "start0": 87331468,
+              "cigar": "32M1006N54M1D75M",
+              "junctions": [
+                [
+                  87331500,
+                  87332506
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:3:1261:27606:24439",
+              "flag": 83,
+              "start0": 87332549,
+              "cigar": "11M1D81M624N58M",
+              "junctions": [
+                [
+                  87332642,
+                  87333266
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:2375:2184:11256",
+              "flag": 83,
+              "start0": 87331478,
+              "cigar": "22M1006N54M1D81M",
+              "junctions": [
+                [
+                  87331500,
+                  87332506
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "intron_start0": 87332642,
+          "intron_end0": 87333266,
+          "canonical_selected_transcript": true,
+          "paired_fragments": 48,
+          "direct_read_fragments": 48,
+          "examples": [
+            {
+              "query_name": "A01687:587:H2KM3DSXG:2:2606:13810:15201",
+              "flag": 83,
+              "start0": 87332509,
+              "cigar": "51M1D81M624N18M",
+              "junctions": [
+                [
+                  87332642,
+                  87333266
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:3:1261:27606:24439",
+              "flag": 83,
+              "start0": 87332549,
+              "cigar": "11M1D81M624N58M",
+              "junctions": [
+                [
+                  87332642,
+                  87333266
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:1:2611:14398:5384",
+              "flag": 163,
+              "start0": 87331442,
+              "cigar": "58M1006N54M1D49M",
+              "junctions": []
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:4:1456:26169:13526",
+              "flag": 163,
+              "start0": 87331459,
+              "cigar": "41M1006N54M1D66M",
+              "junctions": [
+                [
+                  87331500,
+                  87332506
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "intron_start0": 87333337,
+          "intron_end0": 87337973,
+          "canonical_selected_transcript": true,
+          "paired_fragments": 2,
+          "direct_read_fragments": 0,
+          "examples": [
+            {
+              "query_name": "A01687:587:H2KM3DSXG:1:2262:28004:28354",
+              "flag": 163,
+              "start0": 87332547,
+              "cigar": "13M1D81M624N67M",
+              "junctions": [
+                [
+                  87332642,
+                  87333266
+                ]
+              ]
+            },
+            {
+              "query_name": "A01687:587:H2KM3DSXG:1:2262:28022:28354",
+              "flag": 163,
+              "start0": 87332547,
+              "cigar": "13M1D81M624N67M",
+              "junctions": [
+                [
+                  87332642,
+                  87333266
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

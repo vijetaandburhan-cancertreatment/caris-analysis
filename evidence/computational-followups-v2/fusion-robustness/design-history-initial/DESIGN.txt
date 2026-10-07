@@ -1,0 +1,17 @@
+Prespecified public fusion robustness benchmark v1
+
+Public-fixture pipeline robustness, not clinical sensitivity, limit of detection, biological reproducibility, patient validation or generalizable percentage.
+
+Build fixed spliced BCR::ABL1 from declared GENCODE37 transcript breakpoints; ungapped Hamming alignment of each original read and reverse complement; eligible pair has at least one uniquely best mate with <=3 mismatches and >=10 nt on each junction side. Selection does not use new or previous STAR/Arriba acceptance. All source read classification retained, including exclusions.
+
+STAR2.7.11b, Arriba2.5.1, GENCODE37; identical declared mapping/filter parameters; SAindex12 and overhang160; only sparseD varies in compact pairwise comparisons. Parent background fixed across support/anchor datasets. Source pair identity/sequences/quality unchanged except explicitly trimmed datasets. No duplicate copies of identical source fragments.
+
+20 datasets, each run on compact D1 and D8; three declared full-reference D8 transfer checks and one no-known-fusion-recovery comparison.
+
+- Selected subsets overlap and share one synthetic fixture; not independent biological replicates.
+- Ungapped sequence-derived eligibility threshold is a benchmark definition, not all possible true fragment truth.
+- Compact reference lacks competing loci; full-reference D8 transfer checks address only three prespecified cases.
+- Known BCR::ABL1 prior stays enabled except one declared no-prior comparison.
+- Trimming also changes read length and mate geometry, so effects cannot be assigned solely to anchor length.
+- Synthetic parental controls reuse fixture quality strings and sample a tiny portion of normal transcript diversity.
+- No patient data, new clinical claims, whole-RNA rerun or changes to earlier outputs.

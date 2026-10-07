@@ -1,0 +1,124 @@
+{
+  "bam": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/patient-D8/target-genes.bam",
+  "label": "Full-primary-reference STAR2.7.11b D8",
+  "created_utc": "2026-10-05T04:21:41Z",
+  "pysam_version": "0.24.1",
+  "filters": {
+    "exclude_flags": 3844,
+    "MAPQ_min": 20,
+    "NH_if_present": 1,
+    "base_quality": 20,
+    "exact_reference_junction_anchor_each_side": 12,
+    "exact_haplotype_flank_each_side": 10
+  },
+  "method_notes": [
+    "Names group read pairs within RG; not unique original molecules. Distinct alignment patterns are not UMIs.",
+    "Duplicate flags excluded, but absence of a duplicate flag does not establish uniqueness; original and new alignment duplicates may differ.",
+    "Unstranded bulk tissue RNA cannot identify malignant cell origin.",
+    "An annotated junction or short fragment cannot establish a complete expressed isoform, mutant protein production, NMD efficiency or therapeutic sensitivity.",
+    "These strict reference-exact flanks can exclude reads with neighboring variants or errors; compare only equal settings.",
+    "Insertion/deletion queried by full local haplotype, allowing equivalent CIGAR representations."
+  ],
+  "gene_intervals": {
+    "BAP1": {
+      "chrom": "chr3",
+      "start0": 52401007,
+      "end0": 52410008,
+      "strand": "-"
+    },
+    "RASA1": {
+      "chrom": "chr5",
+      "start0": 87267882,
+      "end0": 87391931,
+      "strand": "+"
+    },
+    "LATS1": {
+      "chrom": "chr6",
+      "start0": 149658152,
+      "end0": 149718105,
+      "strand": "-"
+    },
+    "LATS2": {
+      "chrom": "chr13",
+      "start0": 20973035,
+      "end0": 21061586,
+      "strand": "-"
+    }
+  },
+  "variant_contexts": {
+    "BAP1": {
+      "start0": 52408550,
+      "end0": 52408561,
+      "reference": "GAGACCTTTCGCCGGGACCGGCGCTCTTCGA",
+      "alternate": "GAGACCTTTCCGCTCTTCGA"
+    },
+    "RASA1": {
+      "start0": 87332560,
+      "end0": 87332561,
+      "reference": "TTTCTTCACTGTCAGACCTAA",
+      "alternate": "TTTCTTCACTTCAGACCTAA"
+    },
+    "LATS1": {
+      "start0": 149695191,
+      "end0": 149695191,
+      "reference": "TTCTGTTGTTAGTTTTCTGA",
+      "alternate": "TTCTGTTGTTAAGTTTTCTGA"
+    }
+  },
+  "alignment_counts": {
+    "LATS2.all_alignments": 2119,
+    "LATS2.qualified_alignments": 2020,
+    "BAP1.all_alignments": 41436,
+    "BAP1.qualified_alignments": 40104,
+    "RASA1.all_alignments": 4066,
+    "RASA1.qualified_alignments": 3897,
+    "LATS1.all_alignments": 902,
+    "LATS1.qualified_alignments": 768
+  },
+  "summaries": [
+    {
+      "gene": "BAP1",
+      "qualified_query_name_fragments": 20056,
+      "allele_states": {
+        "other": 12,
+        "uncovered": 19746,
+        "alternate": 246,
+        "reference": 52
+      },
+      "junction_count": 55,
+      "distinct_start_cigar_patterns_not_UMIs": 10329
+    },
+    {
+      "gene": "RASA1",
+      "qualified_query_name_fragments": 1949,
+      "allele_states": {
+        "reference": 46,
+        "uncovered": 1838,
+        "alternate": 61,
+        "other": 4
+      },
+      "junction_count": 31,
+      "distinct_start_cigar_patterns_not_UMIs": 1397
+    },
+    {
+      "gene": "LATS1",
+      "qualified_query_name_fragments": 384,
+      "allele_states": {
+        "uncovered": 378,
+        "alternate": 4,
+        "reference": 2
+      },
+      "junction_count": 6,
+      "distinct_start_cigar_patterns_not_UMIs": 314
+    },
+    {
+      "gene": "LATS2",
+      "qualified_query_name_fragments": 1010,
+      "allele_states": {
+        "uncovered": 1010
+      },
+      "junction_count": 10,
+      "distinct_start_cigar_patterns_not_UMIs": 750
+    }
+  ]
+}

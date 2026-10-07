@@ -1,0 +1,11 @@
+{
+  "condition_labels": 20,
+  "unique_R1_R2_sequence_quality_input_sets": 19,
+  "duplicate_input_labels": [
+    [
+      "support_01_selection_3",
+      "shortest_anchor"
+    ]
+  ],
+  "interpretation": "These repeated labels are not independent technical or biological evidence. No fragment was duplicated within a run."
+}

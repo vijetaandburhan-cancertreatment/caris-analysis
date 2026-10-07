@@ -1,0 +1,34 @@
+[
+  [
+    "chr3",
+    52401007,
+    52410008,
+    "BAP1",
+    "-",
+    "gene_id \"ENSG00000163930.10\"; gene_type \"protein_coding\"; gene_name \"BAP1\"; level 2; hgnc_id \"HGNC:950\"; havana_gene \"OTTHUMG00000158392.5\";"
+  ],
+  [
+    "chr5",
+    87267882,
+    87391931,
+    "RASA1",
+    "+",
+    "gene_id \"ENSG00000145715.15\"; gene_type \"protein_coding\"; gene_name \"RASA1\"; level 2; hgnc_id \"HGNC:9871\"; havana_gene \"OTTHUMG00000162605.3\";"
+  ],
+  [
+    "chr6",
+    149658152,
+    149718105,
+    "LATS1",
+    "-",
+    "gene_id \"ENSG00000131023.13\"; gene_type \"protein_coding\"; gene_name \"LATS1\"; level 1; hgnc_id \"HGNC:6514\"; havana_gene \"OTTHUMG00000016437.7\";"
+  ],
+  [
+    "chr13",
+    20973035,
+    21061586,
+    "LATS2",
+    "-",
+    "gene_id \"ENSG00000150457.9\"; gene_type \"protein_coding\"; gene_name \"LATS2\"; level 2; hgnc_id \"HGNC:6515\"; tag \"ncRNA_host\"; havana_gene \"OTTHUMG00000016531.2\";"
+  ]
+]

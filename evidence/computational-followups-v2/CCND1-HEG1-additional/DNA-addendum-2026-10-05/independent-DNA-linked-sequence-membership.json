@@ -1,0 +1,74 @@
+{
+  "source": "independently matched the two scored sequence families against all saved DNA records in either orientation",
+  "families": {
+    "Q1": {
+      "all_names": 2,
+      "strict_names": 1,
+      "duplicate_names": 1
+    },
+    "Q2": {
+      "all_names": 1,
+      "strict_names": 1
+    }
+  },
+  "alignments": {
+    "Q1": [
+      {
+        "flag": 99,
+        "MAPQ": 60,
+        "length": 99,
+        "chrom": "chr3",
+        "pos1": 125013524,
+        "CIGAR": "50M1D15M34S",
+        "minimum_BQ": 37
+      },
+      {
+        "flag": 1123,
+        "MAPQ": 60,
+        "length": 99,
+        "chrom": "chr3",
+        "pos1": 125013524,
+        "CIGAR": "50M1D15M34S",
+        "minimum_BQ": 25
+      },
+      {
+        "flag": 147,
+        "MAPQ": 60,
+        "length": 99,
+        "chrom": "chr3",
+        "pos1": 125013524,
+        "CIGAR": "50M1D15M34S",
+        "minimum_BQ": 25
+      },
+      {
+        "flag": 1171,
+        "MAPQ": 60,
+        "length": 99,
+        "chrom": "chr3",
+        "pos1": 125013524,
+        "CIGAR": "50M1D15M34S",
+        "minimum_BQ": 37
+      }
+    ],
+    "Q2": [
+      {
+        "flag": 99,
+        "MAPQ": 60,
+        "length": 89,
+        "chrom": "chr3",
+        "pos1": 125013526,
+        "CIGAR": "69M20S",
+        "minimum_BQ": 25
+      },
+      {
+        "flag": 147,
+        "MAPQ": 60,
+        "length": 89,
+        "chrom": "chr3",
+        "pos1": 125013526,
+        "CIGAR": "69M20S",
+        "minimum_BQ": 37
+      }
+    ]
+  }
+}

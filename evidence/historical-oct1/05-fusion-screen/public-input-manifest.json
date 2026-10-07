@@ -1,0 +1,59 @@
+{
+  "time_utc": "2026-10-01T21:25:46.221710+00:00",
+  "files": [
+    {
+      "url": "https://github.com/pachterlab/kallisto/releases/download/v0.51.1/kallisto_mac_m1-v0.51.1.tar.gz",
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/fusion-next-step/public/kallisto_mac_m1-v0.51.1.tar.gz",
+      "bytes": 1732163,
+      "sha256": "d57cbd80cdca9d600aba16a907d8849eff7c01f458e57bebcb037ab4b74945ff",
+      "archive_members": [
+        "kallisto",
+        "kallisto/test",
+        "kallisto/README.md",
+        "kallisto/kallisto",
+        "kallisto/license.txt",
+        "kallisto/test/reads_1.fastq.gz",
+        "kallisto/test/transcripts.fasta.gz",
+        "kallisto/test/sc_reads_2.fastq.gz",
+        "kallisto/test/README.md",
+        "kallisto/test/chrom.txt",
+        "kallisto/test/Snakefile",
+        "kallisto/test/reads_2.fastq.gz",
+        "kallisto/test/transcripts.gtf.gz",
+        "kallisto/test/sc_reads_1.fastq.gz"
+      ]
+    },
+    {
+      "url": "https://github.com/pmelsted/pizzly/releases/download/v0.37.3/pizzly_mac.tar.gz",
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/fusion-next-step/public/pizzly_mac-v0.37.3.tar.gz",
+      "bytes": 500396,
+      "sha256": "bdd07e0aaaded045fee03e5eb0cae9a9b5c509c28cca501617ded3e0e1307138",
+      "archive_members": [
+        "LICENSE",
+        "README.md",
+        "pizzly",
+        "test",
+        "test/README.md",
+        "test/reads_1.fastq.gz",
+        "test/reads_2.fastq.gz",
+        "test/Snakefile",
+        "test/transcripts.fasta.gz",
+        "test/transcripts.gtf.gz"
+      ]
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_37/gencode.v37.transcripts.fa.gz",
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/fusion-next-step/public/gencode.v37.transcripts.fa.gz",
+      "bytes": 75815926,
+      "sha256": "7603141896877258c4c45570c4af7ed4066097f4a4022461c44faebbb2dcd86f"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/fusion-next-step/public/gencode.v37.transcripts.pizzly-headers.fa.gz",
+      "bytes": 81462116,
+      "sha256": "d46414f1b338b6475134092747713e3d617dfd6517240e61b7cc7598bc177c8f",
+      "transform": "Replace pipe delimiters with spaces in FASTA headers only; sequences unmodified",
+      "sequences": 234485,
+      "sequence_bases": 384229184
+    }
+  ]
+}

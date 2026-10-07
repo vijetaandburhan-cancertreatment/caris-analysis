@@ -1,0 +1,12 @@
+{
+ "scope":"Indexed DNA-BAM spot audit at proposed CCND1 and HEG1 breakends, not a full-DNA scan or validated structural-variant call",
+ "approved_by_root":true,
+ "regions":"Union covering each of18 equivalent minus-strand breakpoints plus1000bp on each side",
+ "markers":"Exact50nt and100nt joined genomic markers centered at each equivalent split in the validated750nt sequence; both orientations; count each query-name+RG once per length/quality across all representations",
+ "strict":"Primary,mapped,MAPQ>=20,noQCfail,noduplicateflag,nosupplementary; all marker basesBQ>=20 or>=30",
+ "relaxed":"All fetched alignments, retaining flag/MAPQ categories separately, still requiring stated marker base quality",
+ "coverage":"Aligned base counts at each equivalent breakpoint and contiguous25/50nt retained anchors; BQ20 with reference-exact counts separately",
+ "geometry":"Softclips>=12nt near proposed/equivalent boundary; SA links and mate coordinates to other locus; query mates for potentially informative names, cap500 names prioritized by exactmarker/SA/directmate/expectedclip; record saturation and missingmates",
+ "limits":"No unmapped-both-mates full-file search. Negative cannot exclude intronic genomicbreakpoints outside capture or RNA/genomicbreakpoint mismatch. Positive needs normalparent/gappedmapping audit and independentrecount before interpretation.",
+ "preserve":"Completed RNAaudit and its checksums remain unchanged. Separate dated addendum, manifest and finalcombined receipt; residentmirror."
+}

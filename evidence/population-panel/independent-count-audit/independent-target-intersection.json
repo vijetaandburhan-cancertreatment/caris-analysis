@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "method": "Direct inclusive containment using GENCODE-derived BAP1/RASA1 gene spans and completed full-panel count table, without importing the other agent interval function or opening any BAM.",
+  "public_loci": 73,
+  "by_gene": {
+    "BAP1": 1,
+    "RASA1": 72
+  },
+  "joint_loci": 0,
+  "DNA_callable20": 3,
+  "RNA_callable20": 0,
+  "max_RNA_ACGT_depth": 9,
+  "regions": {
+    "RASA1": {
+      "gene_id": "ENSG00000145715.15",
+      "gene_symbol": "RASA1",
+      "gene_type": "protein_coding",
+      "chrom": "chr5",
+      "start1": "87267883",
+      "end1": "87391931",
+      "strand": "+",
+      "panel_overlap_loci": "72",
+      "panel_uniquely_assigned_loci": "37"
+    },
+    "BAP1": {
+      "gene_id": "ENSG00000163930.10",
+      "gene_symbol": "BAP1",
+      "gene_type": "protein_coding",
+      "chrom": "chr3",
+      "start1": "52401008",
+      "end1": "52410008",
+      "strand": "-",
+      "panel_overlap_loci": "1",
+      "panel_uniquely_assigned_loci": "1"
+    }
+  },
+  "interpretation": "No eligible cross-alignment comparison; zero rows cannot be interpreted as concordance."
+}

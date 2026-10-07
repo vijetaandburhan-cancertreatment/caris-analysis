@@ -1,0 +1,8 @@
+>BAP1|NM_004656.3|wt|aa32-81|reference_initiation_single_edit_assumption
+IYDLQSKCQGPVYGFIFLFKWIEERRSRRKVSTLVDDTSVIDDDIVNNMF
+>BAP1|NM_004656.3|mutant|aa32-63|reference_initiation_single_edit_assumption|native_predicted_stop_follows
+IYDLQSKCQGPVYGFIFLFKWIEERKGLYLGG
+>RASA1|NM_002890.2|wt|aa225-274|reference_initiation_single_edit_assumption
+NVVNHFRIIAMCGDYYIGGRRFSSLSDLIGYYSHVSCLLKGEKLLYPVAP
+>RASA1|NM_002890.2|mutant|aa225-251|reference_initiation_single_edit_assumption|native_predicted_stop_follows
+NVVNHFRIIAMCGDYYIGGRRFSSLQT

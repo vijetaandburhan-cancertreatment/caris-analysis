@@ -1,0 +1,202 @@
+{
+  "MANE_Select_transcripts": [
+    "ENST00000460680.6"
+  ],
+  "MANE_reference_used": "ENST00000460680.6",
+  "CDS_intervals0": [
+    [
+      52402290,
+      52402421
+    ],
+    [
+      52402601,
+      52402674
+    ],
+    [
+      52402778,
+      52402871
+    ],
+    [
+      52403137,
+      52403298
+    ],
+    [
+      52403415,
+      52403894
+    ],
+    [
+      52404452,
+      52404586
+    ],
+    [
+      52405109,
+      52405294
+    ],
+    [
+      52405764,
+      52405912
+    ],
+    [
+      52406252,
+      52406376
+    ],
+    [
+      52406828,
+      52406907
+    ],
+    [
+      52407173,
+      52407316
+    ],
+    [
+      52407398,
+      52407460
+    ],
+    [
+      52407957,
+      52408077
+    ],
+    [
+      52408473,
+      52408606
+    ],
+    [
+      52409553,
+      52409608
+    ],
+    [
+      52409713,
+      52409743
+    ],
+    [
+      52409841,
+      52409878
+    ]
+  ],
+  "junctions": [
+    {
+      "intron_start0": 52402871,
+      "intron_end0": 52403182,
+      "forward_motif": "CT-AC",
+      "BAP1_strand_donor_acceptor": "GT-AG",
+      "MANE_CDS_overlap_bases": 45,
+      "CDS_overlap_modulo3": 0,
+      "annotation": [],
+      "annotation_types": {},
+      "original-Caris": {
+        "query_name_fragments": 34,
+        "alternate_linked_pairs": 0,
+        "alternate_and_junction_same_read": 0
+      },
+      "new-D8": {
+        "query_name_fragments": 32,
+        "alternate_linked_pairs": 0,
+        "alternate_and_junction_same_read": 0
+      }
+    },
+    {
+      "intron_start0": 52404586,
+      "intron_end0": 52405764,
+      "forward_motif": "CT-AC",
+      "BAP1_strand_donor_acceptor": "GT-AG",
+      "MANE_CDS_overlap_bases": 185,
+      "CDS_overlap_modulo3": 2,
+      "annotation": [],
+      "annotation_types": {},
+      "original-Caris": {
+        "query_name_fragments": 32,
+        "alternate_linked_pairs": 0,
+        "alternate_and_junction_same_read": 0
+      },
+      "new-D8": {
+        "query_name_fragments": 32,
+        "alternate_linked_pairs": 0,
+        "alternate_and_junction_same_read": 0
+      }
+    },
+    {
+      "intron_start0": 52408077,
+      "intron_end0": 52409553,
+      "forward_motif": "CT-AC",
+      "BAP1_strand_donor_acceptor": "GT-AG",
+      "MANE_CDS_overlap_bases": 133,
+      "CDS_overlap_modulo3": 1,
+      "annotation": [
+        "ENST00000490917.1"
+      ],
+      "annotation_types": {
+        "ENST00000490917.1": "nonsense_mediated_decay"
+      },
+      "original-Caris": {
+        "query_name_fragments": 2,
+        "alternate_linked_pairs": 0,
+        "alternate_and_junction_same_read": 0
+      },
+      "new-D8": {
+        "query_name_fragments": 2,
+        "alternate_linked_pairs": 0,
+        "alternate_and_junction_same_read": 0
+      }
+    },
+    {
+      "intron_start0": 52408077,
+      "intron_end0": 52408473,
+      "forward_motif": "CT-AC",
+      "BAP1_strand_donor_acceptor": "GT-AG",
+      "MANE_CDS_overlap_bases": 0,
+      "CDS_overlap_modulo3": 0,
+      "annotation": [
+        "ENST00000296288.9",
+        "ENST00000460680.6",
+        "ENST00000470173.1",
+        "ENST00000483984.5"
+      ],
+      "annotation_types": {
+        "ENST00000460680.6": "protein_coding",
+        "ENST00000296288.9": "protein_coding",
+        "ENST00000483984.5": "retained_intron",
+        "ENST00000470173.1": "protein_coding"
+      },
+      "original-Caris": {
+        "query_name_fragments": 218,
+        "alternate_linked_pairs": 40,
+        "alternate_and_junction_same_read": 28
+      },
+      "new-D8": {
+        "query_name_fragments": 214,
+        "alternate_linked_pairs": 40,
+        "alternate_and_junction_same_read": 28
+      }
+    },
+    {
+      "intron_start0": 52408606,
+      "intron_end0": 52409553,
+      "forward_motif": "CT-AC",
+      "BAP1_strand_donor_acceptor": "GT-AG",
+      "MANE_CDS_overlap_bases": 0,
+      "CDS_overlap_modulo3": 0,
+      "annotation": [
+        "ENST00000296288.9",
+        "ENST00000460680.6",
+        "ENST00000470173.1",
+        "ENST00000483984.5"
+      ],
+      "annotation_types": {
+        "ENST00000460680.6": "protein_coding",
+        "ENST00000296288.9": "protein_coding",
+        "ENST00000483984.5": "retained_intron",
+        "ENST00000470173.1": "protein_coding"
+      },
+      "original-Caris": {
+        "query_name_fragments": 461,
+        "alternate_linked_pairs": 135,
+        "alternate_and_junction_same_read": 133
+      },
+      "new-D8": {
+        "query_name_fragments": 459,
+        "alternate_linked_pairs": 135,
+        "alternate_and_junction_same_read": 133
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "repo": "pcpLiu/DeepSeqPanII",
+  "commit": "2161f5b8c873493c9d43c0201e88a7843d2999ec",
+  "license_statement": "Official README License section says MIT; no account or eligibility click-through used.",
+  "downloaded_utc": "2026-10-01T22:30:17Z",
+  "bytes": 52912291,
+  "files": [
+    {
+      "path": "public/README.md",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/README.md",
+      "bytes": 995,
+      "sha256": "2747697a9df784034f12bd9a7b5d74d146075c672ef117ccd5d8d26525c2a4dd"
+    },
+    {
+      "path": "public/Models/README.md",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/Models/README.md",
+      "bytes": 126,
+      "sha256": "62dd267ba8644b8c47c7735af1970d0b51597eeba2137256fa077038007a3451"
+    },
+    {
+      "path": "public/code_and_dataset/config_main.json",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/code_and_dataset/config_main.json",
+      "bytes": 787,
+      "sha256": "d6267eb3eba1d4febf65b96528069977f7bc84b10081c481c58129ac21f9c63e"
+    },
+    {
+      "path": "public/code_and_dataset/config_parser.py",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/code_and_dataset/config_parser.py",
+      "bytes": 2739,
+      "sha256": "67683780bd7c83e6497c16ec6f5350d3d7b12c29d47914f46d15536e36839335"
+    },
+    {
+      "path": "public/code_and_dataset/model.py",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/code_and_dataset/model.py",
+      "bytes": 12077,
+      "sha256": "674ebbf4e5f2c2bd5b1f07525bde031a087ceeb8b0db9284a478fc2f70a303d7"
+    },
+    {
+      "path": "public/code_and_dataset/seq_encoding.py",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/code_and_dataset/seq_encoding.py",
+      "bytes": 3218,
+      "sha256": "2595443ca4ecc4a234b55b839daa1d9ff83ce5628afb88b8a7a610720d9533af"
+    },
+    {
+      "path": "public/code_and_dataset/main.py",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/code_and_dataset/main.py",
+      "bytes": 2259,
+      "sha256": "3e9fe765bb3e67475006d3c463754ce589fd46f3b8bb9985e554dbc7e474f4a9"
+    },
+    {
+      "path": "public/code_and_dataset/result_writer.py",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/code_and_dataset/result_writer.py",
+      "bytes": 13637,
+      "sha256": "0d966c83aabe3fedefc7e9d5c25984eebd179f96f4f984ff7e72a63b407e7a53"
+    },
+    {
+      "path": "public/code_and_dataset/dataset/CLUATAL_OMEGA_A_chains_aligned_FLATTEN.txt",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/code_and_dataset/dataset/CLUATAL_OMEGA_A_chains_aligned_FLATTEN.txt",
+      "bytes": 21175,
+      "sha256": "5b843d6101c9c9f7154a8547bfddfe4ebd0dfe7796a816cc561b378ffb91999d"
+    },
+    {
+      "path": "public/code_and_dataset/dataset/CLUATAL_OMEGA_B_chains_aligned_FLATTEN.txt",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/code_and_dataset/dataset/CLUATAL_OMEGA_B_chains_aligned_FLATTEN.txt",
+      "bytes": 1004278,
+      "sha256": "3d5d43ccd4a8f45c40635e8d3b124d3a265d1617c01bbd2397027e9d3d9adaef"
+    },
+    {
+      "path": "public/code_and_dataset/dataset/BD_2013_DATAPROVIDER_READY.txt",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/code_and_dataset/dataset/BD_2013_DATAPROVIDER_READY.txt",
+      "bytes": 2511069,
+      "sha256": "f2f480f5182c272247ae83d1cba9c19dafef613f196e310783150d7426d6d972"
+    },
+    {
+      "path": "public/Models/benchmark_weekly/model_bd2013.pytorch",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/Models/benchmark_weekly/model_bd2013.pytorch",
+      "bytes": 15666025,
+      "sha256": "ccfd3fc61f97d7a0627ea9a66283a1f0934e721b2d91e3e29d12c311cbaa28de"
+    },
+    {
+      "path": "public/Models/benchmark_weekly/weekly_benchmark_results.txt",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/Models/benchmark_weekly/weekly_benchmark_results.txt",
+      "bytes": 2055310,
+      "sha256": "cf710ab1656894fcf66952b328c6b8696147ef3fa2aa899354ebc6b291569380"
+    },
+    {
+      "path": "public/Models/BD2016_LOMO/DRA01:01-DRB103:01/best_model.pytorch",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/Models/BD2016_LOMO/DRA01%3A01-DRB103%3A01/best_model.pytorch",
+      "bytes": 15666025,
+      "sha256": "17c7d4f3da39ae72eb5917a60398c5795a38f62351b9c6c5552625084843e816"
+    },
+    {
+      "path": "public/Models/BD2016_LOMO/DRA01:01-DRB103:01/test_result.txt",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/Models/BD2016_LOMO/DRA01%3A01-DRB103%3A01/test_result.txt",
+      "bytes": 282994,
+      "sha256": "70c39fd14efa434441cbeb9984f3ba277955577039e9971fb5efe7e8f41b8389"
+    },
+    {
+      "path": "public/Models/BD2016_LOMO/DRA01:01-DRB115:02/best_model.pytorch",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/Models/BD2016_LOMO/DRA01%3A01-DRB115%3A02/best_model.pytorch",
+      "bytes": 15666025,
+      "sha256": "2eaa8ab964228216726ab1a5d622b15218fd7a432cfb66058cccd30fa2cb87a5"
+    },
+    {
+      "path": "public/Models/BD2016_LOMO/DRA01:01-DRB115:02/test_result.txt",
+      "url": "https://raw.githubusercontent.com/pcpLiu/DeepSeqPanII/2161f5b8c873493c9d43c0201e88a7843d2999ec/Models/BD2016_LOMO/DRA01%3A01-DRB115%3A02/test_result.txt",
+      "bytes": 3552,
+      "sha256": "ffc04125c29d5836886c5b838eb3a78a0e6a7624ec4a340927701c11589611ea"
+    }
+  ]
+}

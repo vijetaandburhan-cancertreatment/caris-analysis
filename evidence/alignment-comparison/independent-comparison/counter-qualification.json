@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "method": "get_aligned_pairs(matches_only=True), independent bit-mask query-name collapse",
+  "control_bam_sha256": "33d2c1c53d7bb5d06b7afc23472873be0c3e1a77f0d82b43e7b8ef287f3f7ad0",
+  "fragment_counts": {
+    "A": 1,
+    "C": 0,
+    "G": 1,
+    "T": 0,
+    "conflict": 1,
+    "nonACGT": 0
+  },
+  "read_base_counts": {
+    "A": 3,
+    "G": 3
+  },
+  "excludes": "Unmapped/mate-unmapped/secondary/QCfail/duplicate/supplementary, improper pair, MAPQ<30 or BQ<25",
+  "patient_reads_accessed": false
+}

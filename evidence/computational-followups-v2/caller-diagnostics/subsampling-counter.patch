@@ -1,0 +1,52 @@
+--- stock/fusions.cpp
++++ diagnostic/fusions.cpp
+@@ -11,6 +11,20 @@
+ #include "fusions.hpp"
+ 
+ using namespace std;
++
++// Branch encounter counts, NOT unique reads or number of all skipped fragments.
++static map<string,unsigned long long> diag_subsampling_counts;
++static map<string,set<string> > diag_subsampling_fusions;
++static void diag_subsampling(const string& why,const fusion_t& f) {
++ ++diag_subsampling_counts[why];
++ string key=f.gene1->name+"|"+f.gene2->name+"|"+to_string((unsigned int)f.contig1)+":"+to_string(f.breakpoint1)+"|"+to_string((unsigned int)f.contig2)+":"+to_string(f.breakpoint2)+"|"+to_string((unsigned int)f.direction1)+"|"+to_string((unsigned int)f.direction2);
++ auto inserted=diag_subsampling_fusions[why].insert(key);
++ if (inserted.second && diag_subsampling_fusions[why].size()<=30) cerr << "ARRIBA_DIAG_SUBSAMPLING_EXAMPLE\t" << why << "\t" << key << endl;
++}
++static void diag_emit_subsampling() {
++ for (const auto& r:diag_subsampling_counts) cerr << "ARRIBA_DIAG_SUBSAMPLING_TOTAL\t" << r.first << "\t" << r.second << "\t" << diag_subsampling_fusions[r.first].size() << endl;
++}
++
+ 
+ void predict_fusion_strands(fusion_t& fusion) {
+ 
+@@ -269,6 +283,7 @@
+ 
+ 						// subsampling improves performance, especially in multiple myeloma samples
+ 						subsampled_fusions = true;
++						diag_subsampling("split_support_cap",fusion);
+ 
+ 					} else {
+ 
+@@ -399,10 +414,12 @@
+ 					// because runtime and memory increase quadratically with the number of discordant mates
+ 					if (get<2>(*discordant_mate)->second.filter != FILTER_none && fusion->second.discordant_mate_list.size() >= subsampling_threshold) {
+ 						subsampled_fusions = true;
++						diag_subsampling("filtered_discordant_list_cap",fusion->second);
+ 						continue; // ignore discarded read, but continue looking for non-discarded reads
+ 					}
+ 					if (fusion->second.discordant_mates >= subsampling_threshold) {
+ 						subsampled_fusions = true;
++						diag_subsampling("unfiltered_discordant_cap_break",fusion->second);
+ 						break; // abort and go to next fusion - we already have enough discordant mates for this one
+ 					}
+ 
+@@ -436,6 +453,7 @@
+ 		}
+ 	}
+ 
++	diag_emit_subsampling();
+ 	if (subsampled_fusions)
+ 		cerr << "WARNING: some fusions were subsampled, because they have more than " << subsampling_threshold << " supporting reads" << endl;
+ 

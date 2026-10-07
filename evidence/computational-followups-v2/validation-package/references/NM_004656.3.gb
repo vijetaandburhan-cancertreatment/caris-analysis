@@ -1,0 +1,420 @@
+LOCUS       NM_004656               3717 bp    mRNA    linear   PRI 28-OCT-2018
+DEFINITION  Homo sapiens BRCA1 associated protein 1 (BAP1), mRNA.
+ACCESSION   NM_004656
+VERSION     NM_004656.3
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3717)
+  AUTHORS   Massengill JB, Sample KM, Pilarski R, McElroy J, Davidorf FH,
+            Cebulla CM and Abdel-Rahman MH.
+  TITLE     Analysis of the exome aggregation consortium (ExAC) database
+            suggests that the BAP1-tumor predisposition syndrome is
+            underreported in cancer patients
+  JOURNAL   Genes Chromosomes Cancer 57 (9), 478-481 (2018)
+   PUBMED   29761599
+  REMARK    GeneRIF: germline null mutations in BAP1 have a significantly
+            higher frequency in cancer patients than the general population.
+            Given the low frequency of reported families with BAP1-tumor
+            predisposition syndrome (BAP1-TPDS), our results suggest that the
+            syndrome is underreported especially in patients with cancer
+REFERENCE   2  (bases 1 to 3717)
+  AUTHORS   Patrone S, Maric I, Rutigliani M, Lanza F, Puntoni M, Banelli B,
+            Rancati S, Angelini G, Amaro A, Ligorio P, Defferrari C,
+            Castagnetta M, Bandelloni R, Mosci C, DeCensi A, Romani M, Pfeffer
+            U, Viaggi S and Coviello DA.
+  TITLE     Prognostic value of chromosomal imbalances, gene mutations, and
+            BAP1 expression in uveal melanoma
+  JOURNAL   Genes Chromosomes Cancer 57 (8), 387-400 (2018)
+   PUBMED   29689622
+  REMARK    GeneRIF: Multivariate analysis showed that the presence of monosomy
+            3, 8q gain, and loss of BAP1 protein were significantly associated
+            to DPFS, while BAP1 gene mutation was not, mainly due to the
+            presence of metastatic UM cases with negative BAP1 IHC and no BAP1
+            mutation detected by Sanger sequencing.
+REFERENCE   3  (bases 1 to 3717)
+  AUTHORS   Kolluri KK, Alifrangis C, Kumar N, Ishii Y, Price S, Michaut M,
+            Williams S, Barthorpe S, Lightfoot H, Busacca S, Sharkey A, Yuan Z,
+            Sage EK, Vallath S, Le Quesne J, Tice DA, Alrifai D, von Karstedt
+            S, Montinaro A, Guppy N, Waller DA, Nakas A, Good R, Holmes A,
+            Walczak H, Fennell DA, Garnett M, Iorio F, Wessels L, McDermott U
+            and Janes SM.
+  TITLE     Loss of functional BAP1 augments sensitivity to TRAIL in cancer
+            cells
+  JOURNAL   Elife 7, e30224 (2018)
+   PUBMED   29345617
+  REMARK    GeneRIF: The authors demonstrate that BAP1 deubiquitinase activity
+            and its association with ASXL1 to form the Polycomb repressive
+            deubiquitinase complex (PR-DUB) impacts TRAIL sensitivity
+            implicating transcriptional modulation as an underlying mechanism.
+REFERENCE   4  (bases 1 to 3717)
+  AUTHORS   Pena-Llopis S, Vega-Rubin-de-Celis S, Liao A, Leng N, Pavia-Jimenez
+            A, Wang S, Yamasaki T, Zhrebker L, Sivanand S, Spence P, Kinch L,
+            Hambuch T, Jain S, Lotan Y, Margulis V, Sagalowsky AI, Summerour
+            PB, Kabbani W, Wong SW, Grishin N, Laurent M, Xie XJ, Haudenschild
+            CD, Ross MT, Bentley DR, Kapur P and Brugarolas J.
+  TITLE     BAP1 loss defines a new class of renal cell carcinoma
+  JOURNAL   Nat. Genet. 44 (7), 751-759 (2012)
+   PUBMED   22683710
+  REMARK    GeneRIF: BAP1 loss sensitizes RCC cells in vitro to genotoxic
+            stress.
+            Erratum:[Nat Genet. 2012 Sep;44(9):1072]
+REFERENCE   5  (bases 1 to 3717)
+  AUTHORS   Eletr ZM and Wilkinson KD.
+  TITLE     An emerging model for BAP1's role in regulating cell cycle
+            progression
+  JOURNAL   Cell Biochem. Biophys. 60 (1-2), 3-11 (2011)
+   PUBMED   21484256
+  REMARK    GeneRIF: Studies suggest that BAP1 influences cell proliferation at
+            G1/S by co-regulating transcription from HCF-1/E2F-governed
+            promoters.
+            Review article
+REFERENCE   6  (bases 1 to 3717)
+  AUTHORS   Behrends U, Schneider I, Rossler S, Frauenknecht H, Golbeck A,
+            Lechner B, Eigenstetter G, Zobywalski C, Muller-Weihrich S,
+            Graubner U, Schmid I, Sackerer D, Spath M, Goetz C, Prantl F,
+            Asmuss HP, Bise K and Mautner J.
+  TITLE     Novel tumor antigens identified by autologous antibody screening of
+            childhood medulloblastoma cDNA libraries
+  JOURNAL   Int. J. Cancer 106 (2), 244-251 (2003)
+   PUBMED   12800201
+REFERENCE   7  (bases 1 to 3717)
+  AUTHORS   Jensen DE and Rauscher FJ 3rd.
+  TITLE     Defining biochemical functions for the BRCA1 tumor suppressor
+            protein: analysis of the BRCA1 binding protein BAP1
+  JOURNAL   Cancer Lett. 143 Suppl 1, S13-S17 (1999)
+   PUBMED   10546591
+  REMARK    Review article
+REFERENCE   8  (bases 1 to 3717)
+  AUTHORS   Jensen DE and Rauscher FJ 3rd.
+  TITLE     BAP1, a candidate tumor suppressor protein that interacts with
+            BRCA1
+  JOURNAL   Ann. N. Y. Acad. Sci. 886, 191-194 (1999)
+   PUBMED   10667217
+  REMARK    Review article
+REFERENCE   9  (bases 1 to 3717)
+  AUTHORS   Jensen DE, Proctor M, Marquis ST, Gardner HP, Ha SI, Chodosh LA,
+            Ishov AM, Tommerup N, Vissing H, Sekido Y, Minna J, Borodovsky A,
+            Schultz DC, Wilkinson KD, Maul GG, Barlev N, Berger SL, Prendergast
+            GC and Rauscher FJ 3rd.
+  TITLE     BAP1: a novel ubiquitin hydrolase which binds to the BRCA1 RING
+            finger and enhances BRCA1-mediated cell growth suppression
+  JOURNAL   Oncogene 16 (9), 1097-1112 (1998)
+   PUBMED   9528852
+REFERENCE   10 (bases 1 to 3717)
+  AUTHORS   Pilarski,R., Rai,K., Cebulla,C. and Abdel-Rahman,M.
+  TITLE     BAP1 Tumor Predisposition Syndrome
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Stephens
+            K and Amemiya A (Eds.);
+            GENEREVIEWS((R));
+            (1993)
+   PUBMED   27748099
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DA188433.1, AK292608.1 and
+            AY130008.1.
+            
+            [WARNING] On Nov 22, 2018 this sequence was replaced by
+            NM_004656.4.
+            
+            On May 23, 2013 this sequence version replaced NM_004656.2.
+            
+            Summary: This gene belongs to the ubiquitin C-terminal hydrolase
+            subfamily of deubiquitinating enzymes that are involved in the
+            removal of ubiquitin from proteins. The encoded enzyme binds to the
+            breast cancer type 1 susceptibility protein (BRCA1) via the RING
+            finger domain of the latter and acts as a tumor suppressor. In
+            addition, the enzyme may be involved in regulation of
+            transcription, regulation of cell cycle and growth, response to DNA
+            damage and chromatin dynamics. Germline mutations in this gene may
+            be associated with tumor predisposition syndrome (TPDS), which
+            involves increased risk of cancers including malignant
+            mesothelioma, uveal melanoma and cutaneous melanoma. [provided by
+            RefSeq, May 2013].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: D87462.2, AF045581.1 [ECO:0000332]
+            ##Evidence-Data-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-69                DA188433.1         1-69
+            70-2540             AK292608.1         4-2474
+            2541-3717           AY130008.1         1826-3002
+FEATURES             Location/Qualifiers
+     source          1..3717
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="3"
+                     /map="3p21.1"
+     gene            1..3717
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /note="BRCA1 associated protein 1"
+                     /db_xref="GeneID:8314"
+                     /db_xref="HGNC:HGNC:950"
+                     /db_xref="MIM:603089"
+     exon            1..264
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    135..137
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /note="upstream in-frame stop codon"
+     CDS             228..2417
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /EC_number="3.4.19.12"
+                     /note="cerebral protein-13; cerebral protein 6; BRCA1
+                     associated protein-1 (ubiquitin carboxy-terminal
+                     hydrolase)"
+                     /codon_start=1
+                     /product="ubiquitin carboxyl-terminal hydrolase BAP1"
+                     /protein_id="NP_004647.1"
+                     /db_xref="CCDS:CCDS2853.1"
+                     /db_xref="GeneID:8314"
+                     /db_xref="HGNC:HGNC:950"
+                     /db_xref="MIM:603089"
+                     /translation="MNKGWLELESDPGLFTLLVEDFGVKGVQVEEIYDLQSKCQGPVY
+                     GFIFLFKWIEERRSRRKVSTLVDDTSVIDDDIVNNMFFAHQLIPNSCATHALLSVLLN
+                     CSSVDLGPTLSRMKDFTKGFSPESKGYAIGNAPELAKAHNSHARPEPRHLPEKQNGLS
+                     AVRTMEAFHFVSYVPITGRLFELDGLKVYPIDHGPWGEDEEWTDKARRVIMERIGLAT
+                     AGEPYHDIRFNLMAVVPDRRIKYEARLHVLKVNRQTVLEALQQLIRVTQPELIQTHKS
+                     QESQLPEESKSASNKSPLVLEANRAPAASEGNHTDGAEEAAGSCAQAPSHSPPNKPKL
+                     VVKPPGSSLNGVHPNPTPIVQRLPAFLDNHNYAKSPMQEEEDLAAGVGRSRVPVRPPQ
+                     QYSDDEDDYEDDEEDDVQNTNSALRYKGKGTGKPGALSGSADGQLSVLQPNTINVLAE
+                     KLKESQKDLSIPLSIKTSSGAGSPAVAVPTHSQPSPTPSNESTDTASEIGSAFNSPLR
+                     SPIRSANPTRPSSPVTSHISKVLFGEDDSLLRVDCIRYNRAVRDLGPVISTGLLHLAE
+                     DGVLSPLALTEGGKGSSPSIRPIQGSQGSSSPVEKEVVEATDSREKTGMVRPGEPLSG
+                     EKYSPKELLALLKCVEAEIANYEACLKEEVEKRKKFKIDDQRRTHNYDEFICTFISML
+                     AQEGMLANLVEQNISVRRRQGVSIGRLHKQRKPDRRKRSRPYKAKRQ"
+     misc_feature    777..779
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Important for enzyme activity. {ECO:0000250};
+                     propagated from UniProtKB/Swiss-Prot (Q92560.2); other
+                     site"
+     misc_feature    1101..1103
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:23186163};
+                     propagated from UniProtKB/Swiss-Prot (Q92560.2); other
+                     site"
+     misc_feature    1314..1325
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q92560.2);
+                     Region: HBM-like motif"
+     misc_feature    1332..1334
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:23186163};
+                     propagated from UniProtKB/Swiss-Prot (Q92560.2); other
+                     site"
+     misc_feature    1410..1412
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:Q99PU7};
+                     propagated from UniProtKB/Swiss-Prot (Q92560.2); other
+                     site"
+     misc_feature    1788..1790
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:23186163};
+                     propagated from UniProtKB/Swiss-Prot (Q92560.2); other
+                     site"
+     misc_feature    1836..1838
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:23186163};
+                     propagated from UniProtKB/Swiss-Prot (Q92560.2); other
+                     site"
+     misc_feature    1980..1982
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:23186163};
+                     propagated from UniProtKB/Swiss-Prot (Q92560.2); other
+                     site"
+     misc_feature    2013..2390
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q92560.2);
+                     Region: Interaction with BRCA1"
+     misc_feature    2016..2018
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:23186163};
+                     propagated from UniProtKB/Swiss-Prot (Q92560.2); other
+                     site"
+     misc_feature    2376..2393
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q92560.2);
+                     Region: Nuclear localization signal.
+                     {ECO:0000269|PubMed:18757409,
+                     ECO:0000269|PubMed:24703950}"
+     exon            265..294
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            295..349
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            350..482
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            483..602
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            603..664
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            665..807
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            808..886
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            887..1010
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1011..1158
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1159..1343
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1344..1477
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1478..1956
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1957..2117
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2118..2210
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2211..2283
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2284..3701
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      3667..3672
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+     polyA_site      3701
+                     /gene="BAP1"
+                     /gene_synonym="HUCEP-13; hucep-6; UCHL2"
+ORIGIN      
+        1 gagcgcatgc ccgcatctgc tgtccgacag gcggaagacg agcccagagg cggagcaggg
+       61 ccgtcgcgcc ttggtgacgt ctgccgccgg cgcgggcggg tgacgcgact gggcccgttg
+      121 tctgtgtgtg ggactgaggg gccccggggg cggtgggggc tcccggtggg ggcagcggtg
+      181 gggagggagg gcctggacat ggcgctgagg ggccgccccg cgggaagatg aataagggct
+      241 ggctggagct ggagagcgac ccaggcctct tcaccctgct cgtggaagat ttcggtgtca
+      301 agggggtgca agtggaggag atctacgacc ttcagagcaa atgtcagggc cctgtatatg
+      361 gatttatctt cctgttcaaa tggatcgaag agcgccggtc ccggcgaaag gtctctacct
+      421 tggtggatga tacgtccgtg attgatgatg atattgtgaa taacatgttc tttgcccacc
+      481 agctgatacc caactcttgt gcaactcatg ccttgctgag cgtgctcctg aactgcagca
+      541 gcgtggacct gggacccacc ctgagtcgca tgaaggactt caccaagggt ttcagccctg
+      601 agagcaaagg atatgcgatt ggcaatgccc cggagttggc caaggcccat aatagccatg
+      661 ccaggcccga gccacgccac ctccctgaga agcagaatgg ccttagtgca gtgcggacca
+      721 tggaggcgtt ccactttgtc agctatgtgc ctatcacagg ccggctcttt gagctggatg
+      781 ggctgaaggt ctaccccatt gaccatgggc cctgggggga ggacgaggag tggacagaca
+      841 aggcccggcg ggtcatcatg gagcgtatcg gcctcgccac tgcaggggag ccctaccacg
+      901 acatccgctt caacctgatg gcagtggtgc ccgaccgcag gatcaagtat gaggccaggc
+      961 tgcatgtgct gaaggtgaac cgtcagacag tactagaggc tctgcagcag ctgataagag
+     1021 taacacagcc agagctgatt cagacccaca agtctcaaga gtcacagctg cctgaggagt
+     1081 ccaagtcagc cagcaacaag tccccgctgg tgctggaagc aaacagggcc cctgcagcct
+     1141 ctgagggcaa ccacacagat ggtgcagagg aggcggctgg ttcatgcgca caagccccat
+     1201 cccacagccc tcccaacaaa cccaagctag tggtgaagcc tccaggcagc agcctcaatg
+     1261 gggttcaccc caaccccact cccattgtcc agcggctgcc ggcctttcta gacaatcaca
+     1321 attatgccaa gtcccccatg caggaggaag aagacctggc ggcaggtgtg ggccgcagcc
+     1381 gagttccagt ccgcccaccc cagcagtact cagatgatga ggatgactat gaggatgacg
+     1441 aggaggatga cgtgcagaac accaactctg cccttaggta taaggggaag ggaacaggga
+     1501 agccaggggc attgagcggt tctgctgatg ggcaactgtc agtgctgcag cccaacacca
+     1561 tcaacgtctt ggctgagaag ctcaaagagt cccagaagga cctctcaatt cctctgtcca
+     1621 tcaagactag cagcggggct gggagtccgg ctgtggcagt gcccacacac tcgcagccct
+     1681 cacccacccc cagcaatgag agtacagaca cggcctctga gatcggcagt gctttcaact
+     1741 cgccactgcg ctcgcctatc cgctcagcca acccgacgcg gccctccagc cctgtcacct
+     1801 cccacatctc caaggtgctt tttggagagg atgacagcct gctgcgtgtt gactgcatac
+     1861 gctacaaccg tgctgtccgt gatctgggtc ctgtcatcag cacaggcctg ctgcacctgg
+     1921 ctgaggatgg ggtgctgagt cccctggcgc tgacagaggg tgggaagggt tcctcgccct
+     1981 ccatcagacc aatccaaggc agccaggggt ccagcagccc agtggagaag gaggtcgtgg
+     2041 aagccacgga cagcagagag aagacgggga tggtgaggcc tggcgagccc ttgagtgggg
+     2101 agaaatactc acccaaggag ctgctggcac tgctgaagtg tgtggaggct gagattgcaa
+     2161 actatgaggc gtgcctcaag gaggaggtag agaagaggaa gaagttcaag attgatgacc
+     2221 agagaaggac ccacaactac gatgagttca tctgcacctt tatctccatg ctggctcagg
+     2281 aaggcatgct ggccaaccta gtggagcaga acatctccgt gcggcggcgc caaggggtca
+     2341 gcatcggccg gctccacaag cagcggaagc ctgaccggcg gaaacgctct cgcccctaca
+     2401 aggccaagcg ccagtgagga ctgctggccc tgactctgca gcccactctt gccgtgtggc
+     2461 cctcaccagg gtccttccct gccccacttc cccttttccc agtattactg aatagtccca
+     2521 gctggagagt ccaggccctg ggaatgggag gaaccaggcc acattccttc catcgtgccc
+     2581 tgaggcctga cacggcagat cagccccata gtgctcagga ggcagcatct ggagttgggg
+     2641 cacagcgagg tactgcagct tcctccacag ccggctgtgg agcagcagga cctggccctt
+     2701 ctgcctgggc agcagaatat atattttacc tatcagagac atctattttt ctgggctcca
+     2761 acccaacatg ccaccatgtt gacataagtt cctacctgac tatgctttct ctcctaggag
+     2821 ctgtcctggt gggcccaggt ccttgtatca tgccacggtc ccaactacag ggtcctagct
+     2881 gggggcctgg gtgggccctg ggctctgggc cctgctgctc tagccccagc caccagcctg
+     2941 tccctgttgt aaggaagcca ggtcttctct cttcattcct cttaggagag tgccaaactc
+     3001 agggacccag cactgggctg ggttgggagt agggtgtccc agtggggttg gggtgagcag
+     3061 gctgctggga tcccatggcc tgagcagagc atgtgggaac tgttcagtgg cctgtgaact
+     3121 gtcttccttg ttctagccag gctgttcaag actgctctcc atagcaaggt tctagggctc
+     3181 ttcgccttca gtgttgtggc cctagctatg ggcctaaatt gggctctagg tctctgtccc
+     3241 tggcgcttga ggctcagaag agcctctgtc cagcccctca gtattaccat gtctccctct
+     3301 caggggtagc agagacaggg ttgcttatag gaagctggca ccactcagct cttcctgcta
+     3361 ctccagtttc ctcagcctct gcaaggcact cagggtgggg gacagcagga tcaagacaac
+     3421 ccgttggagc ccctgtgttc cagaggacct gatgccaagg ggtaatgggc ccagcagtgc
+     3481 ctctggagcc caggccccaa cacagcccca tggcctctgc cagatggctt tgaaaaaggt
+     3541 gatccaagca ggccccttta tctgtacata gtgactgagt ggggggtgct ggcaagtgtg
+     3601 gcagctgcct ctgggctgag cacagcttga cccctctagc ccctgtaaat actggatcaa
+     3661 tgaatgaata aaactctcct aagaatctcc tgagaaatga aaaaaaaaaa aaaaaaa
+//
+

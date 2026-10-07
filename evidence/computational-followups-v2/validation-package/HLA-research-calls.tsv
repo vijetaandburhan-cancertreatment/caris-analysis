@@ -1,0 +1,10 @@
+gene	IMGT_3_24_two_field	IMGT_3_46_two_field	reference_concordance	Caris_class_I	Caris_comparison_3_24	Caris_comparison_3_46	model_fragment_count_3_24	genotype_explained_fragments_3_24	nonshared_minor_major_3_24	no_population_prior_two_field_match_3_24	model_fragment_count_3_46	genotype_explained_fragments_3_46	nonshared_minor_major_3_46	no_population_prior_two_field_match_3_46
+A	A*02:01;A*26:01	A*02:01;A*26:01	True	A*02:01;A*26:01	True	True	8259.0	8146	0.88	True	7579.0	6971	0.89	True
+B	B*50:01;B*52:01	B*50:01;B*52:01	True	B*50:01;B*52:01	True	True	9469.0	9307	0.87	True	8246.0	7589	0.86	True
+C	C*06:02;C*12:02	C*06:02;C*12:02	True	C*06:02;C*12:02	True	True	9253.0	9073	0.39	True	7433.0	6693	0.4	True
+DPA1	DPA1*01:03;DPA1*01:03	DPA1*01:03;DPA1*01:03	True				1194.0	1190		True	1190.0	1176		True
+DPB1	DPB1*02:01;DPB1*04:01	DPB1*02:01;DPB1*04:01	True				1249.0	1243	0.89	True	1234.0	1203	0.89	True
+DQA1	DQA1*01:03;DQA1*05:01	DQA1*01:03;DQA1*05:01	True				638.0	615	0.61	True	578.0	571	0.66	True
+DQB1	DQB1*02:01;DQB1*06:01	DQB1*02:01;DQB1*06:01	True				698.0	695	0.47	True	697.0	690	0.47	True
+DRB1	DRB1*03:01;DRB1*15:02	DRB1*03:01;DRB1*15:02	True				2259.0	2189	0.93	True	2534.0	2500	0.7	True
+DRB5	DRB5*01:02;DRB5*01:02	DRB5*01:02;DRB5*01:02	True				1412.0	1410		True	1356.0	1354		True

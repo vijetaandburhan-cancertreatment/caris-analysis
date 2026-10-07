@@ -1,0 +1,32 @@
+CARIS RESEARCH UPDATE — 5 October 2026, revised overnight
+Accession TN26-279853. Raw DNA/RNA research only.
+
+All four original computational workstreams and the two additional bounded audits are complete. The earlier one-pager, report and evidence bundle are preserved. The revised handoff adds the new evidence without turning computational findings into clinical conclusions.
+
+WHAT THE COMPLETED WORK ADDS
+
+1. Full-reference RNA analysis covered all 23,209,264 paired reads. All 28 accepted fusion hypotheses plus 26 selected discarded hypotheses received read/reference review. No validated activating, treatment-selecting fusion was established. CEACAM3 noncoding and KRTAP9-1 repeat-associated signals have DNA support but no established driver interpretation. The bounded MET exon-14 check found no canonical skipped junction; normal junctions and synthetic positive controls were detected. Neither analysis is a clinical exclusion assay.
+
+2. BAP1 mutant RNA and annotated flanking splicing survive re-alignment. Conditional B*50:01-compatible bulk RNA supports pursuing the existing BAP1 antigen experiment, but does not independently type HLA, assign expression to cancer cells or prove peptide display. The RASA1 CD4 mutant/reference testing pair remains useful only with specificity controls: five of seven possible binding cores are unchanged reference sequence. No robust mutation-selective BAP1 class-II lead emerged.
+
+3. Denser allele-balance analysis and independently reproduced local BAP1 phase support linkage, but cannot prove loss of the normal allele, somatic status or biallelic inactivation. Caris's MTAP/CDKN2A/B Deleted calls remain research starting points; integer tumor copies and homogeneous homozygous MTAP loss are not calibrated by the supplied data. Exact BAP1/LATS sequences, reference controls and read audits are packaged for laboratory review.
+
+ADDITIONAL OVERNIGHT AUDITS
+
+4. The prespecified 45-case public BCR::ABL1 benchmark completed. Compact dense/sparse indexes agreed on accepted-versus-not-accepted decisions for 20 matched conditions (19 unique paired-input sets), while sparse indexing lost one supporting name in four inputs. Paired-read end-trimming reduced support from three names to two in both compact indexes and a matched full-reference comparison. Surviving overlapping mates merge into longer junction-spanning sequences; this does not measure a 12-base anchor threshold. These tiny, overlapping mixtures cannot estimate clinical sensitivity, detection limits or abundance in the patient's much larger library. Exact support identities, negatives, unchanged inputs and technical amendments are retained.
+
+5. CCND1::HEG1 received a deeper mismatch/gap-aware RNA audit. Eleven exact 50-base Q20 RNA pairs represent seven full-pair sequence families; nine meet Q30. Seventeen bases of microhomology allow 18 equivalent breakpoint descriptions; 10/11 pairs have fully overlapping mates. Bounded whole-reference/transcript searches found no equally clean ordinary alternative, but cannot distinguish endogenous antisense RNA from a library chimera or establish a driver.
+
+6. A separate locus/mate-limited DNA audit found no exact 50/100-base RNA-model marker in 44,483 alignment records. Two nonduplicate query names nevertheless contain related, non-exact split sequences; their mates fully overlap. One differs by three substitutions and one deleted model base; the other by a three-base repeat insertion. After bounded whole-reference genome/transcript searches, the joined-model alignment scores remain better than the nominated normal alternatives (174 versus 94, and 164 versus 121). Independent dynamic-programming scores and source-sequence membership checks agree. This is a low-count DNA hint, not a DNA-confirmed fusion, somatic rearrangement or drug target. The exact-marker negative alone would have missed this qualification.
+
+WHAT MATTERS NEXT
+
+The highest-value next steps require additional source or laboratory evidence: calibrated Caris allele-specific CN/LOH and purity/ploidy, explicit MTAP homozygous-loss interpretation, matched-normal and orthogonal variant confirmation, normal-blood HLA typing, and controlled endogenous presentation and mutant-versus-reference T-cell testing. The revised one-pager and five specialist questions are ready for research-team review. No new diagnosis, treatment choice or prognosis estimate follows from these computational results alone.
+
+EXECUTION, COST AND PRESERVATION
+
+The nine original Caris files remain in the resident local directory and their previously verified Drive copies. New small-file outputs are also mirrored outside the cloud-offloaded workspace and checksum-verified; each evidence-bundle member has its own SHA256 entry. Prior completed artifacts remain unchanged.
+
+The $100 AWS credits were verified. No EC2 instance or EBS volume was created; compute/EBS spend is $0. The two private S3 RNA copies total about 2.97 GiB, approximately $0.07/month at unchanged storage before credits, plus request charges; the actual total bill is not established. No account-plan upgrade, IAM expansion, external clinical/vendor outreach or internal usage reset was used. The optional whole-patient dense-index cloud comparison remains unrun because the account-plan change is unapproved; the completed local findings do not depend on it.
+
+There is no reason to extend these bounded audits merely to consume the remaining credits or time. Further computation cannot substitute for the missing matched-normal, calibrated copy-number or functional antigen evidence.

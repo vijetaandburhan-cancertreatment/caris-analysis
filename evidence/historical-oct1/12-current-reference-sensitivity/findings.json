@@ -1,0 +1,138 @@
+{
+  "finished_utc": "2026-10-01T22:38:00.055759+00:00",
+  "public_reference": {
+    "download_started_utc": "2026-10-01T22:34:47.740753+00:00",
+    "release": "GENCODE human50",
+    "release_month_from_official_history": "2026-06",
+    "assembly": "GRCh38.p14",
+    "official_page": "https://www.gencodegenes.org/human/",
+    "history_page": "https://www.gencodegenes.org/human/releases.html",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.pc_translations.fa.gz",
+    "compressed_size_bytes": 21136991,
+    "sha256": "5d6408c3a1c22d864c96a55367cf5b69f1031dea1fe2cd6d03e366ae3fc56a45",
+    "md5": "509a89a4c3bb8c594baac50d4d57e589",
+    "server_headers": {
+      "Date": "Thu, 01 Oct 2026 22:34:48 GMT",
+      "Server": "Apache",
+      "Last-Modified": "Tue, 09 Jun 2026 12:55:51 GMT",
+      "ETag": "\"142865f-653d1a58feb41\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "21136991",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET,OPTIONS",
+      "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+      "Connection": "close",
+      "Content-Type": "application/x-gzip"
+    },
+    "scope": "Official protein-coding transcript translations, all regions including scaffolds/patches/alternate loci; biotypes include protein_coding, nonsense_mediated_decay, non_stop_decay, IG/TR, polymorphic_pseudogene, protein_coding_LoF. This is a reference translation collection, not an empirical normal-tissue proteomics atlas."
+  },
+  "records_scanned": {
+    "GENCODE37": 104760,
+    "GENCODE50": 382428
+  },
+  "G37_independent_unseeded_agrees_with_existing_seeded_method": true,
+  "comparison": {
+    "IEERKGLYL": {
+      "added_distinct_peptides": [],
+      "removed_distinct_peptides": [],
+      "shared_distinct_count": 0,
+      "gencode37": {
+        "maximum_hamming_searched": 2,
+        "windows_examined": 39225936,
+        "distinct_peptides_by_substitutions": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        },
+        "reference_occurrences_by_substitutions": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        }
+      },
+      "gencode50": {
+        "maximum_hamming_searched": 2,
+        "windows_examined": 153625979,
+        "distinct_peptides_by_substitutions": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        },
+        "reference_occurrences_by_substitutions": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        }
+      }
+    },
+    "EERKGLYL": {
+      "added_distinct_peptides": [
+        "EEKKGLKL",
+        "EEKKQLYL",
+        "EERKRLQL",
+        "EESKGLCL",
+        "EQRKGLQL",
+        "GERKGLSL",
+        "LEREGLYL"
+      ],
+      "removed_distinct_peptides": [],
+      "shared_distinct_count": 24,
+      "gencode37": {
+        "maximum_hamming_searched": 2,
+        "windows_examined": 39330453,
+        "distinct_peptides_by_substitutions": {
+          "0": 0,
+          "1": 0,
+          "2": 24
+        },
+        "reference_occurrences_by_substitutions": {
+          "0": 0,
+          "1": 0,
+          "2": 68
+        }
+      },
+      "gencode50": {
+        "maximum_hamming_searched": 2,
+        "windows_examined": 154008128,
+        "distinct_peptides_by_substitutions": {
+          "0": 0,
+          "1": 0,
+          "2": 31
+        },
+        "reference_occurrences_by_substitutions": {
+          "0": 0,
+          "1": 0,
+          "2": 392
+        }
+      }
+    },
+    "RRFSSLQT": {
+      "added_distinct_peptides": [],
+      "removed_distinct_peptides": [],
+      "shared_distinct_count": 0,
+      "gencode37": {
+        "maximum_hamming_searched": 0,
+        "windows_examined": 39330453,
+        "distinct_peptides_by_substitutions": {
+          "0": 0
+        },
+        "reference_occurrences_by_substitutions": {
+          "0": 0
+        }
+      },
+      "gencode50": {
+        "maximum_hamming_searched": 0,
+        "windows_examined": 154008128,
+        "distinct_peptides_by_substitutions": {
+          "0": 0
+        },
+        "reference_occurrences_by_substitutions": {
+          "0": 0
+        }
+      }
+    }
+  },
+  "peak_RSS_bytes_macOS": 55263232,
+  "elapsed_seconds": 192.32,
+  "interpretation_limit": "No exact reference peptide match is not proof of tumor specificity, translation, HLA display, safety or T-cell recognition. Normal population variants and unannotated/noncanonical ORFs remain outside this reference. Similar sequences are possible experimental controls, not validated off-targets."
+}

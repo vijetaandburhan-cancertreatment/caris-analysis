@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-05T06:52:15.109726+00:00",
+  "amendment": "Root-authorized MAPQ60-only descriptive extension, frozen before any patient read extraction",
+  "primary_six_unchanged": true,
+  "additional_loci": [
+    [
+      "chr3",
+      10049469,
+      "T"
+    ],
+    [
+      "chr3",
+      195677778,
+      "G"
+    ],
+    [
+      "chr9",
+      65737280,
+      "A"
+    ]
+  ],
+  "reason": "All-site independent sensitivity screen identifies three additional flags caused by filtering DNA ALT evidence; maintain explicit sensitivity-only labels, not replacement primary triage.",
+  "total_loci": 9,
+  "limits": "Same<=20cap and quality/origin scope; no new clinical inference."
+}

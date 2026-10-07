@@ -1,0 +1,23 @@
+{
+  "method": "Separate Biopython GenBank feature extraction and translation compared to builder standalone codon table; full CDS protein must match NCBI /translation; peptide nucleotide FASTA translated independently",
+  "results": [
+    {
+      "gene": "BAP1",
+      "refseq": "NM_004656.3",
+      "independent_Biopython_SeqIO_CDS_and_translation_match": true,
+      "mutant_aa_length": 63
+    },
+    {
+      "gene": "LATS1",
+      "refseq": "NM_004690.4",
+      "independent_Biopython_SeqIO_CDS_and_translation_match": true,
+      "mutant_aa_length": 126
+    },
+    {
+      "gene": "LATS2",
+      "refseq": "NM_014572.3",
+      "independent_Biopython_SeqIO_CDS_and_translation_match": true,
+      "mutant_aa_length": 1088
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+peptide,Allele Name,window_id,gene,sequence_type,length,aa_start1,aa_end1,altered_positions_in_peptide1,reaches_predicted_stop,HLA_caveat
+FIFLFKWIEERK,HLA-DRB1*03:01,BAP1_46_12,BAP1,mutant,12,46,57,12,False,Provisional RNA beta-chain; DRA01:01 assumed
+FIFLFKWIEERR,HLA-DRB1*03:01,BAP1_46_12,BAP1,wt,12,46,57,12,False,Provisional RNA beta-chain; DRA01:01 assumed
+FIFLFKWIEERK,HLA-DRB1*15:02,BAP1_46_12,BAP1,mutant,12,46,57,12,False,Provisional RNA beta-chain; DRA01:01 assumed
+FIFLFKWIEERR,HLA-DRB1*15:02,BAP1_46_12,BAP1,wt,12,46,57,12,False,Provisional RNA beta-chain; DRA01:01 assumed
+FIFLFKWIEERK,HLA-DRB5*01:02,BAP1_46_12,BAP1,mutant,12,46,57,12,False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+FIFLFKWIEERR,HLA-DRB5*01:02,BAP1_46_12,BAP1,wt,12,46,57,12,False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+FIFLFKWIEERK,HLA-DPA1*01:03/DPB1*02:01,BAP1_46_12,BAP1,mutant,12,46,57,12,False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FIFLFKWIEERR,HLA-DPA1*01:03/DPB1*02:01,BAP1_46_12,BAP1,wt,12,46,57,12,False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FIFLFKWIEERK,HLA-DPA1*01:03/DPB1*04:01,BAP1_46_12,BAP1,mutant,12,46,57,12,False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FIFLFKWIEERR,HLA-DPA1*01:03/DPB1*04:01,BAP1_46_12,BAP1,wt,12,46,57,12,False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FIFLFKWIEERK,HLA-DQA1*01:03/DQB1*02:01,BAP1_46_12,BAP1,mutant,12,46,57,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FIFLFKWIEERR,HLA-DQA1*01:03/DQB1*02:01,BAP1_46_12,BAP1,wt,12,46,57,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FIFLFKWIEERK,HLA-DQA1*01:03/DQB1*06:01,BAP1_46_12,BAP1,mutant,12,46,57,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FIFLFKWIEERR,HLA-DQA1*01:03/DQB1*06:01,BAP1_46_12,BAP1,wt,12,46,57,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FIFLFKWIEERK,HLA-DQA1*05:01/DQB1*02:01,BAP1_46_12,BAP1,mutant,12,46,57,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FIFLFKWIEERR,HLA-DQA1*05:01/DQB1*02:01,BAP1_46_12,BAP1,wt,12,46,57,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FIFLFKWIEERK,HLA-DQA1*05:01/DQB1*06:01,BAP1_46_12,BAP1,mutant,12,46,57,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FIFLFKWIEERR,HLA-DQA1*05:01/DQB1*06:01,BAP1_46_12,BAP1,wt,12,46,57,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+IFLFKWIEERKG,HLA-DRB1*03:01,BAP1_47_12,BAP1,mutant,12,47,58,"11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+IFLFKWIEERRS,HLA-DRB1*03:01,BAP1_47_12,BAP1,wt,12,47,58,"11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+IFLFKWIEERKG,HLA-DRB1*15:02,BAP1_47_12,BAP1,mutant,12,47,58,"11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+IFLFKWIEERRS,HLA-DRB1*15:02,BAP1_47_12,BAP1,wt,12,47,58,"11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+IFLFKWIEERKG,HLA-DRB5*01:02,BAP1_47_12,BAP1,mutant,12,47,58,"11,12",False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+IFLFKWIEERRS,HLA-DRB5*01:02,BAP1_47_12,BAP1,wt,12,47,58,"11,12",False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+IFLFKWIEERKG,HLA-DPA1*01:03/DPB1*02:01,BAP1_47_12,BAP1,mutant,12,47,58,"11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+IFLFKWIEERRS,HLA-DPA1*01:03/DPB1*02:01,BAP1_47_12,BAP1,wt,12,47,58,"11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+IFLFKWIEERKG,HLA-DPA1*01:03/DPB1*04:01,BAP1_47_12,BAP1,mutant,12,47,58,"11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+IFLFKWIEERRS,HLA-DPA1*01:03/DPB1*04:01,BAP1_47_12,BAP1,wt,12,47,58,"11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+IFLFKWIEERKG,HLA-DQA1*01:03/DQB1*02:01,BAP1_47_12,BAP1,mutant,12,47,58,"11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+IFLFKWIEERRS,HLA-DQA1*01:03/DQB1*02:01,BAP1_47_12,BAP1,wt,12,47,58,"11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+IFLFKWIEERKG,HLA-DQA1*01:03/DQB1*06:01,BAP1_47_12,BAP1,mutant,12,47,58,"11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+IFLFKWIEERRS,HLA-DQA1*01:03/DQB1*06:01,BAP1_47_12,BAP1,wt,12,47,58,"11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+IFLFKWIEERKG,HLA-DQA1*05:01/DQB1*02:01,BAP1_47_12,BAP1,mutant,12,47,58,"11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+IFLFKWIEERRS,HLA-DQA1*05:01/DQB1*02:01,BAP1_47_12,BAP1,wt,12,47,58,"11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+IFLFKWIEERKG,HLA-DQA1*05:01/DQB1*06:01,BAP1_47_12,BAP1,mutant,12,47,58,"11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+IFLFKWIEERRS,HLA-DQA1*05:01/DQB1*06:01,BAP1_47_12,BAP1,wt,12,47,58,"11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FLFKWIEERKGL,HLA-DRB1*03:01,BAP1_48_12,BAP1,mutant,12,48,59,"10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+FLFKWIEERRSR,HLA-DRB1*03:01,BAP1_48_12,BAP1,wt,12,48,59,"10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+FLFKWIEERKGL,HLA-DRB1*15:02,BAP1_48_12,BAP1,mutant,12,48,59,"10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+FLFKWIEERRSR,HLA-DRB1*15:02,BAP1_48_12,BAP1,wt,12,48,59,"10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+FLFKWIEERKGL,HLA-DRB5*01:02,BAP1_48_12,BAP1,mutant,12,48,59,"10,11,12",False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+FLFKWIEERRSR,HLA-DRB5*01:02,BAP1_48_12,BAP1,wt,12,48,59,"10,11,12",False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+FLFKWIEERKGL,HLA-DPA1*01:03/DPB1*02:01,BAP1_48_12,BAP1,mutant,12,48,59,"10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FLFKWIEERRSR,HLA-DPA1*01:03/DPB1*02:01,BAP1_48_12,BAP1,wt,12,48,59,"10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FLFKWIEERKGL,HLA-DPA1*01:03/DPB1*04:01,BAP1_48_12,BAP1,mutant,12,48,59,"10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FLFKWIEERRSR,HLA-DPA1*01:03/DPB1*04:01,BAP1_48_12,BAP1,wt,12,48,59,"10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FLFKWIEERKGL,HLA-DQA1*01:03/DQB1*02:01,BAP1_48_12,BAP1,mutant,12,48,59,"10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FLFKWIEERRSR,HLA-DQA1*01:03/DQB1*02:01,BAP1_48_12,BAP1,wt,12,48,59,"10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FLFKWIEERKGL,HLA-DQA1*01:03/DQB1*06:01,BAP1_48_12,BAP1,mutant,12,48,59,"10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FLFKWIEERRSR,HLA-DQA1*01:03/DQB1*06:01,BAP1_48_12,BAP1,wt,12,48,59,"10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FLFKWIEERKGL,HLA-DQA1*05:01/DQB1*02:01,BAP1_48_12,BAP1,mutant,12,48,59,"10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FLFKWIEERRSR,HLA-DQA1*05:01/DQB1*02:01,BAP1_48_12,BAP1,wt,12,48,59,"10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FLFKWIEERKGL,HLA-DQA1*05:01/DQB1*06:01,BAP1_48_12,BAP1,mutant,12,48,59,"10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FLFKWIEERRSR,HLA-DQA1*05:01/DQB1*06:01,BAP1_48_12,BAP1,wt,12,48,59,"10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+LFKWIEERKGLY,HLA-DRB1*03:01,BAP1_49_12,BAP1,mutant,12,49,60,"9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+LFKWIEERRSRR,HLA-DRB1*03:01,BAP1_49_12,BAP1,wt,12,49,60,"9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+LFKWIEERKGLY,HLA-DRB1*15:02,BAP1_49_12,BAP1,mutant,12,49,60,"9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+LFKWIEERRSRR,HLA-DRB1*15:02,BAP1_49_12,BAP1,wt,12,49,60,"9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+LFKWIEERKGLY,HLA-DRB5*01:02,BAP1_49_12,BAP1,mutant,12,49,60,"9,10,11,12",False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+LFKWIEERRSRR,HLA-DRB5*01:02,BAP1_49_12,BAP1,wt,12,49,60,"9,10,11,12",False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+LFKWIEERKGLY,HLA-DPA1*01:03/DPB1*02:01,BAP1_49_12,BAP1,mutant,12,49,60,"9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+LFKWIEERRSRR,HLA-DPA1*01:03/DPB1*02:01,BAP1_49_12,BAP1,wt,12,49,60,"9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+LFKWIEERKGLY,HLA-DPA1*01:03/DPB1*04:01,BAP1_49_12,BAP1,mutant,12,49,60,"9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+LFKWIEERRSRR,HLA-DPA1*01:03/DPB1*04:01,BAP1_49_12,BAP1,wt,12,49,60,"9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+LFKWIEERKGLY,HLA-DQA1*01:03/DQB1*02:01,BAP1_49_12,BAP1,mutant,12,49,60,"9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+LFKWIEERRSRR,HLA-DQA1*01:03/DQB1*02:01,BAP1_49_12,BAP1,wt,12,49,60,"9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+LFKWIEERKGLY,HLA-DQA1*01:03/DQB1*06:01,BAP1_49_12,BAP1,mutant,12,49,60,"9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+LFKWIEERRSRR,HLA-DQA1*01:03/DQB1*06:01,BAP1_49_12,BAP1,wt,12,49,60,"9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+LFKWIEERKGLY,HLA-DQA1*05:01/DQB1*02:01,BAP1_49_12,BAP1,mutant,12,49,60,"9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+LFKWIEERRSRR,HLA-DQA1*05:01/DQB1*02:01,BAP1_49_12,BAP1,wt,12,49,60,"9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+LFKWIEERKGLY,HLA-DQA1*05:01/DQB1*06:01,BAP1_49_12,BAP1,mutant,12,49,60,"9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+LFKWIEERRSRR,HLA-DQA1*05:01/DQB1*06:01,BAP1_49_12,BAP1,wt,12,49,60,"9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FKWIEERKGLYL,HLA-DRB1*03:01,BAP1_50_12,BAP1,mutant,12,50,61,"8,9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+FKWIEERRSRRK,HLA-DRB1*03:01,BAP1_50_12,BAP1,wt,12,50,61,"8,9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+FKWIEERKGLYL,HLA-DRB1*15:02,BAP1_50_12,BAP1,mutant,12,50,61,"8,9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+FKWIEERRSRRK,HLA-DRB1*15:02,BAP1_50_12,BAP1,wt,12,50,61,"8,9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+FKWIEERKGLYL,HLA-DRB5*01:02,BAP1_50_12,BAP1,mutant,12,50,61,"8,9,10,11,12",False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+FKWIEERRSRRK,HLA-DRB5*01:02,BAP1_50_12,BAP1,wt,12,50,61,"8,9,10,11,12",False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+FKWIEERKGLYL,HLA-DPA1*01:03/DPB1*02:01,BAP1_50_12,BAP1,mutant,12,50,61,"8,9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FKWIEERRSRRK,HLA-DPA1*01:03/DPB1*02:01,BAP1_50_12,BAP1,wt,12,50,61,"8,9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FKWIEERKGLYL,HLA-DPA1*01:03/DPB1*04:01,BAP1_50_12,BAP1,mutant,12,50,61,"8,9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FKWIEERRSRRK,HLA-DPA1*01:03/DPB1*04:01,BAP1_50_12,BAP1,wt,12,50,61,"8,9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+FKWIEERKGLYL,HLA-DQA1*01:03/DQB1*02:01,BAP1_50_12,BAP1,mutant,12,50,61,"8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FKWIEERRSRRK,HLA-DQA1*01:03/DQB1*02:01,BAP1_50_12,BAP1,wt,12,50,61,"8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FKWIEERKGLYL,HLA-DQA1*01:03/DQB1*06:01,BAP1_50_12,BAP1,mutant,12,50,61,"8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FKWIEERRSRRK,HLA-DQA1*01:03/DQB1*06:01,BAP1_50_12,BAP1,wt,12,50,61,"8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FKWIEERKGLYL,HLA-DQA1*05:01/DQB1*02:01,BAP1_50_12,BAP1,mutant,12,50,61,"8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FKWIEERRSRRK,HLA-DQA1*05:01/DQB1*02:01,BAP1_50_12,BAP1,wt,12,50,61,"8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FKWIEERKGLYL,HLA-DQA1*05:01/DQB1*06:01,BAP1_50_12,BAP1,mutant,12,50,61,"8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+FKWIEERRSRRK,HLA-DQA1*05:01/DQB1*06:01,BAP1_50_12,BAP1,wt,12,50,61,"8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+KWIEERKGLYLG,HLA-DRB1*03:01,BAP1_51_12,BAP1,mutant,12,51,62,"7,8,9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+KWIEERRSRRKV,HLA-DRB1*03:01,BAP1_51_12,BAP1,wt,12,51,62,"7,8,9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+KWIEERKGLYLG,HLA-DRB1*15:02,BAP1_51_12,BAP1,mutant,12,51,62,"7,8,9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+KWIEERRSRRKV,HLA-DRB1*15:02,BAP1_51_12,BAP1,wt,12,51,62,"7,8,9,10,11,12",False,Provisional RNA beta-chain; DRA01:01 assumed
+KWIEERKGLYLG,HLA-DRB5*01:02,BAP1_51_12,BAP1,mutant,12,51,62,"7,8,9,10,11,12",False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+KWIEERRSRRKV,HLA-DRB5*01:02,BAP1_51_12,BAP1,wt,12,51,62,"7,8,9,10,11,12",False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+KWIEERKGLYLG,HLA-DPA1*01:03/DPB1*02:01,BAP1_51_12,BAP1,mutant,12,51,62,"7,8,9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+KWIEERRSRRKV,HLA-DPA1*01:03/DPB1*02:01,BAP1_51_12,BAP1,wt,12,51,62,"7,8,9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+KWIEERKGLYLG,HLA-DPA1*01:03/DPB1*04:01,BAP1_51_12,BAP1,mutant,12,51,62,"7,8,9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+KWIEERRSRRKV,HLA-DPA1*01:03/DPB1*04:01,BAP1_51_12,BAP1,wt,12,51,62,"7,8,9,10,11,12",False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+KWIEERKGLYLG,HLA-DQA1*01:03/DQB1*02:01,BAP1_51_12,BAP1,mutant,12,51,62,"7,8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+KWIEERRSRRKV,HLA-DQA1*01:03/DQB1*02:01,BAP1_51_12,BAP1,wt,12,51,62,"7,8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+KWIEERKGLYLG,HLA-DQA1*01:03/DQB1*06:01,BAP1_51_12,BAP1,mutant,12,51,62,"7,8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+KWIEERRSRRKV,HLA-DQA1*01:03/DQB1*06:01,BAP1_51_12,BAP1,wt,12,51,62,"7,8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+KWIEERKGLYLG,HLA-DQA1*05:01/DQB1*02:01,BAP1_51_12,BAP1,mutant,12,51,62,"7,8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+KWIEERRSRRKV,HLA-DQA1*05:01/DQB1*02:01,BAP1_51_12,BAP1,wt,12,51,62,"7,8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+KWIEERKGLYLG,HLA-DQA1*05:01/DQB1*06:01,BAP1_51_12,BAP1,mutant,12,51,62,"7,8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+KWIEERRSRRKV,HLA-DQA1*05:01/DQB1*06:01,BAP1_51_12,BAP1,wt,12,51,62,"7,8,9,10,11,12",False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+WIEERKGLYLGG,HLA-DRB1*03:01,BAP1_52_12,BAP1,mutant,12,52,63,"6,7,8,9,10,11,12",True,Provisional RNA beta-chain; DRA01:01 assumed
+WIEERRSRRKVS,HLA-DRB1*03:01,BAP1_52_12,BAP1,wt,12,52,63,"6,7,8,9,10,11,12",True,Provisional RNA beta-chain; DRA01:01 assumed
+WIEERKGLYLGG,HLA-DRB1*15:02,BAP1_52_12,BAP1,mutant,12,52,63,"6,7,8,9,10,11,12",True,Provisional RNA beta-chain; DRA01:01 assumed
+WIEERRSRRKVS,HLA-DRB1*15:02,BAP1_52_12,BAP1,wt,12,52,63,"6,7,8,9,10,11,12",True,Provisional RNA beta-chain; DRA01:01 assumed
+WIEERKGLYLGG,HLA-DRB5*01:02,BAP1_52_12,BAP1,mutant,12,52,63,"6,7,8,9,10,11,12",True,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+WIEERRSRRKVS,HLA-DRB5*01:02,BAP1_52_12,BAP1,wt,12,52,63,"6,7,8,9,10,11,12",True,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+WIEERKGLYLGG,HLA-DPA1*01:03/DPB1*02:01,BAP1_52_12,BAP1,mutant,12,52,63,"6,7,8,9,10,11,12",True,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+WIEERRSRRKVS,HLA-DPA1*01:03/DPB1*02:01,BAP1_52_12,BAP1,wt,12,52,63,"6,7,8,9,10,11,12",True,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+WIEERKGLYLGG,HLA-DPA1*01:03/DPB1*04:01,BAP1_52_12,BAP1,mutant,12,52,63,"6,7,8,9,10,11,12",True,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+WIEERRSRRKVS,HLA-DPA1*01:03/DPB1*04:01,BAP1_52_12,BAP1,wt,12,52,63,"6,7,8,9,10,11,12",True,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+WIEERKGLYLGG,HLA-DQA1*01:03/DQB1*02:01,BAP1_52_12,BAP1,mutant,12,52,63,"6,7,8,9,10,11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+WIEERRSRRKVS,HLA-DQA1*01:03/DQB1*02:01,BAP1_52_12,BAP1,wt,12,52,63,"6,7,8,9,10,11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+WIEERKGLYLGG,HLA-DQA1*01:03/DQB1*06:01,BAP1_52_12,BAP1,mutant,12,52,63,"6,7,8,9,10,11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+WIEERRSRRKVS,HLA-DQA1*01:03/DQB1*06:01,BAP1_52_12,BAP1,wt,12,52,63,"6,7,8,9,10,11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+WIEERKGLYLGG,HLA-DQA1*05:01/DQB1*02:01,BAP1_52_12,BAP1,mutant,12,52,63,"6,7,8,9,10,11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+WIEERRSRRKVS,HLA-DQA1*05:01/DQB1*02:01,BAP1_52_12,BAP1,wt,12,52,63,"6,7,8,9,10,11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+WIEERKGLYLGG,HLA-DQA1*05:01/DQB1*06:01,BAP1_52_12,BAP1,mutant,12,52,63,"6,7,8,9,10,11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+WIEERRSRRKVS,HLA-DQA1*05:01/DQB1*06:01,BAP1_52_12,BAP1,wt,12,52,63,"6,7,8,9,10,11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YYIGGRRFSSLQ,HLA-DRB1*03:01,RASA1_239_12,RASA1,mutant,12,239,250,12,False,Provisional RNA beta-chain; DRA01:01 assumed
+YYIGGRRFSSLS,HLA-DRB1*03:01,RASA1_239_12,RASA1,wt,12,239,250,12,False,Provisional RNA beta-chain; DRA01:01 assumed
+YYIGGRRFSSLQ,HLA-DRB1*15:02,RASA1_239_12,RASA1,mutant,12,239,250,12,False,Provisional RNA beta-chain; DRA01:01 assumed
+YYIGGRRFSSLS,HLA-DRB1*15:02,RASA1_239_12,RASA1,wt,12,239,250,12,False,Provisional RNA beta-chain; DRA01:01 assumed
+YYIGGRRFSSLQ,HLA-DRB5*01:02,RASA1_239_12,RASA1,mutant,12,239,250,12,False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+YYIGGRRFSSLS,HLA-DRB5*01:02,RASA1_239_12,RASA1,wt,12,239,250,12,False,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+YYIGGRRFSSLQ,HLA-DPA1*01:03/DPB1*02:01,RASA1_239_12,RASA1,mutant,12,239,250,12,False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+YYIGGRRFSSLS,HLA-DPA1*01:03/DPB1*02:01,RASA1_239_12,RASA1,wt,12,239,250,12,False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+YYIGGRRFSSLQ,HLA-DPA1*01:03/DPB1*04:01,RASA1_239_12,RASA1,mutant,12,239,250,12,False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+YYIGGRRFSSLS,HLA-DPA1*01:03/DPB1*04:01,RASA1_239_12,RASA1,wt,12,239,250,12,False,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+YYIGGRRFSSLQ,HLA-DQA1*01:03/DQB1*02:01,RASA1_239_12,RASA1,mutant,12,239,250,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YYIGGRRFSSLS,HLA-DQA1*01:03/DQB1*02:01,RASA1_239_12,RASA1,wt,12,239,250,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YYIGGRRFSSLQ,HLA-DQA1*01:03/DQB1*06:01,RASA1_239_12,RASA1,mutant,12,239,250,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YYIGGRRFSSLS,HLA-DQA1*01:03/DQB1*06:01,RASA1_239_12,RASA1,wt,12,239,250,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YYIGGRRFSSLQ,HLA-DQA1*05:01/DQB1*02:01,RASA1_239_12,RASA1,mutant,12,239,250,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YYIGGRRFSSLS,HLA-DQA1*05:01/DQB1*02:01,RASA1_239_12,RASA1,wt,12,239,250,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YYIGGRRFSSLQ,HLA-DQA1*05:01/DQB1*06:01,RASA1_239_12,RASA1,mutant,12,239,250,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YYIGGRRFSSLS,HLA-DQA1*05:01/DQB1*06:01,RASA1_239_12,RASA1,wt,12,239,250,12,False,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YIGGRRFSSLQT,HLA-DRB1*03:01,RASA1_240_12,RASA1,mutant,12,240,251,"11,12",True,Provisional RNA beta-chain; DRA01:01 assumed
+YIGGRRFSSLSD,HLA-DRB1*03:01,RASA1_240_12,RASA1,wt,12,240,251,"11,12",True,Provisional RNA beta-chain; DRA01:01 assumed
+YIGGRRFSSLQT,HLA-DRB1*15:02,RASA1_240_12,RASA1,mutant,12,240,251,"11,12",True,Provisional RNA beta-chain; DRA01:01 assumed
+YIGGRRFSSLSD,HLA-DRB1*15:02,RASA1_240_12,RASA1,wt,12,240,251,"11,12",True,Provisional RNA beta-chain; DRA01:01 assumed
+YIGGRRFSSLQT,HLA-DRB5*01:02,RASA1_240_12,RASA1,mutant,12,240,251,"11,12",True,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+YIGGRRFSSLSD,HLA-DRB5*01:02,RASA1_240_12,RASA1,wt,12,240,251,"11,12",True,"Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+YIGGRRFSSLQT,HLA-DPA1*01:03/DPB1*02:01,RASA1_240_12,RASA1,mutant,12,240,251,"11,12",True,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+YIGGRRFSSLSD,HLA-DPA1*01:03/DPB1*02:01,RASA1_240_12,RASA1,wt,12,240,251,"11,12",True,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+YIGGRRFSSLQT,HLA-DPA1*01:03/DPB1*04:01,RASA1_240_12,RASA1,mutant,12,240,251,"11,12",True,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+YIGGRRFSSLSD,HLA-DPA1*01:03/DPB1*04:01,RASA1_240_12,RASA1,wt,12,240,251,"11,12",True,DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing
+YIGGRRFSSLQT,HLA-DQA1*01:03/DQB1*02:01,RASA1_240_12,RASA1,mutant,12,240,251,"11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YIGGRRFSSLSD,HLA-DQA1*01:03/DQB1*02:01,RASA1_240_12,RASA1,wt,12,240,251,"11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YIGGRRFSSLQT,HLA-DQA1*01:03/DQB1*06:01,RASA1_240_12,RASA1,mutant,12,240,251,"11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YIGGRRFSSLSD,HLA-DQA1*01:03/DQB1*06:01,RASA1_240_12,RASA1,wt,12,240,251,"11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YIGGRRFSSLQT,HLA-DQA1*05:01/DQB1*02:01,RASA1_240_12,RASA1,mutant,12,240,251,"11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YIGGRRFSSLSD,HLA-DQA1*05:01/DQB1*02:01,RASA1_240_12,RASA1,wt,12,240,251,"11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YIGGRRFSSLQT,HLA-DQA1*05:01/DQB1*06:01,RASA1_240_12,RASA1,mutant,12,240,251,"11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established
+YIGGRRFSSLSD,HLA-DQA1*05:01/DQB1*06:01,RASA1_240_12,RASA1,wt,12,240,251,"11,12",True,Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established

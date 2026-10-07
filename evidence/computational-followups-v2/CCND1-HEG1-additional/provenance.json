@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-10-05T05:39:10.533729+00:00",
+  "status": "complete_research_unresolved",
+  "prespecified_plan_sha256": "5ee33a33f539521bf4f940e943f0de93a8a8e2783f049077ce85aabff505131d",
+  "scoring_clarification_sha256": "d397245032e6f7659b7d3abad6c9ef8da2f0747cc45496b12c6bb8f38e5c1f7d",
+  "source_preserved": true,
+  "full_RNA_rescan": false,
+  "new_large_index": false,
+  "new_patient_upload": false,
+  "clinical_handoff_modified": false,
+  "independent_best_case_rescoring": 54,
+  "independent_toy_comparisons": 300,
+  "independent_hand_controls": 6,
+  "independent_full_reference_renomination": false,
+  "proposed_sequence_hypotheses": 1,
+  "root_exploratory_end_gap_scripts": "Retained but not patient scoring implementations; affine_window_dp.py is the verified independent scoring convention.",
+  "final_interpretation": "Joined cDNA sequence persists under bounded mismatch/gap-aware reference review; biological antisense RNA versus library chimera remains unresolved. No somatic/driver/actionability claim.",
+  "durable_mirror": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-CCND1-HEG1-audit-v1"
+}

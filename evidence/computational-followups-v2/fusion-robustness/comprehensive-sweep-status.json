@@ -1,0 +1,11 @@
+{
+  "status": "completed_before_stop_attempt",
+  "recorded_utc": "2026-10-05T06:14:47.472804+00:00",
+  "reason": "Parent requested ending redundant extra verification, but the auditor had already exited naturally with code0 before the SIGINT attempt. The signal was not delivered (no such process). No process was killed and no further rerun is needed.",
+  "final_comprehensive_audit": "independent-outcome-audit.json",
+  "final_comprehensive_sha256": "94f9a89fdad2a5fcce4f2bd1c353d0c58148a458a93eece3977ae25881b0c3e8",
+  "final_comprehensive_bytes": 1269876,
+  "final_scientific_signoff": "independent-final-claims-review.json",
+  "final_status": "PASS45cases; all45 comparisons match primary extractor",
+  "original_calls_modified": false
+}

@@ -1,0 +1,33 @@
+Exploratory local RNA HLA analysis — completed 1 October 2026
+
+The class-I sequence pairs match Caris at all three loci, and all nine requested loci are stable at two-field resolution across both reference releases and with or without population-frequency priors. This supports the HLA inputs used for research peptide screening within this specimen; it is not clinical HLA validation or proof of tumor allele retention.
+
+Class I: A*02:01 / A*26:01; B*50:01 / B*52:01; C*06:02 / C*12:02.
+
+Provisional class II: DPB1*02:01 / DPB1*04:01; DQA1*01:03 / DQA1*05:01; DQB1*02:01 / DQB1*06:01; DRB1*03:01 / DRB1*15:02. DPA1*01:03 and DRB5*01:02 are the sole sequence types called at those genes (software repeats each); do not equate this with proven germline homozygosity.
+
+Research value: these provisional class-II types could guide a separate mutation-spanning CD4/long-peptide screening exercise for Michael/Eta. Preserve natural protein sequence and the premature stop in BAP1/RASA1; do not invent residues beyond it. DQ/DP alpha-beta pairing and cross-locus phase remain unresolved. Clinical typing/appropriate research validation would be needed before definitive construct selection.
+
+Input: 2,490,971 complete RNA read pairs (887,610 chr6 proper pairs plus 1,603,361 both-unmapped pairs), no orphans or duplicate primary mate keys, exact paired FASTQ name/sequence/quality roundtrip passed. No MAPQ cutoff or PCR deduplication. Actual patient qualities were preserved; no placeholders.
+
+Method: pinned arcasHLA commit 9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55, official kallisto 0.44.0, standard complete references IMGT3.24.0 and3.46.0. One thread. Minimum 75 gene-assigned fragment counts, EM tolerance1e-6, 1000 iterations, low-abundance drop0.1 after20 iterations, zygosity threshold0.15. Both default-prior and no-prior analyses completed. All commands, reference hashes, model diagnostics and original logs are retained.
+
+Important limits:
+- Exploratory arcasHLA typing from FFPE bulk tumor/admixed RNA; not accredited clinical HLA typing, not independent confirmation of germline HLA, and not evidence of tumor allele retention or HLA LOH.
+- Class-I comparison with Caris exome calls is an internal cross-assay check within the same specimen, not an independent tissue validation. Class-II calls have no provided clinical comparator.
+- Reference sensitivity is reported for both versions without selecting a favorable answer. Same-reference public regression passed all seven loci on IMGT3.24; the newer IMGT3.46 public example had B/DQB1/DRB1 differences from the old standard-stage expectation, with DRB1 still different from final partial-stage expectation.
+- Only standard complete-reference typing was run; optional partial-reference stage was omitted because its derived index exceeded the agreed public-reference disk limit. Partial alleles or rare alleles may remain unresolved.
+- No matched normal. Tumor/normal admixture and allele-specific expression can mask loss or create apparent homozygosity. Bulk HLA-II expression may come from infiltrating antigen-presenting cells, not malignant cells.
+- Two-field pairs are the reporting resolution. Higher-field printed labels are representatives of compatible sequences and do not establish higher-resolution typing.
+- Repeated DPA1 or DRB5 allele labels are sole sequence types called by the RNA algorithm, not proof of two genomic copies. DRB3/4/5 gene-content variation especially complicates diploid interpretation. DPA1 and DRB5 were outside the seven-locus bundled regression control.
+- Model transcript abundances, explained-fragment percentages, and minor/major nonshared ratios are diagnostics, not calibrated genotype confidence probabilities. Paired-end kallisto count units are fragments/pairs, despite arcasHLA log language calling them reads; no UMI or PCR deduplication.
+- Cross-locus phase is not established. Any DQ/DP prediction must address alpha/beta chain combinations and use a class-II method; current class-I peptide scoring cannot be relabeled class II.
+- This is not a full RNA reanalysis or comprehensive antigen-presentation audit. No protein presentation, T-cell response, or vaccine efficacy is measured.
+
+Reproducibility: extract-patient.py; run-patient-genotypes.py; patient-prior-sensitivity.py; compile-patient.py. See patient-HLA-findings.json, patient-HLA-comparison.tsv, patient-extraction.json, public controls and source manifests in this directory.
+
+Primary sources:
+https://github.com/RabadanLab/arcasHLA
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6956775/
+https://link.springer.com/article/10.1186/s13073-023-01154-x
+https://www.nature.com/articles/nature22991

@@ -1,0 +1,815 @@
+{
+  "created_utc": "2026-10-05T07:15:34.723903+00:00",
+  "scope": "Completed population-panel technical addendum; prior v2 milestone unchanged",
+  "included_files": [
+    {
+      "path": "DNA/chr17.bed",
+      "bytes": 494366,
+      "sha256": "9a8242c0f0c11e3fe15a1e8ae10bc32224fafb5c400c4a5690fdb4c92801fec8"
+    },
+    {
+      "path": "DNA/chr17.run.json",
+      "bytes": 1384,
+      "sha256": "bc2f1329a1fdcde65e5aaee9f798490d1c25ebe48b820c255dc43050db80a8d6"
+    },
+    {
+      "path": "DNA/chr17.tsv",
+      "bytes": 1323712,
+      "sha256": "2b8e749405a32ab79bb1825b22755bc9d334ae4447c024fbb3a9f05b2e64a28a"
+    },
+    {
+      "path": "DNA/chr2.bed",
+      "bytes": 938341,
+      "sha256": "c88d8560fa372093bc2cf6f028034b0f11b9ae06c863acb1a04544f1c8ea44d4"
+    },
+    {
+      "path": "DNA/chr2.run.json",
+      "bytes": 1379,
+      "sha256": "d2d69e29118d33fef4083a1bd060f9cbc83dd51fa10495d444288ced6535797d"
+    },
+    {
+      "path": "DNA/chr2.tsv",
+      "bytes": 1694484,
+      "sha256": "23eaead32060be30b170db091f9f88bf0faf877a832b72729ddbbb19a97f1a0e"
+    },
+    {
+      "path": "DNA/chr3.bed",
+      "bytes": 782246,
+      "sha256": "c7999c7bb6ec487846192adcd441e3fef2c2d4e91366f82962170a1624b76a92"
+    },
+    {
+      "path": "DNA/chr3.run.json",
+      "bytes": 1377,
+      "sha256": "25f8d228a3fbd10d9d90cb21754dfc896ba069c225b7a4bcd7e44cfd3c149200"
+    },
+    {
+      "path": "DNA/chr3.tsv",
+      "bytes": 1355393,
+      "sha256": "3497b3c933ed44a4aaf2308921b226b5e8d950037799a69573eca88af57f65bc"
+    },
+    {
+      "path": "DNA/chr5.bed",
+      "bytes": 680740,
+      "sha256": "3c6860e58e8f4a2f02c4db87ea297ef65b417aedabca0e029e0ef2d723107c08"
+    },
+    {
+      "path": "DNA/chr5.run.json",
+      "bytes": 1379,
+      "sha256": "0e781a677caa3a2d7b2390268bf614ba8b19190fb85d46533ffafc3f35039464"
+    },
+    {
+      "path": "DNA/chr5.tsv",
+      "bytes": 1165156,
+      "sha256": "e23ef4b8ddb894e1166683c0b73aed10a65d7874862238d59bc81c6fb720272d"
+    },
+    {
+      "path": "DNA/chr8.bed",
+      "bytes": 527062,
+      "sha256": "bf0a8ed4a63e11081fd17ef3e314cefc7badd4cde0b5c2e055d73c8cf0b9ddba"
+    },
+    {
+      "path": "DNA/chr8.run.json",
+      "bytes": 1379,
+      "sha256": "600fad98ef697856ae69aef4b37095d242f098c0907529dd77ae108cfac0df83"
+    },
+    {
+      "path": "DNA/chr8.tsv",
+      "bytes": 891526,
+      "sha256": "6799eb5b39639888035b6b3d89457a17abc624426b1b43d0ae2e2f26aad3dedf"
+    },
+    {
+      "path": "DNA/chr9.bed",
+      "bytes": 522940,
+      "sha256": "93416c80403a930ddce5388033aed26714fa23ab317fa92d198009c980884ddb"
+    },
+    {
+      "path": "DNA/chr9.run.json",
+      "bytes": 1378,
+      "sha256": "80c0845b98cfa7d1de6ba09cf37a940c009870e88717179e091a77d27d3551fd"
+    },
+    {
+      "path": "DNA/chr9.tsv",
+      "bytes": 978762,
+      "sha256": "85d7b5319bdc68e093aad5e99ff5836f35a30aef8a094a9ed8a6e423e8d61d6f"
+    },
+    {
+      "path": "RNA/chr17.bed",
+      "bytes": 494366,
+      "sha256": "9a8242c0f0c11e3fe15a1e8ae10bc32224fafb5c400c4a5690fdb4c92801fec8"
+    },
+    {
+      "path": "RNA/chr17.run.json",
+      "bytes": 1385,
+      "sha256": "28e9226c647043bbfa00c7ecb09f3f14ae490a638c91bd3010c7781156932d25"
+    },
+    {
+      "path": "RNA/chr17.tsv",
+      "bytes": 1419576,
+      "sha256": "d891911abb6e2a8d5b367b08e18fca1f5850422f51e39a5974906d9f3b1fabd7"
+    },
+    {
+      "path": "RNA/chr2.bed",
+      "bytes": 938341,
+      "sha256": "c88d8560fa372093bc2cf6f028034b0f11b9ae06c863acb1a04544f1c8ea44d4"
+    },
+    {
+      "path": "RNA/chr2.run.json",
+      "bytes": 1380,
+      "sha256": "3362223e68f364af22a589a213ffe0f76c9f2314c195c27447653c2c125b8663"
+    },
+    {
+      "path": "RNA/chr2.tsv",
+      "bytes": 1844492,
+      "sha256": "6aa7fb28e6179e8302a83a709748b824940f00819d68c8ae6e76fbeae5743174"
+    },
+    {
+      "path": "RNA/chr3.bed",
+      "bytes": 782246,
+      "sha256": "c7999c7bb6ec487846192adcd441e3fef2c2d4e91366f82962170a1624b76a92"
+    },
+    {
+      "path": "RNA/chr3.run.json",
+      "bytes": 1381,
+      "sha256": "db4966f4bef91fd7ccf078c2336c83c732913b9cb87a8c9e6e52d71c0c6c5115"
+    },
+    {
+      "path": "RNA/chr3.tsv",
+      "bytes": 1586972,
+      "sha256": "fe1208f4f94cdeb9f2286e1edd9315083ee9ad0be9473a771e3d6f8f7824dd65"
+    },
+    {
+      "path": "RNA/chr5.bed",
+      "bytes": 680740,
+      "sha256": "3c6860e58e8f4a2f02c4db87ea297ef65b417aedabca0e029e0ef2d723107c08"
+    },
+    {
+      "path": "RNA/chr5.run.json",
+      "bytes": 1382,
+      "sha256": "d89b30fb21a295dc35d954939c18502c52a4a911acc0a3eccfbccb85e1db7612"
+    },
+    {
+      "path": "RNA/chr5.tsv",
+      "bytes": 1327865,
+      "sha256": "7104f67d32a82886ceac7a407c06f47f4a2dd6b6b06d9f601064640362072751"
+    },
+    {
+      "path": "RNA/chr8.bed",
+      "bytes": 527062,
+      "sha256": "bf0a8ed4a63e11081fd17ef3e314cefc7badd4cde0b5c2e055d73c8cf0b9ddba"
+    },
+    {
+      "path": "RNA/chr8.run.json",
+      "bytes": 1380,
+      "sha256": "1ea5a1be585821eb98a3b3ab9d203dc02a78082ded419dfd2cc700a834f94c29"
+    },
+    {
+      "path": "RNA/chr8.tsv",
+      "bytes": 937217,
+      "sha256": "d5504428fa76bc6e079b91541f5a13a99cbc991396df6ede79357c84f9596cfb"
+    },
+    {
+      "path": "RNA/chr9.bed",
+      "bytes": 522940,
+      "sha256": "93416c80403a930ddce5388033aed26714fa23ab317fa92d198009c980884ddb"
+    },
+    {
+      "path": "RNA/chr9.run.json",
+      "bytes": 1381,
+      "sha256": "edd830919634d69f4cbbeeaabbe52980221e31390615045ca248d6ae1ad50d48"
+    },
+    {
+      "path": "RNA/chr9.tsv",
+      "bytes": 1048204,
+      "sha256": "dcff65d5d6d82b05e2869b2d992b082a924b17b3e7b0cddd027c870183b3f420"
+    },
+    {
+      "path": "all-public-loci-counts.tsv",
+      "bytes": 52069564,
+      "sha256": "8ffd169966439dfa9de994b7dd8bd9207b75357fcfc0a4afa0d7480b08527655"
+    },
+    {
+      "path": "analysis-completion.json",
+      "bytes": 1187,
+      "sha256": "ac85b0d6e3da4c91f542485ef9cd706f5502324fa9ba56248f74838f80ed1a14"
+    },
+    {
+      "path": "count-complete.json",
+      "bytes": 18917,
+      "sha256": "3035393aee8d555e5590d849e6664c0671663527bfc1256d8e7490c8d4c4c0df"
+    },
+    {
+      "path": "count-progress.json",
+      "bytes": 17660,
+      "sha256": "37051587c091a32cb963e070927df59443147bcce130f62ca29fa2595616441f"
+    },
+    {
+      "path": "coverage-attrition.tsv",
+      "bytes": 742,
+      "sha256": "d73cf60f27a2877e20b6bef30e155630e5d0681a9c931f4e737dbb412cfdc77c"
+    },
+    {
+      "path": "delivery/Caris-DNA-RNA-population-panel-addendum-2026-10-05.pdf",
+      "bytes": 10264,
+      "sha256": "331a2e4a6a70f0cdfba3984be2ee78b053013a3908e7770b2c792e8c26535cba"
+    },
+    {
+      "path": "delivery/Caris-DNA-RNA-population-panel-addendum-2026-10-05.txt",
+      "bytes": 8686,
+      "sha256": "c8f942755eca31ccbfe71854bc6cff8a32d54f2dd30fc9ed2c07dcfdd28e6411"
+    },
+    {
+      "path": "delivery/Caris-population-panel-morning-update-2026-10-05.txt",
+      "bytes": 3899,
+      "sha256": "3132b86bac48a3cbad0db47f7ed66c537bdd089328733d5ce56ba333125cc2a9"
+    },
+    {
+      "path": "delivery/editorial.json",
+      "bytes": 1066,
+      "sha256": "fbe48b838a89ff9d2f3eeece774e02ea4370026d8d7e8eb8ef27c58f99be78e7"
+    },
+    {
+      "path": "delivery/final-content-approval.json",
+      "bytes": 1079,
+      "sha256": "229a41e37ba3eb467f24e1df140f240ee813c9e692ff6cf02cea95c8b73727ba"
+    },
+    {
+      "path": "delivery/independent-editorial-review.json",
+      "bytes": 3773,
+      "sha256": "613a81622f267a779a0aa56be72180d5344dfac0fd000ae9105fe59447354123"
+    },
+    {
+      "path": "delivery/package_addendum.py",
+      "bytes": 3981,
+      "sha256": "b54250a689dd9b5eea7e8f1071f47d84e88f0aad211a47dd768b0c6da0fef1a8"
+    },
+    {
+      "path": "delivery/render_addendum.py",
+      "bytes": 10542,
+      "sha256": "94fa9846052b6c5068e162f9c0209cc64d00bd43233c581272ec19ea5cbca2aa"
+    },
+    {
+      "path": "design-frozen.json",
+      "bytes": 5596,
+      "sha256": "90a153f630375103363792037618d93a864b01bad029575f36d6a3a382ee0bfa"
+    },
+    {
+      "path": "design-frozen.sha256",
+      "bytes": 85,
+      "sha256": "b9c51030a78590d03e9493cc71752e4e4e1b85398572de78fa6f88b49af2ced8"
+    },
+    {
+      "path": "design-proposed.json",
+      "bytes": 4825,
+      "sha256": "16093cdca4065cf729f48d7ac49e1d6354f65539b8a21c0af895d826eeb59431"
+    },
+    {
+      "path": "discordance-read-origin/all-site-read-records.jsonl.gz",
+      "bytes": 1228012,
+      "sha256": "a266de226b43e070857f6e95b6467ec757767ab9269fdc7f9173ec4f676c1129"
+    },
+    {
+      "path": "discordance-read-origin/amendment-MAPQ60-only.json",
+      "bytes": 688,
+      "sha256": "1689f4a287a081e9ffc1e415c50753f3e0531645ee83daa22c5493ff807cdaf4"
+    },
+    {
+      "path": "discordance-read-origin/build_findings.py",
+      "bytes": 11436,
+      "sha256": "74a98900bedf356e5dc9fcbb3a42d5a7695db5b87f2becd19e1330cc6dd6b293"
+    },
+    {
+      "path": "discordance-read-origin/candidate-position-mapping.json",
+      "bytes": 157784,
+      "sha256": "2eb161d7ed3febec2678a1d1a21692b194db06e530f7377ee08b7e16d07a663d"
+    },
+    {
+      "path": "discordance-read-origin/checksums.json",
+      "bytes": 3049,
+      "sha256": "9c2aff76bea0cc0b478ca1019e4c6539017c10593b023aff9b64247a77934455"
+    },
+    {
+      "path": "discordance-read-origin/completion-receipt.json",
+      "bytes": 595,
+      "sha256": "2905d3d9fb170be1943489d715b5ca0cef2d980aaaa08674cce636ce51156666"
+    },
+    {
+      "path": "discordance-read-origin/extract_context.py",
+      "bytes": 7831,
+      "sha256": "fa816edbb29c53260e4b91bc00eec9993014790c8cac0a1f5d6822759c254ee0"
+    },
+    {
+      "path": "discordance-read-origin/findings.json",
+      "bytes": 119142,
+      "sha256": "25e36b114e28a016104d5ec761ee9184dec75a8fb977e587e41483e077357f03"
+    },
+    {
+      "path": "discordance-read-origin/findings.txt",
+      "bytes": 6987,
+      "sha256": "1262e097ceca0dc7d0247c1dd2fed27ab2de6a2979037b8c2098dcde83d7c184"
+    },
+    {
+      "path": "discordance-read-origin/map_candidate_positions.py",
+      "bytes": 2994,
+      "sha256": "6003c27fd91373bc62542c8e7b5ba5177635fce294e589dd7861e03238b479d9"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/control-and-cap-summary.json",
+      "bytes": 3160,
+      "sha256": "f04e3d50f5d85ce488b2b14b74500e0a6137b71188201a7146cd5f35875af899"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/controls.json",
+      "bytes": 3577,
+      "sha256": "2d60f7c3509bb88b3744ab920de7c5ca7876985896aad797f2aad0ca099fb319"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/independent-affine-audit.json",
+      "bytes": 100917,
+      "sha256": "caca035476e2bc782076f80221f3b717438ab533dccd3d12911f03440f3fc68c"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/independent-rescore-cases.json",
+      "bytes": 708105,
+      "sha256": "510112d98e4621183efd15e706bc687434aa5907523d88a0b73bdc9550aac17e"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/independent_affine_audit.py",
+      "bytes": 1963,
+      "sha256": "c000066974803615a440decc486ef714d8809d7e5fcea53d5bad02aa58bcfe0d"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/nominate.py",
+      "bytes": 5080,
+      "sha256": "98bb0c5ac29f4613d128abe97fbe52a4419d36f8bd4d5cb69e20b214a09dfd92"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/nominations.json",
+      "bytes": 5335156,
+      "sha256": "a8c43fe87b594e9e810ca53a5c793efa6e05ae222b8b91b2866b9a66d597cec3"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/patient-queries.json",
+      "bytes": 372476,
+      "sha256": "9fae5bc946a80fec372d16ea6e129c9576d5ddb521d6b92b6023184a6734151b"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/queries-with-controls.json",
+      "bytes": 376050,
+      "sha256": "e003c80010e2257408d205c472447540732a2c6aaf54c4baad5505c3141a7d82"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/score.py",
+      "bytes": 6251,
+      "sha256": "f9782b122c04b8a4f37507c6bbbcc29198a115f2266a299bc64f4d6dce94784b"
+    },
+    {
+      "path": "discordance-read-origin/ordinary-reference-search/scored-results.json",
+      "bytes": 9696404,
+      "sha256": "ab4056fe86516b665afad3c9d541cd104e8e460da8e28e29aca41ffbfe4c78b5"
+    },
+    {
+      "path": "discordance-read-origin/per-locus-findings.tsv",
+      "bytes": 5474,
+      "sha256": "4f6685a1ab5bf1696554cc6e6026a998d2240fa186906447c6400987bd895731"
+    },
+    {
+      "path": "discordance-read-origin/plan.json",
+      "bytes": 2293,
+      "sha256": "e0d8b1961d784b19a59ce568ccc2bfab4af428de1d25e41e1b8636eb5b8bea29"
+    },
+    {
+      "path": "discordance-read-origin/plan.sha256",
+      "bytes": 76,
+      "sha256": "ebd763bee826d513dd959dd5f4d3e29f94ef1b740a527a54ad5545c4e845b49f"
+    },
+    {
+      "path": "discordance-read-origin/provenance.json",
+      "bytes": 1846,
+      "sha256": "b049038aecd90ee98f1620d8c85ad4b4fd4896c9709f1b7e8679b58d7443a6fe"
+    },
+    {
+      "path": "discordance-read-origin/public-local-annotation.json",
+      "bytes": 95067,
+      "sha256": "b01fd02705c33b7fb9f3b4c9e2dbd5f7668a39effd9fac56f5484ef85dcaa419"
+    },
+    {
+      "path": "discordance-read-origin/read-context-summary.json",
+      "bytes": 355020,
+      "sha256": "bfeb86b60dd240fd7fec32c364c6ababffb4ae167215cae520b02a26e5f9e189"
+    },
+    {
+      "path": "discordance-read-origin/representative-reads.json",
+      "bytes": 2641637,
+      "sha256": "24e986f0edb12f9e310ebfbdb7a0d125340ab41a71b66a1f7cc083751087c6ca"
+    },
+    {
+      "path": "discordance-read-origin/specific-context-metrics.json",
+      "bytes": 6962,
+      "sha256": "b53f73894363fbf77a2fbe25394a3e8dbae4cad3d4dc025713e48ba886d351b9"
+    },
+    {
+      "path": "discordance-read-origin/specific_context_metrics.py",
+      "bytes": 2564,
+      "sha256": "66abc81a5aa868403e405730f9825356a07a36774b7c17549f84fd209c1a5301"
+    },
+    {
+      "path": "discordance-read-origin/synthetic-controls.json",
+      "bytes": 227,
+      "sha256": "c2d5c9c4f9dd4386c94b39731bebf33b1429e7d427a3d5692251f7443587c179"
+    },
+    {
+      "path": "discordance-triage.tsv",
+      "bytes": 4114,
+      "sha256": "a4e3c04f975b3b3307e9d959f0ccfe942cfed766d416f1888ba4576905f66256"
+    },
+    {
+      "path": "independent-count-audit/DNA-audit.json",
+      "bytes": 2279,
+      "sha256": "249dc92b4b1e738a95033210bd89e5fbcb9657f5c453434a4007c8cae1b6f2a7"
+    },
+    {
+      "path": "independent-count-audit/DNA-direct-counts.tsv",
+      "bytes": 494203,
+      "sha256": "15c747896abba361b1bca17b0bc182bed90c80212bc8194ed8e576c07d5843b7"
+    },
+    {
+      "path": "independent-count-audit/DNA-progress.json",
+      "bytes": 133,
+      "sha256": "defe0f7116f77a21482fa74ec79380b7f49307b031294d18a219fcd5ff2d3816"
+    },
+    {
+      "path": "independent-count-audit/RNA-audit.json",
+      "bytes": 2281,
+      "sha256": "e5aa00e4e50ef45a80f2436b11fdfdf3e78a35eab66e87f65142f860da0496c5"
+    },
+    {
+      "path": "independent-count-audit/RNA-direct-counts.tsv",
+      "bytes": 461462,
+      "sha256": "80ef5df04399ccd3384a0738bf5995478a3271c37d811d81eae294226e338ad7"
+    },
+    {
+      "path": "independent-count-audit/RNA-progress.json",
+      "bytes": 132,
+      "sha256": "cf73bac99e895e0fdb5851b797ab61eca548b902f57eb69171330aa76a5364ae"
+    },
+    {
+      "path": "independent-count-audit/all13-below90-dominant-sites.tsv",
+      "bytes": 4018,
+      "sha256": "f9db2dc6062dc1d19fae1ecb2c29eaf415d564602ee14e972f001a0dd5c3f0f8"
+    },
+    {
+      "path": "independent-count-audit/direct_count.py",
+      "bytes": 6995,
+      "sha256": "dbbb83f81eb90c92da1ae3005285200ef76d397b56951589c11f16857b1ea5be"
+    },
+    {
+      "path": "independent-count-audit/exception-tables-schema.json",
+      "bytes": 1283,
+      "sha256": "1239d69592644581704822d28bc62579600f89ae090ca3fac409c25e72490ae1"
+    },
+    {
+      "path": "independent-count-audit/finalize_audit.py",
+      "bytes": 7939,
+      "sha256": "f1a0a4ca6e8cf7dae3fc2c70269b13275aa1ab303be7ae0abcea0a21818a5e6d"
+    },
+    {
+      "path": "independent-count-audit/findings.txt",
+      "bytes": 6604,
+      "sha256": "d01bed8718d736afb56bb06dd45cf83ea9c546feb42aa519bbce9a0be934f024"
+    },
+    {
+      "path": "independent-count-audit/independent-audit-manifest.json",
+      "bytes": 3412,
+      "sha256": "39c501703584ebbb07f10cb09aa3ce94331b441179cb84d0e0b1d75780f3d135"
+    },
+    {
+      "path": "independent-count-audit/independent-observed-versus-ACGT-coverage.json",
+      "bytes": 556,
+      "sha256": "5a476102762f798315e14418d653a84eed2b347e406f41840754530a4b6e3203"
+    },
+    {
+      "path": "independent-count-audit/independent-summary-audit.json",
+      "bytes": 3804,
+      "sha256": "9ca9433cd26497c92db85fe586a0587081555650f536563bf53039a0116db30b"
+    },
+    {
+      "path": "independent-count-audit/independent-target-intersection.json",
+      "bytes": 1117,
+      "sha256": "0830a2512201f8130d08d82f7490ca6ea2ecc7053e431af4d08e1aacccd9c3d0"
+    },
+    {
+      "path": "independent-count-audit/preliminary-exact-discordances.json",
+      "bytes": 6622,
+      "sha256": "655935739782ac1e2e303eeeb4daa652d45f7db89d8288cc34c6de39dd655fd7"
+    },
+    {
+      "path": "independent-count-audit/sensitivity-and-exact-discordances.json",
+      "bytes": 22660,
+      "sha256": "ce5004c4412ce9f34906eb84c65815f868decd014675301446b047b27fa947d3"
+    },
+    {
+      "path": "independent-count-audit/sensitivity_summary.py",
+      "bytes": 4134,
+      "sha256": "3e121bf50b3fc1b4b9bc05c05cc448f15f9575da88b11e4901e9b18707243cbc"
+    },
+    {
+      "path": "independent-count-audit/summary_audit.py",
+      "bytes": 5158,
+      "sha256": "5bc1003e8dee840ef7db170e2cf73d5ef33fed850794e8dc6ed773978a8bac13"
+    },
+    {
+      "path": "independent-count-audit/synthetic-qualification.json",
+      "bytes": 3420,
+      "sha256": "839f06af7f1e24a012d1bee4a6be65df50ac8f6df870a5a92a04c08716ff688c"
+    },
+    {
+      "path": "independent-count-audit/three-MAPQ60-only-flags.tsv",
+      "bytes": 1643,
+      "sha256": "9c65e107b8df1609e7f484914e048e8730363ca8de89fe38bf9f9921cda9826a"
+    },
+    {
+      "path": "independent-design-review.json",
+      "bytes": 11941,
+      "sha256": "7d0f99ea22f33bbb5f7272ca73453d8622f737353088319c4c90f46bb3fa1e6d"
+    },
+    {
+      "path": "independent-design-review.txt",
+      "bytes": 2507,
+      "sha256": "1d194b4504f002f7abce4789b508fabad16e6f8a5e036b4cecadb475015069dd"
+    },
+    {
+      "path": "input/annotation.json",
+      "bytes": 10855710,
+      "sha256": "6d4609a5854a923ee41de146dc13dad9d40bafb4736b17084256c48b8754f5fb"
+    },
+    {
+      "path": "input/common-SNP-recount.method.json",
+      "bytes": 8457,
+      "sha256": "abc0abdb05b362c1b5b95a1aa31d640a3eb33d5eb3031779d2d1446cc0dce7b4"
+    },
+    {
+      "path": "input/public-common-SNP-alleles.annotated.tsv",
+      "bytes": 8042988,
+      "sha256": "a311e4b52696c5a413000cf5fec47761619551169f926baa8954d6cfe67f42ed"
+    },
+    {
+      "path": "input/public-common-SNP-panel.tsv",
+      "bytes": 11222791,
+      "sha256": "16435c85aff7e14589e41ef81e06151d912739ddd0144b1480abd7612f13b0b3"
+    },
+    {
+      "path": "input/public-panel-selection.json",
+      "bytes": 1145,
+      "sha256": "cc99af81d48334319a08eec897fd90852840893d3e2a58867217e78429e3c303"
+    },
+    {
+      "path": "joint-callable.tsv",
+      "bytes": 1685985,
+      "sha256": "25934a24cd3057c0324d116fe5f67ad3584e1d0a131efa8a77481fc8fd0ede8d"
+    },
+    {
+      "path": "new-alignment-dependence/compare_targeted_alignments.py",
+      "bytes": 12268,
+      "sha256": "aac02a1150d1b81000fea701a64e523ea1f7cd6a5be14c1e5484df7802efd773"
+    },
+    {
+      "path": "new-alignment-dependence/comparison.tsv",
+      "bytes": 31,
+      "sha256": "17a3d27bbb7345518b30c9e0614d249b7e6f1a893b91ac58bc0bdd6399e7f022"
+    },
+    {
+      "path": "new-alignment-dependence/findings.txt",
+      "bytes": 1585,
+      "sha256": "7e7fe128b2d71e86242b87ef48fbf8f0cd59fbe2a2d4c368768d52d89b674bbe"
+    },
+    {
+      "path": "new-alignment-dependence/provenance.json",
+      "bytes": 35910,
+      "sha256": "2a77b2f39827e6cf94817f09c17e5eb9883ed9373329bd836902f2dad54dd64c"
+    },
+    {
+      "path": "new-alignment-dependence/qname-evidence.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "new-alignment-dependence/qualification.json",
+      "bytes": 422,
+      "sha256": "6e1004656d74a42a4a72ba798b6aeb5e28c59a46583a86edc908de3871539f26"
+    },
+    {
+      "path": "new-alignment-dependence/summary.json",
+      "bytes": 2578,
+      "sha256": "6168c7476888de6494189f019b0b6005f15e40bff14f0ddd62c0f7215be327e6"
+    },
+    {
+      "path": "new-alignment-dependence/target-panel-coverage.tsv",
+      "bytes": 3516,
+      "sha256": "54008cab75a728857cb64d2464359f1e20cc2fe1827e6bcf16f97291afa7deff"
+    },
+    {
+      "path": "old-DNA-comparison.json",
+      "bytes": 496,
+      "sha256": "fd9645f8e6b2732eef0a2fd64e344b70a7525bd521d90fbf8efcd07c1cee50e5"
+    },
+    {
+      "path": "old-DNA-count-differences.tsv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "primary-summary.json",
+      "bytes": 10936,
+      "sha256": "278ec73aab0f2554c30d8e4a948d48e64c20b6e70b477e8a45d1bf3693bf8bc3"
+    },
+    {
+      "path": "public-annotation/annotate_public_panel.py",
+      "bytes": 10640,
+      "sha256": "663a54e992b66498cdfde8514400c524befeb8af138dea22eb108f4498ef04ae"
+    },
+    {
+      "path": "public-annotation/boundary-validation.json",
+      "bytes": 3283,
+      "sha256": "1a59b15d0b9adc395f34bff79ab50b341e78567cd869376ab05e7dafd07b20a3"
+    },
+    {
+      "path": "public-annotation/findings.txt",
+      "bytes": 1929,
+      "sha256": "a710002afc4e714ab512d3681c4c097fac615c6c5dce2b140eadafee013ce5bf"
+    },
+    {
+      "path": "public-annotation/independent-annotation-audit.json",
+      "bytes": 37571,
+      "sha256": "6725a7c9a530a7fd4277ce502b3e8486b9420b4fff7ee1587b2d469a39c22f52"
+    },
+    {
+      "path": "public-annotation/independent_annotation_audit.py",
+      "bytes": 4235,
+      "sha256": "84e52cc7e0d4d85a40cee10b6a840a42bbf7ae11f280f3927b6fbb79c6622389"
+    },
+    {
+      "path": "public-annotation/overlapping-gene-inventory.tsv",
+      "bytes": 694097,
+      "sha256": "2ce9ac4363e276714587b2686a7ec8f4dee66605c57f1d81bd277f59fb7ca85a"
+    },
+    {
+      "path": "public-annotation/provenance.json",
+      "bytes": 2887,
+      "sha256": "c171060a7eb146d90a0c8063bcb0cc63cc4b075c169c4f9dfd9b05dcfe6808e3"
+    },
+    {
+      "path": "public-annotation/public-panel-gene-annotations.tsv",
+      "bytes": 31402379,
+      "sha256": "6312736f1c3cfaf4a5881f09a601117262905d55c24daf286b66f312e4ede250"
+    },
+    {
+      "path": "public-annotation/summary.json",
+      "bytes": 5411,
+      "sha256": "7e0c67beb47ed4ba6b8c5e9f4c464a3fa946bd9d2ff471ed2450ab0766f32104"
+    },
+    {
+      "path": "public_counter_source.py",
+      "bytes": 10240,
+      "sha256": "a22184bc3b70c9a10ed368963d097e8452486d164c5354c3ee9deac5739fa6cc"
+    },
+    {
+      "path": "qualification/depth-0.pileup",
+      "bytes": 321839,
+      "sha256": "59d7284724d33c4937af35990b2abd807102495f6c8f29c6fde5b8b5d1283ff2"
+    },
+    {
+      "path": "qualification/depth-100.pileup",
+      "bytes": 1601,
+      "sha256": "d99251392739a9c3b2476ab5760643386d222ec93edab38cc7e98b25c3de9ed7"
+    },
+    {
+      "path": "qualification/depth-control.bam",
+      "bytes": 59817,
+      "sha256": "e2a939850ba45d29fc2bad77a5d8eb58d9d8500c5e1b639dd3d2a3dd5a87d6b4"
+    },
+    {
+      "path": "qualification/depth-control.bam.bai",
+      "bytes": 96,
+      "sha256": "647bf37a7969854af6415ee17f5df3cfdf44b9fd5dfdf23f5c1ad57385b2f514"
+    },
+    {
+      "path": "qualification/depth-control.bed",
+      "bytes": 16,
+      "sha256": "d922c4cb20572a8947d798af38fc1a50dc01c7ba6fdaab5b01662090f50c0a3e"
+    },
+    {
+      "path": "qualification/qualification.json",
+      "bytes": 4420,
+      "sha256": "210a60daee82d0806e52fd8b5809aaf55b75cb6ff0b42c80865cac5c0ccabdbf"
+    },
+    {
+      "path": "qualification/synthetic-control/control.bam",
+      "bytes": 351,
+      "sha256": "33d2c1c53d7bb5d06b7afc23472873be0c3e1a77f0d82b43e7b8ef287f3f7ad0"
+    },
+    {
+      "path": "qualification/synthetic-control/control.bam.bai",
+      "bytes": 96,
+      "sha256": "0fe377a6b6592b5a836bea6d0e5f49bbbf82a9dd019ad8ec98585c9458c88713"
+    },
+    {
+      "path": "qualification/synthetic-control/control.pileup",
+      "bytes": 89,
+      "sha256": "90ae36712fbc6c11cd4717a2e82e31a2fc88a0749035f7b85c7f99c01c3cd6f0"
+    },
+    {
+      "path": "qualification/synthetic-control/positions.bed",
+      "bytes": 16,
+      "sha256": "d922c4cb20572a8947d798af38fc1a50dc01c7ba6fdaab5b01662090f50c0a3e"
+    },
+    {
+      "path": "qualification/synthetic-control/result.json",
+      "bytes": 1508,
+      "sha256": "2fcd69d5e0a595f4597779e2ed9b754c394a3fb3d2724936db40b13c7aa009b7"
+    },
+    {
+      "path": "run_population_counts.py",
+      "bytes": 8041,
+      "sha256": "cd5a589093bfcb1b409738466a84bd6500ae347682640ad66f8f8b6d37b9c9a8"
+    },
+    {
+      "path": "summarize_population.py",
+      "bytes": 8162,
+      "sha256": "f9ebd20c46ede9b710bc49e4e8013fd662a0bc76fec5101b58599cfc406bfb71"
+    },
+    {
+      "path": "supplemental-coverage.json",
+      "bytes": 1495,
+      "sha256": "aa93a6371fb3ee17395f5cb6be9e0287182029ee81a720e3b84b3f2355c1231e"
+    }
+  ],
+  "excluded_large_raw_pileups_preserved_resident": [
+    {
+      "path": "DNA/chr17.pileup.gz",
+      "bytes": 15874392,
+      "sha256": "91709e16946507bad8f15c290cab2c54b1ae96268d99c0f17a5a6e11b5331596"
+    },
+    {
+      "path": "DNA/chr2.pileup.gz",
+      "bytes": 14129226,
+      "sha256": "6a5d28a6ed31b0ddf087b53770a9752de167f9addcb9a75d2539539f3da25286"
+    },
+    {
+      "path": "DNA/chr3.pileup.gz",
+      "bytes": 10453015,
+      "sha256": "95d3b26c7e8701efd3d67c244ef6fde0bc092b45e1f41c57310a416deeeebff3"
+    },
+    {
+      "path": "DNA/chr5.pileup.gz",
+      "bytes": 13651770,
+      "sha256": "1a070846ce18fdfe6b80a7b356a4ad513ab7c6b8f4ce3c517bbb638333b8b2ea"
+    },
+    {
+      "path": "DNA/chr8.pileup.gz",
+      "bytes": 7470509,
+      "sha256": "5a4064588fb2d24a82d3bd72d9c682b10858b6ac36a547ab6b00e7420084f3d6"
+    },
+    {
+      "path": "DNA/chr9.pileup.gz",
+      "bytes": 9665439,
+      "sha256": "8da818deafe81e59f3c49b28130e1c0d4193038136b9870c295d298e9de2b7d2"
+    },
+    {
+      "path": "RNA/chr17.pileup.gz",
+      "bytes": 14212759,
+      "sha256": "527b5414f0f64a96730ce213f368f6e6b1443df63db2adb28d7fe508bb289af4"
+    },
+    {
+      "path": "RNA/chr2.pileup.gz",
+      "bytes": 12432352,
+      "sha256": "1576ac58e35ba08e0e13577a24db5e982b56309679f0e8fb83e9a359f63d7b08"
+    },
+    {
+      "path": "RNA/chr3.pileup.gz",
+      "bytes": 9822987,
+      "sha256": "afd75fd8790e49d558117311554f00c8e0ee7fe869c58228c503907f5131d32a"
+    },
+    {
+      "path": "RNA/chr5.pileup.gz",
+      "bytes": 19622568,
+      "sha256": "76b87a8af4812e7eb02f9466012e5646420fb5e7fe33174801b5338b671ddb7e"
+    },
+    {
+      "path": "RNA/chr8.pileup.gz",
+      "bytes": 8254952,
+      "sha256": "d57b5901c426734688d1801e814cfbacd62c7affc5700cbd3bd00da5fde71523"
+    },
+    {
+      "path": "RNA/chr9.pileup.gz",
+      "bytes": 7155600,
+      "sha256": "a9963eeab33fcd4178b610e6996c0c3fa5f8cb07b69ad7867aa1e97d4b75bc6d"
+    }
+  ],
+  "resident_root": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1",
+  "unchanged_v2": {
+    "Caris-DNA-RNA-research-handoff-TN26-279853-2026-10-05-v2.pdf": "d1ca641a0235b7b6b09846c7e2b870dea36dbd6e5cf17ca0f4709c3eec784c9d",
+    "Caris-followup-findings-2026-10-05-v2.pdf": "0a851414a3235d829ee4a8c7e423feed307c85a5ffdf865ee61011adf3267c03",
+    "Caris-computational-followups-2026-10-05-v2.zip": "3d344e7f4722353217d3a13cbd74fa5ec3cd6667132d1520232e972fb9d975d8"
+  },
+  "sources": "Original Caris DNA/RNA and public reference; no external patient-data uploads or clinical outreach in this follow-up."
+}

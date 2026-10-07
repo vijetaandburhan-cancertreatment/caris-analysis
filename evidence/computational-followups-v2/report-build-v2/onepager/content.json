@@ -1,0 +1,35 @@
+{
+  "title": "CARIS DNA + RNA: research findings",
+  "meta": "TN26-279853 | 5 October 2026, revised overnight | Raw-data research only",
+  "blocks": [
+    {
+      "lead": "MTAP / CDKN2A / CDKN2B",
+      "body": "Caris calls all three <b>Deleted</b>; CNA values <b>0.80 / 1.30 / 0.90</b> are not calibrated tumor copies. MTAP RNA is detectable (4.88 TPM). Expanded analysis does <b>not</b> establish homozygous loss or deletion boundaries. <b>Needed:</b> vendor CN/LOH segments, purity/ploidy, calibration and an explicit homozygous-loss interpretation."
+    },
+    {
+      "lead": "Coding events and new BAP1 phase evidence",
+      "body": "BAP1 c.168_178del, RASA1 c.747delG and APC p.S2577* have mutant RNA support; all 21 selected protein-altering export calls were checked. Near BAP1, joint SNP/deletion pairs give <b>C+deletion 21, C+reference 7, G+reference 9, G+deletion 0</b>, independently reproduced. Denser 3p imbalance and local linkage do <b>not</b> establish WT-allele loss, somatic status or biallelic inactivation."
+    },
+    {
+      "lead": "BAP1 class-I antigen hypothesis / HLA-B*50:01",
+      "body": "Exact mutant windows support <b>IEERKGLYL</b> (691 DNA/241 RNA fragments) and overlapping <b>EERKGLYL</b> (693/245); MHCflurry binding predictions are 304/364 nM. These are unvalidated antigen candidates. A controlled full-read screen now detects <b>B*50:01-compatible bulk RNA</b>, conditional on the earlier RNA-based genotype inference; it proves neither tumor-cell HLA retention nor peptide display. Confirm normal-blood HLA, endogenous presentation and selective recognition using both WT peptides and <b>31 near-self controls</b> (seven predict stronger binding than the 8mer)."
+    },
+    {
+      "lead": "New RASA1 CD4 testing lead",
+      "body": "Natural-terminal <b>GDYYIGGRRFSSLQT</b> versus WT <b>GDYYIGGRRFSSLSD</b>, provisional DPA1*01:03/DPB1*02:01: CapHLA v2 EL <b>0.926/0.777</b>, same ordering in v1. EL is not presentation probability. <b>Five of seven possible 9mer cores are unchanged WT</b>; register and selective recognition are unknown. Controls passed; 126 mutant windows were screened with WT controls. No robust mutation-selective BAP1 class-II lead emerged."
+    },
+    {
+      "lead": "Additional LATS candidates",
+      "body": "<b>LATS1 NM_004690.4:c.378dup / p.(Asn127Ter)</b>: DNA alternate/reference fragments <b>23/16</b>, RNA <b>4/2</b>; immediate stop after 126 unchanged residues, <b>no novel tail</b>. <b>LATS2 NM_014572.3:c.2878G&gt;A / p.(Gly960Arg)</b>: DNA <b>79/38</b>, RNA <b>44/5</b>; function unknown. Separate read/translation audits agree. Both require matched-normal and orthogonal confirmation; Hippo activation or drug sensitivity is not established."
+    },
+    {
+      "lead": "RNA context and expression limits",
+      "body": "Re-alignment preserves <b>246 BAP1 deletion fragments (strict 10-bp flanks)</b> and mutant-linked annotated splicing; LATS1 remains <b>4 alternate/2 reference</b>. Minor BAP1 exon skipping does not establish functional rescue. MSLN <b>253.01 TPM</b> needs protein validation. Partial bulk beta CDR3 <b>CASSLIGGDAFF</b> has no alpha-beta pairing or tumor-reactivity evidence."
+    },
+    {
+      "lead": "Laboratory priorities",
+      "body": "Exact GRCh38/RefSeq alleles, WT/mutant FASTAs, read audits and controls are ready. Prioritize calibrated CN/LOH, matched normal, LATS confirmation and controlled presentation/T-cell experiments. Computational reproducibility is distinct from biological or clinical validation."
+    }
+  ],
+  "footer": "Source: nine supplied Caris files for TN26-279853; bulk tumor DNA/RNA, no matched normal. Fragment counts collapse paired reads by name, not UMI molecules. Raw-data research only; no pathology, imaging or treatment records used."
+}

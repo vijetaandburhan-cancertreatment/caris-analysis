@@ -1,0 +1,15 @@
+22-gene coding-screen findings
+
+All 54 candidates already occur as exact alleles in the supplied Caris VCF. This bounded screen found no additional protein-altering candidate above its filters.
+
+87,057 selected CDS plus/minus 4-bp positions had at least 20 qualifying reads (minimum 146). Transcripts were 21 GENCODE37 MANE Select plus NTRK3 APPRIS principal_1. This is observed depth, not a clinically validated negative result.
+
+The 54 candidates comprise 34 synonymous, 17 missense, one in-frame insertion and two noncoding/CDS-flank events. Of the 18 protein-changing candidates, Caris labels 17 Benign and the existing ALK T1151M VUS. These are source labels, not independent clinical reclassifications. No new treatment target is established.
+
+FGFR1 is an in-frame insertion in a poly-Asp repeat; the screen does not assign precise HGVS. Its old first-difference S134D label was removed because it could be misread as a missense. Caris reports D133dup, Benign. RNA CIGAR placements shift in the repeat; only longer exact haplotypes are interpretable.
+
+Both POLE exon-flank insertion/deletion events were already filtered in the Caris VCF (sb;R8.1 and R8.1) and are not promoted. RNA-window nonassessability cannot establish absence of an expressed variant or normal splicing.
+
+The companion JSON supplies filters, limitations, hashes and existing ALK read controls. This is not a full-exome SNV re-call, a comprehensive splice/structural exclusion, proof of tumor-specificity, or clinical validation. Per-gene depth is in coverage.tsv; genomic alleles and source labels are in protein-changing-source-context.tsv.
+
+Independent audit completed: audit.txt/audit.json document matching reference proteins, coding edits, exact source alleles and repeat-sensitive read context. All 17 missense alleles have exact public catalog mappings; 16 occur at >=1% in global reference data. ALK T1151M is rare in public data and remains a source VUS, not a proven somatic or actionable call. No additional material correction remains.

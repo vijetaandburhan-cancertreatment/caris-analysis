@@ -1,0 +1,263 @@
+{
+  "context_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/BAP1-RASA1-local-protein-context.json",
+  "context_sha256": "908fa7f953e00783a1d544ebc5e4a67c05489f25ede4dfbf893b7d5e59fff4e4",
+  "context_records": [
+    {
+      "gene": "BAP1",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11",
+      "sequence_type": "wt",
+      "amino_acid_start1": 32,
+      "amino_acid_end1": 81,
+      "sequence": "IYDLQSKCQGPVYGFIFLFKWIEERRSRRKVSTLVDDTSVIDDDIVNNMF",
+      "sha256_sequence": "82f1302cf3ae9f5f185392413b2864f463967a4ff2353eab68beecd7eaa094ee",
+      "first_altered_position1": 57,
+      "window_reaches_predicted_protein_end": false
+    },
+    {
+      "gene": "BAP1",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11",
+      "sequence_type": "mutant",
+      "amino_acid_start1": 32,
+      "amino_acid_end1": 63,
+      "sequence": "IYDLQSKCQGPVYGFIFLFKWIEERKGLYLGG",
+      "sha256_sequence": "8b808695a2a43a1e043cda1974e50042db11ffd78fd25f3d43f16fa8cad5520d",
+      "first_altered_position1": 57,
+      "window_reaches_predicted_protein_end": true
+    },
+    {
+      "gene": "RASA1",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG",
+      "sequence_type": "wt",
+      "amino_acid_start1": 225,
+      "amino_acid_end1": 274,
+      "sequence": "NVVNHFRIIAMCGDYYIGGRRFSSLSDLIGYYSHVSCLLKGEKLLYPVAP",
+      "sha256_sequence": "74bbac60d61b6c0f8e42792111efb669176a3790705a291f5ac6713add59d0c1",
+      "first_altered_position1": 250,
+      "window_reaches_predicted_protein_end": false
+    },
+    {
+      "gene": "RASA1",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG",
+      "sequence_type": "mutant",
+      "amino_acid_start1": 225,
+      "amino_acid_end1": 251,
+      "sequence": "NVVNHFRIIAMCGDYYIGGRRFSSLQT",
+      "sha256_sequence": "e73e7b226f8e9cd55feb137460189264cef051c0c127e6fa11e50f4057ce50c2",
+      "first_altered_position1": 250,
+      "window_reaches_predicted_protein_end": true
+    }
+  ],
+  "alleles": [
+    {
+      "name": "HLA-DRB1*03:01",
+      "pseudo_sequence": "QEFFIASGAAVDAIMESSYDYFDLQKRNYHVVFT",
+      "caveat": "Provisional RNA beta-chain; DRA01:01 assumed"
+    },
+    {
+      "name": "HLA-DRB1*15:02",
+      "pseudo_sequence": "QEFFIASGAAVDAIMWPRFDYFDIQAATYHVGFT",
+      "caveat": "Provisional RNA beta-chain; DRA01:01 assumed"
+    },
+    {
+      "name": "HLA-DRB5*01:02",
+      "pseudo_sequence": "QEFFIASGAAVDAIMQDYFHGYDFDRATYHVGFT",
+      "caveat": "Sole RNA sequence type, not proven genomic dosage; DRA01:01 assumed"
+    },
+    {
+      "name": "HLA-DPA1*01:03/DPB1*02:01",
+      "pseudo_sequence": "YAFFMFSGGAILNTLFGQFEYFDIEEVRMHLGMT",
+      "caveat": "DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing"
+    },
+    {
+      "name": "HLA-DPA1*01:03/DPB1*04:01",
+      "pseudo_sequence": "YAFFMFSGGAILNTLFGQFEYFAIEKVRMHLGMT",
+      "caveat": "DPA1 sole RNA sequence type; DPB1 provisional RNA allele; not clinical typing"
+    },
+    {
+      "name": "HLA-DQA1*01:03/DQB1*02:01",
+      "pseudo_sequence": "CNFHQGGGARVAHIMYFGLSSFAIRKARVHLETT",
+      "caveat": "Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established"
+    },
+    {
+      "name": "HLA-DQA1*01:03/DQB1*06:01",
+      "pseudo_sequence": "CNFHQGGGARVAHIMLFAYTYYDIRTETVHVAGI",
+      "caveat": "Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established"
+    },
+    {
+      "name": "HLA-DQA1*05:01/DQB1*02:01",
+      "pseudo_sequence": "YNYHQRXFATVLHSLYFGLSSFAIRKARVHLETT",
+      "caveat": "Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established"
+    },
+    {
+      "name": "HLA-DQA1*05:01/DQB1*06:01",
+      "pseudo_sequence": "YNYHQRXFATVLHSLLFAYTYYDIRTETVHVAGI",
+      "caveat": "Unphased exploratory alpha/beta combination; cis/trans or functional pairing not established"
+    }
+  ],
+  "windows": [
+    {
+      "window_id": "BAP1_46_12",
+      "gene": "BAP1",
+      "length": 12,
+      "aa_start1": 46,
+      "aa_end1": 57,
+      "altered_positions_in_peptide1": [
+        12
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FIFLFKWIEERK",
+      "wt": "FIFLFKWIEERR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_47_12",
+      "gene": "BAP1",
+      "length": 12,
+      "aa_start1": 47,
+      "aa_end1": 58,
+      "altered_positions_in_peptide1": [
+        11,
+        12
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "IFLFKWIEERKG",
+      "wt": "IFLFKWIEERRS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_48_12",
+      "gene": "BAP1",
+      "length": 12,
+      "aa_start1": 48,
+      "aa_end1": 59,
+      "altered_positions_in_peptide1": [
+        10,
+        11,
+        12
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FLFKWIEERKGL",
+      "wt": "FLFKWIEERRSR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_49_12",
+      "gene": "BAP1",
+      "length": 12,
+      "aa_start1": 49,
+      "aa_end1": 60,
+      "altered_positions_in_peptide1": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "LFKWIEERKGLY",
+      "wt": "LFKWIEERRSRR",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_50_12",
+      "gene": "BAP1",
+      "length": 12,
+      "aa_start1": 50,
+      "aa_end1": 61,
+      "altered_positions_in_peptide1": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "FKWIEERKGLYL",
+      "wt": "FKWIEERRSRRK",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_51_12",
+      "gene": "BAP1",
+      "length": 12,
+      "aa_start1": 51,
+      "aa_end1": 62,
+      "altered_positions_in_peptide1": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "KWIEERKGLYLG",
+      "wt": "KWIEERRSRRKV",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "BAP1_52_12",
+      "gene": "BAP1",
+      "length": 12,
+      "aa_start1": 52,
+      "aa_end1": 63,
+      "altered_positions_in_peptide1": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "WIEERKGLYLGG",
+      "wt": "WIEERRSRRKVS",
+      "transcript": "NM_004656.3",
+      "coding_variant": "c.168_178del11"
+    },
+    {
+      "window_id": "RASA1_239_12",
+      "gene": "RASA1",
+      "length": 12,
+      "aa_start1": 239,
+      "aa_end1": 250,
+      "altered_positions_in_peptide1": [
+        12
+      ],
+      "reaches_predicted_stop": false,
+      "mutant": "YYIGGRRFSSLQ",
+      "wt": "YYIGGRRFSSLS",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    },
+    {
+      "window_id": "RASA1_240_12",
+      "gene": "RASA1",
+      "length": 12,
+      "aa_start1": 240,
+      "aa_end1": 251,
+      "altered_positions_in_peptide1": [
+        11,
+        12
+      ],
+      "reaches_predicted_stop": true,
+      "mutant": "YIGGRRFSSLQT",
+      "wt": "YIGGRRFSSLSD",
+      "transcript": "NM_002890.2",
+      "coding_variant": "c.747delG"
+    }
+  ],
+  "total_windows": 9,
+  "input_rows": 162,
+  "scope": "Post-primary length sensitivity: conditional mutation-containing12mers with same-start/same-length WT comparators. Do not extend natural new protein stops. DQ pairs unphased; no nearest HLA substitution."
+}

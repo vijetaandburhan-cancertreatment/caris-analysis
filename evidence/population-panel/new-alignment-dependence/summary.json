@@ -1,0 +1,52 @@
+{
+  "status": "NOT_EVALUABLE_NO_QUALIFYING_LOCI",
+  "public_loci_in_retained_intervals": 73,
+  "public_loci_by_target": {
+    "BAP1": 1,
+    "RASA1": 72
+  },
+  "joint_callable_loci_in_retained_intervals": 0,
+  "joint_callable_by_target": {},
+  "loci_with_equal_ACGT_vectors": 0,
+  "loci_with_changed_qname_states": 0,
+  "total_site_specific_changed_qname_states": 0,
+  "loci_remaining_at_least20_ACGT_new": 0,
+  "all_independent_original_counts_match_primary": null,
+  "reference_length_checks": {
+    "chr3": {
+      "original_length": 198295559,
+      "new_length": 198295559
+    },
+    "chr5": {
+      "original_length": 181538259,
+      "new_length": 181538259
+    }
+  },
+  "filters": {
+    "MAPQ": 30,
+    "BQ": 25,
+    "require_proper_pair": true,
+    "exclude_flags": "0xF0C",
+    "depth": "uncapped",
+    "BAQ": "not recalculated",
+    "mate_conflicts": "Qualifying records grouped by query name; >1 A/C/G/T base discards entire name. No UMI-molecule interpretation."
+  },
+  "limits": [
+    "Only preselected jointly callable SNPs within retained BAP1/RASA1 intervals are tested. Other loci cannot be judged from this target BAM. LATS1/LATS2 are outside this six-chromosome public panel.",
+    "Retained target BAM contains records intersecting four gene intervals; mates outside intervals were not necessarily retained. A base covering an included SNP intersects its target interval, but full pair geometry elsewhere cannot be reconstructed from this file.",
+    "Original and new pipelines differ in STAR version, parameters, sparse-index setting and mapping choices. Differences cannot be assigned to a single factor.",
+    "A name not represented at the SNP in the new target BAM may map elsewhere or be unmapped; this is not biological loss of RNA or an allele.",
+    "This is a small secondary alignment-dependence check, not a full-panel replication or clinical sample-identity validation."
+  ],
+  "elapsed_seconds": 1.016,
+  "peak_RSS_bytes_macOS": 35291136,
+  "primary_coverage_of_target_panel": {
+    "DNA_callable20_loci": 3,
+    "RNA_callable20_loci": 0,
+    "maximum_original_RNA_ACGT_depth": 9,
+    "maximum_DNA_ACGT_depth": 139,
+    "source": "Existing completed primary counts only; no additional target patient read scan"
+  },
+  "patient_locus_recounts_performed": 0,
+  "interpretation": "No public-panel SNP within the retained target intervals met the frozen joint-callability criterion. No patient per-site recount or QNAME comparison was executed. Zero comparison rows are not evidence of concordance, missing RNA biology, or alignment agreement."
+}

@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-05T07:48:09.545487+00:00",
+  "original_version": "2.7.8a",
+  "new_version": "2.7.11b",
+  "original_header_sha256": "c0599575945eb94c07a0aac7c75e1e176fb771e8c0dd9058b3efee8e13e7ae48",
+  "new_design_sha256": "785102bbcd822ed081462995a952c63f8879ea390c852b5128141447521d42f9",
+  "new_runtime_help_sha256": "ab1f3cec7cc11600e37f0a68c38452f5d9658475c631013327cd497b55231fb8",
+  "parameter_table_sha256": "eea96b32cb20468150ede1469080c7ad47cf1e00c2ffc181f0fbd7b55fa7db10",
+  "interpretation": "This is a comparison of whole mapping pipelines. Original recorded PG uses a GRCh38 GENCODE37 CTAT reference index, two-pass Basic, right-flush indels, paired overlap minimum12 and mismatch fraction0.1. The new run uses the resident primary-assembly D8 index, runtime-default single-pass None and no indel flush, overlap minimum10 and default mismatch fraction0.01, plus other explicit/default changes tabulated. A change cannot be attributed solely to index sparsity, a single parameter or a correction of the original alignment. Original unspecified parameter defaults are not imputed from the newer binary. Contig names/lengths agree but full original reference sequence/index identity is unavailable."
+}

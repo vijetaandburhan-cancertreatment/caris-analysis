@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "source": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853.bam",
+  "output": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-final-alignment-comparison-v1/original-complete-names/original-3426-names.bam",
+  "output_SHA256": "60ed63ebba3045a8b3841b172533e3681d09123bffb70a75d61202b97dd92f23",
+  "source_selection": "Exact frozen3426QNAMEs, all records across original full BAM. No location, flag, MAPQ, BQ restriction.",
+  "counts": {
+    "input_records": 71034470,
+    "captured_records": 7620
+  },
+  "names_seen": 3426,
+  "missing_names": [],
+  "elapsed_seconds": 48.90673279762268,
+  "output_bytes": 271138,
+  "min_free_disk_bytes": 5100449792
+}

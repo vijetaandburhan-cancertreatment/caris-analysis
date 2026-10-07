@@ -1,0 +1,28 @@
+{
+  "junction_GRCh38_0based_halfopen": [
+    "chr17",
+    31343135,
+    31345388,
+    "+"
+  ],
+  "GENCODE37_exact_transcript_junction_matches": [],
+  "gtex_source_url": "https://snaptron.cs.jhu.edu/gtexv2/snaptron?regions=NF1&fields=snaptron_id,chromosome,start,end,strand,samples_count,coverage_sum,coverage_avg,coverage_median,annotated&header=1",
+  "gtex_rows": [
+    {
+      "DataSource:Type": "gtexv2:I",
+      "snaptron_id": "12828631",
+      "chromosome": "chr17",
+      "start": "31343136",
+      "end": "31345388",
+      "strand": "+",
+      "samples_count": "6959",
+      "coverage_sum": "11279",
+      "coverage_avg": "1.621",
+      "coverage_median": "1",
+      "annotated": "1"
+    }
+  ],
+  "gtex_error": null,
+  "gtex_cache_sha256": "b637f989e554dd80bece376b927dc9b45568fcfc4ab42be1a9160e408291b345",
+  "interpretation": "An intragenic genomic alignment supplies a competing explanation for the proposed NF1-AK4 fusion. Public normal-junction presence, if found, supports a normal/background splice explanation but does not establish every current read source or tumor specificity. Absence from annotation or public data is not proof of a novel tumor event."
+}

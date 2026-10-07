@@ -1,0 +1,115 @@
+{
+  "accession": "TN26-279853",
+  "manifest_created": "2026-10-06",
+  "original_integrity_verification": "2026-10-01",
+  "total_files": 9,
+  "total_bytes": 33619145590,
+  "data_folder_url": "https://drive.google.com/drive/folders/1qQ_CQtDxoMX8TKYfPYFg0NSaKI2l900r",
+  "verification_scope": "All nine local resident inputs were fully hashed and matched source CRC64NVME; Drive exact sizes were verified for all nine. Only three small Drive inputs were independently downloaded and SHA256 verified; the six large remote inputs were not independently rehashed. Verify downloaded bytes before analysis.",
+  "files": [
+    {
+      "name": "DNA_TN26-279853.vcf",
+      "size_bytes": 531449,
+      "sha256": "1e9c97cbd406ec0086c8778d9e8ccb05053a498067cfec7cf0b0455399164440",
+      "source_crc64nvme": "MGUB1Kaq7oA=",
+      "source_crc_matches_local": true,
+      "drive_url": "https://drive.google.com/file/d/1QVvlEjTzaczzjNimBhmE7uTqGvMhwAfk/view",
+      "drive_size_matches_local": true,
+      "drive_sha256_roundtrip_verified": true,
+      "included_in_repository": true,
+      "repository_path": "data/small-inputs/DNA_TN26-279853.vcf"
+    },
+    {
+      "name": "RNA_TN26-279853.geneTPM_nodup.csv",
+      "size_bytes": 1409949,
+      "sha256": "d79d9f534e22ed9ccbcbb734e243baba52dc38307a652b956767469fb67baa20",
+      "source_crc64nvme": "ScnEw/rRcKY=",
+      "source_crc_matches_local": true,
+      "drive_url": "https://drive.google.com/file/d/1U9eQqBLejoN6LF1Tj-Ex1wnOY2bCywJW/view",
+      "drive_size_matches_local": true,
+      "drive_sha256_roundtrip_verified": true,
+      "included_in_repository": true,
+      "repository_path": "data/small-inputs/RNA_TN26-279853.geneTPM_nodup.csv"
+    },
+    {
+      "name": "TN26-279853_20260925225733.xlsx",
+      "size_bytes": 535890,
+      "sha256": "cf0a8426d5f122ec7b0e354f5bc5bd57ca51f397163361cdc775edfe90c962e0",
+      "source_crc64nvme": "Luk65oNZOJU=",
+      "source_crc_matches_local": true,
+      "drive_url": "https://drive.google.com/file/d/1sdboCGhv2bcsAzsFKIGX9ZZSkMjDOf7h/view",
+      "drive_size_matches_local": true,
+      "drive_sha256_roundtrip_verified": true,
+      "included_in_repository": true,
+      "repository_path": "data/small-inputs/TN26-279853_20260925225733.xlsx"
+    },
+    {
+      "name": "DNA_TN26-279853_S25.R1.fastq.gz",
+      "size_bytes": 8998695773,
+      "sha256": "f58ec669637af7b47d3dc0fb5d8f30c5a4ddb19f3416f9fd22204e3158b7f93f",
+      "source_crc64nvme": "kdb3TFp7mSg=",
+      "source_crc_matches_local": true,
+      "drive_url": "https://drive.google.com/file/d/1RJpUtcSNEM8DY5ZTjJFKBbv2wj41oun4/view",
+      "drive_size_matches_local": true,
+      "drive_sha256_roundtrip_verified": false,
+      "included_in_repository": false
+    },
+    {
+      "name": "DNA_TN26-279853_S25.R2.fastq.gz",
+      "size_bytes": 9264125961,
+      "sha256": "fad8ea9b1cd7dd212aad04e06def52b426cf2dc16070bfdb3722033b0bf8bc78",
+      "source_crc64nvme": "KR1Ua/cnduI=",
+      "source_crc_matches_local": true,
+      "drive_url": "https://drive.google.com/file/d/1q-xGF3HsQGJg9IU_G9urgGXlDvYPbjTj/view",
+      "drive_size_matches_local": true,
+      "drive_sha256_roundtrip_verified": false,
+      "included_in_repository": false
+    },
+    {
+      "name": "DNA_TN26-279853.bam",
+      "size_bytes": 9325653547,
+      "sha256": "7bb970e30fc4420dbfb7c8b3fd3dd916dc379641ea9dde687bfc49d1ef46d7cb",
+      "source_crc64nvme": "+MUNcDUcmjM=",
+      "source_crc_matches_local": true,
+      "drive_url": "https://drive.google.com/file/d/1P3nMGpa6IUFOXUsV8xecOlmzWcy7Scyb/view",
+      "drive_size_matches_local": true,
+      "drive_sha256_roundtrip_verified": false,
+      "included_in_repository": false
+    },
+    {
+      "name": "RNA_TN26-279853_S25.R1.fastq.gz",
+      "size_bytes": 1579972407,
+      "sha256": "e931ccacc7e6ea4e58d3fb33dadb99553cbea54b51252c67c44e283cb27d3bc5",
+      "source_crc64nvme": "gKqM9ht/jtU=",
+      "source_crc_matches_local": true,
+      "drive_url": "https://drive.google.com/file/d/12VHNexrWHROHvMVYaJV19Go7gkhb7e07/view",
+      "drive_size_matches_local": true,
+      "drive_sha256_roundtrip_verified": false,
+      "included_in_repository": false
+    },
+    {
+      "name": "RNA_TN26-279853_S25.R2.fastq.gz",
+      "size_bytes": 1612673312,
+      "sha256": "b03ab626d8f57b71a89b7ba4a5c97fb5f0d0c91ea695492d0564c3644d849300",
+      "source_crc64nvme": "Zwy/IRIeUaI=",
+      "source_crc_matches_local": true,
+      "drive_url": "https://drive.google.com/file/d/1vZiFzWpPiwEGyaWGreg103AAJdq4YHEQ/view",
+      "drive_size_matches_local": true,
+      "drive_sha256_roundtrip_verified": false,
+      "included_in_repository": false
+    },
+    {
+      "name": "RNA_TN26-279853.bam",
+      "size_bytes": 2835547302,
+      "sha256": "bbbca59ff29763261af4e0303b097c06308fb23d9890de9969f1f3b1b4774701",
+      "source_crc64nvme": "dtdP9PvAPP4=",
+      "source_crc_matches_local": true,
+      "drive_url": "https://drive.google.com/file/d/1FHOlOh7rtzMJWQWfXAr-knJkqP6JU82Q/view",
+      "drive_size_matches_local": true,
+      "drive_sha256_roundtrip_verified": false,
+      "included_in_repository": false
+    }
+  ],
+  "local_sha256_reverified": "2026-10-06",
+  "local_sha256_reverified_count": 9
+}

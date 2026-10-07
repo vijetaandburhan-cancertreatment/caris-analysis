@@ -1,0 +1,207 @@
+{
+  "audit_status": "PASS for bounded research computations; no new validated somatic, treatment, or antigen claim",
+  "timestamp_utc": "2026-10-01T21:57:20.691892+00:00",
+  "translation_validation": {
+    "rows": 32,
+    "full_coding_translations_matching": 30,
+    "unresolved_boundary_cases_correctly_withheld": [
+      "ZNF778",
+      "ORAI1"
+    ],
+    "all_reference_proteins_match": true
+  },
+  "public_catalog_validation": {
+    "original_matches_checked": 24,
+    "original_matches_all_equivalent": true,
+    "additional_resolved_matches_checked": [
+      {
+        "gene": "SLC27A3",
+        "id": "rs572408453",
+        "equivalent_public_alternates": [
+          "CCCCCC"
+        ],
+        "allele_and_frequency_pass": true,
+        "frequencies": [
+          {
+            "allele": "CCCCCC",
+            "population": "gnomADe:ALL",
+            "allele_count": 540,
+            "frequency": 0.0003694
+          },
+          {
+            "frequency": 0.0004416,
+            "allele_count": 67,
+            "population": "gnomADg:ALL",
+            "allele": "CCCCCC"
+          },
+          {
+            "allele": "CCCCCC",
+            "frequency": 0.000798722044728434,
+            "allele_count": 4,
+            "population": "1000GENOMES:phase_3:ALL"
+          }
+        ],
+        "all_frequencies_identical_to_cached_public_response": true,
+        "source_cache": "rs572408453.variation-retry.json"
+      },
+      {
+        "gene": "APOL4",
+        "id": "rs5845253",
+        "equivalent_public_alternates": [
+          "CT"
+        ],
+        "allele_and_frequency_pass": true,
+        "frequencies": [],
+        "all_frequencies_identical_to_cached_public_response": true,
+        "source_cache": "rs5845253.variation-basic.json"
+      }
+    ],
+    "common_at_ge1percent_global_frequency": 18,
+    "caution": "Public record-wide worst consequence or clinical label cannot substitute for allele-specific consequence; no population absence proof of somatic status."
+  },
+  "VCF_validation": {
+    "records": 2843,
+    "shortlisted_events": 32,
+    "present": [
+      {
+        "gene": "BAP1",
+        "filter_values": [
+          "."
+        ]
+      },
+      {
+        "gene": "RASA1",
+        "filter_values": [
+          "."
+        ]
+      },
+      {
+        "gene": "CHD2",
+        "filter_values": [
+          "R8.1"
+        ]
+      }
+    ],
+    "absent_as_equivalent_single_allele": 29,
+    "scope": "Single exported alleles within +/-70 bp were compared by exact extended haplotype; not arbitrary combinations of multiple VCF rows or a validated sensitivity assessment."
+  },
+  "six_candidates": [
+    {
+      "gene": "ANKDD1B",
+      "variant": "chr5:75611764 TC>T",
+      "DNA_alt_names_12bp": 132,
+      "DNA_ref_names_12bp": 40,
+      "RNA_alt_names_12bp": 4,
+      "RNA_ref_names_12bp": 0,
+      "RNA_alternate_endpoint_signatures": 2,
+      "RNA_alt_names_30bp": 4,
+      "transcript": "ENST00000601380.4",
+      "conditional_reference_protein_length": 528,
+      "conditional_mutant_protein_length": 96,
+      "conditional_new_tail_length": 52,
+      "distance_to_selected_CDS_exon_edge": 62,
+      "judgment": "DNA support remains strong through 50-base flanks. RNA support is low: 4 paired names reduce to 2 endpoint signatures. C3>C2 local repeat. Exact rare public allele rs1773564282; constitutional versus somatic unresolved."
+    },
+    {
+      "gene": "ANKMY1",
+      "variant": "chr2:240526305 CA>C",
+      "DNA_alt_names_12bp": 111,
+      "DNA_ref_names_12bp": 69,
+      "RNA_alt_names_12bp": 11,
+      "RNA_ref_names_12bp": 7,
+      "RNA_alternate_endpoint_signatures": 10,
+      "RNA_alt_names_30bp": 10,
+      "transcript": "ENST00000401804.5",
+      "conditional_reference_protein_length": 1030,
+      "conditional_mutant_protein_length": 367,
+      "conditional_new_tail_length": 3,
+      "distance_to_selected_CDS_exon_edge": 77,
+      "judgment": "DNA and RNA exact alternate survive 30-base flanks (81 DNA / 10 RNA names); 10 RNA endpoint signatures. A3>A2. No exact public match returned by the bounded lookup, which does not establish novelty. Several RNA reads also cross a splice junction outside the variant window, supporting transcript alignment."
+    },
+    {
+      "gene": "CEP250",
+      "variant": "chr20:35511428 AG>A",
+      "DNA_alt_names_12bp": 106,
+      "DNA_ref_names_12bp": 101,
+      "RNA_alt_names_12bp": 4,
+      "RNA_ref_names_12bp": 6,
+      "RNA_alternate_endpoint_signatures": 4,
+      "RNA_alt_names_30bp": 2,
+      "transcript": "ENST00000397527.6",
+      "conditional_reference_protein_length": 2442,
+      "conditional_mutant_protein_length": 2383,
+      "conditional_new_tail_length": 6,
+      "distance_to_selected_CDS_exon_edge": 66,
+      "judgment": "Strong DNA evidence and modest RNA evidence (4 names / 4 endpoint signatures). Exact alternate survives 50-base flanks in 38 DNA / 2 RNA names. No high-frequency nearby compensating allele identified within the examined reference window. Late conditional frameshift, not evidence of complete gene loss."
+    },
+    {
+      "gene": "NLRC3",
+      "variant": "chr16:3563615 C>CT",
+      "DNA_alt_names_12bp": 96,
+      "DNA_ref_names_12bp": 144,
+      "RNA_alt_names_12bp": 3,
+      "RNA_ref_names_12bp": 4,
+      "RNA_alternate_endpoint_signatures": 2,
+      "RNA_alt_names_30bp": 0,
+      "transcript": "ENST00000359128.10",
+      "conditional_reference_protein_length": 1065,
+      "conditional_mutant_protein_length": 480,
+      "conditional_new_tail_length": 40,
+      "distance_to_selected_CDS_exon_edge": 607,
+      "judgment": "DNA insertion is strongly supported, including 43 exact 50-base-flank names. RNA support is limited to 3 names / 2 endpoint signatures; all retain exact 20-base flanks. RNA CIGAR insertion is shifted by one base in equivalent sequence, so raw-coordinate equality would undercount it. All RNA alternate reads have only 1-3 soft-clipped bases at distant read ends; this alone is not grounds to discard them. Wider RNA windows fail coverage, not sequence equivalence. A nearby chr16:3563597G>A is carried on the other observed local haplotype and conditionally encodes Ser447Leu, not the record-wide dbSNP worst consequence stop_gained. Reference versus alternate fraction based on a short window is not a complete haplotype description."
+    },
+    {
+      "gene": "FN3KRP",
+      "variant": "chr17:82718962 C>CA",
+      "DNA_alt_names_12bp": 83,
+      "DNA_ref_names_12bp": 162,
+      "RNA_alt_names_12bp": 13,
+      "RNA_ref_names_12bp": 44,
+      "RNA_alternate_endpoint_signatures": 8,
+      "RNA_alt_names_30bp": 13,
+      "transcript": "ENST00000269373.11",
+      "conditional_reference_protein_length": 309,
+      "conditional_mutant_protein_length": 112,
+      "conditional_new_tail_length": 46,
+      "distance_to_selected_CDS_exon_edge": 57,
+      "judgment": "Strong DNA and best RNA-name support among these six (13 names; 8 endpoint signatures), with all 13 RNA names surviving 30-base exact flanks. Repeated endpoints caution against treating every name as an independent molecule. Exact rare public allele rs781761828; no common nearby compensating allele seen in the bounded read context."
+    },
+    {
+      "gene": "SLC27A3",
+      "variant": "chr1:153779383 TC>T",
+      "DNA_alt_names_12bp": 34,
+      "DNA_ref_names_12bp": 75,
+      "RNA_alt_names_12bp": 5,
+      "RNA_ref_names_12bp": 7,
+      "RNA_alternate_endpoint_signatures": 4,
+      "RNA_alt_names_30bp": 5,
+      "transcript": "ENST00000624995.4",
+      "conditional_reference_protein_length": 683,
+      "conditional_mutant_protein_length": 661,
+      "conditional_new_tail_length": 64,
+      "distance_to_selected_CDS_exon_edge": 41,
+      "judgment": "C7>C6 homopolymer deletion, with 34 DNA / 5 RNA exact alternate names and 4 RNA endpoint signatures. All 5 RNA names survive 30-base flanks. Zero 50-base RNA calls result from nearby splice/coverage constraints and do not refute the event. Exact rare public haplotype rs572408453 independently verified after root resolved the initial failed lookup; inherited versus somatic and polymerase slippage remain considerations."
+    }
+  ],
+  "necessary_interpretive_conditions": [
+    "Paired read names and endpoint signatures are not UMI molecule counts. RNA BAM does not mark PCR duplicates.",
+    "Each reconstructed mutant sequence assumes the selected GENCODE37 transcript and only the tested allele, not a proven full-length expressed haplotype or protein.",
+    "Tumor-only DNA plus bulk RNA cannot establish somatic origin or prove expression in tumor cells; matched normal is decisive before any vaccine promotion.",
+    "No six-candidate result supports selecting a cancer drug or assigning lineage.",
+    "VCF absence is an export-scope observation, not evidence that Caris missed a clinically meaningful mutation.",
+    "FILTER dot means unfiltered/unspecified in standard VCF semantics, not an explicit PASS; CHD2 has an explicit R8.1 repeat filter."
+  ],
+  "sources": [
+    "https://www.gencodegenes.org/pages/data_format.html",
+    "https://pubmed.ncbi.nlm.nih.gov/25701572/",
+    "https://pubmed.ncbi.nlm.nih.gov/22344438/",
+    "https://samtools.github.io/hts-specs/VCFv4.1.pdf"
+  ],
+  "artifacts": [
+    "audit-data.json",
+    "audit-public-resolution.json",
+    "audit-nlrc3-context.json",
+    "audit-nlrc3-neighbor-consequence.json",
+    "independent-audit.py"
+  ]
+}

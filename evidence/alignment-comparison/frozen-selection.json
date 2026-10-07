@@ -1,0 +1,103 @@
+{
+  "qnames": 3426,
+  "sites": 16,
+  "by_site": {
+    "chr2:189043211": {
+      "QNAMEs": 444,
+      "Mblock_overlapping_records": 753,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr3:195568834": {
+      "QNAMEs": 72,
+      "Mblock_overlapping_records": 113,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr5:443259": {
+      "QNAMEs": 180,
+      "Mblock_overlapping_records": 393,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr5:80654917": {
+      "QNAMEs": 113,
+      "Mblock_overlapping_records": 207,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr5:168468948": {
+      "QNAMEs": 24,
+      "Mblock_overlapping_records": 48,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr5:177371091": {
+      "QNAMEs": 39,
+      "Mblock_overlapping_records": 75,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr8:100705591": {
+      "QNAMEs": 466,
+      "Mblock_overlapping_records": 709,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr8:100705604": {
+      "QNAMEs": 437,
+      "Mblock_overlapping_records": 687,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr9:95508042": {
+      "QNAMEs": 28,
+      "Mblock_overlapping_records": 45,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr9:136502531": {
+      "QNAMEs": 39,
+      "Mblock_overlapping_records": 70,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr17:29114059": {
+      "QNAMEs": 26,
+      "Mblock_overlapping_records": 46,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr17:31236059": {
+      "QNAMEs": 22,
+      "Mblock_overlapping_records": 43,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr17:77500378": {
+      "QNAMEs": 225,
+      "Mblock_overlapping_records": 434,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr3:10049469": {
+      "QNAMEs": 271,
+      "Mblock_overlapping_records": 492,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr3:195677778": {
+      "QNAMEs": 1325,
+      "Mblock_overlapping_records": 2300,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    },
+    "chr9:65737280": {
+      "QNAMEs": 126,
+      "Mblock_overlapping_records": 235,
+      "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+    }
+  },
+  "capture_name_selection_flag_counts": {
+    "99": 1191,
+    "147": 1442,
+    "163": 1986,
+    "83": 1801,
+    "355": 47,
+    "403": 44,
+    "419": 69,
+    "339": 70
+  },
+  "read_id_handling": "Exact BAM QNAME; no normalization or suffix alteration. Original/new pipeline must show capture name coverage.",
+  "input_sha256": {
+    "cohort": "25934a24cd3057c0324d116fe5f67ad3584e1d0a131efa8a77481fc8fd0ede8d",
+    "exception_sites": "36195e4c545e4d3615c9f0520dee5cb4dcc5711007b7d16753dbbfa911a910cb",
+    "exception_qnames": "3b246b84e4c4cc058929cb6dea8b08c1317ecaadfd1d04e73425a19fb7f44912"
+  },
+  "created_utc": "2026-10-05T07:30:30.227833+00:00"
+}

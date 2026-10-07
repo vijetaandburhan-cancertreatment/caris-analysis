@@ -1,0 +1,137 @@
+{
+  "commit": "33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831",
+  "files": [
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/BA_model.py",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/BA_model.py",
+      "bytes": 5306,
+      "sha256": "3b590b08142fd4168eee5c6bb34d84982da9066bfda1d8d8900f7e14d237fa2c"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/CapHLA.py",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/CapHLA.py",
+      "bytes": 4273,
+      "sha256": "364772a397210a85b3fcfa21136622282159df57f03190201cadb0f3d3b3d4ed"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/EL_model.py",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/EL_model.py",
+      "bytes": 5185,
+      "sha256": "e809b38d56c6cf433b192c1a6055442cf323d54e38952f21ab912fee223068e9"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/HLA_library.csv",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/HLA_library.csv",
+      "bytes": 830782,
+      "sha256": "dbbe8225da6bd2e4eab4b036b22d05d5c7af8ddfa6ab8ea5e2b14102696065c9"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/LICENSE",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/LICENSE",
+      "bytes": 1070,
+      "sha256": "274a5ef6217eca44b1dc85a6647cc60bfad9275baad04615ad8ab4816cf48a29"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/README.md",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/README.md",
+      "bytes": 1993,
+      "sha256": "c95ee2d4c1db89d8ee44fa06f0b34a8b1062b8c931623f0590dfe7f6a4cab788"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/allele_dict.pickle",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/allele_dict.pickle",
+      "bytes": 438039,
+      "sha256": "4559542b86dc11d71ff5af190363a0ce6a25d9c42daa3a640d44424ffaf2f888"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/caphla.yaml",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/caphla.yaml",
+      "bytes": 119,
+      "sha256": "26af87bc6ffabc8a59112e294b21f9b5130d09cfb6e3df9dcad64575c0a8dfdd"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/model_evalution.py",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/model_evalution.py",
+      "bytes": 12159,
+      "sha256": "4193ca9b0086fd58e307a27b460addac1876e8892f975c54e30f52af7fa62eea"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/params/ba_fold0.params",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/params/ba_fold0.params",
+      "bytes": 3718417,
+      "sha256": "a96e352b9056a032d11a2541998f15048c387f719dc0439148a8f0f0e67fe7b5"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/params/ba_fold1.params",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/params/ba_fold1.params",
+      "bytes": 3718417,
+      "sha256": "7387cb99bd121225a57c0f41c1281b2a4468b35376cf89c1c8487e592d5d3a65"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/params/ba_fold2.params",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/params/ba_fold2.params",
+      "bytes": 3718417,
+      "sha256": "f5efd924831d94f7848fa53f0a0eec79b2f7ad30afcdec744e320755e4102c9b"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/params/ba_fold3.params",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/params/ba_fold3.params",
+      "bytes": 3718417,
+      "sha256": "1221a09e64fad01b228125e10a5c21c16737d48fd19c42407429b57e9ff086fd"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/params/ba_fold4.params",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/params/ba_fold4.params",
+      "bytes": 3718417,
+      "sha256": "320fde2a57bf8d8a9e8000247d93e1b34fc438f95c467029ce052150ba0ab85a"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/params/el_fold0.params",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/params/el_fold0.params",
+      "bytes": 5270865,
+      "sha256": "30c982f52dac87d58a307a2c7705d91e73dd54c210947b78e567c5a6c229abe9"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/params/el_fold1.params",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/params/el_fold1.params",
+      "bytes": 5270865,
+      "sha256": "adfa8482c11b4a52836c0decec454a8799668d37b8e78cdc846cf3ecc3d5c06e"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/params/el_fold2.params",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/params/el_fold2.params",
+      "bytes": 5270865,
+      "sha256": "ee7a70a32d13a6fdc3bea06fa8780ff1a864ea20a4e904fb549a24f24160d38f"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/params/el_fold3.params",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/params/el_fold3.params",
+      "bytes": 5270865,
+      "sha256": "0c4e0708806a8c890ff043dcad9e01c6c00fea2c81c585a58a0c63fa1d3b1b99"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/params/el_fold4.params",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/params/el_fold4.params",
+      "bytes": 5270865,
+      "sha256": "b7e05440856f0bcbd1d4437f424b1627c09147c6bc7fddd3c584e012e0c394be"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/test.csv",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/test.csv",
+      "bytes": 676,
+      "sha256": "685199e3a1a86089a7970898deda4aeaeadd776da399c46d932dfa87452f5013"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/test_out.csv",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/test_out.csv",
+      "bytes": 1452,
+      "sha256": "42ae27532ecced50d9480aead645a1bf90e28a9e93265169f4f103eb86c0293c"
+    },
+    {
+      "path": "work/oct4-followup/hla-II/CapHLA/utils.py",
+      "url": "https://raw.githubusercontent.com/changyunjian/CapHLA/33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831/utils.py",
+      "bytes": 2660,
+      "sha256": "6d17cb6fcccb6f1c332dbaba62837f84aa65bec90369f952629cc077c90d142b"
+    }
+  ]
+}

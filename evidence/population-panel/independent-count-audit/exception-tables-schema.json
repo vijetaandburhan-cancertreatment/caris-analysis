@@ -1,0 +1,9 @@
+{
+  "count_string_order": "A,C,G,T, comma-separated counts of unambiguous qualifying QNAME units; not UMI molecules.",
+  "baseline_filters": "MAPQ>=30,BQ>=25,proper pair,exclude0xF0C; conflicting ACGT mate-name observations discarded.",
+  "scope": "All13 DNA-dominant primary sites below90% RNA same-allele retention, plus separate three MAPQ60-only flags. Baseline sites are not replaced by sensitivity results.",
+  "lower_depth": "All seven lower-depth exceptions have RNA ACGT depth24,31,26,39,26,22 or34 (under50). They are observable discrepancies but below the predeclared strong-screen depth floor, not explained artifacts.",
+  "observed_row_vs_ACGT": "A primary pileup row can contain deletion/refskip/nonACGT evidence or insufficient qualifying ACGT counts. Observed-row totals (DNA62358,RNA78071) are not callable-site counts (DNA35885,RNA4072 at ACGT depth20); only4015 qualify in both.",
+  "MAPQ_sensitivity": "MAPQ60 can remove one DNA allele while leaving STAR RNA unchanged, producing new fraction flags. This is a mapping/selection sensitivity, not evidence of a newly discovered biological variant.",
+  "new_alignment": "No jointly callable public-panel sites intersect retained BAP1/RASA1 target intervals, so independent alignment replication is not evaluable."
+}

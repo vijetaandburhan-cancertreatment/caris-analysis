@@ -1,0 +1,2004 @@
+{
+  "status": "exploratory_completed",
+  "extraction": {
+    "status": "passed",
+    "source": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853.bam",
+    "source_index": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-analysis/RNA_TN26-279853.bam.bai",
+    "pysam_version": "0.24.1",
+    "samtools_version": "1.24",
+    "method": "chr6 mapped proper-paired plus both-unmapped paired records; exclude secondary/supplementary; no MAPQ threshold or duplicate/QC-fail exclusion. No missing patient qualities fabricated. Name-sort then pair by RG+query-name, quarantine duplicate mate keys; omit/count orphans. Reverse aligned sequence and qualities back to original read orientation. Full paired FASTQ name, sequence, quality roundtrip and count validated.",
+    "differences_from_official_extraction": "Primary filtering and explicit RG+name pairing/orphan auditing added. Public official extraction uses samtools, bedtools, pigz; this implementation uses pysam bundled samtools, get_forward_sequence/qualities, gzip.",
+    "reference_alternative_contigs": [],
+    "counts": {
+      "chr6_input_records": 1901422,
+      "chr6_secondary_or_supplementary_excluded": 126187,
+      "chr6_selected_records": 1775220,
+      "selected_QC_fail_records": 0,
+      "selected_duplicate_flag_records": 0,
+      "selected_MAPQ_below_20_records": 3301916,
+      "chr6_not_mapped_proper_pair_excluded": 15,
+      "both_unmapped_input_records": 3207449,
+      "both_unmapped_selected_records": 3206722,
+      "unmapped_not_both_unmapped_paired_excluded": 727,
+      "RG_query_name_groups": 2490971,
+      "written_bases_R1": 291355517,
+      "written_bases_R2": 301841815,
+      "both_unmapped_complete_pairs_written": 1603361,
+      "complete_pairs_written": 2490971,
+      "chr6_complete_pairs_written": 887610
+    },
+    "sort_args": [
+      "-n",
+      "-@",
+      "1",
+      "-m",
+      "512M",
+      "-T",
+      "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/sorttmp",
+      "-o",
+      "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/selected-primary.namesort.bam",
+      "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/selected-primary.bam"
+    ],
+    "stages": [
+      {
+        "stage": "selecting",
+        "elapsed_seconds": 6.06,
+        "counts": {
+          "chr6_input_records": 1097162,
+          "chr6_secondary_or_supplementary_excluded": 97148,
+          "chr6_selected_records": 1000000,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 84226,
+          "chr6_not_mapped_proper_pair_excluded": 14
+        },
+        "peak_RSS_bytes": 35143680,
+        "free_disk_bytes": 16357556224
+      },
+      {
+        "stage": "selecting",
+        "elapsed_seconds": 12.87,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 319974,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 224839,
+          "both_unmapped_selected_records": 224780,
+          "unmapped_not_both_unmapped_paired_excluded": 59
+        },
+        "peak_RSS_bytes": 35160064,
+        "free_disk_bytes": 16302854144
+      },
+      {
+        "stage": "selecting",
+        "elapsed_seconds": 23.42,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 1319974,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 1225061,
+          "both_unmapped_selected_records": 1224780,
+          "unmapped_not_both_unmapped_paired_excluded": 281
+        },
+        "peak_RSS_bytes": 35160064,
+        "free_disk_bytes": 16264577024
+      },
+      {
+        "stage": "selecting",
+        "elapsed_seconds": 34.21,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 2319974,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 2225270,
+          "both_unmapped_selected_records": 2224780,
+          "unmapped_not_both_unmapped_paired_excluded": 490
+        },
+        "peak_RSS_bytes": 35160064,
+        "free_disk_bytes": 16189378560
+      },
+      {
+        "stage": "selection_complete",
+        "elapsed_seconds": 44.61,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 3301916,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 3207449,
+          "both_unmapped_selected_records": 3206722,
+          "unmapped_not_both_unmapped_paired_excluded": 727
+        },
+        "peak_RSS_bytes": 35160064,
+        "free_disk_bytes": 16120180736
+      },
+      {
+        "stage": "name_sort_complete",
+        "elapsed_seconds": 99.48,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 3301916,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 3207449,
+          "both_unmapped_selected_records": 3206722,
+          "unmapped_not_both_unmapped_paired_excluded": 727
+        },
+        "peak_RSS_bytes": 722370560,
+        "free_disk_bytes": 14912192512
+      },
+      {
+        "stage": "writing_paired_fastq",
+        "elapsed_seconds": 127.16,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 3301916,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 3207449,
+          "both_unmapped_selected_records": 3206722,
+          "unmapped_not_both_unmapped_paired_excluded": 727,
+          "RG_query_name_groups": 500000,
+          "written_bases_R1": 58348833,
+          "written_bases_R2": 60452345,
+          "both_unmapped_complete_pairs_written": 320670,
+          "complete_pairs_written": 500000,
+          "chr6_complete_pairs_written": 179330
+        },
+        "peak_RSS_bytes": 722370560,
+        "free_disk_bytes": 14798270464
+      },
+      {
+        "stage": "writing_paired_fastq",
+        "elapsed_seconds": 154.89,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 3301916,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 3207449,
+          "both_unmapped_selected_records": 3206722,
+          "unmapped_not_both_unmapped_paired_excluded": 727,
+          "RG_query_name_groups": 1000000,
+          "written_bases_R1": 116737961,
+          "written_bases_R2": 120936310,
+          "both_unmapped_complete_pairs_written": 642931,
+          "complete_pairs_written": 1000000,
+          "chr6_complete_pairs_written": 357069
+        },
+        "peak_RSS_bytes": 722370560,
+        "free_disk_bytes": 14567038976
+      },
+      {
+        "stage": "writing_paired_fastq",
+        "elapsed_seconds": 182.58,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 3301916,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 3207449,
+          "both_unmapped_selected_records": 3206722,
+          "unmapped_not_both_unmapped_paired_excluded": 727,
+          "RG_query_name_groups": 1500000,
+          "written_bases_R1": 175397918,
+          "written_bases_R2": 181703327,
+          "both_unmapped_complete_pairs_written": 964943,
+          "complete_pairs_written": 1500000,
+          "chr6_complete_pairs_written": 535057
+        },
+        "peak_RSS_bytes": 722370560,
+        "free_disk_bytes": 14332559360
+      },
+      {
+        "stage": "writing_paired_fastq",
+        "elapsed_seconds": 210.11,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 3301916,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 3207449,
+          "both_unmapped_selected_records": 3206722,
+          "unmapped_not_both_unmapped_paired_excluded": 727,
+          "RG_query_name_groups": 2000000,
+          "written_bases_R1": 233981004,
+          "written_bases_R2": 242407009,
+          "both_unmapped_complete_pairs_written": 1286300,
+          "complete_pairs_written": 2000000,
+          "chr6_complete_pairs_written": 713700
+        },
+        "peak_RSS_bytes": 722370560,
+        "free_disk_bytes": 14213906432
+      },
+      {
+        "stage": "paired_fastq_complete",
+        "elapsed_seconds": 237.42,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 3301916,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 3207449,
+          "both_unmapped_selected_records": 3206722,
+          "unmapped_not_both_unmapped_paired_excluded": 727,
+          "RG_query_name_groups": 2490971,
+          "written_bases_R1": 291355517,
+          "written_bases_R2": 301841815,
+          "both_unmapped_complete_pairs_written": 1603361,
+          "complete_pairs_written": 2490971,
+          "chr6_complete_pairs_written": 887610
+        },
+        "peak_RSS_bytes": 722370560,
+        "free_disk_bytes": 14149517312
+      },
+      {
+        "stage": "full_fastq_roundtrip_passed",
+        "elapsed_seconds": 245.68,
+        "counts": {
+          "chr6_input_records": 1901422,
+          "chr6_secondary_or_supplementary_excluded": 126187,
+          "chr6_selected_records": 1775220,
+          "selected_QC_fail_records": 0,
+          "selected_duplicate_flag_records": 0,
+          "selected_MAPQ_below_20_records": 3301916,
+          "chr6_not_mapped_proper_pair_excluded": 15,
+          "both_unmapped_input_records": 3207449,
+          "both_unmapped_selected_records": 3206722,
+          "unmapped_not_both_unmapped_paired_excluded": 727,
+          "RG_query_name_groups": 2490971,
+          "written_bases_R1": 291355517,
+          "written_bases_R2": 301841815,
+          "both_unmapped_complete_pairs_written": 1603361,
+          "complete_pairs_written": 2490971,
+          "chr6_complete_pairs_written": 887610
+        },
+        "peak_RSS_bytes": 722370560,
+        "free_disk_bytes": 14148349952
+      }
+    ],
+    "paired_FASTQ_content_sha256": [
+      "5fcb89fb9ff71ebfd943b473ca3a13ea2bec141db5939d82aaff438ba156824b",
+      "cac62e49b5e7ec06297af27d8c40e7b2bce74f11801fc25fd50b0f06492da26e"
+    ],
+    "files": [
+      {
+        "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/RNA_HLA.R1.fq.gz",
+        "bytes": 120028223,
+        "sha256": "ecb8390238bd251ff29a06955f49bbfefa9005074edbac131267e319f6b2e8e3"
+      },
+      {
+        "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/RNA_HLA.R2.fq.gz",
+        "bytes": 127607644,
+        "sha256": "e2da82362ca2122eb1ccf74f9744eba2625650fc7280e10e4207208843156781"
+      }
+    ],
+    "derived_bam_paths": [
+      "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/selected-primary.bam",
+      "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/selected-primary.namesort.bam"
+    ],
+    "derived_bam_bytes": [
+      235267012,
+      294765521
+    ],
+    "elapsed_seconds": 245.80483388900757,
+    "limits": [
+      "Read pairs are not independently tagged molecules; no UMI deduplication.",
+      "Bulk FFPE tumor contains nonmalignant cells. HLA typing is exploratory, not clinical typing or allele retention/LOH.",
+      "Pairs with one unmapped mate or improper alignment are not in this arcas-style subset."
+    ]
+  },
+  "runs": [
+    {
+      "version": "3.24.0",
+      "returncode": 0,
+      "guard": null,
+      "elapsed_seconds": 85.18561506271362,
+      "process_tree_peak_RSS_bytes_2sec_sampled": 561659904,
+      "command": [
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/bioenv/bin/python",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA-control-3.24/scripts/genotype.py",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/RNA_HLA.R1.fq.gz",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/RNA_HLA.R2.fq.gz",
+        "-g",
+        "A,B,C,DPA1,DPB1,DQA1,DQB1,DRB1,DRB5",
+        "-o",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.24.0",
+        "--temp",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-temp-3.24.0",
+        "-t",
+        "1",
+        "-p",
+        "prior",
+        "--min_count",
+        "75",
+        "--tolerance",
+        "0.000001",
+        "--max_iterations",
+        "1000",
+        "--drop_iterations",
+        "20",
+        "--drop_threshold",
+        "0.1",
+        "--zygosity_threshold",
+        "0.15",
+        "--log",
+        "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/hla-feasibility/patient-3.24.0.arcas.log",
+        "-v"
+      ],
+      "output_dir": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.24.0",
+      "files": [
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.24.0/RNA_HLA.genotype.json",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.24.0/RNA_HLA.genes.json",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.24.0/RNA_HLA.alignment.p"
+      ],
+      "arcas_commit": "9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55",
+      "kallisto_version": "0.44.0",
+      "status": "completed",
+      "genotypes": {
+        "A": [
+          "A*26:01:01",
+          "A*02:01:01"
+        ],
+        "B": [
+          "B*50:01:01",
+          "B*52:01:01"
+        ],
+        "C": [
+          "C*06:02:01",
+          "C*12:02:02"
+        ],
+        "DPA1": [
+          "DPA1*01:03:01",
+          "DPA1*01:03:01"
+        ],
+        "DPB1": [
+          "DPB1*02:01:02",
+          "DPB1*04:01:01"
+        ],
+        "DQA1": [
+          "DQA1*01:03:01",
+          "DQA1*05:01:01"
+        ],
+        "DQB1": [
+          "DQB1*02:01:01",
+          "DQB1*06:01:01"
+        ],
+        "DRB1": [
+          "DRB1*03:01:01",
+          "DRB1*15:02:02"
+        ],
+        "DRB5": [
+          "DRB5*01:02",
+          "DRB5*01:02"
+        ]
+      }
+    },
+    {
+      "version": "3.46.0",
+      "returncode": 0,
+      "guard": null,
+      "elapsed_seconds": 153.22597193717957,
+      "process_tree_peak_RSS_bytes_2sec_sampled": 1417396224,
+      "command": [
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/bioenv/bin/python",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/genotype.py",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/RNA_HLA.R1.fq.gz",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/RNA_HLA.R2.fq.gz",
+        "-g",
+        "A,B,C,DPA1,DPB1,DQA1,DQB1,DRB1,DRB5",
+        "-o",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.46.0",
+        "--temp",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-temp-3.46.0",
+        "-t",
+        "1",
+        "-p",
+        "prior",
+        "--min_count",
+        "75",
+        "--tolerance",
+        "0.000001",
+        "--max_iterations",
+        "1000",
+        "--drop_iterations",
+        "20",
+        "--drop_threshold",
+        "0.1",
+        "--zygosity_threshold",
+        "0.15",
+        "--log",
+        "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/hla-feasibility/patient-3.46.0.arcas.log",
+        "-v"
+      ],
+      "output_dir": "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.46.0",
+      "files": [
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.46.0/RNA_HLA.genotype.json",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.46.0/RNA_HLA.genes.json",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.46.0/RNA_HLA.alignment.p"
+      ],
+      "arcas_commit": "9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55",
+      "kallisto_version": "0.44.0",
+      "status": "completed",
+      "genotypes": {
+        "A": [
+          "A*02:01:01",
+          "A*26:01:01"
+        ],
+        "B": [
+          "B*52:01:01",
+          "B*50:01:01"
+        ],
+        "C": [
+          "C*06:02:01",
+          "C*12:02:02"
+        ],
+        "DPA1": [
+          "DPA1*01:03:01",
+          "DPA1*01:03:01"
+        ],
+        "DPB1": [
+          "DPB1*02:01:02",
+          "DPB1*04:01:01"
+        ],
+        "DQA1": [
+          "DQA1*01:03:01",
+          "DQA1*05:01:01"
+        ],
+        "DQB1": [
+          "DQB1*02:01:01",
+          "DQB1*06:01:01"
+        ],
+        "DRB1": [
+          "DRB1*03:01:01",
+          "DRB1*15:02:05"
+        ],
+        "DRB5": [
+          "DRB5*01:02:01",
+          "DRB5*01:02:01"
+        ]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "gene": "A",
+      "IMGT_3_24_two_field": "A*02:01;A*26:01",
+      "IMGT_3_46_two_field": "A*02:01;A*26:01",
+      "reference_concordance": true,
+      "Caris_class_I": "A*02:01;A*26:01",
+      "Caris_comparison_3_24": true,
+      "Caris_comparison_3_46": true,
+      "model_fragment_count_3_24": 8259.0,
+      "genotype_explained_fragments_3_24": 8146,
+      "nonshared_minor_major_3_24": 0.88,
+      "no_population_prior_two_field_match_3_24": true,
+      "model_fragment_count_3_46": 7579.0,
+      "genotype_explained_fragments_3_46": 6971,
+      "nonshared_minor_major_3_46": 0.89,
+      "no_population_prior_two_field_match_3_46": true
+    },
+    {
+      "gene": "B",
+      "IMGT_3_24_two_field": "B*50:01;B*52:01",
+      "IMGT_3_46_two_field": "B*50:01;B*52:01",
+      "reference_concordance": true,
+      "Caris_class_I": "B*50:01;B*52:01",
+      "Caris_comparison_3_24": true,
+      "Caris_comparison_3_46": true,
+      "model_fragment_count_3_24": 9469.0,
+      "genotype_explained_fragments_3_24": 9307,
+      "nonshared_minor_major_3_24": 0.87,
+      "no_population_prior_two_field_match_3_24": true,
+      "model_fragment_count_3_46": 8246.0,
+      "genotype_explained_fragments_3_46": 7589,
+      "nonshared_minor_major_3_46": 0.86,
+      "no_population_prior_two_field_match_3_46": true
+    },
+    {
+      "gene": "C",
+      "IMGT_3_24_two_field": "C*06:02;C*12:02",
+      "IMGT_3_46_two_field": "C*06:02;C*12:02",
+      "reference_concordance": true,
+      "Caris_class_I": "C*06:02;C*12:02",
+      "Caris_comparison_3_24": true,
+      "Caris_comparison_3_46": true,
+      "model_fragment_count_3_24": 9253.0,
+      "genotype_explained_fragments_3_24": 9073,
+      "nonshared_minor_major_3_24": 0.39,
+      "no_population_prior_two_field_match_3_24": true,
+      "model_fragment_count_3_46": 7433.0,
+      "genotype_explained_fragments_3_46": 6693,
+      "nonshared_minor_major_3_46": 0.4,
+      "no_population_prior_two_field_match_3_46": true
+    },
+    {
+      "gene": "DPA1",
+      "IMGT_3_24_two_field": "DPA1*01:03;DPA1*01:03",
+      "IMGT_3_46_two_field": "DPA1*01:03;DPA1*01:03",
+      "reference_concordance": true,
+      "Caris_class_I": "",
+      "Caris_comparison_3_24": null,
+      "Caris_comparison_3_46": null,
+      "model_fragment_count_3_24": 1194.0,
+      "genotype_explained_fragments_3_24": 1190,
+      "nonshared_minor_major_3_24": null,
+      "no_population_prior_two_field_match_3_24": true,
+      "model_fragment_count_3_46": 1190.0,
+      "genotype_explained_fragments_3_46": 1176,
+      "nonshared_minor_major_3_46": null,
+      "no_population_prior_two_field_match_3_46": true
+    },
+    {
+      "gene": "DPB1",
+      "IMGT_3_24_two_field": "DPB1*02:01;DPB1*04:01",
+      "IMGT_3_46_two_field": "DPB1*02:01;DPB1*04:01",
+      "reference_concordance": true,
+      "Caris_class_I": "",
+      "Caris_comparison_3_24": null,
+      "Caris_comparison_3_46": null,
+      "model_fragment_count_3_24": 1249.0,
+      "genotype_explained_fragments_3_24": 1243,
+      "nonshared_minor_major_3_24": 0.89,
+      "no_population_prior_two_field_match_3_24": true,
+      "model_fragment_count_3_46": 1234.0,
+      "genotype_explained_fragments_3_46": 1203,
+      "nonshared_minor_major_3_46": 0.89,
+      "no_population_prior_two_field_match_3_46": true
+    },
+    {
+      "gene": "DQA1",
+      "IMGT_3_24_two_field": "DQA1*01:03;DQA1*05:01",
+      "IMGT_3_46_two_field": "DQA1*01:03;DQA1*05:01",
+      "reference_concordance": true,
+      "Caris_class_I": "",
+      "Caris_comparison_3_24": null,
+      "Caris_comparison_3_46": null,
+      "model_fragment_count_3_24": 638.0,
+      "genotype_explained_fragments_3_24": 615,
+      "nonshared_minor_major_3_24": 0.61,
+      "no_population_prior_two_field_match_3_24": true,
+      "model_fragment_count_3_46": 578.0,
+      "genotype_explained_fragments_3_46": 571,
+      "nonshared_minor_major_3_46": 0.66,
+      "no_population_prior_two_field_match_3_46": true
+    },
+    {
+      "gene": "DQB1",
+      "IMGT_3_24_two_field": "DQB1*02:01;DQB1*06:01",
+      "IMGT_3_46_two_field": "DQB1*02:01;DQB1*06:01",
+      "reference_concordance": true,
+      "Caris_class_I": "",
+      "Caris_comparison_3_24": null,
+      "Caris_comparison_3_46": null,
+      "model_fragment_count_3_24": 698.0,
+      "genotype_explained_fragments_3_24": 695,
+      "nonshared_minor_major_3_24": 0.47,
+      "no_population_prior_two_field_match_3_24": true,
+      "model_fragment_count_3_46": 697.0,
+      "genotype_explained_fragments_3_46": 690,
+      "nonshared_minor_major_3_46": 0.47,
+      "no_population_prior_two_field_match_3_46": true
+    },
+    {
+      "gene": "DRB1",
+      "IMGT_3_24_two_field": "DRB1*03:01;DRB1*15:02",
+      "IMGT_3_46_two_field": "DRB1*03:01;DRB1*15:02",
+      "reference_concordance": true,
+      "Caris_class_I": "",
+      "Caris_comparison_3_24": null,
+      "Caris_comparison_3_46": null,
+      "model_fragment_count_3_24": 2259.0,
+      "genotype_explained_fragments_3_24": 2189,
+      "nonshared_minor_major_3_24": 0.93,
+      "no_population_prior_two_field_match_3_24": true,
+      "model_fragment_count_3_46": 2534.0,
+      "genotype_explained_fragments_3_46": 2500,
+      "nonshared_minor_major_3_46": 0.7,
+      "no_population_prior_two_field_match_3_46": true
+    },
+    {
+      "gene": "DRB5",
+      "IMGT_3_24_two_field": "DRB5*01:02;DRB5*01:02",
+      "IMGT_3_46_two_field": "DRB5*01:02;DRB5*01:02",
+      "reference_concordance": true,
+      "Caris_class_I": "",
+      "Caris_comparison_3_24": null,
+      "Caris_comparison_3_46": null,
+      "model_fragment_count_3_24": 1412.0,
+      "genotype_explained_fragments_3_24": 1410,
+      "nonshared_minor_major_3_24": null,
+      "no_population_prior_two_field_match_3_24": true,
+      "model_fragment_count_3_46": 1356.0,
+      "genotype_explained_fragments_3_46": 1354,
+      "nonshared_minor_major_3_46": null,
+      "no_population_prior_two_field_match_3_46": true
+    }
+  ],
+  "diagnostics": {
+    "3.24.0": {
+      "genes": {
+        "A": {
+          "model_gene_fragment_count": 8259.0,
+          "compatibility_classes": 673,
+          "called_alleles_raw": [
+            "A*26:01:01",
+            "A*02:01:01"
+          ],
+          "called_two_field": [
+            "A*02:01",
+            "A*26:01"
+          ],
+          "EM_converged_iterations": 23,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "A*02:01:01",
+              "estimated_transcript_abundance_percent": 53.14
+            },
+            {
+              "representative_allele": "A*26:01:01",
+              "estimated_transcript_abundance_percent": 46.86
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "A*26:01:01",
+                "A*02:01:01"
+              ],
+              "percent_gene_fragments_explained": 98.63
+            }
+          ],
+          "genotype_explained_fragments": 8146,
+          "minor_to_major_nonshared_ratio_rounded": 0.88,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.88",
+          "no_call": false
+        },
+        "B": {
+          "model_gene_fragment_count": 9469.0,
+          "compatibility_classes": 556,
+          "called_alleles_raw": [
+            "B*50:01:01",
+            "B*52:01:01"
+          ],
+          "called_two_field": [
+            "B*50:01",
+            "B*52:01"
+          ],
+          "EM_converged_iterations": 23,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "B*50:01:01",
+              "estimated_transcript_abundance_percent": 53.35
+            },
+            {
+              "representative_allele": "B*52:01:01",
+              "estimated_transcript_abundance_percent": 46.65
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "B*50:01:01",
+                "B*52:01:01"
+              ],
+              "percent_gene_fragments_explained": 98.29
+            }
+          ],
+          "genotype_explained_fragments": 9307,
+          "minor_to_major_nonshared_ratio_rounded": 0.87,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.87",
+          "no_call": false
+        },
+        "C": {
+          "model_gene_fragment_count": 9253.0,
+          "compatibility_classes": 602,
+          "called_alleles_raw": [
+            "C*06:02:01",
+            "C*12:02:02"
+          ],
+          "called_two_field": [
+            "C*06:02",
+            "C*12:02"
+          ],
+          "EM_converged_iterations": 24,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "C*06:02:01",
+              "estimated_transcript_abundance_percent": 71.82
+            },
+            {
+              "representative_allele": "C*12:02:02",
+              "estimated_transcript_abundance_percent": 28.18
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "C*06:02:01",
+                "C*12:02:02"
+              ],
+              "percent_gene_fragments_explained": 98.05
+            }
+          ],
+          "genotype_explained_fragments": 9073,
+          "minor_to_major_nonshared_ratio_rounded": 0.39,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.39",
+          "no_call": false
+        },
+        "DPA1": {
+          "model_gene_fragment_count": 1194.0,
+          "compatibility_classes": 10,
+          "called_alleles_raw": [
+            "DPA1*01:03:01",
+            "DPA1*01:03:01"
+          ],
+          "called_two_field": [
+            "DPA1*01:03",
+            "DPA1*01:03"
+          ],
+          "EM_converged_iterations": 23,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DPA1*01:03:01",
+              "estimated_transcript_abundance_percent": 100.0
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [],
+          "genotype_explained_fragments": 1190,
+          "minor_to_major_nonshared_ratio_rounded": null,
+          "zygosity_message": null,
+          "no_call": false
+        },
+        "DPB1": {
+          "model_gene_fragment_count": 1249.0,
+          "compatibility_classes": 59,
+          "called_alleles_raw": [
+            "DPB1*02:01:02",
+            "DPB1*04:01:01"
+          ],
+          "called_two_field": [
+            "DPB1*02:01",
+            "DPB1*04:01"
+          ],
+          "EM_converged_iterations": 24,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DPB1*02:01:02",
+              "estimated_transcript_abundance_percent": 52.83
+            },
+            {
+              "representative_allele": "DPB1*04:01:01",
+              "estimated_transcript_abundance_percent": 47.17
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "DPB1*02:01:02",
+                "DPB1*04:01:01"
+              ],
+              "percent_gene_fragments_explained": 99.52
+            }
+          ],
+          "genotype_explained_fragments": 1243,
+          "minor_to_major_nonshared_ratio_rounded": 0.89,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.89",
+          "no_call": false
+        },
+        "DQA1": {
+          "model_gene_fragment_count": 638.0,
+          "compatibility_classes": 59,
+          "called_alleles_raw": [
+            "DQA1*01:03:01",
+            "DQA1*05:01:01"
+          ],
+          "called_two_field": [
+            "DQA1*01:03",
+            "DQA1*05:01"
+          ],
+          "EM_converged_iterations": 23,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DQA1*01:03:01",
+              "estimated_transcript_abundance_percent": 62.15
+            },
+            {
+              "representative_allele": "DQA1*05:01:01",
+              "estimated_transcript_abundance_percent": 37.85
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "DQA1*01:03:01",
+                "DQA1*05:01:01"
+              ],
+              "percent_gene_fragments_explained": 96.39
+            }
+          ],
+          "genotype_explained_fragments": 615,
+          "minor_to_major_nonshared_ratio_rounded": 0.61,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.61",
+          "no_call": false
+        },
+        "DQB1": {
+          "model_gene_fragment_count": 698.0,
+          "compatibility_classes": 45,
+          "called_alleles_raw": [
+            "DQB1*02:01:01",
+            "DQB1*06:01:01"
+          ],
+          "called_two_field": [
+            "DQB1*02:01",
+            "DQB1*06:01"
+          ],
+          "EM_converged_iterations": 14,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DQB1*06:01:01",
+              "estimated_transcript_abundance_percent": 67.27
+            },
+            {
+              "representative_allele": "DQB1*02:01:01",
+              "estimated_transcript_abundance_percent": 30.86
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "DQB1*02:01:01",
+                "DQB1*06:01:01"
+              ],
+              "percent_gene_fragments_explained": 99.57
+            }
+          ],
+          "genotype_explained_fragments": 695,
+          "minor_to_major_nonshared_ratio_rounded": 0.47,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.47",
+          "no_call": false
+        },
+        "DRB1": {
+          "model_gene_fragment_count": 2259.0,
+          "compatibility_classes": 69,
+          "called_alleles_raw": [
+            "DRB1*03:01:01",
+            "DRB1*15:02:02"
+          ],
+          "called_two_field": [
+            "DRB1*03:01",
+            "DRB1*15:02"
+          ],
+          "EM_converged_iterations": 24,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DRB1*15:02:02",
+              "estimated_transcript_abundance_percent": 51.79
+            },
+            {
+              "representative_allele": "DRB1*03:01:01",
+              "estimated_transcript_abundance_percent": 48.21
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "DRB1*03:01:01",
+                "DRB1*15:02:02"
+              ],
+              "percent_gene_fragments_explained": 96.9
+            }
+          ],
+          "genotype_explained_fragments": 2189,
+          "minor_to_major_nonshared_ratio_rounded": 0.93,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.93",
+          "no_call": false
+        },
+        "DRB5": {
+          "model_gene_fragment_count": 1412.0,
+          "compatibility_classes": 5,
+          "called_alleles_raw": [
+            "DRB5*01:02",
+            "DRB5*01:02"
+          ],
+          "called_two_field": [
+            "DRB5*01:02",
+            "DRB5*01:02"
+          ],
+          "EM_converged_iterations": 4,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DRB5*01:02",
+              "estimated_transcript_abundance_percent": 100.0
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [],
+          "genotype_explained_fragments": 1410,
+          "minor_to_major_nonshared_ratio_rounded": null,
+          "zygosity_message": null,
+          "no_call": false
+        }
+      },
+      "gene_stats_raw": {
+        "A": [
+          8259.0,
+          673,
+          0.17020625141145693
+        ],
+        "B": [
+          9469.0,
+          556,
+          0.19675538064964984
+        ],
+        "C": [
+          9253.0,
+          602,
+          0.19017158413842886
+        ],
+        "DMA": [
+          252.0,
+          2,
+          0.007254848968916395
+        ],
+        "DMB": [
+          163.0,
+          3,
+          0.004657070407445641
+        ],
+        "DPA1": [
+          1194.0,
+          10,
+          0.03450586713568354
+        ],
+        "DPB1": [
+          1249.0,
+          59,
+          0.036374061820344784
+        ],
+        "DPB2": [
+          8.0,
+          3,
+          0.00023328061240256452
+        ],
+        "DQA1": [
+          638.0,
+          59,
+          0.018797921847845192
+        ],
+        "DQB1": [
+          698.0,
+          45,
+          0.020094780080570016
+        ],
+        "DRA": [
+          3295.0,
+          9,
+          0.09746402997783746
+        ],
+        "DRB1": [
+          2259.0,
+          69,
+          0.06381666370972178
+        ],
+        "DRB2": [
+          4.0,
+          1,
+          0.00017643835791850883
+        ],
+        "DRB3": [
+          222.0,
+          6,
+          0.006271491519946098
+        ],
+        "DRB5": [
+          1412.0,
+          5,
+          0.039888946063801306
+        ],
+        "DRB7": [
+          1.0,
+          1,
+          2.839174329115277e-05
+        ],
+        "H": [
+          85.0,
+          22,
+          0.0017549257748714821
+        ],
+        "HFE": [
+          96.0,
+          1,
+          0.0020747937561534677
+        ],
+        "K": [
+          43.0,
+          11,
+          0.0008902227212544342
+        ],
+        "L": [
+          59.0,
+          4,
+          0.0012181249496166758
+        ],
+        "P": [
+          249.0,
+          1,
+          0.002667815639848078
+        ],
+        "V": [
+          10.0,
+          3,
+          0.0004376831606005563
+        ],
+        "F": [
+          299.0,
+          6,
+          0.0064993636902128515
+        ],
+        "G": [
+          61.0,
+          21,
+          0.0013572481647846353
+        ],
+        "E": [
+          4413.0,
+          31,
+          0.09212023268049278
+        ],
+        "J": [
+          87.0,
+          6,
+          0.0017978585279134632
+        ],
+        "DOB": [
+          23.0,
+          5,
+          0.0006323803721386651
+        ],
+        "DRB4": [
+          6.0,
+          1,
+          0.000169499770809354
+        ],
+        "DOA": [
+          56.0,
+          11,
+          0.0016828423460434668
+        ]
+      },
+      "single_HLA_gene_pseudoaligned_fragments": 43863,
+      "pseudoalignment_counts": [
+        [
+          "2,490,971",
+          "51,071"
+        ]
+      ]
+    },
+    "3.46.0": {
+      "genes": {
+        "A": {
+          "model_gene_fragment_count": 7579.0,
+          "compatibility_classes": 3174,
+          "called_alleles_raw": [
+            "A*02:01:01",
+            "A*26:01:01"
+          ],
+          "called_two_field": [
+            "A*02:01",
+            "A*26:01"
+          ],
+          "EM_converged_iterations": 49,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "A*02:01:01",
+              "estimated_transcript_abundance_percent": 50.28
+            },
+            {
+              "representative_allele": "A*26:01:01",
+              "estimated_transcript_abundance_percent": 41.6
+            },
+            {
+              "representative_allele": "A*26:186",
+              "estimated_transcript_abundance_percent": 8.12
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "A*02:01:01",
+                "A*26:01:01"
+              ],
+              "percent_gene_fragments_explained": 91.98
+            },
+            {
+              "representative_pair": [
+                "A*02:01:01",
+                "A*26:186"
+              ],
+              "percent_gene_fragments_explained": 80.21
+            },
+            {
+              "representative_pair": [
+                "A*26:186",
+                "A*26:01:01"
+              ],
+              "percent_gene_fragments_explained": 60.83
+            }
+          ],
+          "genotype_explained_fragments": 6971,
+          "minor_to_major_nonshared_ratio_rounded": 0.89,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.89",
+          "no_call": false
+        },
+        "B": {
+          "model_gene_fragment_count": 8246.0,
+          "compatibility_classes": 2923,
+          "called_alleles_raw": [
+            "B*52:01:01",
+            "B*50:01:01"
+          ],
+          "called_two_field": [
+            "B*50:01",
+            "B*52:01"
+          ],
+          "EM_converged_iterations": 24,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "B*50:01:01",
+              "estimated_transcript_abundance_percent": 53.83
+            },
+            {
+              "representative_allele": "B*52:01:01",
+              "estimated_transcript_abundance_percent": 46.17
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "B*52:01:01",
+                "B*50:01:01"
+              ],
+              "percent_gene_fragments_explained": 92.03
+            }
+          ],
+          "genotype_explained_fragments": 7589,
+          "minor_to_major_nonshared_ratio_rounded": 0.86,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.86",
+          "no_call": false
+        },
+        "C": {
+          "model_gene_fragment_count": 7433.0,
+          "compatibility_classes": 2548,
+          "called_alleles_raw": [
+            "C*06:02:01",
+            "C*12:02:02"
+          ],
+          "called_two_field": [
+            "C*06:02",
+            "C*12:02"
+          ],
+          "EM_converged_iterations": 29,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "C*06:02:01",
+              "estimated_transcript_abundance_percent": 71.29
+            },
+            {
+              "representative_allele": "C*12:02:02",
+              "estimated_transcript_abundance_percent": 28.71
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "C*06:02:01",
+                "C*12:02:02"
+              ],
+              "percent_gene_fragments_explained": 90.04
+            }
+          ],
+          "genotype_explained_fragments": 6693,
+          "minor_to_major_nonshared_ratio_rounded": 0.4,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.40",
+          "no_call": false
+        },
+        "DPA1": {
+          "model_gene_fragment_count": 1190.0,
+          "compatibility_classes": 163,
+          "called_alleles_raw": [
+            "DPA1*01:03:01",
+            "DPA1*01:03:01"
+          ],
+          "called_two_field": [
+            "DPA1*01:03",
+            "DPA1*01:03"
+          ],
+          "EM_converged_iterations": 23,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DPA1*01:03:01",
+              "estimated_transcript_abundance_percent": 100.0
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [],
+          "genotype_explained_fragments": 1176,
+          "minor_to_major_nonshared_ratio_rounded": null,
+          "zygosity_message": null,
+          "no_call": false
+        },
+        "DPB1": {
+          "model_gene_fragment_count": 1234.0,
+          "compatibility_classes": 411,
+          "called_alleles_raw": [
+            "DPB1*02:01:02",
+            "DPB1*04:01:01"
+          ],
+          "called_two_field": [
+            "DPB1*02:01",
+            "DPB1*04:01"
+          ],
+          "EM_converged_iterations": 24,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DPB1*02:01:02",
+              "estimated_transcript_abundance_percent": 52.97
+            },
+            {
+              "representative_allele": "DPB1*04:01:01",
+              "estimated_transcript_abundance_percent": 47.03
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "DPB1*02:01:02",
+                "DPB1*04:01:01"
+              ],
+              "percent_gene_fragments_explained": 97.49
+            }
+          ],
+          "genotype_explained_fragments": 1203,
+          "minor_to_major_nonshared_ratio_rounded": 0.89,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.89",
+          "no_call": false
+        },
+        "DQA1": {
+          "model_gene_fragment_count": 578.0,
+          "compatibility_classes": 150,
+          "called_alleles_raw": [
+            "DQA1*01:03:01",
+            "DQA1*05:01:01"
+          ],
+          "called_two_field": [
+            "DQA1*01:03",
+            "DQA1*05:01"
+          ],
+          "EM_converged_iterations": 18,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DQA1*01:03:01",
+              "estimated_transcript_abundance_percent": 59.43
+            },
+            {
+              "representative_allele": "DQA1*05:01:01",
+              "estimated_transcript_abundance_percent": 37.63
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "DQA1*01:03:01",
+                "DQA1*05:01:01"
+              ],
+              "percent_gene_fragments_explained": 98.79
+            }
+          ],
+          "genotype_explained_fragments": 571,
+          "minor_to_major_nonshared_ratio_rounded": 0.66,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.66",
+          "no_call": false
+        },
+        "DQB1": {
+          "model_gene_fragment_count": 697.0,
+          "compatibility_classes": 147,
+          "called_alleles_raw": [
+            "DQB1*02:01:01",
+            "DQB1*06:01:01"
+          ],
+          "called_two_field": [
+            "DQB1*02:01",
+            "DQB1*06:01"
+          ],
+          "EM_converged_iterations": 23,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DQB1*06:01:01",
+              "estimated_transcript_abundance_percent": 68.16
+            },
+            {
+              "representative_allele": "DQB1*02:01:01",
+              "estimated_transcript_abundance_percent": 31.84
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "DQB1*02:01:01",
+                "DQB1*06:01:01"
+              ],
+              "percent_gene_fragments_explained": 99.0
+            }
+          ],
+          "genotype_explained_fragments": 690,
+          "minor_to_major_nonshared_ratio_rounded": 0.47,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.47",
+          "no_call": false
+        },
+        "DRB1": {
+          "model_gene_fragment_count": 2534.0,
+          "compatibility_classes": 186,
+          "called_alleles_raw": [
+            "DRB1*03:01:01",
+            "DRB1*15:02:05"
+          ],
+          "called_two_field": [
+            "DRB1*03:01",
+            "DRB1*15:02"
+          ],
+          "EM_converged_iterations": 28,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DRB1*15:02:05",
+              "estimated_transcript_abundance_percent": 58.93
+            },
+            {
+              "representative_allele": "DRB1*03:01:01",
+              "estimated_transcript_abundance_percent": 30.8
+            },
+            {
+              "representative_allele": "DRB1*03:01:31",
+              "estimated_transcript_abundance_percent": 10.27
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [
+            {
+              "representative_pair": [
+                "DRB1*03:01:31",
+                "DRB1*15:02:05"
+              ],
+              "percent_gene_fragments_explained": 98.66
+            }
+          ],
+          "genotype_explained_fragments": 2500,
+          "minor_to_major_nonshared_ratio_rounded": 0.7,
+          "zygosity_message": "Likely heterozygous: minor/major nonshared count 0.70",
+          "no_call": false
+        },
+        "DRB5": {
+          "model_gene_fragment_count": 1356.0,
+          "compatibility_classes": 10,
+          "called_alleles_raw": [
+            "DRB5*01:02:01",
+            "DRB5*01:02:01"
+          ],
+          "called_two_field": [
+            "DRB5*01:02",
+            "DRB5*01:02"
+          ],
+          "EM_converged_iterations": 16,
+          "final_EM_alleles": [
+            {
+              "representative_allele": "DRB5*01:02:01",
+              "estimated_transcript_abundance_percent": 99.58
+            }
+          ],
+          "surviving_two_field_pair_comparisons": [],
+          "genotype_explained_fragments": 1354,
+          "minor_to_major_nonshared_ratio_rounded": null,
+          "zygosity_message": null,
+          "no_call": false
+        }
+      },
+      "gene_stats_raw": {
+        "A": [
+          7579.0,
+          3174,
+          0.16671816241181292
+        ],
+        "B": [
+          8246.0,
+          2923,
+          0.18288951093030303
+        ],
+        "C": [
+          7433.0,
+          2548,
+          0.16306102263847655
+        ],
+        "DMA": [
+          252.0,
+          2,
+          0.0077437503364390405
+        ],
+        "DMB": [
+          163.0,
+          3,
+          0.004970908517736377
+        ],
+        "DPA1": [
+          1190.0,
+          163,
+          0.03670781609035705
+        ],
+        "DPB1": [
+          1234.0,
+          411,
+          0.038359018719333116
+        ],
+        "DPB2": [
+          8.0,
+          3,
+          0.0002490012994780349
+        ],
+        "DQA1": [
+          578.0,
+          150,
+          0.01817774330278061
+        ],
+        "DQB1": [
+          697.0,
+          147,
+          0.020783615872111683
+        ],
+        "DRA": [
+          3294.0,
+          17,
+          0.10400051922434349
+        ],
+        "DRB1": [
+          2534.0,
+          186,
+          0.07640951486779281
+        ],
+        "DRB2": [
+          4.0,
+          1,
+          0.0001883284682212038
+        ],
+        "DRB5": [
+          1356.0,
+          10,
+          0.04088843810604855
+        ],
+        "E": [
+          4216.0,
+          485,
+          0.09393872640603446
+        ],
+        "F": [
+          302.0,
+          16,
+          0.00700695875783819
+        ],
+        "HFE": [
+          866.0,
+          3,
+          0.019977657267195692
+        ],
+        "J": [
+          68.0,
+          22,
+          0.0014999201564905192
+        ],
+        "K": [
+          71.0,
+          11,
+          0.0015689587827129247
+        ],
+        "L": [
+          49.0,
+          4,
+          0.0010798386646159674
+        ],
+        "N": [
+          1.0,
+          1,
+          0.00015001941645571048
+        ],
+        "P": [
+          6.0,
+          4,
+          0.00019797644302761797
+        ],
+        "U": [
+          2.0,
+          1,
+          0.0002464604698915244
+        ],
+        "V": [
+          10.0,
+          3,
+          0.0004671784535661391
+        ],
+        "DRB3": [
+          222.0,
+          20,
+          0.006694124822671666
+        ],
+        "DRB4": [
+          6.0,
+          1,
+          0.00018092229250463962
+        ],
+        "DPA2": [
+          1.0,
+          1,
+          3.295105873038116e-05
+        ],
+        "W": [
+          6.0,
+          4,
+          0.00015482773108570121
+        ],
+        "H": [
+          59.0,
+          23,
+          0.0013002139022926951
+        ],
+        "DOB": [
+          23.0,
+          5,
+          0.0006758173955419659
+        ],
+        "DOA": [
+          56.0,
+          11,
+          0.001796248418014191
+        ],
+        "DQA2": [
+          12.0,
+          8,
+          0.00037739259452139673
+        ],
+        "G": [
+          59.0,
+          24,
+          0.0014012138022741337
+        ],
+        "T": [
+          2.0,
+          1,
+          0.0001052423793000845
+        ]
+      },
+      "single_HLA_gene_pseudoaligned_fragments": 40605,
+      "pseudoalignment_counts": [
+        [
+          "2,490,971",
+          "98,620"
+        ]
+      ]
+    }
+  },
+  "prior_sensitivity": [
+    {
+      "version": "3.24.0",
+      "returncode": 0,
+      "guard": null,
+      "elapsed_seconds": 84.55758905410767,
+      "peak_process_tree_RSS_bytes_1sec_sampled": 1054736384,
+      "command": [
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/bioenv/bin/python",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA-control-3.24/scripts/genotype.py",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/RNA_HLA.R1.fq.gz",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/RNA_HLA.R2.fq.gz",
+        "-g",
+        "A,B,C,DPA1,DPB1,DQA1,DQB1,DRB1,DRB5",
+        "-o",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.24.0-no-prior-fastq",
+        "--temp",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.24.0-no-prior-fastq/temp",
+        "-t",
+        "1",
+        "-p",
+        "none",
+        "--min_count",
+        "75",
+        "--tolerance",
+        "0.000001",
+        "--max_iterations",
+        "1000",
+        "--drop_iterations",
+        "20",
+        "--drop_threshold",
+        "0.1",
+        "--zygosity_threshold",
+        "0.15",
+        "--log",
+        "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/hla-feasibility/patient-3.24.0-no-prior-fastq.arcas.log",
+        "-v"
+      ],
+      "genotypes_no_prior": {
+        "A": [
+          "A*26:01:01",
+          "A*02:01:01"
+        ],
+        "B": [
+          "B*50:01:01",
+          "B*52:01:01"
+        ],
+        "C": [
+          "C*06:02:01",
+          "C*12:02:02"
+        ],
+        "DPA1": [
+          "DPA1*01:03:01",
+          "DPA1*01:03:01"
+        ],
+        "DPB1": [
+          "DPB1*02:01:02",
+          "DPB1*04:01:01"
+        ],
+        "DQA1": [
+          "DQA1*01:03:01",
+          "DQA1*05:01:01"
+        ],
+        "DQB1": [
+          "DQB1*02:01:01",
+          "DQB1*06:01:01"
+        ],
+        "DRB1": [
+          "DRB1*03:01:01",
+          "DRB1*15:02:02"
+        ],
+        "DRB5": [
+          "DRB5*01:02",
+          "DRB5*01:02"
+        ]
+      },
+      "comparison": {
+        "A": {
+          "default_prior": [
+            "A*26:01:01",
+            "A*02:01:01"
+          ],
+          "no_prior": [
+            "A*26:01:01",
+            "A*02:01:01"
+          ],
+          "two_field_match": true
+        },
+        "B": {
+          "default_prior": [
+            "B*50:01:01",
+            "B*52:01:01"
+          ],
+          "no_prior": [
+            "B*50:01:01",
+            "B*52:01:01"
+          ],
+          "two_field_match": true
+        },
+        "C": {
+          "default_prior": [
+            "C*06:02:01",
+            "C*12:02:02"
+          ],
+          "no_prior": [
+            "C*06:02:01",
+            "C*12:02:02"
+          ],
+          "two_field_match": true
+        },
+        "DPA1": {
+          "default_prior": [
+            "DPA1*01:03:01",
+            "DPA1*01:03:01"
+          ],
+          "no_prior": [
+            "DPA1*01:03:01",
+            "DPA1*01:03:01"
+          ],
+          "two_field_match": true
+        },
+        "DPB1": {
+          "default_prior": [
+            "DPB1*02:01:02",
+            "DPB1*04:01:01"
+          ],
+          "no_prior": [
+            "DPB1*02:01:02",
+            "DPB1*04:01:01"
+          ],
+          "two_field_match": true
+        },
+        "DQA1": {
+          "default_prior": [
+            "DQA1*01:03:01",
+            "DQA1*05:01:01"
+          ],
+          "no_prior": [
+            "DQA1*01:03:01",
+            "DQA1*05:01:01"
+          ],
+          "two_field_match": true
+        },
+        "DQB1": {
+          "default_prior": [
+            "DQB1*02:01:01",
+            "DQB1*06:01:01"
+          ],
+          "no_prior": [
+            "DQB1*02:01:01",
+            "DQB1*06:01:01"
+          ],
+          "two_field_match": true
+        },
+        "DRB1": {
+          "default_prior": [
+            "DRB1*03:01:01",
+            "DRB1*15:02:02"
+          ],
+          "no_prior": [
+            "DRB1*03:01:01",
+            "DRB1*15:02:02"
+          ],
+          "two_field_match": true
+        },
+        "DRB5": {
+          "default_prior": [
+            "DRB5*01:02",
+            "DRB5*01:02"
+          ],
+          "no_prior": [
+            "DRB5*01:02",
+            "DRB5*01:02"
+          ],
+          "two_field_match": true
+        }
+      }
+    },
+    {
+      "version": "3.46.0",
+      "returncode": 0,
+      "guard": null,
+      "elapsed_seconds": 152.86885571479797,
+      "peak_process_tree_RSS_bytes_1sec_sampled": 1436221440,
+      "command": [
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/bioenv/bin/python",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/arcasHLA/scripts/genotype.py",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/RNA_HLA.R1.fq.gz",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient/RNA_HLA.R2.fq.gz",
+        "-g",
+        "A,B,C,DPA1,DPB1,DQA1,DQB1,DRB1,DRB5",
+        "-o",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.46.0-no-prior-fastq",
+        "--temp",
+        "/Users/burhanazeem/.local/share/codex/caris-analysis/hla-tools/patient-genotype-3.46.0-no-prior-fastq/temp",
+        "-t",
+        "1",
+        "-p",
+        "none",
+        "--min_count",
+        "75",
+        "--tolerance",
+        "0.000001",
+        "--max_iterations",
+        "1000",
+        "--drop_iterations",
+        "20",
+        "--drop_threshold",
+        "0.1",
+        "--zygosity_threshold",
+        "0.15",
+        "--log",
+        "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/neoantigen/hla-feasibility/patient-3.46.0-no-prior-fastq.arcas.log",
+        "-v"
+      ],
+      "genotypes_no_prior": {
+        "A": [
+          "A*02:01:01",
+          "A*26:01:01"
+        ],
+        "B": [
+          "B*52:01:01",
+          "B*50:01:01"
+        ],
+        "C": [
+          "C*06:02:01",
+          "C*12:02:02"
+        ],
+        "DPA1": [
+          "DPA1*01:03:01",
+          "DPA1*01:03:01"
+        ],
+        "DPB1": [
+          "DPB1*02:01:02",
+          "DPB1*04:01:01"
+        ],
+        "DQA1": [
+          "DQA1*01:03:01",
+          "DQA1*05:01:01"
+        ],
+        "DQB1": [
+          "DQB1*02:01:01",
+          "DQB1*06:01:01"
+        ],
+        "DRB1": [
+          "DRB1*03:01:01",
+          "DRB1*15:02:05"
+        ],
+        "DRB5": [
+          "DRB5*01:02:01",
+          "DRB5*01:02:01"
+        ]
+      },
+      "comparison": {
+        "A": {
+          "default_prior": [
+            "A*02:01:01",
+            "A*26:01:01"
+          ],
+          "no_prior": [
+            "A*02:01:01",
+            "A*26:01:01"
+          ],
+          "two_field_match": true
+        },
+        "B": {
+          "default_prior": [
+            "B*52:01:01",
+            "B*50:01:01"
+          ],
+          "no_prior": [
+            "B*52:01:01",
+            "B*50:01:01"
+          ],
+          "two_field_match": true
+        },
+        "C": {
+          "default_prior": [
+            "C*06:02:01",
+            "C*12:02:02"
+          ],
+          "no_prior": [
+            "C*06:02:01",
+            "C*12:02:02"
+          ],
+          "two_field_match": true
+        },
+        "DPA1": {
+          "default_prior": [
+            "DPA1*01:03:01",
+            "DPA1*01:03:01"
+          ],
+          "no_prior": [
+            "DPA1*01:03:01",
+            "DPA1*01:03:01"
+          ],
+          "two_field_match": true
+        },
+        "DPB1": {
+          "default_prior": [
+            "DPB1*02:01:02",
+            "DPB1*04:01:01"
+          ],
+          "no_prior": [
+            "DPB1*02:01:02",
+            "DPB1*04:01:01"
+          ],
+          "two_field_match": true
+        },
+        "DQA1": {
+          "default_prior": [
+            "DQA1*01:03:01",
+            "DQA1*05:01:01"
+          ],
+          "no_prior": [
+            "DQA1*01:03:01",
+            "DQA1*05:01:01"
+          ],
+          "two_field_match": true
+        },
+        "DQB1": {
+          "default_prior": [
+            "DQB1*02:01:01",
+            "DQB1*06:01:01"
+          ],
+          "no_prior": [
+            "DQB1*02:01:01",
+            "DQB1*06:01:01"
+          ],
+          "two_field_match": true
+        },
+        "DRB1": {
+          "default_prior": [
+            "DRB1*03:01:01",
+            "DRB1*15:02:05"
+          ],
+          "no_prior": [
+            "DRB1*03:01:01",
+            "DRB1*15:02:05"
+          ],
+          "two_field_match": true
+        },
+        "DRB5": {
+          "default_prior": [
+            "DRB5*01:02:01",
+            "DRB5*01:02:01"
+          ],
+          "no_prior": [
+            "DRB5*01:02:01",
+            "DRB5*01:02:01"
+          ],
+          "two_field_match": true
+        }
+      }
+    }
+  ],
+  "replay_failure_and_resolution": "An attempted replay of official six-field alignment.p failed in upstream load_alignment legacy branch expecting nine fields. Failure preserved in patient-prior-alignment-reuse-failed.json/log. No official source was patched. Both no-prior sensitivity runs instead reprocessed the same exact paired FASTQs and completed.",
+  "limitations": [
+    "Exploratory arcasHLA typing from FFPE bulk tumor/admixed RNA; not accredited clinical HLA typing, not independent confirmation of germline HLA, and not evidence of tumor allele retention or HLA LOH.",
+    "Class-I comparison with Caris exome calls is an internal cross-assay check within the same specimen, not an independent tissue validation. Class-II calls have no provided clinical comparator.",
+    "Reference sensitivity is reported for both versions without selecting a favorable answer. Same-reference public regression passed all seven loci on IMGT3.24; the newer IMGT3.46 public example had B/DQB1/DRB1 differences from the old standard-stage expectation, with DRB1 still different from final partial-stage expectation.",
+    "Only standard complete-reference typing was run; optional partial-reference stage was omitted because its derived index exceeded the agreed public-reference disk limit. Partial alleles or rare alleles may remain unresolved.",
+    "No matched normal. Tumor/normal admixture and allele-specific expression can mask loss or create apparent homozygosity. Bulk HLA-II expression may come from infiltrating antigen-presenting cells, not malignant cells.",
+    "Two-field pairs are the reporting resolution. Higher-field printed labels are representatives of compatible sequences and do not establish higher-resolution typing.",
+    "Repeated DPA1 or DRB5 allele labels are sole sequence types called by the RNA algorithm, not proof of two genomic copies. DRB3/4/5 gene-content variation especially complicates diploid interpretation. DPA1 and DRB5 were outside the seven-locus bundled regression control.",
+    "Model transcript abundances, explained-fragment percentages, and minor/major nonshared ratios are diagnostics, not calibrated genotype confidence probabilities. Paired-end kallisto count units are fragments/pairs, despite arcasHLA log language calling them reads; no UMI or PCR deduplication.",
+    "Cross-locus phase is not established. Any DQ/DP prediction must address alpha/beta chain combinations and use a class-II method; current class-I peptide scoring cannot be relabeled class II.",
+    "This is not a full RNA reanalysis or comprehensive antigen-presentation audit. No protein presentation, T-cell response, or vaccine efficacy is measured."
+  ],
+  "sources": [
+    {
+      "title": "Official arcasHLA source/workflow",
+      "url": "https://github.com/RabadanLab/arcasHLA",
+      "commit": "9fa54a212d134b0d9894d1fc19ec1bdc6f62eb55"
+    },
+    {
+      "title": "arcasHLA primary publication",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6956775/"
+    },
+    {
+      "title": "HLA allele-specific expression in tumors",
+      "url": "https://link.springer.com/article/10.1186/s13073-023-01154-x"
+    },
+    {
+      "title": "Personalized neoantigen vaccine CD4 responses, primary study",
+      "url": "https://www.nature.com/articles/nature22991"
+    }
+  ]
+}

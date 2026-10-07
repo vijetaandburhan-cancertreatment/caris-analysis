@@ -1,0 +1,12 @@
+>BAP1_IEERKGLYL_WT_CDS_sense GRCh38 minus-strand source chr3:52408535-52408572; reference span c.157_194; ALT is actual translated reading frame
+ATCGAAGAGCGCCGGTCCCGGCGAAAGGTCTCTACCTT
+>BAP1_IEERKGLYL_ALT_CDS_sense GRCh38 minus-strand source chr3:52408535-52408572; reference span c.157_194; ALT is actual translated reading frame
+ATCGAAGAGCGGAAAGGTCTCTACCTT
+>BAP1_EERKGLYL_WT_CDS_sense GRCh38 minus-strand source chr3:52408535-52408569; reference span c.160_194; ALT is actual translated reading frame
+GAAGAGCGCCGGTCCCGGCGAAAGGTCTCTACCTT
+>BAP1_EERKGLYL_ALT_CDS_sense GRCh38 minus-strand source chr3:52408535-52408569; reference span c.160_194; ALT is actual translated reading frame
+GAAGAGCGGAAAGGTCTCTACCTT
+>BAP1_extended_context_through_predicted_stop_WT_CDS_sense GRCh38 minus-strand source chr3:52408526-52408581; reference span c.148_203; ALT is actual translated reading frame
+TTCAAATGGATCGAAGAGCGCCGGTCCCGGCGAAAGGTCTCTACCTTGGTGGATGA
+>BAP1_extended_context_through_predicted_stop_ALT_CDS_sense GRCh38 minus-strand source chr3:52408526-52408581; reference span c.148_203; ALT is actual translated reading frame
+TTCAAATGGATCGAAGAGCGGAAAGGTCTCTACCTTGGTGGATGA

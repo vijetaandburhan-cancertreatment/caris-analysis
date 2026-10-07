@@ -1,0 +1,11 @@
+{
+  "complete_utc": "2026-10-05T07:14:22.476248+00:00",
+  "directory": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/discordance-read-origin",
+  "manifest_entries": 29,
+  "bytes": 21255179,
+  "findings_txt_sha256": "1262e097ceca0dc7d0247c1dd2fed27ab2de6a2979037b8c2098dcde83d7c184",
+  "findings_json_sha256": "25e36b114e28a016104d5ec761ee9184dec75a8fb977e587e41483e077357f03",
+  "manifest_sha256": "9c2aff76bea0cc0b478ca1019e4c6539017c10593b023aff9b64247a77934455",
+  "manifest_excludes_itself_and_receipt": true,
+  "resident_outside_iCloud": true
+}

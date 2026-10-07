@@ -1,0 +1,1654 @@
+{
+  "created_utc": "2026-10-01T22:53:33.350067+00:00",
+  "scope": "17 missense variants queried by generic public genomic locus/allele only, without patient identifier or raw sequencing data. Exact GRCh38 coordinate, ref, alt, and forward orientation verified before alt-frequency use. Catalog metadata is not clinical adjudication or constitutional status.",
+  "VCF_exact_comparison": [
+    {
+      "gene": "FGFR1",
+      "chrom": "chr8",
+      "pos1": 38428395,
+      "ref": "G",
+      "alt": "GTCA",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "FGFR2",
+      "chrom": "chr10",
+      "pos1": 121538644,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "FGFR3",
+      "chrom": "chr4",
+      "pos1": 1801977,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "FGFR3",
+      "chrom": "chr4",
+      "pos1": 1806167,
+      "ref": "G",
+      "alt": "A",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29193500,
+      "ref": "G",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29193615,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29193706,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29222407,
+      "ref": "G",
+      "alt": "A",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        "VUS"
+      ]
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29222592,
+      "ref": "G",
+      "alt": "T",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29226953,
+      "ref": "C",
+      "alt": "T",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29232401,
+      "ref": "A",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29320797,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29717663,
+      "ref": "A",
+      "alt": "T",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29920633,
+      "ref": "G",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117301021,
+      "ref": "G",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117301025,
+      "ref": "T",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117301070,
+      "ref": "C",
+      "alt": "T",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117362658,
+      "ref": "G",
+      "alt": "A",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117404285,
+      "ref": "T",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117404415,
+      "ref": "T",
+      "alt": "A",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "RET",
+      "chrom": "chr10",
+      "pos1": 43100520,
+      "ref": "A",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "RET",
+      "chrom": "chr10",
+      "pos1": 43111239,
+      "ref": "A",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "RET",
+      "chrom": "chr10",
+      "pos1": 43118395,
+      "ref": "G",
+      "alt": "T",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "RET",
+      "chrom": "chr10",
+      "pos1": 43119646,
+      "ref": "C",
+      "alt": "T",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "NTRK1",
+      "chrom": "chr1",
+      "pos1": 156879203,
+      "ref": "C",
+      "alt": "T",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "NTRK3",
+      "chrom": "chr15",
+      "pos1": 88136554,
+      "ref": "G",
+      "alt": "A",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "NTRK3",
+      "chrom": "chr15",
+      "pos1": 88137453,
+      "ref": "G",
+      "alt": "A",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "KIT",
+      "chrom": "chr4",
+      "pos1": 54727315,
+      "ref": "A",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "PDGFRA",
+      "chrom": "chr4",
+      "pos1": 54263911,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "PDGFRA",
+      "chrom": "chr4",
+      "pos1": 54267559,
+      "ref": "T",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "PDGFRA",
+      "chrom": "chr4",
+      "pos1": 54273604,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "PDGFRA",
+      "chrom": "chr4",
+      "pos1": 54274888,
+      "ref": "A",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "PDGFRA",
+      "chrom": "chr4",
+      "pos1": 54277410,
+      "ref": "G",
+      "alt": "A",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "PDGFRA",
+      "chrom": "chr4",
+      "pos1": 54285873,
+      "ref": "C",
+      "alt": "T",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "PDGFRA",
+      "chrom": "chr4",
+      "pos1": 54295224,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "MAP2K2",
+      "chrom": "chr19",
+      "pos1": 4101064,
+      "ref": "G",
+      "alt": "T",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43071077,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43082453,
+      "ref": "A",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43091983,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43092418,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43092919,
+      "ref": "G",
+      "alt": "A",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43093220,
+      "ref": "A",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43093449,
+      "ref": "G",
+      "alt": "A",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "BRCA2",
+      "chrom": "chr13",
+      "pos1": 32332592,
+      "ref": "A",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "BRCA2",
+      "chrom": "chr13",
+      "pos1": 32337751,
+      "ref": "A",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "BRCA2",
+      "chrom": "chr13",
+      "pos1": 32338918,
+      "ref": "A",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "BRCA2",
+      "chrom": "chr13",
+      "pos1": 32340868,
+      "ref": "G",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "BRCA2",
+      "chrom": "chr13",
+      "pos1": 32355250,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "POLE",
+      "chrom": "chr12",
+      "pos1": 132632393,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "POLE",
+      "chrom": "chr12",
+      "pos1": 132643245,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "POLE",
+      "chrom": "chr12",
+      "pos1": 132643940,
+      "ref": "T",
+      "alt": "C",
+      "exact_matches": 1,
+      "filters": [
+        "Benign"
+      ],
+      "clinical": [
+        "Benign"
+      ]
+    },
+    {
+      "gene": "POLE",
+      "chrom": "chr12",
+      "pos1": 132659414,
+      "ref": "C",
+      "alt": "T",
+      "exact_matches": 1,
+      "filters": [
+        "."
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "POLE",
+      "chrom": "chr12",
+      "pos1": 132661167,
+      "ref": "G",
+      "alt": "GA",
+      "exact_matches": 1,
+      "filters": [
+        "sb;R8.1"
+      ],
+      "clinical": [
+        null
+      ]
+    },
+    {
+      "gene": "POLE",
+      "chrom": "chr12",
+      "pos1": 132661167,
+      "ref": "GA",
+      "alt": "G",
+      "exact_matches": 1,
+      "filters": [
+        "R8.1"
+      ],
+      "clinical": [
+        null
+      ]
+    }
+  ],
+  "missense_public_context": [
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29193500,
+      "ref": "G",
+      "alt": "C",
+      "protein": "D1529E",
+      "transcript": "ENST00000389048.8",
+      "exact_public_ids": [
+        "rs1881421"
+      ],
+      "exact_forward_mappings": [
+        {
+          "ancestral_allele": "C",
+          "allele_string": "G/C",
+          "seq_region_name": "2",
+          "start": 29193500,
+          "strand": 1,
+          "coord_system": "chromosome",
+          "assembly_name": "GRCh38",
+          "location": "2:29193500-29193500",
+          "end": 29193500
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs1881421",
+          "allele_count": 573213,
+          "population": "gnomADe:ALL",
+          "frequency": 0.3921,
+          "allele": "C"
+        },
+        {
+          "id": "rs1881421",
+          "frequency": 0.475,
+          "population": "gnomADg:ALL",
+          "allele": "C",
+          "allele_count": 72209
+        },
+        {
+          "id": "rs1881421",
+          "allele_count": 2869,
+          "allele": "C",
+          "frequency": 0.57288338658147,
+          "population": "1000GENOMES:phase_3:ALL"
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "benign",
+        "likely pathogenic"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29193615,
+      "ref": "T",
+      "alt": "C",
+      "protein": "K1491R",
+      "transcript": "ENST00000389048.8",
+      "exact_public_ids": [
+        "rs1881420"
+      ],
+      "exact_forward_mappings": [
+        {
+          "ancestral_allele": "T",
+          "coord_system": "chromosome",
+          "allele_string": "T/C/G",
+          "strand": 1,
+          "location": "2:29193615-29193615",
+          "end": 29193615,
+          "assembly_name": "GRCh38",
+          "start": 29193615,
+          "seq_region_name": "2"
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs1881420",
+          "frequency": 0.2604,
+          "allele_count": 380632,
+          "allele": "C",
+          "population": "gnomADe:ALL"
+        },
+        {
+          "id": "rs1881420",
+          "population": "gnomADg:ALL",
+          "allele": "C",
+          "allele_count": 42458,
+          "frequency": 0.279
+        },
+        {
+          "id": "rs1881420",
+          "allele_count": 2079,
+          "allele": "C",
+          "population": "1000GENOMES:phase_3:ALL",
+          "frequency": 0.415135782747604
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "benign",
+        "likely pathogenic"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29193706,
+      "ref": "T",
+      "alt": "C",
+      "protein": "I1461V",
+      "transcript": "ENST00000389048.8",
+      "exact_public_ids": [
+        "rs1670283"
+      ],
+      "exact_forward_mappings": [
+        {
+          "end": 29193706,
+          "allele_string": "T/A/C/G",
+          "strand": 1,
+          "seq_region_name": "2",
+          "location": "2:29193706-29193706",
+          "coord_system": "chromosome",
+          "start": 29193706,
+          "assembly_name": "GRCh38",
+          "ancestral_allele": "C"
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs1670283",
+          "allele": "C",
+          "frequency": 0.999,
+          "allele_count": 1457866,
+          "population": "gnomADe:ALL"
+        },
+        {
+          "id": "rs1670283",
+          "allele": "C",
+          "allele_count": 150959,
+          "population": "gnomADg:ALL",
+          "frequency": 0.9913
+        },
+        {
+          "id": "rs1670283",
+          "allele_count": 4969,
+          "population": "1000GENOMES:phase_3:ALL",
+          "frequency": 0.992212460063898,
+          "allele": "C"
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "uncertain significance",
+        "benign",
+        "likely pathogenic"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "ALK",
+      "chrom": "chr2",
+      "pos1": 29222407,
+      "ref": "G",
+      "alt": "A",
+      "protein": "T1151M",
+      "transcript": "ENST00000389048.8",
+      "exact_public_ids": [
+        "rs113994091"
+      ],
+      "exact_forward_mappings": [
+        {
+          "strand": 1,
+          "assembly_name": "GRCh38",
+          "coord_system": "chromosome",
+          "end": 29222407,
+          "location": "2:29222407-29222407",
+          "allele_string": "G/A/C/T",
+          "seq_region_name": "2",
+          "ancestral_allele": "G",
+          "start": 29222407
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs113994091",
+          "allele": "A",
+          "frequency": 1.642e-05,
+          "population": "gnomADe:ALL",
+          "allele_count": 24
+        },
+        {
+          "id": "rs113994091",
+          "population": "gnomADg:ALL",
+          "frequency": 4.602e-05,
+          "allele": "A",
+          "allele_count": 7
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "uncertain significance"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117301021,
+      "ref": "G",
+      "alt": "C",
+      "protein": "S2223C",
+      "transcript": "ENST00000368507.8",
+      "exact_public_ids": [
+        "rs619203"
+      ],
+      "exact_forward_mappings": [
+        {
+          "assembly_name": "GRCh38",
+          "ancestral_allele": "C",
+          "start": 117301021,
+          "coord_system": "chromosome",
+          "location": "6:117301021-117301021",
+          "end": 117301021,
+          "allele_string": "G/A/C/T",
+          "seq_region_name": "6",
+          "strand": 1
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs619203",
+          "allele": "C",
+          "allele_count": 346296,
+          "population": "gnomADe:ALL",
+          "frequency": 0.2401
+        },
+        {
+          "id": "rs619203",
+          "allele": "C",
+          "frequency": 0.1884,
+          "allele_count": 28632,
+          "population": "gnomADg:ALL"
+        },
+        {
+          "id": "rs619203",
+          "allele": "C",
+          "allele_count": 698,
+          "population": "1000GENOMES:phase_3:ALL",
+          "frequency": 0.139376996805112
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117301025,
+      "ref": "T",
+      "alt": "G",
+      "protein": "K2222Q",
+      "transcript": "ENST00000368507.8",
+      "exact_public_ids": [
+        "rs529156"
+      ],
+      "exact_forward_mappings": [
+        {
+          "allele_string": "T/A/C/G",
+          "coord_system": "chromosome",
+          "seq_region_name": "6",
+          "assembly_name": "GRCh38",
+          "location": "6:117301025-117301025",
+          "start": 117301025,
+          "end": 117301025,
+          "ancestral_allele": "G",
+          "strand": 1
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs529156",
+          "allele": "G",
+          "allele_count": 347400,
+          "population": "gnomADe:ALL",
+          "frequency": 0.2403
+        },
+        {
+          "id": "rs529156",
+          "population": "gnomADg:ALL",
+          "allele_count": 28640,
+          "allele": "G",
+          "frequency": 0.1883
+        },
+        {
+          "id": "rs529156",
+          "allele": "G",
+          "population": "1000GENOMES:phase_3:ALL",
+          "allele_count": 698,
+          "frequency": 0.139376996805112
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117301070,
+      "ref": "C",
+      "alt": "T",
+      "protein": "D2207N",
+      "transcript": "ENST00000368507.8",
+      "exact_public_ids": [
+        "rs529038"
+      ],
+      "exact_forward_mappings": [
+        {
+          "allele_string": "C/A/G/T",
+          "seq_region_name": "6",
+          "ancestral_allele": "C",
+          "start": 117301070,
+          "strand": 1,
+          "coord_system": "chromosome",
+          "assembly_name": "GRCh38",
+          "location": "6:117301070-117301070",
+          "end": 117301070
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs529038",
+          "allele_count": 349551,
+          "population": "gnomADe:ALL",
+          "frequency": 0.2409,
+          "allele": "T"
+        },
+        {
+          "id": "rs529038",
+          "allele_count": 28437,
+          "frequency": 0.187,
+          "population": "gnomADg:ALL",
+          "allele": "T"
+        },
+        {
+          "id": "rs529038",
+          "allele_count": 683,
+          "allele": "T",
+          "frequency": 0.13638178913738,
+          "population": "1000GENOMES:phase_3:ALL"
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117362658,
+      "ref": "G",
+      "alt": "A",
+      "protein": "S1104L",
+      "transcript": "ENST00000368507.8",
+      "exact_public_ids": [
+        "rs2229079"
+      ],
+      "exact_forward_mappings": [
+        {
+          "assembly_name": "GRCh38",
+          "ancestral_allele": "G",
+          "start": 117362658,
+          "location": "6:117362658-117362658",
+          "coord_system": "chromosome",
+          "allele_string": "G/A",
+          "end": 117362658,
+          "strand": 1,
+          "seq_region_name": "6"
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs2229079",
+          "population": "gnomADe:ALL",
+          "allele_count": 125588,
+          "frequency": 0.08599,
+          "allele": "A"
+        },
+        {
+          "id": "rs2229079",
+          "allele_count": 11532,
+          "population": "gnomADg:ALL",
+          "frequency": 0.07579,
+          "allele": "A"
+        },
+        {
+          "id": "rs2229079",
+          "allele": "A",
+          "population": "1000GENOMES:phase_3:ALL",
+          "allele_count": 249,
+          "frequency": 0.049720447284345
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "ROS1",
+      "chrom": "chr6",
+      "pos1": 117404285,
+      "ref": "T",
+      "alt": "G",
+      "protein": "T154P",
+      "transcript": "ENST00000368507.8",
+      "exact_public_ids": [
+        "rs1998206"
+      ],
+      "exact_forward_mappings": [
+        {
+          "strand": 1,
+          "coord_system": "chromosome",
+          "assembly_name": "GRCh38",
+          "end": 117404285,
+          "location": "6:117404285-117404285",
+          "ancestral_allele": "T",
+          "allele_string": "T/G",
+          "seq_region_name": "6",
+          "start": 117404285
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs1998206",
+          "allele": "G",
+          "frequency": 0.1504,
+          "population": "gnomADe:ALL",
+          "allele_count": 219789
+        },
+        {
+          "id": "rs1998206",
+          "allele": "G",
+          "frequency": 0.1583,
+          "population": "gnomADg:ALL",
+          "allele_count": 24091
+        },
+        {
+          "id": "rs1998206",
+          "allele": "G",
+          "frequency": 0.167731629392971,
+          "population": "1000GENOMES:phase_3:ALL",
+          "allele_count": 840
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "PDGFRA",
+      "chrom": "chr4",
+      "pos1": 54273604,
+      "ref": "T",
+      "alt": "C",
+      "protein": "S478P",
+      "transcript": "ENST00000257290.10",
+      "exact_public_ids": [
+        "rs35597368"
+      ],
+      "exact_forward_mappings": [
+        {
+          "strand": 1,
+          "assembly_name": "GRCh38",
+          "coord_system": "chromosome",
+          "end": 54273604,
+          "location": "4:54273604-54273604",
+          "seq_region_name": "4",
+          "allele_string": "T/A/C",
+          "ancestral_allele": "C",
+          "start": 54273604
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs35597368",
+          "allele_count": 177975,
+          "allele": "C",
+          "frequency": 0.1218,
+          "population": "gnomADe:ALL"
+        },
+        {
+          "id": "rs35597368",
+          "allele": "C",
+          "population": "gnomADg:ALL",
+          "frequency": 0.1543,
+          "allele_count": 23436
+        },
+        {
+          "id": "rs35597368",
+          "allele_count": 998,
+          "frequency": 0.199281150159744,
+          "population": "1000GENOMES:phase_3:ALL",
+          "allele": "C"
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43071077,
+      "ref": "T",
+      "alt": "C",
+      "protein": "S1613G",
+      "transcript": "ENST00000357654.9",
+      "exact_public_ids": [
+        "rs1799966"
+      ],
+      "exact_forward_mappings": [
+        {
+          "coord_system": "chromosome",
+          "ancestral_allele": "T",
+          "allele_string": "T/A/C/G",
+          "assembly_name": "GRCh38",
+          "start": 43071077,
+          "end": 43071077,
+          "location": "17:43071077-43071077",
+          "strand": 1,
+          "seq_region_name": "17"
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs1799966",
+          "allele_count": 496800,
+          "allele": "C",
+          "population": "gnomADe:ALL",
+          "frequency": 0.3398
+        },
+        {
+          "id": "rs1799966",
+          "frequency": 0.3178,
+          "population": "gnomADg:ALL",
+          "allele_count": 48324,
+          "allele": "C"
+        },
+        {
+          "id": "rs1799966",
+          "frequency": 0.355830670926518,
+          "population": "1000GENOMES:phase_3:ALL",
+          "allele_count": 1782,
+          "allele": "C"
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "uncertain significance",
+        "benign",
+        "likely benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43091983,
+      "ref": "T",
+      "alt": "C",
+      "protein": "K1183R",
+      "transcript": "ENST00000357654.9",
+      "exact_public_ids": [
+        "rs16942"
+      ],
+      "exact_forward_mappings": [
+        {
+          "strand": 1,
+          "assembly_name": "GRCh38",
+          "coord_system": "chromosome",
+          "location": "17:43091983-43091983",
+          "end": 43091983,
+          "ancestral_allele": "C",
+          "allele_string": "T/A/C",
+          "seq_region_name": "17",
+          "start": 43091983
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs16942",
+          "allele_count": 494457,
+          "allele": "C",
+          "population": "gnomADe:ALL",
+          "frequency": 0.3383
+        },
+        {
+          "id": "rs16942",
+          "population": "gnomADg:ALL",
+          "frequency": 0.3154,
+          "allele": "C",
+          "allele_count": 47960
+        },
+        {
+          "id": "rs16942",
+          "population": "1000GENOMES:phase_3:ALL",
+          "frequency": 0.352635782747604,
+          "allele": "C",
+          "allele_count": 1766
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "uncertain significance",
+        "benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43092418,
+      "ref": "T",
+      "alt": "C",
+      "protein": "E1038G",
+      "transcript": "ENST00000357654.9",
+      "exact_public_ids": [
+        "rs16941"
+      ],
+      "exact_forward_mappings": [
+        {
+          "allele_string": "T/A/C/G",
+          "end": 43092418,
+          "strand": 1,
+          "seq_region_name": "17",
+          "coord_system": "chromosome",
+          "location": "17:43092418-43092418",
+          "start": 43092418,
+          "assembly_name": "GRCh38",
+          "ancestral_allele": "T"
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs16941",
+          "allele_count": 492920,
+          "population": "gnomADe:ALL",
+          "frequency": 0.3373,
+          "allele": "C"
+        },
+        {
+          "id": "rs16941",
+          "frequency": 0.3001,
+          "population": "gnomADg:ALL",
+          "allele_count": 45589,
+          "allele": "C"
+        },
+        {
+          "id": "rs16941",
+          "frequency": 0.335662939297125,
+          "population": "1000GENOMES:phase_3:ALL",
+          "allele_count": 1681,
+          "allele": "C"
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "uncertain significance",
+        "benign",
+        "likely benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "BRCA1",
+      "chrom": "chr17",
+      "pos1": 43092919,
+      "ref": "G",
+      "alt": "A",
+      "protein": "P871L",
+      "transcript": "ENST00000357654.9",
+      "exact_public_ids": [
+        "rs799917"
+      ],
+      "exact_forward_mappings": [
+        {
+          "start": 43092919,
+          "ancestral_allele": "A",
+          "allele_string": "G/A/C/T",
+          "seq_region_name": "17",
+          "end": 43092919,
+          "location": "17:43092919-43092919",
+          "strand": 1,
+          "coord_system": "chromosome",
+          "assembly_name": "GRCh38"
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs799917",
+          "allele_count": 532630,
+          "population": "gnomADe:ALL",
+          "frequency": 0.3645,
+          "allele": "A"
+        },
+        {
+          "id": "rs799917",
+          "population": "gnomADg:ALL",
+          "frequency": 0.4874,
+          "allele": "A",
+          "allele_count": 74125
+        },
+        {
+          "id": "rs799917",
+          "allele": "A",
+          "population": "1000GENOMES:phase_3:ALL",
+          "frequency": 0.543929712460064,
+          "allele_count": 2724
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "uncertain significance",
+        "benign",
+        "likely benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "BRCA2",
+      "chrom": "chr13",
+      "pos1": 32332592,
+      "ref": "A",
+      "alt": "C",
+      "protein": "N372H",
+      "transcript": "ENST00000380152.8",
+      "exact_public_ids": [
+        "rs144848"
+      ],
+      "exact_forward_mappings": [
+        {
+          "ancestral_allele": "A",
+          "seq_region_name": "13",
+          "location": "13:32332592-32332592",
+          "assembly_name": "GRCh38",
+          "start": 32332592,
+          "end": 32332592,
+          "strand": 1,
+          "coord_system": "chromosome",
+          "allele_string": "A/C/G/T"
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs144848",
+          "frequency": 0.2805,
+          "population": "gnomADe:ALL",
+          "allele": "C",
+          "allele_count": 409992
+        },
+        {
+          "id": "rs144848",
+          "population": "gnomADg:ALL",
+          "allele_count": 36183,
+          "allele": "C",
+          "frequency": 0.2379
+        },
+        {
+          "id": "rs144848",
+          "allele_count": 1249,
+          "allele": "C",
+          "population": "1000GENOMES:phase_3:ALL",
+          "frequency": 0.249400958466454
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "uncertain significance",
+        "not provided",
+        "benign",
+        "likely benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "BRCA2",
+      "chrom": "chr13",
+      "pos1": 32355250,
+      "ref": "T",
+      "alt": "C",
+      "protein": "V2466A",
+      "transcript": "ENST00000380152.8",
+      "exact_public_ids": [
+        "rs169547"
+      ],
+      "exact_forward_mappings": [
+        {
+          "allele_string": "T/C",
+          "seq_region_name": "13",
+          "ancestral_allele": "C",
+          "start": 32355250,
+          "strand": 1,
+          "coord_system": "chromosome",
+          "assembly_name": "GRCh38",
+          "location": "13:32355250-32355250",
+          "end": 32355250
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs169547",
+          "population": "gnomADe:ALL",
+          "frequency": 0.9979,
+          "allele": "C",
+          "allele_count": 1458237
+        },
+        {
+          "id": "rs169547",
+          "allele_count": 149351,
+          "allele": "C",
+          "frequency": 0.9806,
+          "population": "gnomADg:ALL"
+        },
+        {
+          "id": "rs169547",
+          "frequency": 0.975838658146965,
+          "population": "1000GENOMES:phase_3:ALL",
+          "allele": "C",
+          "allele_count": 4887
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "uncertain significance",
+        "benign"
+      ],
+      "status": "exact_catalog_match"
+    },
+    {
+      "gene": "POLE",
+      "chrom": "chr12",
+      "pos1": 132643940,
+      "ref": "T",
+      "alt": "C",
+      "protein": "N1396S",
+      "transcript": "ENST00000320574.10",
+      "exact_public_ids": [
+        "rs5744934"
+      ],
+      "exact_forward_mappings": [
+        {
+          "end": 132643940,
+          "ancestral_allele": "T",
+          "allele_string": "T/A/C/G",
+          "coord_system": "chromosome",
+          "seq_region_name": "12",
+          "location": "12:132643940-132643940",
+          "assembly_name": "GRCh38",
+          "start": 132643940,
+          "strand": 1
+        }
+      ],
+      "global_alt_frequencies": [
+        {
+          "id": "rs5744934",
+          "frequency": 0.1296,
+          "allele_count": 189344,
+          "population": "gnomADe:ALL",
+          "allele": "C"
+        },
+        {
+          "id": "rs5744934",
+          "frequency": 0.1284,
+          "allele": "C",
+          "allele_count": 19541,
+          "population": "gnomADg:ALL"
+        },
+        {
+          "id": "rs5744934",
+          "allele": "C",
+          "allele_count": 604,
+          "population": "1000GENOMES:phase_3:ALL",
+          "frequency": 0.120607028753994
+        }
+      ],
+      "variation_metadata_significance_not_allele_specific": [
+        "benign"
+      ],
+      "status": "exact_catalog_match"
+    }
+  ]
+}

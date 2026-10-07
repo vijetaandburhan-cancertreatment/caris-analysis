@@ -1,0 +1,120 @@
+{
+  "status": "Completed bounded research screen; no clinical variant reclassification",
+  "main_finding": "All 54 candidates already occur as exact alleles in the supplied Caris VCF export. This 22-gene selected-CDS screen found no additional protein-altering candidate above its filters.",
+  "genes": [
+    "PIK3CA",
+    "FGFR1",
+    "FGFR2",
+    "FGFR3",
+    "ALK",
+    "ROS1",
+    "RET",
+    "NTRK1",
+    "NTRK2",
+    "NTRK3",
+    "IDH1",
+    "IDH2",
+    "KIT",
+    "PDGFRA",
+    "MAP2K1",
+    "MAP2K2",
+    "BRCA1",
+    "BRCA2",
+    "PALB2",
+    "ATM",
+    "POLE",
+    "POLD1"
+  ],
+  "reference_and_transcripts": "hg38 generic public reference windows; selected GENCODE37 coding transcripts: 21 MANE Select plus NTRK3 ENST00000394480.6 APPRIS principal_1. Whole transcript isoform repertoire and regulatory regions not assessed.",
+  "coverage": {
+    "selected_CDS_plus4_positions": 87057,
+    "positions_with_at_least20_strict_quality_reads": 87057,
+    "minimum_over_all_selected_positions": 146,
+    "interpretation": "Observed qualifying base-read depth, not validated diagnostic sensitivity or a comprehensive negative result."
+  },
+  "counts": {
+    "inframe_indel": 1,
+    "synonymous": 34,
+    "missense": 17,
+    "CDS_flank_or_exon_boundary": 2
+  },
+  "exact_source_matches": 54,
+  "protein_changing_source_labels": {
+    "Benign": 17,
+    "VUS": 1
+  },
+  "source_label_limit": "Benign and VUS here are Caris labels, not independent clinical reclassifications. Variant fraction does not establish somatic or germline status without a matched normal.",
+  "existing_ALK_control": {
+    "hg38": "chr2:29222407 G>A",
+    "selected_transcript": "ENST00000389048.8",
+    "conditional_protein": "T1151M",
+    "Caris_label": "VUS",
+    "initial_strict_DNA_alt_ref_paired_names": [
+      791,
+      1436
+    ],
+    "initial_strict_RNA_alt_ref_paired_names": [
+      41,
+      102
+    ],
+    "count_source": "outputs/caris-analysis/Caris-candidate-evidence.tsv",
+    "audit_limit": "Existing primary-script strict recount; the table does not claim a second independent recount for ALK. Not a fusion, clinical driver or treatment-sensitivity call."
+  },
+  "FGFR1_representation": {
+    "hg38": "chr8:38428395 G>GTCA",
+    "screen_consequence": "in-frame insertion; precise HGVS not assigned by screen",
+    "Caris_protein_label": "D133dup",
+    "Caris_classification": "Benign",
+    "note": "One added Asp in an existing poly-Asp tract. Original S134D first-difference label was misleading as HGVS and removed; exact genomic allele/counts retained. Repeat-shifted CIGAR placement means narrow-window RNA haplotype counts cannot be used to infer absent expression. Independent peer audit provides longer-haplotype context."
+  },
+  "ROS1_numbering": "Selected transcript protein residue numbers differ from Caris transcript numbering for five missense records. The exact hg38 allele matches are preserved; this is not evidence that their genomic alleles disagree.",
+  "POLE_flank_events": [
+    {
+      "hg38": "chr12:132661167 G>GA",
+      "Caris_line": 2164,
+      "Caris_filter": "sb;R8.1"
+    },
+    {
+      "hg38": "chr12:132661167 GA>G",
+      "Caris_line": 2166,
+      "Caris_filter": "R8.1"
+    }
+  ],
+  "POLE_interpretation": "Both are previously filtered source alleles near a coding-exon boundary, not coding protein alterations in this selected transcript. They remain unpromoted. Repeat alignment/indel representation and possible splice context require more than this screen; RNA-window nonassessability is not a negative splice finding.",
+  "method": "Strict read base-depth screen across selected CDS+/-4bp (22 selected GENCODE37 coding transcripts; tags in target-annotation.json): MAPQ/BQ>=20, duplicate/secondary/supplementary/QCfail/unmapped excluded. SNV initial threshold>=10alt reads and>=5%; indel threshold>=10unique queryname fragments and>=5% of anchor read depth. Indel representations not normalized at screening. Exact source-VCF match performed. Candidate generation only, no somatic or clinical significance claims.",
+  "limits": [
+    "Bounded candidate generation, not a full exome SNV re-call, comprehensive structural-variant or splice analysis, or clinical testing.",
+    "No matched normal, calibrated purity/copy-number model, or verified assay capture BED; no somatic, biallelic-loss, germline or clinical negative claims.",
+    "Single selected coding transcript per gene and single-variant translation. Stop codons outside the GENCODE CDS, other isoforms, deep intronic/regulatory alterations and complex phased alleles are not comprehensively evaluated.",
+    "Depth is qualified read depth; PCR/template independence is not established. Query-name collapse for indel screening is not UMI validation.",
+    "Screen SNVs require at least 10 alternate reads and 5% allele fraction; initial indels require at least 10 query-name fragments and use alternate-read/anchor-read depth. Counts at the screening stage are not harmonized clinical VAFs; indels were not normalized.",
+    "Good coding coverage does not exclude kinase fusions, copy-number changes or clinically important variants below the chosen thresholds."
+  ],
+  "runtime_seconds": 52.36658692359924,
+  "resource_note": "Guard observed a sampled peak RSS of 55,869,440 bytes over the last ~1 second; this is not a measured full-run peak. Full screen completed in 52.37 seconds; no heavy or ongoing job remains.",
+  "independent_audit": "PASS after the incorporated transcript/indel label corrections; all 22 reference proteins, 52 coding edits and 54 exact VCF matches independently checked. Full repeat-sensitive FGFR1/POLE recounts and public allele context are in the audit files.",
+  "source_sha256": {
+    "screen.py": "caa93aa562e71b38411bd63a864eb32ad6881c0f3ee0df14c3b7b59e3ed08bd7",
+    "screen-results.json": "86c8a8b3b2d60bffba13ba5198b5de6e0ffd1c85a33df4bb6e0cfe5f74b39100",
+    "target-annotation.json": "9f25bf571993d6611149536f909a94c5a79cd072c330ed6010c1d0b13056f15e",
+    "setup.json": "0aed0db6fc8bb88ec5209543fc2c30644aa9a0a8822f9e74dd6331ec31576b73"
+  },
+  "independent_audit_sha256": {
+    "audit.txt": "305cd689689b0ad1f06bf3948d073f5d9d7b6703399322fb97731e73030ff085",
+    "audit.json": "54315d399de2274a8151a158d8ebb84852d8baf4546dc9af198d8793accab6f3",
+    "independent-audit.py": "eeb77add69b5278206d87b79f3a3132b1dcd7f663bdf9730940e01d84614baa3",
+    "independent-audit-data.json": "4fc129d20d1537edc56fa2b5e67040b88ec4b11d4c9c8586488eba9e40aa5b5b",
+    "independent-public-audit.py": "10345286110648eb4a0be8e1fca49ff078f273920cfd52e30af2728ca2908b9e",
+    "independent-public-audit.json": "0da9426542f51e7a3b7239146a5a6b5718bf790cbb7d6f20bf7d1210e1364f8b"
+  },
+  "public_allele_context": {
+    "exact_missense_catalog_matches": 17,
+    "missense_with_global_reference_frequency_at_least_1percent": 16,
+    "ALK_T1151M": {
+      "id": "rs113994091",
+      "gnomADe_alt_frequency": 1.642e-05,
+      "gnomADg_alt_frequency": 4.602e-05
+    },
+    "limit": "Generic public allele queries only, no patient/raw sequence upload. Public variation-level clinical metadata can mix alleles/conditions and was not treated as allele-specific clinical adjudication. Population occurrence does not identify constitutional status for this patient or establish a treatment target."
+  }
+}

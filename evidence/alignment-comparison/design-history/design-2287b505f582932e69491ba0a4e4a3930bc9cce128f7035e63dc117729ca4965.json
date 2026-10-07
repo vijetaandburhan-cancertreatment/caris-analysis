@@ -1,0 +1,188 @@
+{
+  "created_utc": "2026-10-05T07:33:29.937847+00:00",
+  "status": "FROZEN_PRELAUNCH",
+  "question": "Do baseline RNA allele discrepancies persist under existing full-reference STAR2.7.11b/D8 pipeline? Comparison of methods, not correction or attribution to sparsity.",
+  "cohort": "All4015 jointly callable original loci, fixed original DNA categories/denominators; retainall13 original exceptions and3 separateMAPQ60flags evenwhen newcoveragezero.",
+  "inputs": {
+    "qnames": 3426,
+    "sites": 16,
+    "by_site": {
+      "chr2:189043211": {
+        "QNAMEs": 444,
+        "Mblock_overlapping_records": 753,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr3:195568834": {
+        "QNAMEs": 72,
+        "Mblock_overlapping_records": 113,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr5:443259": {
+        "QNAMEs": 180,
+        "Mblock_overlapping_records": 393,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr5:80654917": {
+        "QNAMEs": 113,
+        "Mblock_overlapping_records": 207,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr5:168468948": {
+        "QNAMEs": 24,
+        "Mblock_overlapping_records": 48,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr5:177371091": {
+        "QNAMEs": 39,
+        "Mblock_overlapping_records": 75,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr8:100705591": {
+        "QNAMEs": 466,
+        "Mblock_overlapping_records": 709,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr8:100705604": {
+        "QNAMEs": 437,
+        "Mblock_overlapping_records": 687,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr9:95508042": {
+        "QNAMEs": 28,
+        "Mblock_overlapping_records": 45,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr9:136502531": {
+        "QNAMEs": 39,
+        "Mblock_overlapping_records": 70,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr17:29114059": {
+        "QNAMEs": 26,
+        "Mblock_overlapping_records": 46,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr17:31236059": {
+        "QNAMEs": 22,
+        "Mblock_overlapping_records": 43,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr17:77500378": {
+        "QNAMEs": 225,
+        "Mblock_overlapping_records": 434,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr3:10049469": {
+        "QNAMEs": 271,
+        "Mblock_overlapping_records": 492,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr3:195677778": {
+        "QNAMEs": 1325,
+        "Mblock_overlapping_records": 2300,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      },
+      "chr9:65737280": {
+        "QNAMEs": 126,
+        "Mblock_overlapping_records": 235,
+        "capture_selection": "Any aligned M/=/X base covers frozen exception position; no flag/MAPQ/BQ filters. All QNAME records captured in new stream regardless of locus/flag."
+      }
+    },
+    "capture_name_selection_flag_counts": {
+      "99": 1191,
+      "147": 1442,
+      "163": 1986,
+      "83": 1801,
+      "355": 47,
+      "403": 44,
+      "419": 69,
+      "339": 70
+    },
+    "read_id_handling": "Exact BAM QNAME; no normalization or suffix alteration. Original/new pipeline must show capture name coverage.",
+    "input_sha256": {
+      "cohort": "25934a24cd3057c0324d116fe5f67ad3584e1d0a131efa8a77481fc8fd0ede8d",
+      "exception_sites": "36195e4c545e4d3615c9f0520dee5cb4dcc5711007b7d16753dbbfa911a910cb",
+      "exception_qnames": "3b246b84e4c4cc058929cb6dea8b08c1317ecaadfd1d04e73425a19fb7f44912"
+    },
+    "created_utc": "2026-10-05T07:30:30.227833+00:00"
+  },
+  "STAR_command": [
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-tools/STAR_2.7.11b/MacOSX_x86_64/STAR",
+    "--runThreadN",
+    "6",
+    "--genomeDir",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/STAR_G37_primary_D8_SA12",
+    "--readFilesIn",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R1.fastq.gz",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R2.fastq.gz",
+    "--outFileNamePrefix",
+    "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-final-alignment-comparison-v1/patient-full-pass/STAR.",
+    "--genomeLoad",
+    "NoSharedMemory",
+    "--readFilesCommand",
+    "/usr/bin/gzip",
+    "-cd",
+    "--outStd",
+    "BAM_Unsorted",
+    "--outSAMtype",
+    "BAM",
+    "Unsorted",
+    "--outSAMunmapped",
+    "Within",
+    "--outBAMcompression",
+    "0",
+    "--outFilterMultimapNmax",
+    "50",
+    "--peOverlapNbasesMin",
+    "10",
+    "--alignSplicedMateMapLminOverLmate",
+    "0.5",
+    "--alignSJstitchMismatchNmax",
+    "5",
+    "-1",
+    "5",
+    "5",
+    "--chimSegmentMin",
+    "10",
+    "--chimOutType",
+    "WithinBAM",
+    "HardClip",
+    "Junctions",
+    "--chimJunctionOverhangMin",
+    "10",
+    "--chimScoreDropMax",
+    "30",
+    "--chimScoreJunctionNonGTAG",
+    "0",
+    "--chimScoreSeparation",
+    "1",
+    "--chimSegmentReadGapMax",
+    "3",
+    "--chimMultimapNmax",
+    "50",
+    "--chimOutJunctionFormat",
+    "1"
+  ],
+  "expected_pairs": 23209264,
+  "capture": "Compressed BAM union of fixed4015 SNP M/=/X overlaps and all emitted records for frozen exceptionQNAME set across everycontig/flag, including mates/secondary/supplementary/unmapped. No capture qualityfilters. Doesnotretain every possiblemapping.",
+  "postcomparison": "OriginalDNAfixed; newRNA matchedMAPQ30/BQ25/properpairs/ff0xF0C; collapseQNAME, reject conflictingACGT. Report rawcounts,coverage losses/fixedcohort fractions, zero/missing sites, novel flags; no replacingdenominator withsurvivors. Directstream counting canavoid sorting. Independent implementation auditsmaterialcounts.",
+  "complete_mate_context": "Freezeall names whose originalRNA Mblock covers any16exception/mappingflag sites withoutqualityfilter. Preserveallnewemittedrecords. Retain originalallrecords for these exactnames through separateboundedstreamscan ifneeded.",
+  "resource_guards": {
+    "preflight_free_bytes_min": 4294967296,
+    "disk_abort_bytes": 3758096384,
+    "absolute_requested_floor_bytes": 3221225472,
+    "combined_RSS_abort_bytes": 12884901888,
+    "capture_abort_bytes": 268435456,
+    "own_run_bytes_abort": 536870912,
+    "poll_seconds": 2,
+    "wall_seconds_abort": 3600,
+    "deadline_utc": "2026-10-05T10:15:00Z"
+  },
+  "resource_limit_note": "Disk floor monitored with0.5GiB margin; independent hostwrites/swapallocations canoccur betweenpolls. Stopandpreservepartial/negative result uponlimits; no deletionoforiginal/evidence orcloudworkaround.",
+  "source_differences": "OriginalSTAR2.7.8a CTAT/twopassBasic/flushRight/overlap12 etc vs local2.7.11b primaryassembly/D8/onepass/localparameters; notsinglefactorcomparison. Capturequalityfiltersmatch, upstreamflagging/mapping maydiffer.",
+  "prohibited": "NoArriba, fullBAM, new clinicalmutation/identitycertainty/contaminationfraction/target/sensitivityclaim, externalmessages, AWSupgrade/IAM orreset.",
+  "capture_script_sha256": "cddc05f6234de42134f5ad9c94066db31501c28341584a53933f33e026f11817",
+  "run_script_sha256": "0b40324f779cfa9919305bf61d90ff2ebfcc53f36742bd8498d68897137c3c87",
+  "capture_qualification_sha256": "36830cd33e13caad336a5ba92ae00622fa33619f7bbfefd3d92d1f8c3a50620b",
+  "initial_free_bytes": 5160599552
+}

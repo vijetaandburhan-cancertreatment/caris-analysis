@@ -1,0 +1,13 @@
+Independent audit — antigen-presentation/interferon coding panel
+
+PASS after two provenance corrections, both applied by the parent agent and verified in the regenerated files. The analysis uses 16 MANE-selected transcripts plus the APPRIS principal_4 NLRC5 transcript, not 17 MANE transcripts. The public annotation table now distinguishes allele fractions from the Caris VCF versus the research read-count screen; fallback values are no longer labelled Caris VAF.
+
+All 24 single-nucleotide consequences independently reproduce using the selected transcript coordinates and a fixed genetic-code table: 12 synonymous and 12 missense. Exact forward-strand GRCh38 mappings and allele-specific population frequencies verify for all 12 missense observations, each above 1% in at least one returned global population dataset. No record-wide clinical-significance label was used as an allele-specific pathogenicity determination.
+
+The aggregate target size reproduces at 34,273 selected CDS-plus-four-flank positions, with 34,264 at read depth at least 20. Independent bounded recounts reproduce the B2M, STAT1, RFXAP and NLRC5 coverage summaries. The nine positions below 20 reads are in STAT1 and are enumerated in audit.json, including whether each lies in the selected CDS. Gene-level TPM/read sums for all 17 genes reproduce the supplied expression CSV, including any duplicate gene-symbol rows.
+
+The main interpretation is appropriate: this screen found no new obvious coding loss-of-function candidate under its selected regions and thresholds. It does not establish intact antigen presentation, interferon signaling, treatment sensitivity, or vaccine efficacy. A minimum of ten alternate reads and five-percent fraction is a candidate-discovery rule, not a validated clinical detection limit; overlapping paired reads are not collapsed in the base-depth screen. Indel fractions are approximate anchor-read fractions at the discovery stage.
+
+A negative result does not exclude subthreshold variants, alleles below capture/mapping sensitivity, alternative coding transcripts, structural or copy-number alterations, promoter/regulatory defects, epigenetic silencing or later acquired resistance. The July specimen and bulk RNA cannot establish the state of every current metastatic tumor cell. HLA genes have a separate method; this conventional coding screen does not validate HLA-B*50:01 retention or peptide display.
+
+Files: independent-audit.py, audit.json and audit-run.log preserve the reconstruction, population mapping, expression comparison and limited independent depth checks. No patient reads or genomic files were uploaded externally.

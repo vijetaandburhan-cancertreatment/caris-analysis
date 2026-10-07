@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-10-05T05:35:00.922943+00:00",
+  "case": "compactD1__parental_zero",
+  "observed_exit_codes": [
+    1,
+    0
+  ],
+  "STAR_input_pairs": 32,
+  "STAR_unique_pairs": 32,
+  "STAR_chimeric_pairs": 0,
+  "error": "no split reads or discordant mates found",
+  "action": "Preserve initial failed attempt, narrowly handle this explicit stock Arriba no-input error in future runs; re-run same case once with unchanged inputs/parameters and transparent exit status.",
+  "biological_filters_changed": false,
+  "files": [
+    {
+      "path": "work/oct5-fusion-robustness-v1/execution-initial-failure/compactD1__parental_zero/STAR.SJ.out.tab",
+      "sha256": "fe824a54a51fcc3419d5b2f10e616c6c0071329afc000a9cc614ef3d193dc03b",
+      "bytes": 484
+    },
+    {
+      "path": "work/oct5-fusion-robustness-v1/execution-initial-failure/compactD1__parental_zero/STAR.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "work/oct5-fusion-robustness-v1/execution-initial-failure/compactD1__parental_zero/STAR.Log.out",
+      "sha256": "729397b75c86510d2a3f837b4058d9e0b5c7b32a6e8df6004d1e5fc4e2662048",
+      "bytes": 12592
+    },
+    {
+      "path": "work/oct5-fusion-robustness-v1/execution-initial-failure/compactD1__parental_zero/STAR.Chimeric.out.junction",
+      "sha256": "34bfebf5d44c4088f4ba61337f37e53ca06516510ce60b6db5bc31d14d1be72a",
+      "bytes": 1639
+    },
+    {
+      "path": "work/oct5-fusion-robustness-v1/execution-initial-failure/compactD1__parental_zero/alignments.bam",
+      "sha256": "8ae8438a7c83ce30612e73b73590f5b0e87973b67569af14d92acf7829f62c9a",
+      "bytes": 22628
+    },
+    {
+      "path": "work/oct5-fusion-robustness-v1/execution-initial-failure/compactD1__parental_zero/Arriba.log.gz",
+      "sha256": "5fc32be2d2d478394a124406fd62e3f1516052f190480e4749de42356d2e3aa2",
+      "bytes": 422
+    },
+    {
+      "path": "work/oct5-fusion-robustness-v1/execution-initial-failure/compactD1__parental_zero/STAR.Log.progress.out",
+      "sha256": "e4947209ba69b69769fb8568cb6d21e96484840ee598dc9001da720ecf866bd8",
+      "bytes": 246
+    },
+    {
+      "path": "work/oct5-fusion-robustness-v1/execution-initial-failure/compactD1__parental_zero/STAR.Log.std.out",
+      "sha256": "3e7d5b19b7bdc0032bdc617548115dacfaf9bcd5df2f528a813a403fd8ecb705",
+      "bytes": 1560
+    },
+    {
+      "path": "work/oct5-fusion-robustness-v1/execution-initial-failure/compactD1__parental_zero/STAR.Log.final.out",
+      "sha256": "08c9e104cdbe60af619528d8f9599c6f9194ef254bf54b797e77fb6daffda765",
+      "bytes": 1969
+    },
+    {
+      "path": "work/oct5-fusion-robustness-v1/execution-initial-failure/compactD1__parental_zero/status.json",
+      "sha256": "a5df7a8503bbc1c1615ee0b0eca286ace7fae061722b653f1e412f04bc101bf2",
+      "bytes": 3735
+    }
+  ]
+}

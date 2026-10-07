@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "input_records": 7,
+  "expected_retained": 4,
+  "exact_SAM_field_strings_preserved": true,
+  "qualifies": [
+    "site overlap retained withMAPQ0",
+    "named mate atotherchromosome retained",
+    "namedunmapped/supplementary/secondary retained",
+    "recordmeetingbothruleswrittenonce",
+    "unnamedskip-only/deletion-only/outside omitted"
+  ],
+  "scope": "Execution plumbing only; no clinical sensitivity claim"
+}

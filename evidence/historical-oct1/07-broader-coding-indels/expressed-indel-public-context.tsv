@@ -1,0 +1,33 @@
+gene	chrom	pos1	ref	alt	DNA_fraction	RNA_alt_names	public_ids	largest_returned_global_alt_frequency	lookup_status	interpretation
+BAP1	chr3	52408550	CGCCGGGACCGG	C	0.565008025682183	244			success	No exact public haplotype match returned; not evidence of novelty or somatic status.
+NPIPB2	chr16	11933617	CAT	C	1.0	50	rs71139503	0.9965	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+PSG8	chr19	42763988	AG	A	0.8471454880294659	3	rs11355507	0.101637380191693	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+ZNF480	chr19	52300416	CTG	C	1.0	87	rs3217319	0.7219	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+ZNF778	chr16	89224802	G	GGTGA	1.0	24	rs10625512	0.9014	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+AC010326.2	chr19	57901703	T	TG	1.0	11	rs59723971	1.0	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+MICA	chr6	31412384	G	GCT	1.0	13	rs41293539	0.267	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+APOL4	chr22	36191797	ACT	A	1.0	3			error	
+GPATCH4	chr1	156595257	A	AAC	1.0	36	rs72559129	0.9994	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+ANKDD1B	chr5	75611764	TC	T	0.7674418604651163	4	rs1773564282	3.283e-05	success	Catalog allele present; inherited versus somatic status in this patient unresolved.
+ZFYVE19	chr15	40807701	T	TGGGGC	1.0	7	rs142730574	0.3666	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+ANKMY1	chr2	240526305	CA	C	0.6166666666666667	11			success	No exact public haplotype match returned; not evidence of novelty or somatic status.
+CEP250	chr20	35511428	AG	A	0.5120772946859904	4			success	No exact public haplotype match returned; not evidence of novelty or somatic status.
+POLR2A	chr17	7513774	CCA	C	1.0	932	rs1490940612	1.0	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+OR52B4	chr11	4368174	AG	A	0.5595238095238095	3	rs11310407	0.3494	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+NLRC3	chr16	3563615	C	CT	0.4	3			success	No exact public haplotype match returned; not evidence of novelty or somatic status.
+CDC14C	chr7	48924613	TG	T	0.9010989010989011	3	rs58317831	0.5403	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+SLC37A4	chr11	119027725	AC	A	1.0	144	rs56966114	1.0	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+FN3KRP	chr17	82718962	C	CA	0.33877551020408164	13	rs781761828	0.0002736	success	Catalog allele present; inherited versus somatic status in this patient unresolved.
+ZNF880	chr19	52383892	TA	T	0.8118811881188119	10	rs34470614	0.3826	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+SON	chr21	33576378	G	GA	1.0	6	rs34377180	1.0	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+RASA1	chr5	87332560	TG	T	0.5575221238938053	72			success	No exact public haplotype match returned; not evidence of novelty or somatic status.
+EBLN2	chr3	73062330	C	CA	1.0	7	rs3832186	0.206869009584665	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+PSORS1C1	chr6	31138723	T	TC	0.46153846153846156	6	rs9278990	0.138977635782748	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+SLC27A3	chr1	153779383	TC	T	0.3119266055045872	5			error	
+ORAI1	chr12	121626865	GGCCCC	G	1.0	11	rs1171412399	0.9941	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+LATS1	chr6	149695191	T	TA	0.5833333333333334	4			success	No exact public haplotype match returned; not evidence of novelty or somatic status.
+ACIN1	chr14	23059292	TTC	T	0.050761421319796954	5	rs765697465	0.0009022	success	Catalog allele present; inherited versus somatic status in this patient unresolved.
+CHD2	chr15	93002203	G	GA	0.05511811023622047	35	rs749969667	0.002561	success	Catalog allele present; inherited versus somatic status in this patient unresolved.
+ZNF598	chr16	2009735	CG	C	1.0	58	rs71148116	0.9998	success	Common catalog allele (>=1% global frequency), not a tumor-specific vaccine target without contrary matched-normal evidence.
+VCP	chr9	35059649	A	AT	0.07692307692307693	6	rs751290466	1.621e-05	success	Catalog allele present; inherited versus somatic status in this patient unresolved.
+RBM25	chr14	73105898	AAG	A	0.0502092050209205	47	rs150988201		success	Catalog allele present; inherited versus somatic status in this patient unresolved.

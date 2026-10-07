@@ -1,0 +1,16 @@
+# Interpretation limits
+
+This is a research evidence repository, not a clinical assay, clinical decision system or validated portable pipeline. Its purpose is to let reviewers inspect the original computational work and independently test it.
+
+- **No matched normal.** Somatic status, inherited status and tumor clonality cannot be inferred conclusively from variant allele fractions. Local BAP1 phase is not proof of biallelic loss.
+- **Bulk material.** RNA, HLA signals, variant support and expression include mixed cells. Detectable HLA RNA does not prove tumor-cell HLA retention or surface presentation. RNA abundance is not protein abundance.
+- **No calibrated tumor copy-number model.** Vendor “Deleted” labels and CNA numbers must not be relabeled as integer tumor copies or confirmed homogeneous homozygous loss. Relative density, allele imbalance and local haplotypes leave multiple models possible.
+- **Read names are not molecular barcodes.** Most counts collapse paired reads by query name. Distinct names, sequence families and alignment patterns are different quantities; none automatically proves independent original molecules.
+- **Model scores are hypotheses.** Binding/EL scores are not probabilities of tumor display or treatment success. WT binding, near-self recognition, processing, HLA restriction and recognition remain material concerns. The overlapping BAP1 peptides represent one underlying event.
+- **Fusion negatives are bounded.** Sparse indexing, short inserts, overlap, reference choice, aligner defaults, caller filters, prior databases and candidate selection affect detection. The small public benchmark does not estimate clinical sensitivity or a detection limit. No validated actionable fusion emerged, but that does not prove none exists.
+- **Re-alignment is not independent sampling.** The same raw reads were reused. The original and local pipelines differ in more than sparsity; changed mappings cannot be attributed to one parameter or assumed correct. Selected BAM captures are not complete realigned BAMs.
+- **Consistency is not identity.** The public panel covers six chromosomes and surviving sites cluster around expressed exons. Shared evidence and nearby loci are not independent observations. Broad DNA/RNA agreement neither gives a chance-match probability nor resolves local discrepancies or contamination.
+- **Research scope is finite.** Twenty-one selected protein-altering export calls were checked, and the fusion review covered all 28 accepted plus 26 selected discarded hypotheses. The repository is not a validated exhaustive re-call of every possible DNA/RNA alteration.
+- **No clinical context analysis here.** Findings do not select a diagnosis, estimate prognosis, predict an individual response or establish a drug/trial/vaccine indication. Such claims require evidence outside this raw-data repository and appropriate clinical review.
+
+Independent numerical audits, synthetic controls and repeated counts establish the particular computational checks described in their receipts. They are not independent laboratory replication. An earlier dated result can be superseded by a later audit without making the underlying historical output disappear; consult [FINDINGS.md](FINDINGS.md) for the current interpretation.

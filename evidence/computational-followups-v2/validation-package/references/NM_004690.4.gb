@@ -1,0 +1,458 @@
+LOCUS       NM_004690               7362 bp    mRNA    linear   PRI 28-APR-2025
+DEFINITION  Homo sapiens large tumor suppressor kinase 1 (LATS1), transcript
+            variant 1, mRNA.
+ACCESSION   NM_004690
+VERSION     NM_004690.4
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 7362)
+  AUTHORS   Blakely,W.J., Hatterschide,J. and White,E.A.
+  TITLE     HPV18 E7 inhibits LATS1 kinase and activates YAP1 by degrading
+            PTPN14
+  JOURNAL   mBio 15 (10), e0181124 (2024)
+   PUBMED   39248565
+  REMARK    GeneRIF: HPV18 E7 inhibits LATS1 kinase and activates YAP1 by
+            degrading PTPN14.
+REFERENCE   2  (bases 1 to 7362)
+  AUTHORS   Nie,L., Fei,C., Fan,Y., Dang,F., Zhao,Z., Zhu,T., Wu,X., Dai,T.,
+            Balasubramanian,A., Pan,J., Hu,Y., Luo,H.R., Wei,W. and Chen,J.
+  TITLE     Consecutive palmitoylation and phosphorylation orchestrates NLRP3
+            membrane trafficking and inflammasome activation
+  JOURNAL   Mol Cell 84 (17), 3336-3353 (2024)
+   PUBMED   39173637
+REFERENCE   3  (bases 1 to 7362)
+  AUTHORS   Zhang,Z., Zhou,X., Li,J., Meng,Q. and Zheng,P.
+  TITLE     LncRNA HOTAIR promotes the migration and invasion of cervical
+            cancer through DNMT3B/LATS1/ YAP1 pS127 axis
+  JOURNAL   Reprod Biol 24 (2), 100893 (2024)
+   PUBMED   38754347
+  REMARK    GeneRIF: LncRNA HOTAIR promotes the migration and invasion of
+            cervical cancer through DNMT3B/LATS1/ YAP1 pS127 axis.
+REFERENCE   4  (bases 1 to 7362)
+  AUTHORS   Wu,J., Yi,T., Zhuo,C., Wang,D., Zhang,M., Hu,R., Wu,D., Hou,G. and
+            Xing,Y.
+  TITLE     m6A-induced TRIB3 regulates Hippo pathway through interacting with
+            LATS1 to promote the progression of lung adenocarcinoma
+  JOURNAL   J Cell Physiol 239 (5), e31220 (2024)
+   PUBMED   38372068
+  REMARK    GeneRIF: m[6]A-induced TRIB3 regulates Hippo pathway through
+            interacting with LATS1 to promote the progression of lung
+            adenocarcinoma.
+REFERENCE   5  (bases 1 to 7362)
+  AUTHORS   Zhang,F., Issah,M.A., Fu,H.Y., Zhou,H.R., Liu,T.B. and Shen,J.Z.
+  TITLE     LATS1 Promotes B-ALL Tumorigenesis by Regulating YAP1
+            Phosphorylation and Subcellular Localization
+  JOURNAL   Curr Med Sci 44 (1), 81-92 (2024)
+   PUBMED   38277019
+  REMARK    GeneRIF: LATS1 Promotes B-ALL Tumorigenesis by Regulating YAP1
+            Phosphorylation and Subcellular Localization.
+REFERENCE   6  (bases 1 to 7362)
+  AUTHORS   Nishiyama,Y., Hirota,T., Morisaki,T., Hara,T., Marumoto,T.,
+            Iida,S., Makino,K., Yamamoto,H., Hiraoka,T., Kitamura,N. and
+            Saya,H.
+  TITLE     A human homolog of Drosophila warts tumor suppressor, h-warts,
+            localized to mitotic apparatus and specifically phosphorylated
+            during mitosis
+  JOURNAL   FEBS Lett 459 (2), 159-165 (1999)
+   PUBMED   10518011
+REFERENCE   7  (bases 1 to 7362)
+  AUTHORS   St John,M.A., Tao,W., Fei,X., Fukumoto,R., Carcangiu,M.L.,
+            Brownstein,D.G., Parlow,A.F., McGrath,J. and Xu,T.
+  TITLE     Mice deficient of Lats1 develop soft-tissue sarcomas, ovarian
+            tumours and pituitary dysfunction
+  JOURNAL   Nat Genet 21 (2), 182-186 (1999)
+   PUBMED   9988269
+REFERENCE   8  (bases 1 to 7362)
+  AUTHORS   Tao,W., Zhang,S., Turenchalk,G.S., Stewart,R.A., St John,M.A.,
+            Chen,W. and Xu,T.
+  TITLE     Human homologue of the Drosophila melanogaster lats tumour
+            suppressor modulates CDC2 activity
+  JOURNAL   Nat Genet 21 (2), 177-181 (1999)
+   PUBMED   9988268
+REFERENCE   9  (bases 1 to 7362)
+  AUTHORS   Xu,T., Wang,W., Zhang,S., Stewart,R.A. and Yu,W.
+  TITLE     Identifying tumor suppressors in genetic mosaics: the Drosophila
+            lats gene encodes a putative protein kinase
+  JOURNAL   Development 121 (4), 1053-1063 (1995)
+   PUBMED   7743921
+REFERENCE   10 (bases 1 to 7362)
+  AUTHORS   Robertson,N.G., Khetarpal,U., Gutierrez-Espeleta,G.A., Bieber,F.R.
+            and Morton,C.C.
+  TITLE     Isolation of novel and known genes from a human fetal cochlear cDNA
+            library using subtractive hybridization and differential screening
+  JOURNAL   Genomics 23 (1), 42-50 (1994)
+   PUBMED   7829101
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AF104413.1, AL358852.5,
+            BX276089.8 and AW021064.1.
+            
+            On Nov 22, 2018 this sequence version replaced NM_004690.3.
+            
+            Summary: The protein encoded by this gene is a putative
+            serine/threonine kinase that localizes to the mitotic apparatus and
+            complexes with cell cycle controller CDC2 kinase in early mitosis.
+            The protein is phosphorylated in a cell-cycle dependent manner,
+            with late prophase phosphorylation remaining through metaphase. The
+            N-terminal region of the protein binds CDC2 to form a complex
+            showing reduced H1 histone kinase activity, indicating a role as a
+            negative regulator of CDC2/cyclin A. In addition, the C-terminal
+            kinase domain binds to its own N-terminal region, suggesting
+            potential negative regulation through interference with complex
+            formation via intramolecular binding. Biochemical and genetic data
+            suggest a role as a tumor suppressor. This is supported by studies
+            in knockout mice showing development of soft-tissue sarcomas,
+            ovarian stromal cell tumors and a high sensitivity to carcinogenic
+            treatments. [provided by RefSeq, Apr 2017].
+            
+            Transcript Variant: This variant (1) encodes the longest isoform
+            (1).
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: SRR1660805.168479.1,
+                                           SRR1660803.101506.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2467150 [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000543571.6/ ENSP00000437550.1
+            RefSeq Select criteria :: based on conservation, expression
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-89                AF104413.1         156-244
+            90-90               AL358852.5         12605-12605         c
+            91-4147             AF104413.1         246-4302
+            4148-6968           BX276089.8         35139-37959         c
+            6969-7362           AW021064.1         72-465
+FEATURES             Location/Qualifiers
+     source          1..7362
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="6"
+                     /map="6q25.1"
+     gene            1..7362
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="large tumor suppressor kinase 1"
+                     /db_xref="GeneID:9113"
+                     /db_xref="HGNC:HGNC:6514"
+                     /db_xref="MIM:603473"
+     exon            1..253
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    70..72
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="upstream in-frame stop codon"
+     exon            254..741
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             394..3786
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /EC_number="2.7.11.1"
+                     /note="isoform 1 is encoded by transcript variant 1; LATS
+                     (large tumor suppressor, Drosophila) homolog 1;
+                     serine/threonine-protein kinase LATS1; h-warts; WARTS
+                     protein kinase; large tumor suppressor homolog 1; LATS,
+                     large tumor suppressor, homolog 1"
+                     /codon_start=1
+                     /product="serine/threonine-protein kinase LATS1 isoform 1"
+                     /protein_id="NP_004681.1"
+                     /db_xref="CCDS:CCDS34551.1"
+                     /db_xref="GeneID:9113"
+                     /db_xref="HGNC:HGNC:6514"
+                     /db_xref="MIM:603473"
+                     /translation="MKRSEKPEGYRQMRPKTFPASNYTVSSRQMLQEIRESLRNLSKP
+                     SDAAKAEHNMSKMSTEDPRQVRNPPKFGTHHKALQEIRNSLLPFANETNSSRSTSEVN
+                     PQMLQDLQAAGFDEDMVIQALQKTNNRSIEAAIEFISKMSYQDPRREQMAAAAARPIN
+                     ASMKPGNVQQSVNRKQSWKGSKESLVPQRHGPPLGESVAYHSESPNSQTDVGRPLSGS
+                     GISAFVQAHPSNGQRVNPPPPPQVRSVTPPPPPRGQTPPPRGTTPPPPSWEPNSQTKR
+                     YSGNMEYVISRISPVPPGAWQEGYPPPPLNTSPMNPPNQGQRGISSVPVGRQPIIMQS
+                     SSKFNFPSGRPGMQNGTGQTDFMIHQNVVPAGTVNRQPPPPYPLTAANGQSPSALQTG
+                     GSAAPSSYTNGSIPQSMMVPNRNSHNMELYNISVPGLQTNWPQSSSAPAQSSPSSGHE
+                     IPTWQPNIPVRSNSFNNPLGNRASHSANSQPSATTVTAITPAPIQQPVKSMRVLKPEL
+                     QTALAPTHPSWIPQPIQTVQPSPFPEGTASNVTVMPPVAEAPNYQGPPPPYPKHLLHQ
+                     NPSVPPYESISKPSKEDQPSLPKEDESEKSYENVDSGDKEKKQITTSPITVRKNKKDE
+                     ERRESRIQSYSPQAFKFFMEQHVENVLKSHQQRLHRKKQLENEMMRVGLSQDAQDQMR
+                     KMLCQKESNYIRLKRAKMDKSMFVKIKTLGIGAFGEVCLARKVDTKALYATKTLRKKD
+                     VLLRNQVAHVKAERDILAEADNEWVVRLYYSFQDKDNLYFVMDYIPGGDMMSLLIRMG
+                     IFPESLARFYIAELTCAVESVHKMGFIHRDIKPDNILIDRDGHIKLTDFGLCTGFRWT
+                     HDSKYYQSGDHPRQDSMDFSNEWGDPSSCRCGDRLKPLERRAARQHQRCLAHSLVGTP
+                     NYIAPEVLLRTGYTQLCDWWSVGVILFEMLVGQPPFLAQTPLETQMKVINWQTSLHIP
+                     PQAKLSPEASDLIIKLCRGPEDRLGKNGADEIKAHPFFKTIDFSSDLRQQSASYIPKI
+                     THPTDTSNFDPVDPDKLWSDDNEEENVNDTLNGWYKNGKHPEHAFYEFTFRRFFDDNG
+                     YPYNYPKPIEYEYINSQGSEQQSDEDDQNTGSEIKNRDLVYV"
+     misc_feature    394..606
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    838..1221
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1129..1131
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (O95835.1); phosphorylation site"
+     misc_feature    1225..1227
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (O95835.1); phosphorylation site"
+     misc_feature    1273..1356
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1486..1608
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1510..1521
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     Region: PPxY motif 1"
+     misc_feature    1687..1845
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1783..1785
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="Phosphoserine, by NUAK1 and NUAK2.
+                     /evidence=ECO:0000269|PubMed:19927127,
+                     ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:23186163;
+                     propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     phosphorylation site"
+     misc_feature    1936..2286
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1969..2358
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     Region: Interaction with YAP1.
+                     /evidence=ECO:0000269|PubMed:18158288"
+     misc_feature    2059..2070
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     Region: PPxY motif 2"
+     misc_feature    2230..2232
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (O95835.1); phosphorylation site"
+     misc_feature    2413..2415
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:17525332; propagated from
+                     UniProtKB/Swiss-Prot (O95835.1); phosphorylation site"
+     misc_feature    3118..3120
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="Phosphoserine, by STK3/MST2.
+                     /evidence=ECO:0000269|PubMed:15688006; propagated from
+                     UniProtKB/Swiss-Prot (O95835.1); phosphorylation site"
+     misc_feature    3628..3630
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="Phosphothreonine, by STK3/MST2.
+                     /evidence=ECO:0000269|PubMed:15688006,
+                     ECO:0000269|PubMed:28087714; propagated from
+                     UniProtKB/Swiss-Prot (O95835.1); phosphorylation site"
+     misc_feature    3703..3783
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95835.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     exon            742..889
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /inference="alignment:Splign:2.1.0"
+     exon            890..2403
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2404..2986
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2987..3169
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3170..3276
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3277..7362
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      7338..7343
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="hexamer: AATAAA"
+     polyA_site      7362
+                     /gene="LATS1"
+                     /gene_synonym="WARTS; wts"
+                     /note="major polyA site"
+ORIGIN      
+        1 agcggagtgc ggcggcggcg acactgagtg gaaggcaaaa tggcggcggc ggcggcggtg
+       61 gcctggtgtt aaggggagag ccaggtcctc acgacccctg ggacgggccg cgctggcccg
+      121 cggcagcccc cccgttcgtc tccccgctct gccccaccag ggatacttgg ggttgctggg
+      181 acggactctg gccgcctcag cgtccgccct caggcccgtg gccgctgtcc aggagctctg
+      241 ctctcccctc cagagttaat tatttatatt gtaaagaatt ttaacagtcc tggggacttc
+      301 cttgaaggat cattttcact tttgctcaga agaaagctct ggatctatca aataaagaag
+      361 tccttcgtgt gggctacata tatagatgtt ttcatgaaga ggagtgaaaa gccagaagga
+      421 tatagacaaa tgaggcctaa gacctttcct gccagtaact atactgtcag tagccggcaa
+      481 atgttacaag aaattcggga atcccttagg aatttatcta aaccatctga tgctgctaag
+      541 gctgagcata acatgagtaa aatgtcaacc gaagatcctc gacaagtcag aaatccaccc
+      601 aaatttggga cgcatcataa agccttgcag gaaattcgaa actctctgct tccatttgca
+      661 aatgaaacaa attcttctcg gagtacttca gaagttaatc cacaaatgct tcaagacttg
+      721 caagctgctg gatttgatga ggatatggtt atacaagctc ttcagaaaac taacaacaga
+      781 agtatagaag cagcaattga attcattagt aaaatgagtt accaagatcc tcgacgagag
+      841 cagatggctg cagcagctgc cagacctatt aatgccagca tgaaaccagg gaatgtgcag
+      901 caatcagtta accgcaaaca gagctggaaa ggttctaaag aatccttagt tcctcagagg
+      961 catggcccgc cactaggaga aagtgtggcc tatcattctg agagtcccaa ctcacagaca
+     1021 gatgtaggaa gacctttgtc tggatctggt atatcagcat ttgttcaagc tcaccctagc
+     1081 aacggacaga gagtgaaccc cccaccacca cctcaagtaa ggagtgttac tcctccacca
+     1141 cctccaagag gccagactcc ccctccaaga ggtacaactc cacctccccc ttcatgggaa
+     1201 ccaaactctc aaacaaagcg ctattctgga aacatggaat acgtaatctc ccgaatctct
+     1261 cctgtcccac ctggggcatg gcaagagggc tatcctccac cacctctcaa cacttccccc
+     1321 atgaatcctc ctaatcaagg acagagaggc attagttctg ttcctgttgg cagacaacca
+     1381 atcatcatgc agagttctag caaatttaac tttccatcag ggagacctgg aatgcagaat
+     1441 ggtactggac aaactgattt catgatacac caaaatgttg tccctgctgg cactgtgaat
+     1501 cggcagccac cacctccata tcctctgaca gcagctaatg gacaaagccc ttctgcttta
+     1561 caaacagggg gatctgctgc tccttcgtca tatacaaatg gaagtattcc tcagtctatg
+     1621 atggtgccaa acagaaatag tcataacatg gaactatata acattagtgt acctggactg
+     1681 caaacaaatt ggcctcagtc atcttctgct ccagcccagt catccccgag cagtgggcat
+     1741 gaaatcccta catggcaacc taacatacca gtgaggtcaa attcttttaa taacccatta
+     1801 ggaaatagag caagtcactc tgctaattct cagccttctg ctacaacagt cactgcaatt
+     1861 acaccagctc ctattcaaca gcctgtgaaa agtatgcgtg tattaaaacc agagctacag
+     1921 actgctttag cacctacaca cccttcttgg ataccacagc caattcaaac tgttcaaccc
+     1981 agtccttttc ctgagggaac cgcttcaaat gtgactgtga tgccacctgt tgctgaagct
+     2041 ccaaactatc aaggaccacc accaccctac ccaaaacatc tgctgcacca aaacccatct
+     2101 gttcctccat acgagtcaat cagtaagcct agcaaagagg atcagccaag cttgcccaag
+     2161 gaagatgaga gtgaaaagag ttatgaaaat gttgatagtg gggataaaga aaagaaacag
+     2221 attacaactt cacctattac tgttaggaaa aacaagaaag atgaagagcg aagggaatct
+     2281 cgtattcaaa gttattctcc tcaagcattt aaattcttta tggagcaaca tgtagaaaat
+     2341 gtactcaaat ctcatcagca gcgtctacat cgtaaaaaac aattagagaa tgaaatgatg
+     2401 cgggttggat tatctcaaga tgcccaggat caaatgagaa agatgctttg ccaaaaagaa
+     2461 tctaattaca tccgtcttaa aagggctaaa atggacaagt ctatgtttgt gaagataaag
+     2521 acactaggaa taggagcatt tggtgaagtc tgtctagcaa gaaaagtaga tactaaggct
+     2581 ttgtatgcaa caaaaactct tcgaaagaaa gatgttcttc ttcgaaatca agtcgctcat
+     2641 gttaaggctg agagagatat cctggctgaa gctgacaatg aatgggtagt tcgtctatat
+     2701 tattcattcc aagataagga caatttatac tttgtaatgg actacattcc tgggggtgat
+     2761 atgatgagcc tattaattag aatgggcatc tttccagaaa gtctggcacg attctacata
+     2821 gcagaactta cctgtgcagt tgaaagtgtt cataaaatgg gttttattca tagagatatt
+     2881 aaacctgata atattttgat tgatcgtgat ggtcatatta aattgactga ctttggcctc
+     2941 tgcactggct tcagatggac acacgattct aagtactatc agagtggtga ccatccacgg
+     3001 caagatagca tggatttcag taatgaatgg ggggatccct caagctgtcg atgtggagac
+     3061 agactgaagc cattagagcg gagagctgca cgccagcacc agcgatgtct agcacattct
+     3121 ttggttggga ctcccaatta tattgcacct gaagtgttgc tacgaacagg atacacacag
+     3181 ttgtgtgatt ggtggagtgt tggtgttatt ctttttgaaa tgttggtggg acaacctcct
+     3241 ttcttggcac aaacaccatt agaaacacaa atgaaggtta tcaactggca aacatctctt
+     3301 cacattccac cacaagctaa actcagtcct gaagcttctg atcttattat taaactttgc
+     3361 cgaggacccg aagatcgctt aggcaagaat ggtgctgatg aaataaaagc tcatccattt
+     3421 tttaaaacaa ttgacttctc cagtgacctg agacagcagt ctgcttcata cattcctaaa
+     3481 atcacacacc caacagatac atcaaatttt gatcctgttg atcctgataa attatggagt
+     3541 gatgataacg aggaagaaaa tgtaaatgac actctcaatg gatggtataa aaatggaaag
+     3601 catcctgaac atgcattcta tgaatttacc ttccgaaggt tttttgatga caatggctac
+     3661 ccatataatt atccgaagcc tattgaatat gaatacatta attcacaagg ctcagagcag
+     3721 cagtcggatg aagatgatca aaacacaggc tcagagatta aaaatcgcga tctagtatat
+     3781 gtttaacaca ctagtaaata aatgtaatga ggatttgtaa aagggcctga aatgcgaggt
+     3841 gttttgaggt tctgagagta aaattatgca aatatgacag agctatatat gtgtgctctg
+     3901 tgtacaatat tttattttcc taaattatgg gaaatccttt taaaatgtta atttattcca
+     3961 gccgtttaaa tcagtattta gaaaaaaatt gttataagga aagtaaatta tgaactgaat
+     4021 attatagtca gttcttggta cttaaagtac ttaaaataag tagtgctttg tttaaaagga
+     4081 gaaacctggt atctatttgt atatatgcta aataatttta aaatacaaga gtttttgaaa
+     4141 tttttttgaa agacagtttt agttttatct tgctttaacc aaatatgaaa cataccccct
+     4201 attttacaga gctctttttt cccctcataa ccttgttttt ggtagaaaat aagctagaga
+     4261 aattaagcca tcgtgttggt gagtgttcct aggctaatga taatctgtat aattcacatc
+     4321 ctgaaactaa ggaatacagg gttgaaaaaa tattaatatg tttgtcagaa ggaaaaataa
+     4381 tgcatttatc ttccccccca ccccccgccc catggaatat ttaatctatt taatcttctt
+     4441 gcatttattt ctcaagaatt actggcttta aaagaagcca aagcactact agcttttttt
+     4501 ccatattggt atttttgatg ctgcttccaa ttttaaaagg gaacaaagct gccataaatc
+     4561 gaaatgttca atactaaaag ctaaaatatt tctcaccatc ctaagcagat aattatttta
+     4621 attttcatat acttttcctg tatagtaact attttgatta tatcatcaat gttacctgtt
+     4681 tcctctttca gaacagtgct gcatatacag attgttattg gcaaaggaaa atctggctat
+     4741 ctggcaatat tttacctaag cgcagattaa ttggtgaaaa aattaactct taagatggcc
+     4801 attaataatt aggaaagttt acagagtggt cttagtagaa aattcaagtc ctcctaattt
+     4861 atttaaggtt caataatgcg ttcaacatgc ctgttatgta taacgcttag gttctaagga
+     4921 agattaaggt ttcataccaa aatacatgta gcttatcttt taggaagggg aaaaaggctc
+     4981 cattttgacc atagtaaaat ttgtgttgtg ttttatttcc ttttcttaag ctccactgat
+     5041 aagggattgt ttttatcaaa agttactatt tgtagattgg aggcataatt ttagtgattt
+     5101 tcatactttt agctttcttc gcataaaagc taattgaaac cgtatatgta gtaaaattaa
+     5161 aggcagagct gttgcagttg aattggagag ttagggcaaa gaacacttat tagcccacac
+     5221 ttcccacctt tctacaggtg gtcctttcag agctcagcct gaaaacccac tactgtgtta
+     5281 tcgtgcgtct tttggggtta gtggttcttt tgagaatctg aaggaagctg tggactcttc
+     5341 ctagaaaaaa aaaccacaca tacacataca atgttgcatg cagtttcaag ggattttgga
+     5401 catattgaaa cctatcacag gctgtaggtt atggacctct gtgccatgag aaaattgata
+     5461 cattaaacta agaactttgt ttttaactta ccaatcacta ctcagcacat cttatataag
+     5521 ctgataattt gtgatggaaa aggtctgtag catgtgatat aaggtgacct tatgaatgcc
+     5581 tctcttgctg gtacattaag ttgttttaat atatcatttg gaggggactg aaatgttagg
+     5641 ctcattacaa gcttgataca gaaatatttc tgaaggattt ctaatcagaa ttgtaaaaca
+     5701 atgtgctatc atgaaatcgc agtcttcacc tcatggttca tggaacattt ggttagtccc
+     5761 ataaaatcct atgcaaaaca aagtagttca agaattttta ggtgggtagt cacatttata
+     5821 aggtattcct cttactcttt gggctttttc agtctgattt atttaaattt tcatttagtt
+     5881 gttttacttt tggactaagg tgcaatacag tagaagataa ctttgttaca tttatgttgt
+     5941 aggaaaacta aggtgctgtc tcctccccct tcccttccca caaaatctgt attcccccta
+     6001 ttgctgaaat gtaacagaca ctacaaattt tgtattcttt ttttgttttt tgttttgaga
+     6061 cagggtctca ctctgtcacc caggctggag ggcagtggcg cttcacagct cactgcatcc
+     6121 tcaaccttgg gggctcacgc agtcctcccg cctcagcctc ccaagtagct gggcatgcgc
+     6181 caccaagccc agctaatttt tgtatcttta gtagagatgg ggtttcgcca tgttgcccag
+     6241 gttggtgtgg aattcctggg ctccagttat atgcccacct cagcctccca aagtgctggg
+     6301 attacagacg tgacccaccg cgcctggcgc aaatatgtat tcttttaaaa tttcctctga
+     6361 tactataagc tttttgcatt tatctgaagc agtatacatg cctttggtat cagcaatttt
+     6421 aacagtttgg atatacttat cagctatctt attccaaaac tacatctact tcttccagta
+     6481 tagaatctgg tgcttcctga ccaaaaagat gagaaaaaca atgttaaaaa tatagatgct
+     6541 ttccattgaa atggagtgaa aacattggtt ctatatgttt tcttttaaaa taattttctt
+     6601 attaaaaact tgctgtcttt attatactta ccctttttat gcatatcaat agtatttata
+     6661 agatgtgttc tataattatg taattgtaga tactgttatg cattgtccag tgacatcata
+     6721 aggcaggccc tactgctgta tcttttctac cttcttattt gtaatagaaa ctatagaatg
+     6781 tatgactaaa aagtcacttt gagattgact tttttaaaaa gttattacct tctgctgttg
+     6841 caaagtgcaa aactgtgagt ggaattgttt tattctgact taatgtgtta gaaattagag
+     6901 aatacagtgg gaggattttt agacattgct gctgctgtta cccaaggtat tttagataaa
+     6961 aaatttttaa taaacatccc tttggtattt aaagtggaac atttagcctg ttcattttaa
+     7021 tctaaagcaa aaagtaattt gggtcaaaat attggtatat ttgtaaagcg ccttaatata
+     7081 tccctttgtg gaaggcacta cacagtttac ttttatattg tattgtgtat ataagtattt
+     7141 tgtattaaaa ttgaatcagt ggcaacatta aagttttata aaatcatgct ttgttagaaa
+     7201 aagaattaca gctttgcaat ataactaatt gtttcgcata attctgaatg taatagatat
+     7261 gaataatcag cctgtgtttt taatgaactt atttgtattt tcccaatcat tttctctagt
+     7321 gtaatgtttg ctgggataat aaaaaaaatt caaatctttc aa
+//
+

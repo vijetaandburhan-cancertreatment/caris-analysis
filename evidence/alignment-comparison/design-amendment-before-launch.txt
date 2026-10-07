@@ -1,0 +1,1 @@
+The first prelaunch design was preserved in design-history. Before any patient alignment, the independent reviewer required exact design/selection hash binding, frozen BED equality, final closed-output resource checks, and BAM quickcheck. These execution integrity changes do not change STAR mapping parameters or the comparison cohort. The driver was refrozen before launch.

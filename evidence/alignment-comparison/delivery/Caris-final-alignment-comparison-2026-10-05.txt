@@ -1,0 +1,197 @@
+Full-pair RNA alignment comparison
+
+Caris TN26-279853 | Fixed-cohort research QC | 5 October 2026
+
+Five of the six stronger DNA/RNA discrepancy positions persist under the second alignment pipeline, including both linked PABPC1 sites. The APOD discrepancy is absent in the new counts and is demonstrably alignment-dependent. The experiment does not establish which placement is biologically correct or change the existing treatment-related research priorities.
+
+Same starting cohort; coverage losses retained
+
+All 23,209,264 original RNA read pairs were processed against the resident full primary-genome reference. The comparison was frozen at 4,015 originally jointly callable public SNPs, with the original DNA counts and categories unchanged. The new RNA remains callable at depth ≥20 at 3,932 sites; 83 fall below 20, and none loses all A/C/G/T evidence.
+
+Among the same 2,873 DNA-dominant sites
+
+Original RNA
+
+New RNA
+
+Depth ≥20 and same allele ≥90%
+
+2,860 / 2,873
+
+2,805 / 2,873
+
+Depth ≥20 and same allele ≥98%
+
+2,760 / 2,873
+
+2,721 / 2,873
+
+Depth below 20 (kept in denominator)
+
+0
+
+59
+
+Depth ≥20 but same allele <90%
+
+13
+
+9
+
+Of the original 13 exceptions, five reach ≥90% same-allele retention and eight remain below it. One additional, low-depth MLLT3 site crosses below 90%. The 59 coverage failures came from previously passing sites. No baseline DNA-dominant site has a callable ≥98% opposite REF/ALT allele. Fraction-only retention that ignores minimum depth is a separate statistic and is not substituted for the table above.
+
+Six stronger original discrepancies
+
+Locus (GRCh38, 1-based)
+
+Original DNA
+
+Original RNA
+
+New RNA
+
+COL5A2
+chr2:189043211
+
+G58
+
+A116, G327
+
+A116, G326
+
+APOD
+chr3:195568834
+
+G87
+
+C27, G36
+
+G86
+
+EXOC3
+chr5:443259
+
+C153
+
+A22, C74, G1
+
+A23, C35, G1
+
+MSH3 / DHFR
+chr5:80654917
+
+C912
+
+C9, G104
+
+C9, G65
+
+PABPC1
+chr8:100705591
+
+A94
+
+A400, G65
+
+A409, G61
+
+PABPC1
+chr8:100705604
+
+G101
+
+A1, C78, G358
+
+A1, C73, G356
+
+Counts are unambiguous query-name units, not unique molecules. The strong screen requires both DNA/RNA depths ≥50 and a base at ≤2% in DNA but ≥10% and at least 10 units in RNA. APOD no longer meets it; the other five still do.
+
+PABPC1 remains unresolved
+
+The new data retain G at chr8:100705591 in 61/470 names and C at chr8:100705604 in 73/430. All 61 G-supporting names also support C on the same qualifying aligned records; 56 of the original 65 shared names still support both. These linked observations must not be treated as two independent checks or converted into tumor mutations. Their origin remains unresolved.
+
+Read context and remaining exceptions
+
+Complete emitted records were preserved for all 3,426 preselected discrepancy-associated query names, including mates, secondary/supplementary placements and unmapped records. All names were recovered. New capture retained 9,061 named records, not merely alignments overlapping the questioned positions.
+
+For APOD, 26 of 27 original C-supporting names now have qualifying G evidence at the site; the remaining name overlaps it but fails matched filters. For EXOC3, 14 of 22 original A names retain A; three now support C, one conflicts, two fail filters and two are unmapped. For MSH3/DHFR, 58 of 104 original G names retain G; 41 map without a base at this position, three fail filters and two are unmapped. These are changed alignment/filter outcomes, not proof of corrected origin.
+
+Other original exceptions remain in the record
+
+Group / locus
+
+Original RNA
+
+New RNA
+
+WWC1
+
+C3, T21
+
+T21
+
+RGS14
+
+C27, G4
+
+C25, G6
+
+PTCH1
+
+A22, T4
+
+A21, T1
+
+NOTCH1
+
+A22, T17
+
+A23
+
+MYO18A
+
+C3, G23
+
+C3, G23
+
+NF1
+
+G5, T17
+
+T23
+
+SEPTIN9
+
+G7, T27
+
+G7, T27
+
+MAPQ60-only: FANCD2
+
+C72, T153
+
+C73, T155
+
+MAPQ60-only: SDHAP2 / MUC20-OT1
+
+A913, G357
+
+A889, G326
+
+MAPQ60-only: FOXD4L4
+
+A22, G70
+
+A21, G69
+
+The three MAPQ60-only flags were originally produced by tightening the DNA mapping-quality filter; they remain separate sensitivity findings. This table shows their matched baseline-filter RNA counts. MLLT3 chr9:20414378 is newly below 90%: original A24/G2 becomes A24/G3 (depth 27), below the strong screen’s depth requirement.
+
+Methods and verification
+
+Matched count filters require MAPQ ≥30, BQ ≥25, proper pairing and exclusion of flags 0xF0C. Qualifying A/C/G/T observations are collapsed by exact query name; conflicting bases are excluded. Coverage means qualifying A/C/G/T, not reference skips. Capture preserves all SNP-base-overlapping records plus every emitted record for frozen names; D/N-only bookkeeping for other names is incomplete by design.
+
+An independent aligned-pair implementation reproduced all 4,015 per-base count rows and material exception transitions. The capture logic passed synthetic boundary/flag/name controls; final BAM quick-check and complete input-pair counts passed. The complete record and per-name tables, scripts, frozen design and audit receipts are retained in the evidence archive.
+
+Original Caris STAR 2.7.8a/CTAT/two-pass settings differ from local STAR 2.7.11b/primary-genome/D8/one-pass settings, including overlap, splice and chimeric parameters. This is not a controlled sparsity-only experiment, a validated identity/contamination assay or a clinical sensitivity test. New placements are not automatically corrections. The clean-read sensitivity and all 16 original review sites remain available, including coverage losses.
+
+Local full pass completed in 26.8 minutes. The selective BAM is 64.1 MB; monitored peak main-pipeline RSS was 8.40 GB and minimum free disk 4.99 GB. No full BAM, new clinical target or external outreach resulted. The biological v2 handoff remains unchanged.

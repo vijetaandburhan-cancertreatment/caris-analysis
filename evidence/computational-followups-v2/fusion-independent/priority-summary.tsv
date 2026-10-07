@@ -1,0 +1,5 @@
+candidate_id	event	RNA50_Q20_pairs	RNA50_Q30_pairs	DNA50_Q20_fragments	DNA100_Q20_fragments	interpretation
+078bc453229c	CEACAM3::CEACAM3	194	157	162	100	DNA-correlated noncoding self-junction; structural explanation/somatic status unresolved
+e2a8e3625460	KRTAP9-1::KRTAP9-1	518	480	731	329	DNA-correlated27bp insertion/repeat allele; no VAF or somatic/driver claim
+d97835c4fba3	NOTCH2NLC::NOTCH2NLC	1217	978	not assessed	not assessed	Repeat marker nonspecific;14 genomic/10 transcript occurrences
+cb8931f687fc	CCND1::HEG1	11	9	not assessed	not assessed	Small3prime3prime candidate; not conventional chimeric protein

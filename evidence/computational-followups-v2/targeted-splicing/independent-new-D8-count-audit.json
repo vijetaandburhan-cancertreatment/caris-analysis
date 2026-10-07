@@ -1,0 +1,91 @@
+{
+  "pysam_version": "0.24.1",
+  "independent_method": "Explicit CIGAR reference/query walk; no import of production audit; same stated filters",
+  "summary": {
+    "BAP1": {
+      "alignment_counts": {
+        "all_alignments": 41436,
+        "qualified_alignments": 40104
+      },
+      "excluded_flag_counts_nonexclusive": {
+        "MAPQ_below20": 1152,
+        "NH_not1": 1152,
+        "secondary": 878,
+        "supplementary": 201
+      },
+      "fragment_allele_states": {
+        "other": 12,
+        "uncovered": 19746,
+        "alternate": 246,
+        "reference": 52
+      },
+      "fragments": 20056,
+      "junctions": 55,
+      "alternate_reads_with_CIGAR_N_inside_haplotype_window": 0
+    },
+    "RASA1": {
+      "alignment_counts": {
+        "all_alignments": 4066,
+        "qualified_alignments": 3897
+      },
+      "excluded_flag_counts_nonexclusive": {
+        "supplementary": 22,
+        "MAPQ_below20": 158,
+        "NH_not1": 158,
+        "secondary": 122
+      },
+      "fragment_allele_states": {
+        "reference": 46,
+        "uncovered": 1838,
+        "alternate": 61,
+        "other": 4
+      },
+      "fragments": 1949,
+      "junctions": 31,
+      "alternate_reads_with_CIGAR_N_inside_haplotype_window": 0
+    },
+    "LATS1": {
+      "alignment_counts": {
+        "all_alignments": 902,
+        "qualified_alignments": 768
+      },
+      "excluded_flag_counts_nonexclusive": {
+        "secondary": 76,
+        "supplementary": 128,
+        "MAPQ_below20": 95,
+        "NH_not1": 95
+      },
+      "fragment_allele_states": {
+        "uncovered": 378,
+        "alternate": 4,
+        "reference": 2
+      },
+      "fragments": 384,
+      "junctions": 6,
+      "alternate_reads_with_CIGAR_N_inside_haplotype_window": 0
+    },
+    "LATS2": {
+      "alignment_counts": {
+        "all_alignments": 2119,
+        "qualified_alignments": 2020
+      },
+      "excluded_flag_counts_nonexclusive": {
+        "MAPQ_below20": 84,
+        "NH_not1": 84,
+        "secondary": 64,
+        "supplementary": 51
+      },
+      "fragment_allele_states": {
+        "uncovered": 1010
+      },
+      "fragments": 1010,
+      "junctions": 10,
+      "alternate_reads_with_CIGAR_N_inside_haplotype_window": 0
+    }
+  },
+  "junction_rows_compared": 102,
+  "independent_junction_rows": 102,
+  "mismatches": [],
+  "primary_fragment_anomalies": [],
+  "script_sha256": "204bf52c87c96e740ad5f4808dde36c801baa1731ee3736d3368c440194a762c"
+}

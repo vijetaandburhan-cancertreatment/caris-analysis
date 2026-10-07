@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "dataset_labels": 20,
+  "distinct_ordered_paired_FASTQ_contents": 19,
+  "identical_groups": [
+    [
+      "support_01_selection_3",
+      "shortest_anchor"
+    ]
+  ],
+  "source": "Frozen uncompressed FASTQ hashes independently checked against every actual FASTQ during the pre-execution input audit.",
+  "interpretation": "The shortest-anchor control duplicates one single-source selection; labels are not independent observations. No identical source-pair copies are introduced within a run. All selected datasets remain frozen."
+}

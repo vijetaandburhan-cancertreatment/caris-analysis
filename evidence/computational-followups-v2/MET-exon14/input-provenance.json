@@ -1,0 +1,39 @@
+{
+  "input_reverification_source": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/input-reverification.json",
+  "input_reverification_sha256": "ac995db9a7878b02684a19a81d5bc5e8fb2c6c53a493aad0c80295b1c112f381",
+  "input_reverification": {
+    "started_utc": "2026-10-05T03:24:25.682587+00:00",
+    "files": [
+      {
+        "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R1.fastq.gz",
+        "size_bytes": 1579972407,
+        "mtime_ns": 1790881322201354892,
+        "sha256": "e931ccacc7e6ea4e58d3fb33dadb99553cbea54b51252c67c44e283cb27d3bc5",
+        "matches_previously_source_CRC_verified_SHA256": true,
+        "unchanged_during_read": true
+      },
+      {
+        "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R2.fastq.gz",
+        "size_bytes": 1612673312,
+        "mtime_ns": 1790883070773144782,
+        "sha256": "b03ab626d8f57b71a89b7ba4a5c97fb5f0d0c91ea695492d0564c3644d849300",
+        "matches_previously_source_CRC_verified_SHA256": true,
+        "unchanged_during_read": true
+      }
+    ],
+    "originals_modified": false,
+    "paired_preflight": {
+      "first_pairs_checked": 10000,
+      "errors": [],
+      "maximum_read_length_in_sample": 161,
+      "scope": "First10000 pairs only; exact whole-file SHA256 matches prior source-CRC-verified files. Whole-file processed count expected23209264 pairs from prior full kallisto run; STAR final count will be checked independently."
+    },
+    "finished_utc": "2026-10-05T03:24:28.225839+00:00"
+  },
+  "independent_full_FASTQ_pairing_QC_source": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/patient/junction-read-audit.json",
+  "independent_full_FASTQ_pairing_QC_sha256": "b0e15922aecb15b9b27d52aff244a7e8c5c2d114355dd76db1c4c50bc859967e",
+  "full_pairing_QC_status": "complete",
+  "full_pairing_QC_pairs": 23209264,
+  "normal_EOF_pair_names_and_quality_lengths": true,
+  "scope_note": "The MET raw scan uses synchronized pairs; complete pairing/quality-length validation was performed in this preceding independent full-input scan of the same resident FASTQs. The separate input reverification preflight checked the first10000 pairs and full-file SHA256."
+}

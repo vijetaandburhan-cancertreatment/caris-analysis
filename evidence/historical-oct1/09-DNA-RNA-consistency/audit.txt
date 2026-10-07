@@ -1,0 +1,24 @@
+Independent DNA/RNA consistency audit
+
+PASS for the bounded internal-consistency result. An independent CIGAR-coordinate traversal reproduces all 670 marker-by-assay counts (335 loci in DNA and RNA), and all reported summary totals. Of 216 eligible markers with at least 20 assessable paired names in each assay and at least 98% of the specified DNA allele, 215 show at least 90% of that same allele in RNA; 210 show at least 98%. These markers represent 128 gene labels across 22 chromosomes, including chrX.
+
+This is an internal check, not proof of patient identity or a validated fingerprint. The markers were chosen from this sample's own DNA VCF using near-homozygous alternate calls and rs/Benign filters. They are not independently selected identity loci; many may be common population alleles, and some are linked. No chance-match probability, quantitative contamination rate, ancestry inference or relatedness estimate was calculated. Mates were collapsed, but RNA query names are not UMI-confirmed independent molecules.
+
+The single exception warrants special handling
+
+At ZRSR2 chrX:15820243 (rs2301724), the independent recount reproduces DNA T=268 paired names, with RNA T=170 and C=142. The locus has a highly homologous processed pseudogene, ZRSR2P1, historically called ZRSR1.
+
+A small local comparison used the aligned portion of each qualifying RNA read against two public GENCODE37 transcripts: ZRSR2 (either reference C or the DNA-observed T at the site) and reference ZRSR2P1. All 299 T-bearing read alignments favored ZRSR2. Of 269 C-bearing read alignments, 260 tied between the homologs and nine favored ZRSR2P1; none favored ZRSR2. These are read counts, not the paired-name counts above.
+
+This supports mapping ambiguity as a plausible explanation for the exception and makes it unsuitable as a clean identity-discordance marker. It does not prove that every C-bearing read came from the pseudogene. The comparison was limited to two reference transcripts, used exploratory local-alignment scores, excluded soft-clipped sequence, and did not jointly realign mates that did not cover the marker. It is not a genome-wide remapping or calibrated probabilistic assignment. No contamination, sample swap, RNA-editing event or biologic mechanism should be inferred from this result alone.
+
+The inference to retain is that the two datasets show broad internal allele consistency under the selected markers, with one investigated locus affected by homologous-sequence ambiguity. Do not convert 215/216 into a percentage probability that the samples belong to the same patient.
+
+Primary and official context
+
+NCBI lists ZRSR2P1 as a processed pseudogene with ZRSR1 as an alias: https://www.ncbi.nlm.nih.gov/gene/7310
+Ng et al. documented a ZRSR1-related erroneous ZRSR2 variant call in a different sequencing setting; this establishes the known technical pitfall, not this patient's read origins: https://pubmed.ncbi.nlm.nih.gov/28676493/
+
+Reproducibility
+
+independent-audit.py / audit.json preserve all 670 recomputed counts. audit-zrsr2.py / audit-zrsr2.json preserve the local reference comparisons and supporting read evidence. Public reference windows are cached with retrieval URLs. Only generic reference sequence was downloaded; patient reads remained local. No full BAM rescan, additional sequencing assay, or clinical identity test occurred.

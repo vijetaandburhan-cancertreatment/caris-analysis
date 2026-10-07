@@ -1,0 +1,130 @@
+{
+  "status": "PASS with presentation clarifications",
+  "elapsed_seconds": 5.859095096588135,
+  "sequence_context_reconstruction": {
+    "BAP1": {
+      "accession": "NM_004656.3",
+      "deleted_coding_bases": "CCGGTCCCGGC",
+      "first_changed_aa1": 57,
+      "mutant_protein_length": 63,
+      "altered_tail": "KGLYLGG",
+      "context_types_reproduced": [
+        "wt",
+        "mutant"
+      ],
+      "peptides": [
+        {
+          "peptide": "IEERKGLYL",
+          "start_aa1": 53,
+          "end_aa1": 61,
+          "same_position_wildtype": "IEERRSRRK",
+          "remaining_residues_before_stop": "GG"
+        },
+        {
+          "peptide": "EERKGLYL",
+          "start_aa1": 54,
+          "end_aa1": 61,
+          "same_position_wildtype": "EERRSRRK",
+          "remaining_residues_before_stop": "GG"
+        }
+      ]
+    },
+    "RASA1": {
+      "accession": "NM_002890.2",
+      "deleted_coding_bases": "G",
+      "first_changed_aa1": 250,
+      "mutant_protein_length": 251,
+      "altered_tail": "QT",
+      "context_types_reproduced": [
+        "wt",
+        "mutant"
+      ]
+    }
+  },
+  "normal_neighbor_recount": {
+    "implementation": "Unseeded vectorized Hamming distance for every equal-length window in every reference record",
+    "records": 104760,
+    "amino_acid_residues": 40063142,
+    "exact_full_occurrence_multiset_matches": true,
+    "summary": {
+      "IEERKGLYL": {
+        "unique_by_substitution_count": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        },
+        "all_occurrences": 0
+      },
+      "EERKGLYL": {
+        "unique_by_substitution_count": {
+          "0": 0,
+          "1": 0,
+          "2": 24
+        },
+        "all_occurrences": 68
+      }
+    }
+  },
+  "fixed_allele_affinity_summary": {
+    "rows": 56,
+    "allele": "HLA-B*50:01",
+    "cross_table_checks": [
+      {
+        "release": "2.3.0",
+        "peptide": "IEERKGLYL",
+        "relative_difference": 5.5601595086634514e-08
+      },
+      {
+        "release": "2.3.0",
+        "peptide": "EERKGLYL",
+        "relative_difference": 2.1406518062166707e-07
+      },
+      {
+        "release": "2.3.0",
+        "peptide": "IEERRSRRK",
+        "relative_difference": 1.9541690878244538e-07
+      },
+      {
+        "release": "2.2.0",
+        "peptide": "IEERKGLYL",
+        "relative_difference": 3.8832574592695517e-07
+      },
+      {
+        "release": "2.2.0",
+        "peptide": "EERKGLYL",
+        "relative_difference": 2.1666335520362307e-07
+      },
+      {
+        "release": "2.2.0",
+        "peptide": "IEERRSRRK",
+        "relative_difference": 4.51258609676591e-07
+      }
+    ],
+    "new_model_inference_run": false
+  },
+  "clarifications": [
+    {
+      "artifact": "candidate-screen-summary.tsv",
+      "issue": "RNA_alt_fragments is variant-level support, not full peptide-window support. BAP1 254 describes the deletion; focused full-window RNA support is 241 for IEERKGLYL and 245 for EERKGLYL.",
+      "suggestion": "Rename column RNA_variant_alt_fragments or add explicit legend; use focused counts when claiming complete local peptide sequence support."
+    },
+    {
+      "artifact": "candidate-screen-summary.tsv",
+      "issue": "Mutant and wild-type best alleles are selected independently. Their displayed best-affinity values cannot always be used as same-HLA mutation-effect comparisons. The focused BAP1 B*50:01 comparison is correctly allele matched.",
+      "suggestion": "Keep allele labels and explicitly prohibit cross-allele affinity-ratio interpretations."
+    },
+    {
+      "artifact": "bap1-antigen-interpretation.txt",
+      "issue": "Current tumor confirmation is a research development decision and need not automatically mean a new biopsy.",
+      "suggestion": "Prefer existing suitable tumor material where available; any new biopsy remains a clinical decision."
+    }
+  ],
+  "interpretation_limits": [
+    "Same-data independent calculations are computational reproducibility checks, not independent clinical validation.",
+    "Two overlapping peptides are one mutation hypothesis; two MHCflurry model releases are correlated model checks.",
+    "The best predictions were selected after a broader 676-peptide screen and carry no calibrated patient-specific success probability or false-discovery rate.",
+    "Predicted affinity/presentation scores do not establish binding measurements, malignant-cell presentation, immune recognition, response, safety or survival.",
+    "No matched normal establishes somatic status; GENCODE normal-reference absence and Hamming distance do not establish tumor specificity or TCR cross-reactivity.",
+    "RNA supports the local sequence; it does not establish full-length mutant isoform, stable protein, NMD escape rate or HLA retention."
+  ]
+}

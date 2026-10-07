@@ -1,0 +1,208 @@
+{
+  "created_utc": "2026-10-05T04:21:56.564949+00:00",
+  "filters": {
+    "exclude_flags": 3844,
+    "MAPQ_min": 20,
+    "NH_if_present": 1,
+    "base_quality": 20,
+    "exact_reference_junction_anchor_each_side": 12,
+    "exact_haplotype_flank_each_side": 10
+  },
+  "genes": {
+    "BAP1": {
+      "old": {
+        "gene": "BAP1",
+        "qualified_query_name_fragments": 20103,
+        "allele_states": {
+          "uncovered": 19792,
+          "alternate": 246,
+          "other": 12,
+          "reference": 53
+        },
+        "junction_count": 53,
+        "distinct_start_cigar_patterns_not_UMIs": 10324
+      },
+      "new": {
+        "gene": "BAP1",
+        "qualified_query_name_fragments": 20056,
+        "allele_states": {
+          "other": 12,
+          "uncovered": 19746,
+          "alternate": 246,
+          "reference": 52
+        },
+        "junction_count": 55,
+        "distinct_start_cigar_patterns_not_UMIs": 10329
+      },
+      "informative_names_shared": 310,
+      "informative_names_same_state": 310,
+      "old_only": 1,
+      "new_only": 0,
+      "different_state": []
+    },
+    "RASA1": {
+      "old": {
+        "gene": "RASA1",
+        "qualified_query_name_fragments": 1962,
+        "allele_states": {
+          "uncovered": 1836,
+          "alternate": 75,
+          "reference": 46,
+          "other": 5
+        },
+        "junction_count": 31,
+        "distinct_start_cigar_patterns_not_UMIs": 1402
+      },
+      "new": {
+        "gene": "RASA1",
+        "qualified_query_name_fragments": 1949,
+        "allele_states": {
+          "reference": 46,
+          "uncovered": 1838,
+          "alternate": 61,
+          "other": 4
+        },
+        "junction_count": 31,
+        "distinct_start_cigar_patterns_not_UMIs": 1397
+      },
+      "informative_names_shared": 110,
+      "informative_names_same_state": 110,
+      "old_only": 16,
+      "new_only": 1,
+      "different_state": []
+    },
+    "LATS1": {
+      "old": {
+        "gene": "LATS1",
+        "qualified_query_name_fragments": 384,
+        "allele_states": {
+          "uncovered": 378,
+          "alternate": 4,
+          "reference": 2
+        },
+        "junction_count": 7,
+        "distinct_start_cigar_patterns_not_UMIs": 314
+      },
+      "new": {
+        "gene": "LATS1",
+        "qualified_query_name_fragments": 384,
+        "allele_states": {
+          "uncovered": 378,
+          "alternate": 4,
+          "reference": 2
+        },
+        "junction_count": 6,
+        "distinct_start_cigar_patterns_not_UMIs": 314
+      },
+      "informative_names_shared": 6,
+      "informative_names_same_state": 6,
+      "old_only": 0,
+      "new_only": 0,
+      "different_state": []
+    },
+    "LATS2": {
+      "old": {
+        "gene": "LATS2",
+        "qualified_query_name_fragments": 1014,
+        "allele_states": {
+          "uncovered": 1014
+        },
+        "junction_count": 10,
+        "distinct_start_cigar_patterns_not_UMIs": 754
+      },
+      "new": {
+        "gene": "LATS2",
+        "qualified_query_name_fragments": 1010,
+        "allele_states": {
+          "uncovered": 1010
+        },
+        "junction_count": 10,
+        "distinct_start_cigar_patterns_not_UMIs": 750
+      },
+      "informative_names_shared": 0,
+      "informative_names_same_state": 0,
+      "old_only": 0,
+      "new_only": 0,
+      "different_state": []
+    }
+  },
+  "focus_junctions": {
+    "BAP1 lower mutation-exon flank": {
+      "gene": "BAP1",
+      "intron_start0": 52408077,
+      "intron_end0": 52408473,
+      "annotation": "ENST00000296288.9,ENST00000460680.6,ENST00000470173.1,ENST00000483984.5",
+      "old_query_name_fragments": 218,
+      "old_distinct_fragment_alignment_patterns": 139,
+      "old_alternate_linked_pairs": 40,
+      "old_alternate_and_junction_same_read": 28,
+      "new_query_name_fragments": 214,
+      "new_distinct_fragment_alignment_patterns": 137,
+      "new_alternate_linked_pairs": 40,
+      "new_alternate_and_junction_same_read": 28
+    },
+    "BAP1 upper mutation-exon flank": {
+      "gene": "BAP1",
+      "intron_start0": 52408606,
+      "intron_end0": 52409553,
+      "annotation": "ENST00000296288.9,ENST00000460680.6,ENST00000470173.1,ENST00000483984.5",
+      "old_query_name_fragments": 461,
+      "old_distinct_fragment_alignment_patterns": 261,
+      "old_alternate_linked_pairs": 135,
+      "old_alternate_and_junction_same_read": 133,
+      "new_query_name_fragments": 459,
+      "new_distinct_fragment_alignment_patterns": 259,
+      "new_alternate_linked_pairs": 135,
+      "new_alternate_and_junction_same_read": 133
+    },
+    "BAP1 mutation-exon skipping": {
+      "gene": "BAP1",
+      "intron_start0": 52408077,
+      "intron_end0": 52409553,
+      "annotation": "ENST00000490917.1",
+      "old_query_name_fragments": 2,
+      "old_distinct_fragment_alignment_patterns": 2,
+      "old_alternate_linked_pairs": 0,
+      "old_alternate_and_junction_same_read": 0,
+      "new_query_name_fragments": 2,
+      "new_distinct_fragment_alignment_patterns": 2,
+      "new_alternate_linked_pairs": 0,
+      "new_alternate_and_junction_same_read": 0
+    },
+    "LATS1 lower mutation-exon flank": {
+      "gene": "LATS1",
+      "intron_start0": 149684592,
+      "intron_end0": 149695073,
+      "annotation": "ENST00000253339.9,ENST00000392273.7,ENST00000441107.5,ENST00000458696.2,ENST00000542720.1,ENST00000542747.5,ENST00000543571.6",
+      "old_query_name_fragments": 16,
+      "old_distinct_fragment_alignment_patterns": 16,
+      "old_alternate_linked_pairs": 2,
+      "old_alternate_and_junction_same_read": 2,
+      "new_query_name_fragments": 16,
+      "new_distinct_fragment_alignment_patterns": 16,
+      "new_alternate_linked_pairs": 2,
+      "new_alternate_and_junction_same_read": 2
+    },
+    "LATS1 upper mutation-exon flank": {
+      "gene": "LATS1",
+      "intron_start0": 149695221,
+      "intron_end0": 149701778,
+      "annotation": "ENST00000253339.9,ENST00000392273.7,ENST00000542747.5,ENST00000543571.6",
+      "old_query_name_fragments": 4,
+      "old_distinct_fragment_alignment_patterns": 4,
+      "old_alternate_linked_pairs": 2,
+      "old_alternate_and_junction_same_read": 2,
+      "new_query_name_fragments": 4,
+      "new_distinct_fragment_alignment_patterns": 4,
+      "new_alternate_linked_pairs": 2,
+      "new_alternate_and_junction_same_read": 2
+    }
+  },
+  "known_limits": [
+    "Same specimen and underlying read pool; re-alignment agreement is not independent biological replication.",
+    "Raw read-name matching ignores differences in original/new read group labels for this single library.",
+    "Junction counts are descriptive query-name counts, not calibrated isoform fractions or independent molecules.",
+    "LATS2 has no variant assay in this bounded script; no conclusion about its alternate sequence follows from uncovered state.",
+    "BAP1 exon skipping junction is already annotated in GENCODE37 ENST00000490917.1 (nonsense_mediated_decay); it is not novel or proven tumor-specific."
+  ]
+}

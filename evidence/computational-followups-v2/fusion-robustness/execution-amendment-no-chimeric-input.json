@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-05T05:35:56.447214+00:00",
+  "type": "execution-only handling; frozen input and biological parameters unchanged",
+  "initial_halt_evidence": "execution-initial-failure/initial-failure.json",
+  "allowed_terminal_state": "Stock Arriba exit1 with exact ERROR: no split reads or discordant mates found, successful STAR with exact manifest pair count and zero chimeric reads; BAM quickcheck passes, all expected query names seen, no supplementary/SA/different-chromosome mate records; zero STAR junction rows.",
+  "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+  "no_fabricated_outputs": true,
+  "other_errors": "fatal; not generically whitelisted",
+  "application": "Any frozen case satisfying every condition, not only negative controls.",
+  "approvals": [
+    "root message 2026-10-05 about exact diagnostic/zero chimera/valid BAM",
+    "caris_variants_inventory message accepting prospective execution-only amendment"
+  ],
+  "runner_sha256": "0a385fc30f91180e50d282a5b1a48c03ce7d4912d2faf4cdad39c3580a8d0788"
+}

@@ -1,0 +1,22 @@
+{
+  "verified_utc": "2026-10-05T06:08:29.759225+00:00",
+  "documents": [
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/output/pdf/Caris-DNA-RNA-research-handoff-TN26-279853-2026-10-05-v2.pdf",
+      "pages": 1,
+      "bytes": 66625,
+      "sha256": "d1ca641a0235b7b6b09846c7e2b870dea36dbd6e5cf17ca0f4709c3eec784c9d",
+      "text_checks": "pass",
+      "visual_QA": "Every final page was rasterized and visually inspected; readable black/white layout, no clipping or overlapping text."
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/outputs/caris-followup/Caris-followup-findings-2026-10-05-v2.pdf",
+      "pages": 4,
+      "bytes": 13873,
+      "sha256": "0a851414a3235d829ee4a8c7e423feed307c85a5ffdf865ee61011adf3267c03",
+      "text_checks": "pass",
+      "visual_QA": "Every final page was rasterized and visually inspected; readable black/white layout, no clipping or overlapping text."
+    }
+  ],
+  "prior_Oct4_and_original_Oct5_outputs_preserved": true
+}

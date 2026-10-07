@@ -1,0 +1,1275 @@
+{
+  "pairs": [
+    {
+      "pair_id": "P01",
+      "sequence_family": "F06",
+      "caller_named": true,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 59,
+          "Qmin": 37
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 24,
+          "Qmin": 11
+        }
+      ],
+      "read_lengths": [
+        133,
+        133
+      ],
+      "mates_exact_reverse_complements": true,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q09",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 255.0,
+          "query_length": 133,
+          "model_aligned_start0": 203,
+          "model_aligned_end0": 334,
+          "query_aligned_fraction": 0.9849624060150376,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 2
+        },
+        {
+          "mate": 2,
+          "query_id": "Q02",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 255.0,
+          "query_length": 133,
+          "model_aligned_start0": 203,
+          "model_aligned_end0": 334,
+          "query_aligned_fraction": 0.9849624060150376,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 2
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        203,
+        334
+      ],
+      "model_interval_overlap_bp": 131,
+      "aligned_reference_base_overlap_bp": 131
+    },
+    {
+      "pair_id": "P02",
+      "sequence_family": "F03",
+      "caller_named": true,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 58,
+          "Qmin": 37
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 21,
+          "Qmin": 37
+        }
+      ],
+      "read_lengths": [
+        129,
+        129
+      ],
+      "mates_exact_reverse_complements": true,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q03",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 252.0,
+          "query_length": 129,
+          "model_aligned_start0": 204,
+          "model_aligned_end0": 333,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 1,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q07",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 252.0,
+          "query_length": 129,
+          "model_aligned_start0": 204,
+          "model_aligned_end0": 333,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 1,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        204,
+        333
+      ],
+      "model_interval_overlap_bp": 129,
+      "aligned_reference_base_overlap_bp": 129
+    },
+    {
+      "pair_id": "P03",
+      "sequence_family": "F02",
+      "caller_named": true,
+      "Q20_50nt_support": false,
+      "hits": [
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 21,
+          "Qmin": 11
+        }
+      ],
+      "read_lengths": [
+        150,
+        161
+      ],
+      "mates_exact_reverse_complements": false,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q17",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 300.0,
+          "query_length": 150,
+          "model_aligned_start0": 284,
+          "model_aligned_end0": 434,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": false,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q05",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 310.0,
+          "query_length": 161,
+          "model_aligned_start0": 204,
+          "model_aligned_end0": 365,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 2,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        204,
+        434
+      ],
+      "model_interval_overlap_bp": 81,
+      "aligned_reference_base_overlap_bp": 81
+    },
+    {
+      "pair_id": "P04",
+      "sequence_family": "F06",
+      "caller_named": true,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 59,
+          "Qmin": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 24,
+          "Qmin": 37
+        }
+      ],
+      "read_lengths": [
+        133,
+        133
+      ],
+      "mates_exact_reverse_complements": true,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q09",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 255.0,
+          "query_length": 133,
+          "model_aligned_start0": 203,
+          "model_aligned_end0": 334,
+          "query_aligned_fraction": 0.9849624060150376,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 2
+        },
+        {
+          "mate": 2,
+          "query_id": "Q02",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 255.0,
+          "query_length": 133,
+          "model_aligned_start0": 203,
+          "model_aligned_end0": 334,
+          "query_aligned_fraction": 0.9849624060150376,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 2
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        203,
+        334
+      ],
+      "model_interval_overlap_bp": 131,
+      "aligned_reference_base_overlap_bp": 131
+    },
+    {
+      "pair_id": "P05",
+      "sequence_family": "F08",
+      "caller_named": true,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 59,
+          "Qmin": 37
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 19,
+          "Qmin": 37
+        }
+      ],
+      "read_lengths": [
+        128,
+        128
+      ],
+      "mates_exact_reverse_complements": true,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q10",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 250.0,
+          "query_length": 128,
+          "model_aligned_start0": 205,
+          "model_aligned_end0": 334,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q12",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 250.0,
+          "query_length": 128,
+          "model_aligned_start0": 205,
+          "model_aligned_end0": 334,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        205,
+        334
+      ],
+      "model_interval_overlap_bp": 129,
+      "aligned_reference_base_overlap_bp": 128
+    },
+    {
+      "pair_id": "P06",
+      "sequence_family": "F07",
+      "caller_named": true,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 59,
+          "Qmin": 37
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 19,
+          "Qmin": 37
+        }
+      ],
+      "read_lengths": [
+        128,
+        128
+      ],
+      "mates_exact_reverse_complements": false,
+      "mate_sequence_mismatches_same_length": [
+        {
+          "R1_position0": 5,
+          "R1_base": "G",
+          "R1_BQ": 37,
+          "R2_position0": 122,
+          "R2_base_reverse_complemented": "T",
+          "R2_BQ": 11
+        }
+      ],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q10",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 250.0,
+          "query_length": 128,
+          "model_aligned_start0": 205,
+          "model_aligned_end0": 334,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q11",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 244.0,
+          "query_length": 128,
+          "model_aligned_start0": 205,
+          "model_aligned_end0": 334,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 1,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        205,
+        334
+      ],
+      "model_interval_overlap_bp": 129,
+      "aligned_reference_base_overlap_bp": 128
+    },
+    {
+      "pair_id": "P07",
+      "sequence_family": "F01",
+      "caller_named": true,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 7,
+          "Qmin": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 20,
+          "Qmin": 37
+        }
+      ],
+      "read_lengths": [
+        77,
+        77
+      ],
+      "mates_exact_reverse_complements": true,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q01",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 142.0,
+          "query_length": 77,
+          "model_aligned_start0": 205,
+          "model_aligned_end0": 282,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 2,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q13",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 142.0,
+          "query_length": 77,
+          "model_aligned_start0": 205,
+          "model_aligned_end0": 282,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 2,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        205,
+        282
+      ],
+      "model_interval_overlap_bp": 77,
+      "aligned_reference_base_overlap_bp": 77
+    },
+    {
+      "pair_id": "P08",
+      "sequence_family": "F05",
+      "caller_named": true,
+      "Q20_50nt_support": false,
+      "hits": [
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 25,
+          "Qmin": 11
+        }
+      ],
+      "read_lengths": [
+        150,
+        161
+      ],
+      "mates_exact_reverse_complements": false,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q17",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 300.0,
+          "query_length": 150,
+          "model_aligned_start0": 284,
+          "model_aligned_end0": 434,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": false,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q08",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 302.0,
+          "query_length": 161,
+          "model_aligned_start0": 201,
+          "model_aligned_end0": 361,
+          "query_aligned_fraction": 0.9937888198757764,
+          "crosses_join12_each": true,
+          "mismatch_count": 2,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        201,
+        434
+      ],
+      "model_interval_overlap_bp": 77,
+      "aligned_reference_base_overlap_bp": 77
+    },
+    {
+      "pair_id": "P09",
+      "sequence_family": "F01",
+      "caller_named": true,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 7,
+          "Qmin": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 20,
+          "Qmin": 25
+        }
+      ],
+      "read_lengths": [
+        77,
+        77
+      ],
+      "mates_exact_reverse_complements": true,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q01",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 142.0,
+          "query_length": 77,
+          "model_aligned_start0": 205,
+          "model_aligned_end0": 282,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 2,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q13",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 142.0,
+          "query_length": 77,
+          "model_aligned_start0": 205,
+          "model_aligned_end0": 282,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 2,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        205,
+        282
+      ],
+      "model_interval_overlap_bp": 77,
+      "aligned_reference_base_overlap_bp": 77
+    },
+    {
+      "pair_id": "P10",
+      "sequence_family": "F10",
+      "caller_named": true,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 52,
+          "Qmin": 37
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 16,
+          "Qmin": 25
+        }
+      ],
+      "read_lengths": [
+        118,
+        118
+      ],
+      "mates_exact_reverse_complements": true,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q18",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 236.0,
+          "query_length": 118,
+          "model_aligned_start0": 209,
+          "model_aligned_end0": 327,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q16",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 236.0,
+          "query_length": 118,
+          "model_aligned_start0": 209,
+          "model_aligned_end0": 327,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        209,
+        327
+      ],
+      "model_interval_overlap_bp": 118,
+      "aligned_reference_base_overlap_bp": 118
+    },
+    {
+      "pair_id": "P11",
+      "sequence_family": "F10",
+      "caller_named": true,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 52,
+          "Qmin": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 16,
+          "Qmin": 25
+        }
+      ],
+      "read_lengths": [
+        118,
+        118
+      ],
+      "mates_exact_reverse_complements": true,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q18",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 236.0,
+          "query_length": 118,
+          "model_aligned_start0": 209,
+          "model_aligned_end0": 327,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q16",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 236.0,
+          "query_length": 118,
+          "model_aligned_start0": 209,
+          "model_aligned_end0": 327,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        209,
+        327
+      ],
+      "model_interval_overlap_bp": 118,
+      "aligned_reference_base_overlap_bp": 118
+    },
+    {
+      "pair_id": "P12",
+      "sequence_family": "F04",
+      "caller_named": true,
+      "Q20_50nt_support": false,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 58,
+          "Qmin": 11
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 21,
+          "Qmin": 11
+        }
+      ],
+      "read_lengths": [
+        129,
+        129
+      ],
+      "mates_exact_reverse_complements": false,
+      "mate_sequence_mismatches_same_length": [
+        {
+          "R1_position0": 30,
+          "R1_base": "A",
+          "R1_BQ": 37,
+          "R2_position0": 98,
+          "R2_base_reverse_complemented": "T",
+          "R2_BQ": 11
+        }
+      ],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q04",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 246.0,
+          "query_length": 129,
+          "model_aligned_start0": 204,
+          "model_aligned_end0": 333,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 2,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q06",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 240.0,
+          "query_length": 129,
+          "model_aligned_start0": 204,
+          "model_aligned_end0": 333,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 3,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        204,
+        333
+      ],
+      "model_interval_overlap_bp": 129,
+      "aligned_reference_base_overlap_bp": 129
+    },
+    {
+      "pair_id": "P13",
+      "sequence_family": "F01",
+      "caller_named": true,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "-",
+          "start0": 7,
+          "Qmin": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "+",
+          "start0": 20,
+          "Qmin": 37
+        }
+      ],
+      "read_lengths": [
+        77,
+        77
+      ],
+      "mates_exact_reverse_complements": true,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q01",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 142.0,
+          "query_length": 77,
+          "model_aligned_start0": 205,
+          "model_aligned_end0": 282,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 2,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q13",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 142.0,
+          "query_length": 77,
+          "model_aligned_start0": 205,
+          "model_aligned_end0": 282,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 2,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        205,
+        282
+      ],
+      "model_interval_overlap_bp": 77,
+      "aligned_reference_base_overlap_bp": 77
+    },
+    {
+      "pair_id": "P14",
+      "sequence_family": "F09",
+      "caller_named": false,
+      "Q20_50nt_support": true,
+      "hits": [
+        {
+          "mate": 1,
+          "orientation": "+",
+          "start0": 16,
+          "Qmin": 25
+        },
+        {
+          "mate": 2,
+          "orientation": "-",
+          "start0": 24,
+          "Qmin": 37
+        }
+      ],
+      "read_lengths": [
+        90,
+        90
+      ],
+      "mates_exact_reverse_complements": true,
+      "mate_sequence_mismatches_same_length": [],
+      "mate_proposed_maps": [
+        {
+          "mate": 1,
+          "query_id": "Q15",
+          "orientation_to_proposed_RNA": "+",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 180.0,
+          "query_length": 90,
+          "model_aligned_start0": 209,
+          "model_aligned_end0": 299,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        },
+        {
+          "mate": 2,
+          "query_id": "Q14",
+          "orientation_to_proposed_RNA": "-",
+          "model": "proposed_CCND1antisense_HEG1spliced",
+          "score": 180.0,
+          "query_length": 90,
+          "model_aligned_start0": 209,
+          "model_aligned_end0": 299,
+          "query_aligned_fraction": 1.0,
+          "crosses_join12_each": true,
+          "mismatch_count": 0,
+          "terminal_unaligned_bases": 0
+        }
+      ],
+      "opposite_mate_orientations": true,
+      "proposed_RNA_fragment_span": [
+        209,
+        299
+      ],
+      "model_interval_overlap_bp": 90,
+      "aligned_reference_base_overlap_bp": 90
+    }
+  ],
+  "STAR_records": [
+    {
+      "pair_id": "P05",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013489,
+      "segment1_CIGAR": "84M44S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "84S39M5S",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 128,
+      "STAR_scores": [
+        "101",
+        "120",
+        "120",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P07",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013541,
+      "segment1_CIGAR": "32M45S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "32S45M",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 77,
+      "STAR_scores": [
+        "50",
+        "71",
+        "71",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P02",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013490,
+      "segment1_CIGAR": "83M46S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "83S46M",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 129,
+      "STAR_scores": [
+        "100",
+        "124",
+        "124",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P04",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013489,
+      "segment1_CIGAR": "84M49S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "84S47M2S",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 133,
+      "STAR_scores": [
+        "101",
+        "128",
+        "128",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P01",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013489,
+      "segment1_CIGAR": "84M49S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "84S47M2S",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 133,
+      "STAR_scores": [
+        "101",
+        "128",
+        "128",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P13",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013541,
+      "segment1_CIGAR": "32M45S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "32S45M",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 77,
+      "STAR_scores": [
+        "50",
+        "71",
+        "71",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P14",
+      "donor_chr": "chr11",
+      "donor_intronic_pos1": 69651233,
+      "donor_strand": "-",
+      "acceptor_chr": "chr3",
+      "acceptor_intronic_pos1": 125013590,
+      "acceptor_strand": "-",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 69651234,
+      "segment1_CIGAR": "66S24M",
+      "segment2_pos1": 125013524,
+      "segment2_CIGAR": "66M24S",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 90,
+      "STAR_scores": [
+        "66",
+        "87",
+        "87",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P12",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013490,
+      "segment1_CIGAR": "83M46S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "83S46M",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 129,
+      "STAR_scores": [
+        "100",
+        "122",
+        "122",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P08",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013389,
+      "segment1_CIGAR": "184M50S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "184S47M3S",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 234,
+      "STAR_scores": [
+        "201",
+        "226",
+        "226",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P10",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013496,
+      "segment1_CIGAR": "77M41S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "77S41M",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 118,
+      "STAR_scores": [
+        "94",
+        "115",
+        "115",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P11",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013496,
+      "segment1_CIGAR": "77M41S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "77S41M",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 118,
+      "STAR_scores": [
+        "94",
+        "115",
+        "115",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P03",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013389,
+      "segment1_CIGAR": "184M46S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "184S46M",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 230,
+      "STAR_scores": [
+        "201",
+        "223",
+        "223",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P06",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013489,
+      "segment1_CIGAR": "84M44S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "84S39M5S",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 128,
+      "STAR_scores": [
+        "101",
+        "120",
+        "120",
+        "1"
+      ]
+    },
+    {
+      "pair_id": "P09",
+      "donor_chr": "chr3",
+      "donor_intronic_pos1": 125013573,
+      "donor_strand": "+",
+      "acceptor_chr": "chr11",
+      "acceptor_intronic_pos1": 69651216,
+      "acceptor_strand": "+",
+      "junction_type": 0,
+      "repeat_left": 0,
+      "repeat_right": 17,
+      "segment1_pos1": 125013541,
+      "segment1_CIGAR": "32M45S",
+      "segment2_pos1": 69651217,
+      "segment2_CIGAR": "32S45M",
+      "num_chimeric_alignments": 1,
+      "merged_read_length": 77,
+      "STAR_scores": [
+        "50",
+        "71",
+        "71",
+        "1"
+      ]
+    }
+  ],
+  "microhomology": {
+    "method": "Reconstruct same fixed-outer-boundary joined reference sequence while shifting both minus-strand breakpoints together; every delta tested-50..50",
+    "equivalent_shifted_split_deltas": [
+      -17,
+      -16,
+      -15,
+      -14,
+      -13,
+      -12,
+      -11,
+      -10,
+      -9,
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0
+    ],
+    "equivalent_representation_count": 18,
+    "shared_sequence_reassigned": "TCCTCCTCCTCCTCTTC",
+    "shared_length": 17,
+    "original_breakpoints": [
+      "chr11:69651217",
+      "chr3:125013572"
+    ],
+    "coordinate_meaning": "positive delta moves both minus-strand coordinates downward; structural breakpoint is not uniquely localized inside shared sequence"
+  },
+  "summary": {
+    "pairs": 14,
+    "Q20_support_pairs": 11,
+    "Q20_pairs_exact_complementary_mates": 10,
+    "Q20_sequence_families": 7,
+    "Q20_distinct_model_start_end_patterns": 6,
+    "all_distinct_model_start_end_patterns": 8,
+    "all_pairs_opposite_orientation": true
+  },
+  "limits": [
+    "Proposed-RNA geometry is conditional on that hypothesis and is not a genomic DNA insert-size measurement.",
+    "Completely overlapping mates observe the same insert; different read names, sequence families and start/end patterns are not original independent molecules.",
+    "Microhomology can support alternative breakpoint descriptions or template switching; it does not prove library artifact or a biological rearrangement."
+  ]
+}

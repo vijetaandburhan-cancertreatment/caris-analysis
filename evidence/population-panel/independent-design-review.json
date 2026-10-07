@@ -1,0 +1,115 @@
+{
+  "status": "approved_with_pre_execution_tool_qualification",
+  "created_utc": "2026-10-05T06:35:36.906290+00:00",
+  "scope": "Independent review and feasibility notes only; no new patient SNP pileup or large scan executed.",
+  "prior_work": {
+    "old_cross_assay": {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-deep/dna-rna-consistency/audit.txt",
+      "sha256": "34d8b886327f14d1fa9de961bf382f66cf419e9af9a70bf378eb8a5c236196b9",
+      "tested_export_selected_loci": 335,
+      "independently_recomputed_assay_locus_counts": 670,
+      "conditional_eligible_loci": 216,
+      "RNA_same_specified_ALT_at_least_90pct": 215,
+      "selection_bias": "Selected from this DNA VCF with rs/Benign filters and reported ALT fraction>=98%, then further conditioned on DNA high-ALT and both assays depth>=20. Not a population-selected identity panel."
+    },
+    "population_panel": {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/copy-number/public-common-SNP-panel.tsv",
+      "sha256": "16435c85aff7e14589e41ef81e06151d912739ddd0144b1480abd7612f13b0b3",
+      "unique_positions": 165782,
+      "chromosome_counts": {
+        "chr2": 38913,
+        "chr3": 32702,
+        "chr5": 28606,
+        "chr8": 22440,
+        "chr9": 22144,
+        "chr17": 20977
+      },
+      "selection": "Public1000G GRCh38 biallelic PASS SNVs, globalAF0.05-0.95, reference allele checked; exons+100bp, named focal-gene regions and dispersed grid on six selected autosomes. No patient ALT evidence selects sites. SAS_AF recorded but not a selection criterion."
+    },
+    "existing_DNA_only_table": {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/copy-number/public-common-SNP-alleles.annotated.tsv",
+      "sha256": "a311e4b52696c5a413000cf5fec47761619551169f926baa8954d6cfe67f42ed",
+      "observed_rows": 62358,
+      "panel_sites_absent_from_observed_table": 103424,
+      "warning": "This is not the full panel and contains no RNA recount. Add missing public-panel sites as zero observed counts rather than dropping them."
+    },
+    "not_already_done": "Search of relevant analysis scripts, methods and findings found DNA-only public-panel recount/LOH work, and the earlier VCF-selected cross-assay check; no earlier full population-selected DNA/RNA compatibility comparison."
+  },
+  "alignment_inventory": {
+    "DNA": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/DNA_TN26-279853.bam",
+      "bytes": 9325653547,
+      "references": 152,
+      "sort": "coordinate",
+      "read_groups": 1,
+      "programs": [
+        "bwa",
+        "sentieon-Dedup",
+        "sentieon-ReadWriter",
+        "sentieon-sort",
+        "sentieon-Realigner"
+      ],
+      "index": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-analysis/DNA_TN26-279853.bam.bai",
+      "index_opens": true
+    },
+    "RNA": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853.bam",
+      "bytes": 2835547302,
+      "references": 194,
+      "sort": "coordinate",
+      "read_groups": 1,
+      "programs": [
+        "STAR"
+      ],
+      "index": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct1-analysis/RNA_TN26-279853.bam.bai",
+      "index_opens": true
+    },
+    "all_panel_chromosomes_present": true,
+    "new_alignment_limit": "The recent whole-reference STAR run retained only four targeted gene intervals in BAM; it cannot replace the original full RNA BAM for this panel.",
+    "residency": "Both original BAMs presently appear resident regular files outside iCloud. Workspace DNA index was dataless initially but opened successfully; preserve a verified small resident index copy to avoid repeat hydration."
+  },
+  "proposed_design_review": {
+    "universe": "Approve full165782-site universe, all six chromosomes, with public REF and contig-length checks before new RNA allele counts. Save panel hash and no outcome-driven site removals.",
+    "counting": "Approve matched prior DNA rules: MAPQ>=30,BQ>=25,proper pair,exclude0xF0C; disable automatic overlap correction; collapse qualified observations by query name and discard conflicting ACGT observations at that locus. Single RG per assay supports reproducing the existing name-only counter. Report A/C/G/T counts, other/nonACGT, discordant and no-coverage counts; names are not independent UMI molecules. Recount BOTH original DNA and RNA BAMs uncapped with identical rules after installed -d0 semantics are demonstrated; compare new DNA counts against every old observed DNA row, documenting all discrepancies.",
+    "assessability": "Joint >=20 unambiguous ACGT query names is an operational floor, not a precision/power guarantee. Use all ACGT denominator, not REF+ALT renormalization that hides third-base evidence. Excluded/depth-capped/reference-mismatch sites remain in attrition.",
+    "categories": "Symmetric DNA near-reference>=98% and near-alternate>=98%, mixed REF and ALT each>=10% with combined>=95%, and residual category are acceptable descriptive strata. These are observed tumor allele-dominance categories, not validated diploid germline genotypes. Keep all jointly callable categories in the main table.",
+    "RNA_comparison": "Report RNA same DNA-dominant allele at90% and98% separately. Strong triage rule bothdepth>=50, unexpectedRNA>=10% and>=10 names withDNA<=2% is a defensible screening flag. Label allele-fraction discordance, not identity incompatibility. DNA-mixed to RNA-monoallelic is biologically plausible and not an exclusion or mismatch verdict.",
+    "breadth_gate": "Requested floors100 near-homozygous jointly callable sites,20 perreference/alternate category,4chromosomes,20one-Mb bins and30gene labels are acceptable feasibility gates only. Missing a floor means limited breadth; it does not mean a mismatch, and thresholds must not be relaxed to get a favorable conclusion.",
+    "dispersion": "Freeze coordinate-first >=50kb selection independent of observed allele direction or RNA agreement. Report whether it is applied to the full public panel or jointly depth-callable subset; ideally present the full-panel-preselected subset, with callable attrition, as well as a separately labelled depth-conditioned thin subset if useful. Never choose favorable markers. Summarize chromosome, 1Mb bins, nearest-neighbor distances, focal-region strata and actual overlapping gene membership; 50kb does not establish linkage independence.",
+    "gene_breadth": "Count actual nonmissing GENCODE gene IDs with explicit overlap rules; do not count intergenic placeholders or nearest-gene guesses as independent genes. Multiple overlapping gene labels at one SNP should not artificially inflate the breadth gate.",
+    "old_overlap": "Record exact intersection with the earlier335 selected loci; six-autosome panel does not retest the prior chrX ZRSR2/pseudogene exception. DifferentBQ/edge filters mean new counts need not equal the old assay counts.",
+    "independent_recount": "Prefer all joint sites if manageable with coalesced intervals. Otherwise freeze a deterministic300-site control sample balanced across DNA categories/chromosomes/bins plus every strong discordance up to20. Select that validation subset for audit breadth, not as a new discovery denominator; record the cap and deterministic priority before mechanistic follow-up.",
+    "sensitivity": "Direct CIGAR recount on reviewed sites should check no-softclip and>=5nt from both aligned read ends, and mapping-quality/NH sensitivity. Avoid requiring DNA MAPQ60 in RNA: STAR unique alignments commonly use255. Compare unique-mapping tags and thresholds in an aligner-aware way. Nearby indel/splice-boundary reads deserve review at discordant loci.",
+    "homology": "MAPQ/NH is not proof of unique molecular origin. Review paralogs/pseudogenes and normal splice context for discordances; report baseline and qualified counts without silently deleting disagreeing loci. A matching local sequence is not enough to prove originating gene or RNA-editing mechanism."
+  },
+  "cap_handling_refinement": {
+    "issue": "A pileup depth ceiling may be applied before base-quality filtering, so reported qualified depth below the configured maximum alone may not establish that the site was uncapped.",
+    "prior_DNA_limit": 100000,
+    "old_run_context": "The six-chromosome prior DNA mpileup finished in59.0seconds with191MB peakRSS; this is evidence of local feasibility, not a guaranteed RNA runtime or cap safety proof.",
+    "accepted_resolution": "Recount BOTH assays with installed mpileup -d0 only after documenting that it disables the depth cap in this installed implementation. Use an explicit per-process RSS/disk guard. Compare the resulting DNA A/C/G/T, discordant and other counts with all 62358 prior observed rows, and retain zero rows for all other frozen-panel positions. Do not infer absence of old capping from qualified output depth.",
+    "pre_execution_qualification": "Installed help reports the depth option but does not document zero semantics. Before patient counts, retain a small public/synthetic capped-vs-uncapped control or exact installed source evidence confirming -d0, plus argument/parser smoke checks. A control should contain depth above a deliberately small positive cap, overlapping agreeing and conflicting mates, strand reversal, quality filtering and non-ACGT cases; this validates execution, not biological accuracy."
+  },
+  "feasibility": {
+    "new_public_downloads": 0,
+    "new_genome_index": false,
+    "new_alignment": false,
+    "expected_compute": "Two fresh guarded counts, one DNA and one RNA, across the frozen six-chromosome panel. Stream stdout into aggregate counters without saving large raw text. Checkpoint one chromosome to estimate runtime/RSS, then continue under the frozen limits. No realignment, new genome index or new downloads are required.",
+    "resource_plan": "One or two CPU threads; target<2GiBRSS; do not materialize huge uncompressed QNAME pileup files or duplicate BAMs. Save per-site aggregate counts and compressed private evidence only if needed.",
+    "no_large_scan_executed_in_this_review": true
+  },
+  "inference_limits": [
+    "Population-selected sites improve ascertainment but this is still an expression/capture/callability-selected tumor comparison over six targeted chromosomes.",
+    "Linked SNPs, shared reads, chromosome-scale allelic imbalance and common alleles preclude independent-site/binomial assumptions.",
+    "Allele-specific expression, tumor/normal admixture, differential cell composition, transcript-specific expression, sequencing errors and mapping ambiguity can change DNA/RNA fractions without a sample mismatch.",
+    "No chance-match probability, contamination fraction, ancestry, relatedness, tumor-retention claim, clinical identity certification or treatment change is justified.",
+    "Preserve v2 completed artifacts and use only this new analysis directory for follow-up evidence."
+  ],
+  "revised_utc": "2026-10-05T06:38:54.391896+00:00",
+  "approval_conditions": [
+    "Freeze final design/hash and exact inputs before new patient counts.",
+    "Qualify installed uncapped semantics and overlap/parser behavior using public or synthetic data; no patient pilot can substitute for that semantics check.",
+    "Retain all 165782 sites and full assay/callability/category attrition, symmetric REF/ALT strata, and actual-gene breadth.",
+    "Preserve baseline disagreements through clean-read/paralog sensitivity review; no post hoc favorable exclusions.",
+    "Report allele-fraction consistency/discordance only, with no identity probability or contamination estimate."
+  ]
+}

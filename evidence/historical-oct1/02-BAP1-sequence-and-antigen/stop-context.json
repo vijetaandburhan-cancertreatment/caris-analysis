@@ -1,0 +1,80 @@
+{
+  "scope": "Conditional single-edit reference initiation, GENCODE37 selected transcript, splice boundaries shifted by exact indel length. Stop start/end checked against edit. No use of variant position as surrogate for actual new stop.",
+  "results": [
+    {
+      "gene": "BAP1",
+      "transcript": "ENST00000460680.6",
+      "exon_count_including_UTRs": 17,
+      "stop_exon_number_transcript_order": 4,
+      "conditional_stop_codon_mutant_CDS_1based": [
+        190,
+        192
+      ],
+      "conditional_stop_reference_CDS_1based": [
+        201,
+        202,
+        203
+      ],
+      "stop_codon_genome_positions1": [
+        52408528,
+        52408527,
+        52408526
+      ],
+      "distance_stop_end_to_next_downstream_junction_nt": 52,
+      "distance_stop_end_to_final_junction_nt": 1853,
+      "downstream_junction_count": 13,
+      "new_tail_amino_acids": 7,
+      "interpretation": "Descriptive reference-isoform geometry only. Null reference coordinate denotes inserted base. No categorical NMD-escape claim, no NMD efficiency probability, no full-length protein/presentation claim. Actual mutant RNA is observed under separate read analyses."
+    },
+    {
+      "gene": "RASA1",
+      "transcript": "ENST00000274376.11",
+      "exon_count_including_UTRs": 25,
+      "stop_exon_number_transcript_order": 3,
+      "conditional_stop_codon_mutant_CDS_1based": [
+        754,
+        756
+      ],
+      "conditional_stop_reference_CDS_1based": [
+        755,
+        756,
+        757
+      ],
+      "stop_codon_genome_positions1": [
+        87332569,
+        87332570,
+        87332571
+      ],
+      "distance_stop_end_to_next_downstream_junction_nt": 71,
+      "distance_stop_end_to_final_junction_nt": 2303,
+      "downstream_junction_count": 22,
+      "new_tail_amino_acids": 2,
+      "interpretation": "Descriptive reference-isoform geometry only. Null reference coordinate denotes inserted base. No categorical NMD-escape claim, no NMD efficiency probability, no full-length protein/presentation claim. Actual mutant RNA is observed under separate read analyses."
+    },
+    {
+      "gene": "LATS1",
+      "transcript": "ENST00000543571.6",
+      "exon_count_including_UTRs": 8,
+      "stop_exon_number_transcript_order": 3,
+      "conditional_stop_codon_mutant_CDS_1based": [
+        379,
+        381
+      ],
+      "conditional_stop_reference_CDS_1based": [
+        null,
+        379,
+        380
+      ],
+      "stop_codon_genome_positions1": [
+        null,
+        149695191,
+        149695190
+      ],
+      "distance_stop_end_to_next_downstream_junction_nt": 116,
+      "distance_stop_end_to_final_junction_nt": 2503,
+      "downstream_junction_count": 5,
+      "new_tail_amino_acids": 0,
+      "interpretation": "Descriptive reference-isoform geometry only. Null reference coordinate denotes inserted base. No categorical NMD-escape claim, no NMD efficiency probability, no full-length protein/presentation claim. Actual mutant RNA is observed under separate read analyses."
+    }
+  ]
+}

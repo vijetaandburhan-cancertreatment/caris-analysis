@@ -1,0 +1,2765 @@
+{
+  "scope": "same-read/same-query-name paired fragment phase, not chromosome-scale/full-transcript phasing",
+  "filters": "DNA properpair MAPQ>=30 BQ>=25; exclude unmapped/mateunmapped,secondary,supplementary,QCfail,duplicateflags. Exact localdeletion/reference haplotypes and publicreferenceSNP. Discordantmates excluded. Clean requires no softclips and both locus observations>=5ntfromalignedreadends.",
+  "limitations": [
+    "Query-name fragments are not UMI unique molecules.",
+    "Physical linkage does not by itself establish somaticstatus,loss of oppositeallele,proteinfunction,orclinical biallelicinactivation.",
+    "Only fragments coveringbothloci informphase; shortinsert size limitsrepresentativeness."
+  ],
+  "results": [
+    {
+      "flank_bases": 3,
+      "SNP_pos1": 52408338,
+      "SNP_ref": "G",
+      "SNP_alt": "C",
+      "deletion_start0": 52408550,
+      "deletion_end0": 52408561,
+      "joint_fragment_counts": {
+        "G__reference": 9,
+        "C__del11": 21,
+        "C__reference": 7
+      },
+      "joint_clean_fragment_counts": {
+        "G__reference": 8,
+        "C__del11": 19,
+        "C__reference": 6
+      },
+      "marginal_fragment_counts": {
+        "SNP_G_fragments": 30,
+        "SNP_C_fragments": 109,
+        "deletion_reference_fragments": 639,
+        "deletion_del11_fragments": 722,
+        "deletion_other_fragments": 10
+      },
+      "marginal_read_counts": {
+        "SNP_G_reads": 34,
+        "SNP_C_reads": 124,
+        "deletion_del11_reads": 1164,
+        "deletion_reference_reads": 1030,
+        "deletion_other_reads": 18
+      },
+      "joint_fragment_details": [
+        {
+          "fragment_identifier_sha256": "fdcf7fa3bbe863bff066eb2de14eca272ebe4bc72737ed53f41718a1c9a224cc",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408184,
+              52408345,
+              "161M",
+              true,
+              false,
+              401
+            ],
+            [
+              52408424,
+              52408585,
+              "161M",
+              false,
+              true,
+              401
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "a024ac743bc9e545655773a15cac4f6015abd5bb18c568c42a4addb8d8e5caf9",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408222,
+              52408383,
+              "161M",
+              false,
+              false,
+              388
+            ],
+            [
+              52408449,
+              52408610,
+              "161M",
+              true,
+              true,
+              388
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "481e23a17ff7f58cf33d3f31145e2ad26cdb8574ab9aff084ebf4bc1c367b2ed",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408253,
+              52408414,
+              "161M",
+              false,
+              false,
+              360
+            ],
+            [
+              52408441,
+              52408613,
+              "109M11D52M",
+              true,
+              true,
+              360
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "edca94bd2445339a45120db21afb6c5c6d4b94e57812a99a4ee203f99205ce8f",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408268,
+              52408429,
+              "161M",
+              true,
+              false,
+              318
+            ],
+            [
+              52408425,
+              52408586,
+              "161M",
+              false,
+              true,
+              318
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "1a653f2a9f8e93f9205fa5873e7c7b13f845be5304217eb44cd4c051d5d31108",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408268,
+              52408429,
+              "161M",
+              true,
+              false,
+              331
+            ],
+            [
+              52408427,
+              52408599,
+              "123M11D38M",
+              false,
+              true,
+              331
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "b600d199ecc776adc141cf25b2ae71c3fd48f549c014ad5b320970b03f0ede1b",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408270,
+              52408431,
+              "161M",
+              true,
+              false,
+              323
+            ],
+            [
+              52408421,
+              52408593,
+              "129M11D32M",
+              false,
+              true,
+              323
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "0471553327c79d8d9bb362f0ce2ad983413734c6aa696240b2081627ac6100d4",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408270,
+              52408431,
+              "161M",
+              true,
+              false,
+              320
+            ],
+            [
+              52408418,
+              52408590,
+              "132M11D29M",
+              false,
+              true,
+              320
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "90208f6d9c3cfde526342c114e8965896091b2f7fc99d573320d7144b25a9f93",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408270,
+              52408431,
+              "161M",
+              true,
+              false,
+              341
+            ],
+            [
+              52408450,
+              52408611,
+              "161M",
+              false,
+              true,
+              341
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "684064f1cce9873f94001a3ad7654acfdf533f1a8a0dbe2683d96a5762c20a37",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408281,
+              52408442,
+              "161M",
+              false,
+              false,
+              301
+            ],
+            [
+              52408410,
+              52408582,
+              "140M11D21M",
+              true,
+              true,
+              301
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "834879d307aa422ec1995569feb2ecbd8133be8e89937315c66ea0e044ee2c98",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408281,
+              52408442,
+              "161M",
+              false,
+              false,
+              292
+            ],
+            [
+              52408412,
+              52408573,
+              "161M",
+              true,
+              true,
+              292
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "fc27ad88962197bd4645613cfc4b6450e3576bfceeccfbfbef90aefad81171c4",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408291,
+              52408452,
+              "161M",
+              false,
+              false,
+              291
+            ],
+            [
+              52408421,
+              52408582,
+              "161M",
+              true,
+              true,
+              291
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "5134ba37c69c88eee7497936035c9e526b7c31e054f3bce6ab983717d2b1151c",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408291,
+              52408452,
+              "161M",
+              true,
+              false,
+              283
+            ],
+            [
+              52408413,
+              52408574,
+              "161M",
+              false,
+              true,
+              283
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "b24ce7408384e6519ec09f782e22236c9fc7a69350a74c9bb9aaccf2562b09e6",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408297,
+              52408458,
+              "161M",
+              false,
+              false,
+              326
+            ],
+            [
+              52408462,
+              52408623,
+              "161M",
+              true,
+              true,
+              326
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "9b01b6c12124b337981d6ad46a664233e19767006d8aafbe4fe11c72917d1556",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408300,
+              52408461,
+              "161M",
+              true,
+              false,
+              305
+            ],
+            [
+              52408444,
+              52408605,
+              "161M",
+              false,
+              true,
+              305
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "28c50325a1e5b25bf61969dfd50d085d5d2cd53b204ff2a056fe614f88df5249",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408301,
+              52408459,
+              "158M",
+              true,
+              false,
+              291
+            ],
+            [
+              52408420,
+              52408592,
+              "130M11D31M",
+              false,
+              true,
+              291
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "a974fe72e19b4dd243784f49496072f26b284df4d4eaba08e58e7198ec5a6f25",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408302,
+              52408463,
+              "161M",
+              false,
+              false,
+              293
+            ],
+            [
+              52408423,
+              52408595,
+              "127M11D34M",
+              true,
+              true,
+              293
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "c6182b4aa7952a953d6c42abe8869991ce59fd93cab58bd7031eb9e6b94f4972",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408304,
+              52408465,
+              "161M",
+              false,
+              false,
+              363
+            ],
+            [
+              52408495,
+              52408667,
+              "55M11D106M",
+              true,
+              true,
+              363
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "a849aa612b82a08dcfa522f05416e0329a484433b51e8680c63c062fec3c8d8b",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408316,
+              52408477,
+              "161M",
+              false,
+              false,
+              261
+            ],
+            [
+              52408416,
+              52408577,
+              "161M",
+              true,
+              true,
+              261
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "e903ef23043a7f3212f4f2f13f2588ec8a26fc4b6473bc70cbbc2ed8b413024a",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408316,
+              52408477,
+              "161M",
+              false,
+              false,
+              272
+            ],
+            [
+              52408416,
+              52408588,
+              "134M11D27M",
+              true,
+              true,
+              272
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "efd1ac2f9b8f58d554be7531ac5cc3b2d54dde65321a4696106b4a500330255c",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408321,
+              52408482,
+              "161M",
+              false,
+              false,
+              312
+            ],
+            [
+              52408472,
+              52408633,
+              "161M",
+              true,
+              true,
+              312
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "cc137550ddc30d0b692934fdd526db95f4eb09ec3937c8158f7d1bcf09249406",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408323,
+              52408484,
+              "161M",
+              true,
+              false,
+              316
+            ],
+            [
+              52408467,
+              52408639,
+              "83M11D78M",
+              false,
+              true,
+              316
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "693b515c897187f09dee0e484cafac832e22726bb0c0a21656b657a632297437",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408323,
+              52408484,
+              "161M",
+              true,
+              false,
+              288
+            ],
+            [
+              52408439,
+              52408611,
+              "111M11D50M",
+              false,
+              true,
+              288
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "80f8613f3eb28ee90274cff88bb4be3a6e703a021e6c3456aad48c59375c5a9c",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408324,
+              52408485,
+              "161M",
+              true,
+              false,
+              272
+            ],
+            [
+              52408424,
+              52408596,
+              "126M11D35M",
+              false,
+              true,
+              272
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "20959ba59739e52c46f74fbe69e10f715d4459710d9902fdcf4f098e29c7d1e4",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408326,
+              52408484,
+              "158M",
+              true,
+              false,
+              269
+            ],
+            [
+              52408423,
+              52408595,
+              "127M11D34M",
+              false,
+              true,
+              269
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "3231877efc1af185784bc4d7e78449e804d2e294719038f8e5c5a5faf58925d7",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408326,
+              52408484,
+              "158M",
+              false,
+              false,
+              256
+            ],
+            [
+              52408410,
+              52408582,
+              "140M11D21M",
+              true,
+              true,
+              256
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "55c3fe54eb8d04c694c7a993b76d047f4c11a44cca074c5a60e30fc413746010",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408326,
+              52408484,
+              "158M",
+              false,
+              false,
+              362
+            ],
+            [
+              52408516,
+              52408688,
+              "34M11D127M",
+              true,
+              true,
+              362
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "1a9b6c0a211e483d8cc004b60a149a367c57ebd2bc5f9d32234ee74b81845326",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              true,
+              false,
+              254
+            ],
+            [
+              52408410,
+              52408582,
+              "140M11D21M",
+              false,
+              true,
+              254
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "54bc0553cf43d6ff90565d125caacdc31a244ef65cdc8d19aacce947c3fdae40",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              false,
+              false,
+              305
+            ],
+            [
+              52408461,
+              52408633,
+              "89M11D72M",
+              true,
+              true,
+              305
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "283693bfc4dd39a3be64dcfde5791ea49cef32817261c35100da95e91ab85cb1",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              false,
+              false,
+              265
+            ],
+            [
+              52408432,
+              52408593,
+              "161M",
+              true,
+              true,
+              265
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "78ee313f4cba6ea405f23965d00b0b2bf1ff47c29393d626531292c280e52e19",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              false,
+              false,
+              279
+            ],
+            [
+              52408435,
+              52408607,
+              "115M11D46M",
+              true,
+              true,
+              279
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "dfcef0a9f284fde944067650077e6dfa7064529105236466d04b11b1144cfb88",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408329,
+              52408490,
+              "161M",
+              false,
+              false,
+              310
+            ],
+            [
+              52408467,
+              52408639,
+              "83M11D78M",
+              true,
+              true,
+              310
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "91ee9055f91c54dc8fb6b3de4a8a656ae79e5dd00afada29966908e43d909b99",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408331,
+              52408492,
+              "161M",
+              true,
+              false,
+              317
+            ],
+            [
+              52408487,
+              52408648,
+              "161M",
+              false,
+              true,
+              317
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "94346d2035c5136d12f3da4d6216ad62fa3678e7e4b56fff22cfaa1cf617642a",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408332,
+              52408493,
+              "161M",
+              false,
+              false,
+              245
+            ],
+            [
+              52408416,
+              52408577,
+              "161M",
+              true,
+              true,
+              245
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "647c94009d85dc5270be515488aac476e030d0443f6d6270ac5b22f49bda01da",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408333,
+              52408494,
+              "161M",
+              true,
+              false,
+              252
+            ],
+            [
+              52408413,
+              52408585,
+              "137M11D24M",
+              false,
+              true,
+              252
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "d35252062b403e3ef7e1c9aa9f8b683346149d3bcd03d2ae117d9993c7ef42f0",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408335,
+              52408496,
+              "161M",
+              false,
+              false,
+              292
+            ],
+            [
+              52408466,
+              52408627,
+              "161M",
+              true,
+              true,
+              292
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "49e166eb32ac9897a8bfb06c3b53df5df5dcd05da0c5e14018a2b50078e791ad",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408337,
+              52408498,
+              "161M",
+              false,
+              false,
+              346
+            ],
+            [
+              52408522,
+              52408683,
+              "161M",
+              true,
+              true,
+              346
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "5797fedd40b8f48127c642a89a84a2e0377bf6a06027997cb0e001be6adcf4e3",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408337,
+              52408498,
+              "161M",
+              true,
+              false,
+              316
+            ],
+            [
+              52408481,
+              52408653,
+              "69M11D92M",
+              false,
+              true,
+              316
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "flank_bases": 10,
+      "SNP_pos1": 52408338,
+      "SNP_ref": "G",
+      "SNP_alt": "C",
+      "deletion_start0": 52408550,
+      "deletion_end0": 52408561,
+      "joint_fragment_counts": {
+        "G__reference": 9,
+        "C__del11": 21,
+        "C__reference": 7
+      },
+      "joint_clean_fragment_counts": {
+        "G__reference": 8,
+        "C__del11": 19,
+        "C__reference": 4
+      },
+      "marginal_fragment_counts": {
+        "SNP_G_fragments": 30,
+        "SNP_C_fragments": 109,
+        "deletion_reference_fragments": 563,
+        "deletion_del11_fragments": 707,
+        "deletion_other_fragments": 19
+      },
+      "marginal_read_counts": {
+        "SNP_G_reads": 34,
+        "SNP_C_reads": 124,
+        "deletion_del11_reads": 1127,
+        "deletion_reference_reads": 841,
+        "deletion_other_reads": 31
+      },
+      "joint_fragment_details": [
+        {
+          "fragment_identifier_sha256": "fdcf7fa3bbe863bff066eb2de14eca272ebe4bc72737ed53f41718a1c9a224cc",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408184,
+              52408345,
+              "161M",
+              true,
+              false,
+              401
+            ],
+            [
+              52408424,
+              52408585,
+              "161M",
+              false,
+              true,
+              401
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "a024ac743bc9e545655773a15cac4f6015abd5bb18c568c42a4addb8d8e5caf9",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408222,
+              52408383,
+              "161M",
+              false,
+              false,
+              388
+            ],
+            [
+              52408449,
+              52408610,
+              "161M",
+              true,
+              true,
+              388
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "481e23a17ff7f58cf33d3f31145e2ad26cdb8574ab9aff084ebf4bc1c367b2ed",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408253,
+              52408414,
+              "161M",
+              false,
+              false,
+              360
+            ],
+            [
+              52408441,
+              52408613,
+              "109M11D52M",
+              true,
+              true,
+              360
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "edca94bd2445339a45120db21afb6c5c6d4b94e57812a99a4ee203f99205ce8f",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408268,
+              52408429,
+              "161M",
+              true,
+              false,
+              318
+            ],
+            [
+              52408425,
+              52408586,
+              "161M",
+              false,
+              true,
+              318
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "1a653f2a9f8e93f9205fa5873e7c7b13f845be5304217eb44cd4c051d5d31108",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408268,
+              52408429,
+              "161M",
+              true,
+              false,
+              331
+            ],
+            [
+              52408427,
+              52408599,
+              "123M11D38M",
+              false,
+              true,
+              331
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "b600d199ecc776adc141cf25b2ae71c3fd48f549c014ad5b320970b03f0ede1b",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408270,
+              52408431,
+              "161M",
+              true,
+              false,
+              323
+            ],
+            [
+              52408421,
+              52408593,
+              "129M11D32M",
+              false,
+              true,
+              323
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "0471553327c79d8d9bb362f0ce2ad983413734c6aa696240b2081627ac6100d4",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408270,
+              52408431,
+              "161M",
+              true,
+              false,
+              320
+            ],
+            [
+              52408418,
+              52408590,
+              "132M11D29M",
+              false,
+              true,
+              320
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "90208f6d9c3cfde526342c114e8965896091b2f7fc99d573320d7144b25a9f93",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408270,
+              52408431,
+              "161M",
+              true,
+              false,
+              341
+            ],
+            [
+              52408450,
+              52408611,
+              "161M",
+              false,
+              true,
+              341
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "684064f1cce9873f94001a3ad7654acfdf533f1a8a0dbe2683d96a5762c20a37",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408281,
+              52408442,
+              "161M",
+              false,
+              false,
+              301
+            ],
+            [
+              52408410,
+              52408582,
+              "140M11D21M",
+              true,
+              true,
+              301
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "834879d307aa422ec1995569feb2ecbd8133be8e89937315c66ea0e044ee2c98",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408281,
+              52408442,
+              "161M",
+              false,
+              false,
+              292
+            ],
+            [
+              52408412,
+              52408573,
+              "161M",
+              true,
+              true,
+              292
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "fc27ad88962197bd4645613cfc4b6450e3576bfceeccfbfbef90aefad81171c4",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408291,
+              52408452,
+              "161M",
+              false,
+              false,
+              291
+            ],
+            [
+              52408421,
+              52408582,
+              "161M",
+              true,
+              true,
+              291
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "5134ba37c69c88eee7497936035c9e526b7c31e054f3bce6ab983717d2b1151c",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408291,
+              52408452,
+              "161M",
+              true,
+              false,
+              283
+            ],
+            [
+              52408413,
+              52408574,
+              "161M",
+              false,
+              true,
+              283
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "b24ce7408384e6519ec09f782e22236c9fc7a69350a74c9bb9aaccf2562b09e6",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408297,
+              52408458,
+              "161M",
+              false,
+              false,
+              326
+            ],
+            [
+              52408462,
+              52408623,
+              "161M",
+              true,
+              true,
+              326
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "9b01b6c12124b337981d6ad46a664233e19767006d8aafbe4fe11c72917d1556",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408300,
+              52408461,
+              "161M",
+              true,
+              false,
+              305
+            ],
+            [
+              52408444,
+              52408605,
+              "161M",
+              false,
+              true,
+              305
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "28c50325a1e5b25bf61969dfd50d085d5d2cd53b204ff2a056fe614f88df5249",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408301,
+              52408459,
+              "158M",
+              true,
+              false,
+              291
+            ],
+            [
+              52408420,
+              52408592,
+              "130M11D31M",
+              false,
+              true,
+              291
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "a974fe72e19b4dd243784f49496072f26b284df4d4eaba08e58e7198ec5a6f25",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408302,
+              52408463,
+              "161M",
+              false,
+              false,
+              293
+            ],
+            [
+              52408423,
+              52408595,
+              "127M11D34M",
+              true,
+              true,
+              293
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "c6182b4aa7952a953d6c42abe8869991ce59fd93cab58bd7031eb9e6b94f4972",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408304,
+              52408465,
+              "161M",
+              false,
+              false,
+              363
+            ],
+            [
+              52408495,
+              52408667,
+              "55M11D106M",
+              true,
+              true,
+              363
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "a849aa612b82a08dcfa522f05416e0329a484433b51e8680c63c062fec3c8d8b",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408316,
+              52408477,
+              "161M",
+              false,
+              false,
+              261
+            ],
+            [
+              52408416,
+              52408577,
+              "161M",
+              true,
+              true,
+              261
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "e903ef23043a7f3212f4f2f13f2588ec8a26fc4b6473bc70cbbc2ed8b413024a",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408316,
+              52408477,
+              "161M",
+              false,
+              false,
+              272
+            ],
+            [
+              52408416,
+              52408588,
+              "134M11D27M",
+              true,
+              true,
+              272
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "efd1ac2f9b8f58d554be7531ac5cc3b2d54dde65321a4696106b4a500330255c",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408321,
+              52408482,
+              "161M",
+              false,
+              false,
+              312
+            ],
+            [
+              52408472,
+              52408633,
+              "161M",
+              true,
+              true,
+              312
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "cc137550ddc30d0b692934fdd526db95f4eb09ec3937c8158f7d1bcf09249406",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408323,
+              52408484,
+              "161M",
+              true,
+              false,
+              316
+            ],
+            [
+              52408467,
+              52408639,
+              "83M11D78M",
+              false,
+              true,
+              316
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "693b515c897187f09dee0e484cafac832e22726bb0c0a21656b657a632297437",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408323,
+              52408484,
+              "161M",
+              true,
+              false,
+              288
+            ],
+            [
+              52408439,
+              52408611,
+              "111M11D50M",
+              false,
+              true,
+              288
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "80f8613f3eb28ee90274cff88bb4be3a6e703a021e6c3456aad48c59375c5a9c",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408324,
+              52408485,
+              "161M",
+              true,
+              false,
+              272
+            ],
+            [
+              52408424,
+              52408596,
+              "126M11D35M",
+              false,
+              true,
+              272
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "20959ba59739e52c46f74fbe69e10f715d4459710d9902fdcf4f098e29c7d1e4",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408326,
+              52408484,
+              "158M",
+              true,
+              false,
+              269
+            ],
+            [
+              52408423,
+              52408595,
+              "127M11D34M",
+              false,
+              true,
+              269
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "3231877efc1af185784bc4d7e78449e804d2e294719038f8e5c5a5faf58925d7",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408326,
+              52408484,
+              "158M",
+              false,
+              false,
+              256
+            ],
+            [
+              52408410,
+              52408582,
+              "140M11D21M",
+              true,
+              true,
+              256
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "55c3fe54eb8d04c694c7a993b76d047f4c11a44cca074c5a60e30fc413746010",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408326,
+              52408484,
+              "158M",
+              false,
+              false,
+              362
+            ],
+            [
+              52408516,
+              52408688,
+              "34M11D127M",
+              true,
+              true,
+              362
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "1a9b6c0a211e483d8cc004b60a149a367c57ebd2bc5f9d32234ee74b81845326",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              true,
+              false,
+              254
+            ],
+            [
+              52408410,
+              52408582,
+              "140M11D21M",
+              false,
+              true,
+              254
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "54bc0553cf43d6ff90565d125caacdc31a244ef65cdc8d19aacce947c3fdae40",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              false,
+              false,
+              305
+            ],
+            [
+              52408461,
+              52408633,
+              "89M11D72M",
+              true,
+              true,
+              305
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "283693bfc4dd39a3be64dcfde5791ea49cef32817261c35100da95e91ab85cb1",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              false,
+              false,
+              265
+            ],
+            [
+              52408432,
+              52408593,
+              "161M",
+              true,
+              true,
+              265
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "78ee313f4cba6ea405f23965d00b0b2bf1ff47c29393d626531292c280e52e19",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              false,
+              false,
+              279
+            ],
+            [
+              52408435,
+              52408607,
+              "115M11D46M",
+              true,
+              true,
+              279
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "dfcef0a9f284fde944067650077e6dfa7064529105236466d04b11b1144cfb88",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408329,
+              52408490,
+              "161M",
+              false,
+              false,
+              310
+            ],
+            [
+              52408467,
+              52408639,
+              "83M11D78M",
+              true,
+              true,
+              310
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "91ee9055f91c54dc8fb6b3de4a8a656ae79e5dd00afada29966908e43d909b99",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408331,
+              52408492,
+              "161M",
+              true,
+              false,
+              317
+            ],
+            [
+              52408487,
+              52408648,
+              "161M",
+              false,
+              true,
+              317
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "94346d2035c5136d12f3da4d6216ad62fa3678e7e4b56fff22cfaa1cf617642a",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408332,
+              52408493,
+              "161M",
+              false,
+              false,
+              245
+            ],
+            [
+              52408416,
+              52408577,
+              "161M",
+              true,
+              true,
+              245
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "647c94009d85dc5270be515488aac476e030d0443f6d6270ac5b22f49bda01da",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408333,
+              52408494,
+              "161M",
+              true,
+              false,
+              252
+            ],
+            [
+              52408413,
+              52408585,
+              "137M11D24M",
+              false,
+              true,
+              252
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "d35252062b403e3ef7e1c9aa9f8b683346149d3bcd03d2ae117d9993c7ef42f0",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408335,
+              52408496,
+              "161M",
+              false,
+              false,
+              292
+            ],
+            [
+              52408466,
+              52408627,
+              "161M",
+              true,
+              true,
+              292
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "49e166eb32ac9897a8bfb06c3b53df5df5dcd05da0c5e14018a2b50078e791ad",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408337,
+              52408498,
+              "161M",
+              false,
+              false,
+              346
+            ],
+            [
+              52408522,
+              52408683,
+              "161M",
+              true,
+              true,
+              346
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "5797fedd40b8f48127c642a89a84a2e0377bf6a06027997cb0e001be6adcf4e3",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408337,
+              52408498,
+              "161M",
+              true,
+              false,
+              316
+            ],
+            [
+              52408481,
+              52408653,
+              "69M11D92M",
+              false,
+              true,
+              316
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "flank_bases": 20,
+      "SNP_pos1": 52408338,
+      "SNP_ref": "G",
+      "SNP_alt": "C",
+      "deletion_start0": 52408550,
+      "deletion_end0": 52408561,
+      "joint_fragment_counts": {
+        "G__reference": 7,
+        "C__del11": 20,
+        "C__reference": 4,
+        "C__other": 1
+      },
+      "joint_clean_fragment_counts": {
+        "G__reference": 4,
+        "C__del11": 15,
+        "C__reference": 4,
+        "C__other": 1
+      },
+      "marginal_fragment_counts": {
+        "SNP_G_fragments": 30,
+        "SNP_C_fragments": 109,
+        "deletion_reference_fragments": 446,
+        "deletion_del11_fragments": 632,
+        "deletion_other_fragments": 17
+      },
+      "marginal_read_counts": {
+        "SNP_G_reads": 34,
+        "SNP_C_reads": 124,
+        "deletion_del11_reads": 958,
+        "deletion_reference_reads": 584,
+        "deletion_other_reads": 24
+      },
+      "joint_fragment_details": [
+        {
+          "fragment_identifier_sha256": "fdcf7fa3bbe863bff066eb2de14eca272ebe4bc72737ed53f41718a1c9a224cc",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408184,
+              52408345,
+              "161M",
+              true,
+              false,
+              401
+            ],
+            [
+              52408424,
+              52408585,
+              "161M",
+              false,
+              true,
+              401
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "a024ac743bc9e545655773a15cac4f6015abd5bb18c568c42a4addb8d8e5caf9",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408222,
+              52408383,
+              "161M",
+              false,
+              false,
+              388
+            ],
+            [
+              52408449,
+              52408610,
+              "161M",
+              true,
+              true,
+              388
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "481e23a17ff7f58cf33d3f31145e2ad26cdb8574ab9aff084ebf4bc1c367b2ed",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408253,
+              52408414,
+              "161M",
+              false,
+              false,
+              360
+            ],
+            [
+              52408441,
+              52408613,
+              "109M11D52M",
+              true,
+              true,
+              360
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "edca94bd2445339a45120db21afb6c5c6d4b94e57812a99a4ee203f99205ce8f",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408268,
+              52408429,
+              "161M",
+              true,
+              false,
+              318
+            ],
+            [
+              52408425,
+              52408586,
+              "161M",
+              false,
+              true,
+              318
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "1a653f2a9f8e93f9205fa5873e7c7b13f845be5304217eb44cd4c051d5d31108",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408268,
+              52408429,
+              "161M",
+              true,
+              false,
+              331
+            ],
+            [
+              52408427,
+              52408599,
+              "123M11D38M",
+              false,
+              true,
+              331
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "b600d199ecc776adc141cf25b2ae71c3fd48f549c014ad5b320970b03f0ede1b",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408270,
+              52408431,
+              "161M",
+              true,
+              false,
+              323
+            ],
+            [
+              52408421,
+              52408593,
+              "129M11D32M",
+              false,
+              true,
+              323
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "0471553327c79d8d9bb362f0ce2ad983413734c6aa696240b2081627ac6100d4",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408270,
+              52408431,
+              "161M",
+              true,
+              false,
+              320
+            ],
+            [
+              52408418,
+              52408590,
+              "132M11D29M",
+              false,
+              true,
+              320
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "90208f6d9c3cfde526342c114e8965896091b2f7fc99d573320d7144b25a9f93",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408270,
+              52408431,
+              "161M",
+              true,
+              false,
+              341
+            ],
+            [
+              52408450,
+              52408611,
+              "161M",
+              false,
+              true,
+              341
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "684064f1cce9873f94001a3ad7654acfdf533f1a8a0dbe2683d96a5762c20a37",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408281,
+              52408442,
+              "161M",
+              false,
+              false,
+              301
+            ],
+            [
+              52408410,
+              52408582,
+              "140M11D21M",
+              true,
+              true,
+              301
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "fc27ad88962197bd4645613cfc4b6450e3576bfceeccfbfbef90aefad81171c4",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408291,
+              52408452,
+              "161M",
+              false,
+              false,
+              291
+            ],
+            [
+              52408421,
+              52408582,
+              "161M",
+              true,
+              true,
+              291
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "b24ce7408384e6519ec09f782e22236c9fc7a69350a74c9bb9aaccf2562b09e6",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408297,
+              52408458,
+              "161M",
+              false,
+              false,
+              326
+            ],
+            [
+              52408462,
+              52408623,
+              "161M",
+              true,
+              true,
+              326
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "9b01b6c12124b337981d6ad46a664233e19767006d8aafbe4fe11c72917d1556",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408300,
+              52408461,
+              "161M",
+              true,
+              false,
+              305
+            ],
+            [
+              52408444,
+              52408605,
+              "161M",
+              false,
+              true,
+              305
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "28c50325a1e5b25bf61969dfd50d085d5d2cd53b204ff2a056fe614f88df5249",
+          "SNP": "C",
+          "deletion": "other",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408301,
+              52408459,
+              "158M",
+              true,
+              false,
+              291
+            ],
+            [
+              52408420,
+              52408592,
+              "130M11D31M",
+              false,
+              true,
+              291
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "a974fe72e19b4dd243784f49496072f26b284df4d4eaba08e58e7198ec5a6f25",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408302,
+              52408463,
+              "161M",
+              false,
+              false,
+              293
+            ],
+            [
+              52408423,
+              52408595,
+              "127M11D34M",
+              true,
+              true,
+              293
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "c6182b4aa7952a953d6c42abe8869991ce59fd93cab58bd7031eb9e6b94f4972",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408304,
+              52408465,
+              "161M",
+              false,
+              false,
+              363
+            ],
+            [
+              52408495,
+              52408667,
+              "55M11D106M",
+              true,
+              true,
+              363
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "e903ef23043a7f3212f4f2f13f2588ec8a26fc4b6473bc70cbbc2ed8b413024a",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408316,
+              52408477,
+              "161M",
+              false,
+              false,
+              272
+            ],
+            [
+              52408416,
+              52408588,
+              "134M11D27M",
+              true,
+              true,
+              272
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "efd1ac2f9b8f58d554be7531ac5cc3b2d54dde65321a4696106b4a500330255c",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408321,
+              52408482,
+              "161M",
+              false,
+              false,
+              312
+            ],
+            [
+              52408472,
+              52408633,
+              "161M",
+              true,
+              true,
+              312
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "cc137550ddc30d0b692934fdd526db95f4eb09ec3937c8158f7d1bcf09249406",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408323,
+              52408484,
+              "161M",
+              true,
+              false,
+              316
+            ],
+            [
+              52408467,
+              52408639,
+              "83M11D78M",
+              false,
+              true,
+              316
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "693b515c897187f09dee0e484cafac832e22726bb0c0a21656b657a632297437",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408323,
+              52408484,
+              "161M",
+              true,
+              false,
+              288
+            ],
+            [
+              52408439,
+              52408611,
+              "111M11D50M",
+              false,
+              true,
+              288
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "80f8613f3eb28ee90274cff88bb4be3a6e703a021e6c3456aad48c59375c5a9c",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408324,
+              52408485,
+              "161M",
+              true,
+              false,
+              272
+            ],
+            [
+              52408424,
+              52408596,
+              "126M11D35M",
+              false,
+              true,
+              272
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "20959ba59739e52c46f74fbe69e10f715d4459710d9902fdcf4f098e29c7d1e4",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408326,
+              52408484,
+              "158M",
+              true,
+              false,
+              269
+            ],
+            [
+              52408423,
+              52408595,
+              "127M11D34M",
+              false,
+              true,
+              269
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "3231877efc1af185784bc4d7e78449e804d2e294719038f8e5c5a5faf58925d7",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408326,
+              52408484,
+              "158M",
+              false,
+              false,
+              256
+            ],
+            [
+              52408410,
+              52408582,
+              "140M11D21M",
+              true,
+              true,
+              256
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "55c3fe54eb8d04c694c7a993b76d047f4c11a44cca074c5a60e30fc413746010",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408326,
+              52408484,
+              "158M",
+              false,
+              false,
+              362
+            ],
+            [
+              52408516,
+              52408688,
+              "34M11D127M",
+              true,
+              true,
+              362
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "1a9b6c0a211e483d8cc004b60a149a367c57ebd2bc5f9d32234ee74b81845326",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              true,
+              false,
+              254
+            ],
+            [
+              52408410,
+              52408582,
+              "140M11D21M",
+              false,
+              true,
+              254
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "54bc0553cf43d6ff90565d125caacdc31a244ef65cdc8d19aacce947c3fdae40",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              false,
+              false,
+              305
+            ],
+            [
+              52408461,
+              52408633,
+              "89M11D72M",
+              true,
+              true,
+              305
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "283693bfc4dd39a3be64dcfde5791ea49cef32817261c35100da95e91ab85cb1",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              false,
+              false,
+              265
+            ],
+            [
+              52408432,
+              52408593,
+              "161M",
+              true,
+              true,
+              265
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "78ee313f4cba6ea405f23965d00b0b2bf1ff47c29393d626531292c280e52e19",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408328,
+              52408489,
+              "161M",
+              false,
+              false,
+              279
+            ],
+            [
+              52408435,
+              52408607,
+              "115M11D46M",
+              true,
+              true,
+              279
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "dfcef0a9f284fde944067650077e6dfa7064529105236466d04b11b1144cfb88",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408329,
+              52408490,
+              "161M",
+              false,
+              false,
+              310
+            ],
+            [
+              52408467,
+              52408639,
+              "83M11D78M",
+              true,
+              true,
+              310
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "91ee9055f91c54dc8fb6b3de4a8a656ae79e5dd00afada29966908e43d909b99",
+          "SNP": "C",
+          "deletion": "reference",
+          "both_loci_clean": true,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408331,
+              52408492,
+              "161M",
+              true,
+              false,
+              317
+            ],
+            [
+              52408487,
+              52408648,
+              "161M",
+              false,
+              true,
+              317
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "647c94009d85dc5270be515488aac476e030d0443f6d6270ac5b22f49bda01da",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408333,
+              52408494,
+              "161M",
+              true,
+              false,
+              252
+            ],
+            [
+              52408413,
+              52408585,
+              "137M11D24M",
+              false,
+              true,
+              252
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "49e166eb32ac9897a8bfb06c3b53df5df5dcd05da0c5e14018a2b50078e791ad",
+          "SNP": "G",
+          "deletion": "reference",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408337,
+              52408498,
+              "161M",
+              false,
+              false,
+              346
+            ],
+            [
+              52408522,
+              52408683,
+              "161M",
+              true,
+              true,
+              346
+            ]
+          ]
+        },
+        {
+          "fragment_identifier_sha256": "5797fedd40b8f48127c642a89a84a2e0377bf6a06027997cb0e001be6adcf4e3",
+          "SNP": "C",
+          "deletion": "del11",
+          "both_loci_clean": false,
+          "same_read_both_loci": false,
+          "alignment_patterns": [
+            [
+              52408337,
+              52408498,
+              "161M",
+              true,
+              false,
+              316
+            ],
+            [
+              52408481,
+              52408653,
+              "69M11D92M",
+              false,
+              true,
+              316
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

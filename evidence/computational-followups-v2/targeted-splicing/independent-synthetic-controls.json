@@ -1,0 +1,196 @@
+{
+  "checks": [
+    {
+      "name": "equivalent_A_insertion_shift_0",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_insertion_shift_1",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_insertion_shift_2",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_insertion_shift_3",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_insertion_shift_4",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_insertion_shift_5",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_insertion_shift_6",
+      "observed": "other",
+      "expected": "other",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_deletion_shift_0",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_deletion_shift_1",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_deletion_shift_2",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_deletion_shift_3",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "equivalent_A_deletion_shift_4",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "softclip_outside_window_lowBQ_does_not_reject",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "reverse_flag_SAM_oriented_sequence",
+      "observed": "alternate",
+      "expected": "alternate",
+      "pass": true
+    },
+    {
+      "name": "missing_quality_rejected",
+      "observed": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "internal_lowBQ_rejected",
+      "observed": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "unaltered_haplotype_reference",
+      "observed": "reference",
+      "expected": "reference",
+      "pass": true
+    },
+    {
+      "name": "high_quality_neighbor_variant_other",
+      "observed": "other",
+      "expected": "other",
+      "pass": true
+    },
+    {
+      "name": "twelve_base_anchors_and_intron_halfopen_coordinates",
+      "observed": [
+        [
+          112,
+          122
+        ]
+      ],
+      "expected": [
+        [
+          112,
+          122
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "eleven_base_anchor_rejected",
+      "observed": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "name": "softclip_query_offset_junction",
+      "observed": [
+        [
+          112,
+          122
+        ]
+      ],
+      "expected": [
+        [
+          112,
+          122
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "junction_anchor_lowBQ_rejected",
+      "observed": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "name": "junction_anchor_mismatch_rejected",
+      "observed": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "name": "hardclip_does_not_shift_query",
+      "observed": [
+        [
+          112,
+          122
+        ]
+      ],
+      "expected": [
+        [
+          112,
+          122
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "extended_match_CIGAR_supported",
+      "observed": [
+        [
+          112,
+          122
+        ]
+      ],
+      "expected": [
+        [
+          112,
+          122
+        ]
+      ],
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "scope": "Synthetic algorithm controls, not biological or clinical assay validation"
+}

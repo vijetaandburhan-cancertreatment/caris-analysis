@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-01T22:55:14.239002+00:00",
+  "result": "PASS with annotation/protein-label corrections incorporated",
+  "checks": {
+    "54_exact_source_VCF_matches": true,
+    "22_selected_reference_proteins_match_GENCODE37": true,
+    "all_52_coding_single_variant_translations_independently_checked": true,
+    "21_MANE_plus_NTRK3_principal1_label_corrected": true,
+    "FGFR1_misleading_missense_label_removed": true,
+    "17_missense_public_exact_forward_alleles_verified": true,
+    "16_missense_have_global_alt_frequency_at_least_one_percent": true,
+    "ALK_T1151M_rare_population_allele_VUS_not_actionable": true
+  },
+  "public_missense_exact_matches": 17,
+  "public_missense_common_global_frequency_ge01": 16,
+  "remaining_missense": {
+    "gene": "ALK",
+    "protein": "T1151M",
+    "rsid": "rs113994091",
+    "gnomADe_global_observed_alt_frequency": 1.642e-05,
+    "gnomADg_global_observed_alt_frequency": 4.602e-05,
+    "interpretation": "Existing VUS, not established somatic or actionable."
+  },
+  "corrections": [
+    "Scope 21 MANE Select plus NTRK3 APPRIS principal_1",
+    "FGFR1 first-difference S134D removed; source D133dup preserved as in-frame poly-Asp insertion",
+    "ROS1 isoform-dependent protein numbering explicitly distinguished",
+    "No RNA absence inference for POLE unassessable windows",
+    "ALK earlier primary-pipeline recount not mislabeled as independent second implementation"
+  ],
+  "source_sha256": {
+    "screen.py": "caa93aa562e71b38411bd63a864eb32ad6881c0f3ee0df14c3b7b59e3ed08bd7",
+    "screen-results.json": "86c8a8b3b2d60bffba13ba5198b5de6e0ffd1c85a33df4bb6e0cfe5f74b39100",
+    "target-annotation.json": "9f25bf571993d6611149536f909a94c5a79cd072c330ed6010c1d0b13056f15e",
+    "independent-audit.py": "eeb77add69b5278206d87b79f3a3132b1dcd7f663bdf9730940e01d84614baa3",
+    "independent-audit-data.json": "4fc129d20d1537edc56fa2b5e67040b88ec4b11d4c9c8586488eba9e40aa5b5b",
+    "independent-public-audit.py": "10345286110648eb4a0be8e1fca49ff078f273920cfd52e30af2728ca2908b9e",
+    "independent-public-audit.json": "0da9426542f51e7a3b7239146a5a6b5718bf790cbb7d6f20bf7d1210e1364f8b",
+    "audit.txt": "305cd689689b0ad1f06bf3948d073f5d9d7b6703399322fb97731e73030ff085"
+  }
+}

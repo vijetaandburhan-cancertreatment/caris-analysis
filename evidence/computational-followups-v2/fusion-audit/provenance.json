@@ -1,0 +1,254 @@
+{
+  "created_utc": "2026-10-05T04:50:23.568984+00:00",
+  "scope": "Research audit of28 accepted and26 predeclared selected discarded STAR/Arriba hypotheses. No clinical actionability, somatic status, protein expression or tumor-cell identity validated.",
+  "interpreter": "/Users/burhanazeem/.local/share/codex/caris-analysis/bioenv/bin/python",
+  "resident_evidence_directory": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit",
+  "source_fastq_integrity": [
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R1.fastq.gz",
+      "same_size_as_pre_run_hash": true,
+      "same_mtime_as_pre_run_hash": true,
+      "pre_run_SHA256": "e931ccacc7e6ea4e58d3fb33dadb99553cbea54b51252c67c44e283cb27d3bc5"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853_S25.R2.fastq.gz",
+      "same_size_as_pre_run_hash": true,
+      "same_mtime_as_pre_run_hash": true,
+      "pre_run_SHA256": "b03ab626d8f57b71a89b7ba4a5c97fb5f0d0c91ea695492d0564c3644d849300"
+    }
+  ],
+  "source_reverification_file": {
+    "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/input-reverification.json",
+    "bytes": 1269,
+    "sha256": "ac995db9a7878b02684a19a81d5bc5e8fb2c6c53a493aad0c80295b1c112f381"
+  },
+  "source_tsv_integrity": {
+    "fusions.tsv": {
+      "bytes": 64405,
+      "sha256": "50780f808ff486527f21542fd55b010590eaee9e67b8240b67dee14da3b50f3d"
+    },
+    "fusions.discarded.tsv": {
+      "bytes": 190521812,
+      "sha256": "99f0a63f1c7e538a854c3070d4e8b81d8e59dde737dda59ae62cd2f24fdd0e6a"
+    }
+  },
+  "source_run_completion": {
+    "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/patient-D8/completion-summary.json",
+    "bytes": 19894,
+    "sha256": "ffca9bf0558e50a5029a858fea337db84e521e602d90550b698f16c8e40b266e"
+  },
+  "original_selection_script": {
+    "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/inventory_candidates.py",
+    "bytes": 4259,
+    "sha256": "d9374c3818e70d8968a9aaa087044199737a380f80193e3e821c1a38d376f8e2"
+  },
+  "adaptation": "Streaming storage; missing coverage dot parsed as null; selection predicates unchanged. Supplemental markers separately labelled: observed non-template insertion or joined genomic reference hypothesis.",
+  "supplemental_names": "For reference-reconstructed rows, STAR breakends of same genomic directions within25bp; NOT Arriba filtered read_identifiers. Final reviewed columns say source_named accordingly. Legacy supplemental compiler outputs retain caller_named field spelling with this explicit definition.",
+  "raw_pair_counts": {
+    "primary": {
+      "pairs_scanned": 23209264,
+      "selected_pairs": 13495
+    },
+    "supplemental": {
+      "pairs_scanned": 23209264,
+      "selected_pairs": 320
+    }
+  },
+  "checks": {
+    "primary_separate_recount": "passed",
+    "supplemental_separate_recount": "passed",
+    "primary_reference_chunk_control": true,
+    "supplemental_reference_chunk_control": true
+  },
+  "public_positive_control_limit": "Known BCR::ABL1 raw markers lose true-positive support under long/Q30 filters; zero exact count is not an exclusion.",
+  "files": [
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/candidate-reviewed.tsv",
+      "bytes": 410100,
+      "sha256": "16b7bc245c0c885e08ab64ea2c98879e700f289419435f9d8704b8327953c02a"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/candidate-reviewed.json",
+      "bytes": 588862,
+      "sha256": "5fd0e15dbced9abc5bef5d42c125f75c4442082b866bf3b3ac1ab05d7af9bbb4"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/findings.txt",
+      "bytes": 11881,
+      "sha256": "6b243d78f3c5fc4416d970cb801beace399fefe0e568d4055a7889a114c2f4c1"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/independent-DNA-spot-recount.json",
+      "bytes": 2304,
+      "sha256": "92cb31ba56e8dd8e9acb62b15b93722099ad9adffe17cc585b3b15d284cc7c79"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/inventory_candidates_missing_coverage.py",
+      "bytes": 4325,
+      "sha256": "bd63d2e5fde25e22339b907b950af4f5bc6d9cccabc4fba3293790bb8a9007fb"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/audit_junction_reads.py",
+      "bytes": 8339,
+      "sha256": "5a1799c01b0d8d17d2735081fd66a0351396d1be2714523e9e053d7e477946af"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/classify_findings.py",
+      "bytes": 11388,
+      "sha256": "7aa3298c74f7ae0f1982f18e3ea125f9495d075cabf73d93612c341b5a982ce9"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/compile_evidence_table.py",
+      "bytes": 3113,
+      "sha256": "32f7ee3e6ad524c03d49fdbbb8d4c1a011ff78af3b6543c90dade5c4c4101a70"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/audit_reference_ambiguity.py",
+      "bytes": 6189,
+      "sha256": "030799e9735e912713fb213a319375f2972c70e46e8303a74781dd8be077e8ea"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/package_evidence.py",
+      "bytes": 4768,
+      "sha256": "59a7972c43ac401cdc2fcce4151086ca9d4f0333ff89a37dc5c374f94a12fd73"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/accepted_star_diagnostics.py",
+      "bytes": 2589,
+      "sha256": "526f917b42c2ca248f6f8d1b244a8319322ee0c8ff758d366f0f46387aafdec6"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/prepare_supplemental.py",
+      "bytes": 4536,
+      "sha256": "f11606063e09a92f25e3a4228eeaca3e524cc15bed9ea8e20b1c5d021710dfc8"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/independent_DNA_spot_recount.py",
+      "bytes": 3017,
+      "sha256": "b549052c7b202d6cc50738e403ebb6706a8ee837009e39c6d9893a091dcae639"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/independent_recount.py",
+      "bytes": 3079,
+      "sha256": "584f5efce6c4ccc1ad5172e5cb1425af68b7e4451de0ba5337701d39e5ede437"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/normal_locus_context.py",
+      "bytes": 1754,
+      "sha256": "f6ffbdb940816bde6fb76d1f90efefc7ab21c507fd5865cce0d937b4113417a7"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/stream_inventory.py",
+      "bytes": 2141,
+      "sha256": "c675029051a50a4892cdb10833d661f9ccfee2242cde57173e6a5f87a4c9ef55"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/independent-warning-output-audit.json",
+      "bytes": 3845,
+      "sha256": "0de660212cecacb1c5adb5f6e9810234f46e207ab7773c5045c603b571f9efc4"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/independent_warning_output_audit.py",
+      "bytes": 5161,
+      "sha256": "663862424679b1eb34c6c3acb2b3239e89adab461e759c788a4f297ce38a8b31"
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/append_warning_addendum.py",
+      "bytes": 3922,
+      "sha256": "150f1507ebcad754ffd2f52d8b1551ec66ff599079b3cbd68f45ee26e4b40c35"
+    }
+  ],
+  "full_resident_evidence_files": [
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/patient-inventory/all-triaged-candidates.jsonl.gz",
+      "bytes": 85409971,
+      "sha256": "f162729409d03591477a4d4f64b38aca1901d58cebe1f3ee2ec59e29399fa556"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/patient-inventory/review-candidates.json",
+      "bytes": 179310,
+      "sha256": "47c07eadb62674f772184aaea38a426624d33797c6acedfdc618a61582047d10"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/supplemental-inventory/review-candidates.json",
+      "bytes": 186528,
+      "sha256": "5c3d143f41e1482f07a185ccec24e337c14f3dc90899583129cc0dafa0f7810b"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/patient/junction-read-audit.json",
+      "bytes": 566560,
+      "sha256": "b0e15922aecb15b9b27d52aff244a7e8c5c2d114355dd76db1c4c50bc859967e"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/supplemental/junction-read-audit.json",
+      "bytes": 334293,
+      "sha256": "b1c0cf457ad1ea9bb04ff1c047412bb5eefa0e2f17a9fdceb410d4880f82e94c"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/patient-reference/reference-ambiguity.json",
+      "bytes": 1208412,
+      "sha256": "72cb8aeb3458e609afd5e319e7f89a7be9fa23b57c27b03883006e55dab86540"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/supplemental-reference/reference-ambiguity.json",
+      "bytes": 542901,
+      "sha256": "9e2285df72814775013d97d6d823283e31805fa56b20b721cdc1ee3852c0b069"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/patient/audit-selected.R1.fastq.gz",
+      "bytes": 646334,
+      "sha256": "8c35c15447670912badaeacf65d150720c17793c339ad8659a9bac82031a6b7e"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/patient/audit-selected.R2.fastq.gz",
+      "bytes": 690169,
+      "sha256": "da46ecc58e35714d97a7a2a2080c03b7fec29e9fe4249f9ad4fa4493addb64a5"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/supplemental/audit-selected.R1.fastq.gz",
+      "bytes": 14578,
+      "sha256": "b1daa6dd5c7c9300331503b86becf0c4f7fb806b1b1fcbb0fae054989d6752d1"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-fusion-read-audit/supplemental/audit-selected.R2.fastq.gz",
+      "bytes": 15535,
+      "sha256": "09de3d045e2e0af44ec2c9adfb66bed78eb4ae16daa32a84ce7ec609a46a3a70"
+    }
+  ],
+  "originals_modified": false,
+  "external_patient_data_submission_by_this_branch": false,
+  "incremental_paid_cost_USD": 0,
+  "bounded_DNA_source_prior_full_verification": {
+    "name": "DNA_TN26-279853.bam",
+    "started_at": "2026-10-01T19:34:47.376326+00:00",
+    "source": {
+      "crc64nvme": "+MUNcDUcmjM=",
+      "checksum_type": "FULL_OBJECT",
+      "size_bytes": null,
+      "etag": "df12a13738f1586d59092beadebdac69-1112",
+      "etag_is_md5": false,
+      "md5": null,
+      "sha256": null
+    },
+    "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/DNA_TN26-279853.bam",
+    "size_bytes": 9325653547,
+    "calculated": {
+      "crc64nvme": "+MUNcDUcmjM=",
+      "sha256": "7bb970e30fc4420dbfb7c8b3fd3dd916dc379641ea9dde687bfc49d1ef46d7cb",
+      "md5": "876e6bd94c7ea30e3a95ab725c1a3cc8"
+    },
+    "checks": {
+      "file_unchanged_during_read": true,
+      "crc64nvme_matches": true
+    },
+    "status": "verified",
+    "finished_at": "2026-10-01T19:35:12.677046+00:00"
+  },
+  "bounded_DNA_expected_count_source": {
+    "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/genome-fusion/read-level-audit/independent-priority-review/bounded-DNA-details.json",
+    "bytes": 7881,
+    "sha256": "03a2856bedf91d76ceb879db22344fd15dc5ca18deef6381d263dce4e60163d5"
+  },
+  "verified_warning_addendum_utc": "2026-10-05T05:03:00.875775+00:00",
+  "verified_warning_addendum": "Accepted byte-identical; discarded field-equivalent except3 equal-distance gene1 ordering changes;103932mixed-unit rejection counter independently reproduced; no filtering-sensitivity assurance."
+}

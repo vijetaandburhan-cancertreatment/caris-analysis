@@ -1,0 +1,203 @@
+{
+  "status": "approved",
+  "manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "reviewed_utc": "2026-10-05T05:31:25.540259+00:00",
+  "reviewer": "independent subagent caris_variants_inventory",
+  "audit_script_sha256": "ca223cb12ca3d5d9984dc195c1aa833edae175305172ea5139fe8f9255c52bd6",
+  "scope": "Pre-execution public-data study only; no new patient analysis or clinical validity claim.",
+  "independent_methods": [
+    "Separate stdlib FASTQ parser and paired EOF/name/sequence/quality checks.",
+    "Independent GTF parsing and explicit genomic-base-to-transcript coordinate map.",
+    "Four-seed pigeonhole enumeration of every <=3-mismatch ungapped placement, separate from owner numpy window distances.",
+    "Literal independent reconstruction of all parental fragments and trim intervals."
+  ],
+  "reference_cuts": {
+    "BCR": 3234,
+    "ABL1": 1440
+  },
+  "fusion_sha256": "27174e1cdf39a86c1293bdceea67f2673c23f086b5693f1dd20a064c93195638",
+  "source_pairs": 40,
+  "eligible_pairs": 13,
+  "mates_with_at_most_3_mismatches_checked": 77,
+  "eligible_names": [
+    "BCR-ABL1-76",
+    "BCR-ABL1-74",
+    "BCR-ABL1-66",
+    "BCR-ABL1-60",
+    "BCR-ABL1-58",
+    "BCR-ABL1-54",
+    "BCR-ABL1-28",
+    "BCR-ABL1-24",
+    "BCR-ABL1-18",
+    "BCR-ABL1-12",
+    "BCR-ABL1-10",
+    "BCR-ABL1-4",
+    "BCR-ABL1-2"
+  ],
+  "strong_names": [
+    "BCR-ABL1-12",
+    "BCR-ABL1-66",
+    "BCR-ABL1-24",
+    "BCR-ABL1-74"
+  ],
+  "shortest_anchor_name": "BCR-ABL1-54",
+  "parental_negative_marker_names": {
+    "15": [],
+    "20": [],
+    "25": []
+  },
+  "datasets": [
+    {
+      "dataset": "parental_zero",
+      "pairs": 32,
+      "unique_names": 32,
+      "unique_full_sequence_pairs": 32,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "fixture_all40",
+      "pairs": 40,
+      "unique_names": 40,
+      "unique_full_sequence_pairs": 40,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_01_selection_1",
+      "pairs": 33,
+      "unique_names": 33,
+      "unique_full_sequence_pairs": 33,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_01_selection_2",
+      "pairs": 33,
+      "unique_names": 33,
+      "unique_full_sequence_pairs": 33,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_01_selection_3",
+      "pairs": 33,
+      "unique_names": 33,
+      "unique_full_sequence_pairs": 33,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_02_selection_1",
+      "pairs": 34,
+      "unique_names": 34,
+      "unique_full_sequence_pairs": 34,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_02_selection_2",
+      "pairs": 34,
+      "unique_names": 34,
+      "unique_full_sequence_pairs": 34,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_02_selection_3",
+      "pairs": 34,
+      "unique_names": 34,
+      "unique_full_sequence_pairs": 34,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_03_selection_1",
+      "pairs": 35,
+      "unique_names": 35,
+      "unique_full_sequence_pairs": 35,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_03_selection_2",
+      "pairs": 35,
+      "unique_names": 35,
+      "unique_full_sequence_pairs": 35,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_03_selection_3",
+      "pairs": 35,
+      "unique_names": 35,
+      "unique_full_sequence_pairs": 35,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_05_selection_1",
+      "pairs": 37,
+      "unique_names": 37,
+      "unique_full_sequence_pairs": 37,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_05_selection_2",
+      "pairs": 37,
+      "unique_names": 37,
+      "unique_full_sequence_pairs": 37,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_05_selection_3",
+      "pairs": 37,
+      "unique_names": 37,
+      "unique_full_sequence_pairs": 37,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "support_all",
+      "pairs": 45,
+      "unique_names": 45,
+      "unique_full_sequence_pairs": 45,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "shortest_anchor",
+      "pairs": 33,
+      "unique_names": 33,
+      "unique_full_sequence_pairs": 33,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "strong_original",
+      "pairs": 36,
+      "unique_names": 36,
+      "unique_full_sequence_pairs": 36,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "strong_trim_anchor12",
+      "pairs": 36,
+      "unique_names": 36,
+      "unique_full_sequence_pairs": 36,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "strong_trim_anchor20",
+      "pairs": 36,
+      "unique_names": 36,
+      "unique_full_sequence_pairs": 36,
+      "literal_sequence_and_quality_comparison": "PASS"
+    },
+    {
+      "dataset": "strong_trim_anchor30",
+      "pairs": 36,
+      "unique_names": 36,
+      "unique_full_sequence_pairs": 36,
+      "literal_sequence_and_quality_comparison": "PASS"
+    }
+  ],
+  "runner_review": "Exact manifest/input hash gate; same STAR COMMON and stock Arriba filters; -k removed only in the prespecified no-prior run while -t retained; sequential runs, resource guards and preserved logs.",
+  "limitations": [
+    "Subsets overlap and are not independent biological replicates.",
+    "Thirteen eligible pairs define a selected public fixture pool, not every possible true fusion read.",
+    "No duplicate pair-name or full-sequence inflation within any dataset; source names recur across planned comparisons.",
+    "Compact reference omits competitors; only four small full-D8 comparisons, with no full-D1 counterpart.",
+    "Trimming changes length and mate geometry as well as anchor size; those effects cannot be isolated.",
+    "Thirty-two synthetic normal-parent fragments are an execution negative control, not a transcriptome-wide specificity benchmark.",
+    "Known-fusion recovery prior stays enabled except one planned comparison; do not extrapolate discovery sensitivity from BCR::ABL1.",
+    "Stale nonmaterial manifest prose says three full-reference cases; actual v1.1 list and runner have four, as reviewed here.",
+    "No clinical sensitivity percentage, limit of detection or patient fusion-negative conclusion is supported."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "CAPTURE_STREAM_EOF",
+  "counts": {
+    "input_records": 7,
+    "captured_records": 4,
+    "named_records": 3,
+    "cohort_overlap_records": 2,
+    "both_records": 1
+  },
+  "frozen_exception_names": 1,
+  "exception_names_seen": 1,
+  "missing_exception_names": [],
+  "named_record_flags": {
+    "2048": 1,
+    "4": 1,
+    "256": 1
+  },
+  "named_record_locations": {
+    "chr2": 1,
+    "unmapped": 1,
+    "chr1": 1
+  },
+  "elapsed_seconds": 0.03073287010192871,
+  "output_bytes": 253,
+  "selection": "OR of fixed SNP M/=/X base overlap and exact frozen QNAME. No MAPQ/BQ/flag filtering at capture; all emitted records for named reads across all locations retained. Not all possible alignments.",
+  "bam_header": "Preserved in BAM"
+}

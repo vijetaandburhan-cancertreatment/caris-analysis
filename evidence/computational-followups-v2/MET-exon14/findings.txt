@@ -1,0 +1,28 @@
+MET exon14-skipping check — completed5 October2026
+
+No canonical MET exon14-skipping junction was detected in this specimen by the bounded research checks below. Normal exon14 inclusion junctions were readily detected. This result does not exclude all MET alterations, a very low-abundance transcript, or an alternative/sequence-mismatched junction, and does not establish drug eligibility.
+
+Definition independently confirmed
+GENCODE37 MANE Select transcript ENST00000397752.8 (MET-202), chr7 plus strand: exon14 is [116771848,116771989) in0-based half-open GRCh38 coordinates, or chr7:116771849-116771989 in1-based closed notation. It is141bp, entirely coding. The tested skip joins exon13 to exon15 across [116771654,116774880), a3226bp genomic intron interval. It is not a claim of a141bp genomic deletion.
+
+Observed evidence
+Junction                 Original strict RNA names    New STAR unique reads    Raw30nt pairs    Raw50nt pairs
+Exon13 to14              88                           106                      76               60
+Exon14 to15              87                           96                       79               65
+Exon13 to15(skip14)       0                            no reported row          0                0
+
+The original-BAM count requires primary/nonduplicate/non-QCfail alignments, MAPQ>=20, NH1 if present, and12 reference-exact bases with BQ>=20 immediately on each side of the splice. Counts collapse query names; name+read-group counts agree. The independent CIGAR walker reproduced the complete query-name sets. New STAR.SJ values are aligner read counts with a different definition, so old/new numbers are not directly comparable as abundance or longitudinal change.
+
+The alignment-independent pass scanned all23,209,264 paired raw RNA reads. It tested15+15nt(30nt total) and25+25nt(50nt total) exact junction markers in either mate/orientation, with BQ>=20 at every marker base, counting each pair once per marker length. Normal inclusion markers provide positive specimen evidence; the skip marker returned0 at both lengths. Short/exact markers have their own specificity and sensitivity limits and are not a clinical diagnostic assay. This independent reviewer inspected the raw scanner logic and prior whole-file pairing proof, but did not repeat that300-second whole-FASTQ scan.
+
+Validation and provenance
+Direct independent GTF parsing verified exon numbering, MANE tag and both coordinate conventions. Nine synthetic CIGAR controls passed, including a reference-derived50M3226N50M skip-positive read, a reverse-flagged positive, and seven negative filter/anchor controls. The separate raw scanner's exact/reverse/low-quality/overlapping-pattern controls passed. These validate computational operations, not clinical assay sensitivity.
+
+The original executed raw scan script is preserved verbatim as raw_exact_check.executed.py. In raw_exact_check.py only an inactive, always-true assertion and its adjacent comment were removed after execution. AST comparison confirms equivalence after dropping that no-op assertion; no inputs, results or counts changed, and all four existing annotation/result JSON hashes remained identical. The edited source was not represented as the exact executed file.
+
+input-provenance.json records the original FASTQ SHA256 values and the prior independent full-file pair-name/quality-length/EOF validation. provenance.json distinguishes executed and cleaned source hashes. Independent audit/code/results and checksum/mirror-verification files accompany this summary. No original sequencing file was modified.
+
+Clinical interpretation limit
+This is a focused research negative for the canonical exon13-to15 junction. It neither rules out every MET abnormality nor creates a new treatment recommendation. Even a low-level splice signal alone would require context, orthogonal confirmation and clinical molecular interpretation before treating it as a pathogenic genomic event.
+
+Primary research motivation: https://pubmed.ncbi.nlm.nih.gov/28522754/

@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "reviewed_utc": "2026-10-05T05:37:28.777896+00:00",
+  "scope": "Execution-only handling of a prespecified stock caller no-input terminal state; no changes to reads, reference selection, filters, or biological claim.",
+  "manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "amendment_sha256": "6169b6f5803991e97f428a5ea742bbe328aefda1a5a0e84282176ddf50ae8836",
+  "runner_sha256": "0a385fc30f91180e50d282a5b1a48c03ce7d4912d2faf4cdad39c3580a8d0788",
+  "initial_parental_control_independently_verified": {
+    "query_names": 32,
+    "records": 64,
+    "supplementary": 0,
+    "secondary": 0,
+    "unmapped": 0,
+    "improper": 0,
+    "SA_tags": 0,
+    "different_mate_chromosome": 0,
+    "STAR_chimeric_reads": 0,
+    "stock_caller_diagnostic": "ERROR: no split reads or discordant mates found"
+  },
+  "review": "Exact stock Arriba exit1+message, completed STAR input count, zero junctions, valid BAM and exact query-name inventory are required; all other errors remain fatal. Applied to any eligible frozen case without selecting by dataset label. No call table is fabricated. Parent no-input control is not a clinical true-negative or sensitivity statement."
+}

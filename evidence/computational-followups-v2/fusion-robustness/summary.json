@@ -1,0 +1,253 @@
+{
+  "created_utc": "2026-10-05T06:10:11.459818+00:00",
+  "design_manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "results_sha256": "1a1e41b3f14551a8e4c22922d23d960d8a29a20693ef4b689f664ff799ad281a",
+  "planned_cases_completed": 45,
+  "ordinary_caller_table_cases": 38,
+  "explicit_no_chimeric_input_exit1_cases": 7,
+  "compact_matched_condition_labels": 20,
+  "unique_paired_input_sets": 19,
+  "duplicate_input_labels": [
+    [
+      "support_01_selection_3",
+      "shortest_anchor"
+    ]
+  ],
+  "compact_accepted_decision_agrees_in_all_conditions": true,
+  "sparseD8_support_loss_cases": [
+    {
+      "dataset": "fixture_all40",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_03_selection_1",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_05_selection_1",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_all",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "Arriba_names_only_D8": []
+    }
+  ],
+  "paired_read_trimming": [
+    {
+      "setting": "compactD1",
+      "condition_individual_read_anchor_cap": 12,
+      "untrimmed_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "trimmed_support_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "lost_support_names": [
+        "BCR-ABL1-12"
+      ],
+      "interpretation": "Paired-read trimming condition. Complementary mates can merge and restore long effective anchors; no universal anchor threshold inferred."
+    },
+    {
+      "setting": "compactD1",
+      "condition_individual_read_anchor_cap": 20,
+      "untrimmed_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "trimmed_support_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "lost_support_names": [
+        "BCR-ABL1-12"
+      ],
+      "interpretation": "Paired-read trimming condition. Complementary mates can merge and restore long effective anchors; no universal anchor threshold inferred."
+    },
+    {
+      "setting": "compactD1",
+      "condition_individual_read_anchor_cap": 30,
+      "untrimmed_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "trimmed_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "lost_support_names": [],
+      "interpretation": "Paired-read trimming condition. Complementary mates can merge and restore long effective anchors; no universal anchor threshold inferred."
+    },
+    {
+      "setting": "compactD8",
+      "condition_individual_read_anchor_cap": 12,
+      "untrimmed_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "trimmed_support_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "lost_support_names": [
+        "BCR-ABL1-12"
+      ],
+      "interpretation": "Paired-read trimming condition. Complementary mates can merge and restore long effective anchors; no universal anchor threshold inferred."
+    },
+    {
+      "setting": "compactD8",
+      "condition_individual_read_anchor_cap": 20,
+      "untrimmed_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "trimmed_support_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "lost_support_names": [
+        "BCR-ABL1-12"
+      ],
+      "interpretation": "Paired-read trimming condition. Complementary mates can merge and restore long effective anchors; no universal anchor threshold inferred."
+    },
+    {
+      "setting": "compactD8",
+      "condition_individual_read_anchor_cap": 30,
+      "untrimmed_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "trimmed_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "lost_support_names": [],
+      "interpretation": "Paired-read trimming condition. Complementary mates can merge and restore long effective anchors; no universal anchor threshold inferred."
+    },
+    {
+      "setting": "fullD8",
+      "condition_individual_read_anchor_cap": 12,
+      "untrimmed_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "trimmed_support_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "lost_support_names": [
+        "BCR-ABL1-12"
+      ],
+      "interpretation": "Paired-read trimming condition. Complementary mates can merge and restore long effective anchors; no universal anchor threshold inferred."
+    }
+  ],
+  "all13_source_pairs_comparison": {
+    "input_pairs_each": 45,
+    "normal_parent_pairs": 32,
+    "source_pairs": 13,
+    "compactD1_support_names": [
+      "BCR-ABL1-10",
+      "BCR-ABL1-12",
+      "BCR-ABL1-2",
+      "BCR-ABL1-24",
+      "BCR-ABL1-28",
+      "BCR-ABL1-4",
+      "BCR-ABL1-58",
+      "BCR-ABL1-60",
+      "BCR-ABL1-66",
+      "BCR-ABL1-76"
+    ],
+    "compactD8_support_names": [
+      "BCR-ABL1-10",
+      "BCR-ABL1-12",
+      "BCR-ABL1-2",
+      "BCR-ABL1-24",
+      "BCR-ABL1-4",
+      "BCR-ABL1-58",
+      "BCR-ABL1-60",
+      "BCR-ABL1-66",
+      "BCR-ABL1-76"
+    ],
+    "fullD8_support_names": [
+      "BCR-ABL1-10",
+      "BCR-ABL1-12",
+      "BCR-ABL1-18",
+      "BCR-ABL1-2",
+      "BCR-ABL1-24",
+      "BCR-ABL1-4",
+      "BCR-ABL1-58",
+      "BCR-ABL1-60",
+      "BCR-ABL1-66",
+      "BCR-ABL1-76"
+    ],
+    "fullD8_vs_compactD1_lost": [
+      "BCR-ABL1-28"
+    ],
+    "fullD8_vs_compactD1_gained": [
+      "BCR-ABL1-18"
+    ]
+  },
+  "no_known_recovery_check": {
+    "source_pair": "BCR-ABL1-4",
+    "with_k": [
+      "in_vitro"
+    ],
+    "without_k": [
+      "in_vitro"
+    ],
+    "scope": "One predeclared case; candidate-level filter, no general conclusion about importance of known-fusion priors."
+  },
+  "main_limitations": [
+    "Twenty condition labels are nineteen unique inputs, not independent biological replicates.",
+    "Small32-parent background cannot calibrate confidence/e-values, patient-library abundance, clinical sensitivity, specificity or detection limits.",
+    "Compact reference omits competing loci; no full-reference D1/D8 comparison was performed.",
+    "Paired-read trimming can leave long effective merged-fragment anchors; the nominal cap is not a validated fragment-level threshold.",
+    "No patient rerun, clinical reclassification or new treatment target is established."
+  ]
+}

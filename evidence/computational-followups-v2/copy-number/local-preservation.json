@@ -1,0 +1,939 @@
+{
+  "created_UTC": "2026-10-05T02:14:16.329192+00:00",
+  "source_directory": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/copy-number",
+  "non_iCloud_directory": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number",
+  "public_references": "omitted_to_conserve_space; cached publicly reproducible references with originalmanifest",
+  "files": [
+    {
+      "relative_path": "BAP1-SNP-frameshift-fragment-phase.json",
+      "bytes": 69570,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/BAP1-SNP-frameshift-fragment-phase.json",
+      "sha256": "74e9392cef1165a7f848750448e0327f21faef3519472c0656366c5da7c53307"
+    },
+    {
+      "relative_path": "BAP1-SNP-phase-independent-audit.json",
+      "bytes": 71048,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/BAP1-SNP-phase-independent-audit.json",
+      "sha256": "53245d30e2eaddeb4c3257c47d7761f2ca970cd4bd508738fa978db0950dc8af"
+    },
+    {
+      "relative_path": "BAP1-SNP-phase-independent-audit.txt",
+      "bytes": 2707,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/BAP1-SNP-phase-independent-audit.txt",
+      "sha256": "27dd42a041bd65fdd579ffd6cfcf3ee6fa48a92468b8f6e29dd8d243211f39d8"
+    },
+    {
+      "relative_path": "allelic-imbalance-method.json",
+      "bytes": 1399,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/allelic-imbalance-method.json",
+      "sha256": "85a10fdc85fe5b2b4c4f57974d3f11a169ce24e45bc21f3f9e70f4e60de6d111"
+    },
+    {
+      "relative_path": "allelic-imbalance-nonidentifiability-examples.tsv",
+      "bytes": 3732,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/allelic-imbalance-nonidentifiability-examples.tsv",
+      "sha256": "5d12636b142ba3b9ea214914a882d6919b029c86851f5f8ddc4b69d87f048d9e"
+    },
+    {
+      "relative_path": "annotation.json",
+      "bytes": 10855710,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/annotation.json",
+      "sha256": "6d4609a5854a923ee41de146dc13dad9d40bafb4736b17084256c48b8754f5fb"
+    },
+    {
+      "relative_path": "audit_bap1_fragment_phase.py",
+      "bytes": 5717,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/audit_bap1_fragment_phase.py",
+      "sha256": "287534043acf034e91702f2d566d22144c016e5edaa9bcd1f2ff512f849d734a"
+    },
+    {
+      "relative_path": "bap1_fragment_phase.py",
+      "bytes": 4559,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/bap1_fragment_phase.py",
+      "sha256": "df99bf50163456a26bd5b844b72e4aaf028b9e0fb289aaf5e3c29315e01b29a7"
+    },
+    {
+      "relative_path": "chr9_structural_hints.py",
+      "bytes": 4238,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/chr9_structural_hints.py",
+      "sha256": "e13297a452ea38d29b18932ca1fe85ecd8744b1d3eaf56e3a4e67e4f1e0b0544"
+    },
+    {
+      "relative_path": "chromosome-arm-density-summary.tsv",
+      "bytes": 49727,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/chromosome-arm-density-summary.tsv",
+      "sha256": "480f0932cab24555f0c040cdd54c1a3542ba0e9e7afe1666e9bc96ddec5098d3"
+    },
+    {
+      "relative_path": "coding-depth-method.json",
+      "bytes": 1193,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/coding-depth-method.json",
+      "sha256": "ae3e6091d710f93ae0ca714b741d53c0f53bc90f12d75bfabde727f27dec399f"
+    },
+    {
+      "relative_path": "coding-depth.log",
+      "bytes": 543,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/coding-depth.log",
+      "sha256": "6f9de3d85dcef84dcb25887598c13f931cd9466ec943d9d867e4602b406a2138"
+    },
+    {
+      "relative_path": "coding_depth.py",
+      "bytes": 5967,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/coding_depth.py",
+      "sha256": "b94285e35690211888e8afaade4eacf189f5eeeac3ac8b116802683c8c2245f9"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr17.pileup.gz",
+      "bytes": 13489269,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-alleles.chr17.pileup.gz",
+      "sha256": "d32ed35136342219e497d4fe3944ccdc0baa4f14e9723dc61f3fce2804c1050e"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr17.tsv",
+      "bytes": 1323712,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-alleles.chr17.tsv",
+      "sha256": "2b8e749405a32ab79bb1825b22755bc9d334ae4447c024fbb3a9f05b2e64a28a"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr2.pileup.gz",
+      "bytes": 12056372,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr2.tsv",
+      "bytes": 1694484,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-alleles.chr2.tsv",
+      "sha256": "23eaead32060be30b170db091f9f88bf0faf877a832b72729ddbbb19a97f1a0e"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr3.pileup.gz",
+      "bytes": 8886844,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr3.tsv",
+      "bytes": 1355393,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-alleles.chr3.tsv",
+      "sha256": "3497b3c933ed44a4aaf2308921b226b5e8d950037799a69573eca88af57f65bc"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr5.pileup.gz",
+      "bytes": 11673411,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-alleles.chr5.pileup.gz",
+      "sha256": "8ce6246705ecfcb49774c8c014801f607543b69e5ad49f11d8ff7840f81f14d1"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr5.tsv",
+      "bytes": 1165156,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-alleles.chr5.tsv",
+      "sha256": "e23ef4b8ddb894e1166683c0b73aed10a65d7874862238d59bc81c6fb720272d"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr8.pileup.gz",
+      "bytes": 6356923,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-alleles.chr8.pileup.gz",
+      "sha256": "3b358d8a311f0afa77bd899ed387a82c06eec745d212208de71886671a539f87"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr8.tsv",
+      "bytes": 891526,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-alleles.chr8.tsv",
+      "sha256": "6799eb5b39639888035b6b3d89457a17abc624426b1b43d0ae2e2f26aad3dedf"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr9.pileup.gz",
+      "bytes": 8253634,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-alleles.chr9.pileup.gz",
+      "sha256": "450eccfc40da0892756145108d0a184dfcd60b79dfd155d83eda09a5ef1f90ae"
+    },
+    {
+      "relative_path": "common-SNP-alleles.chr9.tsv",
+      "bytes": 978762,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-alleles.chr9.tsv",
+      "sha256": "85d7b5319bdc68e093aad5e99ff5836f35a30aef8a094a9ed8a6e423e8d61d6f"
+    },
+    {
+      "relative_path": "common-SNP-recount.log",
+      "bytes": 151,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-recount.log",
+      "sha256": "8ca6f71260ce547978d13e350ed311c8898c8dca742a7cb3db45889d98ff73b9"
+    },
+    {
+      "relative_path": "common-SNP-recount.method.json",
+      "bytes": 8457,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-recount.method.json",
+      "sha256": "abc0abdb05b362c1b5b95a1aa31d640a3eb33d5eb3031779d2d1446cc0dce7b4"
+    },
+    {
+      "relative_path": "common-SNP-recount.progress.json",
+      "bytes": 7434,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/common-SNP-recount.progress.json",
+      "sha256": "185d83d8e684928f6c27f9848e38509e590aa1e6a7ecbb44155141b84ba378a3"
+    },
+    {
+      "relative_path": "common-SNP-selection.log",
+      "bytes": 614,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "common_snp_baf.py",
+      "bytes": 10240,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "compile_findings.py",
+      "bytes": 17130,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/compile_findings.py",
+      "sha256": "189ae3e1f3ad938fadbbe55234e0ed47f2a4ae940ecc44c1ff1f9784e8362b3f"
+    },
+    {
+      "relative_path": "download-public.log",
+      "bytes": 1523,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/download-public.log",
+      "sha256": "256fb8e16f4129d55b0fd089eb04e4e15666075bde4ea79b116657c05219fad1"
+    },
+    {
+      "relative_path": "download_public.py",
+      "bytes": 1798,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/download_public.py",
+      "sha256": "c63fcff7d8213f2c8000adfff2cd478e49dd49b59ef0231e68d1878afd4a439b"
+    },
+    {
+      "relative_path": "findings.json",
+      "bytes": 19897,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/findings.json",
+      "sha256": "e307a4b7feae34dc96c478ad816ea343b0cffe2eb716295d12e661e2f81bc3b8"
+    },
+    {
+      "relative_path": "findings.txt",
+      "bytes": 5738,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/findings.txt",
+      "sha256": "d70649ff83da17473a7edc218a8614a7c75129c80e9d0db5a9059ed110427abc"
+    },
+    {
+      "relative_path": "genome-bins/chr1.json",
+      "bytes": 6527,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr1.json",
+      "sha256": "669fd66ce137da423169d750cac1d5a0aeaa2c95ae35caf2add4b3a05d4db0f0"
+    },
+    {
+      "relative_path": "genome-bins/chr1.npz",
+      "bytes": 3802093,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr1.npz",
+      "sha256": "2a1064df2d957e6da475a4a6c7b93ec50d62dff48e9365b6abf1b2cb73ab5789"
+    },
+    {
+      "relative_path": "genome-bins/chr10.json",
+      "bytes": 6411,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr10.json",
+      "sha256": "b26deb700878ddc5b8283101c09a2416b65ffb6967d28eff29fa6a99de11556f"
+    },
+    {
+      "relative_path": "genome-bins/chr10.npz",
+      "bytes": 2200509,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr10.npz",
+      "sha256": "2931594a23f9c4661559b375c1e90aabf822709e8cbf96ae0edfc62597120fe7"
+    },
+    {
+      "relative_path": "genome-bins/chr11.json",
+      "bytes": 6509,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr11.json",
+      "sha256": "5351f3cc16efd519d12173e5f1c8508bb7b4208997a09d1c7166a622b7bf156d"
+    },
+    {
+      "relative_path": "genome-bins/chr11.npz",
+      "bytes": 2198342,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr11.npz",
+      "sha256": "5db92a528aa3517b72e4a279fbaa4ab357a3abc4d124aa28873d12b85f13d3dd"
+    },
+    {
+      "relative_path": "genome-bins/chr12.json",
+      "bytes": 6457,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr12.json",
+      "sha256": "562331f30ae709287422d7e88a2f1a5b00077ca23a6a02756d3f9def4028e786"
+    },
+    {
+      "relative_path": "genome-bins/chr12.npz",
+      "bytes": 2191516,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr12.npz",
+      "sha256": "aa2b1e523f96e256973e5924b88e0b94c38e099843b13a5b4752994c7d4e790f"
+    },
+    {
+      "relative_path": "genome-bins/chr13.json",
+      "bytes": 6119,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr13.json",
+      "sha256": "fb3ba50721c8216ce740334d27d09803182e056433580a8e37c520fc575d48c1"
+    },
+    {
+      "relative_path": "genome-bins/chr13.npz",
+      "bytes": 1567662,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr13.npz",
+      "sha256": "93b9619e54ed2bf9bc26a600c79dae878d5506c2f32bf00cfb44a28fb041a26a"
+    },
+    {
+      "relative_path": "genome-bins/chr14.json",
+      "bytes": 6461,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr14.json",
+      "sha256": "4016a139fdb8eaf917cecdc7a897482a8d7ec0710155612b9adc029936196f4f"
+    },
+    {
+      "relative_path": "genome-bins/chr14.npz",
+      "bytes": 1521460,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr14.npz",
+      "sha256": "5e115eadd78d0c20a0811f4928dfb1b5647e2de5041a639893508efec238b596"
+    },
+    {
+      "relative_path": "genome-bins/chr15.json",
+      "bytes": 6362,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr15.json",
+      "sha256": "e5cbb4876db9d9a2a162e70afb6f11f01b990b13b2167a8a82688f9a633c1777"
+    },
+    {
+      "relative_path": "genome-bins/chr15.npz",
+      "bytes": 1406066,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr15.npz",
+      "sha256": "470418deeafb44840f60adf4d1f9dbfe675e90157f306f1ea864f5a1d8c05282"
+    },
+    {
+      "relative_path": "genome-bins/chr16.json",
+      "bytes": 6486,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr16.json",
+      "sha256": "cd8a624d2e7f95be487fd4cc6e232d4cdadf0dfd3819bd20ec416e9badd839b7"
+    },
+    {
+      "relative_path": "genome-bins/chr16.npz",
+      "bytes": 1376375,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr16.npz",
+      "sha256": "76f80ddf74f060ee0d68d16532c6ac6fba4f371fb57580551aa98b72a6593a7a"
+    },
+    {
+      "relative_path": "genome-bins/chr17.json",
+      "bytes": 6501,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr17.json",
+      "sha256": "3dc532d5abf474a20a501fe95b491f78ffec8e1803bd8e74bad741dc9adf6575"
+    },
+    {
+      "relative_path": "genome-bins/chr17.npz",
+      "bytes": 1383429,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr17.npz",
+      "sha256": "a7c33ff8641c61e111ebe2cea9aaccad6e2c7498c50e9e62c8e8cbb1827b1c19"
+    },
+    {
+      "relative_path": "genome-bins/chr18.json",
+      "bytes": 6104,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr18.json",
+      "sha256": "5c5561ba21ec06b33bd0c6b78f58d94ba665fdee002acdf4b2b6c4ac1049fe59"
+    },
+    {
+      "relative_path": "genome-bins/chr18.npz",
+      "bytes": 1251185,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr18.npz",
+      "sha256": "ec7b9361fbf9199bee91daa440924ab639fa48e3fb35ae7553ba8d20df7ca667"
+    },
+    {
+      "relative_path": "genome-bins/chr19.json",
+      "bytes": 6581,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr19.json",
+      "sha256": "3ef4bd15c3bc4b3d8d29057aa3da6384845d446457844345365ba3ff46970aa3"
+    },
+    {
+      "relative_path": "genome-bins/chr19.npz",
+      "bytes": 1004797,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr19.npz",
+      "sha256": "5a0e5f878d3a1ab7027a297f880f8eff887ebe34adce742915ea5c85022b4a69"
+    },
+    {
+      "relative_path": "genome-bins/chr2.json",
+      "bytes": 6488,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr2.json",
+      "sha256": "85cf4f7c314b622fa33f20bc10dbc23ddcd8c36c3ebce70f09d9c9fb23d15182"
+    },
+    {
+      "relative_path": "genome-bins/chr2.npz",
+      "bytes": 3952186,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr2.npz",
+      "sha256": "9b591fe41660803008837eda1d842e9782f0118bcea81f0b973422a9e2de88ef"
+    },
+    {
+      "relative_path": "genome-bins/chr20.json",
+      "bytes": 6366,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr20.json",
+      "sha256": "d271e6e346a1ee38ec329b3b9abcdcf4e73ee1273d461d76e764448a94ebf555"
+    },
+    {
+      "relative_path": "genome-bins/chr20.npz",
+      "bytes": 1064366,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr20.npz",
+      "sha256": "2b65af1c675058e14df7ce49937768ee6b0b22168b704a8a5196161130e6ea98"
+    },
+    {
+      "relative_path": "genome-bins/chr21.json",
+      "bytes": 6176,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr21.json",
+      "sha256": "ffb4269dca47ca29363f5a38ce58602b5a561ffdc5055f8706447e4b1b8c1949"
+    },
+    {
+      "relative_path": "genome-bins/chr21.npz",
+      "bytes": 647862,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr21.npz",
+      "sha256": "949045245639c2d513fe46791d69903a2b0f5c5cec6e06179120767465305f3c"
+    },
+    {
+      "relative_path": "genome-bins/chr22.json",
+      "bytes": 6373,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr22.json",
+      "sha256": "4712cc71be16e5b2597f5885421368be68d947889a6fd2d87dfe2dc78df1bd15"
+    },
+    {
+      "relative_path": "genome-bins/chr22.npz",
+      "bytes": 669717,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr22.npz",
+      "sha256": "6fa34c2954f49d3fab9b74bfa1be161d3dd4128e56ef57531295bc37762e92e2"
+    },
+    {
+      "relative_path": "genome-bins/chr3.json",
+      "bytes": 6467,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr3.json",
+      "sha256": "3366d032356dd0dd780fa8005f399d22fcfd56c553c2eb31f0ec4a25179c6cc7"
+    },
+    {
+      "relative_path": "genome-bins/chr3.npz",
+      "bytes": 3216818,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr3.npz",
+      "sha256": "a4562e399f0664fa262ef0131b4c10a7b599872358b2bd06c37883da60c62dc7"
+    },
+    {
+      "relative_path": "genome-bins/chr4.json",
+      "bytes": 6321,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr4.json",
+      "sha256": "18c5b6db2111ad1277df07249b2194333ba577d5a076ca57f39c4a107ba8ff05"
+    },
+    {
+      "relative_path": "genome-bins/chr4.npz",
+      "bytes": 3025207,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr4.npz",
+      "sha256": "b48ab654fa5624477888a5638d9f6a86a3461acdac5bee35aa3931dd500d04b4"
+    },
+    {
+      "relative_path": "genome-bins/chr5.json",
+      "bytes": 6443,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr5.json",
+      "sha256": "de02c6020478a09dfc703990fb498e6b50f9b3ddb612d201890386d535474ccb"
+    },
+    {
+      "relative_path": "genome-bins/chr5.npz",
+      "bytes": 2926996,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr5.npz",
+      "sha256": "138022a3f788a8f276bd8d9b078f3a0338119cb4b62b3c4be68f936ebafe7a65"
+    },
+    {
+      "relative_path": "genome-bins/chr6.json",
+      "bytes": 6433,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr6.json",
+      "sha256": "f2992da73a03cf2aabc207aa040fc940d93bc532b1320c2f44d6361db6351c60"
+    },
+    {
+      "relative_path": "genome-bins/chr6.npz",
+      "bytes": 2769446,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr6.npz",
+      "sha256": "a397e9a4d96003cd786ee98c6f45b1a2fe6f7adb67325e9a1c2fa5cb5a3ff98b"
+    },
+    {
+      "relative_path": "genome-bins/chr7.json",
+      "bytes": 6426,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr7.json",
+      "sha256": "b1ee6e26584d1359ffb8b8cdbf7a6250431ed6fb9099f9e1bf30c1c3bb587abf"
+    },
+    {
+      "relative_path": "genome-bins/chr7.npz",
+      "bytes": 2581922,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr7.npz",
+      "sha256": "aaa68507f240a3d52156fd1a6971adaf2534b3490220c2d0734cdc93b1310e4e"
+    },
+    {
+      "relative_path": "genome-bins/chr8.json",
+      "bytes": 6371,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr8.json",
+      "sha256": "d64e9fa791c194bf20bf06e1d2e766af069ed98f953400e1baeb0503664783c1"
+    },
+    {
+      "relative_path": "genome-bins/chr8.npz",
+      "bytes": 2354598,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr8.npz",
+      "sha256": "ff0f92b656486465e05ecfb5076ca0c5180b1d89faa8bfeefe16dc296b30b84c"
+    },
+    {
+      "relative_path": "genome-bins/chr9.json",
+      "bytes": 6412,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr9.json",
+      "sha256": "783a64a55df03d1ec6865eb7426c8ac67e155133b927137d447888a210a53e56"
+    },
+    {
+      "relative_path": "genome-bins/chr9.npz",
+      "bytes": 1989861,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chr9.npz",
+      "sha256": "efb978b8dc3d2166c2f39736b1b920ff9d9f6460ce0ecfd6b758271e01365feb"
+    },
+    {
+      "relative_path": "genome-bins/chrX.json",
+      "bytes": 6361,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chrX.json",
+      "sha256": "ababc4826d77a8264526e62e99d4e25208c36d8eab18cb388c6652f0a21a4cc1"
+    },
+    {
+      "relative_path": "genome-bins/chrX.npz",
+      "bytes": 2381487,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chrX.npz",
+      "sha256": "2415eef323aeade1ccd8c0ba8604434e9f9cb7f58b2b0fb694efc5d3138d6df2"
+    },
+    {
+      "relative_path": "genome-bins/chrY.json",
+      "bytes": 5483,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chrY.json",
+      "sha256": "cc4c41c2de14a23fa33f9d1f03e6168b1f1031bf57f308d8d3b060620dbcb3fa"
+    },
+    {
+      "relative_path": "genome-bins/chrY.npz",
+      "bytes": 387694,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-bins/chrY.npz",
+      "sha256": "5fa81dc98dffdf4c24b6a2180a3a74ee02cc166e989001a89e2f5ca31f7cc491"
+    },
+    {
+      "relative_path": "genome-fragment-profile.log",
+      "bytes": 2364,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "genome-fragment-profile.method.json",
+      "bytes": 1069,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-fragment-profile.method.json",
+      "sha256": "00d9653410f1688a97948d91c0a6e22e46bc96476839e327d23291d80e28ec13"
+    },
+    {
+      "relative_path": "genome-relative-density.100kb.tsv",
+      "bytes": 12657599,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-relative-density.100kb.tsv",
+      "sha256": "a0a52c17afd2b2bcf0188bb32fd1698a70ee3f31e661caf428575a6d4a611dbd"
+    },
+    {
+      "relative_path": "genome-relative-density.250kb.tsv",
+      "bytes": 5314338,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/genome-relative-density.250kb.tsv",
+      "sha256": "455ebfdddcce4bcb7cbfc645bc55c042622888bd102a15a2fe3f99ae7ffc7c16"
+    },
+    {
+      "relative_path": "genome_fragment_profile.py",
+      "bytes": 5826,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "independent-SNP-recount.json",
+      "bytes": 590,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/independent-SNP-recount.json",
+      "sha256": "7f2347282711df3de19ab7978ae8b01d6604af244e5fb34781fcf5b507056da2"
+    },
+    {
+      "relative_path": "independent-SNP-recount.log",
+      "bytes": 590,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "independent-SNP-recount.tsv",
+      "bytes": 22841,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/independent-SNP-recount.tsv",
+      "sha256": "7e1ed98ae6ef0cabcceec8ba63f480732ec194d920ff5b8c5f691f3855b98518"
+    },
+    {
+      "relative_path": "independent_SNP_recount.py",
+      "bytes": 3394,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/independent_SNP_recount.py",
+      "sha256": "46796c5d19e7c433b69842c1adcda3c2b9891011da33b11fa4a577d4f2956d10"
+    },
+    {
+      "relative_path": "public-common-SNP-alleles.annotated.tsv",
+      "bytes": 8042988,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/public-common-SNP-alleles.annotated.tsv",
+      "sha256": "a311e4b52696c5a413000cf5fec47761619551169f926baa8954d6cfe67f42ed"
+    },
+    {
+      "relative_path": "public-common-SNP-panel.chr17.bed",
+      "bytes": 494366,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/public-common-SNP-panel.chr17.bed",
+      "sha256": "9a8242c0f0c11e3fe15a1e8ae10bc32224fafb5c400c4a5690fdb4c92801fec8"
+    },
+    {
+      "relative_path": "public-common-SNP-panel.chr2.bed",
+      "bytes": 938341,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "public-common-SNP-panel.chr3.bed",
+      "bytes": 782246,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "public-common-SNP-panel.chr5.bed",
+      "bytes": 680740,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/public-common-SNP-panel.chr5.bed",
+      "sha256": "3c6860e58e8f4a2f02c4db87ea297ef65b417aedabca0e029e0ef2d723107c08"
+    },
+    {
+      "relative_path": "public-common-SNP-panel.chr8.bed",
+      "bytes": 527062,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/public-common-SNP-panel.chr8.bed",
+      "sha256": "bf0a8ed4a63e11081fd17ef3e314cefc7badd4cde0b5c2e055d73c8cf0b9ddba"
+    },
+    {
+      "relative_path": "public-common-SNP-panel.chr9.bed",
+      "bytes": 522940,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/public-common-SNP-panel.chr9.bed",
+      "sha256": "93416c80403a930ddce5388033aed26714fa23ab317fa92d198009c980884ddb"
+    },
+    {
+      "relative_path": "public-common-SNP-panel.tsv",
+      "bytes": 11222791,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/public-common-SNP-panel.tsv",
+      "sha256": "16435c85aff7e14589e41ef81e06151d912739ddd0144b1480abd7612f13b0b3"
+    },
+    {
+      "relative_path": "public-panel-selection.json",
+      "bytes": 1145,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/public-panel-selection.json",
+      "sha256": "cc99af81d48334319a08eec897fd90852840893d3e2a58867217e78429e3c303"
+    },
+    {
+      "relative_path": "regional-allelic-imbalance-summary.tsv",
+      "bytes": 11383,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/regional-allelic-imbalance-summary.tsv",
+      "sha256": "76e242ce61cbb4af20de1db620abcffe682e906beed409df9b07a926ebe0c298"
+    },
+    {
+      "relative_path": "regional-common-SNP-allele-balance.png",
+      "bytes": 453984,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/regional-common-SNP-allele-balance.png",
+      "sha256": "12ed96449af42a6ecc9d7ed6bda3d5f29035b7abd26b7fc409a6f0dbc4bde235"
+    },
+    {
+      "relative_path": "regional-off-exon-relative-density.png",
+      "bytes": 546033,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/regional-off-exon-relative-density.png",
+      "sha256": "734ae64b6c6e4175dc51dd0e3b5c0d85b62fabe800cb5b6765eec2b97da274a6"
+    },
+    {
+      "relative_path": "regional-structural-hints.json",
+      "bytes": 2057393,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/regional-structural-hints.json",
+      "sha256": "e85197b5664f63e0e721ff41106da5439daaa1ffece08a7f63990f44b61ecb1b"
+    },
+    {
+      "relative_path": "regional-structural-hints.log",
+      "bytes": 257,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/regional-structural-hints.log",
+      "sha256": "f80498e5f37aa8b6283bd59e9a7436eca9c685822b2cca015e4707a333052774"
+    },
+    {
+      "relative_path": "relative-depth-normalization-method.json",
+      "bytes": 4584,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/relative-depth-normalization-method.json",
+      "sha256": "89b350ecdf8d9837fe4c3f73682ededb7c03ca70ce7a8a79bba075de3c4cf12c"
+    },
+    {
+      "relative_path": "selected-CDS-gene-depth.tsv",
+      "bytes": 117617,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/selected-CDS-gene-depth.tsv",
+      "sha256": "0bd170bafb81c38a22fa135ce70ae3ed0966f06ba1f348161e83095001f2b21f"
+    },
+    {
+      "relative_path": "selected-CDS-interval-depth.tsv",
+      "bytes": 1601717,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/selected-CDS-interval-depth.tsv",
+      "sha256": "ba6c964081be8605aa80017c37efa5ac2b62640bc2d8706ed770267397614453"
+    },
+    {
+      "relative_path": "selected-coding-transcripts.json",
+      "bytes": 782535,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/selected-coding-transcripts.json",
+      "sha256": "b82cdbc1c689a6965bfca78a88e2faffd703da4be3332335ce930dbf0f25524f"
+    },
+    {
+      "relative_path": "summarize-BAF.log",
+      "bytes": 18103,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/summarize-BAF.log",
+      "sha256": "66941c6fef9c9b33841500e89e479f841bcea60360a35204c8cd410e270b990f"
+    },
+    {
+      "relative_path": "summarize-depth.log",
+      "bytes": 3634,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/summarize-depth.log",
+      "sha256": "2f38dc01306b399c0c6ea709e7c6ae05ded78e95347caf60480617c10ef6ff8f"
+    },
+    {
+      "relative_path": "summarize_baf.py",
+      "bytes": 7567,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/summarize_baf.py",
+      "sha256": "5a8793ebdcd3770641a20091030b2eecb58c4a28691d779fa52dce74650aa703"
+    },
+    {
+      "relative_path": "summarize_depth.py",
+      "bytes": 7324,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/summarize_depth.py",
+      "sha256": "5e7199d9eed9f9f5ecc5ffcd3b9ee0f06cf7b356f3197b4443474d6785eb707e"
+    },
+    {
+      "relative_path": "synthetic-control/control.bam",
+      "bytes": 351,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "synthetic-control/control.bam.bai",
+      "bytes": 96,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/synthetic-control/control.bam.bai",
+      "sha256": "0fe377a6b6592b5a836bea6d0e5f49bbbf82a9dd019ad8ec98585c9458c88713"
+    },
+    {
+      "relative_path": "synthetic-control/control.pileup",
+      "bytes": 89,
+      "source_flags": "0x40000060",
+      "status": "workspace_dataless_skipped_no_rehydration_attempt"
+    },
+    {
+      "relative_path": "synthetic-control/positions.bed",
+      "bytes": 16,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/synthetic-control/positions.bed",
+      "sha256": "d922c4cb20572a8947d798af38fc1a50dc01c7ba6fdaab5b01662090f50c0a3e"
+    },
+    {
+      "relative_path": "synthetic-control/result.json",
+      "bytes": 1574,
+      "source_flags": "0x40",
+      "status": "local_copy_preserved",
+      "local_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct4-copy-number/synthetic-control/result.json",
+      "sha256": "3c00af41ce4c819113d758b33fe4e48425f09dc9391ec4bdead3f8ec0233a4ec"
+    }
+  ],
+  "last_updated_UTC": "2026-10-05T02:15:43.641834+00:00"
+}

@@ -1,0 +1,5 @@
+{
+  "manual_CIGAR_position_tests": 6,
+  "pass": true,
+  "note": "BQ/filter/fragment conflicts are also checked by independently reproducing baseline and clean counts; these CIGAR tests do not establish clinical sensitivity."
+}

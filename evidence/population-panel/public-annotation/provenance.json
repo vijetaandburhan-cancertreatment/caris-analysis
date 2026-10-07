@@ -1,0 +1,58 @@
+{
+  "created_utc": "2026-10-05T06:38:43.589458+00:00",
+  "script": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/public-annotation/annotate_public_panel.py",
+  "script_sha256": "663a54e992b66498cdfde8514400c524befeb8af138dea22eb108f4498ef04ae",
+  "input_panel": {
+    "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/oct5-population-panel-concordance-v1/input/public-common-SNP-panel.tsv",
+    "sha256": "16435c85aff7e14589e41ef81e06151d912739ddd0144b1480abd7612f13b0b3",
+    "bytes": 11222791,
+    "rows": 165782,
+    "order": "Output preserves frozen input row order"
+  },
+  "annotation": {
+    "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/gencode.v37.primary_assembly.annotation.gtf",
+    "sha256_uncompressed": "5e744bdc594fbc99f3b1b5dc2f282ec8ba9238ae5d4dd08ce7caeb4853e7d3dd",
+    "bytes": 1410322515,
+    "source_manifest_path": "/Users/burhanazeem/.local/share/codex/caris-analysis/genome-fusion-reference/gencode.v37.primary_assembly.annotation.gtf.gz.manifest.json",
+    "source_manifest_sha256": "c072c81c9e58c6dbb8cfce347a1c7958c24019731fb6897c246d2ab9ef57e40c",
+    "original_download": {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_37/gencode.v37.primary_assembly.annotation.gtf.gz",
+      "size_compressed": 45218446,
+      "size_uncompressed": 1410322515,
+      "md5": "5699a3aed47f70d6c574fd9392c07731",
+      "sha256_compressed": "fa9e291d9e6e0b68db8c225239878f77c315f4a959f4fe81b42535d67eb9af56",
+      "verified_official_md5": true,
+      "seconds": 61.28169918060303
+    },
+    "metadata": [
+      "##description: evidence-based annotation of the human genome (GRCh38), version 37 (Ensembl 103)",
+      "##provider: GENCODE",
+      "##contact: gencode-help@ebi.ac.uk",
+      "##format: gtf",
+      "##date: 2020-12-07"
+    ],
+    "build": "GRCh38 primary assembly, GENCODE37 / Ensembl103"
+  },
+  "coordinate_conventions": "Input pos1 and GTF start/end are 1-based inclusive. A locus overlaps iff start1 <= pos1 <= end1 on the same exact contig name. No nearest-gene imputation, no strand filter, no extension/flanking window.",
+  "patient_data_read": false,
+  "outputs": {
+    "public-panel-gene-annotations.tsv": {
+      "bytes": 31402379,
+      "sha256": "6312736f1c3cfaf4a5881f09a601117262905d55c24daf286b66f312e4ede250"
+    },
+    "overlapping-gene-inventory.tsv": {
+      "bytes": 694097,
+      "sha256": "2ce9ac4363e276714587b2686a7ec8f4dee66605c57f1d81bd277f59fb7ca85a"
+    },
+    "summary.json": {
+      "bytes": 5411,
+      "sha256": "7e0c67beb47ed4ba6b8c5e9f4c464a3fa946bd9d2ff471ed2450ab0766f32104"
+    },
+    "boundary-validation.json": {
+      "bytes": 3283,
+      "sha256": "1a59b15d0b9adc395f34bff79ab50b341e78567cd869376ab05e7dafd07b20a3"
+    }
+  },
+  "elapsed_seconds": 7.178,
+  "peak_RSS_bytes_macOS": 325566464
+}

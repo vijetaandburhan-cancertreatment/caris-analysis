@@ -1,0 +1,34 @@
+The BAP1 local sequence check supports both proposed peptide sequences.
+
+Exact mutant nucleotide haplotypes spanning the full candidate window:
+                          DNA fragments   RNA fragments
+IEERKGLYL                       691              241
+EERKGLYL                        693              245
+FKWIEERKGLYLGG* context          594              231
+
+Every counted supporting read spans every nucleotide in its window and the
+deletion at Q20 or better. Mates are collapsed by read group + query name.
+These are not independent UMI molecules. RNA exact nine-peptide support has
+206 forward / 204 reverse reads and 218 distinct alignment-coordinate patterns;
+192 fragments remain without soft clipping and at least 5bp from read ends.
+
+The expected exon3-to4 junction has 484 fragments (143 phased to the deletion),
+and exon4-to5 has 249 (52 phased). Twenty-four deletion-bearing paired fragments
+jointly support both neighboring junctions. This supports local exon inclusion,
+not a full-length translated isoform. Rare exon4-skipping support (two fragments)
+is also recorded; these counts are not a quantitative isoform fraction.
+
+No additional DNA SNV meets the prespecified >=5 fragments / >=1% review
+threshold over coding exons1--5. No RNA SNV meets >=3 / >=1% within the actual
+peptide window. Minor RNA mismatches immediately upstream fail stringent
+end/clipping checks; more distant mismatches are outside the peptide/after the
+modeled stop. Four RNA fragments have a 12bp rather than 11bp deletion, versus
+241 with the exact 11bp event in the same window; the minor 12bp haplotype has
+no exact DNA support in that stringent check. It remains unresolved, not a
+validated separate allele or a reason to replace the dominant peptide sequence.
+
+Thus nearby linked sequence does not contradict the dominant proposed local
+translation. The defensible wording is 'read-supported local nucleotide
+sequence, conditionally encoding these peptides.' We have not measured peptide
+production, HLA presentation, T-cell recognition, tumor specificity, full-length
+transcript phase, translational initiation or an NMD probability.

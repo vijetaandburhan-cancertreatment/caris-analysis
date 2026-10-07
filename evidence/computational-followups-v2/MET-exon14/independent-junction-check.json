@@ -1,0 +1,157 @@
+{
+  "status": "pass",
+  "transcript": "ENST00000397752.8",
+  "MANE_Select_verified_in_G37": true,
+  "exon_count": 21,
+  "exons13_14_15": {
+    "13": {
+      "chrom": "chr7",
+      "start0": 116771497,
+      "end0": 116771654,
+      "strand": "+"
+    },
+    "14": {
+      "chrom": "chr7",
+      "start0": 116771848,
+      "end0": 116771989,
+      "strand": "+"
+    },
+    "15": {
+      "chrom": "chr7",
+      "start0": 116774880,
+      "end0": 116775111,
+      "strand": "+"
+    }
+  },
+  "exon14_length_bp": 141,
+  "exon14_CDS_intersection_bp": 141,
+  "old_BAM_alignments_fetched": 1156,
+  "old_BAM_filter_passing_alignments": 1156,
+  "results": {
+    "exon13_to14": {
+      "interval0": [
+        116771654,
+        116771848
+      ],
+      "old_strict_query_names": 88,
+      "old_strict_query_name_RG_fragments": 88,
+      "exact_query_name_set_matches_production": true,
+      "new_SJ": {
+        "STAR_start1": 116771655,
+        "STAR_end1": 116771848,
+        "converted_interval0": [
+          116771654,
+          116771848
+        ],
+        "strand": 1,
+        "motif": 1,
+        "annotated": 1,
+        "unique_reads": 106,
+        "multi_reads": 0,
+        "max_overhang": 74
+      },
+      "independent_marker50": "CTGAAAAAGAGAAAGCAAATTAAAGATCTGGGCAGTGAATTAGTTCGCTA",
+      "splice_motif": "GT-AG"
+    },
+    "exon14_to15": {
+      "interval0": [
+        116771989,
+        116774880
+      ],
+      "old_strict_query_names": 87,
+      "old_strict_query_name_RG_fragments": 87,
+      "exact_query_name_set_matches_production": true,
+      "new_SJ": {
+        "STAR_start1": 116771990,
+        "STAR_end1": 116774880,
+        "converted_interval0": [
+          116771989,
+          116774880
+        ],
+        "strand": 1,
+        "motif": 1,
+        "annotated": 1,
+        "unique_reads": 96,
+        "multi_reads": 0,
+        "max_overhang": 71
+      },
+      "independent_marker50": "GACTACCGAGCTACTTTTCCAGAAGATCAGTTTCCTAATTCATCTCAGAA",
+      "splice_motif": "GT-AG"
+    },
+    "exon13_to15_skip14": {
+      "interval0": [
+        116771654,
+        116774880
+      ],
+      "old_strict_query_names": 0,
+      "old_strict_query_name_RG_fragments": 0,
+      "exact_query_name_set_matches_production": true,
+      "new_SJ": null,
+      "independent_marker50": "CTGAAAAAGAGAAAGCAAATTAAAGATCAGTTTCCTAATTCATCTCAGAA",
+      "splice_motif": "GT-AG"
+    }
+  },
+  "synthetic_controls": [
+    {
+      "case": "positive",
+      "expected_skip": true,
+      "observed_skip": true,
+      "CIGAR": "50M3226N50M"
+    },
+    {
+      "case": "reverse_stored_orientation",
+      "expected_skip": true,
+      "observed_skip": true,
+      "CIGAR": "50M3226N50M"
+    },
+    {
+      "case": "11bp_anchor",
+      "expected_skip": false,
+      "observed_skip": false,
+      "CIGAR": "11M3226N50M"
+    },
+    {
+      "case": "anchor_mismatch",
+      "expected_skip": false,
+      "observed_skip": false,
+      "CIGAR": "50M3226N50M"
+    },
+    {
+      "case": "low_BQ",
+      "expected_skip": false,
+      "observed_skip": false,
+      "CIGAR": "50M3226N50M"
+    },
+    {
+      "case": "deletion_not_splice",
+      "expected_skip": false,
+      "observed_skip": false,
+      "CIGAR": "50M3226D50M"
+    },
+    {
+      "case": "secondary",
+      "expected_skip": false,
+      "observed_skip": false,
+      "CIGAR": "50M3226N50M"
+    },
+    {
+      "case": "multi_mapper",
+      "expected_skip": false,
+      "observed_skip": false,
+      "CIGAR": "50M3226N50M"
+    },
+    {
+      "case": "MAPQ19",
+      "expected_skip": false,
+      "observed_skip": false,
+      "CIGAR": "50M3226N50M"
+    }
+  ],
+  "public_source": "https://pubmed.ncbi.nlm.nih.gov/28522754/",
+  "limits": [
+    "Synthetic controls validate this counter and coordinates, not clinical assay sensitivity.",
+    "New STAR.SJ counts are aligner read counts, not directly comparable to the old strict query-name counts.",
+    "No detected canonical skip junction does not exclude every MET alteration or a low-abundance/variant-junction transcript.",
+    "No treatment recommendation or MET inhibitor eligibility is inferred."
+  ]
+}

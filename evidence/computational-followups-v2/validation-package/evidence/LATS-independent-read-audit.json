@@ -1,0 +1,123 @@
+{
+  "method": "Separate CIGAR-walking local-haplotype assembly; MAPQ/BQ>=20; duplicate/secondary/supplementary/QCfail exclusion; grouped by RG+queryname. Independent per-exon genomic edit, strand reversal and translation checked against GENCODE37 protein FASTA. Same data and same public reference are not independent clinical validation.",
+  "findings": [
+    {
+      "gene": "LATS1",
+      "chrom": "chr6",
+      "pos": 149695191,
+      "ref": "T",
+      "alt": "TA",
+      "transcript": "ENST00000543571.6",
+      "reference_protein_matches_GENCODE37": true,
+      "first_altered_position": 127,
+      "wt_amino_acid": "N",
+      "mutant_amino_acid": "*",
+      "predicted_mutant_length": 126,
+      "normal_length": 1130,
+      "normal_context": "DMVIQALQKTNNRSIEAAIEFISKM",
+      "mutant_context": "DMVIQALQKT",
+      "assays": {
+        "DNA": {
+          "reads": {
+            "alt": 38,
+            "ref": 31
+          },
+          "fragments": {
+            "alt": 23,
+            "ref": 16
+          },
+          "strands": {
+            "alt_reverse": 20,
+            "ref_forward": 16,
+            "ref_reverse": 15,
+            "alt_forward": 18
+          },
+          "alt_minimum_full_haplotype_BQ": 25,
+          "independent_exact_recount_agrees": true
+        },
+        "RNA": {
+          "reads": {
+            "alt": 8,
+            "ref": 2
+          },
+          "fragments": {
+            "alt": 4,
+            "ref": 2
+          },
+          "strands": {
+            "alt_forward": 4,
+            "ref_reverse": 1,
+            "alt_reverse": 4,
+            "ref_forward": 1
+          },
+          "alt_minimum_full_haplotype_BQ": 25,
+          "independent_exact_recount_agrees": true
+        }
+      }
+    },
+    {
+      "gene": "LATS2",
+      "chrom": "chr13",
+      "pos": 20975259,
+      "ref": "C",
+      "alt": "T",
+      "transcript": "ENST00000382592.5",
+      "reference_protein_matches_GENCODE37": true,
+      "first_altered_position": 960,
+      "wt_amino_acid": "G",
+      "mutant_amino_acid": "R",
+      "predicted_mutant_length": 1088,
+      "normal_length": 1088,
+      "normal_context": "KLCCSADHRLGRNGADDLKAHPFFS",
+      "mutant_context": "KLCCSADHRLRRNGADDLKAHPFFS",
+      "assays": {
+        "DNA": {
+          "reads": {
+            "alt": 129,
+            "ref": 56,
+            "other": 4
+          },
+          "fragments": {
+            "alt": 79,
+            "ref": 38,
+            "other": 2
+          },
+          "strands": {
+            "alt_forward": 63,
+            "ref_reverse": 31,
+            "alt_reverse": 66,
+            "ref_forward": 25,
+            "other_forward": 2,
+            "other_reverse": 2
+          },
+          "alt_minimum_full_haplotype_BQ": 25,
+          "independent_exact_recount_agrees": true
+        },
+        "RNA": {
+          "reads": {
+            "alt": 72,
+            "ref": 6
+          },
+          "fragments": {
+            "alt": 44,
+            "ref": 5
+          },
+          "strands": {
+            "alt_forward": 38,
+            "alt_reverse": 34,
+            "ref_forward": 5,
+            "ref_reverse": 1
+          },
+          "alt_minimum_full_haplotype_BQ": 25,
+          "independent_exact_recount_agrees": true
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Not somatic/germline classified; no normal specimen.",
+    "Possible library/alignment artifacts not excluded by recount.",
+    "LATS2 missense functional significance unknown.",
+    "No treatment selection or diagnosis established by this screen."
+  ]
+}

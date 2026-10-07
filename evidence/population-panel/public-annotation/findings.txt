@@ -1,0 +1,9 @@
+Public SNP panel — GENCODE37 interval annotations
+
+All 165,782 frozen public loci were annotated on GRCh38 using actual gene spans, without nearest-gene assignment. There are 109,574 unique-gene loci, 22,182 multi-gene loci and 34,026 intergenic loci. The panel is restricted to chromosomes2,3,5,8,9 and17. Complete chromosome and original scope-label breakdowns are in summary.json.
+
+Unique-gene means exactly one overlapping versioned gene ID across all gene types. Any overlap with two or more gene IDs is multi-gene, even if only one is protein-coding. The public universe contains 7,381 gene IDs with at least one unique-gene locus; 4,896 of those genes are protein-coding. These are universe annotations, not patient coverage or callable breadth. For a subsequent operational gene-breadth gate, count distinct unique_gene_id only among loci meeting that analysis's separately prespecified patient-evidence filters; report multi-gene loci separately.
+
+There are 55,566 loci within an exon of a protein-coding gene, versus 40,391 within an exon of an explicitly protein-coding transcript. Both include UTR exonic bases and must not be described as coding-sequence membership. Exons from non-protein-coding transcripts of a protein-coding gene explain part of this distinction. The main TSV preserves the original public input order, alleles, population frequencies and scope, then adds gene IDs, symbols/types, unique assignments and the two exon definitions.
+
+Coordinates are 1-based inclusive in both input and GTF; overlap is start <= position <= end on the exact contig, with no strand restriction or flank extension. Synthetic boundary/overlap tests and starts/ends of seven known genes pass. Provenance records the complete streamed GTF SHA256, frozen panel SHA256, original official download/MD5 verification, script hash and output hashes. No patient counts, alignments, genotypes or private information were read.

@@ -1,0 +1,69 @@
+Antigen-presentation and interferon pathway coding review
+1 October 2026 — exploratory analysis of the July brain specimen
+
+This bounded review did not identify a new obvious coding loss-of-function
+candidate in the 17 selected genes. It does not establish intact immune
+function or predict that immunotherapy or a vaccine will work.
+
+Genes: B2M, TAP1, TAP2, TAPBP, JAK1, JAK2, IFNGR1, IFNGR2, STAT1, IRF1, NLRC5,
+PSMB8, PSMB9, CIITA, RFX5, RFXANK and RFXAP. Conventional HLA-region variant
+calling was deliberately excluded; HLA typing has a separate dedicated method.
+
+Why this question matters
+
+Primary research in melanoma linked specific acquired B2M/JAK1/JAK2 defects
+to loss of antigen presentation or interferon signaling. Related work found
+JAK1/2 inactivation in some primary-resistant melanoma/colorectal tumors.
+Those experiments motivate looking for obvious defects; they do not make a
+negative coding screen a positive response biomarker in mesothelioma.
+https://www.nejm.org/doi/full/10.1056/NEJMoa1604958
+https://pubmed.ncbi.nlm.nih.gov/27903500/
+
+What was done
+
+One GENCODE37 selected protein-coding transcript per gene was reviewed, using
+MANE, then APPRIS, then longest-CDS prioritization (16 MANE transcripts and
+NLRC5 APPRIS principal_4), plus four bases around each
+coding interval. This covered 34,273 distinct bases, 34,264 at >=20 strict
+read depth. These are read depths, not unique-molecule counts or a validated
+clinical detection limit. The nine lower-depth positions require their exact
+coding-versus-flank context to be retained rather than claiming every base
+was highly covered.
+
+Initial filters were MAPQ/base quality >=20; no unmapped, duplicate, secondary,
+supplementary or QC-failing reads. SNV candidates required >=10 alternate reads
+and >=5% allele fraction. Small CIGAR indels additionally required >=10 paired
+read names; this is a candidate screen, not a normalized clinical variant caller.
+The existing source VCF was compared without treating its '.' filter as PASS.
+
+There were 24 sequence candidates: 12 synonymous and 12 missense. No stop-gain
+or frameshift met these thresholds. Exact forward-GRCh38 public mappings were
+verified before attributing population frequencies to the observed alleles.
+All 12 missense alleles occur at >=1% in at least one returned global public
+population dataset. They are not promoted as newly discovered tumor-specific
+immune-escape mutations. Population frequency by itself is not a complete
+clinical pathogenicity assessment, and this patient has no matched normal in
+the released files.
+
+RNA context
+
+All 17 genes have nonzero bulk RNA TPM in the supplied expression table.
+B2M and JAK1 are abundant. Bulk expression cannot assign those transcripts to
+malignant cells rather than immune/stromal/brain admixture and does not prove
+correct protein localization, pathway signaling or peptide presentation.
+No functional inference is made from an individual high or low TPM value.
+
+Limits that matter for the research plan
+
+This does not assess every transcript, structural rearrangement, copy-number
+loss, promoter alteration, epigenetic silencing, subthreshold clone or other
+immune-evasion mechanism. July pretreatment tissue cannot exclude resistance
+that develops later or differences in current extracranial disease. A specific
+HLA-B*50:01 peptide hypothesis still requires direct tumor-cell presentation
+or functional recognition evidence; this screen does not waive that step.
+
+Files: screen-results.json, screen-candidates.tsv, selected-expression.tsv,
+extended-protein-candidate-public-annotation.json/.tsv, reference/cache files,
+prepare-and-screen.py, screen.py and annotate_public.py. No private sequence
+or patient identifier was uploaded to a prediction service; external requests
+retrieved generic public reference regions and public variant records.

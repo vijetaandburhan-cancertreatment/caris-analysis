@@ -1,0 +1,23 @@
+Independent RNA fusion screen — completed 1 October 2026
+
+No high-confidence actionable fusion was identified. This is an exploratory transcriptome-based result, not a comprehensive clinical declaration that all fusions are absent.
+
+All 23,209,264 original RNA pairs were processed locally; 20,757,899 (89.4%) pseudoaligned. Official kallisto 0.44.0 and Pizzly 0.37.3 used matched GENCODE 37 transcripts/GTF. The kallisto-estimated fragment-length distribution set the primary insert threshold to 235 nt (its model-derived 95th percentile); 400 nt was a sensitivity check. Full-reference public controls recovered all 9 expected fusion pairs, plus 3 unexpected pairs—a specificity warning against accepting automated calls without review.
+
+Pizzly returned 130 filtered gene pairs (132 at 400 nt), and 702 unfiltered pairs. Filtered candidates had at most 6 supporting read names. Independent whole-read exact junction checks found at most 2 distinct paired sequences per candidate. A complementary 40-nt junction-window check, allowing mismatches elsewhere, found at most 3; that 3-sequence candidate nevertheless collapsed to one original fragment-coordinate family. None of these counts is a UMI molecule count.
+
+All 12 filtered pairs with at least 2 exact central 40-nt sequence-pairs were reviewed against the original STAR BAM. Nine reduce to one paired-fragment coordinate family. The remaining three are:
+
+• NF1–AK4: do not infer NF1 inactivation or a MEK-treatment rationale. All recovered pairs align within NF1 on chromosome 17. Representative splice-spanning reads map fully across a 2,253-nt intron with STAR nM=0 and unique alignment; one of the four names has nM=2 and another has a five-base soft clip. The exact intragenic junction is absent from the GENCODE 37 NF1 models but occurs in 6,959 GTEx v2 samples (11,279 junction reads; median 1), supporting a normal/background splice explanation without assigning a specific functional isoform. Example: chr17:31343035–31345448, CIGAR 101M2253N60M. The existing genomic alignment explains the apparent cross-gene signal.
+• SLC29A1–HSP90AB1: 6 caller names reduce to 3 fragment families; the exact central 40-nt junction subset has 4 names and 2 families. The splice joins nearby same-strand genes. This pair is a previously studied cis-splicing/read-through RNA; it is not a new tumor-specific target on this evidence. Primary studies: https://doi.org/10.3390/genes8110338 and https://doi.org/10.1038/s41598-017-07070-6.
+• SHROOM2–WWC3: 3 names reduce to 2 fragment families, with adjacent same-strand intergenic splicing, compatible with read-through. No DNA rearrangement or tumor specificity has been established.
+
+The 702 unfiltered pairs revealed no stronger central-junction signal; their highest raw counts involved duplicated/paralogous TAF11-family genes. No candidate central 40-nt junction exactly matched the public GENCODE transcript FASTA. That does NOT establish tumor specificity: the NF1 case illustrates why genome alignment can supply another explanation.
+
+For Michael, these weak chimeras add no defensible fusion-derived vaccine target yet; no antigen peptides were generated. Prioritize better-supported expressed variants, matched-normal assessment, HLA and relevant transcript structure. Review Caris's existing chimeric-junction and fusion-filter/rejection outputs when available. A full genome-aware STAR/Arriba or STAR-Fusion pass remains worthwhile if this question matters, with orthogonal confirmation of credible positives.
+
+Limits: FFPE/library chimeras, PCR/optical duplication, paralogy and normal read-through remain confounders. This transcriptome-only search can miss unannotated, complex, short or weakly expressed events. No matched-normal comparator, full genome realignment or clinical assay certification was used.
+
+Evidence: findings.json; full/pizzly.insert235.json and .unfiltered.json; full/pizzly.insert235.exact-junctions.json; full/pizzly.insert235.junction-window-validation.json; full/candidate-bam-audit.json; full/candidate-fragment-families.json; full/nf1-normal-splice-evidence.json. Commands/resources: logs/*.job.json. Pinned tools/reference hashes: public-input-manifest.json and public/gencode.v37.k31.kallisto044.idx.sha256.
+
+Resources: completed index ~3.23 GB; total workspace ~3.64 GB. Index peak 7.28 GiB RSS; full quantification ~6.90 GiB and 3.7 minutes; Pizzly <0.8 GiB and ~29 seconds. The initial index build stopped at the original 3 GB disk cap; only its incomplete generated file was replaced after authorization to raise the cap to 6 GB. Final index reload, public controls and full input-pair count passed. Patient computation stayed local, with no paid compute or external genomic uploads.

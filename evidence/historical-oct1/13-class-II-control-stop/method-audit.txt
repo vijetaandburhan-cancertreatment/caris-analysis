@@ -1,0 +1,26 @@
+Independent review of the attempted local HLA-II/CD4 screen
+Reviewed 1 October 2026. Public method/control evidence only; no patient inference.
+
+Disposition: STOP before patient scoring. The selected method is a legitimate published research approach with an explicit MIT statement in its official README, but this local execution has not reproduced its released public numerical controls. This is an execution-validation limitation on the present setup, not evidence that DeepSeqPanII is invalid or that the patient lacks a CD4 target.
+
+Provenance and scope
+
+The pinned official repository is pcpLiu/DeepSeqPanII commit2161f5b8c873493c9d43c0201e88a7843d2999ec. All17 downloaded-file hashes independently match the manifest (52,912,291bytes). The final publication DOI is10.1109/TCBB.2021.3074927; full method details inspected here also include the authors'2019 preprint (10.1101/817502), whose version is explicitly distinguished from the final paper. The method estimates peptide–HLA-II binding from peptide plus alpha/beta-chain sequences; binding is only one step in antigen presentation.
+
+Reproduction gate
+
+The agent's predefined test used25 public DRB1*03:01 peptides and all23 unique eligible DRB1*15:02 peptides, with the corresponding released allele-held-out models. Maximum normalized-score errors0.02152318/0.02581608 exceed the unchanged1e-4 tolerance. The unchanged upstream main.run gives the same result as the local wrapper on the worst DRB1*15:02 example, so this is not an identified wrapper error. Repeating that public peptide at the original batch size64 changes the score by only1.22e-6, ruling out batch size as the observed~0.026 discrepancy. Two controls cross the conventional500nM computational bin after conversion, making the mismatch relevant to a threshold-based interpretation. This comparison concerns predictions, not measured binding.
+
+Independent source inspection confirms the HLA-chain order, supplied exact sequences,274/291/25 padding, original encoding, strict checkpoint loading, eval mode and sigmoid score column. The length argument is unused, so its zero-based last-index convention does not truncate the peptide. The original result writer uses50000**(1-score); main.py's IC50 label for the raw normalized value must not be copied. The source test routine loads best_model and calls eval. File histories show model.py, encoding, the DRB1*15:02 checkpoint and its result table unchanged since the same2019 initial commit. No clear documented repair was found; no tolerance, allele or checkpoint was selected to force success.
+
+Biological limits if a later implementation passes
+
+The BD2013 table contains2505 DRB1*03:01 rows (2503 fit the source<=25aa filter) and zero DRB1*15:02 rows. The latter would be an unseen-allele prediction. Released LOMO tables contain5376/64 rows but only5330/23 distinct peptides; source code pads test batches with repeated samples. They must not be represented as5376/64 independent validation peptides. The authors' preprint reports uneven allele validation, including DRB1*03:01 LOAO AUC~0.647. Reproducing a table tests execution, not contemporary biological accuracy.
+
+DRB1 typing is provisional, DRA*01:01 is assumed, and no DP/DQ pairing is established. A mutation-containing13–25mer can bind through an entirely wild-type core—particularly relevant to RASA1's two altered terminal residues. Attention is not proof of the binding register, mutant presentation or CD4 recognition. Preserve natural stops and matched wild-type comparisons; do not extend a terminated protein to fabricate peptides. BAP1/RASA1 class-II targets remain unassessed.
+
+Evidence files
+public-data-audit.json; public-threshold-crossings.json; public-file-history.json; repository-tree.json; additional-public-source/manifest.json.
+Agent execution evidence: ../class-II-feasibility/public-controls.json, public-mismatch-diagnosis.json and public-batch-diagnosis.json.
+Official sources: https://github.com/pcpLiu/DeepSeqPanII/tree/2161f5b8c873493c9d43c0201e88a7843d2999ec ; https://doi.org/10.1109/TCBB.2021.3074927 ; https://doi.org/10.1101/817502 .
+Accessible author preprint: https://www.researchgate.net/publication/336803991_DeepSeqPanII_an_interpretable_recurrent_neural_network_model_with_attention_mechanism_for_peptide-HLA_class_II_binding_prediction .

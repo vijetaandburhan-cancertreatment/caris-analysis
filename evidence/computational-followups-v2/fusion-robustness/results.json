@@ -1,0 +1,3934 @@
+{
+  "created_utc": "2026-10-05T06:06:55.767505+00:00",
+  "design_manifest_sha256": "4abf92bfee2d29e0b68f60513f9a5083a99bacb1fb9ec84c4b10665a9808ca09",
+  "runs_completed": 45,
+  "expected_runs": 45,
+  "runs": [
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__fixture_all40",
+      "dataset": "fixture_all40",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 40,
+      "selected_source_pairs": 40,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "accepted_support_count_names": 10,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "STAR_target_junction_count_names": 10,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "3",
+          "split_reads2": "7",
+          "discordant_mates": "0",
+          "coverage1": "4",
+          "coverage2": "12",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "GGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCTAAGCATAACTAAAG___GTGA",
+          "peptide_sequence": "ELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNTLSITKG",
+          "read_identifiers": "BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-28,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-76,BCR-ABL1-12,BCR-ABL1-4,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.534,
+        "peak_observed_process_RSS_bytes": 1056768,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.436,
+        "peak_observed_process_RSS_bytes": 1009238016,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "8bdb95168e33b12e18646271460937ce22cdebfdc1f42227549f2e61bfced063"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__no_known_recovery__support_01_selection_1",
+      "dataset": "support_01_selection_1",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": false,
+      "input_pairs": 33,
+      "selected_source_pairs": 1,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-4"
+      ],
+      "STAR_target_junction_count_names": 1,
+      "target_discarded_filters": [
+        "in_vitro"
+      ],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "0",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "7",
+          "confidence": "low",
+          "reading_frame": ".",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": ".",
+          "transcript_id2": ".",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": "in_vitro",
+          "fusion_transcript": ".",
+          "peptide_sequence": ".",
+          "read_identifiers": "."
+        }
+      ],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-4"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095258,
+        "unknown_gene_or_malformed_range_tokens": 15967892,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 2.096,
+        "peak_observed_process_RSS_bytes": 448618496,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 28.926,
+        "peak_observed_process_RSS_bytes": 1001275392,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "d8e93a0e4c15b65702af6b53be71a6976180522ccf81f018d2b74a34ede365dd"
+    },
+    {
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "run": "compactD1__parental_zero",
+      "dataset": "parental_zero",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 32,
+      "selected_source_pairs": 0,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [],
+      "STAR_target_junction_count_names": 0,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 0,
+        "unknown_gene_or_malformed_range_tokens": 0,
+        "default_mate_gap_warning_tokens": 0
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 1.547,
+        "peak_observed_process_RSS_bytes": 139374592,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 0.516,
+        "peak_observed_process_RSS_bytes": 5062656,
+        "exit_codes": [
+          1,
+          0
+        ]
+      },
+      "completion_sha256": "be48cabff92827a60a2cb3913e2fde5d40d5789e4743ee738086ff37002fa783"
+    },
+    {
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "run": "compactD1__shortest_anchor",
+      "dataset": "shortest_anchor",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 33,
+      "selected_source_pairs": 1,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [],
+      "STAR_target_junction_count_names": 0,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 0,
+        "unknown_gene_or_malformed_range_tokens": 0,
+        "default_mate_gap_warning_tokens": 0
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.514,
+        "peak_observed_process_RSS_bytes": 1662976,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 0.516,
+        "peak_observed_process_RSS_bytes": 4636672,
+        "exit_codes": [
+          1,
+          0
+        ]
+      },
+      "completion_sha256": "3d8c08e36b96f25087818dab3fcc0d704fc6f084fa7b2f4ba1c415c0f7996dfb"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__strong_original",
+      "dataset": "strong_original",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 36,
+      "selected_source_pairs": 4,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "2",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "GAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAA",
+          "peptide_sequence": "ELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSE",
+          "read_identifiers": "BCR-ABL1-24,BCR-ABL1-12,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.513,
+        "peak_observed_process_RSS_bytes": 1556480,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.911,
+        "peak_observed_process_RSS_bytes": 1001701376,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "ac0b912e1817ae69c09a7bd27cd07e91866497bd150fa44cbc97182bc0d88b26"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__strong_trim_anchor12",
+      "dataset": "strong_trim_anchor12",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 36,
+      "selected_source_pairs": 4,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAA",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSE",
+          "read_identifiers": "BCR-ABL1-24,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.513,
+        "peak_observed_process_RSS_bytes": 1253376,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.447,
+        "peak_observed_process_RSS_bytes": 1002881024,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "578a5da7be5e0fc54818e25adfab729e48089c5bf737df058932c9615e2ae3a7"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__strong_trim_anchor20",
+      "dataset": "strong_trim_anchor20",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 36,
+      "selected_source_pairs": 4,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "7",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAA",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSE",
+          "read_identifiers": "BCR-ABL1-24,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 14.433,
+        "peak_observed_process_RSS_bytes": 447893504,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.98,
+        "peak_observed_process_RSS_bytes": 1003175936,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "a265a000158be6fe1c6b5954498f637dc610801ef1830f76cc1722c56701d86e"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__strong_trim_anchor30",
+      "dataset": "strong_trim_anchor30",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 36,
+      "selected_source_pairs": 4,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "2",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "GAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAA",
+          "peptide_sequence": "ELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSE",
+          "read_identifiers": "BCR-ABL1-24,BCR-ABL1-12,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 1.576,
+        "peak_observed_process_RSS_bytes": 447913984,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.446,
+        "peak_observed_process_RSS_bytes": 1001390080,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "08d891df109bb71861a2e43084ea91c12bec7d26b9052fecb1f69c4606ff7671"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_01_selection_1",
+      "dataset": "support_01_selection_1",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 33,
+      "selected_source_pairs": 1,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-4"
+      ],
+      "STAR_target_junction_count_names": 1,
+      "target_discarded_filters": [
+        "in_vitro"
+      ],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "0",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "7",
+          "confidence": "low",
+          "reading_frame": ".",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": ".",
+          "transcript_id2": ".",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": "in_vitro",
+          "fusion_transcript": ".",
+          "peptide_sequence": ".",
+          "read_identifiers": "."
+        }
+      ],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-4"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.519,
+        "peak_observed_process_RSS_bytes": 2383872,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 30.463,
+        "peak_observed_process_RSS_bytes": 1004077056,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "b229237019f9af3034d0099b4b2aa15fc794d1d7ddf96427442c3fc6f800c100"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_01_selection_2",
+      "dataset": "support_01_selection_2",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 33,
+      "selected_source_pairs": 1,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2"
+      ],
+      "STAR_target_junction_count_names": 1,
+      "target_discarded_filters": [
+        "in_vitro"
+      ],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "0",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "8",
+          "coverage2": "8",
+          "confidence": "low",
+          "reading_frame": ".",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": ".",
+          "transcript_id2": ".",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": "in_vitro",
+          "fusion_transcript": ".",
+          "peptide_sequence": ".",
+          "read_identifiers": "."
+        }
+      ],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.514,
+        "peak_observed_process_RSS_bytes": 1179648,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 28.419,
+        "peak_observed_process_RSS_bytes": 1004077056,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "9a6ced17398b2adab5c72b21fa4ae7dba9f86a4f7bb0e014056b1ae09efa759e"
+    },
+    {
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "run": "compactD1__support_01_selection_3",
+      "dataset": "support_01_selection_3",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 33,
+      "selected_source_pairs": 1,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [],
+      "STAR_target_junction_count_names": 0,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 0,
+        "unknown_gene_or_malformed_range_tokens": 0,
+        "default_mate_gap_warning_tokens": 0
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 2.568,
+        "peak_observed_process_RSS_bytes": 447946752,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 0.517,
+        "peak_observed_process_RSS_bytes": 4734976,
+        "exit_codes": [
+          1,
+          0
+        ]
+      },
+      "completion_sha256": "3da959a710bb7841196afc8191f478b364a886e7fc3b86e673ad1de405fe413a"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_02_selection_1",
+      "dataset": "support_02_selection_1",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 34,
+      "selected_source_pairs": 2,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "AGCTTCTCCCTGACATCCGTGGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTAT",
+          "peptide_sequence": "SFSLTSVELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVAL",
+          "read_identifiers": "BCR-ABL1-2,BCR-ABL1-4"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 1.552,
+        "peak_observed_process_RSS_bytes": 447979520,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 28.894,
+        "peak_observed_process_RSS_bytes": 1004797952,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "51a4e98ee3a4f2e5552ce3b5abf46644334f2e3dc83015e48beb0b66cbfc95e3"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_02_selection_2",
+      "dataset": "support_02_selection_2",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 34,
+      "selected_source_pairs": 2,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTAT",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVAL",
+          "read_identifiers": "BCR-ABL1-2,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 2.086,
+        "peak_observed_process_RSS_bytes": 447942656,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 27.866,
+        "peak_observed_process_RSS_bytes": 1007763456,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "1b37bf26e09ec2e95ac84a29b4a3680d7f81b0311eff779b955a2fb7f0ea78d3"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_02_selection_3",
+      "dataset": "support_02_selection_3",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 34,
+      "selected_source_pairs": 2,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-60"
+      ],
+      "STAR_target_junction_count_names": 1,
+      "target_discarded_filters": [
+        "in_vitro"
+      ],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "0",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "8",
+          "coverage2": "9",
+          "confidence": "low",
+          "reading_frame": ".",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": ".",
+          "transcript_id2": ".",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": "in_vitro",
+          "fusion_transcript": ".",
+          "peptide_sequence": ".",
+          "read_identifiers": "."
+        }
+      ],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-60"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 2.6,
+        "peak_observed_process_RSS_bytes": 447983616,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 27.911,
+        "peak_observed_process_RSS_bytes": 1001635840,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "14f7a806c7c27a827fc01da3e49dc92d0ecc594fa9a12fdc6ad551527ba44885"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_03_selection_1",
+      "dataset": "support_03_selection_1",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 35,
+      "selected_source_pairs": 3,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "2",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "9",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "AGCTTCTCCCTGACATCCGTGGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCTAAGCATAACTAAAG___GTGA",
+          "peptide_sequence": "SFSLTSVELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNTLSITKG",
+          "read_identifiers": "BCR-ABL1-2,BCR-ABL1-28,BCR-ABL1-4"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 2.095,
+        "peak_observed_process_RSS_bytes": 447901696,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 27.88,
+        "peak_observed_process_RSS_bytes": 1009336320,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "cc31bd6273cb060fe4e028552e6eb53a5b4281f6c5410994f62375dfd99d92af"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_03_selection_2",
+      "dataset": "support_03_selection_2",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 35,
+      "selected_source_pairs": 3,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTAT",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVAL",
+          "read_identifiers": "BCR-ABL1-2,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 4.193,
+        "peak_observed_process_RSS_bytes": 447893504,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 27.863,
+        "peak_observed_process_RSS_bytes": 1004584960,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "2b0e0415ba48fc8ee8ac0981b0cd09d2d06c8e2b115ae3047d508f1c8a185f5e"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_03_selection_3",
+      "dataset": "support_03_selection_3",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 35,
+      "selected_source_pairs": 3,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-60"
+      ],
+      "STAR_target_junction_count_names": 1,
+      "target_discarded_filters": [
+        "in_vitro"
+      ],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "0",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "8",
+          "coverage2": "9",
+          "confidence": "low",
+          "reading_frame": ".",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": ".",
+          "transcript_id2": ".",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": "in_vitro",
+          "fusion_transcript": ".",
+          "peptide_sequence": ".",
+          "read_identifiers": "."
+        }
+      ],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-60"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 4.19,
+        "peak_observed_process_RSS_bytes": 447971328,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 27.912,
+        "peak_observed_process_RSS_bytes": 1004716032,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "fad58ab3ecb50aa1369c41e273497442b6cdfe7cffd21c0c4807e4722f8dd1b9"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_05_selection_1",
+      "dataset": "support_05_selection_1",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 37,
+      "selected_source_pairs": 5,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "accepted_support_count_names": 4,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "STAR_target_junction_count_names": 4,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "3",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "11",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "AGCTTCTCCCTGACATCCGTGGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCTAAGCATAACTAAAG___GTGA",
+          "peptide_sequence": "SFSLTSVELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNTLSITKG",
+          "read_identifiers": "BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-28,BCR-ABL1-4"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 3.137,
+        "peak_observed_process_RSS_bytes": 447946752,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 27.867,
+        "peak_observed_process_RSS_bytes": 1009238016,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "ee3094dafda56e90a9a990517188c39481c4a98bf391a1c7e9f9a38e92dc80bd"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_05_selection_2",
+      "dataset": "support_05_selection_2",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 37,
+      "selected_source_pairs": 5,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "2",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "10",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCT",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNT",
+          "read_identifiers": "BCR-ABL1-2,BCR-ABL1-60,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.514,
+        "peak_observed_process_RSS_bytes": 1306624,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 28.937,
+        "peak_observed_process_RSS_bytes": 1009319936,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "93ea45cc830f4216a131455b88dbd08e471babb5864bca47489ec489802079f9"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_05_selection_3",
+      "dataset": "support_05_selection_3",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 37,
+      "selected_source_pairs": 5,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "2",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "10",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "AGCTTCTCCCTGACATCCGTGGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCTAAGCATAACTAAAG___GTGAAAAGCTCCGGG",
+          "peptide_sequence": "SFSLTSVELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNTLSITKGEKLR",
+          "read_identifiers": "BCR-ABL1-60,BCR-ABL1-76,BCR-ABL1-4"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.513,
+        "peak_observed_process_RSS_bytes": 1306624,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.933,
+        "peak_observed_process_RSS_bytes": 1009139712,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "5d87287a1491fe2454be9f9a38d0c55fbee7034e22dace2a283c6cbe1677b8a2"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD1__support_all",
+      "dataset": "support_all",
+      "whole_reference": false,
+      "sparseD": 1,
+      "known_fusion_recovery": true,
+      "input_pairs": 45,
+      "selected_source_pairs": 13,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "accepted_support_count_names": 10,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "STAR_target_junction_count_names": 10,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "3",
+          "split_reads2": "7",
+          "discordant_mates": "0",
+          "coverage1": "12",
+          "coverage2": "15",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "GGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCTAAGCATAACTAAAG___GTGA",
+          "peptide_sequence": "ELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNTLSITKG",
+          "read_identifiers": "BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-28,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-76,BCR-ABL1-12,BCR-ABL1-4,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.514,
+        "peak_observed_process_RSS_bytes": 724992,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.947,
+        "peak_observed_process_RSS_bytes": 1009156096,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "fba138914273705398654e6243679b4890a37853e56096bbdc8e6de59f1cd4f1"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__fixture_all40",
+      "dataset": "fixture_all40",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 40,
+      "selected_source_pairs": 40,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "accepted_support_count_names": 9,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "STAR_target_junction_count_names": 9,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "3",
+          "split_reads2": "6",
+          "discordant_mates": "0",
+          "coverage1": "4",
+          "coverage2": "12",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "GGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCT",
+          "peptide_sequence": "ELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNT",
+          "read_identifiers": "BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-76,BCR-ABL1-12,BCR-ABL1-4,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.515,
+        "peak_observed_process_RSS_bytes": 1359872,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.415,
+        "peak_observed_process_RSS_bytes": 1001472000,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "643c47d61990c206039b07ceae7df89dd6250c4d96b0180c76fa8cb7f2e5521a"
+    },
+    {
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "run": "compactD8__parental_zero",
+      "dataset": "parental_zero",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 32,
+      "selected_source_pairs": 0,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [],
+      "STAR_target_junction_count_names": 0,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 0,
+        "unknown_gene_or_malformed_range_tokens": 0,
+        "default_mate_gap_warning_tokens": 0
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.513,
+        "peak_observed_process_RSS_bytes": 1097728,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 0.518,
+        "peak_observed_process_RSS_bytes": 3850240,
+        "exit_codes": [
+          1,
+          0
+        ]
+      },
+      "completion_sha256": "e4af6e04ecbb35616d28b7d9bb37f784c26a7715ca894b9ed5cc69390f3bff0b"
+    },
+    {
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "run": "compactD8__shortest_anchor",
+      "dataset": "shortest_anchor",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 33,
+      "selected_source_pairs": 1,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [],
+      "STAR_target_junction_count_names": 0,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 0,
+        "unknown_gene_or_malformed_range_tokens": 0,
+        "default_mate_gap_warning_tokens": 0
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.513,
+        "peak_observed_process_RSS_bytes": 1413120,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 0.517,
+        "peak_observed_process_RSS_bytes": 4816896,
+        "exit_codes": [
+          1,
+          0
+        ]
+      },
+      "completion_sha256": "6c5533f29067694b1f66a0e457b02099a8525c1d313ce3a348b1a00a39444669"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__strong_original",
+      "dataset": "strong_original",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 36,
+      "selected_source_pairs": 4,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "2",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "GAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAA",
+          "peptide_sequence": "ELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSE",
+          "read_identifiers": "BCR-ABL1-24,BCR-ABL1-12,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.513,
+        "peak_observed_process_RSS_bytes": 1384448,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.967,
+        "peak_observed_process_RSS_bytes": 1009352704,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "8ec3efda5a50d06e7bfce694340fef0297ee9b44a63bdb65e9cecf981a6fea3a"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__strong_trim_anchor12",
+      "dataset": "strong_trim_anchor12",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 36,
+      "selected_source_pairs": 4,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "11",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAA",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSE",
+          "read_identifiers": "BCR-ABL1-24,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.51,
+        "peak_observed_process_RSS_bytes": 1249280,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 30.491,
+        "peak_observed_process_RSS_bytes": 1009352704,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "f0899028da57b60ec4222a34908ad2fb488e0cd1d0c97c65220f895c2a08cab8"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__strong_trim_anchor20",
+      "dataset": "strong_trim_anchor20",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 36,
+      "selected_source_pairs": 4,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "7",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAA",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSE",
+          "read_identifiers": "BCR-ABL1-24,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.513,
+        "peak_observed_process_RSS_bytes": 1347584,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.919,
+        "peak_observed_process_RSS_bytes": 1009188864,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "9b46a82aca3f3e1e8b5bbafc1c1867004a48a5abbb858db0dcb4edf80688f881"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__strong_trim_anchor30",
+      "dataset": "strong_trim_anchor30",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 36,
+      "selected_source_pairs": 4,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "2",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "GAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAA",
+          "peptide_sequence": "ELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSE",
+          "read_identifiers": "BCR-ABL1-24,BCR-ABL1-12,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.508,
+        "peak_observed_process_RSS_bytes": 1613824,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.959,
+        "peak_observed_process_RSS_bytes": 1001504768,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "cae7333874e1a585cd23edf5059813279cbe809421c2c4d7aceaac7672443437"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_01_selection_1",
+      "dataset": "support_01_selection_1",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 33,
+      "selected_source_pairs": 1,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-4"
+      ],
+      "STAR_target_junction_count_names": 1,
+      "target_discarded_filters": [
+        "in_vitro"
+      ],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "0",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "7",
+          "confidence": "low",
+          "reading_frame": ".",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": ".",
+          "transcript_id2": ".",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": "in_vitro",
+          "fusion_transcript": ".",
+          "peptide_sequence": ".",
+          "read_identifiers": "."
+        }
+      ],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-4"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.516,
+        "peak_observed_process_RSS_bytes": 1347584,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.425,
+        "peak_observed_process_RSS_bytes": 1001373696,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "5d131aeebd50a0c2c3a5759fd21168caf3cd7687e586ba39ce89995403294d86"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_01_selection_2",
+      "dataset": "support_01_selection_2",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 33,
+      "selected_source_pairs": 1,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2"
+      ],
+      "STAR_target_junction_count_names": 1,
+      "target_discarded_filters": [
+        "in_vitro"
+      ],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "0",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "8",
+          "coverage2": "8",
+          "confidence": "low",
+          "reading_frame": ".",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": ".",
+          "transcript_id2": ".",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": "in_vitro",
+          "fusion_transcript": ".",
+          "peptide_sequence": ".",
+          "read_identifiers": "."
+        }
+      ],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.516,
+        "peak_observed_process_RSS_bytes": 1318912,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 28.407,
+        "peak_observed_process_RSS_bytes": 1001504768,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "caa62db8c15b33bb23c1dcb4a667bc8f1e69349f30cb482fc37e2f5ec056d69d"
+    },
+    {
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "run": "compactD8__support_01_selection_3",
+      "dataset": "support_01_selection_3",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 33,
+      "selected_source_pairs": 1,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [],
+      "STAR_target_junction_count_names": 0,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 0,
+        "unknown_gene_or_malformed_range_tokens": 0,
+        "default_mate_gap_warning_tokens": 0
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.515,
+        "peak_observed_process_RSS_bytes": 1347584,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 0.518,
+        "peak_observed_process_RSS_bytes": 4784128,
+        "exit_codes": [
+          1,
+          0
+        ]
+      },
+      "completion_sha256": "d41bb28315f0d93554f70a3010532b5606d239965d30c9f0d2b399a81a3b21f8"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_02_selection_1",
+      "dataset": "support_02_selection_1",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 34,
+      "selected_source_pairs": 2,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "AGCTTCTCCCTGACATCCGTGGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTAT",
+          "peptide_sequence": "SFSLTSVELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVAL",
+          "read_identifiers": "BCR-ABL1-2,BCR-ABL1-4"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 3.13,
+        "peak_observed_process_RSS_bytes": 444194816,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 28.917,
+        "peak_observed_process_RSS_bytes": 1001357312,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "e5f5f31a377a4d654f17da9b34893911363bbf3a2e58617e4bdcf08c5c75d713"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_02_selection_2",
+      "dataset": "support_02_selection_2",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 34,
+      "selected_source_pairs": 2,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTAT",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVAL",
+          "read_identifiers": "BCR-ABL1-2,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.516,
+        "peak_observed_process_RSS_bytes": 1597440,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 27.849,
+        "peak_observed_process_RSS_bytes": 1001422848,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "a9a869f1172ae9d95a3a87a30930e652e566bb84ce9d642c6b99d2f745a08b9a"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_02_selection_3",
+      "dataset": "support_02_selection_3",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 34,
+      "selected_source_pairs": 2,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-60"
+      ],
+      "STAR_target_junction_count_names": 1,
+      "target_discarded_filters": [
+        "in_vitro"
+      ],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "0",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "8",
+          "coverage2": "9",
+          "confidence": "low",
+          "reading_frame": ".",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": ".",
+          "transcript_id2": ".",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": "in_vitro",
+          "fusion_transcript": ".",
+          "peptide_sequence": ".",
+          "read_identifiers": "."
+        }
+      ],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-60"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.51,
+        "peak_observed_process_RSS_bytes": 1478656,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 27.354,
+        "peak_observed_process_RSS_bytes": 1004814336,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "865215952b51bb8444bd9ae1fec57d4e3c8212b8c1657bc3492f445d44670e08"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_03_selection_1",
+      "dataset": "support_03_selection_1",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 35,
+      "selected_source_pairs": 3,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "9",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "AGCTTCTCCCTGACATCCGTGGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTAT",
+          "peptide_sequence": "SFSLTSVELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVAL",
+          "read_identifiers": "BCR-ABL1-2,BCR-ABL1-4"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.514,
+        "peak_observed_process_RSS_bytes": 1306624,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 27.913,
+        "peak_observed_process_RSS_bytes": 1012727808,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "b36de7f101c9019653b73059dc86b9609c805b85a6b8d63c5fa725db8238f407"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_03_selection_2",
+      "dataset": "support_03_selection_2",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 35,
+      "selected_source_pairs": 3,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTAT",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVAL",
+          "read_identifiers": "BCR-ABL1-2,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.515,
+        "peak_observed_process_RSS_bytes": 1552384,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 27.378,
+        "peak_observed_process_RSS_bytes": 1004683264,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "726e02f520f01b60172d8ad0cc08a47e36a1940b12baa492edd0fe48be1a469c"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_03_selection_3",
+      "dataset": "support_03_selection_3",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 35,
+      "selected_source_pairs": 3,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-60"
+      ],
+      "STAR_target_junction_count_names": 1,
+      "target_discarded_filters": [
+        "in_vitro"
+      ],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "0",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "8",
+          "coverage2": "9",
+          "confidence": "low",
+          "reading_frame": ".",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": ".",
+          "transcript_id2": ".",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": "in_vitro",
+          "fusion_transcript": ".",
+          "peptide_sequence": ".",
+          "read_identifiers": "."
+        }
+      ],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-60"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.512,
+        "peak_observed_process_RSS_bytes": 1150976,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 28.951,
+        "peak_observed_process_RSS_bytes": 1001340928,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "a8b67f117dd456772b1130d2609866a8399d5723b868a41fb46145125912163f"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_05_selection_1",
+      "dataset": "support_05_selection_1",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 37,
+      "selected_source_pairs": 5,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "2",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "11",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "AGCTTCTCCCTGACATCCGTGGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTAT",
+          "peptide_sequence": "SFSLTSVELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVAL",
+          "read_identifiers": "BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-4"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-2",
+        "BCR-ABL1-4"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.514,
+        "peak_observed_process_RSS_bytes": 1572864,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 28.419,
+        "peak_observed_process_RSS_bytes": 1012531200,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "8a3d50389b7a49526aab79cfae27144e18fd3ffd7c4772b3357bec282535379b"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_05_selection_2",
+      "dataset": "support_05_selection_2",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 37,
+      "selected_source_pairs": 5,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "2",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "10",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCT",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNT",
+          "read_identifiers": "BCR-ABL1-2,BCR-ABL1-60,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-2",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.514,
+        "peak_observed_process_RSS_bytes": 1675264,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.411,
+        "peak_observed_process_RSS_bytes": 1001357312,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "80ff59bee89fd93947aac4d687644941fa0895a08daa314ce4b58ddab1ebf753"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_05_selection_3",
+      "dataset": "support_05_selection_3",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 37,
+      "selected_source_pairs": 5,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "2",
+          "discordant_mates": "0",
+          "coverage1": "9",
+          "coverage2": "10",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "AGCTTCTCCCTGACATCCGTGGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCTAAGCATAACTAAAG___GTGAAAAGCTCCGGG",
+          "peptide_sequence": "SFSLTSVELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNTLSITKGEKLR",
+          "read_identifiers": "BCR-ABL1-60,BCR-ABL1-76,BCR-ABL1-4"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-4",
+        "BCR-ABL1-60",
+        "BCR-ABL1-76"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.513,
+        "peak_observed_process_RSS_bytes": 1294336,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 29.906,
+        "peak_observed_process_RSS_bytes": 1009565696,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "9e432c97502c39cc75b6dec2aeadc1d2b7c2e2b920cac634a01d4bcbb1cf9012"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "compactD8__support_all",
+      "dataset": "support_all",
+      "whole_reference": false,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 45,
+      "selected_source_pairs": 13,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "accepted_support_count_names": 9,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "STAR_target_junction_count_names": 9,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "3",
+          "split_reads2": "6",
+          "discordant_mates": "0",
+          "coverage1": "12",
+          "coverage2": "15",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "GGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCT",
+          "peptide_sequence": "ELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNT",
+          "read_identifiers": "BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-76,BCR-ABL1-12,BCR-ABL1-4,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 16095868,
+        "unknown_gene_or_malformed_range_tokens": 15968502,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 0.514,
+        "peak_observed_process_RSS_bytes": 122880,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 28.929,
+        "peak_observed_process_RSS_bytes": 1001488384,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "c8cf7c3f30e202dc57655a17c9f65c756161ec683a9b682646bf02420be533fd"
+    },
+    {
+      "caller_outcome": "no_chimeric_input; stock Arriba exit1, no call table generated",
+      "run": "fullD8__parental_zero",
+      "dataset": "parental_zero",
+      "whole_reference": true,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 32,
+      "selected_source_pairs": 0,
+      "target_accepted": false,
+      "target_confidence": [],
+      "accepted_support_names": [],
+      "accepted_support_count_names": 0,
+      "STAR_target_junction_names": [],
+      "STAR_target_junction_count_names": 0,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 0,
+        "unknown_gene_or_malformed_range_tokens": 0,
+        "default_mate_gap_warning_tokens": 0
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 7.704,
+        "peak_observed_process_RSS_bytes": 7432699904,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 12.882,
+        "peak_observed_process_RSS_bytes": 3557883904,
+        "exit_codes": [
+          1,
+          0
+        ]
+      },
+      "completion_sha256": "f77f3b64e6e3d93ec243e5486c754a97dfa9fbd702e8548d06c1fe4fefedc424"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "fullD8__strong_original",
+      "dataset": "strong_original",
+      "whole_reference": true,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 36,
+      "selected_source_pairs": 4,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 3,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 3,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "2",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "GAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAA",
+          "peptide_sequence": "ELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSE",
+          "read_identifiers": "BCR-ABL1-24,BCR-ABL1-12,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-12",
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 3,
+        "unknown_gene_or_malformed_range_tokens": 0,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 3.6,
+        "peak_observed_process_RSS_bytes": 7451078656,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 20.095,
+        "peak_observed_process_RSS_bytes": 4590747648,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "bd085d2e10d776658e929f49380322e4c704068330097c65ab45d79721094771"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "fullD8__strong_trim_anchor12",
+      "dataset": "strong_trim_anchor12",
+      "whole_reference": true,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 36,
+      "selected_source_pairs": 4,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "accepted_support_count_names": 2,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "STAR_target_junction_count_names": 2,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "1",
+          "split_reads2": "1",
+          "discordant_mates": "0",
+          "coverage1": "10",
+          "coverage2": "8",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "CATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAA",
+          "peptide_sequence": "IPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSE",
+          "read_identifiers": "BCR-ABL1-24,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-24",
+        "BCR-ABL1-66"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 3,
+        "unknown_gene_or_malformed_range_tokens": 0,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 3.593,
+        "peak_observed_process_RSS_bytes": 7502901248,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 20.107,
+        "peak_observed_process_RSS_bytes": 4597661696,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "c6caef091488166d9474342957bbf64be0b85e012619ef1f61c906d5861a1d3a"
+    },
+    {
+      "caller_outcome": "completed_with_call_tables",
+      "run": "fullD8__support_all",
+      "dataset": "support_all",
+      "whole_reference": true,
+      "sparseD": 8,
+      "known_fusion_recovery": true,
+      "input_pairs": 45,
+      "selected_source_pairs": 13,
+      "target_accepted": true,
+      "target_confidence": [
+        "high"
+      ],
+      "accepted_support_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "accepted_support_count_names": 10,
+      "STAR_target_junction_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "STAR_target_junction_count_names": 10,
+      "target_discarded_filters": [],
+      "accepted_target_rows": [
+        {
+          "#gene1": "BCR",
+          "gene2": "ABL1",
+          "strand1(gene/fusion)": "+/+",
+          "strand2(gene/fusion)": "+/+",
+          "breakpoint1": "chr22:23290413",
+          "breakpoint2": "chr9:130854064",
+          "site1": "CDS/splice-site",
+          "site2": "CDS/splice-site",
+          "type": "translocation",
+          "split_reads1": "4",
+          "split_reads2": "6",
+          "discordant_mates": "0",
+          "coverage1": "12",
+          "coverage2": "15",
+          "confidence": "high",
+          "reading_frame": "in-frame",
+          "tags": "Mitelman",
+          "retained_protein_domains": "Bcr-Abl_oncoprotein_oligomerisation_domain(100%),C2_domain(16%),PH_domain(100%),RhoGEF_domain(100%)|F-actin_binding(100%),Protein_kinase_domain(100%),SH2_domain(100%),SH3_domain(100%)",
+          "closest_genomic_breakpoint1": ".",
+          "closest_genomic_breakpoint2": ".",
+          "gene_id1": "ENSG00000186716.21",
+          "gene_id2": "ENSG00000097007.19",
+          "transcript_id1": "ENST00000305877.13",
+          "transcript_id2": "ENST00000372348.7",
+          "direction1": "downstream",
+          "direction2": "upstream",
+          "filters": ".",
+          "fusion_transcript": "TCCCTGACATCCGTGGAGCTGCAGATGCTGACCAACTCGTGTGTGAAACTCCAGACTGTCCACAGCATTCCGCTGACCATCAATAAGGAAG___ATGATGAGTCTCCGGGGCTCTATGGGTTTCTGAATGTCATCGTCCACTCAGCCACTGGATTTAAGCAGAGTTCAA|AAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAGGGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAAAATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCT",
+          "peptide_sequence": "SLTSVELQMLTNSCVKLQTVHSIPLTINKEDDESPGLYGFLNVIVHSATGFKQSS|kALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNT",
+          "read_identifiers": "BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-76,BCR-ABL1-12,BCR-ABL1-18,BCR-ABL1-4,BCR-ABL1-66"
+        }
+      ],
+      "discarded_target_rows": [],
+      "other_accepted_rows": [],
+      "all_chimeric_names": [
+        "BCR-ABL1-10",
+        "BCR-ABL1-12",
+        "BCR-ABL1-18",
+        "BCR-ABL1-2",
+        "BCR-ABL1-24",
+        "BCR-ABL1-28",
+        "BCR-ABL1-4",
+        "BCR-ABL1-58",
+        "BCR-ABL1-60",
+        "BCR-ABL1-66",
+        "BCR-ABL1-76"
+      ],
+      "malformed_warning_lines": [],
+      "warning_categories": {
+        "warning_tokens": 3,
+        "unknown_gene_or_malformed_range_tokens": 0,
+        "default_mate_gap_warning_tokens": 1
+      },
+      "STAR_resources": {
+        "elapsed_seconds": 7.705,
+        "peak_observed_process_RSS_bytes": 6979698688,
+        "exit_codes": [
+          0
+        ]
+      },
+      "Arriba_resources": {
+        "elapsed_seconds": 20.654,
+        "peak_observed_process_RSS_bytes": 4596940800,
+        "exit_codes": [
+          0,
+          0
+        ]
+      },
+      "completion_sha256": "0c8dc843fcded19b91be131a16c8fb91f397e096314bfa0c64f5765162725a61"
+    }
+  ],
+  "paired_compact_comparisons": [
+    {
+      "dataset": "parental_zero",
+      "accepted_D1": false,
+      "accepted_D8": false,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "fixture_all40",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_01_selection_1",
+      "accepted_D1": false,
+      "accepted_D8": false,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_01_selection_2",
+      "accepted_D1": false,
+      "accepted_D8": false,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_01_selection_3",
+      "accepted_D1": false,
+      "accepted_D8": false,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_02_selection_1",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_02_selection_2",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_02_selection_3",
+      "accepted_D1": false,
+      "accepted_D8": false,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_03_selection_1",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_03_selection_2",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_03_selection_3",
+      "accepted_D1": false,
+      "accepted_D8": false,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_05_selection_1",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_05_selection_2",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_05_selection_3",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "support_all",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [
+        "BCR-ABL1-28"
+      ],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "shortest_anchor",
+      "accepted_D1": false,
+      "accepted_D8": false,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "strong_original",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "strong_trim_anchor12",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "strong_trim_anchor20",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    },
+    {
+      "dataset": "strong_trim_anchor30",
+      "accepted_D1": true,
+      "accepted_D8": true,
+      "STAR_names_only_D1": [],
+      "STAR_names_only_D8": [],
+      "Arriba_names_only_D1": [],
+      "Arriba_names_only_D8": []
+    }
+  ],
+  "interpretation_limits": [
+    "Selected subsets overlap and share one synthetic fixture; not independent biological replicates.",
+    "Ungapped sequence-derived eligibility threshold is a benchmark definition, not all possible true fragment truth.",
+    "Compact reference lacks competing loci; full-reference D8 transfer checks address only four prespecified cases.",
+    "Known BCR::ABL1 prior stays enabled except one declared no-prior comparison.",
+    "Trimming also changes read length and mate geometry, so effects cannot be assigned solely to anchor length.",
+    "Synthetic parental controls reuse fixture quality strings and sample a tiny portion of normal transcript diversity.",
+    "No patient data, new clinical claims, whole-RNA rerun or changes to earlier outputs.",
+    "The fixed32-parent synthetic background cannot calibrate caller confidence, e-values, recovery thresholds, RNA abundance or detection limits for the23million-pair patient library.",
+    "Per-name states describe observed evidence, not a causal explanation of every rejection. Arriba filter labels apply to candidate hypotheses; no per-read biological false-negative rate is inferred.",
+    "STAR junction coordinates and Arriba gene breakpoints use different boundary conventions; exact conversions are declared in the parser."
+  ]
+}

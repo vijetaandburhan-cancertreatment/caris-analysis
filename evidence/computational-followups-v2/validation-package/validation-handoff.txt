@@ -1,0 +1,87 @@
+BAP1 and LATS research validation handoff
+4 October 2026 | Sequence-grounded laboratory discussion package
+
+This package answers three separate questions: is the tumor sequence real and tumor-specific; is a BAP1-derived peptide actually displayed and recognized; and do the LATS changes alter Hippo-pathway function? The first can be addressed now with orthogonal DNA/RNA assays. The latter two remain experimental hypotheses. These files are sufficient to scope assays with a qualified laboratory; they are not clinically validated primers, a synthesis order, or evidence of therapeutic efficacy.
+
+The strongest immediate antigen experiment is the BAP1 deletion and its overlapping candidate peptides IEERKGLYL and EERKGLYL with HLA-B*50:01. They represent one mutated sequence, not two independent targets. LATS1 is a separate sequence-confirmation priority: its insertion predicts an immediate stop at amino acid 127 and no new amino-acid tail. LATS2 Gly960Arg has substantial local DNA/RNA support but unknown functional significance.
+
+1. Exact variant definitions
+
+All genomic alleles use GRCh38 and the forward genomic strand. All three genes are on the reverse strand. Transcript HGVS and protein consequences are conditional on the named RefSeq transcript and the specified single edit. Parentheses denote predicted protein effects.
+
+BAP1: chr3:52408550 CGCCGGGACCGG>C, equivalent to NC_000003.12:g.52408551_52408561del; NM_004656.3:c.168_178del; NP_004647.1:p.(Arg57LysfsTer8). Deleted transcript sequence: CCGGTCCCGGC. Reference protein: 729 amino acids. Conditional product: 56 unchanged residues followed by KGLYLGG, then a stop, for 63 amino acids total. The source report's c.168_178del11 describes the same deletion; the sequence file uses the explicit versioned reference.
+
+LATS1: chr6:149695191 T>TA, equivalent to NC_000006.12:g.149695192dup; NM_004690.4:c.378dup; NP_004681.1:p.(Asn127Ter). Transcript insertion is T. Adjacent equivalent insertion representations are resolved to the transcript 3-prime-most c.378dup. The genomic VCF representation is retained to match the original read audit. The 1-bp insertion changes the frame but immediately creates a stop; 126 unchanged amino acids remain, compared with a 1,130-amino-acid reference. Calling this a long novel frameshift tail would be wrong.
+
+LATS2: chr13:20975259 C>T; NC_000013.11:g.20975259C>T; NM_014572.3:c.2878G>A; NP_055387.2:p.(Gly960Arg). Both reference and conditional mutant proteins have 1,088 amino acids. This missense change has not been shown here to cause loss of function, Hippo activation, or drug sensitivity.
+
+New independent sequence checks matched the full LATS1 and LATS2 RefSeq coding sequences to the previous GRCh38/GENCODE37 genomic reconstruction, excluding the normal terminal stop codon in the GENCODE CDS. A separate genomic edit and strand reversal reproduced each transcript edit. The BAP1 target exon matches RefSeq and GRCh38, and each supplied mutant peptide nucleotide window translates exactly as labelled. See sequence-checks.json and variants.tsv. Public RefSeq sources are [1-3].
+
+2. What the existing reads establish
+
+The counts below are exact local haplotypes, requiring each read to span the tested sequence with mapping/base-quality filters and exclusion of marked duplicate, secondary, supplementary, failed-QC and unmapped reads. Paired reads are collapsed by read group plus query name. A 'fragment' here is not a UMI-confirmed independent original molecule. Forward/reverse counts describe read alignments, so their sum can exceed the collapsed fragment count. Independent software reanalysis of the same sample is not orthogonal clinical validation.
+
+BAP1 IEERKGLYL window: DNA 691 deletion / 517 reference / 19 other fragments; RNA 241 deletion / 50 reference / 13 other. Deletion reads are supported on both orientations: DNA 566 forward and 517 reverse; RNA 206 forward and 204 reverse. No discordant fragment in this window.
+BAP1 EERKGLYL window: DNA 693 deletion / 541 reference / 15 other; RNA 245 deletion / 52 reference / 10 other. No discordant fragment in this window.
+BAP1 extended sequence through the actual predicted stop: DNA 594 deletion / 408 reference / 18 other / 1 discordant; RNA 231 deletion / 42 reference / 15 other / 1 discordant. This supports the local termination context, not translation of a stable protein.
+LATS1 exact local insertion haplotype: DNA 23 insertion / 16 reference fragments; RNA 4 insertion / 2 reference fragments. The RNA observation is low-depth. Independent recount agrees; alternate reads occurred in both orientations.
+LATS2 exact local missense haplotype: DNA 79 alternate / 38 reference / 2 other fragments; RNA 44 alternate / 5 reference fragments. Independent recount agrees; alternate reads occurred in both orientations.
+
+BAP1 local RNA splice evidence also supports inclusion of the deletion-bearing exon: 24 fragments support both surrounding normal exon junctions and the deletion. A very small exon-skipping signal and minor discordant sequences remain unresolved. Neither the splice check nor short-read expression proves a complete isoform, canonical translation initiation, stable protein abundance, peptide presentation, or tumor-specificity. Early termination and RNA degradation/alternative initiation remain relevant. Full counts and scope are in read-support.tsv and BAP1-splice-evidence.tsv.
+
+3. BAP1 peptide and HLA controls
+
+Candidate 9-mer: IEERKGLYL, conditional mutant amino acids 53-61. Same-position reference control: IEERRSRRK.
+Candidate 8-mer: EERKGLYL, conditional mutant amino acids 54-61. Same-position reference control: EERRSRRK.
+Natural short context: FKWIEERKGLYLGG followed immediately by a stop. Only GG follows either candidate before termination. Do not append an artificial normal BAP1 tail or linker and then treat the result as native processing.
+
+For HLA-B*50:01, pinned MHCflurry model release 2.3.0 predicts 303.7 nM / percentile 0.777 for the 9-mer and 364.0 nM / percentile 0.847 for the 8-mer. Corresponding reference peptides predict 18,255 and 12,868 nM. These are fixed-allele comparisons, not experimental measurements. Percentiles and presentation scores are not probabilities of presentation, immune response, or treatment benefit. The prior model-release comparison is correlated model sensitivity analysis, not an independent assay. Model provenance is included [4].
+
+Tumor-derived class-I calls agree with Caris: A*02:01/A*26:01, B*50:01/B*52:01, C*06:02/C*12:02. Confirm high-resolution HLA from normal blood before committing to allele-specific reagents. A negative HLA-A loss-of-heterozygosity result does not establish retention or surface display of B*50:01. Confirm tumor HLA-I/B2M expression and B*50:01 retention/expression where technically possible. The class-II calls in HLA-research-calls.tsv are research inferences; this base package does not nominate a validated class-II epitope.
+
+The current reference-control panel contains all 31 distinct GENCODE50 human reference 8-mers two substitutions from EERKGLYL. No exact or one-substitution 8-mer was found; for IEERKGLYL no exact, one- or two-substitution equal-length 9-mer was found. GENCODE37 had 24 of those 8-mer controls; GENCODE50 added seven. Reference presence is not proof of expression in healthy tissue or natural HLA presentation. The scan does not cover all human variation, other peptide lengths, gapped similarities, noncanonical translation or modifications.
+
+Seven controls predict stronger B*50:01 binding than EERKGLYL in model 2.3.0; 14 predict below 500 nM. Examples include GERKGLVL (115 nM), GERKGLSL (156 nM), KERKGLEL (182 nM), EERKLLSL (238 nM), EEKKGLKL (264 nM), EERSGLQL (334 nM), and LEREGLYL (338 nM). This is a reason to test candidate TCR specificity, not evidence that any cross-reactivity actually occurs. All 31 controls, example transcript origins and both model releases are supplied. Do not promote these predicted binders to validated positive controls.
+
+4. Practical experimental sequence and interpretation
+
+First, confirm identity and sequence. Use a second tumor DNA extraction or independently prepared library, plus matched normal blood, to confirm all three events. Prefer an orthogonal targeted assay with sequencing across the full variant and flanks; require both orientations and explicit reference/alternate controls. For LATS1, distinguish the one-base insertion from alignment shifts and PCR stutter. For BAP1, verify the entire 11-bp deletion and flanking peptide coding region. For LATS2, quantify the SNV and inspect local context. A laboratory may use amplicon NGS, validated digital PCR or bidirectional Sanger as appropriate to DNA quality and allele fraction; a negative Sanger result alone should not overrule a lower-frequency event beyond that assay's validated sensitivity.
+
+Use the 400-bp-plus reference/alternate genomic windows to design assays, not as primers. The laboratory must check whole-genome specificity, polymorphisms under primer/probe sites, indel allele dropout, amplicon length appropriate to sample quality, interference, and validated limits of detection. Include extraction blanks, no-template controls, independently characterized wild-type DNA, positive variant controls, and a dilution series appropriate to the assay. Repeating PCR from the same DNA alone does not exclude a pre-existing sample artefact. Report variant counts, allele fraction, quality metrics and exact coordinate/transcript nomenclature. No primer or probe sequence in this package has clinical validation because no primer/probe oligos are supplied.
+
+Second, confirm expressed sequence and antigen processing. RT-PCR with sequencing across BAP1's deletion and adjacent exon junctions can test the expressed local haplotype; use no-RT and reference controls. For LATS1, obtain stronger RNA confirmation before using the low-depth RNA observation mechanistically. Check expression and protein with assays whose antibody epitopes can distinguish the expected truncation; a lost C-terminal epitope does not prove the short mutant peptide was produced. Preserve clinically necessary diagnostic material; use available material and laboratory-approved aliquots rather than assuming a new biopsy is needed.
+
+For BAP1, measure candidate binding/stability to B*50:01 alongside both reference counterparts, a laboratory-validated B*50:01 binder and a validated negative ligand. Then ask whether endogenous processing yields the candidate: use HLA immunoprecipitation/targeted mass spectrometry where sample permits, with synthetic labelled standards and retention-time/fragment-ion confirmation. Alternatively or additionally use allele-defined cells expressing the native mutant context versus reference context. Demonstration in an overexpression model is useful but weaker than presentation in the patient's tumor. Native splice/termination context matters; an artificial minigene can bypass RNA surveillance or create processing artefacts. Binding, natural processing and T-cell recognition are separate evidence gates [5-6].
+
+Third, if a reactive T-cell population or TCR is obtained, test matched mutant/reference titrations, peptide-free and irrelevant-peptide conditions, HLA-B*50:01-positive versus mismatched/knockout targets, and rescue where appropriate. Measure both activation and killing of endogenously expressing targets; peptide-pulsed target recognition alone bypasses processing. Test all 31 reference-neighbor peptides against the same TCR at matched concentrations and suitable dose ranges, then investigate endogenous source expression/presentation for any reacting control. Use independent biological replicates and prespecified laboratory acceptance criteria. Any candidate moving toward therapy needs a broader healthy-cell/off-target assessment; the 31-peptide panel is a focused starting set, not a comprehensive safety certificate.
+
+5. LATS function and decisions after confirmation
+
+If LATS1 is confirmed, the question is whether this alteration reduces functional LATS1 in this tumor and whether the remaining allele or other isoforms compensate. Assess allele-specific copy number/retention, transcript use and protein abundance. The early-stop sequence alone does not prove biallelic loss. LATS2 Gly960Arg lies in the kinase-domain region but is not established here as damaging [2]. Do not combine these two observations into proven Hippo-pathway activation.
+
+A practical functional comparison is reference versus exact mutant expression at comparable levels, including empty vector, a laboratory-validated loss-of-function control and reference rescue. Where feasible, an isogenic endogenous edit is more informative than overexpression. Relevant orthogonal readouts include LATS kinase activity, YAP/TAZ localization, regulatory phosphorylation and TEAD-reporter/target-gene output, with cell-state controls. Concordant loss of function and rescue would strengthen causality. An in-vitro pathway response still does not establish benefit from a TEAD inhibitor in this patient. These are assay-design considerations; the receiving laboratory should specify the model, reagents, thresholds, replication and acceptable sample requirements [7].
+
+Matched normal is a priority for all three variants. If an alteration appears in normal tissue, stop calling it a tumor-specific neoantigen and obtain appropriate genetics review; BAP1 particularly warrants attention. Tumor allele fraction alone cannot distinguish germline from somatic status or prove clonality. Compare an already available second tumor specimen if practical to determine whether the target is shared across disease sites. Neither that comparison nor new tissue collection should be assumed to be required before standard cancer care proceeds.
+
+The first laboratory reply should state: which DNA/RNA confirmation assays are available; whether B*50:01 binding and endogenous-presentation assays are available; whether tumor material or an engineered model is feasible; which quantities/formats are needed; which controls and acceptance criteria will be used; and a realistic timeline. A positive sequence result advances an experiment. Only positive endogenous presentation plus appropriate T-cell recognition advances an antigen claim. Negative results should be interpreted with assay sensitivity and positive-control performance before abandoning or advancing a target.
+
+Package guide
+variants.tsv: exact versioned alleles and conditional consequences.
+sequence-windows.tsv plus FASTA files: genomic forward-strand, transcript-sense and protein windows; no designed oligos. Transcript sequences use DNA alphabet (T), not RNA (U).
+edited-reference-cds.fasta: full reference CDS spans with the specified edit only. Sequence after an early stop is untranslated under the canonical-start model; these are not ready-to-synthesize constructs or fully phased patient transcripts.
+BAP1-peptide-nucleotide-haplotypes.fasta: exact strand-correct peptide nucleotide windows, including real termination context.
+BAP1-peptides-and-controls.tsv/.fasta: two candidates, two same-position reference controls, all 31 near-self controls; scores remain predictions.
+read-support.tsv / BAP1-splice-evidence.tsv / evidence/: traceable read evidence and independent audits.
+HLA-research-calls.tsv: inferred calls with method comparisons, not a clinical normal-blood HLA report.
+sequence-checks.json / source-manifest.json / checksums.sha256: reproducibility and integrity.
+
+Sources and provenance
+[1] NCBI RefSeq BAP1 NM_004656.3: https://www.ncbi.nlm.nih.gov/nuccore/NM_004656.3
+[2] NCBI RefSeq LATS2 NM_014572.3 and gene/domain annotation: https://www.ncbi.nlm.nih.gov/nuccore/NM_014572.3 ; https://www.ncbi.nlm.nih.gov/gene/26524
+[3] NCBI RefSeq LATS1 NM_004690.4: https://www.ncbi.nlm.nih.gov/nuccore/NM_004690.4
+[4] MHCflurry scoring documentation: https://openvax.github.io/mhcflurry/commandline_tutorial.html ; https://openvax.github.io/mhcflurry/shared_percent_rank_transforms.html
+[5] Systematic discovery of neoepitope-HLA pairs for neoantigens shared among patients and tumor types. Nature Biotechnology (2024): https://www.nature.com/articles/s41587-023-01945-y
+[6] Identification of tumor antigens with immunopeptidomics. Nature Biotechnology (2022): https://www.nature.com/articles/s41587-021-01038-8
+[7] T851I mutation of human large tumor suppressor 1 disrupts its kinase activity and tumor-suppressor functions (2020; methodological precedent for a different variant, not evidence for these variants): https://pubmed.ncbi.nlm.nih.gov/33141042/
+
+All patient-specific findings are derived from the existing Caris-focused local evidence files identified by hash in source-manifest.json. No new patient sequence was uploaded to a public service. No new whole-genome/proteome computation was performed for this handoff. No external laboratory has yet validated the proposed experimental claims.

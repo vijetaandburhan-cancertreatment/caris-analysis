@@ -1,0 +1,20 @@
+{
+  "checked": "2026-10-06",
+  "archives": [
+    {
+      "archive": "Caris-computational-followups-2026-10-05-v2.zip",
+      "verified_file_count": 947,
+      "all_bytes_match_archive": true
+    },
+    {
+      "archive": "Caris-population-panel-evidence-2026-10-05.zip",
+      "verified_file_count": 149,
+      "all_bytes_match_archive": true
+    },
+    {
+      "archive": "Caris-final-alignment-comparison-evidence-2026-10-05.zip",
+      "verified_file_count": 80,
+      "all_bytes_match_archive": true
+    }
+  ]
+}

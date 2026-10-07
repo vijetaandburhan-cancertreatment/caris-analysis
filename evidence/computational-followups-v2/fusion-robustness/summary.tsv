@@ -1,0 +1,21 @@
+condition	D1_accepted	D8_accepted	D1_support_names	D8_support_names	D1_only	D8_only
+parental_zero	False	False				
+fixture_all40	True	True	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-28,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	BCR-ABL1-28	
+support_01_selection_1	False	False				
+support_01_selection_2	False	False				
+support_01_selection_3	False	False				
+support_02_selection_1	True	True	BCR-ABL1-2,BCR-ABL1-4	BCR-ABL1-2,BCR-ABL1-4		
+support_02_selection_2	True	True	BCR-ABL1-2,BCR-ABL1-66	BCR-ABL1-2,BCR-ABL1-66		
+support_02_selection_3	False	False				
+support_03_selection_1	True	True	BCR-ABL1-2,BCR-ABL1-28,BCR-ABL1-4	BCR-ABL1-2,BCR-ABL1-4	BCR-ABL1-28	
+support_03_selection_2	True	True	BCR-ABL1-2,BCR-ABL1-66	BCR-ABL1-2,BCR-ABL1-66		
+support_03_selection_3	False	False				
+support_05_selection_1	True	True	BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-28,BCR-ABL1-4	BCR-ABL1-10,BCR-ABL1-2,BCR-ABL1-4	BCR-ABL1-28	
+support_05_selection_2	True	True	BCR-ABL1-2,BCR-ABL1-60,BCR-ABL1-66	BCR-ABL1-2,BCR-ABL1-60,BCR-ABL1-66		
+support_05_selection_3	True	True	BCR-ABL1-4,BCR-ABL1-60,BCR-ABL1-76	BCR-ABL1-4,BCR-ABL1-60,BCR-ABL1-76		
+support_all	True	True	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-28,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	BCR-ABL1-10,BCR-ABL1-12,BCR-ABL1-2,BCR-ABL1-24,BCR-ABL1-4,BCR-ABL1-58,BCR-ABL1-60,BCR-ABL1-66,BCR-ABL1-76	BCR-ABL1-28	
+shortest_anchor	False	False				
+strong_original	True	True	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66		
+strong_trim_anchor12	True	True	BCR-ABL1-24,BCR-ABL1-66	BCR-ABL1-24,BCR-ABL1-66		
+strong_trim_anchor20	True	True	BCR-ABL1-24,BCR-ABL1-66	BCR-ABL1-24,BCR-ABL1-66		
+strong_trim_anchor30	True	True	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66	BCR-ABL1-12,BCR-ABL1-24,BCR-ABL1-66		

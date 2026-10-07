@@ -1,0 +1,89 @@
+{
+  "status": "PASS for defined numerical execution checks; not biological validation",
+  "v2": {
+    "script_sha256": "ff066456b3edc9af84fa9c7ce47d18d3311577a1ff56e80bea164e5c017e8f52",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "torch": "2.14.1",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "rows": 32,
+    "elapsed_seconds": 6.628805160522461,
+    "peak_rss_bytes": 496107520,
+    "batch_size": 32,
+    "library": "None",
+    "network_blocked": true,
+    "model_dir": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/work/oct4-followup/hla-II/CapHLA",
+    "predeclared_max_absolute_tolerance": 1e-05,
+    "controls": {
+      "presentation_score": {
+        "max_absolute_error": 3.8870925900269526e-07,
+        "rmse": 8.46709727190509e-08,
+        "passed": true
+      },
+      "affinity_score": {
+        "max_absolute_error": 2.3813762664581795e-07,
+        "rmse": 8.616068355568495e-08,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  "v1": {
+    "script_sha256": "ff066456b3edc9af84fa9c7ce47d18d3311577a1ff56e80bea164e5c017e8f52",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "torch": "2.14.1",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "rows": 100,
+    "elapsed_seconds": 21.27792000770569,
+    "peak_rss_bytes": 515571712,
+    "batch_size": 32,
+    "library": "work/oct4-followup/hla-II/CapHLA/HLA_library.csv",
+    "network_blocked": true,
+    "model_dir": "work/oct4-followup/hla-II/CapHLA-v1",
+    "predeclared_max_absolute_tolerance": 1e-05,
+    "controls": {
+      "presentation_score": {
+        "max_absolute_error": 4.065505218586729e-07,
+        "rmse": 1.0254946212025565e-07,
+        "passed": true
+      },
+      "affinity_score": {
+        "max_absolute_error": 2.361918640114702e-07,
+        "rmse": 7.123132334616931e-08,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  "v1_classII_control_rows": 26,
+  "v1_classII_control_loci": "DP heterodimers only; no DR/DQ published classII example in bundled table",
+  "v1_classII_max_absolute_errors": {
+    "presentation_score": 4.100000000062387e-07,
+    "affinity_score": 1.0000000000287557e-07
+  },
+  "v1_mapping_repair": "Original v1 HLA_library.csv contains allele names only although v1 code expects MHC pseudo-seq. Official v2 mapping used without invented/imputed residues. All100 released v1 scores including26DP rows reproduce. Model architectures and utils are identical Gitblob hashes between releases; weights differ and are separately identified.",
+  "legacy_failure_retained": "DeepSeqPanII max errors0.02152318/0.02581608 remain unresolved; no patient scores ever made with it. Alternative model chosen because public regression passes, not because of patient result.",
+  "allele_support_limit": "All9requested exact identifiers exist in both model libraries, but per-allele training sample counts cannot be verified from files available in either repository tree. ClassII RNA calls are exploratory; DRAassumed; all4DQcombinations unphased; DQA1*05:01 model pseudosequences contain1X retained exactly.",
+  "source_pins": [
+    {
+      "version": "v1",
+      "commit": "a17016fae96eae81bd710384fa288c17e84d2d3d",
+      "date": "2024-12-22T08:19:43Z",
+      "message": "version 1.0"
+    },
+    {
+      "version": "v2",
+      "commit": "33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831",
+      "date": "2025-11-16T11:42:31Z",
+      "message": "Create LICENSE"
+    }
+  ],
+  "source_URLs": [
+    "https://github.com/changyunjian/CapHLA",
+    "https://doi.org/10.1093/bib/bbae595",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11650860/"
+  ],
+  "license": "Current official repository MIT, full license retained. Inference entirely local.",
+  "final_wrapper_sha256_matches_patient_runs": true
+}

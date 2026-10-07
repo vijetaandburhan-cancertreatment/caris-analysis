@@ -1,0 +1,25 @@
+{
+  "completed_utc": "2026-10-05T07:13:18.494106+00:00",
+  "prespecified_plan_sha256": "e0d8b1961d784b19a59ce568ccc2bfab4af428de1d25e41e1b8636eb5b8bea29",
+  "MAPQ60_amendment_sha256": "1689f4a287a081e9ffc1e415c50753f3e0531645ee83daa22c5493ff807cdaf4",
+  "parent_frozen_design_sha256": "90a153f630375103363792037618d93a864b01bad029575f36d6a3a382ee0bfa",
+  "independent_all_site_sensitivity_results_sha256": "ce5004c4412ce9f34906eb84c65815f868decd014675301446b047b27fa947d3",
+  "input_BAMs": {
+    "DNA": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/DNA_TN26-279853.bam",
+      "size": 9325653547,
+      "mtime_ns": 1790881940014668787
+    },
+    "RNA": {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853.bam",
+      "size": 2835547302,
+      "mtime_ns": 1790880973188405136
+    }
+  },
+  "BAM_access": "Indexed nine-site fetches only. No new whole-BAM hash/scan/alignment. Original files not modified.",
+  "public_reference": "Existing local GRCh38 primary assembly and GENCODE37 references; no new download.",
+  "method_validation": "Baseline/clean counts equal independent original9-site counters; synthetic CIGAR controls; seven normal-parent/edit/splice controls; repeat ambiguity and caps explicitly retained; independent root670 affine cases all agree.",
+  "scope": "A bounded representative quality/origin review, not clinical genotype validation, sample identity probability or contamination quantification.",
+  "preservation": "All work confined to this new resident subdirectory; parent primary-count files and priorv2 reports unchanged.",
+  "artifact_reproducibility": "Specific-context metrics checked against reconstruction from preserved extraction without overwriting source output; query position mapping and all full-read alignments preserved."
+}

@@ -1,0 +1,3817 @@
+{
+  "completed_utc": "2026-10-05T07:10:33.422187+00:00",
+  "status": "complete",
+  "scope": "Read-quality/origin follow-up of6 primary discordances plus3 MAPQ60-only sites, unchanged prior triage design/v2",
+  "loci": [
+    {
+      "locus": "chr2:189043211",
+      "gene_symbols": "COL5A2",
+      "selection": "primary",
+      "expected_from_DNA_dominant_mode": "G",
+      "unexpected": "A",
+      "mechanism_label": "aligned_start_sensitive; biological mechanism unresolved",
+      "finding": "All 208 qualifying unexpected-A alignment observations (116 name units) are within 5 bases of an aligned query end;190 are at stored query position0, and all 208 at aligned query start. Clean filtering removes all 116 A names but retains 183 G names. All 8 selected unexpected sequences best match ordinary COL5A2 transcripts at the same position (7 perfect,1 with another mismatch). This is an end-dependent observation, not proof of a paralog or of the cause of the end bias.",
+      "baseline": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 0,
+            "G": 58,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 116,
+            "C": 0,
+            "G": 327,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "clean": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 0,
+            "G": 55,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 0,
+            "C": 0,
+            "G": 183,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "representative_selection": [
+        {
+          "assay": "RNA",
+          "role": "expected",
+          "base": "G",
+          "selected_distinct_full_sequences_at_this_locus": 4,
+          "represented_unambiguous_name_units": 35,
+          "total_baseline_unambiguous_name_units": 327,
+          "total_stored_sequence_families": 255,
+          "selected_sequence_ids": [
+            "chr2_189043211_RNA_G_1",
+            "chr2_189043211_RNA_G_2",
+            "chr2_189043211_RNA_G_3",
+            "chr2_189043211_RNA_G_4"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "unexpected",
+          "base": "A",
+          "selected_distinct_full_sequences_at_this_locus": 8,
+          "represented_unambiguous_name_units": 51,
+          "total_baseline_unambiguous_name_units": 116,
+          "total_stored_sequence_families": 63,
+          "selected_sequence_ids": [
+            "chr2_189043211_RNA_A_1",
+            "chr2_189043211_RNA_A_2",
+            "chr2_189043211_RNA_A_3",
+            "chr2_189043211_RNA_A_4",
+            "chr2_189043211_RNA_A_5",
+            "chr2_189043211_RNA_A_6",
+            "chr2_189043211_RNA_A_7",
+            "chr2_189043211_RNA_A_8"
+          ]
+        }
+      ],
+      "representative_mappings_and_scores": [
+        {
+          "query_id": "chr2_189043211_RNA_A_1",
+          "family_names": 14,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 149,
+              "classification": "same_genomic_position",
+              "target_window_position0": 169,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 300.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_A_2",
+          "family_names": 9,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 104,
+              "classification": "same_genomic_position",
+              "target_window_position0": 124,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 210.0,
+            "source_CIGAR_allele_comparator": 199.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_A_3",
+          "family_names": 7,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 112,
+              "classification": "same_genomic_position",
+              "target_window_position0": 132,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 226.0,
+            "source_CIGAR_allele_comparator": 226.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_A_4",
+          "family_names": 7,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 151,
+              "classification": "same_genomic_position",
+              "target_window_position0": 171,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 304.0,
+            "source_CIGAR_allele_comparator": 304.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_A_5",
+          "family_names": 5,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 122,
+              "classification": "same_genomic_position",
+              "target_window_position0": 142,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 246.0,
+            "source_CIGAR_allele_comparator": 246.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_A_6",
+          "family_names": 3,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 104,
+              "classification": "same_genomic_position",
+              "target_window_position0": 124,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 204.0,
+            "source_CIGAR_allele_comparator": 193.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_A_7",
+          "family_names": 3,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 87,
+              "classification": "same_genomic_position",
+              "target_window_position0": 107,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 176.0,
+            "source_CIGAR_allele_comparator": 176.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_A_8",
+          "family_names": 3,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 94,
+              "classification": "same_genomic_position",
+              "target_window_position0": 114,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 190.0,
+            "source_CIGAR_allele_comparator": 190.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_G_1",
+          "family_names": 11,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 73,
+              "oriented_query_position0": 87,
+              "classification": "same_genomic_position",
+              "target_window_position0": 107,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 316.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_G_2",
+          "family_names": 10,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 3,
+              "oriented_query_position0": 157,
+              "classification": "same_genomic_position",
+              "target_window_position0": 177,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 316.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_G_3",
+          "family_names": 9,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 75,
+              "oriented_query_position0": 74,
+              "classification": "same_genomic_position",
+              "target_window_position0": 94,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 294.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        },
+        {
+          "query_id": "chr2_189043211_RNA_G_4",
+          "family_names": 8,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 2,
+              "oriented_query_position0": 158,
+              "classification": "same_genomic_position",
+              "target_window_position0": 178,
+              "genomic_mapping": [
+                "chr2",
+                189043210,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 316.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        }
+      ],
+      "limits": "Representative sequences/families are not independent molecules. First-best nominated alignments and allele-substituted original-CIGAR models are hypotheses, not validated true read origins."
+    },
+    {
+      "locus": "chr3:10049469",
+      "gene_symbols": "FANCD2",
+      "selection": "MAPQ60_only",
+      "expected_from_DNA_dominant_mode": "C",
+      "unexpected": "T",
+      "mechanism_label": "MAPQ60_only_filter_selection_effect; local_paralog_compatibility_not_origin_proof",
+      "finding": "Baseline DNA C713/T28 and RNA C72/T153 become DNA C230/T0 with RNA unchanged underMAPQ60. The2 selected DNA-T sequences (7 baseline names) each match161bp perfectly at FANCD2P2, with queried base at chr3:11871392 one-based, versus one mismatch to public FANCD2; changing the FANCD2 source-path allele toT also yields a perfect score. RNA-T representatives retain the T at FANCD2. The ordinary pseudogene match documents ambiguity, not proof that DNA-T reads originate from the pseudogene or that the locus is incompatible.",
+      "baseline": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 713,
+            "G": 0,
+            "T": 28
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 0,
+            "C": 72,
+            "G": 0,
+            "T": 153
+          },
+          "conflicting_names": 0
+        }
+      },
+      "clean": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 665,
+            "G": 0,
+            "T": 22
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 0,
+            "C": 58,
+            "G": 0,
+            "T": 131
+          },
+          "conflicting_names": 0
+        }
+      },
+      "representative_selection": [
+        {
+          "assay": "DNA",
+          "role": "unexpected",
+          "base": "T",
+          "selected_distinct_full_sequences_at_this_locus": 2,
+          "represented_unambiguous_name_units": 7,
+          "total_baseline_unambiguous_name_units": 28,
+          "total_stored_sequence_families": 22,
+          "selected_sequence_ids": [
+            "chr3_10049469_DNA_T_1",
+            "chr3_10049469_DNA_T_2"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "expected",
+          "base": "C",
+          "selected_distinct_full_sequences_at_this_locus": 4,
+          "represented_unambiguous_name_units": 13,
+          "total_baseline_unambiguous_name_units": 72,
+          "total_stored_sequence_families": 61,
+          "selected_sequence_ids": [
+            "chr3_10049469_RNA_C_1",
+            "chr3_10049469_RNA_C_2",
+            "chr3_10049469_RNA_C_3",
+            "chr3_10049469_RNA_C_4"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "unexpected",
+          "base": "T",
+          "selected_distinct_full_sequences_at_this_locus": 8,
+          "represented_unambiguous_name_units": 55,
+          "total_baseline_unambiguous_name_units": 153,
+          "total_stored_sequence_families": 106,
+          "selected_sequence_ids": [
+            "chr3_10049469_RNA_T_1",
+            "chr3_10049469_RNA_T_2",
+            "chr3_10049469_RNA_T_3",
+            "chr3_10049469_RNA_T_4",
+            "chr3_10049469_RNA_T_5",
+            "chr3_10049469_RNA_T_6",
+            "chr3_10049469_RNA_T_7",
+            "chr3_10049469_RNA_T_8"
+          ]
+        }
+      ],
+      "representative_mappings_and_scores": [
+        {
+          "query_id": "chr3_10049469_DNA_T_1",
+          "family_names": 5,
+          "base": "T",
+          "role": "unexpected",
+          "assay": "DNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 6,
+              "oriented_query_position0": 6,
+              "classification": "different_genomic_position",
+              "target_window_position0": 26,
+              "genomic_mapping": [
+                "chr3",
+                11871391,
+                "+"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 322.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_DNA_T_2",
+          "family_names": 2,
+          "base": "T",
+          "role": "unexpected",
+          "assay": "DNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 12,
+              "oriented_query_position0": 12,
+              "classification": "different_genomic_position",
+              "target_window_position0": 32,
+              "genomic_mapping": [
+                "chr3",
+                11871391,
+                "+"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 322.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_C_1",
+          "family_names": 7,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 73,
+              "oriented_query_position0": 73,
+              "classification": "same_genomic_position",
+              "target_window_position0": 93,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 316.0,
+            "source_CIGAR_allele_comparator": 316.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_C_2",
+          "family_names": 7,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 59,
+              "oriented_query_position0": 59,
+              "classification": "same_genomic_position",
+              "target_window_position0": 79,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 300.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_C_3",
+          "family_names": 3,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 0,
+              "classification": "same_genomic_position",
+              "target_window_position0": 20,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 192.0,
+            "source_CIGAR_allele_comparator": 192.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_C_4",
+          "family_names": 3,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 37,
+              "oriented_query_position0": 37,
+              "classification": "same_genomic_position",
+              "target_window_position0": 57,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 266.0,
+            "source_CIGAR_allele_comparator": 266.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_T_1",
+          "family_names": 18,
+          "base": "T",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 0,
+              "classification": "same_genomic_position",
+              "target_window_position0": 20,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 294.0,
+            "source_CIGAR_allele_comparator": 294.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_T_2",
+          "family_names": 10,
+          "base": "T",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 96,
+              "oriented_query_position0": 96,
+              "classification": "same_genomic_position",
+              "target_window_position0": 116,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 316.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_T_3",
+          "family_names": 8,
+          "base": "T",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 51,
+              "oriented_query_position0": 51,
+              "classification": "same_genomic_position",
+              "target_window_position0": 71,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 316.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_T_4",
+          "family_names": 8,
+          "base": "T",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 54,
+              "oriented_query_position0": 54,
+              "classification": "same_genomic_position",
+              "target_window_position0": 74,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 316.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_T_5",
+          "family_names": 7,
+          "base": "T",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 80,
+              "oriented_query_position0": 80,
+              "classification": "same_genomic_position",
+              "target_window_position0": 100,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 294.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_T_6",
+          "family_names": 6,
+          "base": "T",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 44,
+              "oriented_query_position0": 44,
+              "classification": "same_genomic_position",
+              "target_window_position0": 64,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 294.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_T_7",
+          "family_names": 4,
+          "base": "T",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 3,
+              "oriented_query_position0": 3,
+              "classification": "same_genomic_position",
+              "target_window_position0": 23,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 300.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        },
+        {
+          "query_id": "chr3_10049469_RNA_T_8",
+          "family_names": 4,
+          "base": "T",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 94,
+              "oriented_query_position0": 94,
+              "classification": "same_genomic_position",
+              "target_window_position0": 114,
+              "genomic_mapping": [
+                "chr3",
+                10049468,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 316.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        }
+      ],
+      "limits": "Representative sequences/families are not independent molecules. First-best nominated alignments and allele-substituted original-CIGAR models are hypotheses, not validated true read origins."
+    },
+    {
+      "locus": "chr3:195568834",
+      "gene_symbols": "APOD",
+      "selection": "primary",
+      "expected_from_DNA_dominant_mode": "G",
+      "unexpected": "C",
+      "mechanism_label": "local_indel_placement_ambiguity_in_representatives; unresolved origin",
+      "finding": "All 37 qualifying C-bearing alignment observations (27 names) have a nearby 4bp insertion at boundary chr3:195568840 zero-based, within a G-rich run. In first-best nominated ordinary local alignments, the queried C falls within an insertion for7/8 selected sequences and at a nearby different position for1/8. These alternatives can score below a source-CIGAR model containing the unexpected allele (example 278 versus 283); they demonstrate placement ambiguity, not correction of all 27 names or proof of biological origin. Clean C24/G0 has reduced depth, not resolution.",
+      "baseline": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 0,
+            "G": 87,
+            "T": 0
+          },
+          "conflicting_names": 1
+        },
+        "RNA": {
+          "counts": {
+            "A": 0,
+            "C": 27,
+            "G": 36,
+            "T": 0
+          },
+          "conflicting_names": 2
+        }
+      },
+      "clean": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 0,
+            "G": 47,
+            "T": 0
+          },
+          "conflicting_names": 1
+        },
+        "RNA": {
+          "counts": {
+            "A": 0,
+            "C": 24,
+            "G": 0,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "representative_selection": [
+        {
+          "assay": "RNA",
+          "role": "expected",
+          "base": "G",
+          "selected_distinct_full_sequences_at_this_locus": 4,
+          "represented_unambiguous_name_units": 14,
+          "total_baseline_unambiguous_name_units": 36,
+          "total_stored_sequence_families": 31,
+          "selected_sequence_ids": [
+            "chr3_195568834_RNA_G_1",
+            "chr3_195568834_RNA_G_2",
+            "chr3_195568834_RNA_G_3",
+            "chr3_195568834_RNA_G_4"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "unexpected",
+          "base": "C",
+          "selected_distinct_full_sequences_at_this_locus": 8,
+          "represented_unambiguous_name_units": 16,
+          "total_baseline_unambiguous_name_units": 27,
+          "total_stored_sequence_families": 27,
+          "selected_sequence_ids": [
+            "chr3_195568834_RNA_C_1",
+            "chr3_195568834_RNA_C_2",
+            "chr3_195568834_RNA_C_3",
+            "chr3_195568834_RNA_C_4",
+            "chr3_195568834_RNA_C_5",
+            "chr3_195568834_RNA_C_6",
+            "chr3_195568834_RNA_C_7",
+            "chr3_195568834_RNA_C_8"
+          ]
+        }
+      ],
+      "representative_mappings_and_scores": [
+        {
+          "query_id": "chr3_195568834_RNA_C_1",
+          "family_names": 9,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 24,
+              "oriented_query_position0": 24,
+              "classification": "query_insertion_or_terminal_gap",
+              "target_window_position0": null,
+              "genomic_mapping": null,
+              "target_base": null,
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 278.0,
+            "source_CIGAR_allele_comparator": 283.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_C_2",
+          "family_names": 2,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 24,
+              "oriented_query_position0": 24,
+              "classification": "query_insertion_or_terminal_gap",
+              "target_window_position0": null,
+              "genomic_mapping": null,
+              "target_base": null,
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 274.0,
+            "source_CIGAR_allele_comparator": 279.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_C_3",
+          "family_names": 1,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 37,
+              "oriented_query_position0": 37,
+              "classification": "query_insertion_or_terminal_gap",
+              "target_window_position0": null,
+              "genomic_mapping": null,
+              "target_base": null,
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 290.0,
+            "source_CIGAR_allele_comparator": 295.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_C_4",
+          "family_names": 1,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 11,
+              "oriented_query_position0": 11,
+              "classification": "query_insertion_or_terminal_gap",
+              "target_window_position0": null,
+              "genomic_mapping": null,
+              "target_base": null,
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 203.0,
+            "source_CIGAR_allele_comparator": 203.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_C_5",
+          "family_names": 1,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 25,
+              "oriented_query_position0": 25,
+              "classification": "query_insertion_or_terminal_gap",
+              "target_window_position0": null,
+              "genomic_mapping": null,
+              "target_base": null,
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 278.0,
+            "source_CIGAR_allele_comparator": 283.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_C_6",
+          "family_names": 1,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 48,
+              "oriented_query_position0": 48,
+              "classification": "query_insertion_or_terminal_gap",
+              "target_window_position0": null,
+              "genomic_mapping": null,
+              "target_base": null,
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 241.0,
+            "source_CIGAR_allele_comparator": 246.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_C_7",
+          "family_names": 1,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 89,
+              "oriented_query_position0": 89,
+              "classification": "query_insertion_or_terminal_gap",
+              "target_window_position0": null,
+              "genomic_mapping": null,
+              "target_base": null,
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 177.0,
+            "source_CIGAR_allele_comparator": 172.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_C_8",
+          "family_names": 1,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 24,
+              "oriented_query_position0": 24,
+              "classification": "different_genomic_position",
+              "target_window_position0": 45,
+              "genomic_mapping": [
+                "chr3",
+                195568830,
+                "+"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 246.0,
+            "source_CIGAR_allele_comparator": 251.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_G_1",
+          "family_names": 6,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 2,
+              "oriented_query_position0": 2,
+              "classification": "same_genomic_position",
+              "target_window_position0": 22,
+              "genomic_mapping": [
+                "chr3",
+                195568833,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 294.0,
+            "source_CIGAR_allele_comparator": 294.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_G_2",
+          "family_names": 4,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 2,
+              "oriented_query_position0": 2,
+              "classification": "same_genomic_position",
+              "target_window_position0": 22,
+              "genomic_mapping": [
+                "chr3",
+                195568833,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 288.0,
+            "source_CIGAR_allele_comparator": 288.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_G_3",
+          "family_names": 2,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 28,
+              "oriented_query_position0": 28,
+              "classification": "different_genomic_position",
+              "target_window_position0": 49,
+              "genomic_mapping": [
+                "chr3",
+                195568834,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 272.0,
+            "source_CIGAR_allele_comparator": 277.0
+          }
+        },
+        {
+          "query_id": "chr3_195568834_RNA_G_4",
+          "family_names": 2,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 4,
+              "oriented_query_position0": 4,
+              "classification": "different_genomic_position",
+              "target_window_position0": 25,
+              "genomic_mapping": [
+                "chr3",
+                195568834,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 286.0,
+            "source_CIGAR_allele_comparator": 286.0
+          }
+        }
+      ],
+      "limits": "Representative sequences/families are not independent molecules. First-best nominated alignments and allele-substituted original-CIGAR models are hypotheses, not validated true read origins."
+    },
+    {
+      "locus": "chr3:195677778",
+      "gene_symbols": "SDHAP2;MUC20-OT1",
+      "selection": "MAPQ60_only",
+      "expected_from_DNA_dominant_mode": "A",
+      "unexpected": "G",
+      "mechanism_label": "MAPQ60_only_filter_selection_effect; unresolved origin",
+      "finding": "Baseline DNA A1472/G725 and RNA A913/G357 become DNA A118/G0 with RNA unchanged underMAPQ60. Selected unexpected DNA/RNA sequences retain their G at the original SDHAP2/MUC20-OT1 position in the best nominated ordinary reference alignment; source-path G substitution improves the fit. The allele-selective removal of DNA evidence is demonstrated, but the gene of origin and cause of mapping-quality differences are unresolved.",
+      "baseline": {
+        "DNA": {
+          "counts": {
+            "A": 1472,
+            "C": 0,
+            "G": 725,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 913,
+            "C": 0,
+            "G": 357,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "clean": {
+        "DNA": {
+          "counts": {
+            "A": 1411,
+            "C": 0,
+            "G": 722,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 718,
+            "C": 0,
+            "G": 244,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "representative_selection": [
+        {
+          "assay": "DNA",
+          "role": "unexpected",
+          "base": "G",
+          "selected_distinct_full_sequences_at_this_locus": 2,
+          "represented_unambiguous_name_units": 22,
+          "total_baseline_unambiguous_name_units": 725,
+          "total_stored_sequence_families": 662,
+          "selected_sequence_ids": [
+            "chr3_195677778_DNA_G_1",
+            "chr3_195677778_DNA_G_2"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "expected",
+          "base": "A",
+          "selected_distinct_full_sequences_at_this_locus": 4,
+          "represented_unambiguous_name_units": 92,
+          "total_baseline_unambiguous_name_units": 913,
+          "total_stored_sequence_families": 532,
+          "selected_sequence_ids": [
+            "chr3_195677778_RNA_A_1",
+            "chr3_195677778_RNA_A_2",
+            "chr3_195677778_RNA_A_3",
+            "chr3_195677778_RNA_A_4"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "unexpected",
+          "base": "G",
+          "selected_distinct_full_sequences_at_this_locus": 8,
+          "represented_unambiguous_name_units": 39,
+          "total_baseline_unambiguous_name_units": 357,
+          "total_stored_sequence_families": 258,
+          "selected_sequence_ids": [
+            "chr3_195677778_RNA_G_1",
+            "chr3_195677778_RNA_G_2",
+            "chr3_195677778_RNA_G_3",
+            "chr3_195677778_RNA_G_4",
+            "chr3_195677778_RNA_G_5",
+            "chr3_195677778_RNA_G_6",
+            "chr3_195677778_RNA_G_7",
+            "chr3_195677778_RNA_G_8"
+          ]
+        }
+      ],
+      "representative_mappings_and_scores": [
+        {
+          "query_id": "chr3_195677778_DNA_G_1",
+          "family_names": 12,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "DNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 126,
+              "oriented_query_position0": 126,
+              "classification": "same_genomic_position",
+              "target_window_position0": 146,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 304.0,
+            "source_CIGAR_allele_comparator": 310.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_DNA_G_2",
+          "family_names": 10,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "DNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 121,
+              "oriented_query_position0": 121,
+              "classification": "same_genomic_position",
+              "target_window_position0": 141,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 310.0,
+            "source_CIGAR_allele_comparator": 316.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_A_1",
+          "family_names": 47,
+          "base": "A",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 94,
+              "oriented_query_position0": 94,
+              "classification": "same_genomic_position",
+              "target_window_position0": 114,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 294.0,
+            "source_CIGAR_allele_comparator": 294.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_A_2",
+          "family_names": 26,
+          "base": "A",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 49,
+              "oriented_query_position0": 49,
+              "classification": "same_genomic_position",
+              "target_window_position0": 69,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 204.0,
+            "source_CIGAR_allele_comparator": 204.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_A_3",
+          "family_names": 14,
+          "base": "A",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 115,
+              "oriented_query_position0": 115,
+              "classification": "same_genomic_position",
+              "target_window_position0": 135,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 322.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_A_4",
+          "family_names": 13,
+          "base": "A",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 3,
+              "oriented_query_position0": 3,
+              "classification": "same_genomic_position",
+              "target_window_position0": 23,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 322.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_G_1",
+          "family_names": 8,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 31,
+              "oriented_query_position0": 31,
+              "classification": "same_genomic_position",
+              "target_window_position0": 51,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 162.0,
+            "source_CIGAR_allele_comparator": 168.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_G_2",
+          "family_names": 5,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 71,
+              "oriented_query_position0": 71,
+              "classification": "same_genomic_position",
+              "target_window_position0": 91,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 230.0,
+            "source_CIGAR_allele_comparator": 236.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_G_3",
+          "family_names": 5,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 13,
+              "oriented_query_position0": 13,
+              "classification": "same_genomic_position",
+              "target_window_position0": 33,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 126.0,
+            "source_CIGAR_allele_comparator": 132.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_G_4",
+          "family_names": 5,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 10,
+              "oriented_query_position0": 10,
+              "classification": "same_genomic_position",
+              "target_window_position0": 30,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 268.0,
+            "source_CIGAR_allele_comparator": 274.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_G_5",
+          "family_names": 4,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 14,
+              "oriented_query_position0": 14,
+              "classification": "same_genomic_position",
+              "target_window_position0": 34,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 310.0,
+            "source_CIGAR_allele_comparator": 316.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_G_6",
+          "family_names": 4,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 44,
+              "oriented_query_position0": 44,
+              "classification": "same_genomic_position",
+              "target_window_position0": 64,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 182.0,
+            "source_CIGAR_allele_comparator": 188.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_G_7",
+          "family_names": 4,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 5,
+              "oriented_query_position0": 5,
+              "classification": "same_genomic_position",
+              "target_window_position0": 25,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 216.0,
+            "source_CIGAR_allele_comparator": 222.0
+          }
+        },
+        {
+          "query_id": "chr3_195677778_RNA_G_8",
+          "family_names": 4,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 39,
+              "oriented_query_position0": 39,
+              "classification": "same_genomic_position",
+              "target_window_position0": 59,
+              "genomic_mapping": [
+                "chr3",
+                195677777,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 266.0,
+            "source_CIGAR_allele_comparator": 272.0
+          }
+        }
+      ],
+      "limits": "Representative sequences/families are not independent molecules. First-best nominated alignments and allele-substituted original-CIGAR models are hypotheses, not validated true read origins."
+    },
+    {
+      "locus": "chr5:443259",
+      "gene_symbols": "EXOC3",
+      "selection": "primary",
+      "expected_from_DNA_dominant_mode": "C",
+      "unexpected": "A",
+      "mechanism_label": "repeat_and_local_gap_placement_ambiguity; capped_search; unresolved origin",
+      "finding": "The locus is in a GCG-rich repeat. All 37 qualifying A-bearing alignment observations (22 names) have a21-base N operation at chr5:[443260,443281) zero-based. In8/8 selected sequences the queried A moves to the matching reference A at chr5:443280 one-based in first-best nominated ordinary local alignments (+21bases). Example ordinary score292 is below the source-CIGAR/unexpected-allele score310, so origin is not adjudicated. Several expected-C sequences are short/softclipped and have other repeat matches. Seed/window caps affect EXOC3 representatives; no uniqueness or exhaustive-best claim.",
+      "baseline": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 153,
+            "G": 0,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 22,
+            "C": 74,
+            "G": 1,
+            "T": 0
+          },
+          "conflicting_names": 1
+        }
+      },
+      "clean": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 132,
+            "G": 0,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 21,
+            "C": 11,
+            "G": 1,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "representative_selection": [
+        {
+          "assay": "RNA",
+          "role": "expected",
+          "base": "C",
+          "selected_distinct_full_sequences_at_this_locus": 4,
+          "represented_unambiguous_name_units": 16,
+          "total_baseline_unambiguous_name_units": 74,
+          "total_stored_sequence_families": 58,
+          "selected_sequence_ids": [
+            "chr5_443259_RNA_C_1",
+            "chr5_443259_RNA_C_2",
+            "chr5_443259_RNA_C_3",
+            "chr5_443259_RNA_C_4"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "unexpected",
+          "base": "A",
+          "selected_distinct_full_sequences_at_this_locus": 8,
+          "represented_unambiguous_name_units": 9,
+          "total_baseline_unambiguous_name_units": 22,
+          "total_stored_sequence_families": 28,
+          "selected_sequence_ids": [
+            "chr5_443259_RNA_A_1",
+            "chr5_443259_RNA_A_2",
+            "chr5_443259_RNA_A_3",
+            "chr5_443259_RNA_A_4",
+            "chr5_443259_RNA_A_5",
+            "chr5_443259_RNA_A_6",
+            "chr5_443259_RNA_A_7",
+            "chr5_443259_RNA_A_8"
+          ]
+        }
+      ],
+      "representative_mappings_and_scores": [
+        {
+          "query_id": "chr5_443259_RNA_A_1",
+          "family_names": 2,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 68,
+              "oriented_query_position0": 68,
+              "classification": "different_genomic_position",
+              "target_window_position0": 105,
+              "genomic_mapping": [
+                "chr5",
+                443279,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 292.0,
+            "source_CIGAR_allele_comparator": 310.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_A_2",
+          "family_names": 2,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 51,
+              "oriented_query_position0": 51,
+              "classification": "different_genomic_position",
+              "target_window_position0": 92,
+              "genomic_mapping": [
+                "chr5",
+                443279,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 250.0,
+            "source_CIGAR_allele_comparator": 274.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_A_3",
+          "family_names": 1,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 54,
+              "oriented_query_position0": 54,
+              "classification": "different_genomic_position",
+              "target_window_position0": 95,
+              "genomic_mapping": [
+                "chr5",
+                443279,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 256.0,
+            "source_CIGAR_allele_comparator": 280.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_A_4",
+          "family_names": 1,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 54,
+              "oriented_query_position0": 54,
+              "classification": "different_genomic_position",
+              "target_window_position0": 95,
+              "genomic_mapping": [
+                "chr5",
+                443279,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 250.0,
+            "source_CIGAR_allele_comparator": 274.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_A_5",
+          "family_names": 1,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 69,
+              "oriented_query_position0": 69,
+              "classification": "different_genomic_position",
+              "target_window_position0": 105,
+              "genomic_mapping": [
+                "chr5",
+                443279,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 192.0,
+            "source_CIGAR_allele_comparator": 216.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_A_6",
+          "family_names": 1,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 68,
+              "oriented_query_position0": 68,
+              "classification": "different_genomic_position",
+              "target_window_position0": 105,
+              "genomic_mapping": [
+                "chr5",
+                443279,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 280.0,
+            "source_CIGAR_allele_comparator": 298.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_A_7",
+          "family_names": 1,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 67,
+              "oriented_query_position0": 67,
+              "classification": "different_genomic_position",
+              "target_window_position0": 108,
+              "genomic_mapping": [
+                "chr5",
+                443279,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 234.0,
+            "source_CIGAR_allele_comparator": 254.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_A_8",
+          "family_names": 1,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 67,
+              "oriented_query_position0": 67,
+              "classification": "different_genomic_position",
+              "target_window_position0": 105,
+              "genomic_mapping": [
+                "chr5",
+                443279,
+                "+"
+              ],
+              "target_base": "A",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 296.0,
+            "source_CIGAR_allele_comparator": 316.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_C_1",
+          "family_names": 9,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 30,
+              "oriented_query_position0": 30,
+              "classification": "different_genomic_position",
+              "target_window_position0": 53,
+              "genomic_mapping": [
+                "GL000220.1",
+                114226,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 100.0,
+            "source_CIGAR_allele_comparator": 61.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_C_2",
+          "family_names": 3,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 30,
+              "oriented_query_position0": 30,
+              "classification": "different_genomic_position",
+              "target_window_position0": 53,
+              "genomic_mapping": [
+                "GL000220.1",
+                114226,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 98.0,
+            "source_CIGAR_allele_comparator": 62.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_C_3",
+          "family_names": 2,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 44,
+              "oriented_query_position0": 11,
+              "classification": "different_genomic_position",
+              "target_window_position0": 67,
+              "genomic_mapping": [
+                "chr7",
+                100694341,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 77.0,
+            "source_CIGAR_allele_comparator": 75.0
+          }
+        },
+        {
+          "query_id": "chr5_443259_RNA_C_4",
+          "family_names": 2,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 51,
+              "oriented_query_position0": 51,
+              "classification": "query_insertion_or_terminal_gap",
+              "target_window_position0": null,
+              "genomic_mapping": null,
+              "target_base": null,
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 75.0,
+            "source_CIGAR_allele_comparator": 70.0
+          }
+        }
+      ],
+      "limits": "Representative sequences/families are not independent molecules. First-best nominated alignments and allele-substituted original-CIGAR models are hypotheses, not validated true read origins."
+    },
+    {
+      "locus": "chr5:80654917",
+      "gene_symbols": "MSH3;DHFR",
+      "selection": "primary",
+      "expected_from_DNA_dominant_mode": "C",
+      "unexpected": "G",
+      "mechanism_label": "local_repeat_gap_placement_ambiguity_in_representatives; unresolved origin",
+      "finding": "The position overlaps MSH3 and DHFR in opposite orientations. Among 189 qualifying G-bearing alignment observations (104 names),147 have a27-base N at chr5:[80654887,80654914);42 have the nearby 1446-base splice instead. All 8 selected sequences place the queried G at matching reference chr5:80654908 one-based (\u22129bases) in their first-best nominated ordinary alignment, including MSH3 or reverse-complement DHFR models. Source-CIGAR/unexpected-allele models can score higher (example 290 versus 259), so these are alternative gap placements, not a validated preferred origin or changed genotype.",
+      "baseline": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 912,
+            "G": 0,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 0,
+            "C": 9,
+            "G": 104,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "clean": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 815,
+            "G": 0,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 0,
+            "C": 7,
+            "G": 53,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "representative_selection": [
+        {
+          "assay": "RNA",
+          "role": "expected",
+          "base": "C",
+          "selected_distinct_full_sequences_at_this_locus": 4,
+          "represented_unambiguous_name_units": 6,
+          "total_baseline_unambiguous_name_units": 9,
+          "total_stored_sequence_families": 16,
+          "selected_sequence_ids": [
+            "chr5_80654917_RNA_C_1",
+            "chr5_80654917_RNA_C_2",
+            "chr5_80654917_RNA_C_3",
+            "chr5_80654917_RNA_C_4"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "unexpected",
+          "base": "G",
+          "selected_distinct_full_sequences_at_this_locus": 8,
+          "represented_unambiguous_name_units": 21,
+          "total_baseline_unambiguous_name_units": 104,
+          "total_stored_sequence_families": 114,
+          "selected_sequence_ids": [
+            "chr5_80654917_RNA_G_1",
+            "chr5_80654917_RNA_G_2",
+            "chr5_80654917_RNA_G_3",
+            "chr5_80654917_RNA_G_4",
+            "chr5_80654917_RNA_G_5",
+            "chr5_80654917_RNA_G_6",
+            "chr5_80654917_RNA_G_7",
+            "chr5_80654917_RNA_G_8"
+          ]
+        }
+      ],
+      "representative_mappings_and_scores": [
+        {
+          "query_id": "chr5_80654917_RNA_C_1",
+          "family_names": 3,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 126,
+              "oriented_query_position0": 126,
+              "classification": "same_genomic_position",
+              "target_window_position0": 146,
+              "genomic_mapping": [
+                "chr5",
+                80654916,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 322.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_C_2",
+          "family_names": 1,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 147,
+              "oriented_query_position0": 147,
+              "classification": "same_genomic_position",
+              "target_window_position0": 167,
+              "genomic_mapping": [
+                "chr5",
+                80654916,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 322.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_C_3",
+          "family_names": 1,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 36,
+              "oriented_query_position0": 36,
+              "classification": "same_genomic_position",
+              "target_window_position0": 74,
+              "genomic_mapping": [
+                "chr5",
+                80654916,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 249.0,
+            "source_CIGAR_allele_comparator": 225.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_C_4",
+          "family_names": 1,
+          "base": "C",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 91,
+              "oriented_query_position0": 91,
+              "classification": "same_genomic_position",
+              "target_window_position0": 111,
+              "genomic_mapping": [
+                "chr5",
+                80654916,
+                "+"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 205.0,
+            "source_CIGAR_allele_comparator": 205.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_G_1",
+          "family_names": 4,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 105,
+              "oriented_query_position0": 52,
+              "classification": "different_genomic_position",
+              "target_window_position0": 72,
+              "genomic_mapping": [
+                "chr5",
+                80654907,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 259.0,
+            "source_CIGAR_allele_comparator": 290.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_G_2",
+          "family_names": 4,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 25,
+              "oriented_query_position0": 25,
+              "classification": "different_genomic_position",
+              "target_window_position0": 45,
+              "genomic_mapping": [
+                "chr5",
+                80654907,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 163.0,
+            "source_CIGAR_allele_comparator": 144.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_G_3",
+          "family_names": 4,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 25,
+              "oriented_query_position0": 25,
+              "classification": "different_genomic_position",
+              "target_window_position0": 45,
+              "genomic_mapping": [
+                "chr5",
+                80654907,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 279.0,
+            "source_CIGAR_allele_comparator": 260.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_G_4",
+          "family_names": 3,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 91,
+              "oriented_query_position0": 91,
+              "classification": "different_genomic_position",
+              "target_window_position0": 129,
+              "genomic_mapping": [
+                "chr5",
+                80654907,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 230.0,
+            "source_CIGAR_allele_comparator": 256.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_G_5",
+          "family_names": 3,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 33,
+              "oriented_query_position0": 33,
+              "classification": "different_genomic_position",
+              "target_window_position0": 71,
+              "genomic_mapping": [
+                "chr5",
+                80654907,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 251.0,
+            "source_CIGAR_allele_comparator": 243.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_G_6",
+          "family_names": 3,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 70,
+              "oriented_query_position0": 70,
+              "classification": "different_genomic_position",
+              "target_window_position0": 108,
+              "genomic_mapping": [
+                "chr5",
+                80654907,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 156.0,
+            "source_CIGAR_allele_comparator": 202.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_G_7",
+          "family_names": 2,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 7,
+              "oriented_query_position0": 7,
+              "classification": "different_genomic_position",
+              "target_window_position0": 27,
+              "genomic_mapping": [
+                "chr5",
+                80654907,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 280.0,
+            "source_CIGAR_allele_comparator": 282.0
+          }
+        },
+        {
+          "query_id": "chr5_80654917_RNA_G_8",
+          "family_names": 2,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 102,
+              "oriented_query_position0": 102,
+              "classification": "different_genomic_position",
+              "target_window_position0": 122,
+              "genomic_mapping": [
+                "chr5",
+                80654907,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 241.0,
+            "source_CIGAR_allele_comparator": 272.0
+          }
+        }
+      ],
+      "limits": "Representative sequences/families are not independent molecules. First-best nominated alignments and allele-substituted original-CIGAR models are hypotheses, not validated true read origins."
+    },
+    {
+      "locus": "chr8:100705591",
+      "gene_symbols": "PABPC1",
+      "selection": "primary",
+      "expected_from_DNA_dominant_mode": "A",
+      "unexpected": "G",
+      "mechanism_label": "partly_clean_filter_sensitive; same_position_mismatches_persist; unresolved",
+      "finding": "Unexpected G decreases from 65 names to 9 under clean filtering but is not eliminated. All 8 selected unexpected sequences retain the queried mismatch at the same PABPC1 coordinate in their best nominated ordinary transcript alignment; expected representatives fit ordinary PABPC1. No cleaner different-locus origin was established in the nominated set. All 65 G names also have C at the nearby 604 site in the same qualifying alignment; these are shared support, not independent sample checks.",
+      "baseline": {
+        "DNA": {
+          "counts": {
+            "A": 94,
+            "C": 0,
+            "G": 0,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 400,
+            "C": 0,
+            "G": 65,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "clean": {
+        "DNA": {
+          "counts": {
+            "A": 88,
+            "C": 0,
+            "G": 0,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 278,
+            "C": 0,
+            "G": 9,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "representative_selection": [
+        {
+          "assay": "RNA",
+          "role": "expected",
+          "base": "A",
+          "selected_distinct_full_sequences_at_this_locus": 4,
+          "represented_unambiguous_name_units": 50,
+          "total_baseline_unambiguous_name_units": 400,
+          "total_stored_sequence_families": 254,
+          "selected_sequence_ids": [
+            "chr8_100705591_RNA_A_1",
+            "chr8_100705591_RNA_A_2",
+            "chr8_100705591_RNA_A_3",
+            "chr8_100705591_RNA_A_4"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "unexpected",
+          "base": "G",
+          "selected_distinct_full_sequences_at_this_locus": 8,
+          "represented_unambiguous_name_units": 22,
+          "total_baseline_unambiguous_name_units": 65,
+          "total_stored_sequence_families": 57,
+          "selected_sequence_ids": [
+            "chr8_100705591_RNA_G_1",
+            "chr8_100705591_RNA_G_2",
+            "chr8_100705591_RNA_G_3",
+            "chr8_100705591_RNA_G_4",
+            "chr8_100705591_RNA_G_5",
+            "chr8_100705591_RNA_G_6",
+            "chr8_100705591_RNA_G_7",
+            "chr8_100705591_RNA_G_8"
+          ]
+        }
+      ],
+      "representative_mappings_and_scores": [
+        {
+          "query_id": "chr8_100705591_RNA_A_1",
+          "family_names": 15,
+          "base": "A",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 151,
+              "oriented_query_position0": 9,
+              "classification": "same_genomic_position",
+              "target_window_position0": 29,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 322.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_A_2",
+          "family_names": 13,
+          "base": "A",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 7,
+              "oriented_query_position0": 142,
+              "classification": "same_genomic_position",
+              "target_window_position0": 162,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 300.0,
+            "source_CIGAR_allele_comparator": 294.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_A_3",
+          "family_names": 12,
+          "base": "A",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 119,
+              "oriented_query_position0": 30,
+              "classification": "same_genomic_position",
+              "target_window_position0": 50,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 300.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_A_4",
+          "family_names": 10,
+          "base": "A",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 122,
+              "oriented_query_position0": 38,
+              "classification": "same_genomic_position",
+              "target_window_position0": 58,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "T"
+            }
+          ],
+          "scores": {
+            "ordinary": 322.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_G_1",
+          "family_names": 4,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 2,
+              "oriented_query_position0": 158,
+              "classification": "same_genomic_position",
+              "target_window_position0": 178,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 304.0,
+            "source_CIGAR_allele_comparator": 310.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_G_2",
+          "family_names": 3,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 49,
+              "oriented_query_position0": 111,
+              "classification": "same_genomic_position",
+              "target_window_position0": 131,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 292.0,
+            "source_CIGAR_allele_comparator": 298.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_G_3",
+          "family_names": 3,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 13,
+              "oriented_query_position0": 147,
+              "classification": "same_genomic_position",
+              "target_window_position0": 167,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 298.0,
+            "source_CIGAR_allele_comparator": 287.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_G_4",
+          "family_names": 3,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 26,
+              "oriented_query_position0": 134,
+              "classification": "same_genomic_position",
+              "target_window_position0": 154,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 298.0,
+            "source_CIGAR_allele_comparator": 258.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_G_5",
+          "family_names": 3,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 0,
+              "oriented_query_position0": 160,
+              "classification": "same_genomic_position",
+              "target_window_position0": 180,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 304.0,
+            "source_CIGAR_allele_comparator": 310.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_G_6",
+          "family_names": 3,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 50,
+              "oriented_query_position0": 110,
+              "classification": "same_genomic_position",
+              "target_window_position0": 130,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 286.0,
+            "source_CIGAR_allele_comparator": 195.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_G_7",
+          "family_names": 2,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 46,
+              "oriented_query_position0": 89,
+              "classification": "same_genomic_position",
+              "target_window_position0": 109,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 242.0,
+            "source_CIGAR_allele_comparator": 228.0
+          }
+        },
+        {
+          "query_id": "chr8_100705591_RNA_G_8",
+          "family_names": 2,
+          "base": "G",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 19,
+              "oriented_query_position0": 89,
+              "classification": "same_genomic_position",
+              "target_window_position0": 109,
+              "genomic_mapping": [
+                "chr8",
+                100705590,
+                "-"
+              ],
+              "target_base": "T",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 200.0,
+            "source_CIGAR_allele_comparator": 154.0
+          }
+        }
+      ],
+      "limits": "Representative sequences/families are not independent molecules. First-best nominated alignments and allele-substituted original-CIGAR models are hypotheses, not validated true read origins."
+    },
+    {
+      "locus": "chr8:100705604",
+      "gene_symbols": "PABPC1",
+      "selection": "primary",
+      "expected_from_DNA_dominant_mode": "G",
+      "unexpected": "C",
+      "mechanism_label": "partly_clean_filter_sensitive; same_position_mismatches_persist; unresolved",
+      "finding": "Unexpected C decreases from 78 names to 31 under clean filtering but is not eliminated. All 8 selected unexpected sequences retain the queried mismatch at the same PABPC1 coordinate in their best nominated ordinary transcript alignment.65 of 78 C names overlap the591 G call in one qualifying alignment;13 C names lack a jointly callable591. No unique origin, biological cause or correction is established.",
+      "baseline": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 0,
+            "G": 101,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 1,
+            "C": 78,
+            "G": 358,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "clean": {
+        "DNA": {
+          "counts": {
+            "A": 0,
+            "C": 0,
+            "G": 96,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 0,
+            "C": 31,
+            "G": 218,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "representative_selection": [
+        {
+          "assay": "RNA",
+          "role": "expected",
+          "base": "G",
+          "selected_distinct_full_sequences_at_this_locus": 4,
+          "represented_unambiguous_name_units": 44,
+          "total_baseline_unambiguous_name_units": 358,
+          "total_stored_sequence_families": 250,
+          "selected_sequence_ids": [
+            "chr8_100705604_RNA_G_1",
+            "chr8_100705604_RNA_G_2",
+            "chr8_100705604_RNA_G_3",
+            "chr8_100705604_RNA_G_4"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "unexpected",
+          "base": "C",
+          "selected_distinct_full_sequences_at_this_locus": 8,
+          "represented_unambiguous_name_units": 23,
+          "total_baseline_unambiguous_name_units": 78,
+          "total_stored_sequence_families": 69,
+          "selected_sequence_ids": [
+            "chr8_100705604_RNA_C_1",
+            "chr8_100705604_RNA_C_2",
+            "chr8_100705604_RNA_C_3",
+            "chr8_100705604_RNA_C_4",
+            "chr8_100705604_RNA_C_5",
+            "chr8_100705604_RNA_C_6",
+            "chr8_100705604_RNA_C_7",
+            "chr8_100705604_RNA_C_8"
+          ]
+        }
+      ],
+      "representative_mappings_and_scores": [
+        {
+          "query_id": "chr8_100705604_RNA_C_1",
+          "family_names": 5,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 5,
+              "oriented_query_position0": 155,
+              "classification": "same_genomic_position",
+              "target_window_position0": 175,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 310.0,
+            "source_CIGAR_allele_comparator": 316.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_C_2",
+          "family_names": 4,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 15,
+              "oriented_query_position0": 145,
+              "classification": "same_genomic_position",
+              "target_window_position0": 165,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 304.0,
+            "source_CIGAR_allele_comparator": 310.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_C_3",
+          "family_names": 3,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 62,
+              "oriented_query_position0": 98,
+              "classification": "same_genomic_position",
+              "target_window_position0": 118,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 292.0,
+            "source_CIGAR_allele_comparator": 298.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_C_4",
+          "family_names": 3,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 26,
+              "oriented_query_position0": 134,
+              "classification": "same_genomic_position",
+              "target_window_position0": 154,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 298.0,
+            "source_CIGAR_allele_comparator": 287.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_C_5",
+          "family_names": 3,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 39,
+              "oriented_query_position0": 121,
+              "classification": "same_genomic_position",
+              "target_window_position0": 141,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 298.0,
+            "source_CIGAR_allele_comparator": 258.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_C_6",
+          "family_names": 3,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 13,
+              "oriented_query_position0": 147,
+              "classification": "same_genomic_position",
+              "target_window_position0": 167,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 304.0,
+            "source_CIGAR_allele_comparator": 310.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_C_7",
+          "family_names": 3,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 63,
+              "oriented_query_position0": 97,
+              "classification": "same_genomic_position",
+              "target_window_position0": 117,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 286.0,
+            "source_CIGAR_allele_comparator": 195.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_C_8",
+          "family_names": 3,
+          "base": "C",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 7,
+              "oriented_query_position0": 153,
+              "classification": "same_genomic_position",
+              "target_window_position0": 173,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 310.0,
+            "source_CIGAR_allele_comparator": 316.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_G_1",
+          "family_names": 13,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 20,
+              "oriented_query_position0": 129,
+              "classification": "same_genomic_position",
+              "target_window_position0": 149,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 300.0,
+            "source_CIGAR_allele_comparator": 294.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_G_2",
+          "family_names": 12,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 132,
+              "oriented_query_position0": 17,
+              "classification": "same_genomic_position",
+              "target_window_position0": 37,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 300.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_G_3",
+          "family_names": 10,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 135,
+              "oriented_query_position0": 25,
+              "classification": "same_genomic_position",
+              "target_window_position0": 45,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 322.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr8_100705604_RNA_G_4",
+          "family_names": 9,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 140,
+              "oriented_query_position0": 20,
+              "classification": "same_genomic_position",
+              "target_window_position0": 40,
+              "genomic_mapping": [
+                "chr8",
+                100705603,
+                "-"
+              ],
+              "target_base": "C",
+              "query_base": "C"
+            }
+          ],
+          "scores": {
+            "ordinary": 322.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        }
+      ],
+      "limits": "Representative sequences/families are not independent molecules. First-best nominated alignments and allele-substituted original-CIGAR models are hypotheses, not validated true read origins."
+    },
+    {
+      "locus": "chr9:65737280",
+      "gene_symbols": "FOXD4L4",
+      "selection": "MAPQ60_only",
+      "expected_from_DNA_dominant_mode": "G",
+      "unexpected": "A",
+      "mechanism_label": "MAPQ60_only_filter_selection_effect; unresolved origin",
+      "finding": "Baseline DNA G818/A225 and RNA G70/A22 become DNA G260/A0 with RNA unchanged underMAPQ60. Selected unexpected DNA/RNA sequences retain A at the original FOXD4L4 position in the best nominated ordinary reference alignment; a source-path A model fits better. This new flag is generated by filtering away DNA alternate support, not by a change in RNA counts. No specific paralog origin is established.",
+      "baseline": {
+        "DNA": {
+          "counts": {
+            "A": 225,
+            "C": 0,
+            "G": 818,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 22,
+            "C": 0,
+            "G": 70,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "clean": {
+        "DNA": {
+          "counts": {
+            "A": 216,
+            "C": 0,
+            "G": 740,
+            "T": 0
+          },
+          "conflicting_names": 0
+        },
+        "RNA": {
+          "counts": {
+            "A": 19,
+            "C": 0,
+            "G": 68,
+            "T": 0
+          },
+          "conflicting_names": 0
+        }
+      },
+      "representative_selection": [
+        {
+          "assay": "DNA",
+          "role": "unexpected",
+          "base": "A",
+          "selected_distinct_full_sequences_at_this_locus": 2,
+          "represented_unambiguous_name_units": 10,
+          "total_baseline_unambiguous_name_units": 225,
+          "total_stored_sequence_families": 224,
+          "selected_sequence_ids": [
+            "chr9_65737280_DNA_A_1",
+            "chr9_65737280_DNA_A_2"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "expected",
+          "base": "G",
+          "selected_distinct_full_sequences_at_this_locus": 4,
+          "represented_unambiguous_name_units": 20,
+          "total_baseline_unambiguous_name_units": 70,
+          "total_stored_sequence_families": 51,
+          "selected_sequence_ids": [
+            "chr9_65737280_RNA_G_1",
+            "chr9_65737280_RNA_G_2",
+            "chr9_65737280_RNA_G_3",
+            "chr9_65737280_RNA_G_4"
+          ]
+        },
+        {
+          "assay": "RNA",
+          "role": "unexpected",
+          "base": "A",
+          "selected_distinct_full_sequences_at_this_locus": 8,
+          "represented_unambiguous_name_units": 11,
+          "total_baseline_unambiguous_name_units": 22,
+          "total_stored_sequence_families": 23,
+          "selected_sequence_ids": [
+            "chr9_65737280_RNA_A_1",
+            "chr9_65737280_RNA_A_2",
+            "chr9_65737280_RNA_A_3",
+            "chr9_65737280_RNA_A_4",
+            "chr9_65737280_RNA_A_5",
+            "chr9_65737280_RNA_A_6",
+            "chr9_65737280_RNA_A_7",
+            "chr9_65737280_RNA_A_8"
+          ]
+        }
+      ],
+      "representative_mappings_and_scores": [
+        {
+          "query_id": "chr9_65737280_DNA_A_1",
+          "family_names": 6,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "DNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 48,
+              "oriented_query_position0": 48,
+              "classification": "same_genomic_position",
+              "target_window_position0": 68,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 316.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_DNA_A_2",
+          "family_names": 5,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "DNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 59,
+              "oriented_query_position0": 59,
+              "classification": "same_genomic_position",
+              "target_window_position0": 79,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 316.0,
+            "source_CIGAR_allele_comparator": 322.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_A_1",
+          "family_names": 2,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 22,
+              "oriented_query_position0": 22,
+              "classification": "same_genomic_position",
+              "target_window_position0": 42,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 262.0,
+            "source_CIGAR_allele_comparator": 268.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_A_2",
+          "family_names": 2,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 76,
+              "oriented_query_position0": 76,
+              "classification": "same_genomic_position",
+              "target_window_position0": 96,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 308.0,
+            "source_CIGAR_allele_comparator": 314.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_A_3",
+          "family_names": 2,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 68,
+              "oriented_query_position0": 68,
+              "classification": "same_genomic_position",
+              "target_window_position0": 88,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 294.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_A_4",
+          "family_names": 2,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 61,
+              "oriented_query_position0": 61,
+              "classification": "same_genomic_position",
+              "target_window_position0": 81,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 284.0,
+            "source_CIGAR_allele_comparator": 290.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_A_5",
+          "family_names": 2,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 46,
+              "oriented_query_position0": 46,
+              "classification": "same_genomic_position",
+              "target_window_position0": 66,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 292.0,
+            "source_CIGAR_allele_comparator": 298.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_A_6",
+          "family_names": 1,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 22,
+              "oriented_query_position0": 22,
+              "classification": "same_genomic_position",
+              "target_window_position0": 42,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 108.0,
+            "source_CIGAR_allele_comparator": 114.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_A_7",
+          "family_names": 1,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 22,
+              "oriented_query_position0": 22,
+              "classification": "same_genomic_position",
+              "target_window_position0": 42,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 152.0,
+            "source_CIGAR_allele_comparator": 158.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_A_8",
+          "family_names": 1,
+          "base": "A",
+          "role": "unexpected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 22,
+              "oriented_query_position0": 22,
+              "classification": "same_genomic_position",
+              "target_window_position0": 42,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "A"
+            }
+          ],
+          "scores": {
+            "ordinary": 166.0,
+            "source_CIGAR_allele_comparator": 172.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_G_1",
+          "family_names": 6,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 22,
+              "oriented_query_position0": 22,
+              "classification": "same_genomic_position",
+              "target_window_position0": 42,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 174.0,
+            "source_CIGAR_allele_comparator": 174.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_G_2",
+          "family_names": 5,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 73,
+              "oriented_query_position0": 73,
+              "classification": "same_genomic_position",
+              "target_window_position0": 93,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 278.0,
+            "source_CIGAR_allele_comparator": 278.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_G_3",
+          "family_names": 5,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 46,
+              "oriented_query_position0": 46,
+              "classification": "same_genomic_position",
+              "target_window_position0": 66,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 300.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        },
+        {
+          "query_id": "chr9_65737280_RNA_G_4",
+          "family_names": 4,
+          "base": "G",
+          "role": "expected",
+          "assay": "RNA",
+          "first_best_ordinary_base_placement": [
+            {
+              "stored_BAM_query_position0": 22,
+              "oriented_query_position0": 22,
+              "classification": "same_genomic_position",
+              "target_window_position0": 42,
+              "genomic_mapping": [
+                "chr9",
+                65737279,
+                "+"
+              ],
+              "target_base": "G",
+              "query_base": "G"
+            }
+          ],
+          "scores": {
+            "ordinary": 300.0,
+            "source_CIGAR_allele_comparator": 300.0
+          }
+        }
+      ],
+      "limits": "Representative sequences/families are not independent molecules. First-best nominated alignments and allele-substituted original-CIGAR models are hypotheses, not validated true read origins."
+    }
+  ],
+  "method": {
+    "indexed_site_alignment_observations": 29135,
+    "note_observations": "Observations can repeat across the two adjacent PABPC1 sites; not a count of unique BAM alignments.",
+    "baseline_clean_counts_match_independent_all_site_counter": true,
+    "representative_selection_rows": 114,
+    "distinct_sequences_across_all_selection_rows": 105,
+    "selection": "Per site, at most8 unexpected RNA+4 expected RNA+2 unexpected DNA distinct stored sequences; rank by descending name support then lexical sequence. Names deduplicated across selected sequences in coverage summaries.",
+    "search": {
+      "genome": "Existing GRCh38 primary assembly,194contigs",
+      "transcripts": "GENCODE37,234485transcripts",
+      "exact_seed_length": 19,
+      "seed_placements": "disjoint19nt blocks plus terminal19mer, both orientations",
+      "seed_hit_cap_per_reference_type": 1000,
+      "windows_per_query_per_reference_type": 500,
+      "patient_windows_scored": 15631,
+      "windows_scored_with_controls": 17664,
+      "caps": {
+        "genome": 0,
+        "transcript": 5
+      },
+      "window_cap_events": 11,
+      "cap_scope": "Patient seed/window caps affect EXOC3 representatives; repeat control also capped. No exhaustive-search or unique-origin claim."
+    },
+    "controls": "6 manual CIGAR position tests; baseline/clean count equality atall9 loci;7 ordinary-parent/edit/splice expected-score/source-window controls; ambiguous repeat control; root670 exported affine scores+7 scalar controls all match independent recurrence."
+  },
+  "PABPC1_shared_support": {
+    "unambiguous_names_covering_both": {
+      "AG": 344,
+      "GC": 65,
+      "AA": 1
+    },
+    "names_with_one_same_alignment_covering_both": {
+      "AG": 344,
+      "GC": 65,
+      "AA": 1
+    },
+    "note": "Same-query and same-record observations, not UMI-independent molecules or genomic phase proof."
+  },
+  "limits": [
+    "No identity probability, contamination fraction, clinical diagnosis or treatment inference.",
+    "RNA fractions and clean/MAPQ filters do not by themselves establish source, biology or resolution.",
+    "Selected sequences are a bounded subset; omissions and selection denominators are explicit.",
+    "Search excludes unrepresented alternate haplotypes and arbitrary unannotated splicing;19nt seed nomination may miss gapped alternatives.",
+    "One best traceback is reported; repeat-equivalent placements are not exhaustively enumerated.",
+    "Original-CIGAR path/allele models can outscore ordinary references; their structural form follows the original alignment and is not independent proof of origin.",
+    "No new full alignment/download/upload or full patient BAM scan."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "approved": true,
+  "timestamp_utc": "2026-10-05T08:14:37.239172+00:00",
+  "independent_audit_sha256": "0141ef407846af50240e1dd4500afbb92764126f1b875fb2bf79db18c1a7a1aa",
+  "material_comparisons": 49911,
+  "cohort_sites": 4015,
+  "individual_transitions": 989,
+  "prose_audit": "Independent editorial review found no material error; read-pair terminology corrected; primary per-base and same-record evidence audit PASS.",
+  "PDF_visual_QA": "PASS: both final pages rendered at1400pixels and directly inspected by root; no clipping, overlaps, unwanted color or unreadable table.",
+  "clinical_scope": "Technical alignment comparison only; previous biological v2 handoff unchanged.",
+  "PDF_SHA256": "00fa2fd8dcfbbd62fc526114c779ebca9d441f8f39a316a6af6ac18c5e45bc95"
+}

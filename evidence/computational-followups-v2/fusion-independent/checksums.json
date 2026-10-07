@@ -1,0 +1,10 @@
+{
+  "bounded-DNA-details.json": "03a2856bedf91d76ceb879db22344fd15dc5ca18deef6381d263dce4e60163d5",
+  "details-run.log": "2407f3f1429938a15dabf28c96bc0a0aea76b53f7c8f86f30fd05a3b6763f01a",
+  "findings.txt": "568c550a8207899d67beff6a7b9c138a9bbd05c9ca333e980dccdbce7bd9a672",
+  "junction-markers.fasta": "8ec865b6a470fb82e514a397e379f74c5284706ffc4fd0b13563fc5b94e04be2",
+  "local_dna_details.py": "665cf31c809f52564b4ce0a0c177aa6076c04744baf002c8357d8351d132b981",
+  "priority-review.json": "fad03f63d7dfe1ffa2a21c73ab74bea8504fe72e4a154afaf64beb4cc90c6e0b",
+  "priority-summary.tsv": "663ef87a51af7e6d2a9728bda1bc528a87bbc182680511111d57b2bf64064873",
+  "priority_review.py": "3b1caec6fbe75290866d85e6f4074f9579eb7805d9e3e5a8217cf0a48f750bad"
+}

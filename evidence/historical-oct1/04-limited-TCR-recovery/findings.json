@@ -1,0 +1,944 @@
+{
+  "status": "exploratory_complete",
+  "tool": "TRUST4 v1.1.11-r641",
+  "source_commit": "a3fedd4aa0c1ad4da815427d82e0ceb69ce9c3a0",
+  "reference_files": "Unchanged bundled hg38_bcrtcr.fa and human_IMGT+C.fa, exact hashes in public-source-manifest.json",
+  "run": {
+    "label": "patient-rna",
+    "cwd": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/TRUST4-a3fedd4aa0c1ad4da815427d82e0ceb69ce9c3a0",
+    "command": [
+      "perl",
+      "./run-trust4",
+      "-f",
+      "hg38_bcrtcr.fa",
+      "--ref",
+      "human_IMGT+C.fa",
+      "-b",
+      "/Users/burhanazeem/.local/share/codex/caris-analysis/TN26-279853/RNA_TN26-279853.bam",
+      "-o",
+      "RNA_TN26-279853",
+      "--od",
+      "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/patient",
+      "-t",
+      "1",
+      "--abnormalUnmapFlag",
+      "--outputReadAssignment"
+    ],
+    "returncode": 0,
+    "guard": null,
+    "elapsed_seconds": 286.6521620750427,
+    "process_tree_peak_RSS_bytes_2sec_sampled": 311459840,
+    "directory_bytes_before": 13898281,
+    "directory_bytes_after": 80721045,
+    "checkpoints": [
+      {
+        "stage": "patient-rna",
+        "elapsed_seconds": 0.027453899383544922,
+        "process_tree_RSS_bytes": 2867200,
+        "process_tree_peak_RSS_bytes": 2867200,
+        "directory_bytes": 13898281,
+        "free_disk_bytes": 13043974144,
+        "guard": null
+      },
+      {
+        "stage": "patient-rna",
+        "elapsed_seconds": 30.517512798309326,
+        "process_tree_RSS_bytes": 52199424,
+        "process_tree_peak_RSS_bytes": 52199424,
+        "directory_bytes": 13898281,
+        "free_disk_bytes": 13051310080,
+        "guard": null
+      },
+      {
+        "stage": "patient-rna",
+        "elapsed_seconds": 60.99881601333618,
+        "process_tree_RSS_bytes": 52363264,
+        "process_tree_peak_RSS_bytes": 52363264,
+        "directory_bytes": 13898281,
+        "free_disk_bytes": 13047934976,
+        "guard": null
+      },
+      {
+        "stage": "patient-rna",
+        "elapsed_seconds": 91.49615693092346,
+        "process_tree_RSS_bytes": 52789248,
+        "process_tree_peak_RSS_bytes": 52789248,
+        "directory_bytes": 13898281,
+        "free_disk_bytes": 13053812736,
+        "guard": null
+      },
+      {
+        "stage": "patient-rna",
+        "elapsed_seconds": 121.98300695419312,
+        "process_tree_RSS_bytes": 52838400,
+        "process_tree_peak_RSS_bytes": 52838400,
+        "directory_bytes": 13898281,
+        "free_disk_bytes": 13039271936,
+        "guard": null
+      },
+      {
+        "stage": "patient-rna",
+        "elapsed_seconds": 152.46844696998596,
+        "process_tree_RSS_bytes": 52838400,
+        "process_tree_peak_RSS_bytes": 52838400,
+        "directory_bytes": 13898281,
+        "free_disk_bytes": 13030178816,
+        "guard": null
+      },
+      {
+        "stage": "patient-rna",
+        "elapsed_seconds": 182.96541285514832,
+        "process_tree_RSS_bytes": 53379072,
+        "process_tree_peak_RSS_bytes": 53379072,
+        "directory_bytes": 13898281,
+        "free_disk_bytes": 13044793344,
+        "guard": null
+      },
+      {
+        "stage": "patient-rna",
+        "elapsed_seconds": 213.48383283615112,
+        "process_tree_RSS_bytes": 54312960,
+        "process_tree_peak_RSS_bytes": 54312960,
+        "directory_bytes": 13898281,
+        "free_disk_bytes": 13040893952,
+        "guard": null
+      },
+      {
+        "stage": "patient-rna",
+        "elapsed_seconds": 243.98247981071472,
+        "process_tree_RSS_bytes": 32374784,
+        "process_tree_peak_RSS_bytes": 54444032,
+        "directory_bytes": 44233257,
+        "free_disk_bytes": 13002768384,
+        "guard": null
+      },
+      {
+        "stage": "patient-rna",
+        "elapsed_seconds": 274.4709417819977,
+        "process_tree_RSS_bytes": 311459840,
+        "process_tree_peak_RSS_bytes": 311459840,
+        "directory_bytes": 69279524,
+        "free_disk_bytes": 12979847168,
+        "guard": null
+      }
+    ],
+    "status": "completed"
+  },
+  "official_control": {
+    "exact_sorted_rows_match": false,
+    "CDR3_nucleotide_set_match": true,
+    "total_CDR3s": [
+      44,
+      44
+    ],
+    "differences": [
+      {
+        "expected_contig": "assemble76",
+        "observed_contig": "assemble74",
+        "columns": [
+          {
+            "column": 8,
+            "expected": "assemble76",
+            "observed": "assemble74"
+          }
+        ]
+      },
+      {
+        "expected_contig": "assemble77",
+        "observed_contig": "assemble72",
+        "columns": [
+          {
+            "column": 8,
+            "expected": "assemble77",
+            "observed": "assemble72"
+          }
+        ]
+      },
+      {
+        "expected_contig": "assemble49",
+        "observed_contig": "assemble49",
+        "columns": [
+          {
+            "column": 6,
+            "expected": "IGHJ6*04",
+            "observed": "IGHJ6*03"
+          }
+        ]
+      }
+    ],
+    "counts_frequencies_amino_acids_identical": true,
+    "note": "All 44 CDR3 nucleotide identities, amino-acid labels, counts and frequencies match. Exact table regression does not pass: two changed consensus IDs and one low-count IGHJ6 allele label differ. Preserve without silently treating exact-match test as passed."
+  },
+  "all_reported_chain_rows": {
+    "IGH": 510,
+    "IGK": 354,
+    "IGL": 71,
+    "TRG": 4,
+    "TRB": 6,
+    "TRA": 7
+  },
+  "total_reported_rows": 952,
+  "TCR_rows": 17,
+  "conservative_TRA_TRB_rows": 1,
+  "conservative_chain_counts": {
+    "TRB": 1
+  },
+  "unique_conservative_chain_CDR3_nt": 1,
+  "extracted_FASTQ_check": {
+    "counts": {
+      "complete_paired_records": 69411,
+      "reads": 138822,
+      "bases": 17354170
+    },
+    "unique_pair_names": 69411,
+    "ordered_pair_name_sha256": "ccb42160c48eec7c208f04aedc253f12bc0cd47ec6b6833f0394012f1a30313c",
+    "FASTQ_content_sha256": [
+      "9858f5826e7734ef245a896fae6ae15c8396938f49d7d1f79312756d1fef474d",
+      "c52d985d1e7a61b217f85b9fce64141cb2a630d73bf86f507c058757bd80db79"
+    ]
+  },
+  "candidates": [
+    {
+      "research_candidate_id": "TCR0002",
+      "chain": "TRB",
+      "CDR3_nt": "TGTGCCAGCAGCTTAATAGGGGGTGACGCTTTCTTT",
+      "CDR3_aa_reported": "CASSLIGGDAFF",
+      "CDR3_aa_independently_translated": "CASSLIGGDAFF",
+      "V": "TRBV7-9*01",
+      "D": "TRBD1*01",
+      "J": "TRBJ1-1*01",
+      "C": "TRBC",
+      "consensus_id": "assemble2169",
+      "tool_read_count": 2.0,
+      "tool_report_frequency": 0.2857143,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 2.0,
+          "CDR3_germline_similarity": 96.88,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 2,
+      "independent_Q20_fragment_count": 2,
+      "independent_Q30_fragment_count": 2,
+      "independent_Q20_5base_margin_fragment_count": 2,
+      "independent_read_sequence_unique_count": 2,
+      "independent_Q20_read_sequence_unique_count": 2,
+      "independent_exact_reads": 4,
+      "independent_Q20_reads": 4,
+      "independent_forward_match_reads": 2,
+      "independent_reverse_match_reads": 2,
+      "conservative_research_shortlist": true,
+      "exact_fragment_name_set_sha256": "3462dd8f77e377e9bd709d5ed2542b15118156adda28d540ba2001bfd800549f",
+      "original_BAM_verified_Q20_fragment_count": 2
+    },
+    {
+      "research_candidate_id": "TCR0001",
+      "chain": "TRG",
+      "CDR3_nt": "TGTGCCACCTGGGACAGGCGAGTGAAATCATTATAAGAAACTCTTT",
+      "CDR3_aa_reported": "out_of_frame",
+      "CDR3_aa_independently_translated": null,
+      "V": "TRGV5P*02",
+      "D": ".",
+      "J": "TRGJ1*02|TRGJ2*01",
+      "C": "TRGC",
+      "consensus_id": "assemble618",
+      "tool_read_count": 7.0,
+      "tool_report_frequency": 0.6363636,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 7.0,
+          "CDR3_germline_similarity": 94.59,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": false,
+      "independent_all_exact_fragment_count": 2,
+      "independent_Q20_fragment_count": 2,
+      "independent_Q30_fragment_count": 2,
+      "independent_Q20_5base_margin_fragment_count": 2,
+      "independent_read_sequence_unique_count": 1,
+      "independent_Q20_read_sequence_unique_count": 1,
+      "independent_exact_reads": 2,
+      "independent_Q20_reads": 2,
+      "independent_forward_match_reads": 2,
+      "independent_reverse_match_reads": 0,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "3a76331a50d8adfe1b52fab0e45c9730ade338e69f844f5d258ffd8211d5e374",
+      "original_BAM_verified_Q20_fragment_count": 2
+    },
+    {
+      "research_candidate_id": "TCR0003",
+      "chain": "TRA",
+      "CDR3_nt": "TGTGCAATGAGCTAAGTAGAATTCTGGGGGTTACCAGAAAGTTACCTTT",
+      "CDR3_aa_reported": "out_of_frame",
+      "CDR3_aa_independently_translated": null,
+      "V": "TRAV12-3*01",
+      "D": ".",
+      "J": "TRAJ13*02",
+      "C": ".",
+      "consensus_id": "assemble790",
+      "tool_read_count": 2.0,
+      "tool_report_frequency": 0.2222222,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 2.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": false,
+      "independent_all_exact_fragment_count": 2,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 1,
+      "independent_Q20_read_sequence_unique_count": 1,
+      "independent_exact_reads": 2,
+      "independent_Q20_reads": 1,
+      "independent_forward_match_reads": 2,
+      "independent_reverse_match_reads": 0,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "96bc53a7a44ae71619d8ccd1ed503b67fed8c3bdd04f628457722e735c1dc10b",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0004",
+      "chain": "TRG",
+      "CDR3_nt": "TGTGCCACCTGGGACGGTCGTCGTACTAAGCCTTATAAGAAACTCTTT",
+      "CDR3_aa_reported": "CATWDGRRTKPYKKLF",
+      "CDR3_aa_independently_translated": "CATWDGRRTKPYKKLF",
+      "V": "TRGV2*01",
+      "D": ".",
+      "J": "TRGJ1*02|TRGJ2*01",
+      "C": "TRGC",
+      "consensus_id": "assemble1293",
+      "tool_read_count": 2.0,
+      "tool_report_frequency": 0.1818182,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 2.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 2,
+      "independent_Q20_read_sequence_unique_count": 2,
+      "independent_exact_reads": 2,
+      "independent_Q20_reads": 2,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 1,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "544ca8500e29400abad3867a0f171768df07d156612147a981876ba5c13bdbad",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0005",
+      "chain": "TRA",
+      "CDR3_nt": "TGTGCTACGGACGACAACTATGGTCAGAATTTTGTCTTT",
+      "CDR3_aa_reported": "CATDDNYGQNFVF",
+      "CDR3_aa_independently_translated": "CATDDNYGQNFVF",
+      "V": "TRAV17*01",
+      "D": ".",
+      "J": "TRAJ26*01",
+      "C": ".",
+      "consensus_id": "assemble1536",
+      "tool_read_count": 2.0,
+      "tool_report_frequency": 0.2222222,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 2.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 2,
+      "independent_Q20_read_sequence_unique_count": 1,
+      "independent_exact_reads": 2,
+      "independent_Q20_reads": 1,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 1,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "0f690b1f93108e7c5787766a9f17c17fed5201ea5c3d4bbba3286e2e7845bb9d",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0006",
+      "chain": "TRB",
+      "CDR3_nt": "TGTGCCAGCACCCCCCACGATGCCGGCAAAAGCGAGCAGTTCTTC",
+      "CDR3_aa_reported": "CASTPHDAGKSEQFF",
+      "CDR3_aa_independently_translated": "CASTPHDAGKSEQFF",
+      "V": "TRBV7-2*02",
+      "D": ".",
+      "J": "TRBJ2-1*01",
+      "C": "TRBC",
+      "consensus_id": "assemble1674",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.1428571,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 0.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 1,
+      "independent_Q20_read_sequence_unique_count": 1,
+      "independent_exact_reads": 1,
+      "independent_Q20_reads": 1,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 0,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "d2b12448ac11d7c68b41b15b4f5cca8075f94bc8df4133f627953b8475e5372a",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0007",
+      "chain": "TRA",
+      "CDR3_nt": "TGTGTTGTGAGTATCACAGGAGGAAGCTACATACCTACATTT",
+      "CDR3_aa_reported": "CVVSITGGSYIPTF",
+      "CDR3_aa_independently_translated": "CVVSITGGSYIPTF",
+      "V": "TRAV8-2*01",
+      "D": ".",
+      "J": "TRAJ6*01",
+      "C": "TRAC",
+      "consensus_id": "assemble1299",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.1111111,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 0.67,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 0.67,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 0,
+      "independent_read_sequence_unique_count": 1,
+      "independent_Q20_read_sequence_unique_count": 1,
+      "independent_exact_reads": 1,
+      "independent_Q20_reads": 1,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 0,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "bcd61d9597c2ad7d3ba4af3ca6af7f27695714b3c2c3e27459db17581d9eef3e",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0008",
+      "chain": "TRG",
+      "CDR3_nt": "TGTGCCACCTGGGACGGGCGGGAAATTATTATAAGAAACTCTTT",
+      "CDR3_aa_reported": "out_of_frame",
+      "CDR3_aa_independently_translated": null,
+      "V": "TRGV2*01",
+      "D": ".",
+      "J": "TRGJ1*01",
+      "C": "TRGC",
+      "consensus_id": "assemble2774",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.09090909,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": false,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 2,
+      "independent_Q20_read_sequence_unique_count": 2,
+      "independent_exact_reads": 2,
+      "independent_Q20_reads": 2,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 1,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "3a55e1b4d53c4b9101c6bd97ec334a11a7d1bee6a9364969af3e9437cf8a8a0d",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0009",
+      "chain": "TRA",
+      "CDR3_nt": "TGTGTGGTGAACTCTTAGAGGAGATGACAAGATCATCTTT",
+      "CDR3_aa_reported": "out_of_frame",
+      "CDR3_aa_independently_translated": null,
+      "V": "TRAV12-1*01",
+      "D": ".",
+      "J": "TRAJ30*01",
+      "C": ".",
+      "consensus_id": "assemble1900",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.1111111,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": false,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 0,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 2,
+      "independent_Q20_read_sequence_unique_count": 1,
+      "independent_exact_reads": 2,
+      "independent_Q20_reads": 1,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 1,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "1025c7e7c5f33b39a203d19f1ea34cdf5d45d36162deced5c9453aa3724d1190",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0012",
+      "chain": "TRA",
+      "CDR3_nt": "TGTGCCCCCGCCTCCTTTTCTGGTTCTGCAAGGCAACTGACCTTT",
+      "CDR3_aa_reported": "CAPASFSGSARQLTF",
+      "CDR3_aa_independently_translated": "CAPASFSGSARQLTF",
+      "V": "TRAV12-2*01",
+      "D": ".",
+      "J": "TRAJ22*01",
+      "C": "TRAC",
+      "consensus_id": "assemble2126",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.1111111,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 2,
+      "independent_Q20_read_sequence_unique_count": 1,
+      "independent_exact_reads": 2,
+      "independent_Q20_reads": 1,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 1,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "59156ce5dfd86f987722bbc861d1f36f154c7102be316779b190cdb1b6c0ef06",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0013",
+      "chain": "TRB",
+      "CDR3_nt": "TGTGCCAGCAGCCAAGGGTACGATAACTATGGCTACACCTTC",
+      "CDR3_aa_reported": "CASSQGYDNYGYTF",
+      "CDR3_aa_independently_translated": "CASSQGYDNYGYTF",
+      "V": "TRBV4-2*01",
+      "D": ".",
+      "J": "TRBJ1-2*01",
+      "C": "TRBC",
+      "consensus_id": "assemble1380",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.1428571,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 0.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 2,
+      "independent_Q20_read_sequence_unique_count": 2,
+      "independent_exact_reads": 2,
+      "independent_Q20_reads": 2,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 1,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "358d9fa5733a876fa4f7ccee24c1f1c6a0b379a44992fca0c24816ac7cdffd2b",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0015",
+      "chain": "TRB",
+      "CDR3_nt": "TGTGCCAGCAGTTACTCGACCGAGCAGTTCTTC",
+      "CDR3_aa_reported": "CASSYSTEQFF",
+      "CDR3_aa_independently_translated": "CASSYSTEQFF",
+      "V": "TRBV6-2*01|TRBV6-3*01",
+      "D": ".",
+      "J": "TRBJ2-1*01",
+      "C": "TRBC",
+      "consensus_id": "assemble530",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.1428571,
+      "tool_complete_vdj": "1",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 0.0,
+          "complete_vdj_assembly": "1"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 2,
+      "independent_Q20_read_sequence_unique_count": 2,
+      "independent_exact_reads": 2,
+      "independent_Q20_reads": 2,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 1,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "89ced041673886129e2892d229b7b06a520099c363a9f77a42b7130573129227",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0016",
+      "chain": "TRA",
+      "CDR3_nt": "TGTGCTGTGAGGAACCAGGGCGGATCTGAAAAGCTGGTCTTT",
+      "CDR3_aa_reported": "CAVRNQGGSEKLVF",
+      "CDR3_aa_independently_translated": "CAVRNQGGSEKLVF",
+      "V": "TRAV21*01",
+      "D": ".",
+      "J": "TRAJ57*01",
+      "C": ".",
+      "consensus_id": "assemble3078",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.1111111,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 2,
+      "independent_Q20_read_sequence_unique_count": 2,
+      "independent_exact_reads": 2,
+      "independent_Q20_reads": 2,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 1,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "65cb8978c32e5a2260c2a6a6090f2f183f010187b5901bd5ee281392b2b0e155",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0017",
+      "chain": "TRG",
+      "CDR3_nt": "TGTGCCACCTGGGACTAATTTCGAATTATTATAAGAAACTCTTT",
+      "CDR3_aa_reported": "out_of_frame",
+      "CDR3_aa_independently_translated": null,
+      "V": "TRGV2*01",
+      "D": ".",
+      "J": "TRGJ1*02|TRGJ2*01",
+      "C": "TRGC",
+      "consensus_id": "assemble1324",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.09090909,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": false,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 1,
+      "independent_Q30_fragment_count": 1,
+      "independent_Q20_5base_margin_fragment_count": 1,
+      "independent_read_sequence_unique_count": 1,
+      "independent_Q20_read_sequence_unique_count": 1,
+      "independent_exact_reads": 1,
+      "independent_Q20_reads": 1,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 0,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "28ec05f250306ac9c5960abd7c8e08fd1ef20abd3094d9278982b08d61005b7c",
+      "original_BAM_verified_Q20_fragment_count": 1
+    },
+    {
+      "research_candidate_id": "TCR0010",
+      "chain": "TRA",
+      "CDR3_nt": "TGCATCGTCAGAGATCGCATGAATTATGGAGGAAGCCAAGGAAATCTCATCTTT",
+      "CDR3_aa_reported": "CIVRDRMNYGGSQGNLIF",
+      "CDR3_aa_independently_translated": "CIVRDRMNYGGSQGNLIF",
+      "V": "TRAV26-1*02",
+      "D": ".",
+      "J": "TRAJ42*01",
+      "C": ".",
+      "consensus_id": "assemble837",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.1111111,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 0.01,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 0.01,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 0,
+      "independent_Q20_fragment_count": 0,
+      "independent_Q30_fragment_count": 0,
+      "independent_Q20_5base_margin_fragment_count": 0,
+      "independent_read_sequence_unique_count": 0,
+      "independent_Q20_read_sequence_unique_count": 0,
+      "independent_exact_reads": 0,
+      "independent_Q20_reads": 0,
+      "independent_forward_match_reads": 0,
+      "independent_reverse_match_reads": 0,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_BAM_verified_Q20_fragment_count": 0
+    },
+    {
+      "research_candidate_id": "TCR0011",
+      "chain": "TRB",
+      "CDR3_nt": "TGTGCCAGCACCAGATACAATGAGCAGTTCTTC",
+      "CDR3_aa_reported": "CASTRYNEQFF",
+      "CDR3_aa_independently_translated": "CASTRYNEQFF",
+      "V": "TRBV27*01",
+      "D": ".",
+      "J": "TRBJ2-1*01",
+      "C": "TRBC",
+      "consensus_id": "assemble765",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.1428571,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 0.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 1,
+      "independent_Q20_fragment_count": 0,
+      "independent_Q30_fragment_count": 0,
+      "independent_Q20_5base_margin_fragment_count": 0,
+      "independent_read_sequence_unique_count": 1,
+      "independent_Q20_read_sequence_unique_count": 0,
+      "independent_exact_reads": 1,
+      "independent_Q20_reads": 0,
+      "independent_forward_match_reads": 1,
+      "independent_reverse_match_reads": 0,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "1d0036577072ba061bceca5fccfe3fc8eb5623ce6bfe186021ca8b880a4f98b2",
+      "original_BAM_verified_Q20_fragment_count": 0
+    },
+    {
+      "research_candidate_id": "TCR0014",
+      "chain": "TRB",
+      "CDR3_nt": "TGTGCCAGCAGCACCGACAGGGCTGGAAACACCATATATTTT",
+      "CDR3_aa_reported": "CASSTDRAGNTIYF",
+      "CDR3_aa_independently_translated": "CASSTDRAGNTIYF",
+      "V": "TRBV14*01",
+      "D": "TRBD1*01",
+      "J": "TRBJ1-3*01",
+      "C": "TRBC",
+      "consensus_id": "assemble940",
+      "tool_read_count": 1.0,
+      "tool_report_frequency": 0.1428571,
+      "tool_complete_vdj": "0",
+      "cdr3_details": [
+        {
+          "CDR3_score": 1.0,
+          "assigned_fragment_count": 1.0,
+          "CDR3_germline_similarity": 100.0,
+          "complete_vdj_assembly": "0"
+        }
+      ],
+      "max_CDR3_score": 1.0,
+      "unambiguous_in_frame_stop_free_CDR3": true,
+      "independent_all_exact_fragment_count": 0,
+      "independent_Q20_fragment_count": 0,
+      "independent_Q30_fragment_count": 0,
+      "independent_Q20_5base_margin_fragment_count": 0,
+      "independent_read_sequence_unique_count": 0,
+      "independent_Q20_read_sequence_unique_count": 0,
+      "independent_exact_reads": 0,
+      "independent_Q20_reads": 0,
+      "independent_forward_match_reads": 0,
+      "independent_reverse_match_reads": 0,
+      "conservative_research_shortlist": false,
+      "exact_fragment_name_set_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_BAM_verified_Q20_fragment_count": 0
+    }
+  ],
+  "file_hashes": [
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/patient/RNA_TN26-279853_report.tsv",
+      "bytes": 117865,
+      "sha256": "e6f7130b356f61e95929120d9c483bc0c353c5dfb2e0827c5974576971b47428"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/patient/RNA_TN26-279853_cdr3.out",
+      "bytes": 188333,
+      "sha256": "0310628e403d4f867df8e7defc9d4e9bd9b89aacbf2ded3d08bc38946d610152"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/patient/RNA_TN26-279853_airr.tsv",
+      "bytes": 906651,
+      "sha256": "7aedeab64e6a66301db5867325ec6aad25ddfe62f7fed5f44b4de7bca8addca7"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/patient/RNA_TN26-279853_toassemble_1.fq",
+      "bytes": 20206708,
+      "sha256": "9858f5826e7734ef245a896fae6ae15c8396938f49d7d1f79312756d1fef474d"
+    },
+    {
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/patient/RNA_TN26-279853_toassemble_2.fq",
+      "bytes": 20674912,
+      "sha256": "c52d985d1e7a61b217f85b9fce64141cb2a630d73bf86f507c058757bd80db79"
+    }
+  ],
+  "definitions": {
+    "CDR3_productivity_proxy": "CDR3 nucleotide sequence contains only A/C/G/T, length divisible by three, translates exactly to reported amino acids without stop codon. This is a CDR3-local in-frame/stop-free proxy, not demonstration of a functional full receptor.",
+    "direct_read_support": "Full exact CDR3 nucleotide substring (either orientation) in extracted patient RNA reads; minimum base Q20 across the whole CDR3 for stringent count; collapse mates by original query name. No MAPQ filter because rearranged reads may be unmapped. Distinct full read-sequence hashes add position/sequence diversity context, not independent molecules.",
+    "conservative_shortlist": "TRA or TRB, V and J annotated, local in-frame/stop-free CDR3, CDR3_score>=0.5 (excludes imputed0.01 and partial0), >=2 exact Q20 paired-name fragments and >=2 different Q20-supporting full-read sequences. Complete VDJ assembly is reported separately, not required for a CDR3 comparison resource. Also requires >=2 direct Q20 supporting fragment names with exact sequence/quality verification back to the original BAM."
+  },
+  "limitations": [
+    "No cell barcodes or paired-chain inference: TRA and TRB rows must not be combined into receptors.",
+    "No antigen specificity, tumor reactivity, patient-cell identity, validated repertoire clonality/diversity, or treatment-response inference.",
+    "Bulk FFPE brain tumor includes nonmalignant cells; recovered RNA may be from infiltrating or circulating lymphocytes.",
+    "Counts and frequencies are sequencing/assembly measures, not cell proportions; no UMI/PCR deduplication and incomplete sampling/FFPE damage can bias them.",
+    "Gene/allele assignments may be ambiguous. Exact public-control CDR3 identity/count agreement is execution validation; the BCR-only control is not a TCR sensitivity benchmark.",
+    "Some chains may have only complete CDR3 rather than complete VDJ; do not use partial reconstructed chains directly as engineered TCR constructs.",
+    "A negative result would not establish absence of T cells or tumor-reactive TILs.",
+    "Optional value is comparing exact CDR3 nucleotide/amino-acid and V/J assignments with future validated paired single-cell TCR data; a match alone would not establish specificity."
+  ],
+  "sources": [
+    {
+      "title": "Official TRUST4 source and workflow",
+      "url": "https://github.com/liulab-dfci/TRUST4/tree/a3fedd4aa0c1ad4da815427d82e0ceb69ce9c3a0"
+    },
+    {
+      "title": "TRUST4 primary methods study",
+      "url": "https://www.nature.com/articles/s41592-021-01142-2"
+    }
+  ],
+  "source_BAM_verification": {
+    "regions": [
+      "chr7",
+      "chr14",
+      "no-coordinate/unmapped"
+    ],
+    "counts": {
+      "header_read_groups": 1,
+      "matching_primary_records_found": 23,
+      "Q20_supporting_mates_expected": 23,
+      "Q20_supporting_mates_exactly_verified_in_original_BAM": 23,
+      "Q20_supporting_mates_not_found_in_chr7_chr14_unmapped_scan": 0
+    },
+    "method": "Every Q20-supporting read found in these indexed regions was compared byte-for-byte for original-orientation sequence and quality against the source BAM primary record. Additional conservative rule requires >=2 source-verified supporting fragment names. Unfound mates are explicit and cannot count toward that rule."
+  },
+  "executed_binary_hashes": [
+    {
+      "name": "trust4",
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/TRUST4-a3fedd4aa0c1ad4da815427d82e0ceb69ce9c3a0/trust4",
+      "bytes": 375368,
+      "sha256": "4cd6b55c1d1ed0e245d52be7a7070e2cccec24cf014aa61c0cd8624b18fb5b0a"
+    },
+    {
+      "name": "bam-extractor",
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/TRUST4-a3fedd4aa0c1ad4da815427d82e0ceb69ce9c3a0/bam-extractor",
+      "bytes": 232672,
+      "sha256": "c5a682439b1e80483f242f8c29b5ad2312bee0ffbb0f44b28f35951a72bb5073"
+    },
+    {
+      "name": "fastq-extractor",
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/TRUST4-a3fedd4aa0c1ad4da815427d82e0ceb69ce9c3a0/fastq-extractor",
+      "bytes": 134784,
+      "sha256": "1b5f70cbd1e860583bf3570fe4d27465d58e02ed9db29a717e65ce7d800e5ee9"
+    },
+    {
+      "name": "annotator",
+      "path": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/TRUST4-a3fedd4aa0c1ad4da815427d82e0ceb69ce9c3a0/annotator",
+      "bytes": 263560,
+      "sha256": "19fc5de2c6eed0348b667b79bb80ffab051628d52028cc955fbb25591a774d70"
+    }
+  ],
+  "setup_note": "Initial clang build could not locate standard C++ vector header. A task-local explicit installed SDK/include configuration succeeded without source edits, toolchain installation or global system changes; both build logs/commands retained.",
+  "unmapped_handling": "BAM is coordinate-sorted, but sampled unmapped records were not reliably in adjacent mate pairs. Used the official documented --abnormalUnmapFlag, which directs name-based candidate handling. No patient BAM modification.",
+  "handoff_strength": "Limited. One TRB CDR3 comparison candidate has two source-verified Q30 fragment names. This is not a robust functional TCR discovery or a validated TIL result. Remaining reconstructed rows are exploratory and mostly single-fragment or otherwise insufficient under the explicit filter."
+}

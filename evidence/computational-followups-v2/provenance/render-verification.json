@@ -1,0 +1,25 @@
+{
+  "verified_utc": "2026-10-05T05:00:36.086300+00:00",
+  "documents": [
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/output/pdf/Caris-DNA-RNA-research-handoff-TN26-279853-2026-10-05.pdf",
+      "pages": 1,
+      "sha256": "1dd43da8faa2095b0b34774bb7172a1072fbc3d12e271db222e34981b7b991a4",
+      "bytes": 66541,
+      "text_checks": "pass",
+      "visual_QA": "All pages inspected at readable raster resolution; black/white, no clipping, overlap, broken glyphs or orphaned sections. Final page4 re-inspected after warning update; pages1-3 unchanged. Onepage re-render has identical body content and layout."
+    },
+    {
+      "path": "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/outputs/caris-followup/Caris-followup-findings-2026-10-05.pdf",
+      "pages": 4,
+      "sha256": "4a03532f94ea1e655cbfc1b7f300af01bed903318953474d425668f040c1e18f",
+      "bytes": 13571,
+      "text_checks": "pass",
+      "visual_QA": "All pages inspected at readable raster resolution; black/white, no clipping, overlap, broken glyphs or orphaned sections. Final page4 re-inspected after warning update; pages1-3 unchanged. Onepage re-render has identical body content and layout."
+    }
+  ],
+  "prior_versions_preserved": [
+    "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/output/pdf/Caris-DNA-RNA-research-handoff-TN26-279853.pdf",
+    "/Users/burhanazeem/Documents/Codex/2026-09-05/finances-plugin-finances-openai-curated-remote-3/outputs/caris-followup/Caris-followup-findings-2026-10-04.pdf"
+  ]
+}

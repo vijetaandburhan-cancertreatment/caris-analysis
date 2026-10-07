@@ -1,0 +1,233 @@
+{
+  "created_utc": "2026-10-01T21:13:00Z",
+  "conclusion": "The exact local nucleotide haplotypes that conditionally translate to IEERKGLYL and EERKGLYL are strongly supported by both DNA and RNA. No credible nearby linked alteration found in this bounded review contradicts those dominant local sequences. This is nucleotide/short-read validation, not evidence of protein production or HLA presentation.",
+  "exact_haplotype_evidence": [
+    {
+      "kind": "DNA",
+      "peptide_or_context": "IEERKGLYL",
+      "exact_mutant_nucleotide_reads": 1083,
+      "exact_mutant_nucleotide_query_name_fragments": 691,
+      "exact_reference_query_name_fragments": 517,
+      "other_haplotype_fragments": 19,
+      "discordant_fragments": 0,
+      "exact_mutant_forward_reads": 566,
+      "exact_mutant_reverse_reads": 517,
+      "distinct_mutant_alignment_patterns": 726,
+      "clean_mutant_fragments": 640,
+      "interpretation": "Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules."
+    },
+    {
+      "kind": "DNA",
+      "peptide_or_context": "EERKGLYL",
+      "exact_mutant_nucleotide_reads": 1086,
+      "exact_mutant_nucleotide_query_name_fragments": 693,
+      "exact_reference_query_name_fragments": 541,
+      "other_haplotype_fragments": 15,
+      "discordant_fragments": 0,
+      "exact_mutant_forward_reads": 568,
+      "exact_mutant_reverse_reads": 518,
+      "distinct_mutant_alignment_patterns": 728,
+      "clean_mutant_fragments": 649,
+      "interpretation": "Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules."
+    },
+    {
+      "kind": "DNA",
+      "peptide_or_context": "extended_context_through_predicted_stop",
+      "exact_mutant_nucleotide_reads": 895,
+      "exact_mutant_nucleotide_query_name_fragments": 594,
+      "exact_reference_query_name_fragments": 408,
+      "other_haplotype_fragments": 18,
+      "discordant_fragments": 1,
+      "exact_mutant_forward_reads": 459,
+      "exact_mutant_reverse_reads": 436,
+      "distinct_mutant_alignment_patterns": 605,
+      "clean_mutant_fragments": 540,
+      "interpretation": "Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules."
+    },
+    {
+      "kind": "RNA",
+      "peptide_or_context": "IEERKGLYL",
+      "exact_mutant_nucleotide_reads": 410,
+      "exact_mutant_nucleotide_query_name_fragments": 241,
+      "exact_reference_query_name_fragments": 50,
+      "other_haplotype_fragments": 13,
+      "discordant_fragments": 0,
+      "exact_mutant_forward_reads": 206,
+      "exact_mutant_reverse_reads": 204,
+      "distinct_mutant_alignment_patterns": 218,
+      "clean_mutant_fragments": 192,
+      "interpretation": "Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules."
+    },
+    {
+      "kind": "RNA",
+      "peptide_or_context": "EERKGLYL",
+      "exact_mutant_nucleotide_reads": 419,
+      "exact_mutant_nucleotide_query_name_fragments": 245,
+      "exact_reference_query_name_fragments": 52,
+      "other_haplotype_fragments": 10,
+      "discordant_fragments": 0,
+      "exact_mutant_forward_reads": 211,
+      "exact_mutant_reverse_reads": 208,
+      "distinct_mutant_alignment_patterns": 223,
+      "clean_mutant_fragments": 194,
+      "interpretation": "Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules."
+    },
+    {
+      "kind": "RNA",
+      "peptide_or_context": "extended_context_through_predicted_stop",
+      "exact_mutant_nucleotide_reads": 384,
+      "exact_mutant_nucleotide_query_name_fragments": 231,
+      "exact_reference_query_name_fragments": 42,
+      "other_haplotype_fragments": 15,
+      "discordant_fragments": 1,
+      "exact_mutant_forward_reads": 190,
+      "exact_mutant_reverse_reads": 194,
+      "distinct_mutant_alignment_patterns": 205,
+      "clean_mutant_fragments": 180,
+      "interpretation": "Locally phased nucleotides; conditional translation, not measured peptide/protein; fragments not independent UMI molecules."
+    }
+  ],
+  "reference_and_mapping": {
+    "genomic_event": "hg38 chr3:52408550 CGCCGGGACCGG>C",
+    "RefSeq": "NM_004656.3",
+    "coding_event": "c.168_178del11",
+    "conditional_protein": "p.(Arg57LysfsTer8)",
+    "MANE_GENCODE37": "ENST00000460680.6",
+    "affected_exon": 4,
+    "affected_exon_genomic_0based_halfopen": [
+      52408473,
+      52408606
+    ],
+    "affected_exon_reference_coding_positions_1based": [
+      123,
+      255
+    ],
+    "9mer_reference_coding_window": [
+      157,
+      194
+    ],
+    "9mer_mutant_coding_window": [
+      157,
+      183
+    ],
+    "9mer_genomic_window0": [
+      52408534,
+      52408572
+    ],
+    "8mer_reference_coding_window": [
+      160,
+      194
+    ],
+    "8mer_genomic_window0": [
+      52408534,
+      52408569
+    ],
+    "extended_context": "FKWIEERKGLYLGG*",
+    "extended_reference_coding_window": [
+      148,
+      203
+    ],
+    "target_exon_public_hg38_RefSeq_exact_match": true
+  },
+  "nearby_variants": {
+    "scope": "375 coding bases in MANE exons 1--5; all qualifying base observations retained in nearby-coding-base-evidence.tsv.",
+    "supplied_VCF": "Only the reported 11bp BAP1 deletion is present in the bounded five-exon region.",
+    "DNA": "No additional SNV reaches >=5 non-discordant query-name fragments and >=1%. Target-exon strict DNA read depth spans 1216--2696x. A 1bp deletion at c.210 is seen in six query-name fragments but every supporting read is within 5bp of its alignment end; it is after the predicted early stop and is not promoted.",
+    "RNA_peptide_window": "No SNV in the exact nine-/eight-peptide coding window reaches >=3 non-discordant query-name fragments and >=1%. The dominant complete haplotypes match the predicted sequence directly.",
+    "RNA_upstream_flank": "At c.154 (immediately upstream of the nine-peptide window), 17 G and 8 C forward-genomic alternate fragments are unphased to the known deletion; all fail the no-softclip/at-least-5bp-from-end check. They do not contradict the 231 exact full-context RNA fragments spanning c.148--203.",
+    "RNA_downstream": "Four other low-level RNA SNV observations are at reference c.265,289,312,337, all beyond the modeled stop and outside the candidate peptide window. Some have poor end/clipping or repeated-coordinate support; these are retained as minor observations, not validated variants.",
+    "RNA_minor_indels": "A 12bp deletion overlapping the known 11bp event has five reads/four query-name fragments with exact local sequence; no exact 12bp haplotype in the corresponding stringent DNA check. This rare RNA observation is unresolved and not silently discarded. The dominant 11bp RNA haplotype has 410 reads/241 fragments over the same nine-peptide window. Other small RNA indel observations lack phase to the main deletion and do not change the locally established sequence.",
+    "meaning": "A clinical negative or absence of every subclonal event is not established. The local peptide sequence can coexist with minor other RNA molecules or technical errors."
+  },
+  "splice_evidence": {
+    "exon3_to4": {
+      "kind": "RNA",
+      "intron_start0": 52408606,
+      "intron_end0": 52409553,
+      "annotation": "exon_3_to_4",
+      "reads": 779,
+      "fragments": 484,
+      "distinct_alignment_patterns": 332,
+      "forward_reads": 437,
+      "reverse_reads": 342,
+      "same_read_deletion_state": {
+        "alt": 222,
+        "unassessable": 532,
+        "ref": 25
+      },
+      "same_query_fragment_deletion_state": {
+        "alt": 143,
+        "unphased": 324,
+        "ref": 17
+      },
+      "proper_pair_query_fragment_deletion_state": {
+        "alt": 143,
+        "unphased": 324,
+        "ref": 17
+      }
+    },
+    "exon4_to5": {
+      "kind": "RNA",
+      "intron_start0": 52408077,
+      "intron_end0": 52408473,
+      "annotation": "exon_4_to_5",
+      "reads": 383,
+      "fragments": 249,
+      "distinct_alignment_patterns": 207,
+      "forward_reads": 174,
+      "reverse_reads": 209,
+      "same_read_deletion_state": {
+        "unassessable": 304,
+        "alt": 56,
+        "ref": 23
+      },
+      "same_query_fragment_deletion_state": {
+        "unphased": 180,
+        "alt": 52,
+        "ref": 17
+      },
+      "proper_pair_query_fragment_deletion_state": {
+        "unphased": 180,
+        "alt": 52,
+        "ref": 17
+      }
+    },
+    "both_junctions": {
+      "fragments_with_both_exon4_junctions": 28,
+      "deletion_state": {
+        "alt": 24,
+        "ref": 1,
+        "unphased_or_discordant": 3
+      },
+      "exon4_skip_junction_fragments": 2
+    },
+    "interpretation": "Normal exon-4 inclusion is directly supported on deletion-bearing local RNA fragments. Twenty-four paired query-name fragments support the deletion and both neighboring junctions. This does not identify a full-length isoform or establish reference translational initiation.",
+    "minor_junctions": "Two fragments support the exon3-to5 junction skipping exon4; one fragment each supports two other local junctions. Skipping fragments cannot be phased to a deletion in the omitted exon. Counts are not an isoform abundance/PSI estimate."
+  },
+  "research_value": "Keep these BAP1 peptides on the conditional vaccine research shortlist with strengthened local sequence provenance. Do not label them verified antigens or clinically suitable vaccine targets; tumor specificity, actual protein/peptide production, HLA presentation and recognition remain separate questions.",
+  "limitations": [
+    "RNA/DNA nucleotide and splice-read evidence only: no translated protein, processing, HLA presentation, T-cell recognition or therapeutic activity measured.",
+    "Mutant peptide translation assumes the named RefSeq CDS initiation and reading frame; local read phasing is not full-length transcript phasing.",
+    "Query-name+read-group fragments merge mates, not PCR duplicates or independent UMI-tagged molecules. RNA BAM absence of duplicate flags is not proof of deduplication.",
+    "No matched normal: local allele support does not establish tumor specificity, clonality, germline status or BAP1 second-hit mechanism.",
+    "Nearby screen is bounded to first five MANE coding exons with modest exploratory thresholds; it is not a clinical negative call or de novo complete variant callset.",
+    "RNA MAPQ255 is the aligner unique-mapping sentinel, not measured phred255 confidence.",
+    "Splice junction counts require 8 aligned contiguous Q20 bases on each side; shorter anchors and low-quality/supplementary evidence are excluded.",
+    "RNA abundance/alternate reads do not quantify nonsense-mediated decay; a premature stop prediction is not proof of stability or protein production."
+  ],
+  "files": {
+    "primary_script": "validate.py",
+    "primary_result": "results.json",
+    "reference": "reference-provenance.json",
+    "local_haplotype_table": "BAP1-peptide-local-evidence.tsv",
+    "minor_observation_audit": "minor-observation-audit.json",
+    "minor_12bp_check": "minor-12bp-deletion-haplotype-check.json",
+    "splicing": "exon4-splice-junction-evidence.tsv"
+  },
+  "code_SHA256": {
+    "audit-minor-observations.py": "5459cd0a4e55cbca73b3d6c08a89d35da2c62fc65096e436944179a49576e504",
+    "compare-deletion-lengths.py": "80f2a647595ac8df9fee8ab5d6723e9702666b30943c6bc06a393bc113cd7efe",
+    "compile-findings.py": "12e74c700396ad23eca92ba193863566b219cb671da40f398e205b526a0d2287",
+    "validate.py": "24fcf8f8b4bb3d0421ccfc87cbad6a3c199336d67c6b0ba0c0b572f2115053a0"
+  }
+}

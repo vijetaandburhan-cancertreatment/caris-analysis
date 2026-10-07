@@ -1,0 +1,31 @@
+Expanded tumor-only copy-number / allele-balance research review — 4 October 2026
+
+Most useful new result
+The BAP1 frameshift is linked to the locally overrepresented SNP haplotype. At hg38 chr3:52408338 G>C, there are 109 C versus 30 G query-name fragments (clean 98 versus 26; all original ref/alt observations also pass MAPQ60). This SNP lies 212 bp from the frameshift anchor. With 10 bp of exact high-quality reference sequence on each side of the deletion, 37 informative proper-pair fragments yield:
+  C + BAP1 deletion: 21 (clean 19)
+  C + reference at the deletion locus: 7 (clean 4)
+  G + reference at the deletion locus: 9 (clean 8)
+  G + BAP1 deletion: 0
+All 37 represent distinct paired-alignment patterns. They are paired-fragment observations, not single reads spanning both loci. The C+reference observations matter: not every C haplotype is mutated. The result supports local cis linkage to the overrepresented allele and a stronger allele-specific alteration hypothesis; it does not establish somatic status, a lost wild-type allele, or clinically confirmed biallelic BAP1 inactivation.
+
+The denser regional evidence
+The independent public panel contains 165,782 predefined common-SNP positions across six chromosomes, with 62,358 positions producing pileup output and 6,564 stringent candidate heterozygotes. There are 439 qualifying sites on 3p (median minor allele fraction 0.2184), compared with 582 on 3q (0.3750). BAP1 ±1 Mb has 57 markers, median 0.2242. These observations extend the prior six-marker result substantially. No matched normal confirms constitutional heterozygosity.
+Relative off-exon DNA fragment density on 3p versus 3q is 0.746–0.764 in 100 kb bins across exon-exclusion flanks 100/500/2000 bp. This is a relative within-sample density comparison, not an absolute copy ratio to diploid normal. A region with one retained copy, copy-neutral LOH, allele-specific gain or a mixture can share a similar minor allele fraction at different purity/ploidy. The explicit nonidentifiability table preserves those alternatives instead of selecting a copy state.
+
+MTAP / CDKN2A/B
+The original analytical workbook's deletion calls remain the strongest supplied vendor copy-number evidence: MTAP Deleted/CNA_Value 0.80; CDKN2A Deleted/1.30; CDKN2B Deleted/0.90. We do not turn these noninteger values into tumor copy counts. Two local CDKN2A SNPs are nearly balanced (184/198 and 75/95 reference/alternate fragments), unlike many surrounding chromosome 9 markers. Normal-cell reads at a tumor-deleted locus are one explanation, but this is not proof of homogeneous homozygous tumor loss. A broader density trough near 22.1–30 Mb is largely DOWNSTREAM of the 21.8–22.0 Mb gene cluster and is not an inferred deletion boundary. The bounded discordant/split-read screen did not establish a deletion junction spanning these genes; capture gaps limit this negative observation.
+
+RASA1
+The earlier expressed frameshift remains supported. The expanded scan finds no qualifying common-SNP heterozygote within the gene or ±1 Mb, so local second-hit/LOH status is still unresolved. We measured all 3,141 selected coding bases at ≥20×, with median 282× and mean 390.3×. This supports sequence assessability, not a copy-number classification. More distant 5q imbalance cannot be assigned to RASA1 without additional local evidence.
+
+Why exon depth is not an absolute answer
+The expanded coding review covers 818 genes and 11,181 selected-CDS intervals. Mean base depth ranges from 202.9× at MTAP and 390.3× at RASA1 to 4447.4× at BAP1; CDKN2A is 1845.5× and CDKN2B 986.9×. The metadata identify an exome-plus-720-gene workflow, and its private target BED and normal/bias model are absent. Even genes labeled clinical in the export have widely different depth. Within-sample GC/repeat adjustment cannot correct an unknown locus-specific capture baseline. We therefore do not produce integer CN, calibrated homozygous-loss or purity estimates from these depths.
+
+Validation and limits
+A separate analyst also reproduced all BAP1 phase counts and fragment identities, verified reciprocal mate coordinates and TLEN, and found no pair-consistency failures. A separate direct CIGAR-position implementation exactly reproduced all 388 audited SNP reference/alternate fragment counts. Removing soft-clipped reads and bases within 5 nt of either aligned read end changed minor allele fraction by a median 0.0067 across the retained audit sites. Synthetic filter/parser tests passed. Public 1000G download matches the publisher's MD5. These are analysis-execution checks, not a clinically validated assay. Fragments are grouped by query name, not UMI-defined independent molecules. No patient data were sent externally, no originals changed, and no clinical source excluded by the user's preference was used.
+
+Most useful next evidence
+Request the vendor's allele-specific CN/LOH segments, BAF/log2 ratios, purity/ploidy and target/reference-calibration information for 3p/BAP1, 9p21/MTAP-CDKN2A/B and 5q/RASA1. Ask whether its MTAP result meets a validated homozygous loss definition, rather than inferring that from 0.80. Clinician-directed matched-normal/orthogonal testing is the decisive way to clarify constitutional status and BAP1 second-hit interpretation.
+
+Reproducibility
+All scripts, per-position/per-interval tables, count controls, methods and public reference provenance are in this directory. Main figures: regional-common-SNP-allele-balance.png and regional-off-exon-relative-density.png. Detailed findings.json records exact evidence and missing calibration. BAP1-SNP-frameshift-fragment-phase.json preserves the physical-fragment support; no individual reads are reproduced in this narrative.

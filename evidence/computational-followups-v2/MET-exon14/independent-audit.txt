@@ -1,0 +1,16 @@
+Independent MET exon14 check — 5 October2026
+
+PASS. Directly parsed the resident GENCODE37 GTF without reading the production annotation object: ENST00000397752.8 is tagged MANE_Select, on chr7 plus strand, with21 exons. Exon14 is [116771848,116771989) in0-based half-open coordinates, length141bp; all141bp intersect its CDS annotation. In1-based closed notation this is chr7:116771849-116771989. Its exon13-to15 skipped interval is [116771654,116774880), length3226bp. These are genomic intron/junction intervals, not a141bp genomic deletion claim.
+
+Independent explicit CIGAR reference/query walker, without importing production code, reproduced the complete original query-name sets: exon13→14=88, exon14→15=87, exon13→15(skip14)=0. Query-name+read-group counts were the same. Criteria: primary/nonduplicate/non-QCfail, MAPQ>=20, NH=1 if present, adjacent match blocks>=12nt, every12nt anchor base reference-exact and BQ>=20. All1156 fetched original alignments passed alignment-level flags/MAPQ/NH, so the absence is not attributable to wholesale exclusion by those filters; anchor requirements still apply.
+
+Independent STAR.SJ parsing reproduced106/96 unique-mapping read counts for the normal junctions and no row for the canonical skipped junction. STAR intron starts are1-based; subtracting1 from start and retaining end produces the same0-based half-open intervals. The old strict paired-query count and STAR read-count columns have different definitions and should not be directly subtracted or used to claim longitudinal change.
+
+Nine synthetic positive/negative checks passed, including an exact reference-derived50M3226N50M skip read in both stored-alignment orientations. The counter rejected an11nt anchor, an anchor mismatch, low BQ, a D rather than N operation, secondary mapping, NH2 and MAPQ19. This validates implementation/coordinate handling, not clinical assay sensitivity.
+
+Root's separate full raw-FASTQ exact-marker pass reports0 canonical skip pairs for both30nt and50nt markers, with76/60 normal13→14 and79/65 normal14→15 pairs. I inspected its pattern/quality logic but did not independently rescan23.2million pairs. The executed script relied on prior whole-file pairing/QC validation; its disabled placeholder assertion was not a pairing check. The exact executed source is now preserved as raw_exact_check.executed.py, and only the no-op assertion and adjacent comment were removed from raw_exact_check.py after execution. No numerical conclusion depends on that placeholder, and outputs were unchanged.
+
+Safe conclusion: no canonical MET exon14-skipping junction was detected by these bounded research checks in this specimen. This does not exclude every MET alteration, low-abundance skipping, or a noncanonical/sequence-mismatched junction, and does not establish eligibility for any drug. The literature motivation concerns biologically/genomically established MET exon14 events in specific settings, not treatment based on any low-level RNA splice signal.
+
+Primary background: https://pubmed.ncbi.nlm.nih.gov/28522754/
+Detailed reproducible evidence: independent_check.py and independent-junction-check.json. Original sequencing files were read without modification.

@@ -1,0 +1,946 @@
+{
+  "source_url": "https://codeload.github.com/liulab-dfci/TRUST4/tar.gz/a3fedd4aa0c1ad4da815427d82e0ceb69ce9c3a0",
+  "commit": "a3fedd4aa0c1ad4da815427d82e0ceb69ce9c3a0",
+  "archive_sha256": "2ee02903cd994428c8d56af4c046da6b759e306b61283cc880324a47fe4b3018",
+  "archive_bytes": 1051104,
+  "source_dir": "/Users/burhanazeem/.local/share/codex/caris-analysis/trust4-tools/TRUST4-a3fedd4aa0c1ad4da815427d82e0ceb69ce9c3a0",
+  "license": "MIT (source LICENSE.txt), bundled samtools notices retained",
+  "sources": [
+    {
+      "file": "AlignAlgo.hpp",
+      "bytes": 27729,
+      "sha256": "d402b876ec888566075deffc142d1cecd8cffd006f81bbfd49e532e4d1009acf"
+    },
+    {
+      "file": "Annotator.cpp",
+      "bytes": 34309,
+      "sha256": "e046495f3878cd8e1d22c6d0263556d9cdd8f9cbf70ae4e2c58e606a3829f3ab"
+    },
+    {
+      "file": "BamExtractor.cpp",
+      "bytes": 26776,
+      "sha256": "4b8024be18e8c9896e21a103d0206e9903dac8aa3929ceee22e4c4b7f716b275"
+    },
+    {
+      "file": "BarcodeCorrector.hpp",
+      "bytes": 4450,
+      "sha256": "600384d883193745a9b0ae30e26242313ca89dd3c2d3509dd77b42291aa935d8"
+    },
+    {
+      "file": "BarcodeTranslator.hpp",
+      "bytes": 3310,
+      "sha256": "93a19d7662d46806bf2a8f553efdf4df22274246336f4e7103a2c99ad5c0ae32"
+    },
+    {
+      "file": "BufferManager.hpp",
+      "bytes": 1199,
+      "sha256": "0b01d728231af4c08334f704461ad381ff160d643f2a95583517561a475be344"
+    },
+    {
+      "file": "BuildDatabaseFa.pl",
+      "bytes": 2923,
+      "sha256": "01db866dd325ac899ce93a3c742bd6391d4d5a33a5968e60830f41714ca6821a"
+    },
+    {
+      "file": "BuildImgtAnnot.pl",
+      "bytes": 1687,
+      "sha256": "f792220d68a007b52ad61f9f30ef70177a5316ed0f0b56d873aab0a8b3bb3917"
+    },
+    {
+      "file": "BuildImgtVquestAnnot.pl",
+      "bytes": 1057,
+      "sha256": "fe990d1b4a632575cd8d51572b91d2027df34c27fb9ee86ec44929476bb6bb1b"
+    },
+    {
+      "file": "CODE_OF_CONDUCT.md",
+      "bytes": 5411,
+      "sha256": "83bbbad9314bb58e0fe34adfbc27801fc5813fe02560988ee3e87f224bcdf190"
+    },
+    {
+      "file": "Cgene.list",
+      "bytes": 55,
+      "sha256": "4318008292fe66d69a0b71ee5ba9679e826476bfe6a07c52ae644071e3564122"
+    },
+    {
+      "file": "FastqExtractor.cpp",
+      "bytes": 20203,
+      "sha256": "41ba167210463e6ab397fabb8720bb901a335e9c230ddf4822ae2788215f72ba"
+    },
+    {
+      "file": "FileLineReader.hpp",
+      "bytes": 1410,
+      "sha256": "62d987d575e5196d5ee4d7f2d92e8a29795eee6e0a528a333544380797598743"
+    },
+    {
+      "file": "FilterAnnotatedAssembly.pl",
+      "bytes": 1821,
+      "sha256": "b46bb575e4884c3d308d213a14f47625f9eb2678df7b649e9b5e8057d5f2e85d"
+    },
+    {
+      "file": "KmerCode.hpp",
+      "bytes": 2992,
+      "sha256": "f6210253d33cdf100ecdf46d0853c43f4612b671804e28b809911e0d6806857e"
+    },
+    {
+      "file": "KmerCount.hpp",
+      "bytes": 6187,
+      "sha256": "c6881904c9446bdb2f7c084cca8da492d0ea7802a1ec3248c36cd51493d424c8"
+    },
+    {
+      "file": "KmerIndex.hpp",
+      "bytes": 5693,
+      "sha256": "507dcbe19385dc4e46a49d265aceebc3209547b97132653cdb721495f42c4d5e"
+    },
+    {
+      "file": "LICENSE.txt",
+      "bytes": 1080,
+      "sha256": "17b14636b6de2d89676f291c97aea7d0ba0b1330a8b3b904a2fbe6b9f86c3295"
+    },
+    {
+      "file": "Makefile",
+      "bytes": 1461,
+      "sha256": "24014bd766a244ee054b0b12f74275e4388eb32d8f8ab50193126389638cdc66"
+    },
+    {
+      "file": "README.md",
+      "bytes": 15656,
+      "sha256": "f34b15c6693cc484f42c627710a2bc8694c5e0a8260d15913cac83456add018c"
+    },
+    {
+      "file": "ReadFiles.hpp",
+      "bytes": 6574,
+      "sha256": "1acf735b4f04e015584b6aa0f13dd2b488e5ca925dd3c0084fccb3a9e6c418e3"
+    },
+    {
+      "file": "ReadFormatter.hpp",
+      "bytes": 10648,
+      "sha256": "cd66181bf3755f42ccd6ee45431782dd1efd96b9c6f9c1b16d4bfce548fbc843"
+    },
+    {
+      "file": "SeqSet.hpp",
+      "bytes": 330731,
+      "sha256": "89a1b2e32bc5034a8646c4aad6cf6a81ce0067cc2acd6771905a0b667fd263cf"
+    },
+    {
+      "file": "SimpleVector.hpp",
+      "bytes": 6643,
+      "sha256": "130697575464d9ac44a630f1fe35750d356240f7380473f9e3622f3124a3e085"
+    },
+    {
+      "file": "alignments.hpp",
+      "bytes": 11642,
+      "sha256": "954e27f01f1885760ebdadcd7683fddc1616e3571cf7d342d0b801810f841d4f"
+    },
+    {
+      "file": "defs.h",
+      "bytes": 770,
+      "sha256": "79476d0dfaaa273fbae1ff0626d1f8cbd5e742472111cc7a563e607449e4014e"
+    },
+    {
+      "file": "example/TRUST_example_airr.tsv",
+      "bytes": 40612,
+      "sha256": "3e1b846086d0a8c8d78b512ef5ee285f6d3a91a18b50ebe2ac52844d24a0e217"
+    },
+    {
+      "file": "example/TRUST_example_annot.fa",
+      "bytes": 45128,
+      "sha256": "dbc8bd3c72127f965ccc0609c051a0058778bf259c4dec46fba79e17b90596fc"
+    },
+    {
+      "file": "example/TRUST_example_cdr3.out",
+      "bytes": 10931,
+      "sha256": "d98dbd640f8115662b6a802516518f2db8620e37b7b07e8cb4f4ad07c4dd4bea"
+    },
+    {
+      "file": "example/TRUST_example_report.tsv",
+      "bytes": 6681,
+      "sha256": "b2c4d69a82b2e591045f334685dccc9e204703506174b8497eaf6baca055d33c"
+    },
+    {
+      "file": "example/example.bam",
+      "bytes": 70422,
+      "sha256": "73695c14b2e4f9ca63e55208db8e5664cb27798b50c026476da6f12fda28217c"
+    },
+    {
+      "file": "example/example_1.fq",
+      "bytes": 60329,
+      "sha256": "3c9d3c1ae258fec08c1ff45e4a7367ae02a63d32233761d8602fa904f00ed1a5"
+    },
+    {
+      "file": "example/example_2.fq",
+      "bytes": 60329,
+      "sha256": "830f5d09b64993b82fa35cb0e446ba507e8db3ed69c4d63563029f0b1bf6e061"
+    },
+    {
+      "file": "hg19_bcrtcr.fa",
+      "bytes": 217357,
+      "sha256": "26a1d4baa0bb6856f4ef92a49c395da9afe7df0b60f8ba41ac8a7f967fa91d7a"
+    },
+    {
+      "file": "hg38_bcrtcr.fa",
+      "bytes": 244692,
+      "sha256": "615152a7481d0a68557ab0a84b735d8f25fc1ee9d5076af3b8d31aa7792dc3df"
+    },
+    {
+      "file": "human_IMGT+C.fa",
+      "bytes": 346201,
+      "sha256": "f9bb920092a2b4aab4b17d81057f8e1cda35403e743123d4f9c39b02a4c2a8a2"
+    },
+    {
+      "file": "human_vdjc.list",
+      "bytes": 5273,
+      "sha256": "94ba354d807ab0c80babbd9bea8a3d8e8ef5aa732452e8813dadac9c94c24d44"
+    },
+    {
+      "file": "khash.h",
+      "bytes": 23001,
+      "sha256": "4e448298f3be68c1067bea0aa63653a6a16c22847165aede2a2313b2af231ad8"
+    },
+    {
+      "file": "kseq.h",
+      "bytes": 8741,
+      "sha256": "d59316193c257240c6b8bc87de5ec2791e7e57178f2eaf9313ac9c93a537e2dd"
+    },
+    {
+      "file": "main.cpp",
+      "bytes": 63843,
+      "sha256": "e21e6ff534f923a13d9826cc81038e17d72ee7522402b9483d3e923810ef5143"
+    },
+    {
+      "file": "mouse/GRCm38_bcrtcr.fa",
+      "bytes": 266262,
+      "sha256": "adb1f440439f139f7dccc966d71ee55d569d985f17b90af46c8ea474aff02bd3"
+    },
+    {
+      "file": "mouse/GRCm39_bcrtcr.fa",
+      "bytes": 283192,
+      "sha256": "b02b76e80c1a2cca75124f7ccd59c1772d63f44ee87a6c95d580c2382e117757"
+    },
+    {
+      "file": "mouse/README.md",
+      "bytes": 213,
+      "sha256": "89c2436e59bcb1f58ea6e4da899b97edbd1664dc4c34a10d4e3155539e2b48a5"
+    },
+    {
+      "file": "mouse/mouse_IMGT+C.fa",
+      "bytes": 369194,
+      "sha256": "76daf9a5d1374f815ff4dd44ca45ff9c6961b605af42945b836f7780069506e2"
+    },
+    {
+      "file": "run-trust4",
+      "bytes": 16009,
+      "sha256": "1449c60ff89fa1d17a176f9636e8899f5ea7e0e79865b24508afb7191c20faee"
+    },
+    {
+      "file": "samtools-0.1.19/.gitignore",
+      "bytes": 22,
+      "sha256": "4d1c61c3a15d645879ac8130e4f3bf63a12c5786b6a043113effc52229e2bb4d"
+    },
+    {
+      "file": "samtools-0.1.19/AUTHORS",
+      "bytes": 916,
+      "sha256": "082eff27969f837d234571b963f28eeadbd63563305b29f90872c595cf7498e9"
+    },
+    {
+      "file": "samtools-0.1.19/COPYING",
+      "bytes": 1085,
+      "sha256": "64f15672e35aa875518e6408e2ff858d64bbb83d0a32a2c66f3aef797e6eed4e"
+    },
+    {
+      "file": "samtools-0.1.19/ChangeLog.old",
+      "bytes": 116368,
+      "sha256": "66ff66e72971959e0cdf2387fa7bdceaaebacdc14c6b6c25f0a383055586f572"
+    },
+    {
+      "file": "samtools-0.1.19/INSTALL",
+      "bytes": 1200,
+      "sha256": "0be8b9fc77e3f936d82bb354d66b42e242d34b85954c145ba21f2730535dfb0a"
+    },
+    {
+      "file": "samtools-0.1.19/Makefile",
+      "bytes": 3007,
+      "sha256": "63d1ecb8e48a995199a9edecb100b40cd61bf23b6e53ce6bc48910b228ffc771"
+    },
+    {
+      "file": "samtools-0.1.19/Makefile.mingw",
+      "bytes": 2092,
+      "sha256": "a2d04d085fd3912f69b8cb761ce7f5bb5ab348665bab53ba41432b84c44fc475"
+    },
+    {
+      "file": "samtools-0.1.19/NEWS",
+      "bytes": 28174,
+      "sha256": "ad4c9195a0802297ee341e391a00b4af19a361c2336af3178e5e9baf58e802ff"
+    },
+    {
+      "file": "samtools-0.1.19/bam.c",
+      "bytes": 15981,
+      "sha256": "f49ff9d28135bfa6667ce42f168bad02af8eb05ff562dc6183473548ff0ebdab"
+    },
+    {
+      "file": "samtools-0.1.19/bam.h",
+      "bytes": 25785,
+      "sha256": "78089c4bcc4939ba580a72905ed687635168f9f330579be1dcfb85b1abb6017f"
+    },
+    {
+      "file": "samtools-0.1.19/bam2bcf.c",
+      "bytes": 14804,
+      "sha256": "be44bb2050c9874c0edcd1c2c03a9757fc77bd3ed302561327f6aa82de38f060"
+    },
+    {
+      "file": "samtools-0.1.19/bam2bcf.h",
+      "bytes": 1889,
+      "sha256": "cbc7487e3021f19fedc7446a319f40790809b9073f7e0b321de75232e2420aff"
+    },
+    {
+      "file": "samtools-0.1.19/bam2bcf_indel.c",
+      "bytes": 18351,
+      "sha256": "72d799f4c00823d64b73a6bf67312c8dd3b37e329386bf7622cb5aa538369d7d"
+    },
+    {
+      "file": "samtools-0.1.19/bam2depth.c",
+      "bytes": 5844,
+      "sha256": "1b86d6f38d22bb7ad539f9c36b4150655fea8a93d2ac53974595e8a08574e4d1"
+    },
+    {
+      "file": "samtools-0.1.19/bam_aux.c",
+      "bytes": 5085,
+      "sha256": "6c754e42df3e77a2f621a4d4deeb451a4727890bfcda252a7382f8d86c0a0f59"
+    },
+    {
+      "file": "samtools-0.1.19/bam_cat.c",
+      "bytes": 5803,
+      "sha256": "e7ee5631aa92a19f06a9ba1e75d74385bf1a268f16b10acf9dd1b84123ec80d9"
+    },
+    {
+      "file": "samtools-0.1.19/bam_color.c",
+      "bytes": 3333,
+      "sha256": "fe5c4c866c7cc51a005e6b865f1fdcb8d1c5632331e6fe705c2735f497ec04ae"
+    },
+    {
+      "file": "samtools-0.1.19/bam_endian.h",
+      "bytes": 1064,
+      "sha256": "f0dfe5a0b4c4793ebfbfc02a32972b4c699296f1916e25c502d65bc6db7fd3e2"
+    },
+    {
+      "file": "samtools-0.1.19/bam_import.c",
+      "bytes": 16461,
+      "sha256": "f6f1ba8c11a8ecaf6b79658322c739148f450c8f5d076c306bb75684d6108f60"
+    },
+    {
+      "file": "samtools-0.1.19/bam_index.c",
+      "bytes": 21491,
+      "sha256": "45c414bedc55a4247dfc71074bd96dbfff8dd7192e248d74f930a7b77e24ea04"
+    },
+    {
+      "file": "samtools-0.1.19/bam_lpileup.c",
+      "bytes": 4976,
+      "sha256": "c8fde5b21fb98bcdc661391eafdcdeef86587958c2075ca374c3824db8cd8668"
+    },
+    {
+      "file": "samtools-0.1.19/bam_mate.c",
+      "bytes": 4553,
+      "sha256": "037d2bea08194a663cf9287b053e730c15c9f71d75073bea6722aa4b3f5a7afa"
+    },
+    {
+      "file": "samtools-0.1.19/bam_md.c",
+      "bytes": 12942,
+      "sha256": "c7446f93bc8eda38bf3c82850f8a5a088ca198bec91fc8f99c954d467ca1be6f"
+    },
+    {
+      "file": "samtools-0.1.19/bam_pileup.c",
+      "bytes": 12954,
+      "sha256": "a2b7df501deacbc0a04b2ae5226135b7b5fe592f517e29c4651bc7b3e7eff572"
+    },
+    {
+      "file": "samtools-0.1.19/bam_plcmd.c",
+      "bytes": 22175,
+      "sha256": "c661950fa219f85007ce83c6288c155ae1664cfd2d21328412d3bdfdeb98c905"
+    },
+    {
+      "file": "samtools-0.1.19/bam_reheader.c",
+      "bytes": 1506,
+      "sha256": "1c09d85e7d7d781fd6122b4d748ccb17aa4fdde6518b4bcd6a6c40f38b22a5a8"
+    },
+    {
+      "file": "samtools-0.1.19/bam_rmdup.c",
+      "bytes": 5631,
+      "sha256": "e06522be624b1601d0c46261c73e6bac832f6c6ec9fa690565ab2a28133fafc1"
+    },
+    {
+      "file": "samtools-0.1.19/bam_rmdupse.c",
+      "bytes": 4127,
+      "sha256": "3fd9a737b45b512b111c097feac20b02f892e8cb9c02afef6d13363cb0f32778"
+    },
+    {
+      "file": "samtools-0.1.19/bam_sort.c",
+      "bytes": 18685,
+      "sha256": "7396faba747178e779d733d133e634db1df7f030eab642a1a2c4b13a9cd3e43a"
+    },
+    {
+      "file": "samtools-0.1.19/bam_stat.c",
+      "bytes": 3202,
+      "sha256": "b332741a39a5462bb306f1fc3198a84469a5a5a2f8af5bfed0d6b4bbb62486b8"
+    },
+    {
+      "file": "samtools-0.1.19/bam_tview.c",
+      "bytes": 11391,
+      "sha256": "fb2c725a075d2acf51d452152fb6e625e815df9359eab872f615fb961c3ce374"
+    },
+    {
+      "file": "samtools-0.1.19/bam_tview.h",
+      "bytes": 1880,
+      "sha256": "a46bf0f081010d4530fcdc9f6519ad49c05f9dd550ff8ddbf215a383def0b916"
+    },
+    {
+      "file": "samtools-0.1.19/bam_tview_curses.c",
+      "bytes": 7879,
+      "sha256": "09c1db6269728495e1c28fee67b35b84a216048d568e80d03341ea93a2c95462"
+    },
+    {
+      "file": "samtools-0.1.19/bam_tview_html.c",
+      "bytes": 8406,
+      "sha256": "2837775319dcff20875a861efa0b1bb337d376037c295a5761863bbd5c7abff8"
+    },
+    {
+      "file": "samtools-0.1.19/bamshuf.c",
+      "bytes": 3603,
+      "sha256": "dc777bd5a7b064d7611c619be53c57d75ecd4453d6eddc89d8a555267a0948d3"
+    },
+    {
+      "file": "samtools-0.1.19/bamtk.c",
+      "bytes": 5403,
+      "sha256": "b306c0db63ff2d694bca7e2f9fde05a5ff015f83f8a4ca9d9b794ae107c12031"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/Makefile",
+      "bytes": 1232,
+      "sha256": "8c5178331c3bbef54e8211761b65068536a8af98d402d2e9d69a163ed9ec0a7c"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/README",
+      "bytes": 1966,
+      "sha256": "6cfe3cedee7633dde6b1275e88159e38ba9e995cf18bdcddb9cf54ca1fb1bdce"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/bcf.c",
+      "bytes": 10569,
+      "sha256": "29c5347e5d6675a68b9d9eab96e18026f54aef5ae919bdd2def1d3d6c95d1a5d"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/bcf.h",
+      "bytes": 7223,
+      "sha256": "c169992cb01379bdb89e5d1b294afad2e5ed62aba0bf5b1c4b37e817d664d08d"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/bcf.tex",
+      "bytes": 4217,
+      "sha256": "0195546b7bdee44e11a7ae3a661e4e08d6ceaea7e207e893f1c351c57b448373"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/bcf2qcall.c",
+      "bytes": 3028,
+      "sha256": "37e88d23870f671f4681d066d5e3c19e629390b60b4148cd779470569df00f7a"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/bcfutils.c",
+      "bytes": 13251,
+      "sha256": "ef7506c69ddf72ef81f34a7251d591bc43945b98f0a02dd694d773575c249e24"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/call1.c",
+      "bytes": 26288,
+      "sha256": "03303b3a0f0a0481f37aa918ad46ea21ffc87f33151b71ed510d14978ca60a01"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/em.c",
+      "bytes": 8985,
+      "sha256": "b0dada0611f4d15afdf0e864a2580203b06bb63f66c9896528b6397fa223459b"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/fet.c",
+      "bytes": 3122,
+      "sha256": "c5f3d0d44babe8f176644b8b48d213a8f70872632bd558f4141f68cf7d913ea7"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/index.c",
+      "bytes": 8256,
+      "sha256": "ee70e0bf0c61cf71814c1370619de97080501251a38b2c9b479c235cebc9a0ea"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/kfunc.c",
+      "bytes": 4960,
+      "sha256": "1b26d2b338f50162872029c881fcc893124c323c7f18be8159b57f36a17c9d2d"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/kmin.c",
+      "bytes": 7269,
+      "sha256": "5f669832387995978e7abb4cc62b89e196fc60a22799f102c63d9e16b2ad0433"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/kmin.h",
+      "bytes": 1619,
+      "sha256": "d26e148117cc3f5517d3451e4d26a142ef2bd66c152c4c4b52ce0cfe63eda6e5"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/main.c",
+      "bytes": 5184,
+      "sha256": "676434b1da69052a9b9e4b9ec1f101cac401164bc1eb7573f8b6c680a139ca8f"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/mut.c",
+      "bytes": 3816,
+      "sha256": "622a7a6077b36df9b0bf3ee10059455cfe371a1e8c1b7be2fdbeb1e3d08d263b"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/prob1.c",
+      "bytes": 33429,
+      "sha256": "bd70d19de8aaeadec82db2f747dab48450b6025c20a6fb40afd3bb0271d0dcd5"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/prob1.h",
+      "bytes": 1457,
+      "sha256": "b074c7047b66352f5b7121d13ed90971a778d355b0253b47188b6b1451bbc7b4"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/vcf.c",
+      "bytes": 7040,
+      "sha256": "2653ef84a5ca1d805cf98eed47cd6eca5a89d15e96ccbbc0919490810b00fe48"
+    },
+    {
+      "file": "samtools-0.1.19/bcftools/vcfutils.pl",
+      "bytes": 15707,
+      "sha256": "cd7c1fda3287946b789fdeea6bb4ca830fa99869a640fb462eee90badc0b6dd9"
+    },
+    {
+      "file": "samtools-0.1.19/bedcov.c",
+      "bytes": 3143,
+      "sha256": "493f4aeaada4755e42f8c0583ae720c4f3a1eed777755fea0adb34890e9126b7"
+    },
+    {
+      "file": "samtools-0.1.19/bedidx.c",
+      "bytes": 3882,
+      "sha256": "97040b6c55e11161b3e24256d9fe28589264ad04efea317cf1b144ff016e20f3"
+    },
+    {
+      "file": "samtools-0.1.19/bgzf.c",
+      "bytes": 21127,
+      "sha256": "39de792cf9c1f8760314f9794de00c959143c5ee84718c7d7d4af603283395db"
+    },
+    {
+      "file": "samtools-0.1.19/bgzf.h",
+      "bytes": 6326,
+      "sha256": "f143a8fec0d5162891bb17f192fbb0dafa38f199c7b7e343bcef472124c1d17e"
+    },
+    {
+      "file": "samtools-0.1.19/bgzip.c",
+      "bytes": 5903,
+      "sha256": "74f538248ecd226fa1965a2a74b2c8656a94e8c9438b4a3606193e34b5a9a95e"
+    },
+    {
+      "file": "samtools-0.1.19/cut_target.c",
+      "bytes": 5667,
+      "sha256": "d155b5e1872bec6e6ccc98289d30a2d1a27b8632f13fb8e19db50a3d8a143b6b"
+    },
+    {
+      "file": "samtools-0.1.19/errmod.c",
+      "bytes": 3485,
+      "sha256": "707e4e1b84d31ff56357a0be89c0ff0dfeecd6c600d03bad67aaf38334566929"
+    },
+    {
+      "file": "samtools-0.1.19/errmod.h",
+      "bytes": 442,
+      "sha256": "e0acb41a3e5325da9096b17bb9d57729eb96de2926be5d9725f7cc25c108420f"
+    },
+    {
+      "file": "samtools-0.1.19/examples/00README.txt",
+      "bytes": 886,
+      "sha256": "d793e65b2da20e1bfaa9337f9469322e61a64e65946969591c7d605494518019"
+    },
+    {
+      "file": "samtools-0.1.19/examples/Makefile",
+      "bytes": 1965,
+      "sha256": "52ad7350cc36ae49c5fd84fe43b555e3e7bd75a5c3eedd9b8abe83890979fb50"
+    },
+    {
+      "file": "samtools-0.1.19/examples/bam2bed.c",
+      "bytes": 1428,
+      "sha256": "2dcb90e902338a3627227a78565a6d02005b2c7521761df5244bba24d5bf32c6"
+    },
+    {
+      "file": "samtools-0.1.19/examples/calDepth.c",
+      "bytes": 1625,
+      "sha256": "7ae788486082cdfe7a67b65eebbeb266e1cf6817aede889e4db5004954dd609b"
+    },
+    {
+      "file": "samtools-0.1.19/examples/chk_indel.c",
+      "bytes": 2431,
+      "sha256": "a94295053ec8f8ad73cec122681adebf214c78cda47a81d19cca828da0ae3b9d"
+    },
+    {
+      "file": "samtools-0.1.19/examples/ex1.fa",
+      "bytes": 3225,
+      "sha256": "b9969f5de2e8a630134fa8af6b6a9f69f540f48de9b15eaba80b6711d21b15c7"
+    },
+    {
+      "file": "samtools-0.1.19/examples/ex1.sam.gz",
+      "bytes": 114565,
+      "sha256": "dc89fe1d2277324ff0de90bce457cf1579ec078a25944c8400b8a0576712993a"
+    },
+    {
+      "file": "samtools-0.1.19/examples/toy.fa",
+      "bytes": 98,
+      "sha256": "83dddff1fed477fbd8337af78466d422a79e30ba0ddd6ef65473816acdc3d720"
+    },
+    {
+      "file": "samtools-0.1.19/examples/toy.sam",
+      "bytes": 786,
+      "sha256": "8cf7c1a088da7299c1b6d3051f491c3644dae7fb52fe0d5731bfcbb5331b6d3c"
+    },
+    {
+      "file": "samtools-0.1.19/faidx.c",
+      "bytes": 10934,
+      "sha256": "956e05b6a1c5b8a3a2b66b300f4b5b63ba51bf240e267bfca22462786a913bfa"
+    },
+    {
+      "file": "samtools-0.1.19/faidx.h",
+      "bytes": 3188,
+      "sha256": "d9262a84555873a7772c4350faafa6cd12c2a6d03395d6a8127b74b5849261a3"
+    },
+    {
+      "file": "samtools-0.1.19/kaln.c",
+      "bytes": 15230,
+      "sha256": "895353d3bf6eb866acc3a1a668c75401734409ea84f6a61c224eb472e8e34f1a"
+    },
+    {
+      "file": "samtools-0.1.19/kaln.h",
+      "bytes": 2072,
+      "sha256": "26bf063cfbcf975a324aba1b161daaa27952e9301ab9b6d2dedeada104a58b13"
+    },
+    {
+      "file": "samtools-0.1.19/khash.h",
+      "bytes": 17815,
+      "sha256": "de0c53f6a88146373be6e33dfc4229ce3777eacf2bcab9eb4a37ce4de99f5d33"
+    },
+    {
+      "file": "samtools-0.1.19/klist.h",
+      "bytes": 3472,
+      "sha256": "e4757d6585c66855fe40f4b709f53496201381a0b53198150ff8ac5af30b7879"
+    },
+    {
+      "file": "samtools-0.1.19/knetfile.c",
+      "bytes": 18332,
+      "sha256": "d68c7c70e67c62524695060f22484bc08fe84bc3fb7b5a1a4670e27c80327f43"
+    },
+    {
+      "file": "samtools-0.1.19/knetfile.h",
+      "bytes": 1611,
+      "sha256": "aae7474d5e99464a2d8c059ffb6e50b5bf0b13703668ecabbe258289d4d30708"
+    },
+    {
+      "file": "samtools-0.1.19/kprobaln.c",
+      "bytes": 10675,
+      "sha256": "a7b7719108dfb1563294ea4133534678701707b8bfa4f917c9358c4147fbc261"
+    },
+    {
+      "file": "samtools-0.1.19/kprobaln.h",
+      "bytes": 1568,
+      "sha256": "a95966f51d1c7c5a749d2ade905fed8b0b1841b96c93f844c795901407aa0c80"
+    },
+    {
+      "file": "samtools-0.1.19/kseq.h",
+      "bytes": 8811,
+      "sha256": "12d5526e6c74860b8509ec69090a24b0fbd0128b13bd5df220716b1a90745f6b"
+    },
+    {
+      "file": "samtools-0.1.19/ksort.h",
+      "bytes": 10125,
+      "sha256": "bd5fba9d83217ef6af40fc0580247ede47af1f6a436a6cf1b818e41d7b43effa"
+    },
+    {
+      "file": "samtools-0.1.19/kstring.c",
+      "bytes": 5388,
+      "sha256": "4285833faaa701261d5548cd3d145ffa2915a80be23d445875d07e253de8e772"
+    },
+    {
+      "file": "samtools-0.1.19/kstring.h",
+      "bytes": 4459,
+      "sha256": "d719414b4d0ff3eada1aaa204e30d324cdd4b0791c2cd34bb0f3ad691e8d0f4b"
+    },
+    {
+      "file": "samtools-0.1.19/misc/HmmGlocal.java",
+      "bytes": 6716,
+      "sha256": "23cf83a94560fe3ec8fa06e9ba06092f154628f61e969f5b3c829ec48ef78649"
+    },
+    {
+      "file": "samtools-0.1.19/misc/Makefile",
+      "bytes": 1609,
+      "sha256": "aed2ff2cbede473f5310b748835191e922938b424b1edd412e1653d0956c3618"
+    },
+    {
+      "file": "samtools-0.1.19/misc/ace2sam.c",
+      "bytes": 9953,
+      "sha256": "b747d6edf4ae674155129d4ee004706a86646cc9f94abf75f6071912a0afda72"
+    },
+    {
+      "file": "samtools-0.1.19/misc/bamcheck.c",
+      "bytes": 59193,
+      "sha256": "8f5ecea6f20b3d5ca541473964f162e12b23fae688c0e77c3e55267aac08d1d8"
+    },
+    {
+      "file": "samtools-0.1.19/misc/blast2sam.pl",
+      "bytes": 2415,
+      "sha256": "6cd6b79916168869d6b71b66ca7ce285869b50fb63a70826787a7c95f7f12f60"
+    },
+    {
+      "file": "samtools-0.1.19/misc/bowtie2sam.pl",
+      "bytes": 2112,
+      "sha256": "2d07bfb5a6acd7feb30498819cfd11c7d3983ea9d934fa16a4430e905f7a5187"
+    },
+    {
+      "file": "samtools-0.1.19/misc/export2sam.pl",
+      "bytes": 18572,
+      "sha256": "2198c1d73c868cd15874499e4a54b3e80032519de326758a6fb822945c20470e"
+    },
+    {
+      "file": "samtools-0.1.19/misc/interpolate_sam.pl",
+      "bytes": 4996,
+      "sha256": "ebd1f9fdec23a8015a197167df2f6158be85d8ba6e8112e974d422fba4413e42"
+    },
+    {
+      "file": "samtools-0.1.19/misc/maq2sam.c",
+      "bytes": 4597,
+      "sha256": "91efc9a333d1790df69b15b609c31b4d15d04c2fb062de25d32e9175b2e3c3e5"
+    },
+    {
+      "file": "samtools-0.1.19/misc/md5.c",
+      "bytes": 9075,
+      "sha256": "b02c65cd8d472c0131d0945349985fbdaeb0dd1448b840c1154729c0995afc38"
+    },
+    {
+      "file": "samtools-0.1.19/misc/md5.h",
+      "bytes": 1701,
+      "sha256": "b44fccb671c8e433422723cb92cff901789d93b81acbef8474a02edec1c91855"
+    },
+    {
+      "file": "samtools-0.1.19/misc/md5fa.c",
+      "bytes": 1550,
+      "sha256": "ee863628de2c067bb73f579a22a224ddc79730727be02fa3a40ffc9a1739222c"
+    },
+    {
+      "file": "samtools-0.1.19/misc/novo2sam.pl",
+      "bytes": 5989,
+      "sha256": "26cf4d585c37edab2317414bd7e5729bc81296bc9def45217ac7d0797c3391a5"
+    },
+    {
+      "file": "samtools-0.1.19/misc/plot-bamcheck",
+      "bytes": 29649,
+      "sha256": "de9fc51e6f58921dc4e412b75d9ec8ed71966ebdc304cd0cd812f9071f7acf83"
+    },
+    {
+      "file": "samtools-0.1.19/misc/psl2sam.pl",
+      "bytes": 2022,
+      "sha256": "e7e07a638c6218358982d292c69a8e9795474577504d2d750b0a951207783d45"
+    },
+    {
+      "file": "samtools-0.1.19/misc/r2plot.lua",
+      "bytes": 2685,
+      "sha256": "1463f0199f1a949d49928cf892712673cceed69b63f776e650d991c99f4e63f9"
+    },
+    {
+      "file": "samtools-0.1.19/misc/sam2vcf.pl",
+      "bytes": 7881,
+      "sha256": "138d3f4dfaf696399d751c233c97aee81d376809a1f99cc33367e29ab0cc2016"
+    },
+    {
+      "file": "samtools-0.1.19/misc/samtools.pl",
+      "bytes": 14299,
+      "sha256": "4facfb00cf031fd4bd41e37ab6d21b535786b256e2fcab19c4a79ad4dbb15cd7"
+    },
+    {
+      "file": "samtools-0.1.19/misc/soap2sam.pl",
+      "bytes": 2696,
+      "sha256": "5764a1629296b7dfb9a5732b2cca93d3067a96051519d006ef48430d5aef945f"
+    },
+    {
+      "file": "samtools-0.1.19/misc/varfilter.py",
+      "bytes": 5783,
+      "sha256": "71552a855d9eab6e5fa6c31ef3420743695bf3c9fe919e03bf617d85cdb34a4e"
+    },
+    {
+      "file": "samtools-0.1.19/misc/vcfutils.lua",
+      "bytes": 21028,
+      "sha256": "97abe542a22a34096fde1891b6617c970e052c8ad9273aae06747416cdb322f1"
+    },
+    {
+      "file": "samtools-0.1.19/misc/wgsim.c",
+      "bytes": 14395,
+      "sha256": "1d5aa7489b33da552cc0078bba7f3dc0f0f83bae1050ecf640f01615850ccb95"
+    },
+    {
+      "file": "samtools-0.1.19/misc/wgsim_eval.pl",
+      "bytes": 2729,
+      "sha256": "64718ab4dc9f8bfb288421121666c2ec19e052ba6b1f43531738a476e16b2938"
+    },
+    {
+      "file": "samtools-0.1.19/misc/zoom2sam.pl",
+      "bytes": 2397,
+      "sha256": "e4b2e6817c9073a0098871703d5a63c35efc39abd8bdcb60b3c71dc1b41898d1"
+    },
+    {
+      "file": "samtools-0.1.19/padding.c",
+      "bytes": 17140,
+      "sha256": "2d290af212d1fd229a27b6d6bae4b13a6ff05a51148853904a18aa13db4dd245"
+    },
+    {
+      "file": "samtools-0.1.19/phase.c",
+      "bytes": 20819,
+      "sha256": "30f7e6dca97184c00cfb52646d391906be78fe27a9f02b50173094c7ec9cc7bf"
+    },
+    {
+      "file": "samtools-0.1.19/razf.c",
+      "bytes": 24343,
+      "sha256": "2ce0fb7a4412800d104db77c9a8d0665d4a3e27db49eeed5b254627281b4446c"
+    },
+    {
+      "file": "samtools-0.1.19/razf.h",
+      "bytes": 4137,
+      "sha256": "ecf9b6be6654ec24a16e1c0f11fb9d293f46e0e3717351fe94a8effbecd2194f"
+    },
+    {
+      "file": "samtools-0.1.19/razip.c",
+      "bytes": 4110,
+      "sha256": "84b07a1de4410d2688535bed5f111e57a953bcde12e00027f2e5df3c3e3de582"
+    },
+    {
+      "file": "samtools-0.1.19/sam.c",
+      "bytes": 6051,
+      "sha256": "d92d935bb075d3cdc04e0d603053c16c2fb8696e6e749636d90402ff4e2d9561"
+    },
+    {
+      "file": "samtools-0.1.19/sam.h",
+      "bytes": 2688,
+      "sha256": "c4dbee1eb2fc908b209aab671967abc852ab00c661a6196acf6d8df0f3acc03d"
+    },
+    {
+      "file": "samtools-0.1.19/sam_header.c",
+      "bytes": 21248,
+      "sha256": "7f0c6492d9b1e579add04e55b7d260b0cd9d0e4ce1d182334cb7326dc61c8c48"
+    },
+    {
+      "file": "samtools-0.1.19/sam_header.h",
+      "bytes": 1597,
+      "sha256": "c26e8644d7d11000fa359779b04192144973b3d5b0aec875b508b0edf5406cd6"
+    },
+    {
+      "file": "samtools-0.1.19/sam_view.c",
+      "bytes": 14887,
+      "sha256": "f9d10418ff49c76d4a7f79f133f362779c6ea0632aafe0ba1199ad47373a2b19"
+    },
+    {
+      "file": "samtools-0.1.19/sample.c",
+      "bytes": 2984,
+      "sha256": "2ff420d0dc101c23ae4aa114adae1754fcf7dfca3cd4465be6f46bd082e8b3b6"
+    },
+    {
+      "file": "samtools-0.1.19/sample.h",
+      "bytes": 396,
+      "sha256": "62e63372e4d4e5bfb8f13f9a45234b4676f0af02c8bc97083c2d87dd4292efc5"
+    },
+    {
+      "file": "samtools-0.1.19/samtools.1",
+      "bytes": 28252,
+      "sha256": "239125fafa2d85cd84b3006aacf60e587b448b8d97c063d71bb4b511e5651992"
+    },
+    {
+      "file": "samtools-0.1.19/win32/xcurses.h",
+      "bytes": 49915,
+      "sha256": "354f3e02be92df45d5150d1b78bdca31f19eb34b4a1d820fa6c290fef60eaa91"
+    },
+    {
+      "file": "samtools-0.1.19/win32/zconf.h",
+      "bytes": 9544,
+      "sha256": "dd6fc06ec36207bd5af7aa31557553665cc5d294e881a80052a108cff5dd303e"
+    },
+    {
+      "file": "samtools-0.1.19/win32/zlib.h",
+      "bytes": 66188,
+      "sha256": "ebceab9efa0d906fcc28dabb864ae63d99da8e5efe56e030cb9cb96578622245"
+    },
+    {
+      "file": "scripts/AddSequenceToCDR3File.pl",
+      "bytes": 997,
+      "sha256": "5de7d2c14729f1d5b635d1c721ce91b8183e2f1956f75b68818498dc1dfbef15"
+    },
+    {
+      "file": "scripts/GetFullLengthAssembly.pl",
+      "bytes": 1609,
+      "sha256": "e7be4590fad515e2c9c2bad9653176b6f90fabe4d66800867c6d1bf5fdb2ae21"
+    },
+    {
+      "file": "scripts/README.md",
+      "bytes": 1886,
+      "sha256": "edbfe64733e7ab0634d852e5306f46c09b5d5a9fa18bba2e472919ad362c320f"
+    },
+    {
+      "file": "scripts/airr-imgtgap.py",
+      "bytes": 3638,
+      "sha256": "2895258acc938aaaf46b3ff89afe9769497983df65cca8a698165fa9507f773b"
+    },
+    {
+      "file": "scripts/barcoderep-expand.py",
+      "bytes": 2416,
+      "sha256": "edb8f0d1a31ab0a68b522dba748657a433c41cf6c3ca0d8ff12de41fb4965189"
+    },
+    {
+      "file": "scripts/barcoderep-filter.py",
+      "bytes": 3642,
+      "sha256": "2041a5e7b17cc54f184141f4ef8bdbbdd43ac04853ad8f1b8463df3f1db0e22e"
+    },
+    {
+      "file": "scripts/combinatorial-barcode-whitelistgen.py",
+      "bytes": 3196,
+      "sha256": "3ea9e9bd089386f9a4f4fca94c07cfece069b3fb8783b93b4785ed0abad78926"
+    },
+    {
+      "file": "scripts/trust-barcoderep-to-10X.pl",
+      "bytes": 2615,
+      "sha256": "b2d130f8c0b27d876d4ac04f59b0a8b6040f5605d80e6915ec5faa4b87b356f6"
+    },
+    {
+      "file": "scripts/trust-cluster.py",
+      "bytes": 7937,
+      "sha256": "64707a33245904f96b6655cff4d90fccc81b53f8df9c2abe2e5eb2d80557dad5"
+    },
+    {
+      "file": "scripts/trust-stats.py",
+      "bytes": 3639,
+      "sha256": "3d082f91c999ca407f3ed8208099c5c154780d73c2a07c907c0ac04d94adc2d3"
+    },
+    {
+      "file": "trust-airr.pl",
+      "bytes": 11224,
+      "sha256": "7276577275597fa096e0651e05a8b49091f2e896bb37a1a3e0ef8e9676e4fe4e"
+    },
+    {
+      "file": "trust-barcoderep.pl",
+      "bytes": 19915,
+      "sha256": "677284abe105aa6a808141aab5f1aa9295003b50a670a25de249f9276a152b8a"
+    },
+    {
+      "file": "trust-example-test.sh",
+      "bytes": 598,
+      "sha256": "c6741d2c7e9cf99336b46f8f649526ffa9c1f6b96dbeb5ba7fdab4a2373c39f6"
+    },
+    {
+      "file": "trust-simplerep.pl",
+      "bytes": 12887,
+      "sha256": "f185360c4e28752d97cb18876bb8d83a380929b64a5676d50b499322e6958df8"
+    },
+    {
+      "file": "trust-smartseq.pl",
+      "bytes": 6636,
+      "sha256": "6dde730e4fa3dc84e1f17af452dee403063f1fa608557f0417a6df7b18bbe502"
+    }
+  ],
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n"
+}
